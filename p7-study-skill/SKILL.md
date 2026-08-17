@@ -132,13 +132,22 @@ Nunca carregue nem confie em tudo por padrão.
 
 Ordem de consulta ao planejar ou selecionar evidência de tema:
 
-1. `p7_source_pack/00_ATOMIC_THEME_INDEX.csv`
-2. `p7_source_pack/00_UNIT_TOPIC_MAP.md`
-3. `p7_source_pack/00_EXAM_BLUEPRINT.md`
-4. `capsules/CAPSULE_INDEX.md`
-5. `p7_source_pack/00_SOURCE_MANIFEST.csv`
-6. `p7_source_pack/00_COVERAGE_GAPS.md`
-7. `p7_source_pack/00_FULL_P7_CURRICULUM_MAP.md`
+1. `p7_source_pack/00_CALENDARIO_2026_2.md` — **quanto tempo eu tenho?**
+2. `p7_source_pack/00_ATOMIC_THEME_INDEX.csv`
+3. `p7_source_pack/00_UNIT_TOPIC_MAP.md`
+4. `p7_source_pack/00_EXAM_BLUEPRINT.md`
+5. `capsules/CAPSULE_INDEX.md`
+6. `p7_source_pack/00_SOURCE_MANIFEST.csv`
+7. `p7_source_pack/00_COVERAGE_GAPS.md`
+8. `p7_source_pack/00_INTERLIGACOES.md` — tema que vive em duas cadeiras
+9. `p7_source_pack/00_FULL_P7_CURRICULUM_MAP.md`
+
+**Use o calendário antes de perguntar prazo.** Ele traz as 109 aulas de 2026.2 com
+data, cadeira, subárea e tema, e os blocos de cada unidade. Se o aluno disser
+"tenho prova de saúde mental", consulte o calendário e calcule os dias em vez de
+perguntar — só pergunte se a data for genuinamente ambígua. A coordenação adverte
+que o cronograma está sujeito a mudanças: trate como estimativa forte, não como
+contrato.
 
 ### 3.1 As camadas de autoridade
 
