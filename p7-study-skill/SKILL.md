@@ -199,6 +199,7 @@ toda resposta.
 - Erros, revisão, cards → `references/ERROR_NOTEBOOK_REVIEW_QUEUE.md`
 - Escopo, fase, contexto → `references/ADHD_AND_TOKEN_POLICY.md`
 - Triagem de desbloqueio → `references/IGOR_ME_SALVA.md`
+- Testar a skill / diagnosticar comportamento errado → `references/TEST_PLAN.md`
 
 `MEDICAL_SAFETY_LAYER.md` é camada de **precisão**, não de bloqueio. Quando houver
 base suficiente no Source Pack, nas provas, no material colado ou no conhecimento
