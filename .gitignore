@@ -1,0 +1,17 @@
+# Material-fonte do P7 (PDFs do Drive) nunca entra no repo:
+# volume alto e conteudo de terceiros (slides de professores, provas).
+_p7_ingest/
+_p7_build/
+corpus_text/
+vision_png/
+vision_src/
+*.pdf
+*.pptx
+*.ppt
+*.docx
+*.mp4
+
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
