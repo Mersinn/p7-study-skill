@@ -49,9 +49,9 @@ Levotiroxina (T4); meia-vida 7 dias; TSH primário ↑/T4L↓; central TSH inade
 | Hipotireoidismo primário | TSH ↑ / T4 livre ↓ / Anti-TPO ↑ se Hashimoto | HIPOTIREOIDISMO_2025.1 p.35 (slide "Diagnóstico laboratorial") | CONFIRMADO |
 | Hipotireoidismo central | TSH normal, ↓ ou pouco ↑ (<10 mU/L) / T4 livre ↓ | HIPOTIREOIDISMO_2025.1 p.35 | CONFIRMADO |
 | Hipotireoidismo primário — prevalência | ~95% dos casos | HIPOTIREOIDISMO_2025.1 p.8 (epidemiologia) | CONFIRMADO |
-| Meia-vida da levotiroxina | 7 dias (base do "esqueceu 1 dia → toma dobro no dia seguinte") | resumed p.203; HIPOTIREOIDISMO_2025.1 p.36 | CONFIRMADO |
-| Dose adulto (16-65 anos) | 1,6 a 1,87 mcg/kg/dia | HIPOTIREOIDISMO_2025.1 p.39 (tabela por faixa etária, Vilar 2021), conferido visualmente | CONFIRMADO |
-| Dose >65 anos (sem outras ressalvas) | 1,6 mcg/kg/dia | HIPOTIREOIDISMO_2025.1 p.39, conferido visualmente | CONFIRMADO |
+| Meia-vida da levotiroxina | 7 dias (esqueceu 1 dia → toma dobro no dia seguinte) | resumed p.203; HIPOTIREOIDISMO_2025.1 p.36 | CONFIRMADO |
+| Dose adulto (16-65a) / >65a sem ressalva | 1,6–1,87 mcg/kg/dia / 1,6 mcg/kg/dia | HIPOTIREOIDISMO_2025.1 p.39 (Vilar 2021), conferido visualmente | CONFIRMADO |
+| Dose peds (neonato → 10-16a) | decrescente com a idade: 10-15 (neonato) até 2-4 mcg/kg/dia (10-16a) | HIPOTIREOIDISMO_2025.1 p.39, conferido visualmente | CONFIRMADO |
 | Situações especiais (>65 anos, coronariopata, hipoT grave de longa duração) | iniciar 12,5–25 mcg/dia; reajustar 12,5–25 mcg a cada 15–30 dias | HIPOTIREOIDISMO_2025.1 p.40, conferido visualmente | CONFIRMADO |
 | Reavaliação de TSH após início/ajuste de dose | 6 a 8 semanas | HIPOTIREOIDISMO_2025.1 p.41, conferido visualmente (resumed cita "45 dias" — divergência numérica pequena, prevalece camada A: 6–8 semanas) | CONFIRMADO_COM_CORREÇÕES |
 | Metas de TSH sob reposição, por idade | 20–60a: 1–2,5 · 60–70a: 3–4 · >70a: 4–6 mU/L | HIPOTIREOIDISMO_2025.1 p.41, conferido visualmente | CONFIRMADO |
@@ -105,8 +105,6 @@ Mulher de 45 anos, TSH 8,5, T4 livre normal, assintomática, sem fator de risco 
 Homem de 78 anos, TSH 11, T4 livre normal, sem sintomas → variável decisiva: idade e TSH>10 persistente → considerar tratamento individualizado (diferente do jovem, mas diferente também do >80 anos que seria vigilância).
 
 Idosa pós-operatória de fratura de quadril, hipotérmica, confusa, hipotensa, com infecção de sítio cirúrgico → variável decisiva: tríade do coma mixedematoso presente → iniciar reposição hormonal em altas doses e tratar o fator precipitante (infecção) simultaneamente, sem esperar confirmação laboratorial completa.
-
-Gestante de 8 semanas, hipotireoidismo prévio bem controlado com LT4 75 mcg/dia → variável decisiva: confirmação da gravidez (não o TSH) → aumentar a dose empiricamente em 25-30% de imediato, reavaliar TSH a cada 4 semanas, meta <2,5.
 
 ## Cards mínimos
 
