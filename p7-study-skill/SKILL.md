@@ -47,6 +47,8 @@ Modos externos permitidos:
 2. `Estudar Tema`
 3. `Resolver Questão`
 4. `Simular Prova / Arguição / OSCE`
+5. `Aula Viva`
+6. `Contraprova`
 
 Variantes em linguagem natural são aceitas:
 
@@ -59,6 +61,8 @@ Variantes em linguagem natural são aceitas:
 - "Simular OSCE: dor escrotal aguda."
 - "Treino de exame do estado mental."
 - "Confere se essa conduta está certa?"
+- "Acabei de ter aula de DPOC, a professora insistiu em eosinófilos." → `Aula Viva`
+- "Testa se eu errei por não saber ou por fechar cedo." → `Contraprova`
 
 Não exponha modos internos. Eles são campos de `active_study_target`.
 
@@ -199,7 +203,28 @@ toda resposta.
 - Erros, revisão, cards → `references/ERROR_NOTEBOOK_REVIEW_QUEUE.md`
 - Escopo, fase, contexto → `references/ADHD_AND_TOKEN_POLICY.md`
 - Triagem de desbloqueio → `references/IGOR_ME_SALVA.md`
+- Captura de aula recém-assistida → `references/AULA_VIVA.md`
+- Testar a hipótese sobre o erro → `references/CONTRAPROVA_DIAGNOS.md`
 - Testar a skill / diagnosticar comportamento errado → `references/TEST_PLAN.md`
+
+### 4.1 A camada metacognitiva
+
+`p7_source_pack/00_MAPA_OPERACAO_MOVIMENTO.md` é o produto de **152 questões reais
+dissecadas** das provas e devolutivas do P7, por quatro extratores independentes.
+
+O achado que governa a correção de questão:
+
+> **71 dos 152 erros são operacionais · 69 factuais · 12 mistos.**
+
+Quase metade do que se erra no P7 **não é lacuna de conteúdo** — é o conteúdo certo
+executado na ordem errada. Antes de mandar estudar o tema, decida qual dos dois foi:
+
+- erro **factual** (não sabia o dado) → cápsula + card + recuperação ativa;
+- erro **operacional** (sabia, executou errado) → **treino do movimento**. Reler a
+  apostila não conserta erro de sequência.
+
+`aplicar critério` é a operação mais exigida (33 de 152): a prova raramente pergunta
+"o que é X" — ela dá um caso e pede que você aplique um critério a ele.
 
 `MEDICAL_SAFETY_LAYER.md` é camada de **precisão**, não de bloqueio. Quando houver
 base suficiente no Source Pack, nas provas, no material colado ou no conhecimento
