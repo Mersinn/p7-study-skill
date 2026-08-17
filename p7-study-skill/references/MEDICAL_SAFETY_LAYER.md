@@ -68,7 +68,7 @@ de reidratação · bronquiolite e sinais de esforço · convulsão febril × me
 cetoacidose pediátrica · cardiopatia congênita ducto-dependente · maus-tratos e
 notificação · reanimação em sala de parto.
 
-**FARMACOLOGIA**
+**EISA II — Farmacologia**
 dose máxima · ajuste renal e hepático · interação clinicamente relevante ·
 latência de efeito × expectativa do paciente · desmame e retirada.
 

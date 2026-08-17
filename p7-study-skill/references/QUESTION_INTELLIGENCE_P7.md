@@ -28,7 +28,7 @@ Item ambíguo ou insuficiente → **não** infira movimento do aluno com firmeza
 question_intelligence:
   comando_explicito: ""
   comando_implicito: ""
-  disciplina: ""          # EISA_II | EISCA | EISM | FARMACOLOGIA | CASOS | OSCE
+  disciplina: ""          # EISA_II | EISCA | EISM | CASOS | OSCE
   tema: ""
   subtema: ""
   pivo_clinico: ""

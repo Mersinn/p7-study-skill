@@ -86,13 +86,17 @@ Responde: o que cai na unidade X da disciplina Y.
 - Tumores renais e carcinoma de células renais (CCR)
 - Uropatologia: HPB e câncer de próstata (anatomia patológica)
 
-### EISA_II — IV_UNIDADE  (3 temas)
+### EISA_II — IV_UNIDADE  (7 temas)
 
+- Anticonvulsivantes na gestação — teratogenicidade e escolha
+- Estado de mal epiléptico — sequência terapêutica e doses
+- Farmacologia das dislipidemias — estatinas, ezetimiba, fibratos, resinas, inibidores de PCSK9 e inclisiran
+- Farmacoterapia das convulsões — anticonvulsivantes por mecanismo e escolha por tipo de crise
 - Hiperaldosteronismo primário e feocromocitoma
 - Hiperfunção hipofisária
 - Hipopituitarismo (hipofunção hipofisária)
 
-### EISA_II — I_UNIDADE  (13 temas)
+### EISA_II — I_UNIDADE  (16 temas)
 
 - AVC hemorrágico
 - AVC isquêmico: urgência, trombólise e trombectomia
@@ -103,8 +107,11 @@ Responde: o que cai na unidade X da disciplina Y.
 - Diabetes: complicações agudas e crônicas (CAD, EHH, hipoglicemia)
 - Diabetes: metas de tratamento e terapia não insulínica
 - Diagnóstico sindrômico em nefrologia
+- Farmacoterapia do diabetes mellitus I — antidiabéticos não secretagogos (biguanidas, glitazonas, iSGLT2, acarbose)
+- Farmacoterapia do diabetes mellitus II — secretagogos e incretinomiméticos (sulfonilureias, glinidas, iDPP-4, agonistas GLP-1, agonistas duais)
 - Hiperplasia prostática benigna (clínica e tratamento)
 - Insulinoterapia no DM1 e DM2
+- Insulinoterapia — classificação por tempo de ação, perfis farmacocinéticos e efeitos adversos
 - Lesão renal aguda (LRA/IRA)
 - Manejo clínico ambulatorial do DM (avaliação inicial, seguimento, anamnese endócrina)
 
@@ -197,19 +204,6 @@ Responde: o que cai na unidade X da disciplina Y.
 - Emergências Psiquiátricas e Manejo da Agitação Psicomotora (tranquilização rápida, contenção física)
 - Risco de Suicídio e Comportamento Suicida
 - Transtornos Mentais na Gravidez e no Puerpério (blues, depressão pós-parto, psicose puerperal, psicofármacos na gestação/lactação)
-
-### FARMACOLOGIA — IV_UNIDADE  (4 temas)
-
-- Anticonvulsivantes na gestação — teratogenicidade e escolha
-- Estado de mal epiléptico — sequência terapêutica e doses
-- Farmacologia das dislipidemias — estatinas, ezetimiba, fibratos, resinas, inibidores de PCSK9 e inclisiran
-- Farmacoterapia das convulsões — anticonvulsivantes por mecanismo e escolha por tipo de crise
-
-### FARMACOLOGIA — I_UNIDADE  (3 temas)
-
-- Farmacoterapia do diabetes mellitus I — antidiabéticos não secretagogos (biguanidas, glitazonas, iSGLT2, acarbose)
-- Farmacoterapia do diabetes mellitus II — secretagogos e incretinomiméticos (sulfonilureias, glinidas, iDPP-4, agonistas GLP-1, agonistas duais)
-- Insulinoterapia — classificação por tempo de ação, perfis farmacocinéticos e efeitos adversos
 
 ### OSCE — A_DEFINIR  (7 temas)
 

@@ -10,7 +10,7 @@ uma lista de desejos que produz paralisia.
 ```yaml
 active_study_target:
   exam_type: prova_unidade | integrada | reposicao | final | osce | casos_clinicos | p7_completo | livre
-  discipline_scope: EISA_II | EISCA | EISM | FARMACOLOGIA | CASOS_CLINICOS | OSCE | MULTI | A_DEFINIR
+  discipline_scope: EISA_II | EISCA | EISM | CASOS_CLINICOS | OSCE | MULTI | A_DEFINIR
   especialidade_scope: []        # só EISA_II: Angiologia, Endocrino, Nefro, Neuro, Oftalmo, Onco, Otorrino, Patologia, Uro
   unit_scope: I_UNIDADE | II_UNIDADE | III_UNIDADE | IV_UNIDADE | MULTI_UNIDADE | SEM_UNIDADE | A_DEFINIR
   assessment_period: primeira_prova | segunda_prova | terceira_prova | quarta_prova | integrada | reposicao | final | osce | a_definir

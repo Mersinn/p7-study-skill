@@ -30,7 +30,7 @@ Diagnos 1C-A expôs. Ver `QUESTION_INTELLIGENCE_P7.md` §8.
 ```yaml
 erro:
   data: ""
-  disciplina: ""          # EISA_II | EISCA | EISM | FARMACOLOGIA | CASOS | OSCE
+  disciplina: ""          # EISA_II | EISCA | EISM | CASOS | OSCE
   tema: ""
   operacao_exigida: ""
   movimento_realizado: ""

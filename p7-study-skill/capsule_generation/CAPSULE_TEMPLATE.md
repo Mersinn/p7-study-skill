@@ -2,7 +2,7 @@
 
 ## Metadados
 
-- Disciplina: EISA_II | EISCA | EISM | FARMACOLOGIA | CASOS_CLINICOS | OSCE
+- Disciplina: EISA_II | EISCA | EISM | CASOS_CLINICOS | OSCE
 - Especialidade:
 - Unidade: I | II | III | IV | A_DEFINIR
 - Prioridade: alta | média | baixa

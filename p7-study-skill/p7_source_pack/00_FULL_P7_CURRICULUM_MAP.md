@@ -77,7 +77,7 @@ Legenda de forca: **forte** fonte dedicada · **media** parcial/resumo ·
 |---|---|---|---|---|---|
 | Abordagem à dispneia — causas, sinais de alerta e investigação | A_DEFINIR | media | media | alto | — |
 
-## EISA_II  (70 temas)
+## EISA_II  (77 temas)
 
 ### Angiologia  (2)
 
@@ -113,6 +113,38 @@ Legenda de forca: **forte** fonte dedicada · **media** parcial/resumo ·
 | Diabetes mellitus gestacional | A_DEFINIR | media | fraca | alto | — |
 | Hipoparatireoidismo e hipocalcemia | III_UNIDADE | media | media | alto | — |
 | Manejo clínico ambulatorial do DM (avaliação inicial, seguimento, anamnese endócrina) | I_UNIDADE | media | media | medio | sim |
+
+### Farmacologia / Cardiologia-Endocrinologia  (1)
+
+| Tema | Un. | Prior. | Fonte | Risco | Cai? |
+|---|---|---|---|---|---|
+| Farmacologia das dislipidemias — estatinas, ezetimiba, fibratos, resinas, inibidores de PCSK9 e inclisiran | IV_UNIDADE | alta | forte | alto | sim |
+
+### Farmacologia / Endocrinologia  (3)
+
+| Tema | Un. | Prior. | Fonte | Risco | Cai? |
+|---|---|---|---|---|---|
+| Farmacoterapia do diabetes mellitus I — antidiabéticos não secretagogos (biguanidas, glitazonas, iSGLT2, acarbose) | I_UNIDADE | alta | forte | alto | — |
+| Farmacoterapia do diabetes mellitus II — secretagogos e incretinomiméticos (sulfonilureias, glinidas, iDPP-4, agonistas GLP-1, agonistas duais) | I_UNIDADE | alta | forte | alto | — |
+| Insulinoterapia — classificação por tempo de ação, perfis farmacocinéticos e efeitos adversos | I_UNIDADE | alta | forte | alto | — |
+
+### Farmacologia / Neurologia  (1)
+
+| Tema | Un. | Prior. | Fonte | Risco | Cai? |
+|---|---|---|---|---|---|
+| Farmacoterapia das convulsões — anticonvulsivantes por mecanismo e escolha por tipo de crise | IV_UNIDADE | alta | forte | alto | sim |
+
+### Farmacologia / Neurologia (emergência)  (1)
+
+| Tema | Un. | Prior. | Fonte | Risco | Cai? |
+|---|---|---|---|---|---|
+| Estado de mal epiléptico — sequência terapêutica e doses | IV_UNIDADE | alta | forte | alto | — |
+
+### Farmacologia / Neurologia-Obstetrícia  (1)
+
+| Tema | Un. | Prior. | Fonte | Risco | Cai? |
+|---|---|---|---|---|---|
+| Anticonvulsivantes na gestação — teratogenicidade e escolha | IV_UNIDADE | media | media | alto | — |
 
 ### Nefrologia  (14)
 
@@ -470,40 +502,6 @@ Legenda de forca: **forte** fonte dedicada · **media** parcial/resumo ·
 | Tema | Un. | Prior. | Fonte | Risco | Cai? |
 |---|---|---|---|---|---|
 | Síndrome de Abstinência Alcoólica, Delirium Tremens e Encefalopatia de Wernicke-Korsakoff | III_UNIDADE | alta | forte | alto | — |
-
-## FARMACOLOGIA  (7 temas)
-
-### Farmacologia / Cardiologia-Endocrinologia  (1)
-
-| Tema | Un. | Prior. | Fonte | Risco | Cai? |
-|---|---|---|---|---|---|
-| Farmacologia das dislipidemias — estatinas, ezetimiba, fibratos, resinas, inibidores de PCSK9 e inclisiran | IV_UNIDADE | alta | forte | alto | sim |
-
-### Farmacologia / Endocrinologia  (3)
-
-| Tema | Un. | Prior. | Fonte | Risco | Cai? |
-|---|---|---|---|---|---|
-| Farmacoterapia do diabetes mellitus I — antidiabéticos não secretagogos (biguanidas, glitazonas, iSGLT2, acarbose) | I_UNIDADE | alta | forte | alto | — |
-| Farmacoterapia do diabetes mellitus II — secretagogos e incretinomiméticos (sulfonilureias, glinidas, iDPP-4, agonistas GLP-1, agonistas duais) | I_UNIDADE | alta | forte | alto | — |
-| Insulinoterapia — classificação por tempo de ação, perfis farmacocinéticos e efeitos adversos | I_UNIDADE | alta | forte | alto | — |
-
-### Farmacologia / Neurologia  (1)
-
-| Tema | Un. | Prior. | Fonte | Risco | Cai? |
-|---|---|---|---|---|---|
-| Farmacoterapia das convulsões — anticonvulsivantes por mecanismo e escolha por tipo de crise | IV_UNIDADE | alta | forte | alto | sim |
-
-### Farmacologia / Neurologia (emergência)  (1)
-
-| Tema | Un. | Prior. | Fonte | Risco | Cai? |
-|---|---|---|---|---|---|
-| Estado de mal epiléptico — sequência terapêutica e doses | IV_UNIDADE | alta | forte | alto | — |
-
-### Farmacologia / Neurologia-Obstetrícia  (1)
-
-| Tema | Un. | Prior. | Fonte | Risco | Cai? |
-|---|---|---|---|---|---|
-| Anticonvulsivantes na gestação — teratogenicidade e escolha | IV_UNIDADE | media | media | alto | — |
 
 ## OSCE  (7 temas)
 

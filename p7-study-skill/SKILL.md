@@ -1,6 +1,6 @@
 ---
 name: p7-study-skill
-description: "Use when the user asks for P7 medical study help — Plano de Guerra, Estudar Tema, Resolver Questão, Simular Prova, Arguição, OSCE, treino de exame do estado mental, revisão, flashcards, caderno de erros, ou validação médica. Cobre as quatro disciplinas do P7 (EISA II — Saúde do Adulto II com 9 especialidades; EISCA — Saúde da Criança e Adolescente; EISM — Saúde Mental; Farmacologia) mais Casos Clínicos e OSCE. Oferece planejamento consciente do alvo, estudo ancorado na fonte, Question Intelligence com diagnóstico de raciocínio, simulação por padrão de prova, tutoria de caso e OSCE, precisão médica em conduta de alto risco, e controle de escopo para ADHD, usando o P7 Source Pack embarcado."
+description: "Use when the user asks for P7 medical study help — Plano de Guerra, Estudar Tema, Resolver Questão, Simular Prova, Arguição, OSCE, treino de exame do estado mental, revisão, flashcards, caderno de erros, ou validação médica. Cobre as três cadeiras do P7 (EISA II — Saúde do Adulto II, com 10 subáreas incluindo Farmacologia; EISCA — Saúde da Criança e Adolescente; EISM — Saúde Mental) mais Casos Clínicos e OSCE. Oferece planejamento consciente do alvo, estudo ancorado na fonte, Question Intelligence com diagnóstico de raciocínio, simulação por padrão de prova, tutoria de caso e OSCE, precisão médica em conduta de alto risco, e controle de escopo para ADHD, usando o P7 Source Pack embarcado."
 ---
 
 # P7 Diagnos — Private
@@ -91,7 +91,7 @@ Especificação completa: `references/IGOR_ME_SALVA.md`.
 ```yaml
 active_study_target:
   exam_type: prova_unidade | integrada | reposicao | final | osce | casos_clinicos | p7_completo | livre
-  discipline_scope: EISA_II | EISCA | EISM | FARMACOLOGIA | CASOS_CLINICOS | OSCE | MULTI | A_DEFINIR
+  discipline_scope: EISA_II | EISCA | EISM | CASOS_CLINICOS | OSCE | MULTI | A_DEFINIR
   especialidade_scope: []
   unit_scope: I_UNIDADE | II_UNIDADE | III_UNIDADE | IV_UNIDADE | MULTI_UNIDADE | SEM_UNIDADE | A_DEFINIR
   assessment_period: primeira_prova | segunda_prova | terceira_prova | quarta_prova | integrada | reposicao | final | osce | a_definir
@@ -109,10 +109,22 @@ active_study_target:
 O alvo ativo decide: o que importa agora · quanto aprofundar · em que camada de
 fonte confiar · estudar, simular ou revisar · o que fica de fora · quando parar.
 
-**As disciplinas do P7.** EISA II tem nove especialidades: Angiologia,
-Endocrinologia, Nefrologia, Neurologia, Oftalmologia, Oncologia,
+**As cadeiras do P7.** EISA II tem dez subáreas: Angiologia, Endocrinologia,
+**Farmacologia**, Nefrologia, Neurologia, Oftalmologia, Oncologia,
 Otorrinolaringologia, Patologia, Urologia. EISCA tem **quatro** provas; as demais
 têm três — não presuma simetria.
+
+**Farmacologia não é cadeira separada.** O horário oficial 2026.2 a traz como
+subárea de SA II (código `SA II / Far`); a pasta própria no Drive era organização
+de arquivo. Duas consequências:
+
+- o material de Farmacologia carrega numeração de prova **própria** que não
+  coincide com as unidades de EISA II — não converta "III unidade" de um arquivo
+  de farmaco em "3ª prova de EISA II" (ver `00_COVERAGE_GAPS.md`);
+- a psicofarmacologia existe nos dois ângulos: EISM ensina o transtorno e o
+  fármaco dentro da conduta; EISA II/Farmacologia aprofunda classe, mecanismo,
+  dose e interação. Isso é vínculo, não duplicata —
+  ver `p7_source_pack/00_INTERLIGACOES.md`.
 
 ## 3. Contrato de raciocínio sobre fontes
 
@@ -128,20 +140,22 @@ Ordem de consulta ao planejar ou selecionar evidência de tema:
 6. `p7_source_pack/00_COVERAGE_GAPS.md`
 7. `p7_source_pack/00_FULL_P7_CURRICULUM_MAP.md`
 
-### 3.1 As três camadas de autoridade
+### 3.1 As camadas de autoridade
 
 O acervo P7 tem 423 fontes indexadas, e elas **não** têm o mesmo peso:
 
-| Camada | O que é | Autoridade | Legibilidade |
-|---|---|---|---|
-| **A** | slide da aula do professor | **máxima** | frequentemente baixa |
-| **B** | apostila e resumos de turma | média | alta |
-| **C** | prova antiga e devolutiva | evidência de **cobrança** | variável |
+| Camada | O que é | Autoridade |
+|---|---|---|
+| **A** | slide da aula do professor | **máxima** — é o que foi ensinado e é o que cai |
+| **A′** | artigo, diretriz e referência indicada (Riella, Jones/AHA, DBHA, tratados) | alta — é o que o gabarito segue |
+| **B** | apostila e resumos de turma | média |
+| **C** | prova antiga e devolutiva | evidência de **cobrança** |
 
-**A inversão que define esta skill:** a fonte mais fácil de ler é a menos
-autoritativa. 99 das 423 fontes são **fotografias da tela do projetor tiradas em
-sala** — com reflexo, ângulo, recorte, e às vezes anotação manuscrita do próprio
-aluno sobreposta.
+99 das 423 fontes não têm camada de texto — a maioria são slides do professor
+fotografados da tela do projetor. Eles são **densos e cruciais**, e continuam
+sendo camada A; muda só o método de acesso, que é leitura visual das páginas
+pré-renderizadas em `vision_png/<source_id>/pNNN.png`. Reflexo ou corte em parte
+da página não invalida o resto: use o legível e marque só o trecho perdido.
 
 ### 3.2 Regras duras
 
