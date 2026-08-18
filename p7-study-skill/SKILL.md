@@ -210,18 +210,30 @@ toda resposta.
 ### 4.1 A camada metacognitiva
 
 `p7_source_pack/00_MAPA_OPERACAO_MOVIMENTO.md` é o produto de **152 questões reais
-dissecadas** das provas e devolutivas do P7, por quatro extratores independentes.
+dissecadas** das provas e devolutivas do P7.
 
-O achado que governa a correção de questão:
+Ele **não substitui** a taxonomia de movimentos do `QUESTION_INTELLIGENCE_P7.md`
+§5 — que continua sendo o vocabulário completo do diagnóstico (conteúdo,
+interpretação, validação externa, decisão, priorização, abstenção). O mapa
+acrescenta **evidência empírica** a ela: quais desses movimentos realmente
+aparecem nas provas do P7, com que frequência, e em que tema.
+
+Um eixo útil que emergiu da medição, entre outros:
 
 > **71 dos 152 erros são operacionais · 69 factuais · 12 mistos.**
 
-Quase metade do que se erra no P7 **não é lacuna de conteúdo** — é o conteúdo certo
-executado na ordem errada. Antes de mandar estudar o tema, decida qual dos dois foi:
+Ou seja, quase metade do que se erra **não é lacuna de conteúdo** — é conteúdo
+certo executado na ordem errada. Isso não é uma nova taxonomia; é um corte
+transversal sobre os movimentos já existentes, útil para escolher a intervenção:
 
 - erro **factual** (não sabia o dado) → cápsula + card + recuperação ativa;
 - erro **operacional** (sabia, executou errado) → **treino do movimento**. Reler a
   apostila não conserta erro de sequência.
+
+Use o mapa para os 33 padrões de erro por disciplina e para o banco de 152 itens
+com operação, variável decisiva e distrator mapeado. Não reduza o diagnóstico a
+"factual ou operacional" — essa é uma pergunta auxiliar, feita **depois** de
+nomear o movimento.
 
 `aplicar critério` é a operação mais exigida (33 de 152): a prova raramente pergunta
 "o que é X" — ela dá um caso e pede que você aplique um critério a ele.
