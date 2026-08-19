@@ -46,6 +46,15 @@ dúvida patológica · crítica preservada · obsessão intrusiva · compulsão 
 contaminação · ordenação/simetria · colecionamento · ciúme patológico · exposição e prevenção de
 resposta · dose alta de ISRS
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| diferenciar próximos | crítica preservada (TOC) vs. ausente (delírio) | sinal-achado | operacional | narrativa acima do discriminador | antes de marcar, nomear se o paciente se arrepende/reconhece o excesso após o ato |
+| aplicar critério | dose de ISRS no TOC (ex.: sertralina até 300mg) muito maior que na depressão | valor | factual | valor errado | tabela de doses TOC x depressão por fármaco, treinada em flashcard de associação direta |
+| diferenciar próximos | compulsão é voluntária/deliberada (alivia obsessão) vs. impulso não ponderado | sinal-achado | operacional | pivô perdido | nomear se o ato é resposta a uma obsessão prévia ou puro impulso, antes de fechar TOC |
+| conduta definitiva | dose máxima de ISRS ainda não atingida antes de trocar de fármaco | limiar | operacional | fechamento precoce | checklist: a dose já chegou ao teto da tabela? só então considerar potencializador/troca |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -78,11 +87,11 @@ resposta · dose alta de ISRS
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Tratar TOC com a mesma dose de ISRS usada em depressão | É o mesmo fármaco, "a dose deve ser parecida" | TOC exige doses muito mais altas de ISRS que depressão para atingir efeito terapêutico |
-| Rotular paciente com ciúme patológico e crítica preservada como transtorno delirante | Tem convicção forte de traição, "parece" delírio | Crítica preservada (se arrepende após checar) aponta para TOC, não delírio |
-| Diagnosticar TOC em paciente com atos impulsivos de compra sem ponderação prévia | Tem comportamento repetitivo, parece TOC | É impulsividade pura (não pondera, só executa) — no TOC a compulsão é deliberada para aliviar a obsessão |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Tratar TOC com a mesma dose de ISRS usada em depressão | É o mesmo fármaco, "a dose deve ser parecida" | valor errado | TOC exige doses muito mais altas de ISRS que depressão para atingir efeito terapêutico |
+| Rotular paciente com ciúme patológico e crítica preservada como transtorno delirante | Tem convicção forte de traição, "parece" delírio | narrativa acima do discriminador | Crítica preservada (se arrepende após checar) aponta para TOC, não delírio |
+| Diagnosticar TOC em paciente com atos impulsivos de compra sem ponderação prévia | Tem comportamento repetitivo, parece TOC | pivô perdido | É impulsividade pura (não pondera, só executa) — no TOC a compulsão é deliberada para aliviar a obsessão |
 
 ## Conduta
 

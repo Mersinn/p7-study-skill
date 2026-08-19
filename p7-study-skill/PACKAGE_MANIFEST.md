@@ -2,22 +2,23 @@
 
 Inventário verificável do pacote. `sha256` truncado em 12 caracteres.
 
-- arquivos: **176**
-- cápsulas: **143**
-- bytes: **2,445,144**
+- arquivos: **183**
+- cápsulas: **148**
+- bytes: **2,587,204**
 
 ## Arquivos
 
 | arquivo | bytes | sha256 |
 |---|---|---|
-| `PACKAGE_MANIFEST.md` | 10486 | `142b7a7209a7` |
+| `PACKAGE_MANIFEST.md` | 14299 | `747fc353f2dc` |
 | `README_INSTALL.md` | 4094 | `d6ba7d7c7366` |
+| `RELEASE_NOTES_v1.0.0.md` | 4526 | `1c4b6fccce58` |
 | `SKILL.md` | 19675 | `ace8cf46fab6` |
 | `VERSION` | 25 | `99099d2bb9e4` |
 | `capsule_generation/CAPSULE_GENERATION_POLICY.md` | 6903 | `b0dadde6325e` |
 | `capsule_generation/CAPSULE_REVIEW_CHECKLIST.md` | 2610 | `785a2e53a709` |
 | `capsule_generation/CAPSULE_TEMPLATE.md` | 1971 | `63bf5c6c3629` |
-| `capsules/CAPSULE_INDEX.md` | 26994 | `11f110689ecb` |
+| `capsules/CAPSULE_INDEX.md` | 27948 | `8d85c06e4d0c` |
 | `capsules/CASOS_CLINICOS/abordagem_a_dispneia.md` | 13109 | `0ccae36f973a` |
 | `capsules/CASOS_CLINICOS/abordagem_diarreia_aguda_cronica.md` | 16417 | `a0dc3910373a` |
 | `capsules/CASOS_CLINICOS/cefaleias_classificacao_sinais_alarme.md` | 15899 | `1df243c1fd0a` |
@@ -108,9 +109,11 @@ Inventário verificável do pacote. `sha256` truncado em 12 caracteres.
 | `capsules/EISA_II/urologia_feminina_infeccao_urinaria_e_incontinencia.md` | 17175 | `8ad6531f4171` |
 | `capsules/EISCA/anemia_ferropriva.md` | 12379 | `e1331741d48a` |
 | `capsules/EISCA/assistencia_rn_sala_parto_reanimacao_neonatal.md` | 13760 | `44103f2d0a53` |
+| `capsules/EISCA/atopias_na_infancia.md` | 19901 | `f3756fdc439b` |
 | `capsules/EISCA/bronquiolite_viral_aguda.md` | 11368 | `215cb19c48ab` |
 | `capsules/EISCA/cardiopatias_congenitas.md` | 15620 | `198d04106d69` |
 | `capsules/EISCA/convulsao_febril.md` | 14553 | `f95e4ed405bb` |
+| `capsules/EISCA/crescimento_e_desenvolvimento.md` | 17354 | `a13d382f4e80` |
 | `capsules/EISCA/diagnostico_diferencial_das_anemias_na_infancia.md` | 11299 | `2d4d10c8353c` |
 | `capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md` | 15069 | `860f5a96c301` |
 | `capsules/EISCA/doenca_hemolitica_perinatal_rh_abo.md` | 12647 | `093f305bea45` |
@@ -132,38 +135,42 @@ Inventário verificável do pacote. `sha256` truncado em 12 caracteres.
 | `capsules/EISCA/parasitoses_intestinais.md` | 11861 | `40ce4e7d6e73` |
 | `capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md` | 11068 | `b5adfe1249eb` |
 | `capsules/EISCA/rinofaringite_aguda_resfriado_comum_e_gripe.md` | 15964 | `c5ab0913c12f` |
+| `capsules/EISCA/saude_ocular_na_infancia.md` | 19183 | `4bf9511611a5` |
+| `capsules/EISCA/semiologia_e_classificacao_do_recem_nascido.md` | 20285 | `2b40b9ad0cbb` |
 | `capsules/EISCA/sepse_e_meningite_neonatal.md` | 14972 | `3686a582a1d5` |
 | `capsules/EISCA/tumor_de_wilms.md` | 16191 | `404474617f12` |
-| `capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md` | 8905 | `d084fbe79d11` |
-| `capsules/EISM/ansioliticos_e_hipnoticos.md` | 8713 | `ea43bfedbeb9` |
-| `capsules/EISM/antidepressivos.md` | 9455 | `6c9590cc01fa` |
-| `capsules/EISM/antipsicoticos_sep_e_snm.md` | 11322 | `244d873b2ad5` |
-| `capsules/EISM/delirium.md` | 7897 | `ba35244ebf76` |
-| `capsules/EISM/depressao.md` | 8869 | `29628088d654` |
-| `capsules/EISM/eletroconvulsoterapia_ect.md` | 5663 | `04f9d88a44d8` |
-| `capsules/EISM/emergencias_psiquiatricas_e_agitacao_psicomotora.md` | 7242 | `2c278daae8ea` |
-| `capsules/EISM/esquizofrenia_e_transtornos_psicoticos.md` | 8819 | `4b7d0b059c98` |
-| `capsules/EISM/farmacoterapia_da_insonia.md` | 8549 | `dd8ae54d401b` |
-| `capsules/EISM/psicopatologia.md` | 8071 | `65a19ea399ac` |
-| `capsules/EISM/psiquiatria_infancia_e_adolescencia.md` | 6950 | `b186d276b55f` |
-| `capsules/EISM/risco_de_suicidio.md` | 7724 | `b89edc83bf7b` |
-| `capsules/EISM/sexualidade_humana_e_disfuncoes_sexuais.md` | 5879 | `7472b177cc72` |
-| `capsules/EISM/tdah.md` | 8589 | `fedd205caba1` |
-| `capsules/EISM/tept_e_tea.md` | 8967 | `5dc1371833a6` |
-| `capsules/EISM/toc.md` | 8622 | `798be6dccd3b` |
-| `capsules/EISM/transtorno_bipolar_e_estabilizadores_do_humor.md` | 9843 | `126767425e3a` |
-| `capsules/EISM/transtornos_alimentares.md` | 10520 | `e84b0fff963c` |
-| `capsules/EISM/transtornos_de_ansiedade.md` | 8681 | `fb6b48793145` |
-| `capsules/EISM/transtornos_de_personalidade.md` | 8802 | `a145dd5217eb` |
-| `capsules/EISM/transtornos_dissociativos.md` | 6641 | `d91df7614b5c` |
-| `capsules/EISM/transtornos_mentais_na_gravidez_e_puerperio.md` | 8966 | `f4a3295e7cef` |
-| `capsules/EISM/transtornos_por_uso_de_substancias.md` | 8249 | `a00d231f3037` |
+| `capsules/EISCA/tumores_do_sistema_nervoso_central_na_infancia.md` | 21116 | `c9b10bbe3e25` |
+| `capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md` | 10397 | `d86c7c8e17b8` |
+| `capsules/EISM/ansioliticos_e_hipnoticos.md` | 10093 | `03b24b6d2bc6` |
+| `capsules/EISM/antidepressivos.md` | 10840 | `bf1fd919a330` |
+| `capsules/EISM/antipsicoticos_sep_e_snm.md` | 12740 | `bda2c4b499f4` |
+| `capsules/EISM/delirium.md` | 9040 | `106d0de4aa7c` |
+| `capsules/EISM/depressao.md` | 10170 | `b795acdbc36c` |
+| `capsules/EISM/eletroconvulsoterapia_ect.md` | 6777 | `d6c694605efc` |
+| `capsules/EISM/emergencias_psiquiatricas_e_agitacao_psicomotora.md` | 8482 | `a51f92822123` |
+| `capsules/EISM/esquizofrenia_e_transtornos_psicoticos.md` | 10004 | `54e95b9d5863` |
+| `capsules/EISM/farmacoterapia_da_insonia.md` | 9881 | `d5a4ba99a973` |
+| `capsules/EISM/psicopatologia.md` | 9278 | `2164fd3cda8f` |
+| `capsules/EISM/psiquiatria_infancia_e_adolescencia.md` | 8022 | `14cf081cb472` |
+| `capsules/EISM/risco_de_suicidio.md` | 8942 | `ed2bd392a644` |
+| `capsules/EISM/sexualidade_humana_e_disfuncoes_sexuais.md` | 6942 | `bb30b192e90f` |
+| `capsules/EISM/tdah.md` | 9749 | `03102dd4a8c5` |
+| `capsules/EISM/tept_e_tea.md` | 10017 | `e899ab01a394` |
+| `capsules/EISM/toc.md` | 9818 | `09c7f5197625` |
+| `capsules/EISM/transtorno_bipolar_e_estabilizadores_do_humor.md` | 11317 | `f2f02f6b6f17` |
+| `capsules/EISM/transtornos_alimentares.md` | 11788 | `cf7aea012e17` |
+| `capsules/EISM/transtornos_de_ansiedade.md` | 9879 | `e23e0476c48e` |
+| `capsules/EISM/transtornos_de_personalidade.md` | 10237 | `997db3930d0a` |
+| `capsules/EISM/transtornos_dissociativos.md` | 7794 | `d0a69f3b4a61` |
+| `capsules/EISM/transtornos_mentais_na_gravidez_e_puerperio.md` | 10273 | `8b579755a9b9` |
+| `capsules/EISM/transtornos_por_uso_de_substancias.md` | 9415 | `786c61fa2052` |
 | `capsules/OSCE/formato_roteiro_osce_p7.md` | 12851 | `60f368724c3a` |
 | `capsules/OSCE/osce_endocrinologia.md` | 15236 | `4acee815c0c7` |
 | `capsules/OSCE/osce_nefrologia.md` | 15398 | `f34d7c6585ed` |
 | `p7_source_pack/00_ATOMIC_THEME_INDEX.csv` | 114524 | `ae61d921f485` |
 | `p7_source_pack/00_CALENDARIO_2026_2.md` | 9139 | `e1c32f4b6d66` |
 | `p7_source_pack/00_COVERAGE_GAPS.md` | 28670 | `da8b00f9151e` |
+| `p7_source_pack/00_DECISION_LOGS/CURRICULUM_DECISION_LOG.md` | 4971 | `f3af4c977869` |
 | `p7_source_pack/00_EXAM_BLUEPRINT.md` | 32531 | `bb112eb65e02` |
 | `p7_source_pack/00_EXAM_EVIDENCE/DEVOLUTIVAS_INDEX.md` | 5285 | `d589d0858fcb` |
 | `p7_source_pack/00_EXAM_EVIDENCE/PROVAS_ANTIGAS_INDEX.md` | 3863 | `09fc2c35cd14` |

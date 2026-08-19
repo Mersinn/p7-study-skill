@@ -118,15 +118,17 @@ disse — ela ensina o tema e declara a limitação.
 | Tumores do sistema nervoso central | A_DEFINIR | media | medio | B | não | 13 | 0 | `reviewed_l1` | `capsules/EISA_II/tumores_do_sistema_nervoso_central.md` |
 | Urologia Feminina: Infecção Urinária e Incontinência | III_UNIDADE | alta | alto | A+B | sim | 22 | 0 | `reviewed_l1` | `capsules/EISA_II/urologia_feminina_infeccao_urinaria_e_incontinencia.md` |
 
-## EISCA  (28 cápsulas)
+## EISCA  (33 cápsulas)
 
 | Tema | Un. | Prior. | Risco | Camada | Visual | Dados | Pend. | Status | Arquivo |
 |---|---|---|---|---|---|---|---|---|---|
 | Anemia ferropriva | IV | alta | alto | A | não | 14 | 0 | `reviewed_l1` | `capsules/EISCA/anemia_ferropriva.md` |
 | Assistência ao recém-nascido em sala de parto e reanimação neonatal | I | alta | alto | B | não | 19 | 0 | `reviewed_l1` | `capsules/EISCA/assistencia_rn_sala_parto_reanimacao_neonatal.md` |
+| Atopias na infância (hipersensibilidade tipo I, rinite alérgica, dermatite atópica, urticária/angioedema, alergia alimentar, anafilaxia) | II | alta | alto | A+B | sim | 25 | 10 | `reviewed_l1` | `capsules/EISCA/atopias_na_infancia.md` |
 | Bronquiolite viral aguda (BVA) | I | alta | alto | A | não | 13 | 0 | `reviewed_l1` | `capsules/EISCA/bronquiolite_viral_aguda.md` |
 | Cardiopatias congênitas | A_DEFINIR | media | alto | A' | não | 13 | 0 | `reviewed_l1` | `capsules/EISCA/cardiopatias_congenitas.md` |
 | Convulsão febril | A_DEFINIR | media | alto | B | não | 24 | 0 | `reviewed_l1` | `capsules/EISCA/convulsao_febril.md` |
+| Crescimento e desenvolvimento (curvas OMS, escore z, marcos do DNPM, idade corrigida) | A_DEFINIR | media | medio | A+B | sim | 25 | 0 | `reviewed_l1` | `capsules/EISCA/crescimento_e_desenvolvimento.md` |
 | Diagnóstico diferencial das anemias na infância | IV | alta | médio | A | não | 11 | 0 | `reviewed_l1` | `capsules/EISCA/diagnostico_diferencial_das_anemias_na_infancia.md` |
 | Diarreia aguda, desidratação e terapia de reidratação (Planos A, B e C) | I | alta | alto | A | sim | 23 | 0 | `reviewed_l1` | `capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md` |
 | Doença hemolítica perinatal (incompatibilidade Rh e ABO) | III | alta | alto | A | sim | 7 | 1 | `reviewed_l1` | `capsules/EISCA/doenca_hemolitica_perinatal_rh_abo.md` |
@@ -148,8 +150,11 @@ disse — ela ensina o tema e declara a limitação.
 | Parasitoses intestinais | III | alta | médio | A | não | 13 | 0 | `reviewed_l1` | `capsules/EISCA/parasitoses_intestinais.md` |
 | Pneumonia adquirida na comunidade na infância | IV | alta | alto | A | não | 13 | 0 | `reviewed_l1` | `capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md` |
 | Rinofaringite aguda, resfriado comum e gripe (influenza, COVID-19) | II_UNIDADE | alta | alto | A | sim | 17 | 0 | `reviewed_l1` | `capsules/EISCA/rinofaringite_aguda_resfriado_comum_e_gripe.md` |
+| Saúde ocular na infância | II | alta | alto | A+B | sim | 32 | 1 | `reviewed_l1` | `capsules/EISCA/saude_ocular_na_infancia.md` |
+| Semiologia e classificação do recém-nascido | I_UNIDADE | alta | medio | B | não | 30 | 5 | `reviewed_l1` | `capsules/EISCA/semiologia_e_classificacao_do_recem_nascido.md` |
 | Sepse neonatal e meningite neonatal | A_DEFINIR | alta | alto | B | não | 17 | 1 | `reviewed_l1` | `capsules/EISCA/sepse_e_meningite_neonatal.md` |
 | Tumor de Wilms (nefroblastoma) | II_UNIDADE | media | medio | A+B | sim | 18 | 0 | `reviewed_l1` | `capsules/EISCA/tumor_de_wilms.md` |
+| Tumores do sistema nervoso central na infância | II_UNIDADE | media | alto | A | sim | 41 | 0 | `reviewed_l1` | `capsules/EISCA/tumores_do_sistema_nervoso_central_na_infancia.md` |
 
 ## EISM  (24 cápsulas)
 
@@ -190,7 +195,7 @@ disse — ela ensina o tema e declara a limitação.
 
 ## Totais
 
-- cápsulas: **143**
-- dados de precisão conferidos no nível 1: **2139**
-- pendências `confirmar no slide`: **56**
-- cápsulas com camada A (slide do professor): **85**
+- cápsulas: **148**
+- dados de precisão conferidos no nível 1: **2292**
+- pendências `confirmar no slide`: **72**
+- cápsulas com camada A (slide do professor): **89**

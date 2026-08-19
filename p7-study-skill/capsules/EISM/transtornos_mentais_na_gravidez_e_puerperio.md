@@ -45,6 +45,15 @@ blues puerperal (disforia puerperal) · depressão pós-parto · psicose puerper
 gravidade · virada maníaca · pistas de bipolaridade · emergência psiquiátrica · psicofármacos e
 lactação
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| diferenciar próximos | tempo pós-parto + prejuízo funcional (blues até 2 sem / DPP crítico até 12 sem / psicose até 3 sem) | limiar | operacional | pivô perdido | 3 vinhetas variando só o dia pós-parto, forçando classificar antes de escolher conduta |
+| priorizar emergência | velocidade de instalação + sintomas psicóticos (pródromo em dias, pico 48-72h) | sinal-achado | operacional | definitiva antes da inicial | checklist: há sintoma psicótico/pródromo rápido? se sim, tratar como emergência antes de qualquer outra decisão |
+| reconhecer contraindicação | lactante em uso de lítio sem possibilidade de troca | contraindicação | factual | valor errado | card da regra invertida (suspender amamentação, manter lítio) + 2 casos-espelho |
+| diferenciar próximos | pistas de bipolaridade (pensamento acelerado, sintomas psicóticos, início puerperal) antes de fechar DPP unipolar | sinal-achado | operacional | narrativa acima do discriminador | antes de tratar como DPP, nomear se há pista de mania/hipomania no enunciado |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -79,10 +88,10 @@ lactação
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Rotular toda alteração de humor puerperal como depressão pós-parto e iniciar ISRS de imediato | É a resposta "farmacológica" que parece proativa | Dentro da janela de 2 semanas e sem prejuízo funcional é blues — conduta é suporte, não fármaco |
-| Iniciar antidepressivo isolado numa puérpera com depressão + pensamento acelerado e sintomas psicóticos | Trata a depressão que está evidente | São "pistas" clássicas de TAB — antidepressivo isolado arrisca virada maníaca; investigar mania/hipomania primeiro |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Rotular toda alteração de humor puerperal como depressão pós-parto e iniciar ISRS de imediato | É a resposta "farmacológica" que parece proativa | pivô perdido | Dentro da janela de 2 semanas e sem prejuízo funcional é blues — conduta é suporte, não fármaco |
+| Iniciar antidepressivo isolado numa puérpera com depressão + pensamento acelerado e sintomas psicóticos | Trata a depressão que está evidente | narrativa acima do discriminador | São "pistas" clássicas de TAB — antidepressivo isolado arrisca virada maníaca; investigar mania/hipomania primeiro |
 
 ## Conduta
 

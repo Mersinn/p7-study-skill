@@ -44,6 +44,15 @@ só tem evidência para TAG leve — não para pânico, fobia ou TEPT.
 GABA-A · receita azul (notificação) · flumazenil · meia-vida longa × curta · amnésia anterógrada ·
 tarja preta · agonista 5-HT1A (buspirona) · desmame · delirium tremens
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| conduta inicial | contexto agudo/hospitalar × crônico/ambulatorial determina a classe (BZD/betabloqueador vs ISRS/IRSN) | funcao | operacional | definitiva antes da inicial | antes de escolher fármaco, nomear por escrito "isso é conduta de crise ou de manutenção?" |
+| reconhecer contraindicação | BZD de meia-vida longa em idoso acumula e aumenta queda/fratura — "menos abstinência" não torna seguro | contraindicacao | operacional | narrativa acima do discriminador | par de casos (BZD curta x longa em idoso) forçando nomear o discriminador real (acúmulo/queda), não a abstinência |
+| aplicar critério | latência de efeito da buspirona (1–2 semanas) a torna inadequada para crise aguda | limiar | factual | regra mal-aprendida | card de latência + vinheta de crise aguda forçando reconhecer a inadequação temporal antes de prescrever |
+| reconhecer contraindicação | BZD + álcool → depressão respiratória grave (BZD isolado raramente fatal) | contraindicacao | factual | valor errado | par de casos BZD isolado × BZD+álcool, nomeando o risco antes de decidir conduta |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -77,11 +86,11 @@ tarja preta · agonista 5-HT1A (buspirona) · desmame · delirium tremens
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Prescrever buspirona para crise aguda de pânico | "É ansiolítico e não causa dependência, parece seguro" | Efeito leva 1–2 semanas para se desenvolver; inadequada para crise aguda |
-| Manter BZD de meia-vida longa em idoso "porque tem menos síndrome de abstinência" | Raciocínio parcialmente correto sobre abstinência | Ignora o acúmulo do fármaco e o risco aumentado de queda/fratura no idoso |
-| Manter benzodiazepínico como tratamento crônico isolado da ansiedade | Está funcionando, "por que trocar" | BZD não é mais 1ª linha crônica por dependência/tolerância — a meta é ISRS/IRSN com desmame do BZD |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Prescrever buspirona para crise aguda de pânico | "É ansiolítico e não causa dependência, parece seguro" | regra mal-aprendida | Efeito leva 1–2 semanas para se desenvolver; inadequada para crise aguda |
+| Manter BZD de meia-vida longa em idoso "porque tem menos síndrome de abstinência" | Raciocínio parcialmente correto sobre abstinência | narrativa acima do discriminador | Ignora o acúmulo do fármaco e o risco aumentado de queda/fratura no idoso |
+| Manter benzodiazepínico como tratamento crônico isolado da ansiedade | Está funcionando, "por que trocar" | fechamento precoce | BZD não é mais 1ª linha crônica por dependência/tolerância — a meta é ISRS/IRSN com desmame do BZD |
 
 ## Conduta
 

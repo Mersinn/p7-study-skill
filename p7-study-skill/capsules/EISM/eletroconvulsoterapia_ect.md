@@ -40,6 +40,14 @@ graves de psicose puerperal.
 crise convulsiva induzida e controlada · padrão-ouro · 1ª escolha em idoso/gestante · catatonia ·
 psicose puerperal · depressão psicótica
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| aplicar critério | cenários em que ECT é 1ª escolha, não resgate (idoso, gestante, catatonia, depressão psicótica grave, necessidade de resposta rápida) | sinal-achado | operacional | regra mal-aprendida | 3 vinhetas (idoso/gestante/catatonia) forçando reconhecer ECT como 1ª escolha, nunca "último recurso" |
+| reconhecer contraindicação | gestação limita a farmacoterapia (não o procedimento) — isso torna ECT preferencial, não mais arriscada | contraindicacao | operacional | premissa não checada | antes de decidir, comparar por escrito risco do fármaco × risco do procedimento no caso específico |
+| reconhecer diagnóstico | catatonia (flexibilidade cérea + imobilidade prolongada) é indicação específica de ECT + medicação | sinal-achado | factual | lacuna | card catatonia → ECT + medicação, revisado até resposta automática |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -61,10 +69,10 @@ psicose puerperal · depressão psicótica
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Reservar ECT só para depressão que falhou com 2+ antidepressivos | Parece a lógica de "escada terapêutica" | Em idoso/gestante com depressão grave ou catatonia, ECT pode ser 1ª escolha, não apenas resgate |
-| Evitar ECT em gestante deprimida grave | Parece mais seguro evitar procedimento na gestação | A fonte cita ECT como 1ª escolha em gestante com depressão grave, justamente por limitar exposição a psicofármacos |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Reservar ECT só para depressão que falhou com 2+ antidepressivos | Parece a lógica de "escada terapêutica" | regra mal-aprendida | Em idoso/gestante com depressão grave ou catatonia, ECT pode ser 1ª escolha, não apenas resgate |
+| Evitar ECT em gestante deprimida grave | Parece mais seguro evitar procedimento na gestação | premissa não checada | A fonte cita ECT como 1ª escolha em gestante com depressão grave, justamente por limitar exposição a psicofármacos |
 
 ## Conduta
 

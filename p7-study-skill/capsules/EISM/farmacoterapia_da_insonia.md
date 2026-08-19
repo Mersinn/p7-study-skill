@@ -46,6 +46,15 @@ dependência, tolerância e parassonias.
 higiene do sono · insônia primária × secundária · compostos Z · agentes melatoninérgicos ·
 receptor GABA-A subunidade α1 · dose hipnótica × dose antidepressiva · sonambulismo
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| comparar função | fenótipo iniciar × manter o sono determina a meia-vida do fármaco (curta vs longa) | funcao | operacional | pivô perdido | par de vinhetas com o mesmo fármaco e fenótipo trocado, forçando nomear a meia-vida antes de escolher |
+| conduta inicial | higiene do sono sempre precede o fármaco, mesmo em insônia crônica | sequencia | operacional | definitiva antes da inicial | checklist fixo "já foi tentada/descrita a higiene do sono?" antes de qualquer escolha farmacológica |
+| comparar função | mesma molécula (doxepina/trazodona/mirtazapina) muda de hipnótica para antidepressiva só pela dose | valor | factual | valor errado | card comparativo dose hipnótica × dose antidepressiva das 3 moléculas, revisado lado a lado |
+| reconhecer contraindicação | amitriptilina é sedativa mas o efeito anticolinérgico excessivo a torna inadequada como hipnótico | contraindicacao | factual | analogia sem validação | par doxepina/trazodona (ok) × amitriptilina (não), nomeando o discriminador real (seletividade anticolinérgica) |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -74,11 +83,11 @@ receptor GABA-A subunidade α1 · dose hipnótica × dose antidepressiva · sona
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Benzodiazepínico como 1ª linha para insônia crônica | Parece rápido e eficaz | É uma das últimas opções — dependência, tolerância, parassonias |
-| Amitriptilina para insônia por ser "sedativa" | Efeito sedativo é real e conhecido | Efeitos anticolinérgicos excessivos tornam-na inadequada; preferir doxepina/trazodona/mirtazapina em dose baixa |
-| Zolpidem de ação curta em paciente que acorda várias vezes à noite | "É hipnótico, deveria funcionar" | Fenótipo é de dificuldade em MANTER o sono — precisa de droga de meia-vida mais longa (zopiclona/eszopiclona/zolpidem CR) |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Benzodiazepínico como 1ª linha para insônia crônica | Parece rápido e eficaz | regra mal-aprendida | É uma das últimas opções — dependência, tolerância, parassonias |
+| Amitriptilina para insônia por ser "sedativa" | Efeito sedativo é real e conhecido | analogia sem validação | Efeitos anticolinérgicos excessivos tornam-na inadequada; preferir doxepina/trazodona/mirtazapina em dose baixa |
+| Zolpidem de ação curta em paciente que acorda várias vezes à noite | "É hipnótico, deveria funcionar" | pivô perdido | Fenótipo é de dificuldade em MANTER o sono — precisa de droga de meia-vida mais longa (zopiclona/eszopiclona/zolpidem CR) |
 
 ## Conduta
 

@@ -43,6 +43,14 @@ amnésia localizada / generalizada / seletiva · fuga dissociativa (viagem organ
 identidade discreta) · TDI (personalidade múltipla) · despersonalização (estranhamento de si) ×
 desrealização (estranhamento do mundo) · simulação como diferencial (ganho secundário)
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| diferenciar próximos | paciente SABE que esqueceu (amnésia dissociativa) × só percebe ao voltar ao self (fuga dissociativa) — inverso da intuição | sinal-achado | operacional | narrativa acima do discriminador | pares de vinheta trocando só essa variável (sabe/não sabe), nomeando-a antes de escolher o subtipo |
+| diferenciar próximos | amnésia ENTRE estados de personalidade (TDI) × memória mantida entre estados (borderline) | sinal-achado | operacional | narrativa acima do discriminador | caso de instabilidade afetiva — checar explicitamente "há amnésia entre estados?" antes de diagnosticar |
+| reconhecer diagnóstico | evidência concreta de ganho secundário separa simulação de transtorno dissociativo genuíno | sinal-achado | operacional | premissa não checada | antes de fechar diagnóstico dissociativo, checar por escrito se há ganho secundário identificável no caso |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -67,10 +75,10 @@ desrealização (estranhamento do mundo) · simulação como diferencial (ganho 
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Diagnosticar simulação em paciente que "não lembra" de período após trauma | Ganho secundário parece plausível na história | Simulação exige evidência de ganho secundário concreto; amnésia dissociativa genuína não tem esse componente identificável |
-| Rotular fuga dissociativa como "fuga consciente/intencional" | O paciente efetivamente viajou e se afastou de tudo | Por definição, para ser dissociativa a fuga precisa ser INCONSCIENTE — se é intencional e consciente, não é fuga dissociativa |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Diagnosticar simulação em paciente que "não lembra" de período após trauma | Ganho secundário parece plausível na história | premissa não checada | Simulação exige evidência de ganho secundário concreto; amnésia dissociativa genuína não tem esse componente identificável |
+| Rotular fuga dissociativa como "fuga consciente/intencional" | O paciente efetivamente viajou e se afastou de tudo | regra mal-aprendida | Por definição, para ser dissociativa a fuga precisa ser INCONSCIENTE — se é intencional e consciente, não é fuga dissociativa |
 
 ## Conduta
 

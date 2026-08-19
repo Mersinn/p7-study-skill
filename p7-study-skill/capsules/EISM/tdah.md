@@ -45,6 +45,14 @@ desatenção × hiperatividade × impulsividade · múltiplos ambientes · TOD �
 psicoestimulante · metilfenidato × lisdexanfetamina · Síndrome de Tourette (comorbidade) ·
 procrastinação (achado em adolescentes/adultos)
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| aplicar critério | prejuízo presente em mais de um ambiente (casa + escola) para fechar diagnóstico | limiar | operacional | fechamento precoce | checklist obrigatório "em quantos ambientes?" antes de fechar diagnóstico — treinar com 3 vinhetas de sintoma restrito a um único ambiente |
+| diferenciar próximos | violação grave de normas/crueldade (Transtorno de Conduta) × oposição sem violação grave (TOD) | sinal-achado | operacional | narrativa acima do discriminador | pares de vinheta variando só a presença de crueldade/destruição, nomeando o discriminador antes de rotular |
+| reconhecer contraindicação | tique não controlado ou risco cardiovascular antes de iniciar psicoestimulante | contraindicacao | operacional | premissa não checada | checklist de comorbidade (tique, cardiopatia) obrigatório antes de escolher o fármaco, em 3 casos com contraindicação escondida |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -75,10 +83,10 @@ procrastinação (achado em adolescentes/adultos)
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Fechar diagnóstico de TDAH com desatenção presente só na escola (professor relata, mãe nega em casa) | Professor é fonte "confiável" e o quadro é clássico de desatenção | Critério exige prejuízo em mais de um ambiente — sem confirmação em casa, não fecha diagnóstico |
-| Classificar criança com crueldade a animais e roubos como "TDAH grave" | A criança também é hiperativa e desatenta | O quadro descrito (crueldade, destruição, roubo) é Transtorno de Conduta — pode coexistir com TDAH, mas é diagnóstico à parte, não "TDAH grave" |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Fechar diagnóstico de TDAH com desatenção presente só na escola (professor relata, mãe nega em casa) | Professor é fonte "confiável" e o quadro é clássico de desatenção | fechamento precoce | Critério exige prejuízo em mais de um ambiente — sem confirmação em casa, não fecha diagnóstico |
+| Classificar criança com crueldade a animais e roubos como "TDAH grave" | A criança também é hiperativa e desatenta | narrativa acima do discriminador | O quadro descrito (crueldade, destruição, roubo) é Transtorno de Conduta — pode coexistir com TDAH, mas é diagnóstico à parte, não "TDAH grave" |
 
 ## Conduta
 

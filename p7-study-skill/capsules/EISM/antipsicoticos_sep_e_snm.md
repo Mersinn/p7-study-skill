@@ -56,6 +56,15 @@ neuroléptica maligna · dantroleno · biperideno · propranolol · hiperprolact
 nigroestriatal/mesolímbica/mesocortical/tuberoinfundibular · agranulocitose · janela terapêutica
 estreita (1ª geração)
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| aplicar critério | tempo de uso + fenomenologia que discrimina distonia/acatisia/parkinsonismo/SNM/discinesia tardia | sinal-achado | operacional | regra mal-aprendida | dado só tempo+fenomenologia (sem nome da síndrome), forçar classificar antes de escolher o reversor — nunca ir direto a "biperideno" |
+| reconhecer contraindicação | efeito anticolinérgico do biperideno agravado em idoso (não é "seguro por ser padrão") | contraindicacao | operacional | premissa não checada | antes de prescrever biperideno em idoso, checklist: confusão/retenção urinária/boca seca já presentes? |
+| identificar complicação | febre + instabilidade de PA + mioglobinemia isola SNM das demais SEP | sinal-achado | factual | valor errado | flashcard de par SNM×acatisia/distonia pelos 3 sinais autonômicos, não só "rigidez" |
+| aplicar critério | agranulocitose por clozapina não é contraindicação absoluta de reintrodução — depende de gravidade/tempo de resolução | limiar | factual | superextrapolação | card do protocolo de reintrodução + vinheta de neutropenia leve resolvida vs grave persistente |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -89,12 +98,12 @@ estreita (1ª geração)
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Biperideno para acatisia | É o antídoto "padrão" para SEP que o aluno decora | Acatisia responde melhor a propranolol ou benzodiazepínico; biperideno é para distonia/parkinsonismo |
-| Biperideno para SNM | Parece a mesma lógica dos outros SEP | SNM trata-se suspendendo o antipsicótico + dantroleno + suporte, não com anticolinérgico |
-| "Idoso, então biperideno é seguro" | Anticolinérgico parece inócuo por ser "só para tremor" | Em idoso, o efeito anticolinérgico central é agravado (confusão, retenção urinária) — a prova cobra exatamente essa cautela |
-| Suspender clozapina definitivamente após 1 episódio de neutropenia leve | Parece a conduta mais segura | O protocolo permite reintrodução conforme gravidade/tempo de resolução — negar isso por completo é o distrator |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Biperideno para acatisia | É o antídoto "padrão" para SEP que o aluno decora | regra mal-aprendida | Acatisia responde melhor a propranolol ou benzodiazepínico; biperideno é para distonia/parkinsonismo |
+| Biperideno para SNM | Parece a mesma lógica dos outros SEP | analogia sem validação | SNM trata-se suspendendo o antipsicótico + dantroleno + suporte, não com anticolinérgico |
+| "Idoso, então biperideno é seguro" | Anticolinérgico parece inócuo por ser "só para tremor" | premissa não checada | Em idoso, o efeito anticolinérgico central é agravado (confusão, retenção urinária) — a prova cobra exatamente essa cautela |
+| Suspender clozapina definitivamente após 1 episódio de neutropenia leve | Parece a conduta mais segura | superextrapolação | O protocolo permite reintrodução conforme gravidade/tempo de resolução — negar isso por completo é o distrator |
 
 ## Conduta
 

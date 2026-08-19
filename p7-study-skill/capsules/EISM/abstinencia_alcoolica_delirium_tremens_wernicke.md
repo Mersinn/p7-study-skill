@@ -31,6 +31,15 @@ Na suspeita de dependência alcoólica/desnutrição, administrar tiamina SEMPRE
 
 CIWA-Ar; tríade de Wernicke (confusão + nistagmo + ataxia); Korsakoff (confabulação, geralmente irreversível); microzoopsias/alucinações filamentares; diazepam padrão-ouro.
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| conduta inicial | tiamina sempre antes (ou concomitante) da glicose, nunca depois, para não precipitar Wernicke | sequencia | operacional | regra mal-aprendida | vinheta de etilista confuso: antes de repor glicose, escrever "tiamina já foi dada?" — nunca aplicar o reflexo "confuso = glicose" sem essa checagem |
+| reconhecer contraindicação | BZD contraindicado na intoxicação aguda (soma GABAérgica) × padrão-ouro na abstinência/DT — a prova troca os dois contextos | contraindicacao | operacional | pivô perdido | par de vinhetas idênticas na apresentação motora, trocando só intoxicação × abstinência, forçando nomear o contexto antes de escolher o fármaco |
+| identificar complicação | confusão aguda em etilista não é automaticamente DT — excluir TCE, meningite, hepatopatia descompensada antes de fechar | sinal-achado | operacional | fechamento precoce | checklist diferencial obrigatório (TCE/meningite/hepatopatia) antes de aceitar delirium tremens como diagnóstico |
+| aplicar critério | janela temporal que diferencia SAA inicial (horas), pico (24–36h) e Delirium Tremens (72–96h) | limiar | factual | valor errado | card de linha do tempo + vinhetas no valor exato de cada corte |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -59,11 +68,11 @@ CIWA-Ar; tríade de Wernicke (confusão + nistagmo + ataxia); Korsakoff (confabu
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Etilista agudo confuso: passar soro glicosado imediatamente para reverter possível hipoglicemia | Parece a prioridade lógica e rápida | Tiamina deve vir antes/concomitante — glicose isolada pode precipitar Wernicke em quem já tem depleção de tiamina |
-| Abstinência alcoólica agitada: usar haloperidol isolado, como na intoxicação aguda | Mesmo fármaco "seguro" já usado antes | Na abstinência/DT, o sedativo de escolha é BZD (diazepam), não haloperidol isolado |
-| Diazepam IM para abstinência grave, buscando absorção rápida | Via IM parece garantir absorção mais rápida | Absorção IM do diazepam é errática — via oral ou EV é a preferida |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Etilista agudo confuso: passar soro glicosado imediatamente para reverter possível hipoglicemia | Parece a prioridade lógica e rápida | regra mal-aprendida | Tiamina deve vir antes/concomitante — glicose isolada pode precipitar Wernicke em quem já tem depleção de tiamina |
+| Abstinência alcoólica agitada: usar haloperidol isolado, como na intoxicação aguda | Mesmo fármaco "seguro" já usado antes | pivô perdido | Na abstinência/DT, o sedativo de escolha é BZD (diazepam), não haloperidol isolado |
+| Diazepam IM para abstinência grave, buscando absorção rápida | Via IM parece garantir absorção mais rápida | premissa não checada | Absorção IM do diazepam é errática — via oral ou EV é a preferida |
 
 ## Conduta
 

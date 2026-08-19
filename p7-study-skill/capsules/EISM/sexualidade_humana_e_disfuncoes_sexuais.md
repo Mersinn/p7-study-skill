@@ -41,6 +41,14 @@ desejo sexual hipoativo · ciclo de Masters & Johnson (desejo-excitação-platô
 ciclo de Basson (mais válido para mulheres, desejo reativo ao estímulo) · bupropiona como antídoto
 sexual · vaginismo × dispareunia · parafilias
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| comparar função | perfil de impacto sexual entre antidepressivos (ISRS inibe × bupropiona/mirtazapina/trazodona/agomelatina não) | funcao | factual | lacuna | card comparativo dos 4 antidepressivos de menor impacto sexual, revisado junto com a cápsula de Antidepressivos |
+| conduta definitiva | disfunção sexual 2ária a ISRS → trocar de classe ou associar bupropiona como antídoto, nunca suspender sem alternativa | funcao | operacional | fechamento precoce | caso de queixa sexual em uso de ISRS — listar as 2 opções de conduta por escrito antes de decidir suspender o tratamento |
+| aplicar critério | CID-10 não classifica homossexualidade como transtorno | fato | factual | regra mal-aprendida | card "homossexualidade não é transtorno" + treino de reconhecer essa pegadinha entre as alternativas |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -65,10 +73,10 @@ sexual · vaginismo × dispareunia · parafilias
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Suspender ISRS por completo diante de disfunção sexual, sem alternativa | Parece resolver rapidamente o efeito colateral | Abandona o tratamento da depressão; a conduta correta é trocar de classe (bupropiona/mirtazapina/trazodona) ou associar bupropiona como antídoto |
-| Tratar ejaculação precoce só com antidepressivo em dose padrão de depressão | ISRS "trata tudo relacionado a serotonina" | A dose que retarda a ejaculação deve ser titulada especificamente (a dose de depressão pode não bastar); dapoxetina é formulação sob demanda específica para isso |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Suspender ISRS por completo diante de disfunção sexual, sem alternativa | Parece resolver rapidamente o efeito colateral | fechamento precoce | Abandona o tratamento da depressão; a conduta correta é trocar de classe (bupropiona/mirtazapina/trazodona) ou associar bupropiona como antídoto |
+| Tratar ejaculação precoce só com antidepressivo em dose padrão de depressão | ISRS "trata tudo relacionado a serotonina" | regra mal-aprendida | A dose que retarda a ejaculação deve ser titulada especificamente (a dose de depressão pode não bastar); dapoxetina é formulação sob demanda específica para isso |
 
 ## Conduta
 

@@ -46,6 +46,15 @@ antecipação catastrófica · sintomas autonômicos mais fracos e constantes (T
 episódicos (pânico) · desrealização · despersonalização · evitação · agorafobia · piora inicial
 da ansiedade com antidepressivo · BZD como ponte
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| diferenciar próximos | presença/ausência de gatilho identificável (TAG tem estressor; pânico não tem) | sinal-achado | operacional | narrativa acima do discriminador | antes de marcar, nomear se o enunciado tem estressor da vida cotidiana ou crise espontânea |
+| aplicar critério | ≥6 meses, na maioria dos dias, ≥3 de 6 sintomas | limiar | factual | valor errado | card de contagem+tempo e 3 vinhetas no limite do critério TAG |
+| conduta definitiva | BZD é ponte de 4-6 semanas, não monoterapia de longo prazo | limiar | operacional | fechamento precoce | script fixo: BZD só entra associado a antidepressivo, com prazo de retirada já definido |
+| conduta inicial | causa orgânica (hipertireoidismo, feocromocitoma, hipoglicemia) ainda não descartada | sinal-achado | operacional | premissa não checada | checklist obrigatório de causa orgânica antes de fechar transtorno de ansiedade primário |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -74,11 +83,11 @@ da ansiedade com antidepressivo · BZD como ponte
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| BZD como monoterapia de longo prazo em TAG | Alivia rápido e "funciona", parece resposta natural | Risco de dependência/tolerância/prejuízo cognitivo; tratamento definitivo é antidepressivo + psicoterapia, BZD só como ponte de 4–6 semanas |
-| Aumentar dose do antidepressivo ao ver piora da ansiedade na 1ª semana | Paciente piorou, "aumentar a dose" parece lógico | Piora inicial é esperada (2 primeiras semanas); conduta é manter/associar BZD transitório, não subir dose às pressas |
-| Fechar transtorno do pânico em paciente cujas crises só ocorrem dirigindo em rodovia à noite (gatilho fixo) | Tem crises recorrentes com sintomas típicos de pânico | Gatilho específico e reprodutível aponta para fobia específica, não para transtorno do pânico (que exige crises inesperadas/espontâneas) |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| BZD como monoterapia de longo prazo em TAG | Alivia rápido e "funciona", parece resposta natural | fechamento precoce | Risco de dependência/tolerância/prejuízo cognitivo; tratamento definitivo é antidepressivo + psicoterapia, BZD só como ponte de 4–6 semanas |
+| Aumentar dose do antidepressivo ao ver piora da ansiedade na 1ª semana | Paciente piorou, "aumentar a dose" parece lógico | premissa não checada | Piora inicial é esperada (2 primeiras semanas); conduta é manter/associar BZD transitório, não subir dose às pressas |
+| Fechar transtorno do pânico em paciente cujas crises só ocorrem dirigindo em rodovia à noite (gatilho fixo) | Tem crises recorrentes com sintomas típicos de pânico | narrativa acima do discriminador | Gatilho específico e reprodutível aponta para fobia específica, não para transtorno do pânico (que exige crises inesperadas/espontâneas) |
 
 ## Conduta
 

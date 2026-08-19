@@ -31,6 +31,14 @@ Uso nocivo exige dano real comprovado e é EXCLUÍDO se já há síndrome de dep
 
 fissura; saliência do consumo; estreitamento do repertório; CAGE; tolerância x abstinência; poliuso; depressoras/estimulantes/perturbadoras.
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| diferenciar próximos | vinheta "comprimido amarelo" + midríase + alucinações = intoxicação por estimulante, não surto psicótico primário | sinal-achado | operacional | narrativa acima do discriminador | checklist fixo "há relato de uso de substância?" antes de fechar diagnóstico psicótico primário em jovem agitado |
+| aplicar critério | número de critérios: DSM-5 exige ≥2 de 11; CID-10 exige ≥3 de 6 — sistemas não intercambiáveis | limiar | factual | valor errado | card comparativo DSM-5 × CID-10 lado a lado, treinado separadamente até não trocar o número |
+| aplicar critério | uso nocivo exige dano real comprovado (não consequência social) e é excluído se já há dependência | contraindicacao | factual | superextrapolação | casos-par (dano real de saúde × consequência social isolada) forçando nomear o que falta para fechar uso nocivo |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -55,11 +63,11 @@ fissura; saliência do consumo; estreitamento do repertório; CAGE; tolerância 
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Uso que causou uma prisão por briga = uso nocivo confirmado | Consequência social grave parece prova de dano | Consequência social isolada não basta — precisa de dano real à saúde física/mental |
-| Jovem agitado após festa, pupilas dilatadas, alucinações = surto psicótico primário, iniciar antipsicótico | Alucinação + agitação lembra quadro psicótico | Vinheta clássica de intoxicação por estimulante (ecstasy/"comprimido amarelo") — excluir substância antes de psicose primária |
-| Tratamento só funciona se o paciente busca voluntariamente | Parece intuitivo que motivação própria é essencial | Princípio 10: o tratamento não precisa ser voluntário para ser eficaz |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Uso que causou uma prisão por briga = uso nocivo confirmado | Consequência social grave parece prova de dano | superextrapolação | Consequência social isolada não basta — precisa de dano real à saúde física/mental |
+| Jovem agitado após festa, pupilas dilatadas, alucinações = surto psicótico primário, iniciar antipsicótico | Alucinação + agitação lembra quadro psicótico | narrativa acima do discriminador | Vinheta clássica de intoxicação por estimulante (ecstasy/"comprimido amarelo") — excluir substância antes de psicose primária |
+| Tratamento só funciona se o paciente busca voluntariamente | Parece intuitivo que motivação própria é essencial | regra mal-aprendida | Princípio 10: o tratamento não precisa ser voluntário para ser eficaz |
 
 ## Conduta
 

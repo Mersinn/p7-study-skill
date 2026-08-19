@@ -47,6 +47,14 @@ re-experimentação · flashback · esquiva · hiperexcitabilidade · hipervigil
 negativas de cognição e humor · reação aguda ao trauma · transtorno do estresse agudo ·
 benzodiazepínico contraindicado no agudo · prazosin para pesadelo refratário
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| aplicar critério | tempo decorrido desde o trauma (≤3d / 4d–4sem / >4sem) define o rótulo diagnóstico | limiar | factual | valor errado | card da linha do tempo + 3 vinhetas no limite (dia 3 × dia 5; semana 4 × semana 5) |
+| reconhecer contraindicação | benzodiazepínico no manejo agudo pós-trauma aumenta o risco de evolução para TEPT | contraindicacao | operacional | analogia sem validação | caso de paciente agitado no PS pós-trauma — justificar por escrito por que NÃO usar BZD antes de escolher a conduta |
+| conduta definitiva | falha terapêutica do antidepressivo só se declara após 12 semanas, não em 4-6 semanas | limiar | operacional | fechamento precoce | 3 casos de "resposta parcial em 6 semanas" — exigir justificar manter o fármaco antes de considerar trocar |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -76,10 +84,10 @@ camada B de boa qualidade, não confirmação definitiva.
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Benzodiazepínico como 1ª conduta em paciente agitado/chorando no PS logo após trauma | Alivia rápido a agitação, parece a conduta humanizada óbvia | Pode aumentar o risco de evolução para TEPT; conduta correta é suporte + eventualmente antipsicótico em dose baixa |
-| Trocar o ISRS por falha terapêutica com 6 semanas sem resposta | Antidepressivo já demorou "o esperado" para agir | Aguardar mín. 12 semanas — resposta tardia é comum (metade dos não respondedores em 12 sem. respondem até 24 sem.) |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Benzodiazepínico como 1ª conduta em paciente agitado/chorando no PS logo após trauma | Alivia rápido a agitação, parece a conduta humanizada óbvia | analogia sem validação | Pode aumentar o risco de evolução para TEPT; conduta correta é suporte + eventualmente antipsicótico em dose baixa |
+| Trocar o ISRS por falha terapêutica com 6 semanas sem resposta | Antidepressivo já demorou "o esperado" para agir | fechamento precoce | Aguardar mín. 12 semanas — resposta tardia é comum (metade dos não respondedores em 12 sem. respondem até 24 sem.) |
 
 ## Conduta
 

@@ -44,6 +44,15 @@ anedonia · humor patológico · insônia terminal · manifestações atípicas 
 psicóticas · manifestações melancólicas · virada maníaca · ideação suicida · blues puerperal ·
 psicose puerperal · eixo hipotálamo-hipófise-adrenal · síndrome da deficiência serotoninérgica
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| aplicar critério | ≥5 de 9 sintomas por ≥2 semanas, com humor deprimido e/ou anedonia obrigatório | limiar | factual | valor errado | card de contagem+tempo e 3 vinhetas no limite do critério (ex.: 4 sintomas por 3 semanas) |
+| diferenciar próximos | histórico de episódio de mania/hipomania, mesmo remoto | sinal-achado | operacional | narrativa acima do discriminador | antes de prescrever, nomear se já foi perguntado sobre mania/hipomania; sem resposta, não fecha antidepressivo isolado |
+| diferenciar próximos | tempo pós-parto + gravidade (blues 7-10d / DPP até 4 sem / psicose puerperal) | limiar | operacional | pivô perdido | 3 vinhetas variando só o dia pós-parto, forçando classificar pelo tempo antes de decidir tratamento |
+| conduta definitiva | sintomas psicóticos exigem antipsicótico associado, nunca antidepressivo isolado | sinal-achado | operacional | fechamento precoce | checklist: há sintoma psicótico? se sim, associar antipsicótico antes de escolher a classe de antidepressivo |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -77,11 +86,11 @@ que muda a decisão no diagnóstico e no puerpério.
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Iniciar antidepressivo isolado em paciente com depressão atípica e histórico familiar de mania | O paciente está claramente deprimido, "trate a depressão" | Depressão atípica + traço de alerta pede investigar bipolaridade antes; antidepressivo isolado em bipolar não diagnosticado pode causar virada maníaca |
-| Tricíclico em paciente idoso com ideação suicida importante | É eficaz e a prova cobra a dose | ADT em superdosagem é letal (arritmia); em risco de suicídio evita-se prescrever grande quantidade de tricíclico |
-| Rotular alteração de humor no 5º dia pós-parto como depressão pós-parto | Está dentro do puerpério, parece resposta clínica óbvia | Janela ainda é a do blues puerperal (7–10 dias); DPP tem corte de até 4 semanas e maior gravidade/persistência |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Iniciar antidepressivo isolado em paciente com depressão atípica e histórico familiar de mania | O paciente está claramente deprimido, "trate a depressão" | narrativa acima do discriminador | Depressão atípica + traço de alerta pede investigar bipolaridade antes; antidepressivo isolado em bipolar não diagnosticado pode causar virada maníaca |
+| Tricíclico em paciente idoso com ideação suicida importante | É eficaz e a prova cobra a dose | premissa não checada | ADT em superdosagem é letal (arritmia); em risco de suicídio evita-se prescrever grande quantidade de tricíclico |
+| Rotular alteração de humor no 5º dia pós-parto como depressão pós-parto | Está dentro do puerpério, parece resposta clínica óbvia | pivô perdido | Janela ainda é a do blues puerperal (7–10 dias); DPP tem corte de até 4 semanas e maior gravidade/persistência |
 
 ## Conduta
 

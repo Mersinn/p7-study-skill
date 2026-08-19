@@ -49,6 +49,14 @@ taquipsiquismo / bradipsiquismo · bloqueio do pensamento · roubo do pensamento
 × desrealização · hiperbulia / hipobulia · catatonia · catalepsia × flexibilidade cérea ·
 consciência do eu
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| aplicar critério | qual eixo do pensamento está alterado — curso (velocidade), forma (organização lógica) ou conteúdo (o que é pensado) | fato | operacional | regra mal-aprendida | dado um trecho de discurso, forçar rotular em qual dos 3 eixos está a alteração antes de nomear o achado específico |
+| aplicar critério | humor (tônus de fundo relatado) × afeto (expressão observável momento a momento) | sinal-achado | operacional | regra mal-aprendida | 5 vinhetas em que humor relatado e afeto observado divergem — nomear os dois separadamente antes de fechar qualquer hipótese |
+| diferenciar próximos | bloqueio do pensamento (interrupção súbita, achado psicótico) × bradipsiquismo (lentificação por rebaixamento de humor/consciência) | sinal-achado | operacional | narrativa acima do discriminador | pares de vinheta trocando só a abruptidão do sintoma (súbito × gradual), nomeando o achado certo antes de associar etiologia |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -73,10 +81,10 @@ consciência do eu
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| "Paciente com humor deprimido, logo o afeto também está sempre deprimido" | Humor e afeto costumam andar juntos na prática clínica | Afeto pode estar embotado/incongruente enquanto o humor relatado é outro (ex.: esquizofrenia com afeto embotado e humor referido neutro) — são eixos independentes |
-| Rotular fuga de ideias como "delírio de grandeza" só porque aparecem juntos na mania | Os dois aparecem na mesma vinheta de mania | Fuga de ideias é alteração de FORMA/curso (associações rápidas e superficiais); grandiosidade é CONTEÚDO — a pergunta pode pedir exatamente qual eixo está sendo descrito |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| "Paciente com humor deprimido, logo o afeto também está sempre deprimido" | Humor e afeto costumam andar juntos na prática clínica | regra mal-aprendida | Afeto pode estar embotado/incongruente enquanto o humor relatado é outro (ex.: esquizofrenia com afeto embotado e humor referido neutro) — são eixos independentes |
+| Rotular fuga de ideias como "delírio de grandeza" só porque aparecem juntos na mania | Os dois aparecem na mesma vinheta de mania | regra mal-aprendida | Fuga de ideias é alteração de FORMA/curso (associações rápidas e superficiais); grandiosidade é CONTEÚDO — a pergunta pode pedir exatamente qual eixo está sendo descrito |
 
 ## Conduta
 

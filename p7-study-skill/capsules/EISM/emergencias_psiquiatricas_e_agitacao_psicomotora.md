@@ -31,6 +31,15 @@ A contenção segue SEMPRE a ordem do menos para o mais invasivo: **estrutural/a
 
 tranquilização rápida; contenção estrutural/verbal/química/mecânica; sintoma-alvo; via oral/IM/EV; 4 pontos (5º peitoral); retirada <2h; desescalada verbal.
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| priorizar emergência | ordem da contenção (estrutural → verbal → química → mecânica) | sequência | operacional | definitiva antes da inicial | antes de escolher a conduta, escrever as 4 etapas e marcar em qual delas o caso já está |
+| conduta inicial | causa orgânica ainda não descartada (TCE, hipoglicemia, intoxicação) | sinal-achado | operacional | fechamento precoce | checklist obrigatório de causa orgânica antes de aceitar diagnóstico psiquiátrico primário |
+| reconhecer contraindicação | clorpromazina — efeito cardíaco/redução do limiar convulsivo | contraindicação | factual | valor errado | card da contraindicação + 3 casos trocando o fármaco de 1ª linha |
+| diferenciar próximos | história de consumo recente (variável temporal) vs. surto psicótico primário | sinal-achado | operacional | narrativa acima do discriminador | antes de fechar diagnóstico, nomear a variável de exposição que aponta para intoxicação |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -53,11 +62,11 @@ tranquilização rápida; contenção estrutural/verbal/química/mecânica; sint
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Contenção física + haloperidol IM assim que o paciente chega agitado | Parece resolutivo e rápido | Pula as etapas estrutural/verbal — mecânica é último recurso, não conduta inicial |
-| Associar haloperidol + BZD IM de rotina para "potencializar" | Combinação parece mais forte | Não é rotina-padrão; via/fármaco dependem do diagnóstico de base, e a associação aumenta risco sem indicação sistemática |
-| Clorpromazina IM como 1ª escolha por ser antipsicótico "clássico" | Nome familiar, uso histórico | Baixa potência, mais efeitos colaterais cardíacos/convulsivo, IM obrigatoriamente glúteo — não é 1ª linha |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Contenção física + haloperidol IM assim que o paciente chega agitado | Parece resolutivo e rápido | definitiva antes da inicial | Pula as etapas estrutural/verbal — mecânica é último recurso, não conduta inicial |
+| Associar haloperidol + BZD IM de rotina para "potencializar" | Combinação parece mais forte | regra mal-aprendida | Não é rotina-padrão; via/fármaco dependem do diagnóstico de base, e a associação aumenta risco sem indicação sistemática |
+| Clorpromazina IM como 1ª escolha por ser antipsicótico "clássico" | Nome familiar, uso histórico | valor errado | Baixa potência, mais efeitos colaterais cardíacos/convulsivo, IM obrigatoriamente glúteo — não é 1ª linha |
 
 ## Conduta
 

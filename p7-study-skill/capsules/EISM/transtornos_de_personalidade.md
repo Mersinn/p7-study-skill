@@ -48,6 +48,15 @@ grupo A / grupo B / grupo C · esquisitice · impulsividade/manipulação · ans
 caráter × temperamento · padrão egossintônico · padrão persistente e inflexível · TCD (terapia
 comportamental dialética) no borderline
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| reconhecer diagnóstico | padrão comportamental estável desde a adolescência (não episódio agudo/recente) que define o grupo A/B/C | sinal-achado | operacional | narrativa acima do discriminador | pares vinheta traço-adaptativo × transtorno — nomear cronicidade + prejuízo funcional antes de decidir se é TP |
+| diferenciar próximos | desejo de vínculo apesar do desconforto (esquizotípico) × ausência de desejo de vínculo (esquizoide) | sinal-achado | operacional | narrativa acima do discriminador | casos pareados variando só o desejo de se relacionar, forçando nomear a variável antes de escolher o subtipo |
+| aplicar critério | idade mínima de 18 anos para diagnóstico formal, mesmo com traços presentes na infância | limiar | factual | valor errado | card do limiar de 18 anos + 3 vinhetas com adolescente <18 anos exibindo traço marcante |
+| priorizar emergência | risco de auto/heteroagressão em crise borderline antes de qualquer discussão de traço de personalidade | prioridade | operacional | definitiva antes da inicial | script fixo: avaliar risco de suicídio/automutilação antes de abordar manejo crônico do traço |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -75,11 +84,11 @@ comportamental dialética) no borderline
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Diagnosticar TP antissocial em adolescente de 16 anos com condutas dissociais marcantes | O padrão de desrespeito às normas já está presente e é chamativo | Diagnóstico formal de TP exige ≥18 anos; antes disso, o quadro correspondente é transtorno de conduta |
-| Tratar TP borderline com benzodiazepínico de rotina para "controlar a impulsividade" | Parece logicamente calmante | Contraindicado como rotina (abuso, desinibição paradoxal); reservado a crise aguda de ansiedade, com BZD de meia-vida longa |
-| Chamar personalidade histriônica de "narcisista" porque ambos "buscam atenção" | Superficialmente é o mesmo padrão | Histriônica busca atenção via teatralidade/sedução; narcisista busca admiração por grandiosidade, com ausência de empatia como núcleo — mecanismos diferentes |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Diagnosticar TP antissocial em adolescente de 16 anos com condutas dissociais marcantes | O padrão de desrespeito às normas já está presente e é chamativo | valor errado | Diagnóstico formal de TP exige ≥18 anos; antes disso, o quadro correspondente é transtorno de conduta |
+| Tratar TP borderline com benzodiazepínico de rotina para "controlar a impulsividade" | Parece logicamente calmante | regra mal-aprendida | Contraindicado como rotina (abuso, desinibição paradoxal); reservado a crise aguda de ansiedade, com BZD de meia-vida longa |
+| Chamar personalidade histriônica de "narcisista" porque ambos "buscam atenção" | Superficialmente é o mesmo padrão | narrativa acima do discriminador | Histriônica busca atenção via teatralidade/sedução; narcisista busca admiração por grandiosidade, com ausência de empatia como núcleo — mecanismos diferentes |
 
 ## Conduta
 

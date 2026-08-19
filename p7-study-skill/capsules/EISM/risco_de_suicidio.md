@@ -31,6 +31,15 @@ Perguntar sobre suicídio **nunca induz** o comportamento — é a via correta d
 
 4 Ds (Depressão–Desesperança–Desamparo–Desespero); fator de risco modificável x não modificável; notificação compulsória em 24h; internação involuntária; ideação/plano/método/acesso ao meio.
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| priorizar emergência | risco ativo com plano estruturado e acesso ao meio | prioridade | operacional | definitiva antes da inicial | antes de discutir conduta/encaminhamento, forçar a estratificação escrita (ideação, plano, método, acesso, tentativa prévia) |
+| aplicar critério | combinação de ideação+plano+tentativa prévia que define baixo/médio/alto | limiar | operacional | valor errado | 3 vinhetas variando 1 critério por vez, classificando por escrito antes de decidir a conduta |
+| conduta definitiva | internação involuntária só após esgotar convencimento voluntário + risco iminente | contraindicação | operacional | fechamento precoce | script fixo: convencimento voluntário → se falhar e risco iminente → involuntária |
+| conduta inicial | perguntar diretamente sobre suicídio não induz o ato | fato | factual | premissa não checada | card + 3 vinhetas em que o aluno decide se pergunta diretamente antes de agir |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -52,11 +61,11 @@ Perguntar sobre suicídio **nunca induz** o comportamento — é a via correta d
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Não perguntar diretamente sobre suicídio para "não dar a ideia" | Parece cauteloso | Falso — perguntar não induz; deixar de perguntar prejudica a avaliação de risco |
-| Ideação sem plano = baixo risco, liberar | Ausência de plano parece tranquilizador | Só é baixo risco se TODOS os critérios batem (ideias fugazes + sem plano + sem tentativa prévia); ideação mais persistente já é risco médio |
-| Internar involuntariamente diante de qualquer menção a suicídio | Parece a conduta "mais segura" | Internação involuntária é medida de exceção, após esgotar convencimento voluntário e diante de risco iminente |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Não perguntar diretamente sobre suicídio para "não dar a ideia" | Parece cauteloso | premissa não checada | Falso — perguntar não induz; deixar de perguntar prejudica a avaliação de risco |
+| Ideação sem plano = baixo risco, liberar | Ausência de plano parece tranquilizador | valor errado | Só é baixo risco se TODOS os critérios batem (ideias fugazes + sem plano + sem tentativa prévia); ideação mais persistente já é risco médio |
+| Internar involuntariamente diante de qualquer menção a suicídio | Parece a conduta "mais segura" | fechamento precoce | Internação involuntária é medida de exceção, após esgotar convencimento voluntário e diante de risco iminente |
 
 ## Conduta
 

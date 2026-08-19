@@ -47,6 +47,15 @@ virada maníaca · síndrome serotoninérgica · síndrome de descontinuação/a
 sexual · washout · latência de resposta · desregulação serotoninérgica/noradrenérgica/dopaminérgica
 · crise hiperadrenérgica (IMAO+ADT)
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| comparar função | sintoma-alvo (sexual/sedação/peso/energia/dor) que orienta a classe, condicionado ao diagnóstico de base (depressão × ansiedade) | função | operacional | analogia sem validação | dado o mesmo efeito colateral (disfunção sexual), resolver 2 vinhetas trocando só o diagnóstico de base e justificar por que a resposta muda |
+| reconhecer contraindicação | história de mania/hipomania prévia contraindica AD isolado | contraindicacao | factual | premissa não checada | checklist fixo antes de prescrever AD: "houve episódio de humor elevado antes?" |
+| aplicar critério | janela de latência (2–3 sem inicial, 3–4 sem plena) antes de trocar de classe | limiar | factual | fechamento precoce | card de limiar temporal + vinheta de "trocar em 1 semana" para forçar reconhecer a troca prematura |
+| reconhecer contraindicação | qual combinação (IMAO+ISRS/IRSN vs IMAO+ADT) gera qual síndrome (serotoninérgica vs hiperadrenérgica) | contraindicacao | factual | valor errado | flashcard de par combinação→síndrome, revisado em ordem aleatória |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -79,12 +88,12 @@ sexual · washout · latência de resposta · desregulação serotoninérgica/no
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Aumentar a dose do ISRS quando o paciente relata 80% de melhora do humor mas queixa de disfunção sexual | Parece lógico intensificar o que está funcionando | Aumentar a dose piora a disfunção sexual; o correto é associar bupropiona (se a indicação era depressão) |
-| Associar bupropiona em paciente ansioso com boa resposta ao ISRS mas queixa sexual | Parece o mesmo raciocínio do caso da depressão | Bupropiona não age em serotonina e pode piorar a ansiedade; usar buspirona nesse cenário |
-| Trocar de ISRS para outro ISRS após 1 semana sem resposta | Parece razoável "tentar outra droga" | A latência de resposta é de 3–4 semanas; trocar antes desse prazo é erro de manejo |
-| Antidepressivo isolado em paciente com depressão atípica (hiperfagia, hipersonia) e sem investigar mania prévia | O paciente está claramente deprimido | Depressão atípica é sinal de alerta para bipolaridade; AD isolado em bipolar não reconhecido pode causar virada maníaca |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Aumentar a dose do ISRS quando o paciente relata 80% de melhora do humor mas queixa de disfunção sexual | Parece lógico intensificar o que está funcionando | regra mal-aprendida | Aumentar a dose piora a disfunção sexual; o correto é associar bupropiona (se a indicação era depressão) |
+| Associar bupropiona em paciente ansioso com boa resposta ao ISRS mas queixa sexual | Parece o mesmo raciocínio do caso da depressão | analogia sem validação | Bupropiona não age em serotonina e pode piorar a ansiedade; usar buspirona nesse cenário |
+| Trocar de ISRS para outro ISRS após 1 semana sem resposta | Parece razoável "tentar outra droga" | fechamento precoce | A latência de resposta é de 3–4 semanas; trocar antes desse prazo é erro de manejo |
+| Antidepressivo isolado em paciente com depressão atípica (hiperfagia, hipersonia) e sem investigar mania prévia | O paciente está claramente deprimido | premissa não checada | Depressão atípica é sinal de alerta para bipolaridade; AD isolado em bipolar não reconhecido pode causar virada maníaca |
 
 ## Conduta
 

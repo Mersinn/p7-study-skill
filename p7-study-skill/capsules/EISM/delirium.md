@@ -31,6 +31,15 @@ Em idoso com alteração aguda de comportamento, delirium é a hipótese até pr
 
 CAM (Confusion Assessment Method); flutuação; consciência qualitativamente rebaixada; sundowning; hipoativo/hiperativo/misto; F05; delirium ≠ delírio.
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| diferenciar próximos | início agudo+flutuação de consciência (delirium) vs. curso insidioso estável (demência) | sinal-achado | operacional | narrativa acima do discriminador | card de diferenciação delirium x demência nos 4 eixos + 3 vinhetas no limite |
+| reconhecer contraindicação | etiologia = abstinência alcoólica muda BZD de contraindicado para indicado | contraindicação | operacional | regra mal-aprendida | antes de excluir BZD, checar explicitamente se a causa é abstinência alcoólica |
+| conduta inicial | causa orgânica subjacente ainda não identificada/tratada | sequência | operacional | definitiva antes da inicial | checklist obrigatório de causa orgânica antes de aceitar conduta de sedação |
+| aplicar critério | regra CAM: 1 + 2 + (3 ou 4) | limiar | factual | valor errado | card do CAM + 3 casos aplicando a regra literal |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -53,11 +62,11 @@ CAM (Confusion Assessment Method); flutuação; consciência qualitativamente re
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Idoso agitado à noite com alteração aguda de comportamento = demência descompensada, iniciar antipsicótico e observar | Idoso + confusão sugere demência | Delirium é a hipótese até prova em contrário — investigar causa orgânica (ITU, distúrbio metabólico, iatrogenia) antes de só medicar |
-| Delirium muito agitado: associar BZD ao haloperidol para reforçar a sedação | BZD é sedativo "clássico" | BZD é contraindicado no delirium fora do contexto de abstinência alcoólica — piora o déficit cognitivo |
-| Delirium hipoativo tem melhor prognóstico porque o paciente não agride | Menos agitação parece mais seguro | Hipoativo tem PIOR prognóstico — maior atraso diagnóstico e maior mortalidade |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Idoso agitado à noite com alteração aguda de comportamento = demência descompensada, iniciar antipsicótico e observar | Idoso + confusão sugere demência | narrativa acima do discriminador | Delirium é a hipótese até prova em contrário — investigar causa orgânica (ITU, distúrbio metabólico, iatrogenia) antes de só medicar |
+| Delirium muito agitado: associar BZD ao haloperidol para reforçar a sedação | BZD é sedativo "clássico" | regra mal-aprendida | BZD é contraindicado no delirium fora do contexto de abstinência alcoólica — piora o déficit cognitivo |
+| Delirium hipoativo tem melhor prognóstico porque o paciente não agride | Menos agitação parece mais seguro | valor errado | Hipoativo tem PIOR prognóstico — maior atraso diagnóstico e maior mortalidade |
 
 ## Conduta
 

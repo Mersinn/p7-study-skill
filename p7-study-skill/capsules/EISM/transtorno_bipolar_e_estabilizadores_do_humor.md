@@ -46,6 +46,15 @@ litemia · ciclagem rápida · virada maníaca · episódio misto · mania eufó
 hipomania · monoterapia com antidepressivo (proibida) · nefropata → não lítio · hepatopata → não
 valproato · síndrome de Stevens-Johnson (lamotrigina/carbamazepina)
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| aplicar critério | litemia-alvo por fase (aguda 0,8–1,2; manutenção ≥0,6) e degraus de diálise (>6,0/>4,0/2,5–4,0) | limiar | factual | valor errado | card de limiar + 3 vinhetas de litemia no valor exato do corte (6,0 vs 4,0 vs 2,5) |
+| reconhecer contraindicação | qual comorbidade contraindica qual estabilizador (nefropatia→não lítio; hepatopatia→não valproato) | contraindicacao | factual | valor errado | flashcard de par comorbidade→fármaco contraindicado, revisado em ordem aleatória (nunca lista única) |
+| diferenciar próximos | história pregressa de mania (mesmo remota) fecha tipo I, mesmo com quadro atual só depressivo | sinal-achado | operacional | narrativa acima do discriminador | antes de classificar, perguntar por escrito "já houve UM episódio de mania em qualquer momento da vida?", ignorando o quadro do dia |
+| reconhecer contraindicação | antidepressivo isolado em bipolar exige associação a estabilizador/antipsicótico (risco de virada) | contraindicacao | operacional | regra mal-aprendida | antes de tratar "depressão", checar se há diagnóstico de base bipolar — nunca aplicar a regra "deprimido = AD" sem essa checagem |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -80,12 +89,12 @@ valproato · síndrome de Stevens-Johnson (lamotrigina/carbamazepina)
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Antidepressivo isolado para depressão bipolar | "O paciente está deprimido, trate a depressão" | Sem associação a estabilizador/antipsicótico atípico, risco de virada maníaca ou não-resposta |
-| Lamotrigina para tirar paciente da mania aguda | Parece um "estabilizador do humor" genérico | Lamotrigina não tem eficácia relevante na mania — serve para prevenir/tratar depressão |
-| Lítio em paciente com insuficiência renal | É o padrão-ouro do transtorno bipolar | Contraindicado em insuficiência renal — trocar por valproato |
-| Valproato em paciente hepatopata | É eficaz e rápido na mania aguda | Contraindicado em hepatopatia — trocar por lítio |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Antidepressivo isolado para depressão bipolar | "O paciente está deprimido, trate a depressão" | regra mal-aprendida | Sem associação a estabilizador/antipsicótico atípico, risco de virada maníaca ou não-resposta |
+| Lamotrigina para tirar paciente da mania aguda | Parece um "estabilizador do humor" genérico | analogia sem validação | Lamotrigina não tem eficácia relevante na mania — serve para prevenir/tratar depressão |
+| Lítio em paciente com insuficiência renal | É o padrão-ouro do transtorno bipolar | premissa não checada | Contraindicado em insuficiência renal — trocar por valproato |
+| Valproato em paciente hepatopata | É eficaz e rápido na mania aguda | valor errado | Contraindicado em hepatopatia — trocar por lítio |
 
 ## Conduta
 

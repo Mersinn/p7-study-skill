@@ -43,6 +43,14 @@ ansiedade de separação · figura de apego · recusa escolar · dislexia / disg
 retardo mental leve/moderado/grave/profundo (conhecimento geral) · Tourette = tique motor + vocal ·
 TEA diagnosticado por DSM-5, não CID-10 (no contexto desta fonte)
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| reconhecer diagnóstico | medo centrado na separação de figura de apego + sintomas somáticos situacionais (não ansiedade generalizada) | sinal-achado | operacional | narrativa acima do discriminador | vinheta de criança com recusa escolar — nomear o gatilho (separação × outro) antes de fechar diagnóstico |
+| aplicar critério | Tourette exige tique motor E tique vocal simultâneos, não um isolado | fato | factual | valor errado | card "Tourette = motor + vocal" + 3 casos com tique isolado (não fecha Tourette) |
+| diferenciar próximos | qual habilidade acadêmica é afetada define dislexia (leitura) × disgrafia (escrita) × discalculia (matemática) | sinal-achado | factual | lacuna | card com os 3 subtipos e a habilidade afetada por cada um, revisado antes de qualquer vinheta de baixo rendimento escolar |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -62,10 +70,10 @@ TEA diagnosticado por DSM-5, não CID-10 (no contexto desta fonte)
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Diagnosticar TDAH em criança com queixa restrita à escola | O relato do professor parece objetivo e confiável | Critério exige prejuízo em mais de um ambiente (ver cápsula "tdah") |
-| Rotular qualquer tique isolado como Tourette | Tique é o sintoma mais chamativo do quadro | Tourette exige tique motor E vocal — tique isolado é outro diagnóstico (transtorno de tique transitório/persistente) |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Diagnosticar TDAH em criança com queixa restrita à escola | O relato do professor parece objetivo e confiável | fechamento precoce | Critério exige prejuízo em mais de um ambiente (ver cápsula "tdah") |
+| Rotular qualquer tique isolado como Tourette | Tique é o sintoma mais chamativo do quadro | regra mal-aprendida | Tourette exige tique motor E vocal — tique isolado é outro diagnóstico (transtorno de tique transitório/persistente) |
 
 ## Conduta
 

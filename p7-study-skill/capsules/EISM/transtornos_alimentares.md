@@ -45,6 +45,14 @@ tirania da magreza · distorção da imagem corporal · restritivo × purgativo 
 compensatório · amenorreia (achado clínico, não é mais critério DSM-5) · síndrome de realimentação
 (conhecimento geral) · comorbidade com TP borderline
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| aplicar critério | os 8 critérios objetivos de internação (peso, hipocalemia, bradicardia/arritmia, HDA, ideação suicida, falha ambulatorial, ambiente comprometido) | limiar | factual | valor errado | card dos 8 critérios de internação + 3 vinhetas no limite do peso (71% × 76% do IMC esperado) |
+| diferenciar próximos | intenção (quer emagrecer × só não quer engordar) + peso resultante (AN <85% × BN 90-110% do IMC) discrimina AN de BN | sinal-achado | operacional | narrativa acima do discriminador | pares de vinheta variando só peso final e comportamento compensatório, nomeando a variável antes de escolher o diagnóstico |
+| identificar complicação | velocidade da reintrodução calórica em paciente gravemente desnutrida define o risco de síndrome de realimentação | sinal-achado | operacional | premissa não checada | antes de prescrever a dieta de internação, checar por escrito se há desnutrição grave prévia que exige reintrodução gradual |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -74,11 +82,11 @@ compensatório · amenorreia (achado clínico, não é mais critério DSM-5) · 
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Excluir bulimia nervosa porque a paciente tem IMC normal | "Transtorno alimentar" soa associado a baixo peso | Peso normal a aumentado (90-110% do IMC) é justamente o esperado na bulimia — baixo peso é da anorexia |
-| Diagnosticar anorexia purgativa em vez de bulimia só porque há vômitos autoinduzidos | Purgação está presente em ambos os quadros | O critério decisivo é o peso corporal e a intenção — peso muito baixo + purgação = anorexia purgativa; peso normal + compulsão + purgação = bulimia |
-| Iniciar dieta hipercalórica agressiva em paciente gravemente desnutrida internada, "para recuperar peso rápido" | Parece a conduta nutricional urgente e lógica | Realimentação agressiva em desnutrição grave tem risco de síndrome de realimentação; a reintrodução calórica deve ser gradual e monitorada |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Excluir bulimia nervosa porque a paciente tem IMC normal | "Transtorno alimentar" soa associado a baixo peso | regra mal-aprendida | Peso normal a aumentado (90-110% do IMC) é justamente o esperado na bulimia — baixo peso é da anorexia |
+| Diagnosticar anorexia purgativa em vez de bulimia só porque há vômitos autoinduzidos | Purgação está presente em ambos os quadros | narrativa acima do discriminador | O critério decisivo é o peso corporal e a intenção — peso muito baixo + purgação = anorexia purgativa; peso normal + compulsão + purgação = bulimia |
+| Iniciar dieta hipercalórica agressiva em paciente gravemente desnutrida internada, "para recuperar peso rápido" | Parece a conduta nutricional urgente e lógica | premissa não checada | Realimentação agressiva em desnutrição grave tem risco de síndrome de realimentação; a reintrodução calórica deve ser gradual e monitorada |
 
 ## Conduta
 

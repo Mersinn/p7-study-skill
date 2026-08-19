@@ -49,6 +49,15 @@ tuberoinfundibular · hipótese dopaminérgica · afrouxamento de associações 
 avolição · delírio persecutório · esquizofrenia paranoide/hebefrênica/catatônica/residual ·
 distonia aguda · síndrome parkinsonoide · acatisia
 
+## Operação × movimento
+
+| Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
+|---|---|---|---|---|---|
+| aplicar critério | ≥2 de 5 sintomas do Critério A, com sinais contínuos ≥6 meses (incl. ≥1 mês de fase ativa) | limiar | factual | valor errado | card de limiar (contar meses) + 3 vinhetas no corte de 1/6 meses |
+| diferenciar próximos | duração total dos sintomas (<1 mês / 1–6 meses / ≥6 meses) | limiar | operacional | premissa não checada | antes de responder, escrever o tempo total do enunciado e localizar no eixo <1/1-6/≥6 meses |
+| comparar função | via mesolímbica (sintoma positivo) x mesocortical (sintoma negativo) | função | factual | regra mal-aprendida | tabela lado a lado das 4 vias dopaminérgicas com efeito clínico, revisada ativamente |
+| conduta definitiva | refratariedade após falha de ≥2 antipsicóticos em dose/tempo adequados | limiar | operacional | fechamento precoce | checklist: quantos antipsicóticos falharam, em dose e tempo adequados, antes de indicar clozapina |
+
 ## Dados de precisão
 
 | Dado | Valor | Fonte (página) | Status |
@@ -76,10 +85,10 @@ Nota: doses de haloperidol/risperidona/olanzapina pertencem à cápsula "Antipsi
 
 ## Distratores sedutores
 
-| Distrator | Por que seduz | Por que erra |
-|---|---|---|
-| Antipsicótico típico em dose alta para sintomas negativos predominantes | Parece lógico "aumentar a força" do remédio | Típico só bloqueia D2 na via mesolímbica; não repõe dopamina na mesocortical — não trata negativo, só aumenta SEP |
-| Diagnosticar esquizofrenia em paciente de 65 anos com 1º episódio psicótico | Tem alucinação e delírio, "parece" esquizofrenia | Início >60 anos é raro para esquizofrenia primária — prioridade é descartar causa orgânica |
+| Distrator | Por que seduz | Movimento que sugere | Por que erra |
+|---|---|---|---|
+| Antipsicótico típico em dose alta para sintomas negativos predominantes | Parece lógico "aumentar a força" do remédio | regra mal-aprendida | Típico só bloqueia D2 na via mesolímbica; não repõe dopamina na mesocortical — não trata negativo, só aumenta SEP |
+| Diagnosticar esquizofrenia em paciente de 65 anos com 1º episódio psicótico | Tem alucinação e delírio, "parece" esquizofrenia | narrativa acima do discriminador | Início >60 anos é raro para esquizofrenia primária — prioridade é descartar causa orgânica |
 
 ## Conduta
 
