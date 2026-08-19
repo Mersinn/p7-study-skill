@@ -10,7 +10,7 @@ Isso não é duplicata a eliminar: é vínculo a declarar.
 
 | Cadeira | O ângulo dela sobre o mesmo tema |
 |---|---|
-| **EISA_II · Farmacologia** | mecanismo, classe, farmacocinética, dose, efeito adverso, interação, escolha entre agentes |
+| **FARMACOLOGIA** | mecanismo, classe, farmacocinética, dose, efeito adverso, interação, escolha entre agentes |
 | **EISA_II** | a doença do adulto: diagnóstico, estadiamento, conduta inicial × definitiva |
 | **EISM** | o transtorno: critério diagnóstico, quadro, e o psicofármaco *dentro* da conduta |
 | **EISCA** | a criança: dose por peso, particularidade etária, o que muda em relação ao adulto |
@@ -368,8 +368,8 @@ Consequências operacionais para a skill:
 ### Diarreia aguda, desidratação e terapia de reidratação (Planos A, B e C)
 *cadeira primária:* **EISCA**
 
-- ↔ **CASOS_CLINICOS**: Abordagem à diarreia aguda e crônica — diagnóstico diferencial e investigação  _(fonte compartilhada)_
 - ↔ **CASOS_CLINICOS**: Abordagem à diarreia aguda e crônica — diagnóstico diferencial e investigação  _(mesmo objeto clínico)_
+- ↔ **CASOS_CLINICOS**: Abordagem à diarreia aguda e crônica — diagnóstico diferencial e investigação  _(fonte compartilhada)_
 - ↔ **OSCE**: OSCE Pediatria — pneumonia, asma, diarreia com desidratação, aleitamento materno e assistência ao recém-nascido  _(fonte compartilhada)_
 - ↔ **OSCE**: OSCE Pediatria — pneumonia, asma, diarreia com desidratação, aleitamento materno e assistência ao recém-nascido  _(mesmo objeto clínico)_
 
@@ -459,8 +459,8 @@ Consequências operacionais para a skill:
 *cadeira primária:* **OSCE**
 
 - ↔ **CASOS_CLINICOS**: Ganho de peso, obesidade e síndrome metabólica — avaliação e tratamento  _(fonte compartilhada)_
-- ↔ **CASOS_CLINICOS**: Tireoidopatias em caso clínico — hipotireoidismo, nódulo tireoidiano e conduta de PAAF  _(fonte compartilhada)_
 - ↔ **CASOS_CLINICOS**: Tireoidopatias em caso clínico — hipotireoidismo, nódulo tireoidiano e conduta de PAAF  _(mesmo objeto clínico)_
+- ↔ **CASOS_CLINICOS**: Tireoidopatias em caso clínico — hipotireoidismo, nódulo tireoidiano e conduta de PAAF  _(fonte compartilhada)_
 - ↔ **EISA_II**: Diabetes mellitus gestacional  _(mesmo objeto clínico)_
 - ↔ **EISA_II**: Diabetes mellitus: conceito, classificação e diagnóstico  _(mesmo objeto clínico)_
 - ↔ **EISA_II**: Diabetes: complicações agudas e crônicas (CAD, EHH, hipoglicemia)  _(mesmo objeto clínico)_

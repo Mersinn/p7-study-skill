@@ -14,7 +14,7 @@ O que a skill sabe que NAO cobre bem. Consultar antes de prometer cobertura.
 
 ## Temas com fonte fraca ou ausente
 
-18 de 162 temas.
+17 de 161 temas.
 
 - **Fraqueza muscular — miastenia gravis, polimiosite e diagnóstico diferencial** (CASOS_CLINICOS) — fonte fraca, risco medio
 - **Icterícia e interpretação das provas de função hepática** (CASOS_CLINICOS) — fonte fraca, risco medio
@@ -33,7 +33,6 @@ O que a skill sabe que NAO cobre bem. Consultar antes de prometer cobertura.
 - **Tumores do sistema nervoso central na infância** (EISCA) — fonte fraca, risco alto
 - **Eletroconvulsoterapia (ECT)** (EISM) — fonte fraca, risco medio
 - **Psiquiatria da Infância e Adolescência (ansiedade de separação, transtornos de aprendizagem, deficiência intelectual, Tourette)** (EISM) — fonte ausente, risco medio
-- **Saúde Mental — conteúdo integral do compilado RESUmed (não lido)** (EISM) — fonte fraca, risco medio
 
 ## Conflitos ainda abertos
 

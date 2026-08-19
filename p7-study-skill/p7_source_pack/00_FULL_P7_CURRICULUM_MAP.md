@@ -1,6 +1,6 @@
 # MAPA CURRICULAR COMPLETO — P7
 
-162 temas canonicos sobre 355 fontes indexadas.
+161 temas canonicos sobre 354 fontes indexadas.
 
 Legenda de forca: **forte** fonte dedicada · **media** parcial/resumo ·
 **fraca** so mencao ou escaneada nao lida · **ausente** sem arquivo.
@@ -456,7 +456,7 @@ Legenda de forca: **forte** fonte dedicada · **media** parcial/resumo ·
 |---|---|---|---|---|---|
 | Pneumonia adquirida na comunidade na infância | IV_UNIDADE | alta | forte | alto | — |
 
-## EISM  (25 temas)
+## EISM  (24 temas)
 
 ### Farmacologia / Psiquiatria  (1)
 
@@ -472,7 +472,7 @@ Legenda de forca: **forte** fonte dedicada · **media** parcial/resumo ·
 | Antidepressivos (farmacologia: IMAO, ADT, ISRS, IRSN, moduladores 5-HT, IRND) | I_UNIDADE | alta | forte | alto | sim |
 | Antipsicóticos, Sintomas Extrapiramidais e Síndrome Neuroléptica Maligna | II_UNIDADE | alta | forte | alto | sim |
 
-### Psiquiatria  (20)
+### Psiquiatria  (19)
 
 | Tema | Un. | Prior. | Fonte | Risco | Cai? |
 |---|---|---|---|---|---|
@@ -489,7 +489,6 @@ Legenda de forca: **forte** fonte dedicada · **media** parcial/resumo ·
 | Transtornos por Uso de Substâncias (álcool e outras drogas) | III_UNIDADE | alta | forte | alto | sim |
 | Eletroconvulsoterapia (ECT) | A_DEFINIR | media | fraca | medio | sim |
 | Psiquiatria da Infância e Adolescência (ansiedade de separação, transtornos de aprendizagem, deficiência intelectual, Tourette) | A_DEFINIR | media | ausente | medio | sim |
-| Saúde Mental — conteúdo integral do compilado RESUmed (não lido) | A_DEFINIR | media | fraca | medio | — |
 | Sexualidade Humana e Disfunções Sexuais | A_DEFINIR | baixa | media | baixo | — |
 | TDAH — Transtorno de Déficit de Atenção e Hiperatividade | A_DEFINIR | media | media | medio | sim |
 | TEPT e TEA (Transtorno de Estresse Pós-Traumático e Transtorno do Espectro Autista) | A_DEFINIR | media | media | medio | sim |

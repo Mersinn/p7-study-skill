@@ -168,12 +168,11 @@ Responde: o que cai na unidade X da disciplina Y.
 - Semiologia e classificação do recém-nascido
 - Semiologia pediátrica (antropometria, sinais vitais por faixa etária, exame segmentar, sinais meníngeos)
 
-### EISM — A_DEFINIR  (10 temas)
+### EISM — A_DEFINIR  (9 temas)
 
 - Eletroconvulsoterapia (ECT)
 - Introdução à Psiquiatria e Psicopatologia (funções psíquicas e suas alterações)
 - Psiquiatria da Infância e Adolescência (ansiedade de separação, transtornos de aprendizagem, deficiência intelectual, Tourette)
-- Saúde Mental — conteúdo integral do compilado RESUmed (não lido)
 - Sexualidade Humana e Disfunções Sexuais
 - TDAH — Transtorno de Déficit de Atenção e Hiperatividade
 - TEPT e TEA (Transtorno de Estresse Pós-Traumático e Transtorno do Espectro Autista)

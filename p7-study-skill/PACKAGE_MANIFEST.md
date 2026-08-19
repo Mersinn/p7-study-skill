@@ -2,21 +2,38 @@
 
 Inventário verificável do pacote. `sha256` truncado em 12 caracteres.
 
-- arquivos: **132**
-- cápsulas: **99**
-- bytes: **1,836,385**
+- arquivos: **176**
+- cápsulas: **143**
+- bytes: **2,445,144**
 
 ## Arquivos
 
 | arquivo | bytes | sha256 |
 |---|---|---|
+| `PACKAGE_MANIFEST.md` | 10486 | `142b7a7209a7` |
 | `README_INSTALL.md` | 4094 | `d6ba7d7c7366` |
 | `SKILL.md` | 19675 | `ace8cf46fab6` |
 | `VERSION` | 25 | `99099d2bb9e4` |
 | `capsule_generation/CAPSULE_GENERATION_POLICY.md` | 6903 | `b0dadde6325e` |
 | `capsule_generation/CAPSULE_REVIEW_CHECKLIST.md` | 2610 | `785a2e53a709` |
 | `capsule_generation/CAPSULE_TEMPLATE.md` | 1971 | `63bf5c6c3629` |
-| `capsules/CAPSULE_INDEX.md` | 14934 | `c1136c81d7f9` |
+| `capsules/CAPSULE_INDEX.md` | 26994 | `11f110689ecb` |
+| `capsules/CASOS_CLINICOS/abordagem_a_dispneia.md` | 13109 | `0ccae36f973a` |
+| `capsules/CASOS_CLINICOS/abordagem_diarreia_aguda_cronica.md` | 16417 | `a0dc3910373a` |
+| `capsules/CASOS_CLINICOS/cefaleias_classificacao_sinais_alarme.md` | 15899 | `1df243c1fd0a` |
+| `capsules/CASOS_CLINICOS/cirrose_hepatica_ascite_pbe.md` | 15559 | `232b139103c6` |
+| `capsules/CASOS_CLINICOS/doenca_celiaca.md` | 12431 | `aef15f67f71a` |
+| `capsules/CASOS_CLINICOS/doenca_inflamatoria_intestinal_crohn_versus_retocolite_ulcerativa.md` | 13088 | `ca5b02d93dca` |
+| `capsules/CASOS_CLINICOS/formato_avaliacao_discussao_casos_clinicos.md` | 10250 | `56d8f512ab71` |
+| `capsules/CASOS_CLINICOS/fraqueza_muscular_miastenia_polimiosite.md` | 17539 | `e27bff442e8e` |
+| `capsules/CASOS_CLINICOS/ganho_de_peso_obesidade_e_sindrome_metabolica.md` | 14648 | `8ef8114fff90` |
+| `capsules/CASOS_CLINICOS/hemorragia_subaracnoide_hipertensao_intracraniana.md` | 17062 | `fa5a0d0ab1c9` |
+| `capsules/CASOS_CLINICOS/icetericia_e_interpretacao_das_provas_de_funcao_hepatica.md` | 12656 | `16309691d837` |
+| `capsules/CASOS_CLINICOS/sindrome_do_intestino_irritavel.md` | 10705 | `d081daffe9b8` |
+| `capsules/CASOS_CLINICOS/tireoidopatias_hipotireoidismo_nodulo_e_paaf.md` | 15154 | `9ec7c86c3714` |
+| `capsules/CASOS_CLINICOS/tontura_vertigem_vppb_dix_hallpike.md` | 16342 | `65bd94b12c79` |
+| `capsules/EISA_II/anatomia_osso_temporal_e_audicao.md` | 12459 | `3a2b79c23170` |
+| `capsules/EISA_II/anticonvulsivantes_gestacao.md` | 11060 | `7242c232f14b` |
 | `capsules/EISA_II/avaliacao_laboratorial_em_nefrologia.md` | 15292 | `03ec1c6c7efc` |
 | `capsules/EISA_II/avaliacao_por_imagem_em_nefrologia.md` | 15058 | `e91235549056` |
 | `capsules/EISA_II/avc_hemorragico.md` | 13929 | `eaf0753b6c4e` |
@@ -37,6 +54,8 @@ Inventário verificável do pacote. `sha256` truncado em 12 caracteres.
 | `capsules/EISA_II/disturbios_do_movimento.md` | 13499 | `e3ad30bbcb5d` |
 | `capsules/EISA_II/doenca_renal_cronica_drc.md` | 13677 | `6d4df3d76f43` |
 | `capsules/EISA_II/doenca_renal_na_gestacao.md` | 14776 | `53d5a5d7d908` |
+| `capsules/EISA_II/doencas_cisticas_renais.md` | 10631 | `e89c1847cf20` |
+| `capsules/EISA_II/doencas_da_orelha_externa.md` | 12094 | `5abe1ac0b3d7` |
 | `capsules/EISA_II/doencas_neuromusculares.md` | 17846 | `2540782689d7` |
 | `capsules/EISA_II/doencas_oculares_em_endocrinologia_oftalmopatia_de_graves_e_retinopatia_diabetica.md` | 18788 | `776f407d2ba1` |
 | `capsules/EISA_II/doencas_paratireoides_hiperparatireoidismo_osteoporose.md` | 15613 | `3d3ecebb8c1d` |
@@ -71,24 +90,50 @@ Inventário verificável do pacote. `sha256` truncado em 12 caracteres.
 | `capsules/EISA_II/manejo_clinico_ambulatorial_do_dm.md` | 17037 | `776f38ebec16` |
 | `capsules/EISA_II/nefropatia_diabetica.md` | 14827 | `f3bbff32bf5c` |
 | `capsules/EISA_II/neoplasia_vesical.md` | 17751 | `c034a7996b21` |
+| `capsules/EISA_II/neuroftalmologia.md` | 13873 | `c5530f259008` |
 | `capsules/EISA_II/neuroinfeccoes.md` | 15573 | `818b0e48638a` |
 | `capsules/EISA_II/nodulos_tireoidianos_e_cancer_de_tireoide.md` | 19304 | `c6ebd582666d` |
 | `capsules/EISA_II/obesidade_e_sindrome_metabolica.md` | 15253 | `2640028c2c05` |
+| `capsules/EISA_II/otites_aguda_cronica_externa.md` | 13706 | `b9d86829d03a` |
+| `capsules/EISA_II/patologia_cancer_de_tireoide.md` | 12760 | `7b0a0f31fc3b` |
 | `capsules/EISA_II/patologias_penianas_e_escrotais.md` | 16805 | `6b68d5ef2605` |
 | `capsules/EISA_II/pe_diabetico.md` | 15915 | `a4ff531b0e26` |
+| `capsules/EISA_II/sarcoma_de_partes_moles.md` | 11405 | `45de2f5ab2a1` |
+| `capsules/EISA_II/surdez_e_vertigem.md` | 10063 | `282d26d2b326` |
 | `capsules/EISA_II/terapia_renal_substitutiva.md` | 14186 | `bbffec41f38c` |
 | `capsules/EISA_II/trauma_urogenital.md` | 17954 | `49bcdff11873` |
 | `capsules/EISA_II/traumatismo_cranioencefalico.md` | 14376 | `569b334d891d` |
+| `capsules/EISA_II/tumores_do_sistema_nervoso_central.md` | 12863 | `deabab6a2fdd` |
 | `capsules/EISA_II/tumores_renais_e_carcinoma_de_celulas_renais.md` | 13652 | `7a0383781eb9` |
 | `capsules/EISA_II/urologia_feminina_infeccao_urinaria_e_incontinencia.md` | 17175 | `8ad6531f4171` |
+| `capsules/EISCA/anemia_ferropriva.md` | 12379 | `e1331741d48a` |
+| `capsules/EISCA/assistencia_rn_sala_parto_reanimacao_neonatal.md` | 13760 | `44103f2d0a53` |
+| `capsules/EISCA/bronquiolite_viral_aguda.md` | 11368 | `215cb19c48ab` |
+| `capsules/EISCA/cardiopatias_congenitas.md` | 15620 | `198d04106d69` |
 | `capsules/EISCA/convulsao_febril.md` | 14553 | `f95e4ed405bb` |
+| `capsules/EISCA/diagnostico_diferencial_das_anemias_na_infancia.md` | 11299 | `2d4d10c8353c` |
+| `capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md` | 15069 | `860f5a96c301` |
+| `capsules/EISCA/doenca_hemolitica_perinatal_rh_abo.md` | 12647 | `093f305bea45` |
 | `capsules/EISCA/doencas_exantematicas.md` | 14747 | `f226e34b45f9` |
 | `capsules/EISCA/faringoamigdalite_estreptococica_escarlatina.md` | 11719 | `910ab10be4e3` |
+| `capsules/EISCA/febre_reumatica.md` | 12080 | `22e853f2cd7c` |
+| `capsules/EISCA/hemoglobinopatias_talassemias_doenca_falciforme.md` | 13695 | `a66cf92cc143` |
+| `capsules/EISCA/ictericia_neonatal_hiperbilirrubinemia_indireta.md` | 13993 | `7e131b24d977` |
+| `capsules/EISCA/imunizacoes_calendario_vacinal_imunizacao_ativa_e_passiva.md` | 12141 | `74f2acdb8707` |
 | `capsules/EISCA/infeccao_do_trato_urinario_na_infancia.md` | 22786 | `131cbacfd30a` |
 | `capsules/EISCA/interpretacao_hemograma_e_coagulacao.md` | 13182 | `d8fe6cb09191` |
+| `capsules/EISCA/leucemias_agudas_na_infancia.md` | 11216 | `9e6db65d5f38` |
 | `capsules/EISCA/meningites_na_crianca.md` | 20163 | `62f76ec717dc` |
+| `capsules/EISCA/neuroblastoma.md` | 16210 | `fdc6b79479f3` |
+| `capsules/EISCA/obesidade_na_infancia_e_adolescencia.md` | 11955 | `4814c2c116ee` |
 | `capsules/EISCA/obstrucao_via_aerea_alta_crupe_epiglotite.md` | 11465 | `a8722ab98ccf` |
+| `capsules/EISCA/osteossarcoma.md` | 15296 | `414323afd24c` |
+| `capsules/EISCA/otite_media_aguda_e_rinossinusite_na_infancia.md` | 12191 | `e94f360838c7` |
+| `capsules/EISCA/parasitoses_intestinais.md` | 11861 | `40ce4e7d6e73` |
+| `capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md` | 11068 | `b5adfe1249eb` |
 | `capsules/EISCA/rinofaringite_aguda_resfriado_comum_e_gripe.md` | 15964 | `c5ab0913c12f` |
+| `capsules/EISCA/sepse_e_meningite_neonatal.md` | 14972 | `3686a582a1d5` |
+| `capsules/EISCA/tumor_de_wilms.md` | 16191 | `404474617f12` |
 | `capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md` | 8905 | `d084fbe79d11` |
 | `capsules/EISM/ansioliticos_e_hipnoticos.md` | 8713 | `ea43bfedbeb9` |
 | `capsules/EISM/antidepressivos.md` | 9455 | `6c9590cc01fa` |
@@ -116,19 +161,18 @@ Inventário verificável do pacote. `sha256` truncado em 12 caracteres.
 | `capsules/OSCE/formato_roteiro_osce_p7.md` | 12851 | `60f368724c3a` |
 | `capsules/OSCE/osce_endocrinologia.md` | 15236 | `4acee815c0c7` |
 | `capsules/OSCE/osce_nefrologia.md` | 15398 | `f34d7c6585ed` |
-| `p7_source_pack/00_ATOMIC_THEME_INDEX.csv` | 115094 | `d5961bc77a81` |
+| `p7_source_pack/00_ATOMIC_THEME_INDEX.csv` | 114524 | `ae61d921f485` |
 | `p7_source_pack/00_CALENDARIO_2026_2.md` | 9139 | `e1c32f4b6d66` |
-| `p7_source_pack/00_CAPSULE_PLAN.md` | 88 | `7b7801386263` |
-| `p7_source_pack/00_COVERAGE_GAPS.md` | 28783 | `c2de4dd75e88` |
+| `p7_source_pack/00_COVERAGE_GAPS.md` | 28670 | `da8b00f9151e` |
 | `p7_source_pack/00_EXAM_BLUEPRINT.md` | 32531 | `bb112eb65e02` |
 | `p7_source_pack/00_EXAM_EVIDENCE/DEVOLUTIVAS_INDEX.md` | 5285 | `d589d0858fcb` |
 | `p7_source_pack/00_EXAM_EVIDENCE/PROVAS_ANTIGAS_INDEX.md` | 3863 | `09fc2c35cd14` |
-| `p7_source_pack/00_FULL_P7_CURRICULUM_MAP.md` | 25583 | `83f2bc53b128` |
-| `p7_source_pack/00_INTERLIGACOES.md` | 31855 | `782873a97320` |
+| `p7_source_pack/00_FULL_P7_CURRICULUM_MAP.md` | 25466 | `1b97e9a4feaf` |
+| `p7_source_pack/00_INTERLIGACOES.md` | 32357 | `c9aed9420994` |
 | `p7_source_pack/00_MAPA_OPERACAO_MOVIMENTO.md` | 58216 | `52c74249df94` |
-| `p7_source_pack/00_SOURCE_MANIFEST.csv` | 72626 | `fb300bfe39b5` |
+| `p7_source_pack/00_SOURCE_MANIFEST.csv` | 72515 | `3b5fd6c8d993` |
 | `p7_source_pack/00_TAXONOMY_AXIS.md` | 2113 | `b9e15b14ec8f` |
-| `p7_source_pack/00_UNIT_TOPIC_MAP.md` | 10123 | `f0e3bc4a61bf` |
+| `p7_source_pack/00_UNIT_TOPIC_MAP.md` | 10049 | `3163c6deb9de` |
 | `references/ADHD_AND_TOKEN_POLICY.md` | 3558 | `4716c238d9fb` |
 | `references/AULA_VIVA.md` | 5053 | `cae5db718ef9` |
 | `references/CASE_OSCE_TUTOR.md` | 5144 | `2e8c2bac205c` |
