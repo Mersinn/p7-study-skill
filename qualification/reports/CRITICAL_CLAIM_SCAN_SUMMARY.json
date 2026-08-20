@@ -2,7 +2,7 @@
   "capsules_high_risk": 105,
   "capsules_high_risk_with_zero_registered_claims": 93,
   "capsules_scanned": 158,
-  "claims_registered": 46,
+  "claims_registered": 48,
   "denominator_by_category": {
     "calendario_regra_jurisdicional": 29,
     "contraindicacao_interacao": 345,
@@ -10,23 +10,23 @@
     "dose_via_intervalo": 841,
     "emergencia_sinal_alarme": 236,
     "internacao_alta": 21,
-    "janela_temporal": 195,
+    "janela_temporal": 556,
     "sequencia_terapeutica": 134
   },
   "denominator_by_discipline": {
-    "CASOS_CLINICOS": 200,
-    "EISA_II": 1530,
-    "EISCA": 980,
-    "EISM": 277,
-    "OSCE": 214
+    "CASOS_CLINICOS": 227,
+    "EISA_II": 1669,
+    "EISCA": 1108,
+    "EISM": 326,
+    "OSCE": 232
   },
-  "detections_total": 8409,
+  "detections_total": 8855,
   "excluded_from_denominator": {
     "historical_section": 17,
-    "non_critical_category": 1337,
-    "pedagogic_meta_section": 2742,
-    "provenance_section": 345,
-    "weak_tier": 2709
+    "non_critical_category": 1338,
+    "pedagogic_meta_section": 2826,
+    "provenance_section": 355,
+    "weak_tier": 2697
   },
   "limitations": [
     "Detecção lexical: mede presença de afirmação crítica, não correção clínica.",
@@ -35,11 +35,11 @@
     "Seções `pedagogic_meta` (distratores, pegadinhas, mini-casos, como cai) ficam fora do denominador porque afirmam o erro, não a conduta; permanecem auditáveis no CSV.",
     "Nenhum gate é fechado por este artefato."
   ],
-  "schema_version": "1.2.0",
-  "sweep_denominator": 3201,
-  "sweep_denominator_high_risk": 2520,
-  "sweep_denominator_high_risk_lines": 1853,
-  "sweep_denominator_lines": 2414,
-  "unresolved_high_risk": 2378,
-  "unresolved_total": 3059
+  "schema_version": "1.3.0",
+  "sweep_denominator": 3562,
+  "sweep_denominator_high_risk": 2782,
+  "sweep_denominator_high_risk_lines": 1984,
+  "sweep_denominator_lines": 2606,
+  "unresolved_high_risk": 2622,
+  "unresolved_total": 3402
 }

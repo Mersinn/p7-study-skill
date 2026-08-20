@@ -45,7 +45,16 @@ import unicodedata
 from pathlib import Path
 from typing import Any, Iterable
 
-SCHEMA_VERSION = "1.2.0"
+SCHEMA_VERSION = "1.3.0"
+
+# Changelog (v1.3.0): achado da REVALIDACAO de recall pos-v1.2.0 (amostra fresca,
+# 18 capsulas sem sobreposicao com a amostra que motivou v1.2.0 — ver
+# DETECTOR_VALIDATION_REPORT.md secao 7). Gap sistematico: intervalo de duracao
+# "bare" (sem preposicao-gatilho), ex. "7-21 dias", "5-30 dias", "6-24 horas",
+# "3 a 12 meses" — muito comum em tabelas de farmacocinetica e latencia
+# diagnostica, incluindo timing de SNM/parkinsonismo farmacologico numa capsula
+# de EMERGENCIA psiquiatrica de alto risco. Tambem: abreviacao "sem." (semanas)
+# nao reconhecida pelos padroes existentes. Ambos corrigidos.
 
 # Changelog (v1.2.0): correção pós-auditoria de recall (ver
 # qualification/reports/DETECTOR_VALIDATION_REPORT.md). v1.1.0 (hash
@@ -120,12 +129,13 @@ CATEGORY_PATTERNS: dict[str, list[tuple[str, str]]] = {
     ],
     "janela_temporal": [
         (r"\b(?:janela|dentro de|ate)\s+\d+(?:[.,]\d+)?\s*(?:h|horas|min|minutos|dias|semanas|meses)\b", "strong"),
-        (r"\b(?:primeiras?|primeiros?)\s+\d+\s*(?:h|horas|min|minutos|dias|semanas)\b", "strong"),
+        (r"\b(?:primeiras?|primeiros?)\s+\d+\s*(?:h|horas|min|minutos|dias|semanas|sem\.)\b", "strong"),
         (r"\b\d+\s*(?:h|horas|min|minutos)\s*(?:de|do|apos)\s*(?:inicio|ictus|sintoma|evento)\b", "strong"),
         (r"\b(?:minuto de ouro|golden hour|tempo porta|door-to-needle|door-to-balloon)\b", "strong"),
         (r"\b(?:aguda?|persistente|cronica?)\s*[<>≤≥]\s*\d", "strong"),
-        (r"\bpor\s+\d+\s*(?:h|horas|min|minutos|dias|semanas|meses)\b", "strong"),
-        (r"\bem\s+\d+\s*(?:h|horas|min|minutos|dias|semanas)\b", "strong"),
+        (r"\bpor\s+\d+\s*(?:h|horas|min|minutos|dias|semanas|sem\.|meses)\b", "strong"),
+        (r"\bem\s+\d+\s*(?:h|horas|min|minutos|dias|semanas|sem\.)\b", "strong"),
+        (r"\d+\s*(?:[-–]|a)\s*\d+\s*(?:h|horas|min\.?|minutos|dias|semanas|sem\.|meses|anos)\b", "strong"),
         (r"\bjanela\b", "weak"),
     ],
     "contraindicacao_interacao": [

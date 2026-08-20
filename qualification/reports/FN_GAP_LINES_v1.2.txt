@@ -1,0 +1,450 @@
+====================================================================================================
+capsules/CASOS_CLINICOS/ganho_de_peso_obesidade_e_sindrome_metabolica.md
+  L  47 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  48 [dados de precisao       ] |---|---|---|---|
+  L  58 [dados de precisao       ] | Reposição pós-bariátrica | Ferro, B12, cálcio e vitamina D | Ganho_de_Peso slide p.22 | CONFIRMADO |
+  L  59 [dados de precisao       ] | Causas de obesidade secundária | sedentarismo/dieta; genética (gene OB); hormonal (SOP, Cushing); transtornos alimentares; medicamentos (antidepressivos, anticonvulsivantes, cort
+  L  82 [conduta                 ] - Diferencial perigoso: obesidade secundária a endocrinopatia não tratada (Cushing, hipotireoidismo grave) — tratar só com dieta sem investigar a causa de base não resolve o quadro
+  L  83 [conduta                 ] - O que mudaria a decisão: presença de transtorno de humor/psicótico não controlado, uso ativo de drogas ilícitas/álcool, ou tratamento clínico prévio inferior a 2 anos contraindic
+  L  95 [cards minimos           ] | Frente | Verso | Tipo |
+  L  96 [cards minimos           ] |---|---|---|
+  L 101 [cards minimos           ] | LDL-c é critério de síndrome metabólica? | Não — serve para risco cardiovascular, não para o diagnóstico de SM | pegadinha |
+  L 102 [cards minimos           ] | Melhor tratamento da esteatose hepática associada à obesidade | Perda de peso | pegadinha |
+  L 103 [cards minimos           ] | Reposição obrigatória pós-bariátrica | Ferro, B12, cálcio e vitamina D | dado |
+====================================================================================================
+capsules/CASOS_CLINICOS/fraqueza_muscular_miastenia_polimiosite.md
+  L  24 [conceito operacional min] Fraqueza muscular = perda objetiva de força (diferente de fadiga subjetiva), que pode afetar poucos ou muitos músculos, início súbito ou gradual. O mecanismo pode estar em 4 níveis
+  L  28 [pivo clinico            ] O pivô entre miastenia gravis e miopatia inflamatória (polimiosite/dermatomiosite) não é a localização da fraqueza (ambas são proximais) — é o padrão de reflexos e o comportamento 
+  L  46 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  47 [dados de precisao       ] |---|---|---|---|
+  L  48 [dados de precisao       ] | 4 níveis anatômicos da fraqueza muscular | neurônio motor superior, neurônio motor inferior, junção neuromuscular, músculo | Casos_Clinicos_P7_1 p.16 | CONFIRMADO |
+  L  49 [dados de precisao       ] | Ordem do diagnóstico diferencial de fraqueza muscular progressiva | 1) miastenia gravis/Sd. Lambert-Eaton; 2) deficiência de B12; 3) distúrbios hidroeletrolíticos; 4) miopatias; 
+  L  51 [dados de precisao       ] | CPK no caso-fonte (polimiosite) | 2525 U/L (referência 33-211) | Casos_Clinicos_P7_1 p.15 | CONFIRMADO |
+  L  52 [dados de precisao       ] | Aldolase no caso-fonte | 8,2 (referência até 7,6) — discretamente elevada | Casos_Clinicos_P7_1 p.15 | CONFIRMADO |
+  L  54 [dados de precisao       ] | Anti-Jo1 e anti-SRP no caso-fonte | anti-Jo1 negativo; anti-SRP não detectável | Casos_Clinicos_P7_1 p.15 | CONFIRMADO |
+  L  56 [dados de precisao       ] | Eletrólitos no caso-fonte | Na 138, K 4,0, Ca 9,2, Mg 2,1, P 3,1 — todos normais, afastam distúrbio hidroeletrolítico | Casos_Clinicos_P7_1 p.15 | CONFIRMADO |
+  L  57 [dados de precisao       ] | RM de coxas no caso-fonte | edema/inflamação do reto femoral | Casos_Clinicos_P7_1 p.15 | CONFIRMADO |
+  L  58 [dados de precisao       ] | Achados de EMG em miopatia | aumento da atividade insercional, fibrilações e ondas pontiagudas positivas; descargas espontâneas bizarras de alta frequência; unidades motoras poli
+  L  59 [dados de precisao       ] | Achados de biópsia muscular em polimiosite | necrose das miofibrilas, fagocitose, núcleo grande com nucléolo proeminente, atrofia perifascicular, variação no tamanho das fibras, 
+  L  60 [dados de precisao       ] | CPK elevado crônico ≠ rabdomiólise | rabdomiólise é um quadro agudo; CPK elevado com sintomas de evolução crônica (meses) representa lesão muscular inflamatória, não rabdomiólise
+  L  61 [dados de precisao       ] | Farmácos em uso no caso-fonte | metformina, losartana, carbonato de cálcio, espironolactona — nenhum classicamente miotóxico relevante ao quadro, ajudando a excluir causa iatrogê
+  L  83 [conduta                 ] - Definitiva: percorrer as 6 categorias do DDx na ordem — miastenia/Lambert-Eaton (anti-AChR, teste de fadiga, reflexos preservados) → B12 → eletrólitos → miopatias (CPK, aldolase,
+  L  86 [conduta                 ] - O que mudaria a decisão: padrão de piora com esforço + reflexos preservados muda para junção neuromuscular; CPK/aldolase elevados + biópsia inflamatória muda para miopatia; tempo
+  L  98 [cards minimos           ] | Frente | Verso | Tipo |
+  L  99 [cards minimos           ] |---|---|---|
+  L 100 [cards minimos           ] | 4 níveis anatômicos da fraqueza | neurônio motor superior, neurônio motor inferior, junção neuromuscular, músculo | dado |
+  L 101 [cards minimos           ] | Ordem do DDx de fraqueza muscular | miastenia/Lambert-Eaton → B12 → hidroeletrolítico → miopatias → endocrinopatias → fármacos | dado |
+  L 102 [cards minimos           ] | Miastenia gravis e reflexos | reflexos tendíneos preservados | pegadinha |
+  L 103 [cards minimos           ] | CPK elevado crônico (meses) | não é rabdomiólise (que é aguda) — pensar miopatia inflamatória | pegadinha |
+  L 104 [cards minimos           ] | Achado patognomônico de biópsia em polimiosite | necrose de miofibrilas + atrofia perifascicular + infiltrado inflamatório | dado |
+  L 105 [cards minimos           ] | Anticorpo negativo em miastenia | anti-AChR negativo não fecha o caso sozinho — considerar anti-MuSK/quadro clínico | dado |
+  L 111 [revisao                 ] - Critério de parada: resolver 3 casos aplicando as 6 categorias do DDx na ordem sem pular etapa, e o par miastenia x miopatia (mesma queixa de fraqueza proximal, laboratório opost
+====================================================================================================
+capsules/CASOS_CLINICOS/doenca_celiaca.md
+  L  28 [pivo clinico            ] Dermatite herpetiforme é achado patognomônico (lesões em faces extensoras dos membros) — se presente na vinheta, fecha suspeita fortíssima de celíaca independentemente de sintoma i
+  L  47 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  48 [dados de precisao       ] |---|---|---|---|
+  L  50 [dados de precisao       ] | Marcadores genéticos | HLA-DQ2 em 95% dos casos; HLA-DQ8 em 5% | Abordagem às diarreias, linha 227 | CONFIRMADO |
+  L  52 [dados de precisao       ] | Quadro clássico | diarreia crônica com esteatorreia; síndrome de má absorção (perda de crescimento pondero-estatural, deficiência de ferro, B12 e cálcio) | Abordagem às diarreias
+  L  53 [dados de precisao       ] | Apresentação predominante | oligossintomática em 90% dos casos | Abordagem às diarreias, linha 238 | CONFIRMADO |
+  L  54 [dados de precisao       ] | Manifestações extraintestinais | depressão, fadiga, infertilidade; dermatite herpetiforme (patognomônica, lesões em faces extensoras de membros) | Abordagem às diarreias, linha 2
+  L  55 [dados de precisao       ] | Diagnóstico sorológico | anti-transglutaminase tecidual IgA (sensível) + IgA sérica total; anti-endomísio (específico) | Abordagem às diarreias, linha 250-255 | CONFIRMADO |
+  L  56 [dados de precisao       ] | Diagnóstico definitivo | EDA com biópsia — atrofia de vilosidades + hiperplasia de criptas | Abordagem às diarreias, linha 256-257 | CONFIRMADO |
+  L  59 [dados de precisao       ] | Risco oncológico | linfoma (18%) e câncer gastrointestinal | Abordagem às diarreias, linha 267 | CONFIRMADO |
+  L  78 [conduta                 ] - Inicial: diante de suspeita clínica (diarreia crônica com esteatorreia, síndrome de má absorção, anemia ferropriva refratária, ou dermatite herpetiforme), solicitar anti-transglu
+  L  79 [conduta                 ] - Definitiva: confirmação por EDA com biópsia de intestino delgado (atrofia de vilosidades + hiperplasia de criptas); tratamento é dieta isenta de glúten permanente com atenção à c
+  L  80 [conduta                 ] - Condição da conduta: dosar IgA sérica total sempre junto com anti-transglutaminase IgA para não perder falso-negativo por deficiência seletiva de IgA.
+  L  81 [conduta                 ] - Diferencial perigoso: doença celíaca não tratada cronicamente aumenta risco de linfoma (18%) e câncer gastrointestinal — não é apenas "restrição alimentar", exige seguimento a lo
+  L  82 [conduta                 ] - O que mudaria a decisão: presença de dermatite herpetiforme muda a suspeição para "quase patognomônica" de celíaca, justificando investigação mesmo sem sintoma digestivo evidente
+  L  94 [cards minimos           ] | Frente | Verso | Tipo |
+  L  95 [cards minimos           ] |---|---|---|
+  L  96 [cards minimos           ] | Marcadores genéticos da doença celíaca | HLA-DQ2 (95%) e HLA-DQ8 (5%) | dado |
+  L  97 [cards minimos           ] | Percentual de casos oligossintomáticos | 90% | pegadinha |
+  L  98 [cards minimos           ] | Achado cutâneo patognomônico | Dermatite herpetiforme (faces extensoras) | dado |
+  L  99 [cards minimos           ] | Sorologia de rastreio | Anti-transglutaminase IgA + IgA sérica total | dado |
+  L 100 [cards minimos           ] | Exame que fecha o diagnóstico | EDA com biópsia (atrofia de vilosidades + hiperplasia de criptas) | sequência |
+  L 101 [cards minimos           ] | Tempo de reversão histológica sem glúten | 3 a 12 meses | dado |
+  L 102 [cards minimos           ] | Risco oncológico associado | Linfoma (18%) e câncer gastrointestinal | dado |
+  L 107 [revisao                 ] - Critério de parada: em 3 casos seguidos, reconhecer a apresentação oligossintomática como a mais provável, aplicar a sequência sorologia→EDA corretamente, e não fechar diagnóstic
+====================================================================================================
+capsules/CASOS_CLINICOS/formato_avaliacao_discussao_casos_clinicos.md
+  L  24 [conceito operacional min] A disciplina avalia a capacidade de **construir e defender um raciocínio clínico diante de pares e do professor**, não a capacidade de marcar a alternativa certa numa prova fechada
+  L  44 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  45 [dados de precisao       ] |---|---|---|---|
+  L  46 [dados de precisao       ] | Professor responsável | Nomário Pedrosa Lacerda | Cronograma p.1 | CONFIRMADO |
+  L  47 [dados de precisao       ] | Módulo / disciplina | Saúde do Adulto II / Discussão de Casos Clínicos | Cronograma p.1 | CONFIRMADO |
+  L  48 [dados de precisao       ] | Período/turmas | P7A e P7B, semestre 2025.1 | Cronograma p.1 | CONFIRMADO |
+  L  49 [dados de precisao       ] | Número de grupos por turma | 4 grupos | Cronograma p.1 | CONFIRMADO |
+  L  54 [dados de precisao       ] | Estrutura por turma | ciclo de 2 semanas (correção → apresentação) repetido duas vezes (grupos 1-2, depois grupos 3-4) + feedback ao final, intercalado com semanas de prova de ou
+  L  55 [dados de precisao       ] | Calendário Turma A (2025.1) | fevereiro-março: início 03/02, correção 10/02, simulação 17/02, prova 24/02, correção grupos 3-4 em 10/03, simulação em 17/03, feedback em 24/03 | C
+  L  56 [dados de precisao       ] | Calendário Turma B (2025.1) | abril-maio: início 07/04, correção 14/04, simulação 28/04 (feriado de Tiradentes intercalado), correção grupos 3-4 em 12/05, simulação em 19/05, fee
+  L  73 [conduta                 ] - Inicial: ao ser designado a um tema/etiologia, montar o caso completo (identificação, QP, HDA, antecedentes, hábitos, exame físico, exames complementares) antes da semana de corr
+  L  74 [conduta                 ] - Definitiva: incorporar os ajustes do professor na etapa de correção antes da apresentação final; preparar a defesa de "por que este diagnóstico e não os diferenciais próximos" pa
+  L  75 [conduta                 ] - Condição da conduta: presença obrigatória em todas as apresentações da turma, não só na do próprio grupo.
+  L  76 [conduta                 ] - Diferencial perigoso: não aplicável (tema de formato, não clínico).
+  L  77 [conduta                 ] - O que mudaria a decisão: não aplicável (tema de formato, não clínico).
+  L  85 [cards minimos           ] | Frente | Verso | Tipo |
+  L  86 [cards minimos           ] |---|---|---|
+  L  87 [cards minimos           ] | Formato da avaliação de Casos Clínicos P7 | simulação em grupos (não prova escrita) | dado |
+  L  88 [cards minimos           ] | Número de grupos por turma | 4 | dado |
+  L  89 [cards minimos           ] | Etapas do ciclo por bloco de grupos | apresentação/divisão → correção e ajustes → simulação (apresentação) → feedback | dado |
+  L  90 [cards minimos           ] | Presença nas apresentações dos outros grupos | obrigatória para todos | pegadinha |
+  L  91 [cards minimos           ] | Professor responsável | Nomário Pedrosa Lacerda | dado |
+  L  95 [revisao                 ] - Revisar quando: no início do semestre, ao ser designado o grupo e o tema, e novamente na semana anterior à apresentação da simulação.
+  L  96 [revisao                 ] - Critério de parada: ter o caso clínico completo montado e revisado com a defesa dos diferenciais preparada antes da etapa de correção do professor.
+====================================================================================================
+capsules/EISA_II/insulinoterapia_classificacao_farmacocinetica.md
+  L  24 [conceito operacional min] Toda insulina tem efeito fisiológico idêntico — o que muda é o perfil farmacocinético (início, pico, duração), determinado pela estrutura molecular. Isso é o que dita o papel de ca
+  L  28 [pivo clinico            ] O pivô é **presença ou ausência de pico**: insulinas com pico definido (regular, NPH) simulam mal a insulina basal fisiológica e concentram o risco de hipoglicemia num intervalo pr
+  L  45 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  46 [dados de precisao       ] |---|---|---|---|
+  L  47 [dados de precisao       ] | Insulinoterapia intensiva — benefício | ↓76% retinopatia; ↓60% neuropatia; ↓39% nefropatia | P7_FAMENE_FARMACOTERAPIA_DO_DIABETES_2025_1_2a_aula p.59 (texto) | confirmar no slide
+  L  48 [dados de precisao       ] | Categorias farmacocinéticas de insulina | 5 categorias: ultrarrápida, rápida, intermediária, longa, ultralonga | idem p.62–63 | CONFIRMADO |
+  L  50 [dados de precisao       ] | Regular (rápida) | Início 30–60 min; pico 120–180 min; duração 4–6h; aplicar 30 min antes da refeição; variabilidade de absorção ~25% | idem p.68 (tabela) | CONFIRMADO |
+  L  51 [dados de precisao       ] | NPH (intermediária) — slide descritivo | Início 1–4h; pico 4–10h; duração **12–18h**; variabilidade de absorção ~50%; maior probabilidade de hipoglicemia noturna e hiperglicemia 
+  L  52 [dados de precisao       ] | NPH — tabela comparativa "ação longa" | Início 1–4h; pico 4–10h; duração **10–16h** | idem p.71 (tabela) | CONFIRMADO (nesta página) — DIVERGE do valor de p.69; ambos registrados
+  L  53 [dados de precisao       ] | Detemir (longa) | Início 1–4h; sem pico; duração 20–24h; aplicação 2x/dia | idem p.71 | CONFIRMADO |
+  L  54 [dados de precisao       ] | Glargina (longa) | Início 1–4h; sem pico; duração 20–24h; aplicação 1x/dia | idem p.71 | CONFIRMADO |
+  L  55 [dados de precisao       ] | Degludeca (ultralonga) | Início 30–90 min; sem pico; duração 36–42h; aplicação 1x/dia | idem p.71 | CONFIRMADO |
+  L  56 [dados de precisao       ] | Insulinas humanas vs análogos | Humanas (regular, NPH): DNA recombinante, menor imunogenicidade; análogos: lispro, asparte, glulisina, glargina, detemir | idem p.55 (texto) | CON
+  L  57 [dados de precisao       ] | Insulina — efeitos indesejáveis | Hipoglicemia; aumento de peso | idem p.73 (texto) | CONFIRMADO |
+  L  91 [cards minimos           ] | Frente | Verso | Tipo |
+  L  92 [cards minimos           ] |---|---|---|
+  L  93 [cards minimos           ] | Tempo de aplicação de insulina regular vs ultrarrápida | Regular: 30 min antes; ultrarrápida: 15 min antes ou durante | sequência |
+  L  94 [cards minimos           ] | Insulina basal com pico definido | NPH (4-10h) — maior hipoglicemia noturna | função |
+  L  95 [cards minimos           ] | Análogo de ação longa que precisa de 2x/dia | Detemir (glargina e degludeca são 1x/dia) | sequência |
+  L  96 [cards minimos           ] | Insulina de duração ultralonga | Degludeca (36-42h, sem pico) | fato |
+  L  97 [cards minimos           ] | Insulinoterapia intensiva — redução de retinopatia/neuropatia/nefropatia | 76% / 60% / 39% | valor |
+  L  98 [cards minimos           ] | Variabilidade de absorção da NPH | ~50% (a maior entre as categorias apresentadas) | valor |
+  L 103 [revisao                 ] - Critério de parada: nomear de cabeça o tempo de aplicação de cada categoria e apontar a exceção da detemir sem consultar a tabela.
+====================================================================================================
+capsules/EISA_II/doenca_renal_cronica_drc.md
+  L  47 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  48 [dados de precisao       ] |---|---|---|---|
+  L  51 [dados de precisao       ] | Marcadores de dano parenquimatoso | Albuminúria; hematúria de origem glomerular; alterações eletrolíticas/tubulares; achado histológico em biópsia | DRC_2024_1 p.10 | CONFIRMADO 
+  L  52 [dados de precisao       ] | Marcadores por imagem | Rins policísticos; hidronefrose; cicatrizes corticais; doença infiltrativa; estenose de artéria renal | DRC_2024_1 p.10 | CONFIRMADO |
+  L  58 [dados de precisao       ] | Indicações de TRS em DRC G V | Ao menos 1 de: hipervolemia refratária a restrição de sódio/água e diuréticos; anorexia/náuseas/vômitos; hipercalemia/acidose refratária; pericardi
+  L  63 [dados de precisao       ] | Antecedência da confecção de fístula arteriovenosa | 1–4 meses antes da necessidade de uso (para maturação) | DRC_2024_1 p.48 | CONFIRMADO |
+  L 103 [cards minimos           ] | Frente | Verso | Tipo |
+  L 104 [cards minimos           ] |---|---|---|
+  L 107 [cards minimos           ] | Sequência do tratamento da anemia da DRC | Corrigir estoque de ferro → só depois iniciar EPO | sequência |
+  L 109 [cards minimos           ] | O que define o Grupo Vermelho do heatmap | G4/G5 com qualquer albuminúria OU G3a/G3b **com** albuminúria | dado |
+  L 112 [cards minimos           ] | Antecedência para confecção de FAV | 1–4 meses antes da necessidade dialítica | sequência |
+  L 113 [cards minimos           ] | Indicações de TRS na DRC GV | Hipervolemia refratária, hipercalemia/acidose refratária, sintomas GI refratários, pericardite/sangramento/encefalopatia urêmica | dado |
+====================================================================================================
+capsules/EISA_II/doencas_oculares_em_endocrinologia_oftalmopatia_de_graves_e_retinopatia_diabetica.md
+  L  24 [conceito operacional min] **Oftalmopatia de Graves (DOT)**: doença autoimune (anticorpo IgG contra receptor de TSH, estimulando secreção hormonal) que também infiltra músculos extraoculares e gordura orbitá
+  L  26 [conceito operacional min] **Retinopatia diabética**: microangiopatia por hiperglicemia crônica — oclusão microvascular (perda de pericitos, dilatação, extravasamento) + quebra da barreira hematoaquosa → ede
+  L  36 [palavras-ancora         ] **Graves**: sinal de Dalrymple, sinal de Kocher, sinal de Von Graefe, scleral show, proptose axial, ceratopatia de exposição, miopatia restritiva (reto inferior primeiro), neuropat
+  L  37 [palavras-ancora         ] **Retinopatia diabética**: microaneurisma (1º achado), exsudato duro, mancha algodonosa, edema macular, IRMA, neovascularização (NVD/NVE), rubeosis iridis, fotocoagulação a laser, 
+  L  51 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  52 [dados de precisao       ] |---|---|---|---|
+  L  53 [dados de precisao       ] | Doença de Graves — epidemiologia | 3ª-4ª décadas de vida, mulheres | slide (p.1) | CONFIRMADO |
+  L  54 [dados de precisao       ] | Alterações oculares em Graves | 25–50% dos pacientes com Graves; 5% com comprometimento grave | slide (p.1) | CONFIRMADO |
+  L  55 [dados de precisao       ] | Fisiopatologia DOT | Anticorpo IgG contra receptor de TSH → infiltração celular pleomórfica + aumento de glicosaminoglicanos + absorção osmótica de água → fibrose e miopatia rest
+  L  56 [dados de precisao       ] | Fase congestiva | Olhos vermelhos e dolorosos, dura ~3 semanas, 10% cronificam | slide (p.3); ANOTAÇÕES (linha 5) | CONFIRMADO (A+B convergentes) |
+  L  57 [dados de precisao       ] | Retração palpebral — frequência | 50% dos casos | slide (p.4) | CONFIRMADO |
+  L  58 [dados de precisao       ] | Sinais de retração palpebral | Scleral show; sinal de Dalrymple (retração em posição primária do olhar); sinal de Kocher (aparência fixa e espantada); sinal de Von Graefe (retard
+  L  59 [dados de precisao       ] | Tratamento da retração palpebral | Expectante, diminuir fenda palpebral, mullerectomia, ressecção dos retratores da pálpebra inferior, toxina botulínica | slide (p.5) | CONFIRMAD
+  L  61 [dados de precisao       ] | Miopatia restritiva — frequência | 30-50% desenvolvem oftalmoplegia | slide (p.6) | CONFIRMADO |
+  L  62 [dados de precisao       ] | Ordem de comprometimento muscular | Elevação (reto inferior) → abdução (reto medial) → abaixamento (reto superior) → adução (reto lateral) | slide (p.6) | CONFIRMADO |
+  L  63 [dados de precisao       ] | Neuropatia óptica — mecanismo | Compressão do nervo óptico ou alteração do suprimento sanguíneo no ápice da órbita | slide (p.6-7) | CONFIRMADO |
+  L  64 [dados de precisao       ] | Tratamento da neuropatia óptica | Metilprednisolona + descompressão cirúrgica | slide (p.7) | CONFIRMADO |
+  L  65 [dados de precisao       ] | Diabetes — causa de cegueira | Causa mais frequente de cegueira em países industrializados (30%); 1-3% da população tem DM | slide (p.7) | CONFIRMADO |
+  L  66 [dados de precisao       ] | Complicações oftalmológicas do DM | Retinopatia (70%), catarata, glaucoma, paralisia de nervos oculomotores, diminuição da sensibilidade corneana | slide (p.7) | CONFIRMADO |
+  L  67 [dados de precisao       ] | Retinopatia diabética — prevalência geral | Causa mais prevalente de cegueira legal entre 20-65 anos | slide (p.8) | CONFIRMADO |
+  L  69 [dados de precisao       ] | Outros fatores de risco | Controle metabólico inadequado, gestação, hipertensão, nefropatia, obesidade | slide (p.8) | CONFIRMADO |
+  L  70 [dados de precisao       ] | Primeiro achado da retinopatia | Microaneurisma | slide (p.10); ANOTAÇÕES | CONFIRMADO (A+B) |
+  L  71 [dados de precisao       ] | Causa mais comum de déficit visual em diabéticos | Edema macular | ANOTAÇÕES (linha 64) | CONFIRMADO |
+  L  73 [dados de precisao       ] | Triagem — critérios de encaminhamento | Revisão anual (FO normal ou RD leve); rotina (exsudatos duros ameaçando fóvea ou queda de AV); precoce (exsudatos/hemorragias dentro de 1 
+  L  74 [dados de precisao       ] | Tratamento da maculopatia diabética | Fotocoagulação a laser: 70% mantêm AV estável, 15% melhoram, 5% deterioram; vitrectomia posterior se tração tangencial da hialoide; injeção 
+  L  75 [dados de precisao       ] | Retinopatia proliferativa — prevalência | 5-10% da população diabética; DM1: 60% de chance em 30 anos | slide (p.13) | CONFIRMADO |
+  L  76 [dados de precisao       ] | Tratamento da RD proliferativa | Laser (fotocoagulação) para induzir regressão dos neovasos | slide (p.13) | CONFIRMADO |
+  L  77 [dados de precisao       ] | Doença ocular diabética avançada | Hemorragia (pré-retiniana/vítrea), descolamento de retina tracional, rubeosis iridis (glaucoma); tratamento: vitrectomia posterior (VPP) | slid
+  L  78 [dados de precisao       ] | Resultado visual pós-VPP | 70% melhora visual, 10% piora, restante sem alteração | slide (p.15) | CONFIRMADO |
+  L 102 [conduta                 ] - Definitiva (retinopatia diabética): controle glicêmico rigoroso em toda fase; fotocoagulação a laser para maculopatia/proliferativa; vitrectomia posterior para hemorragia vítrea 
+  L 117 [cards minimos           ] | Frente | Verso | Tipo |
+  L 118 [cards minimos           ] |---|---|---|
+  L 119 [cards minimos           ] | Fisiopatologia da oftalmopatia de Graves | Anticorpo IgG contra receptor de TSH infiltra músculos extraoculares e gordura orbitária → fibrose e miopatia restritiva | fato |
+  L 120 [cards minimos           ] | Primeiro músculo acometido na miopatia restritiva de Graves | Reto inferior (limita elevação) | funcao |
+  L 121 [cards minimos           ] | Sinal de retardo na descida da pálpebra superior no olhar para baixo | Sinal de Von Graefe | sinal-achado |
+  L 124 [cards minimos           ] | Primeiro achado da retinopatia diabética | Microaneurisma | sequencia |
+  L 125 [cards minimos           ] | Causa mais comum de déficit visual em diabéticos | Edema macular | fato |
+  L 126 [cards minimos           ] | Critério de encaminhamento urgente na retinopatia diabética | RD proliferativa, hemorragia pré-retiniana, rubeosis (glaucoma), descolamento de retina | prioridade |
+  L 132 [revisao                 ] - Revisar quando: junto com Hipertireoidismo/Tireotoxicose (fisiopatologia de Graves) e Diabetes mellitus (complicações crônicas) — este tema é o ponto de integração entre Endocrin
+  L 133 [revisao                 ] - Critério de parada: aluno associa cada sinal ocular de Graves (Dalrymple/Kocher/Von Graefe/proptose/miopatia restritiva/neuropatia óptica) à conduta certa sem hesitar, e aplica c
+====================================================================================================
+capsules/EISA_II/erisipela.md
+  L  24 [conceito operacional min] Erisipela é uma linfangite — infecção/inflamação dos vasos linfáticos superficiais (capilarite dérmica) — causada na maioria dos casos por *Streptococcus pyogenes* beta-hemolítico 
+  L  30 [pivo clinico            ] Segundo pivô: **presença de porta de entrada** (examinar sempre os espaços interdigitais). Se houver micose associada, ela precisa ser tratada concomitantemente — do contrário, a e
+  L  34 [palavras-ancora         ] Linfangite · capilarite · placa eritematosa com margens bem definidas · sem área sadia no meio · *Streptococcus pyogenes* grupo A · porta de entrada (micose interdigital) · flicten
+  L  47 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  48 [dados de precisao       ] |---|---|---|---|
+  L  49 [dados de precisao       ] | Agente etiológico principal | *Streptococcus pyogenes* beta-hemolítico do grupo A, ~67% dos casos | resumo edine ERISIPELA (p. 2); resumed saúde do adulto 2 (p. ~226) | CONFIRMAD
+  L  50 [dados de precisao       ] | Segundo agente | *Streptococcus agalactiae*, ~9% | resumo edine ERISIPELA (p. 2) | CONFIRMADO |
+  L  57 [dados de precisao       ] | Causa mundial nº1 de linfedema | Erisipela (repetição) | resumed saúde do adulto 2 (p. ~226) | CONFIRMADO — rotulado "conhecimento geral" quanto à extrapolação "mundial", pois a 
+  L  58 [dados de precisao       ] | Localização mais comum | Membros inferiores, ~90% dos casos | resumo edine ERISIPELA (p.2) | CONFIRMADO |
+  L  95 [cards minimos           ] | Frente | Verso | Tipo |
+  L  96 [cards minimos           ] |---|---|---|
+  L  97 [cards minimos           ] | Agente etiológico mais comum da erisipela | *Streptococcus pyogenes* beta-hemolítico do grupo A (~67%) | fato |
+  L  98 [cards minimos           ] | Diferença de borda entre erisipela e celulite | Erisipela: bordas bem definidas, sem área sadia. Celulite: bordas difusas, com área sadia no meio | sinal-achado |
+  L 103 [cards minimos           ] | Complicação típica da erisipela de repetição | Linfedema, que pode evoluir a elefantíase se não tratado/prevenido | sequencia |
+====================================================================================================
+capsules/EISCA/adolescencia_puberdade_e_semiologia_do_adolescente.md
+  L  24 [conceito operacional min] Adolescência (OMS): 10-19 anos (ou 10-20 conforme a fonte), fase de transformação biopsicossocial dividida em 3 etapas com características de conduta e de consulta próprias (inicia
+  L  46 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  47 [dados de precisao       ] |---|---|---|---|
+  L  48 [dados de precisao       ] | Definição de adolescência (OMS) | etapa evolutiva dos 10 aos 19 anos (2 fontes) / 10 a 20 anos (1 fonte) — variação de definição entre fontes B, sem camada A para desempate | Ped
+  L  49 [dados de precisao       ] | Definição de adolescência (ECA, Lei 8.069/90) | 12 a 18 anos | Pediatria_ADOLESC p.1; Anotações p.1 | CONFIRMADO |
+  L  52 [dados de precisao       ] | Primeiros sinais da puberdade | protrusão do mamilo (menina) e aumento testicular (menino) — marcam o início da adolescência biológica | Pediatria_ADOLESC p.1; Semiologia_do_adol
+  L  53 [dados de precisao       ] | Faixa etária normal de início da puberdade | menina: 8 a 13 anos; menino: 9 a 14 anos | Anotações p.1 | CONFIRMADO |
+  L  54 [dados de precisao       ] | Fim da puberdade | coincide com aquisição da capacidade reprodutiva e fusão das epífises ósseas — não significa fim da adolescência | Pediatria_ADOLESC p.1; Semiologia_do_adolesc
+  L  55 [dados de precisao       ] | Etapa inicial da adolescência | 10-14 anos: distanciamento dos pais, aproximação com iguais do mesmo sexo, necessidade de privacidade, atendimento predominante com os pais | Pedi
+  L  56 [dados de precisao       ] | Etapa média da adolescência | 15-17 anos: máxima identificação com iguais, exposição a risco, onipotência, puberdade completa, início de experiências sexuais, atendimento individ
+  L  57 [dados de precisao       ] | Etapa tardia da adolescência | 18-20 anos: comportamento tipo adulto, reaproximação com os pais, atendimento individualizado | Pediatria_ADOLESC p.1; Semiologia_do_adolescente p.
+  L  58 [dados de precisao       ] | Adolescência prolongada | fenômeno recente, faixa etária 20-24 anos | Pediatria_ADOLESC p.1; Semiologia_do_adolescente p.1 | CONFIRMADO |
+  L  61 [dados de precisao       ] | Itens obrigatórios da anamnese do adolescente | família, educação, trabalho, alimentação, sexualidade, afeto, ambições, uso/abuso de drogas, ideação/tentativa de suicídio | Pedia
+  L  66 [dados de precisao       ] | Sequência padrão dos eventos puberais (menina) | telarca (broto mamário) → pubarca → estirão de crescimento → menarca (fase intermediária/tardia da puberdade) → conclusão do dese
+  L 103 [conduta                 ] - O que mudaria a decisão: presença de qualquer item da lista fechada de motivos de quebra de confidencialidade muda a conduta de "manter sigilo" para "comunicar/agir", independent
+  L 115 [cards minimos           ] | Frente | Verso | Tipo |
+  L 116 [cards minimos           ] |---|---|---|
+  L 117 [cards minimos           ] | Definição OMS de adolescência | 10-19 (ou 10-20, conforme fonte) anos | dado |
+  L 118 [cards minimos           ] | Definição ECA de adolescência | 12-18 anos | dado |
+  L 119 [cards minimos           ] | Faixa etária normal de início puberal | menina 8-13 anos; menino 9-14 anos | dado |
+  L 120 [cards minimos           ] | 1º sinal puberal por sexo | menina: protrusão do mamilo; menino: aumento testicular | pegadinha |
+  L 121 [cards minimos           ] | Etapas da adolescência | inicial 10-14a (c/ pais); média 15-17a (individualizado); tardia 18-20a (individualizado) | dado |
+  L 123 [cards minimos           ] | Ideação suicida na consulta do adolescente | sempre quebra o sigilo, mesmo sem plano estruturado — item mais cobrado em prova | pegadinha |
+  L 124 [cards minimos           ] | Nomenclatura Tanner nas fontes do professor | MP (mama+pubarca) feminino; GP (genitália+pubarca) masculino | dado |
+  L 126 [cards minimos           ] | Fim da puberdade x fim da adolescência | fim da puberdade (fusão epifisária) NÃO é fim da adolescência | pegadinha |
+  L 131 [revisao                 ] - Critério de parada: resolver 4 casos de "quebrar ou não o sigilo" cobrindo motivos presentes e ausentes da lista fechada sem superextrapolar, e identificar corretamente o primeir
+====================================================================================================
+capsules/EISCA/atopias_na_infancia.md
+  L  36 [conceito operacional min] tipo I (mediada por IgE) mediante contato com antígenos ambientais comuns
+  L  37 [conceito operacional min] (ácaros, mofo, barata, pelos de animais, pólen, alimentos). O mecanismo é:
+  L  38 [conceito operacional min] sensibilização inicial (produção de IgE específica que se liga a receptores
+  L  39 [conceito operacional min] FcεRI de alta afinidade em mastócitos) seguida de reexposição, que
+  L  40 [conceito operacional min] desencadeia desgranulação e liberação de mediadores em duas fases — fase
+  L  41 [conceito operacional min] imediata (minutos, aminas vasoativas) e fase tardia (2-24h, citocinas,
+  L  42 [conceito operacional min] infiltrado eosinofílico). Manifestações localizadas: rinite alérgica,
+  L  48 [pivo clinico            ] O pivô não é "a criança tem uma atopia" — é reconhecer que as atopias
+  L  49 [pivo clinico            ] seguem uma **sequência temporal previsível** (marcha atópica: alergia
+  L  50 [pivo clinico            ] alimentar e dermatite atópica dominam nos primeiros 2-3 anos de vida;
+  L  51 [pivo clinico            ] rinite/conjuntivite alérgica e asma assumem a curva ascendente depois dos
+  L  52 [pivo clinico            ] 5-10 anos) e que o discriminador entre rinite alérgica e resfriado comum
+  L  55 [pivo clinico            ] apontam para causa infecciosa/estrutural), e achados físicos específicos
+  L  59 [pivo clinico            ] são adjuvantes que NÃO substituem nem atrasam a adrenalina.
+  L  64 [palavras-ancora         ] (5q31-33, perfil Th2); fase imediata x fase tardia; teoria da higiene;
+  L  65 [palavras-ancora         ] face alérgica (prega nasal transversa, Dennie-Morgan, olheiras, palato em
+  L  69 [palavras-ancora         ] (ovo) via leite materno.
+  L  84 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  85 [dados de precisao       ] |---|---|---|---|
+  L  86 [dados de precisao       ] | Herança genética — risco se 1 dos pais é alérgico | 50% | Slide A, p. 4 | CONFIRMADO |
+  L  87 [dados de precisao       ] | Herança genética — risco se ambos os pais são alérgicos | 66% | Slide A, p. 4 | CONFIRMADO |
+  L  88 [dados de precisao       ] | Locus gênico da atopia (perfil Th2) | 5q31-33 (herança poligênica) | Slide A, p. 9 | CONFIRMADO |
+  L  89 [dados de precisao       ] | Prevalência de atopia — países desenvolvidos | 20% | Slide A, p. 6 | CONFIRMADO |
+  L  90 [dados de precisao       ] | Prevalência de atopia — países em desenvolvimento | 3-4% | Slide A, p. 6 | CONFIRMADO |
+  L  92 [dados de precisao       ] | Fase aguda tardia da reação tipo I | 6–24 horas; infiltração de neutrófilos, basófilos e eosinófilos | Slide A, p. 16 | CONFIRMADO |
+  L  93 [dados de precisao       ] | Fase tardia (remodelamento) | dias a anos; remodelamento brônquico (asma) e cutâneo (dermatite atópica) | Slide A, p. 17 | CONFIRMADO |
+  L 100 [dados de precisao       ] | IgE sérica total — limitação diagnóstica | até 50% dos pacientes atópicos podem não ter IgE sérica total elevada | ATOPIAS WILMA VIVIANE.pdf, seção "Diagnóstico laboratorial" (nã
+  L 110 [dados de precisao       ] | Alérgenos alimentares transmitidos pelo leite materno | caseína e betalactoglobulina (leite) e ovoalbumina (ovo) — mãe deve suspender consumo se lactente tiver alergia alimentar 
+  L 155 [conduta                 ] histamínico + corticoide oral/injetável se necessário); alergia
+  L 156 [conduta                 ] alimentar em lactente amamentado (exclusão do alérgeno da dieta
+  L 157 [conduta                 ] materna — leite/ovo).
+  L 158 [conduta                 ] - Condição da conduta: presença de sinais sistêmicos (broncoespasmo,
+  L 161 [conduta                 ] sistêmica do quadro, não a intensidade dos sintomas locais isolados.
+  L 162 [conduta                 ] - Diferencial perigoso: rinite alérgica x rinite viral x causa
+  L 163 [conduta                 ] estrutural (desvio de septo, corpo estranho) — sintomas unilaterais,
+  L 164 [conduta                 ] dor, muco espesso ou anosmia apontam para fora do espectro alérgico e
+  L 165 [conduta                 ] exigem investigação adicional.
+  L 166 [conduta                 ] - O que mudaria a decisão: história familiar/pessoal de atopia forte
+  L 167 [conduta                 ] aumenta a probabilidade pré-teste de rinite alérgica mesmo com quadro
+  L 168 [conduta                 ] atípico; agravantes ambientais (fumaça, perfume, poluição) pioram
+  L 169 [conduta                 ] sintomas mas não fazem parte do mecanismo imunológico — não devem ser
+  L 170 [conduta                 ] confundidos com alérgenos verdadeiros.
+  L 197 [cards minimos           ] | Frente | Verso | Tipo |
+  L 198 [cards minimos           ] |---|---|---|
+  L 201 [cards minimos           ] | IgE total normal exclui atopia? | Não — até 50% dos atópicos têm IgE total normal | fato |
+  L 205 [cards minimos           ] | Locus gênico da atopia | 5q31-33 (família de genes do perfil Th2) | fato |
+  L 206 [cards minimos           ] | Risco de atopia no filho — 1 pai x 2 pais alérgicos | 50% (um pai) x 66% (ambos os pais) | valor |
+  L 212 [revisao                 ] - Critério de parada: acertar em 3 vinhetas seguidas a diferenciação
+  L 213 [revisao                 ] rinite alérgica x resfriado pelos critérios ARIA, e justificar por que
+====================================================================================================
+capsules/EISCA/tumor_de_wilms.md
+  L  28 [pivo clinico            ] **Wilms geralmente NÃO é o tumor mais sintomático — o neuroblastoma é.** A criança com Wilms costuma estar bem, com massa palpável no flanco e sem outros achados (75% dos casos "si
+  L  46 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  47 [dados de precisao       ] |---|---|---|---|
+  L  48 [dados de precisao       ] | % das neoplasias pediátricas | 5–10% | Tumor_de_Wilms__96192b5d5a p.5 | CONFIRMADO |
+  L  50 [dados de precisao       ] | Unilateral / bilateral / multifocal em rim único | 93–95% / 5–7% / 10% | Tumor_de_Wilms__96192b5d5a p.5 | CONFIRMADO |
+  L  51 [dados de precisao       ] | Relação familiar (hereditário) | 1–2% | Tumor_de_Wilms__96192b5d5a p.5 | CONFIRMADO |
+  L  52 [dados de precisao       ] | Associação com anomalias congênitas/síndromes | 10% dos casos | Tumor_de_Wilms__96192b5d5a p.5 | CONFIRMADO |
+  L  53 [dados de precisao       ] | Genes associados | WT1 (11p13, associado a criptorquidia/hipospádia, gene da aniridia próximo) e WT2 (11p15, associado à síndrome de Beckwith-Wiedemann) | Tumor_de_Wilms__96192b5
+  L  55 [dados de precisao       ] | Idade média de Wilms em Denys-Drash vs. esporádico | ~18 meses vs. ~48 meses | Tumor_de_Wilms__96192b5d5a p.11 | CONFIRMADO |
+  L  56 [dados de precisao       ] | Restos nefrogênicos em tumores unilaterais / bilaterais | 40% / 100% | Tumor_de_Wilms__96192b5d5a p.12 | CONFIRMADO |
+  L  57 [dados de precisao       ] | Histologia favorável (grupo geral) | 85% dos casos | Tumor_de_Wilms__96192b5d5a p.16 | CONFIRMADO |
+  L  60 [dados de precisao       ] | Apresentação — massa abdominal assintomática / sintomática (HAS, hematúria, dor, febre, ITU) | 75% / 20–25% | Tumor_de_Wilms__96192b5d5a p.19 | CONFIRMADO |
+  L  63 [dados de precisao       ] | Sobrevida global | 80% | Tumor_de_Wilms__96192b5d5a p.37 | CONFIRMADO |
+  L  64 [dados de precisao       ] | Risco de evolução para insuficiência renal dialítica | 9–12% | Tumor_de_Wilms__96192b5d5a p.37 | CONFIRMADO |
+  L 101 [cards minimos           ] | Frente | Verso | Tipo |
+  L 102 [cards minimos           ] |---|---|---|
+  L 103 [cards minimos           ] | Tumor de Wilms — origem histológica | Restos nefrogênicos (blastema metanéfrico primitivo) — presentes em 40% dos unilaterais e 100% dos bilaterais | conceito |
+  L 104 [cards minimos           ] | Discriminador de imagem vs. neuroblastoma | Wilms distorce o rim por dentro e respeita a linha média; neuroblastoma desloca/comprime sem infiltrar e ultrapassa a linha média | di
+  L 105 [cards minimos           ] | Apresentação típica | Massa abdominal indolor, criança geralmente assintomática (75% dos casos) — achado incidental | fato |
+  L 108 [cards minimos           ] | Efeito de biópsia aberta antes da QT | Faz upstaging automático para estádio III | regra |
+  L 109 [cards minimos           ] | Sequência de tratamento (SIOP) | QT neoadjuvante → cirurgia (preservar parênquima) → QT adjuvante conforme estádio patológico → RT se indicado | sequência |
+  L 111 [cards minimos           ] | Sobrevida global | 80%; risco de 9–12% de evolução para insuficiência renal dialítica | valor |
+  L 115 [revisao                 ] - Revisar quando: em qualquer simulado que combine oncologia pediátrica abdominal (Wilms + neuroblastoma + hepatoblastoma) — o ganho real está no par discriminador, não no Wilms is
+====================================================================================================
+capsules/EISCA/sepse_e_meningite_neonatal.md
+  L  46 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  47 [dados de precisao       ] |---|---|---|---|
+  L  99 [cards minimos           ] | Frente | Verso | Tipo |
+  L 100 [cards minimos           ] |---|---|---|
+  L 107 [cards minimos           ] | RN assintomático de alto risco — conduta | Tratar empiricamente, sem esperar confirmação de cultura | Pegadinha |
+  L 112 [revisao                 ] - Critério de parada: acertar 4/4 mini-casos distinguindo precoce×tardia pelo tempo de início e aplicando o esquema antibiótico correspondente sem trocar os dois esquemas.
+====================================================================================================
+capsules/EISM/transtornos_por_uso_de_substancias.md
+  L  28 [pivo clinico            ] Uso nocivo exige dano real comprovado e é EXCLUÍDO se já há síndrome de dependência, transtorno psicótico ou outro transtorno específico relacionado à substância presente — os dois
+  L  32 [palavras-ancora         ] fissura; saliência do consumo; estreitamento do repertório; CAGE; tolerância x abstinência; poliuso; depressoras/estimulantes/perturbadoras.
+  L  44 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  45 [dados de precisao       ] |---|---|---|---|
+  L  48 [dados de precisao       ] | CAGE | rastreio para dependência de álcool; 2 respostas afirmativas = triagem positiva | 3 fontes NATIVA | CONFIRMADO |
+  L  49 [dados de precisao       ] | Princípios de tratamento eficaz | 13 princípios (base NIDA) | 3 fontes NATIVA + visual p.5 | CONFIRMADO |
+  L  76 [conduta                 ] - Condição da conduta: gravidade determina intensidade da intervenção (leve/moderado/grave pelos critérios DSM-5); comorbidade psiquiátrica exige tratamento integrado dos dois prob
+  L  77 [conduta                 ] - Diferencial perigoso: intoxicação aguda por substância estimulante/perturbadora mimetizando quadro psicótico primário (ex. ecstasy) — sempre investigar uso de substância em vinhe
+  L  78 [conduta                 ] - O que mudaria a decisão: identificação da substância específica muda a escolha farmacológica; comorbidade psiquiátrica presente muda o plano para tratamento integrado.
+  L  90 [cards minimos           ] | Frente | Verso | Tipo |
+  L  91 [cards minimos           ] |---|---|---|
+  L  95 [cards minimos           ] | Uso nocivo x dependência | Uso nocivo é excluído se já há síndrome de dependência | pegadinha |
+  L  96 [cards minimos           ] | Vinheta "comprimido amarelo" | Pensar intoxicação por estimulante/ecstasy, não psicose primária | pegadinha |
+  L  97 [cards minimos           ] | Tratamento precisa ser voluntário? | Não (Princípio 10) | pegadinha |
+  L 102 [revisao                 ] - Critério de parada: aplicar corretamente os critérios DSM-5/CID-10 e reconhecer a vinheta do estimulante em 3 questões seguidas sem erro.
+====================================================================================================
+capsules/EISM/transtornos_mentais_na_gravidez_e_puerperio.md
+  L  32 [conceito operacional min] Os transtornos afetivos puerperais formam um continuum de gravidade: blues (mais leve, comum,
+  L  35 [conceito operacional min] da placenta). Até 85% das puérperas têm alguma alteração de humor; 10–15% têm sintomas
+  L  36 [conceito operacional min] significativos.
+  L  40 [pivo clinico            ] Diante de qualquer depressão pós-parto, investigar ativamente sintomas prévios de mania/hipomania
+  L  41 [pivo clinico            ] — a chance do primeiro episódio de humor de um Transtorno Bipolar ocorrer no puerpério é 7x maior
+  L  42 [pivo clinico            ] que em outras fases da vida (numa amostra citada na fonte, 56% dos quadros inicialmente
+  L  45 [pivo clinico            ] para quadro psicótico), tem alta associação com bipolaridade e risco de infanticídio.
+  L  49 [palavras-ancora         ] blues puerperal (disforia puerperal) · depressão pós-parto · psicose puerperal · continuum de
+  L  64 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  65 [dados de precisao       ] |---|---|---|---|
+  L  67 [dados de precisao       ] | Alteração de humor no puerpério | até 85% das puérperas (maioria leve; 10–15% significativa) | Karen p.1 | CONFIRMADO |
+  L  69 [dados de precisao       ] | DPP — incidência / início / período crítico | 10–15% / geralmente nas 6 primeiras sem. / crítico nas 12 primeiras sem. | Karen p.2 | CONFIRMADO |
+  L  70 [dados de precisao       ] | DPP — recorrência em gestações seguintes | até 80% | Karen p.2 | CONFIRMADO |
+  L  71 [dados de precisao       ] | DPP — risco se episódio depressivo já na gestação | até 60% dos casos de DPP já tinham depressão na gestação | Karen p.2 | CONFIRMADO |
+  L  72 [dados de precisao       ] | Puérperas com dx inicial de depressão que eram TAB | 56% (amostra de 56 puérperas); só 44% confirmaram depressão | Karen p.3; slide p.12 | CONFIRMADO (A+B, números idênticos) |
+  L  73 [dados de precisao       ] | Chance do 1º episódio de humor do TAB ocorrer no puerpério | 7x maior que em outras fases da vida | Karen p.3; slide p.12 | CONFIRMADO (A+B) |
+  L  74 [dados de precisao       ] | Psicose puerperal — incidência | 2 em cada 1.000 partos | Karen p.5; slide p.14 | CONFIRMADO (A+B) |
+  L  76 [dados de precisao       ] | Psicose puerperal — taxa de infanticídio se não tratada | ~4% | Karen p.5; slide p.15 | CONFIRMADO (A+B) |
+  L  77 [dados de precisao       ] | Psicose puerperal maniforme → evolução para TAB | 50% | Karen p.5; slide p.15 | CONFIRMADO (A+B) |
+  L  79 [dados de precisao       ] | Lítio e aleitamento | regra absoluta de suspender aleitamento consta no material | slide/resumo | QUARANTINED — decisão individual especializada |
+  L 101 [conduta                 ] - Definitiva: blues — suporte social/familiar, sem fármaco. DPP leve-moderada — TCC como 1ª
+  L 105 [conduta                 ] - Condição da conduta: mulher em tratamento psiquiátrico que deseja engravidar deve comunicar ao
+  L 106 [conduta                 ] psiquiatra para ajuste em tempo hábil — a medicação não deve ser interrompida abruptamente,
+  L 107 [conduta                 ] mesmo em esquemas de risco na gestação (nesses casos, o médico orienta/contraindica a gestação,
+  L 108 [conduta                 ] mas mantém a medicação se já engravidou).
+  L 109 [conduta                 ] - Diferencial perigoso: depressão pós-parto tratada como unipolar quando na verdade é a 1ª
+  L 110 [conduta                 ] manifestação de TAB → virada maníaca com antidepressivo isolado.
+  L 113 [conduta                 ] Lítio não autoriza uma regra automática de suspender leite ou medicação.
+  L 126 [cards minimos           ] | Frente | Verso | Tipo |
+  L 127 [cards minimos           ] |---|---|---|
+  L 128 [cards minimos           ] | Blues × DPP × psicose puerperal — tempo | Blues: dias, até 2 sem. DPP: 6 sem. (crítico até 12 sem.). Psicose: até 3 sem. (pico 48-72h) | discriminador |
+  L 129 [cards minimos           ] | Por que investigar mania/hipomania em toda DPP | Risco 7x maior de 1º episódio de TAB ocorrer no puerpério | risco |
+  L 130 [cards minimos           ] | Taxa de infanticídio na psicose puerperal não tratada | ~4% | dado numérico |
+  L 132 [cards minimos           ] | Lítio e aleitamento | decisão individual especializada; regra antiga quarantined | risco |
+  L 137 [revisao                 ] temas se cobram juntos.
+  L 138 [revisao                 ] - Critério de parada: quando conseguir preencher de cabeça a tabela tempo×gravidade dos 3
+  L 139 [revisao                 ] quadros puerperais e justificar por que sertralina é a 1ª escolha nas duas fases (gestação e
+====================================================================================================
+capsules/EISM/emergencias_psiquiatricas_e_agitacao_psicomotora.md
+  L  28 [pivo clinico            ] A contenção segue SEMPRE a ordem do menos para o mais invasivo: **estrutural/ambiental → verbal (desescalada) → química (farmacológica) → mecânica (física)**. Contenção mecânica é 
+  L  45 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  46 [dados de precisao       ] |---|---|---|---|
+  L  87 [cards minimos           ] | Frente | Verso | Tipo |
+  L  88 [cards minimos           ] |---|---|---|
+  L  89 [cards minimos           ] | Ordem da contenção | Estrutural → verbal → química → mecânica | sequência |
+  L  98 [revisao                 ] - Critério de parada: acertar 3 vinhetas seguidas sobre ordem de contenção e escolha de via, sem erro.
+====================================================================================================
+capsules/EISM/antipsicoticos_sep_e_snm.md
+  L  36 [conceito operacional min] Todo antipsicótico bloqueia receptores D2. O bloqueio D2 na via nigroestriatal causa a síndrome
+  L  37 [conceito operacional min] extrapiramidal (SEP); na via tuberoinfundibular causa hiperprolactinemia; na via mesolímbica trata
+  L  38 [conceito operacional min] sintomas positivos; na via mesocortical, se bloqueada em excesso, piora sintomas negativos. 1ª
+  L  39 [conceito operacional min] geração (típicos): maior SEP, menor risco metabólico. 2ª geração (atípicos, bloqueiam também
+  L  40 [conceito operacional min] 5HT2A): menor SEP e hiperprolactinemia, maior risco metabólico (peso, glicemia, triglicerídeos).
+  L  45 [pivo clinico            ] FENOMENOLOGIA, não apenas "o paciente é idoso, logo dou biperideno":
+  L  46 [pivo clinico            ] - Horas a 1–5 dias, espasmo/postura anormal (olhos, pescoço, membros, língua) → distonia aguda →
+  L  47 [pivo clinico            ] biperideno.
+  L  50 [pivo clinico            ] - 5–30 dias, bradicinesia + rigidez + tremor + marcha arrastada (SEP mais frequente; idoso maior
+  L  51 [pivo clinico            ] risco) → parkinsonismo farmacológico → biperideno.
+  L  52 [pivo clinico            ] - Semanas a meses, rigidez EXTREMA + febre + PA instável + mioglobinemia → SNM → suspender o
+  L  53 [pivo clinico            ] antipsicótico + dantroleno + suporte intensivo (nunca biperideno).
+  L  54 [pivo clinico            ] - Meses a anos, movimentos orofaciais estereotipados, idoso com risco 5x maior, pode ser
+  L  55 [pivo clinico            ] irreversível → discinesia tardia → prevenção é a única estratégia eficaz.
+  L  56 [pivo clinico            ] Armadilha do blueprint: biperideno (anticolinérgico) NÃO é automaticamente seguro em idoso — o
+  L  57 [pivo clinico            ] efeito anticolinérgico agravado nessa faixa etária é o próprio ponto que a prova cobra.
+  L  61 [palavras-ancora         ] distonia aguda · acatisia · parkinsonismo farmacológico (PIF) · discinesia tardia · síndrome
+  L  62 [palavras-ancora         ] neuroléptica maligna · dantroleno · biperideno · propranolol · hiperprolactinemia · via
+  L  64 [palavras-ancora         ] estreita (1ª geração)
+  L  77 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  78 [dados de precisao       ] |---|---|---|---|
+  L  82 [dados de precisao       ] | Síndrome neuroléptica maligna — tempo / tratamento | Semanas a meses; interromper antipsicótico + dantroleno + suporte intensivo | FAMENE Psicoses (A', texto nativo) | CONFIRMADO
+  L  83 [dados de precisao       ] | Discinesia tardia — tempo / risco idoso | Meses a anos; idoso risco 5x maior; irreversível se diagnóstico tardio | FAMENE Psicoses (A') | CONFIRMADO |
+  L  87 [dados de precisao       ] | Clozapina REMS nos EUA | FDA removeu o REMS em 13/06/2025; o risco e a monitorização do rótulo permanecem | FDA notice 2025 | CURRENT_VERIFIED_US |
+  L 128 [conduta                 ] prescrever.
+  L 133 [conduta                 ] parkinsonismo.
+  L 154 [cards minimos           ] | Frente | Verso | Tipo |
+  L 155 [cards minimos           ] |---|---|---|
+  L 156 [cards minimos           ] | Acatisia — tratamento | Propranolol ou benzodiazepínico (NÃO biperideno) | risco |
+  L 157 [cards minimos           ] | SNM — tratamento | Suspender antipsicótico + dantroleno + suporte intensivo | risco |
+  L 159 [cards minimos           ] | Parkinsonismo farmacológico — tempo | 5–30 dias, SEP mais frequente, idoso maior risco | dado numérico |
+  L 160 [cards minimos           ] | Discinesia tardia — risco no idoso | 5x maior; pode ser irreversível se diagnóstico tardio | dado numérico |
+  L 164 [cards minimos           ] | Por que biperideno em idoso exige cautela | Efeito anticolinérgico central agravado (confusão, retenção urinária) | risco |
+  L 169 [revisao                 ] confirmada no blueprint.
+  L 170 [revisao                 ] - Critério de parada: quando conseguir, dado só o tempo de uso + fenomenologia (sem olhar a
+  L 171 [revisao                 ] tabela), classificar corretamente distonia x acatisia x parkinsonismo x SNM x discinesia tardia
+  L 172 [revisao                 ] e citar o tratamento certo de cada um, incluindo a armadilha do biperideno em idoso.
+  L 176 [fontes de vigencia — clo] - FDA, rótulo de clozapina, revisão 2025, Table 2: https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/019758s106lbl.pdf
+  L 177 [fontes de vigencia — clo] - FDA, remoção do Clozapine REMS efetiva em 13/06/2025: https://www.fda.gov/media/188418/download?attachment=
+====================================================================================================
+capsules/OSCE/osce_nefrologia.md
+  L  24 [a estacao               ] - **Tarefa:** a partir do caso clínico (geralmente pediátrico, com history de infecção prévia ou queixa insidiosa), reconhecer a síndrome (nefrótica/nefrítica), propor etiologia, s
+  L  25 [a estacao               ] - **Tempo:** não informado nas fontes.
+  L  26 [a estacao               ] - **Ator/paciente:** caso clínico escrito, sem exame físico rico — o achado central é laboratorial/sorológico.
+  L  27 [a estacao               ] - **Material:** resultado de EAS, hemograma, complemento (C3), ASLO/anti-DNAse já disponíveis na cabine quando pedidos.
+  L  28 [a estacao               ] - **Critério do checklist (inferido):** classificar corretamente nefrótica vs nefrítica pelo corte de proteinúria, nomear a etiologia mais provável pelo tempo de latência/gatilho, 
+  L  36 [palavras-ancora         ] Síndrome nefrótica × nefrítica · proteinúria 24h · complemento C3 · ASLO/anti-DNAse · tempo de latência · biópsia renal (MO/IF/ME) · TFG · RAC (relação albumina/creatinina) · KDIGO
+  L  50 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  51 [dados de precisao       ] |---|---|---|---|
+  L  58 [dados de precisao       ] | Tempo de latência etiológico da GNDA | faringoamigdalite: 7-21 dias · impetigo: 15-28 dias, até o início da nefrite | OSCE .pdf, p. ~50 (camada B) | CONFIRMADO |
+  L  59 [dados de precisao       ] | GNDA — achados de biópsia | MO: proliferação endocapilar · IF: depósitos granulares de IgG e C3 · ME: depósitos subepiteliais em "corcova" | OSCE .pdf, p. ~50 / OSCE - NEFROLOGIA
+  L  62 [dados de precisao       ] | GNRP — achados de imunofluorescência por tipo | tipo I: padrão linear (jovens) · tipo II: padrão granular (jovens) · tipo III: ausência de depósitos (meia-idade/homens); tipo I e
+  L  64 [dados de precisao       ] | DRC — fórmula mais acurada de TFG | CKD-EPI (mais acurada, sobretudo em TFG mais altas); Cockcroft-Gault é mais simples de calcular | FACILITA OSCE (1).pdf, p. 34 (camada B) | CO
+  L  68 [dados de precisao       ] | Síndrome urêmica — manifestações | flapping, pericardite urêmica (dor pleurítica + atrito pericárdico), elevação de ST difusa, infra de PR | FACILITA OSCE (1).pdf, p. ~39 (camada
+  L 103 [cards minimos           ] | Frente | Verso | Tipo |
+  L 104 [cards minimos           ] |---|---|---|
+  L 106 [cards minimos           ] | Tempo de latência GNDA pós-faringite × pós-impetigo | 7-21 dias (faringite) × 15-28 dias (impetigo) | valor |
+  L 107 [cards minimos           ] | Tempo de latência da nefropatia por IgA | 2-3 dias pós-IVAS, ou durante o próprio quadro infeccioso | valor |
+  L 110 [cards minimos           ] | GNDA: FAN, anti-DNA e complemento | FAN negativo, anti-DNA negativo, complemento (C3) baixo | sinal-achado |
+  L 115 [revisao                 ] - Critério de parada: quando conseguir, dado um caso de síndrome nefrítica pediátrica pós-infecciosa, decidir a etiologia certa em 3 variações de painel sorológico (GNDA/IgA/lúpus)
+====================================================================================================
+capsules/OSCE/osce_pediatria.md
+  L  25 [a estacao               ] - **Tempo:** não informado nas fontes disponíveis.
+  L  27 [a estacao               ] - **Material:** dados vitais e de exame físico já descritos no caso (FC, FR, estado de hidratação); eventual resultado de exame de imagem (radiografia de tórax na pneumonia).
+  L  28 [a estacao               ] - **Rubrica sintética de treino (não oficial):** classificar gravidade, verbalizar
+  L  29 [a estacao               ] segurança e calcular por peso quando pedido. Não há checklist aplicado, pesos ou
+  L  30 [a estacao               ] itens eliminatórios verificáveis nas fontes.
+  L  34 [pivo clinico            ] O pivô mais recorrente nas 3 fontes é o **peso/idade como filtro que muda toda a conduta**: a mesma queixa (febre + tosse, ou diarreia) tem protocolo de antibiótico e de reidrataçã
+  L  53 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  54 [dados de precisao       ] |---|---|---|---|
+  L  62 [dados de precisao       ] | Crise asmática — antibiótico | não é rotina (80% das exacerbações são virais); só na forte suspeita de infecção bacteriana (febre, escarro purulento, consolidação radiográfica) |
+  L  74 [dados de precisao       ] | Reanimação neonatal — se resposta "não" | estímulo tátil no dorso (até 2x) → se não funcionar, clampear cordão e iniciar passos iniciais (calor radiante, secar, posicionar vias a
+  L  80 [dados de precisao       ] | Aleitamento — recomendação de tempo | exclusivo até os 6 meses; complementado até os 2 anos ou mais | `FACILITA OSCE (1).pdf`, p.55 | CONFIRMADO |
+  L  82 [dados de precisao       ] | Aleitamento — colostro × leite maduro | colostro: último trimestre até a 1ª semana pós-parto, rico em proteína e IgA, pobre em gordura/carboidrato, efeito laxante · leite de tran
+  L 107 [conduta                 ] - Condição da conduta: idade, peso e gravidade mudam protocolos; em asma 6–11,
+  L 121 [cards minimos           ] | Frente | Verso | Tipo |
+  L 122 [cards minimos           ] |---|---|---|
+  L 126 [cards minimos           ] | O aleitamento materno é suspenso no plano B? | Não — só os outros alimentos são suspensos; o leite materno é mantido | regra |
+  L 130 [cards minimos           ] | Técnica preferida de massagem cardíaca neonatal com 2 médicos | 2 polegares, proporção 3:1 | sequência |
+  L 135 [revisao                 ] - Critério de parada: quando conseguir, dado um caso de diarreia ou de pneumonia pediátrica, classificar a gravidade formalmente e aplicar o esquema correto de conduta variando só 
