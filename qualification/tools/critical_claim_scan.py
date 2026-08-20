@@ -45,7 +45,30 @@ import unicodedata
 from pathlib import Path
 from typing import Any, Iterable
 
-SCHEMA_VERSION = "1.1.0"
+SCHEMA_VERSION = "1.2.0"
+
+# Changelog (v1.2.0): correção pós-auditoria de recall (ver
+# qualification/reports/DETECTOR_VALIDATION_REPORT.md). v1.1.0 (hash
+# c8e340ce...) ficou congelado para a amostra de precisão/FN; os achados dessa
+# amostra motivaram as mudanças abaixo, listadas explicitamente porque alteram
+# o denominador e não podem ser silenciosas:
+#   1) unidade cmH2O e taxa "/min" ausentes do vocabulário de dose;
+#   2) "a partir de N anos", "por N dias/semanas/horas", "em N h" ausentes do
+#      vocabulário de corte/janela;
+#   3) verbos de contraindicação só casavam no infinitivo (evitar), não em
+#      formas conjugadas (evitam, evita, evitando) nem em "nunca <verbo>";
+#   4) sinônimo de emergência "rapidamente fatal" ausente;
+#   5) `internacao_alta` promovida a categoria crítica — o prompt mestre §9.1
+#      exige "internação/alta" entre os dez tipos de claim extraídos; a
+#      exclusão anterior seguia uma leitura mais estreita de AGENTS.md e
+#      escondia claims de dano real (ex.: critério obrigatório de internação
+#      em transtorno alimentar grave);
+#   6) MAIOR: o pacote usa quebra de linha rígida (~80 col) dentro de
+#      parágrafos de prosa (conduta, conceito operacional mínimo, pivô
+#      clínico). Um regex por linha física não vê "critérios de\ninternação"
+#      como uma frase. A partir de v1.2.0, essas três seções também são
+#      varridas em janelas de 2 linhas concatenadas, ancoradas na primeira
+#      linha da janela, além da varredura linha-a-linha original.
 
 # --------------------------------------------------------------------------
 # Vocabulário
@@ -56,8 +79,9 @@ SCHEMA_VERSION = "1.1.0"
 # detector.
 UNITS = (
     r"(?:mg/kg/dia|mcg/kg/min|mg/kg|mcg/kg|ml/kg|mg/dl|mg/l|g/dl|mmol/l|meq/l|"
-    r"ng/ml|pg/ml|mg/m2|ui/kg|mg|mcg|µg|g|kg|ml|mmhg|mmol|meq|ui|%)"
+    r"ng/ml|pg/ml|mg/m2|ui/kg|cmh2o|mg|mcg|µg|g|kg|ml|mmhg|mmol|meq|ui|%)"
 )
+RATE_UNITS = r"(?:ventilacoes|compressoes|respiracoes|batimentos)?\s*/\s*min\b"
 
 ROUTES_EXPLICIT = (
     r"(?:via oral|endovenos[ao]|intravenos[ao]|intramuscular|subcutane[ao]|"
@@ -77,6 +101,7 @@ CATEGORY_PATTERNS: dict[str, list[tuple[str, str]]] = {
         (r"\bde\s*\d+\s*/\s*\d+\s*h\b", "strong"),
         (r"\b\d+\s*(?:x|vezes)\s*(?:ao |por )?dia\b", "strong"),
         (rf"\b{ROUTES_EXPLICIT}\b", "strong"),
+        (rf"\b\d+(?:[.,]\d+)?\s*(?:-\s*\d+(?:[.,]\d+)?)?\s*{RATE_UNITS}", "strong"),
         (r"\b(?:ev|iv|im|vo|sc|sl)\b", "weak"),
         (r"\b(?:dose|posologia|infusao)\b", "weak"),
     ],
@@ -88,6 +113,7 @@ CATEGORY_PATTERNS: dict[str, list[tuple[str, str]]] = {
          r"panss|madrs|percentil|z-score|escala de)\b", "strong"),
         (r"\b(?:maior|menor) (?:que|do que)\s+\d", "strong"),
         (r"\b(?:acima|abaixo) de\s+\d", "strong"),
+        (r"\ba partir de\s+\d+\s*(?:anos|meses|semanas|dias)\b", "strong"),
         (r"\b(?:estadiamento|estagio|classe funcional)\b", "strong"),
         (r"\b(?:classificacao|grau|classe)\b", "weak"),
         (r"\b(?:escore|score|pontuacao)\b", "weak"),
@@ -98,21 +124,24 @@ CATEGORY_PATTERNS: dict[str, list[tuple[str, str]]] = {
         (r"\b\d+\s*(?:h|horas|min|minutos)\s*(?:de|do|apos)\s*(?:inicio|ictus|sintoma|evento)\b", "strong"),
         (r"\b(?:minuto de ouro|golden hour|tempo porta|door-to-needle|door-to-balloon)\b", "strong"),
         (r"\b(?:aguda?|persistente|cronica?)\s*[<>≤≥]\s*\d", "strong"),
+        (r"\bpor\s+\d+\s*(?:h|horas|min|minutos|dias|semanas|meses)\b", "strong"),
+        (r"\bem\s+\d+\s*(?:h|horas|min|minutos|dias|semanas)\b", "strong"),
         (r"\bjanela\b", "weak"),
     ],
     "contraindicacao_interacao": [
         (r"\b(?:contraindicad[oa]|contra-indicad[oa]|contraindicacao|contraindicacoes)\b", "strong"),
-        (r"\bnao (?:usar|administrar|prescrever|associar|indicar|iniciar)\b", "strong"),
+        (r"\bnao\s+(?:se\s+)?(?:usar|administrar|prescrever|associar|indicar|iniciar|realizar|fazer)\w*\b", "strong"),
+        (r"\bnunca\s+(?:usar|administrar|prescrever|associar|indicar|iniciar|realizar|fazer)\w*\b", "strong"),
         (r"\b(?:interacao|interage com|potencializa|antagoniza)\b", "strong"),
         (r"\b(?:proscrit[oa]|vedado|jamais (?:usar|administrar))\b", "strong"),
         (r"\b(?:hipersensibilidade|alergia (?:previa|documentada))\b", "strong"),
-        (r"\bevitar\b", "weak"),
+        (r"\bevit(?:ar|a|am|ando|e|em)\b", "strong"),
         (r"\b(?:gestante|gravidez|lactacao|amamentacao)\b", "weak"),
     ],
     "emergencia_sinal_alarme": [
         (r"\b(?:sinal de alarme|sinais de alarme|sinal de alerta|sinais de alerta|red flag|"
          r"sinal de gravidade|sinais de gravidade)\b", "strong"),
-        (r"\b(?:risco de (?:morte|obito)|potencialmente fatal|ameaca a vida)\b", "strong"),
+        (r"\b(?:risco de (?:morte|obito)|potencialmente fatal|rapidamente fatal|ameaca a vida)\b", "strong"),
         (r"\b(?:parada cardiorrespiratoria|pcr|anafilaxia|estado de mal|status epilepticus|"
          r"cetoacidose|choque (?:septico|hipovolemico|cardiogenico|anafilatico)|sepse)\b", "strong"),
         (r"\b(?:risco (?:iminente|elevado) de suicid|ideacao suicida (?:estruturada|com plano)|"
@@ -133,7 +162,8 @@ CATEGORY_PATTERNS: dict[str, list[tuple[str, str]]] = {
         (r"\b(?:iniciar com|comecar por|preferir)\b", "weak"),
     ],
     "internacao_alta": [
-        (r"\b(?:criterio[s]? de (?:internacao|alta)|indicacao de internacao)\b", "strong"),
+        (r"\b(?:criterio[s]? de (?:internacao|alta)|indicacao(?:es)? de internacao)\b", "strong"),
+        (r"\binternacao\s+(?:e\s+)?obrigatori", "strong"),
         (r"\b(?:internar|internacao|hospitalizar|hospitalizacao)\b", "weak"),
         (r"\b(?:uti|cti|alta hospitalar|observacao por)\b", "weak"),
         (r"\b(?:referenciar|contrarreferencia|transferencia)\b", "weak"),
@@ -182,6 +212,7 @@ CRITICAL_CATEGORIES = {
     "emergencia_sinal_alarme",
     "sequencia_terapeutica",
     "calendario_regra_jurisdicional",
+    "internacao_alta",
 }
 
 # Classificação de seção. Um flashcard que afirma uma dose é tão acionável
@@ -259,6 +290,20 @@ def numeric_tokens(text: str) -> set[str]:
     return out
 
 
+# Seções de prosa corrida onde o markdown quebra linha em ~80 colunas dentro
+# de uma mesma frase (ex.: "critérios de\ninternação"). `dados de precisao` e
+# `cards minimos` são tabelas — cada linha física já é uma unidade completa —
+# e não entram aqui.
+PROSE_JOIN_SECTIONS = {
+    "conceito operacional minimo", "pivo clinico", "conduta", "conduta e guardrails",
+    "trombolise intravenosa", "trombectomia mecanica", "suporte que nao deve virar alvo automatico",
+}
+
+
+def _joinable_section(section: str) -> bool:
+    return section in PROSE_JOIN_SECTIONS or section.startswith("pratica clinica atual")
+
+
 def iter_capsule_lines(path: Path) -> Iterable[tuple[int, str, str]]:
     section = ""
     with path.open(encoding="utf-8") as handle:
@@ -271,6 +316,24 @@ def iter_capsule_lines(path: Path) -> Iterable[tuple[int, str, str]]:
             if not line.strip():
                 continue
             yield line_no, section, line
+
+
+def iter_capsule_line_windows(path: Path) -> Iterable[tuple[int, str, str]]:
+    """Janelas de 2 linhas consecutivas dentro da mesma seção de prosa,
+    ancoradas na primeira linha, para capturar frase partida por quebra rígida
+    de markdown. Linhas de tabela (`dados de precisao`, `cards minimos`) ficam
+    de fora — cada linha de tabela já é uma unidade completa."""
+    rows = list(iter_capsule_lines(path))
+    for i in range(len(rows) - 1):
+        line_no, section, text = rows[i]
+        next_no, next_section, next_text = rows[i + 1]
+        if not _joinable_section(section) or section != next_section:
+            continue
+        if next_no != line_no + 1:
+            continue  # linhas em branco/tabela no meio quebram a janela
+        if text.strip().startswith("|") or next_text.strip().startswith("|"):
+            continue
+        yield line_no, section, f"{text.rstrip()} {next_text.strip()}"
 
 
 def detect(line: str) -> list[tuple[str, str]]:
@@ -294,16 +357,22 @@ def scan(root: Path) -> tuple[list[dict[str, Any]], dict[str, dict[str, Any]]]:
     detections: list[dict[str, Any]] = []
     for rel_path in sorted(capsules):
         meta = capsules[rel_path]
-        for line_no, section, line in iter_capsule_lines(root / rel_path):
-            hits = detect(line)
+        seen_at_line: set[tuple[int, str]] = set()  # (line_no, category) já reportado
+
+        def add(line_no: int, section: str, text: str, source: str) -> None:
+            hits = detect(text)
             if not hits:
-                continue
+                return
             section_class = classify_section(section)
-            text = line.strip()
+            clean = text.strip()
             for category, tier in hits:
+                key = (line_no, category)
+                if key in seen_at_line:
+                    continue
+                seen_at_line.add(key)
                 detections.append(
                     {
-                        "detection_id": stable_id(rel_path, str(line_no), category, text),
+                        "detection_id": stable_id(rel_path, str(line_no), category, source, clean),
                         "capsule_id": meta["capsule_id"],
                         "capsule_path": rel_path,
                         "discipline": meta["discipline"] or "UNKNOWN",
@@ -319,9 +388,15 @@ def scan(root: Path) -> tuple[list[dict[str, Any]], dict[str, dict[str, Any]]]:
                             and category in CRITICAL_CATEGORIES
                             and section_class == "assertive_clinical"
                         ),
-                        "text": text,
+                        "source": source,
+                        "text": clean,
                     }
                 )
+
+        for line_no, section, line in iter_capsule_lines(root / rel_path):
+            add(line_no, section, line, "single_line")
+        for line_no, section, joined in iter_capsule_line_windows(root / rel_path):
+            add(line_no, section, joined, "joined_window")
     return detections, capsules
 
 
@@ -438,7 +513,7 @@ def main() -> int:
             "detection_id", "capsule_id", "capsule_path", "discipline", "risk", "line_no",
             "section", "section_class", "category", "tier", "critical_category",
             "in_sweep_denominator", "capsule_has_registered_claims", "linked_claim_ids",
-            "link_basis", "resolved", "text",
+            "link_basis", "resolved", "source", "text",
         ],
     )
     write_csv(

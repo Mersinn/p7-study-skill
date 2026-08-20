@@ -2,9 +2,19 @@
 
 **Branch:** `qualification/v1.0.0-claude`
 **Base:** `origin/recovery/v1.0.0-rc1` @ `1d95700ae5b6697d4c12325a0cc245a410b200c7`
-**Estágio:** Fase 9.1 concluída (inventário determinístico). Fases 9.2–9.4
-(rastreabilidade, pesquisa médica, adjudicação) **não iniciadas**.
+**Estágio:** Fase 9.1 concluída, com detector validado (v1.2.0, ver
+`DETECTOR_VALIDATION_REPORT.md`) e claims agrupados/classificados por dano (ver
+`CLAIM_CLUSTER_SUMMARY.json`). Fase 9.2/9.3 (adjudicação por diretriz) **em
+andamento, escopo Tier A**. Fase 9.4 (fechamento do gate) **não iniciada**.
 **Gates fechados por este documento:** nenhum.
+
+> **Atualização pós-validação:** os números abaixo referem-se ao detector
+> v1.1.0 (denominador 2 659). O detector foi validado e corrigido para v1.2.0
+> (denominador **3 201**, +20,4%) — ver `DETECTOR_VALIDATION_REPORT.md` para
+> método, precisão medida (94,1%) e causas-raiz do recall corrigido. As seções
+> abaixo permanecem como registro histórico da primeira passada; os números
+> vigentes para priorização estão em `CLAIM_CLUSTER_SUMMARY.json` e
+> `CRITICAL_CLAIM_COVERAGE.csv` (regenerados em v1.2.0).
 
 ---
 

@@ -1,0 +1,31 @@
+{
+  "clusters_by_tier": {
+    "A": 1790,
+    "B": 186,
+    "C": 709
+  },
+  "clusters_multi_capsule": 99,
+  "clusters_single_capsule": 2586,
+  "clusters_total": 2685,
+  "dedup_ratio": 1.19,
+  "detector_hash_frozen": "a51038c07101e83ae0a778ab4aac596ba4604391299bf19b500fe4b216c43b1f",
+  "detector_schema_version": "1.2.0",
+  "high_risk_occurrences_by_tier": {
+    "A": 1735,
+    "B": 173,
+    "C": 612
+  },
+  "input_occurrences": 3201,
+  "limitations": [
+    "Classificacao A/B/C e regra lexical deterministica sobre a categoria e o texto da linha; nao e julgamento medico. Amostra sera validada manualmente a parte.",
+    "Clustering por token numerico pode sub-agrupar (mesma dose escrita com unidades/formatacao diferentes cai em clusters distintos) — sub-agrupamento e seguro (nunca funde fatos diferentes), mas superestima o numero de clusters unicos.",
+    "Nenhum gate fechado por este artefato."
+  ],
+  "occurrences_by_tier": {
+    "A": 2164,
+    "B": 236,
+    "C": 801
+  },
+  "schema_version": "1.0.0",
+  "tier_A_clusters_needing_adjudication": 1790
+}

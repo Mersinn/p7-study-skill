@@ -4,28 +4,29 @@
   "capsules_scanned": 158,
   "claims_registered": 41,
   "denominator_by_category": {
-    "calendario_regra_jurisdicional": 25,
-    "contraindicacao_interacao": 208,
-    "cutoff_escore_estadiamento": 1283,
-    "dose_via_intervalo": 775,
-    "emergencia_sinal_alarme": 201,
-    "janela_temporal": 64,
-    "sequencia_terapeutica": 103
+    "calendario_regra_jurisdicional": 29,
+    "contraindicacao_interacao": 345,
+    "cutoff_escore_estadiamento": 1400,
+    "dose_via_intervalo": 841,
+    "emergencia_sinal_alarme": 236,
+    "internacao_alta": 21,
+    "janela_temporal": 195,
+    "sequencia_terapeutica": 134
   },
   "denominator_by_discipline": {
-    "CASOS_CLINICOS": 179,
-    "EISA_II": 1305,
-    "EISCA": 791,
-    "EISM": 206,
-    "OSCE": 178
+    "CASOS_CLINICOS": 200,
+    "EISA_II": 1530,
+    "EISCA": 980,
+    "EISM": 277,
+    "OSCE": 214
   },
-  "detections_total": 7587,
+  "detections_total": 8409,
   "excluded_from_denominator": {
-    "historical_section": 16,
-    "non_critical_category": 1351,
-    "pedagogic_meta_section": 2700,
-    "provenance_section": 344,
-    "weak_tier": 2577
+    "historical_section": 17,
+    "non_critical_category": 1337,
+    "pedagogic_meta_section": 2742,
+    "provenance_section": 345,
+    "weak_tier": 2709
   },
   "limitations": [
     "Detecção lexical: mede presença de afirmação crítica, não correção clínica.",
@@ -34,11 +35,11 @@
     "Seções `pedagogic_meta` (distratores, pegadinhas, mini-casos, como cai) ficam fora do denominador porque afirmam o erro, não a conduta; permanecem auditáveis no CSV.",
     "Nenhum gate é fechado por este artefato."
   ],
-  "schema_version": "1.1.0",
-  "sweep_denominator": 2659,
-  "sweep_denominator_high_risk": 2071,
-  "sweep_denominator_high_risk_lines": 1625,
-  "sweep_denominator_lines": 2116,
-  "unresolved_high_risk": 2010,
-  "unresolved_total": 2598
+  "schema_version": "1.2.0",
+  "sweep_denominator": 3201,
+  "sweep_denominator_high_risk": 2520,
+  "sweep_denominator_high_risk_lines": 1853,
+  "sweep_denominator_lines": 2414,
+  "unresolved_high_risk": 2441,
+  "unresolved_total": 3122
 }
