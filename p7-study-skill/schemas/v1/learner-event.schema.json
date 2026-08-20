@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://p7-study.local/schemas/v1/learner-event.schema.json",
+  "title": "LearnerEvent",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "event_id", "learner_id", "occurred_at", "event_type", "interaction_id", "payload", "previous_hash", "record_hash"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "event_id": {"type": "string", "pattern": "^event:[a-z0-9._:-]+$"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "occurred_at": {"type": "string", "format": "date-time"},
+    "event_type": {"enum": ["confidence_recorded", "answer_submitted", "feedback_shown", "review_completed", "note_recorded"]},
+    "interaction_id": {"type": "string", "minLength": 1},
+    "capsule_id": {"type": ["string", "null"]},
+    "concept_id": {"type": ["string", "null"]},
+    "parent_event_id": {"type": ["string", "null"]},
+    "review_task_id": {"type": ["string", "null"]},
+    "payload": {"type": "object"},
+    "previous_hash": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+    "record_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  }
+}

@@ -5,6 +5,10 @@ Caderno de erros e fila de revisão.
 Um erro só vale se virar **intervenção**. Registrar erro sem intervenção é
 colecionar fracasso.
 
+O registro vale na conversa atual. Só afirme persistência entre sessões quando um
+ledger foi realmente criado e está acessível; sem ele, declare `sessão sem
+histórico`. O contrato completo está em `LEARNER_STATE_PROTOCOL.md`.
+
 ## 1. O que entra no caderno
 
 Entra:
@@ -29,12 +33,16 @@ Diagnos 1C-A expôs. Ver `QUESTION_INTELLIGENCE_P7.md` §8.
 
 ```yaml
 erro:
+  learner_event_id: ""
+  review_task_id: ""
   data: ""
   disciplina: ""          # EISA_II | EISCA | EISM | CASOS | OSCE
   tema: ""
   operacao_exigida: ""
-  movimento_realizado: ""
-  confianca_do_diagnostico: ""   # baixa | moderada | alta
+  movimento_candidato: ""
+  hypothesis_status: ""          # candidate | confirmed | weakened | abandoned | indeterminate
+  diagnostic_confidence: ""      # baixa | moderada | alta
+  learner_confidence_before_feedback: null
   evidencia: ""                  # o sinal OBSERVADO que sustenta
   intervencao: ""                # o que fazer diferente da próxima vez
   card_gerado: ""
@@ -63,18 +71,22 @@ Cada movimento tem uma intervenção própria. Genérico ("estudar mais") não c
 | provável antes da perigosa | listar o diferencial perigoso primeiro |
 | acerto frágil | refazer a questão em 48h sem consultar |
 
-## 4. Fila de revisão
+## 4. Fila de revisão por resultado
 
 Revisão espaçada simples, ancorada em **erro**, não em calendário genérico:
 
-- erro novo → revisar em **48h**;
-- acertou na revisão → **7 dias**;
-- acertou de novo → **21 dias**;
-- errou de novo → volta para 48h e a **intervenção muda** (a anterior não funcionou);
-- tema de risco clínico alto → nunca sai da fila; revisita mínima mensal.
+- erro, chute, pista decisiva ou acerto frágil → revisar em **48h**;
+- em 48h, só resposta correta e independente, com confiança compatível → **7 dias**;
+- em 7d, nova recuperação independente correta, preferencialmente em
+  transferência → **21 dias**;
+- erro ou dependência de pista → volta para 48h e a **intervenção muda**;
+- em 21d, acerto robusto arquiva do bloco ativo ou move para manutenção conforme
+  risco; tema de alto risco pode ter manutenção mensal, sem permanecer eternamente
+  na fila ativa.
 
-Antes de prova: a fila é ordenada por `evidência de cobrança × risco clínico`, não
-por data.
+Antes de prova, selecione lote finito pelo tempo disponível e ordene por
+`vencimento × risco clínico × fragilidade pessoal × evidência de cobrança`. Não
+tente revisar toda a fila.
 
 ## 5. Cards
 
@@ -85,9 +97,10 @@ pessoal · regra de prova · dose.
 
 Nunca gere lote grande durante a correção. Um card bom vale dez genéricos.
 
-Card de dose e cutoff só entra com o valor **verificado** (cápsula com
-`Verificação independente: CONFIRMADO`). Valor não verificado vira card com
-`confirmar no slide`.
+Card de dose/cutoff para prática atual só entra com `transcription: confirmed`,
+`clinical_validity: current` e revisão exigida concluída. Transcrição conferida sem
+vigência pode virar card curricular histórico explicitamente rotulado; nunca card
+de conduta atual.
 
 ## 6. Leitura do padrão
 
@@ -102,7 +115,8 @@ Próxima intervenção:
 
 Regras de honestidade:
 
-- não declare padrão com menos de 3 ocorrências independentes;
+- uma ocorrência é apenas `candidate`; não declare padrão com menos de 3
+  ocorrências independentes e não use `confirmed` sem transferência válida;
 - não conte o mesmo erro duas vezes por ter aparecido em duas questões do mesmo
   simulado;
 - padrão inferido de auto-relato pós-gabarito tem teto de confiança **moderada**;

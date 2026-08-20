@@ -96,6 +96,9 @@ não vira fonte — vale a mesma anti-circularidade das cápsulas
 (`CAPSULE_GENERATION_POLICY.md` §5).
 
 Só gere o arquivo se o aluno confirmar. Aula sem sinal novo não merece artefato.
+Se o ambiente tiver registro canônico de ocorrências, indexe o delta nele e ligue
+o próximo teste a um `review_task_id`. Sem índice/ledger acessível, declare que o
+arquivo não será retomado automaticamente em outra sessão; nunca finja memória.
 
 ## 6. Ocorrência × tópico canônico
 

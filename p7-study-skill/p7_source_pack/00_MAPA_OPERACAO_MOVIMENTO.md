@@ -1,29 +1,31 @@
 # MAPA OPERAÇÃO × MOVIMENTO — P7
 
-A camada metacognitiva. Extraída de **152 questões** de provas e devolutivas
+A camada de demanda objetiva e armadilhas plausíveis. Extraída de **152 questões** de provas e devolutivas
 reais do P7, por quatro extratores independentes.
 
 Enquanto o `00_EXAM_BLUEPRINT.md` responde *como a prova cobra*, este arquivo
-responde **como se raciocina nela e como se erra nela**.
+descreve **o que os itens exigem** e quais armadilhas eles tornam plausíveis.
 
 A devolutiva é a fonte mais rica do acervo: ela traz o professor explicando o
 próprio raciocínio, o que revela qual variável ele considera decisiva.
 
-## O achado que governa a skill
+## Natureza da demanda dos itens
 
-| Natureza do erro | Questões | O que significa |
+| Natureza da demanda | Itens | O que significa |
 |---|---|---|
-| **operacional** | **71** | o aluno tinha o conteúdo e executou na ordem errada |
-| factual | 69 | o aluno não sabia o dado |
-| misto | 12 | exige o dado **e** a operação |
+| **operacional** | **71** | resolver depende principalmente de aplicar, ordenar, priorizar ou discriminar |
+| factual | 69 | resolver depende principalmente de recuperar um dado |
+| mista | 12 | exige recuperação factual **e** operação materialmente inseparáveis |
 
-**Quase metade dos erros do P7 não é lacuna de conteúdo.** Reler a apostila para
-consertar um erro de sequência é o desperdício clássico do estudo médico — e a
-prova do P7 pune exatamente isso.
+Esses números contam **itens**, não erros de alunos. Não demonstram que alguém
+“sabia e executou errado”, nem estimam prevalência de causas cognitivas na turma.
+Mesmo quando a estrutura sugere uma armadilha, o movimento do aluno depende de
+resposta, distrator, justificativa, trajetória ou transferência individual.
 
-Consequência para o `Resolver Questão`: antes de mandar estudar o tema, decida
-se o erro foi factual ou operacional. Se foi operacional, a intervenção é
-**treino do movimento**, não releitura.
+Consequência para `Resolver Questão`: classifique primeiro a demanda objetiva. Só
+depois, se houver sinal individual, formule um movimento `candidate` e escolha a
+intervenção. Sem esse sinal, use `INDETERMINADO`; não transforme a classe do item
+em causa do erro.
 
 ## Operações mais exigidas
 
@@ -58,13 +60,15 @@ se o erro foi factual ou operacional. Se foi operacional, a intervenção é
 | valor | 6 | card de valor |
 | prioridade | 2 | listar o perigoso antes do provável |
 
-## Padrões de erro por disciplina
+## Demandas recorrentes e armadilhas plausíveis por disciplina
 
-Cada padrão traz a **intervenção que o corrige** — nunca "estudar mais".
+As tabelas abaixo são hipóteses de treino derivadas dos itens. “Movimento” significa
+**movimento candidato que a armadilha pode induzir**, não erro observado de uma
+pessoa. A intervenção só vira personalizada após evidência individual.
 
 ### EISA II — Saúde do Adulto II (Endócrino, Nefro, Uro, Neuro, Patologia, Farmacologia, Oftalmo, Angio, Onco)
 
-*Dos ~36 itens analisados: cerca de 45% são francamente factuais (valor/limiar/fato pontual a recordar — ex. célula de origem do carcinoma medular, local de escolha do cateter de diálise), ~45% são operacionais (sequenciar, priorizar, aplicar critério a um caso — ex. ordem terapêutica no câncer de próstata resistente à castração, indicação absoluta de cirurgia em HPB) e ~10% mistos (o dado é factual mas só tem valor quando aplicado à descrição do caso, ex. cálculo de Gleason a partir do padrão arquitetural descrito). Importante: a maioria dos itens 'factuais' vem embutida em vinheta clínica — o aluno primeiro precisa reconhecer o padrão (operação) para então recuperar o dado (conteúdo), o que explica por que o padrão de erro mais frequente não é 'não sabia o fato' e sim 'aplicou o fato errado ao caso certo' ou 'inverteu a direção do fato'.*
+*Dos ~36 itens analisados: cerca de 45% são francamente factuais (valor/limiar/fato pontual a recordar — ex. célula de origem do carcinoma medular, local de escolha do cateter de diálise), ~45% são operacionais (sequenciar, priorizar, aplicar critério a um caso — ex. ordem terapêutica no câncer de próstata resistente à castração, indicação absoluta de cirurgia em HPB) e ~10% mistos (o dado é factual mas só tem valor quando aplicado à descrição do caso, ex. cálculo de Gleason a partir do padrão arquitetural descrito). Importante: a maioria dos itens factuais vem embutida em vinheta clínica e também exige reconhecimento de padrão. Isso cria mais de uma explicação possível para uma resposta errada; o item, sozinho, não permite escolher entre lacuna factual, aplicação inadequada ou inversão.*
 
 | Freq. | Movimento | Onde aparece | Treino que corrige |
 |---|---|---|---|
@@ -75,7 +79,7 @@ Cada padrão traz a **intervenção que o corrige** — nunca "estudar mais".
 | alta | Generalizar um critério de bolso desatualizado para situações que já têm exceção reconhecida na diretriz atual | Indicação cirúrgica de HPB (retenção urinária 1º episódio, ITU isolada), hipocalemia obrigatória no HAP | Ao estudar um 'critério clássico', perguntar explicitamente 'há exceção documentada na diretriz mais recente citada na devolutiva?' antes de aplicar a regra a um caso novo. |
 | alta | Fechar diagnóstico/conduta sem checar uma premissa obrigatória do enunciado (tempo de evolução, comorbidade, fator de risco) | Úlcera peniana persistente + fimose (biopsiar antes de assumir DST), janela terapêutica do AVCi (checar hora do ictus), derivação urinária pós-cistectomia (checar doença inflamatória intestinal) | Checklist mental fixo antes de fechar a resposta: idade, tempo de evolução, comorbidade relevante, fator de risco — só depois escolher a alternativa. |
 | media | Trocar localização/estrutura anatômica específica (lateralidade, vaso, via) | Cateter de diálise (jugular vs subclávia), lateralidade do hematoma extradural | Cápsulas anatômicas curtas e visuais para os pontos mais cobrados (acessos vasculares, vias motoras cruzadas), com revisão espaçada. |
-| media | Aplicar um limiar numérico fora do contexto de idade/sexo/comorbidade que o valida (PSA por idade, IMC, HbA1c, Ferriman-Gallwey) | Biópsia prostática por relação PSA livre/total (só válida >55 anos), escala de hirsutismo, graus de obesidade da OMS | Tabela única de limiares por contexto clínico (idade, sexo, comorbidade) revisada ativamente antes de cada prova, já que o erro típico é usar o limiar 'padrão' fora do contexto que o valida. |
+| media | Aplicar um limiar numérico fora do contexto de idade/sexo/comorbidade que o valida (PSA por idade, IMC, HbA1c, Ferriman-Gallwey) | Biópsia prostática por relação PSA livre/total (só válida >55 anos), escala de hirsutismo, graus de obesidade da OMS | Tabela única de limiares por contexto clínico (idade, sexo, comorbidade) revisada ativamente; use esta intervenção só quando a resposta individual mostrar aplicação do limiar fora do contexto. |
 
 **Etapas do raciocínio que a prova exige:**
 
@@ -185,7 +189,7 @@ referência ao corrigir uma questão do mesmo tema.
 
 ### EISA II — Saúde do Adulto II (Endócrino, Nefro, Uro, Neuro, Patologia, Farmacologia, Oftalmo, Angio, Onco)  (36 itens)
 
-| Tema | Operação | Variável decisiva | Tipo | Natureza | Erro da turma |
+| Tema | Operação | Variável decisiva | Tipo | Natureza da demanda | Evidência de erro da turma |
 |---|---|---|---|---|---|
 | Doença renal crônica — achados ultrassonográ | aplicar critério | Direção do achado: a ecogenicidade cortical AUMENTA na DRC ( | fato | factual | — |
 | Estimativa da taxa de filtração glomerular ( | melhor exame | Reconhecer que a coleta urinária de 24h tem limitações práti | fato | factual | — |
@@ -226,7 +230,7 @@ referência ao corrigir uma questão do mesmo tema.
 
 ### Integradas + Casos Clínicos / Clínica Médica (P7) — camada metacognitiva  (38 itens)
 
-| Tema | Operação | Variável decisiva | Tipo | Natureza | Erro da turma |
+| Tema | Operação | Variável decisiva | Tipo | Natureza da demanda | Evidência de erro da turma |
 |---|---|---|---|---|---|
 | ECA — competências da Vara da Infância e Juv | aplicar critério | qual das 5 alternativas NÃO integra o rol legal de competênc | fato | factual | — |
 | SUS — princípios e controle social | aplicar critério | qual afirmação sobre o SUS está tecnicamente errada — gabari | fato | factual | — |
@@ -269,7 +273,7 @@ referência ao corrigir uma questão do mesmo tema.
 
 ### EISCA — Saúde da Criança e Adolescente (P7, FAMENE)  (39 itens)
 
-| Tema | Operação | Variável decisiva | Tipo | Natureza | Erro da turma |
+| Tema | Operação | Variável decisiva | Tipo | Natureza da demanda | Evidência de erro da turma |
 |---|---|---|---|---|---|
 | Convulsão febril — etiologia | reconhecer diagnóstico | IVAS como gatilho febril mais comum da crise convulsiva febr | fato | factual | — |
 | Convulsão febril simples vs. atípica | diferenciar proximos | idade do primeiro episódio (>7 anos torna o quadro atípico) | limiar | operacional | — |
@@ -313,7 +317,7 @@ referência ao corrigir uma questão do mesmo tema.
 
 ### EISM — Saúde Mental (Psiquiatria) — P7 FAMENE  (39 itens)
 
-| Tema | Operação | Variável decisiva | Tipo | Natureza | Erro da turma |
+| Tema | Operação | Variável decisiva | Tipo | Natureza da demanda | Evidência de erro da turma |
 |---|---|---|---|---|---|
 | Transtorno de ansiedade de separação (infânc | reconhecer diagnóstico | padrão de medo ligado à separação da figura de apego (não an | sinal-achado | misto | — |
 | TDAH — critério de pervasividade multiambien | aplicar critério | número de ambientes em que os sintomas de desatenção/hiperat | limiar | factual | — |

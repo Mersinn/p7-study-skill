@@ -1,0 +1,1173 @@
+{
+  "file_count": 233,
+  "files": [
+    {
+      "bytes": 1704,
+      "path": "AGENTS.md",
+      "sha256": "88ca3ba391048a47bed1042a7ab0914e46cd8e1ef77310638465b981fb3c651e"
+    },
+    {
+      "bytes": 1286,
+      "path": "COMPATIBILITY.md",
+      "sha256": "0d809f24e426bf21b85f876a4064027252715776a5ac570f3f6b2a35706a6a8c"
+    },
+    {
+      "bytes": 878,
+      "path": "LICENSE.md",
+      "sha256": "c211a4116fc4c98c311c879cdfcf8b8010b8a15ef017ac2e1f7b0d1f64fe0adb"
+    },
+    {
+      "bytes": 500,
+      "path": "PACKAGE_MANIFEST.md",
+      "sha256": "7f951021697d1df85e178353f6d7e1700a88591b0b39181dcbbbc96e7aa13440"
+    },
+    {
+      "bytes": 1120,
+      "path": "PRIVACY.md",
+      "sha256": "804f285e50c13fc339d99581c988883577f6c87bf27619e30b9a82ac8f223680"
+    },
+    {
+      "bytes": 6522,
+      "path": "README_INSTALL.md",
+      "sha256": "2fb928d5022d508b030c9d4d57ddc8e62239ae499b37c1707d9057c693bcc3b8"
+    },
+    {
+      "bytes": 1849,
+      "path": "RELEASE_NOTES_v1.0.0.md",
+      "sha256": "16a335c7fe219b59512cd4308f10e2c218eb257a543da3dc77f43e722b99b78e"
+    },
+    {
+      "bytes": 25637,
+      "path": "SKILL.md",
+      "sha256": "120be56bfe2322ef1cb9a71fc3878f069931bdec8a03bc8e7abbf6c56fb155a7"
+    },
+    {
+      "bytes": 11,
+      "path": "VERSION",
+      "sha256": "8e3ccfbe492191dbb919be7b4ef3d93bd88f92b1d99532b25ba19c5ad9f1f722"
+    },
+    {
+      "bytes": 272,
+      "path": "agents/openai.yaml",
+      "sha256": "281e7e67fb118b3c9784c41a8637e32c0f93eee8091e3171c2edc28ae1f0ed47"
+    },
+    {
+      "bytes": 8599,
+      "path": "capsule_generation/CAPSULE_GENERATION_POLICY.md",
+      "sha256": "749981ea78cf3be3c6a128af75061e0543209a3fc6cd96cb5dcf3c05cfc3ff29"
+    },
+    {
+      "bytes": 4197,
+      "path": "capsule_generation/CAPSULE_REVIEW_CHECKLIST.md",
+      "sha256": "1c07940d8b55cbb153ea5bf220cc69e7b4db0f3abd3b35312238d942f0358f49"
+    },
+    {
+      "bytes": 3446,
+      "path": "capsule_generation/CAPSULE_TEMPLATE.md",
+      "sha256": "08b4abea358fe83829838ff4020c6c39845454d132dc4f6cc09e79d6fabe8c5d"
+    },
+    {
+      "bytes": 30320,
+      "path": "capsules/CAPSULE_INDEX.md",
+      "sha256": "98867555c325b4754bf0bb050734d627e75f596f15eb42da50bbd6dc8a5b6e33"
+    },
+    {
+      "bytes": 13211,
+      "path": "capsules/CASOS_CLINICOS/abordagem_a_dispneia.md",
+      "sha256": "f455d5f8493e0acd535384cc5c3b5fa9396b5e982d2c6b46206ec4d998d48bd3"
+    },
+    {
+      "bytes": 16528,
+      "path": "capsules/CASOS_CLINICOS/abordagem_diarreia_aguda_cronica.md",
+      "sha256": "de64e281b05eda8f3fa26c2ef703f4b392a6ee875d89206867a62acec284b1a3"
+    },
+    {
+      "bytes": 16008,
+      "path": "capsules/CASOS_CLINICOS/cefaleias_classificacao_sinais_alarme.md",
+      "sha256": "157cadcde873d46d25f8afa8122648c3973eaa927f673d6a5a9d0669b9721e3e"
+    },
+    {
+      "bytes": 15672,
+      "path": "capsules/CASOS_CLINICOS/cirrose_hepatica_ascite_pbe.md",
+      "sha256": "e1f6ceddd5c2d8028279ff111c8d04924a17e6b22bc9c7b0865a89ca7d24ed0d"
+    },
+    {
+      "bytes": 16637,
+      "path": "capsules/CASOS_CLINICOS/colite_pseudomembranosa.md",
+      "sha256": "fb722ace300e08182dca31738f530bb2846e2faa1d0ff93d309d452718842d67"
+    },
+    {
+      "bytes": 12538,
+      "path": "capsules/CASOS_CLINICOS/doenca_celiaca.md",
+      "sha256": "b7b0607e4ac00afc650bb451cb0683c5736c9e5c1a6abf7d7e9d16cb5a905658"
+    },
+    {
+      "bytes": 13195,
+      "path": "capsules/CASOS_CLINICOS/doenca_inflamatoria_intestinal_crohn_versus_retocolite_ulcerativa.md",
+      "sha256": "fb113f00c6028649a386ffc770201cff382d06ffceb279500a9e23c310f50426"
+    },
+    {
+      "bytes": 10346,
+      "path": "capsules/CASOS_CLINICOS/formato_avaliacao_discussao_casos_clinicos.md",
+      "sha256": "ee51329f4a042bbce6197bfc6be6d45094d17f6c57a34a891bf08dfa2314efdb"
+    },
+    {
+      "bytes": 17650,
+      "path": "capsules/CASOS_CLINICOS/fraqueza_muscular_miastenia_polimiosite.md",
+      "sha256": "05a8b90afb9d62df3ddb18b50d569214b59479f97180937912bb2cdd5a23ac40"
+    },
+    {
+      "bytes": 14756,
+      "path": "capsules/CASOS_CLINICOS/ganho_de_peso_obesidade_e_sindrome_metabolica.md",
+      "sha256": "b64d70a91f06efb0dc3d6e8791df0bc76bda59be470d67646795501e4f0b7be2"
+    },
+    {
+      "bytes": 17178,
+      "path": "capsules/CASOS_CLINICOS/hemorragia_subaracnoide_hipertensao_intracraniana.md",
+      "sha256": "18728c91ed68b4635cc6000d983a2eba3ab49efbcb708a40ba138917819a473d"
+    },
+    {
+      "bytes": 12761,
+      "path": "capsules/CASOS_CLINICOS/icetericia_e_interpretacao_das_provas_de_funcao_hepatica.md",
+      "sha256": "7c1f1269384cbe3bad3d64ef601ed9fa2abdf36d6db22cd41b58801cc2ce8151"
+    },
+    {
+      "bytes": 10803,
+      "path": "capsules/CASOS_CLINICOS/sindrome_do_intestino_irritavel.md",
+      "sha256": "4b5fcdc922296c74ed62acabc1a97dfdc2991290e3f2cf343f234b2349ebc436"
+    },
+    {
+      "bytes": 15260,
+      "path": "capsules/CASOS_CLINICOS/tireoidopatias_hipotireoidismo_nodulo_e_paaf.md",
+      "sha256": "17e3f5315d7f2818eb7f0fdd88f1d8fdd3b1b88e946b47573f6feb0729eb25b3"
+    },
+    {
+      "bytes": 16457,
+      "path": "capsules/CASOS_CLINICOS/tontura_vertigem_vppb_dix_hallpike.md",
+      "sha256": "67e848da06fb685b12cb86cf8ab4e0fa3c85b0059308c39a1568b163b3460d63"
+    },
+    {
+      "bytes": 12561,
+      "path": "capsules/EISA_II/anatomia_osso_temporal_e_audicao.md",
+      "sha256": "2b0c61ae5f6b1ba75341e225c302d0bcb1984621c61b6353498d797b56ced28d"
+    },
+    {
+      "bytes": 11156,
+      "path": "capsules/EISA_II/anticonvulsivantes_gestacao.md",
+      "sha256": "adf532a6eeea4f612ff6c3e613e0eab235ed38e5c73949a327dd9fd90fbc09b5"
+    },
+    {
+      "bytes": 15418,
+      "path": "capsules/EISA_II/avaliacao_laboratorial_em_nefrologia.md",
+      "sha256": "9a2c98f317c1ff2e841c76190ea1152ae8cb1c88747fbe034cb913510c811fc9"
+    },
+    {
+      "bytes": 15178,
+      "path": "capsules/EISA_II/avaliacao_por_imagem_em_nefrologia.md",
+      "sha256": "9d788d2a04a0511f744983b41c341dfc22404a86a5229a8acc334d5645d5ecc4"
+    },
+    {
+      "bytes": 14055,
+      "path": "capsules/EISA_II/avc_hemorragico.md",
+      "sha256": "d26c2f24193ce12024216c53c079317ae9a48a665fdd14513d80b4f3fb07ff68"
+    },
+    {
+      "bytes": 14653,
+      "path": "capsules/EISA_II/avc_isquemico_investigacao_etiologica_e_prevencao_secundaria.md",
+      "sha256": "0254ffc988a2444f2b3417c2129d654f6be9639aad5df5a1008600b7a2a72e69"
+    },
+    {
+      "bytes": 7677,
+      "path": "capsules/EISA_II/avc_isquemico_urgencia_trombolise_e_trombectomia.md",
+      "sha256": "622e7f9f15400cdbf01f0ec7016555a060ef4034566ffe7b7a12fdf6e27b1fd1"
+    },
+    {
+      "bytes": 16769,
+      "path": "capsules/EISA_II/bexiga_neurogenica.md",
+      "sha256": "8791eea0abac614d336b227257c07c03006c2a0a9e7bb8d52de874ff0ad937c0"
+    },
+    {
+      "bytes": 17103,
+      "path": "capsules/EISA_II/cancer_de_prostata.md",
+      "sha256": "85fef804b2286c941a6c6cf382b8f012f67bb28af8a7a8ae38e36bf601d1ac63"
+    },
+    {
+      "bytes": 15068,
+      "path": "capsules/EISA_II/cancer_de_testiculo.md",
+      "sha256": "8fb3409091485d39782eb1aec1b5c8b5adf117748119a53c8beb176948cb3361"
+    },
+    {
+      "bytes": 17511,
+      "path": "capsules/EISA_II/cefaleias_primarias_e_secundarias.md",
+      "sha256": "b21a21658790a1ed7f3b6db2a6437800ed7bead307285eed411f750ef613ec93"
+    },
+    {
+      "bytes": 12583,
+      "path": "capsules/EISA_II/coma_e_rebaixamento_do_nivel_de_consciencia.md",
+      "sha256": "bab98bd2817442b30a91376d05fd780d61a3a0cef70b6c531ca0b62a8c8ab36c"
+    },
+    {
+      "bytes": 14394,
+      "path": "capsules/EISA_II/como_e_quando_encaminhar_para_o_nefrologista.md",
+      "sha256": "1be9fd801d6f6d8ab3dc983141ee7f6f7548ffa646d1945f9a59b841b112e8c8"
+    },
+    {
+      "bytes": 14760,
+      "path": "capsules/EISA_II/demencias.md",
+      "sha256": "772050307dad29e2e279ef164cf08a50e08825fe4702ae1760cd16aa1e5401e3"
+    },
+    {
+      "bytes": 13936,
+      "path": "capsules/EISA_II/diabetes_complicacoes_agudas_cronicas.md",
+      "sha256": "24c6b61ce70112a8b8de0bbb934f835087159bb98d2bfb896d497da968c38d9d"
+    },
+    {
+      "bytes": 12334,
+      "path": "capsules/EISA_II/diabetes_mellitus_conceito_classificacao_diagnostico.md",
+      "sha256": "aa4bb043fa1d547a398f82f4131ff0856292083c887797bd095e7ad75102d59a"
+    },
+    {
+      "bytes": 12842,
+      "path": "capsules/EISA_II/diabetes_mellitus_gestacional.md",
+      "sha256": "c90eb177805020eb34783b8e624ead3bdac9e2c9c1929ef8f76eed61bcbdb8cb"
+    },
+    {
+      "bytes": 12932,
+      "path": "capsules/EISA_II/diabetes_metas_tratamento_terapia_nao_insulinica.md",
+      "sha256": "7cab4025c0eb1a8edccdf3e8cab3feb82f55deee9fade9a7a1049920b06d7273"
+    },
+    {
+      "bytes": 13759,
+      "path": "capsules/EISA_II/diagnostico_sindromico_em_nefrologia.md",
+      "sha256": "d341f3c150d6346a928573db9bad1cbe9c5bc34f5b45208a89d75de19140c04a"
+    },
+    {
+      "bytes": 13613,
+      "path": "capsules/EISA_II/disturbios_do_movimento.md",
+      "sha256": "51401603f31262c09ab20b141c8b87039c0301881556e9f0204fcc1d7dfc2f12"
+    },
+    {
+      "bytes": 13795,
+      "path": "capsules/EISA_II/doenca_renal_cronica_drc.md",
+      "sha256": "b61ebd8e049c3fd1eb91f9c81e8ba383d146da39190bd400b4d0318f9d6e4455"
+    },
+    {
+      "bytes": 14898,
+      "path": "capsules/EISA_II/doenca_renal_na_gestacao.md",
+      "sha256": "6b16902c76d2bf099f6f2dc28776214e3431443a5957fec0761a6678dfb9de43"
+    },
+    {
+      "bytes": 10729,
+      "path": "capsules/EISA_II/doencas_cisticas_renais.md",
+      "sha256": "5120053e7c388b83d9e593515fb80581274a98f7b4490c24c15299b6ed792317"
+    },
+    {
+      "bytes": 12194,
+      "path": "capsules/EISA_II/doencas_da_orelha_externa.md",
+      "sha256": "d7ffb3f16635c505ef77260d132b6bd701cd4fb762f9664f429005845fc47051"
+    },
+    {
+      "bytes": 17986,
+      "path": "capsules/EISA_II/doencas_neuromusculares.md",
+      "sha256": "19c10600c7a793696852a7b4e36aa9df66e3ef94cf0bf9bf4f7601889968525a"
+    },
+    {
+      "bytes": 18921,
+      "path": "capsules/EISA_II/doencas_oculares_em_endocrinologia_oftalmopatia_de_graves_e_retinopatia_diabetica.md",
+      "sha256": "be160c954ab0825983ab52e54d04e74a28fd7c054b09bb7c4fe71bccc8d4ae1e"
+    },
+    {
+      "bytes": 15736,
+      "path": "capsules/EISA_II/doencas_paratireoides_hiperparatireoidismo_osteoporose.md",
+      "sha256": "883da7eb36882789b7d3fc2ec8f96e39eaca332fce83c4f647841efaa6f79658"
+    },
+    {
+      "bytes": 17742,
+      "path": "capsules/EISA_II/epilepsia_e_crises_epilepticas.md",
+      "sha256": "50bc2be2d52dc21ff742fda5e8bdac91f258bb09fcfedb6d42dfa455247c8665"
+    },
+    {
+      "bytes": 13821,
+      "path": "capsules/EISA_II/erisipela.md",
+      "sha256": "71310c0bbab305c2495dfa76f8c91d9db8891cc3317b5086c19beed700172b4d"
+    },
+    {
+      "bytes": 15584,
+      "path": "capsules/EISA_II/esclerose_multipla_e_doencas_desmielinizantes.md",
+      "sha256": "8bdc44b24c4fe3d75ab8622d49970416c3c0c7878be85055284cc0ab61e65efb"
+    },
+    {
+      "bytes": 8316,
+      "path": "capsules/EISA_II/estado_de_mal_epileptico_sequencia_doses.md",
+      "sha256": "9c2a76d2a1bc8fa3da579fd1eff4b0a2789587a3b27ec27ba789fdadc7ec5461"
+    },
+    {
+      "bytes": 12227,
+      "path": "capsules/EISA_II/farmacologia_dislipidemias.md",
+      "sha256": "a594936b8fb5f2c2500650e988a1dec65fdf2f14f030c2b5d63f0a96dfea202d"
+    },
+    {
+      "bytes": 13139,
+      "path": "capsules/EISA_II/farmacoterapia_convulsoes_mecanismo_escolha.md",
+      "sha256": "846c0e6769a65e115a151efe9d74710a2268465e05279b2fa3e22a36aa676cd4"
+    },
+    {
+      "bytes": 12256,
+      "path": "capsules/EISA_II/farmacoterapia_diabetes_i_nao_secretagogos.md",
+      "sha256": "b4eb6e048a9957d227577f683b26a0c2df16499cbe6e42ed163018e79b398f5a"
+    },
+    {
+      "bytes": 12511,
+      "path": "capsules/EISA_II/farmacoterapia_diabetes_ii_secretagogos.md",
+      "sha256": "48e9e2e85f4af73f4d66a3dd6784dc212dda25eba14e2bad9da95a719a8d8094"
+    },
+    {
+      "bytes": 15538,
+      "path": "capsules/EISA_II/glaucoma_e_catarata.md",
+      "sha256": "366896c1791d143b289572ef75630e5d3797eb683a70edf902788a75845ec1cc"
+    },
+    {
+      "bytes": 13642,
+      "path": "capsules/EISA_II/glomerulopatias_primarias.md",
+      "sha256": "db984bba2d2efa5c7c6d5692e1a39e7b4e4fe8cfa127348434fa17ff048bdbb8"
+    },
+    {
+      "bytes": 14572,
+      "path": "capsules/EISA_II/glomerulopatias_secundarias.md",
+      "sha256": "1d6b9ce4320d1e7d1fcfffd28edf538af39b78fd8da0b4d046a4c10f4f6b2455"
+    },
+    {
+      "bytes": 14102,
+      "path": "capsules/EISA_II/has_nefrogena_renovascular.md",
+      "sha256": "8ee671b7066b6f477d24d5ae3a25c12d6ec863f663d23a0a118909433c531bda"
+    },
+    {
+      "bytes": 16230,
+      "path": "capsules/EISA_II/hiperaldosteronismo_primario_feocromocitoma.md",
+      "sha256": "a0669364c79918d51212f6d58e0f176cde928d8fdeea36fae4c521c8ef520e44"
+    },
+    {
+      "bytes": 13937,
+      "path": "capsules/EISA_II/hiperandrogenismo_hac_sop_tumor_virilizante.md",
+      "sha256": "8bd5d2142ba897f4e10e37b91c9b983921b450f68b09c4200b9403fb1cc40319"
+    },
+    {
+      "bytes": 16476,
+      "path": "capsules/EISA_II/hiperfuncao_hipofisaria.md",
+      "sha256": "9af8dcb94b77f1b41088b98194a79cd231b33c3a7e1d15085b4daacf1854ba31"
+    },
+    {
+      "bytes": 13921,
+      "path": "capsules/EISA_II/hiperplasia_adrenal_congenita.md",
+      "sha256": "53015ddc4c6d4f303bbecba3ce65bae664a9d9ff040f8d576a32303c753d5e32"
+    },
+    {
+      "bytes": 14258,
+      "path": "capsules/EISA_II/hiperplasia_prostatica_benigna_clinica_e_tratamento.md",
+      "sha256": "0c17c60fdb3b837cea4b7da99655087f7cd8805782b0e22a306d50aa92b9d197"
+    },
+    {
+      "bytes": 11796,
+      "path": "capsules/EISA_II/hipertensao_intracraniana.md",
+      "sha256": "23db8fffdc0fa520a47bae3d9968ad36eabeaea1c4e5cb889d26e95079f454e9"
+    },
+    {
+      "bytes": 15033,
+      "path": "capsules/EISA_II/hipertireoidismo_tireotoxicose.md",
+      "sha256": "bbac4db0a72460b5b9c0720a22159ba0b83415a381a9929bcb1918fc7230be8d"
+    },
+    {
+      "bytes": 14509,
+      "path": "capsules/EISA_II/hipoparatireoidismo_e_hipocalcemia.md",
+      "sha256": "dbd06fe5a38b0274a543729084207a3162acecad4776e168586b6720ea60e7bb"
+    },
+    {
+      "bytes": 15404,
+      "path": "capsules/EISA_II/hipopituitarismo.md",
+      "sha256": "aa1e15461900a46dc7e026d69970d08284c9950c45b93295053cf0919fe3d171"
+    },
+    {
+      "bytes": 16059,
+      "path": "capsules/EISA_II/hipotireoidismo.md",
+      "sha256": "9b03ec0024b20b6d29557435e18948aa8693ed865900c7be98f308b1ca19aa29"
+    },
+    {
+      "bytes": 15075,
+      "path": "capsules/EISA_II/infeccoes_sexualmente_transmissiveis.md",
+      "sha256": "ee60a8fd17e37d151c4080b05c911c26d49e4d7f50731cbff91107c6ca604db0"
+    },
+    {
+      "bytes": 11113,
+      "path": "capsules/EISA_II/insulinoterapia_classificacao_farmacocinetica.md",
+      "sha256": "8763eb5d04377f28867def685f328ec8e167617cbf2fe11e7577e0da1b9683fa"
+    },
+    {
+      "bytes": 19155,
+      "path": "capsules/EISA_II/insulinoterapia_no_dm1_e_dm2.md",
+      "sha256": "f379a29690dfa91912ae72141af051e1f0d6a4b5f02ff35ec73e9ee81f8bcd48"
+    },
+    {
+      "bytes": 14671,
+      "path": "capsules/EISA_II/lesao_renal_aguda_lra.md",
+      "sha256": "3c4d431238a276ab65671f909e28122376901a6b5679cddc4be1cdf74712d277"
+    },
+    {
+      "bytes": 12024,
+      "path": "capsules/EISA_II/linfedema.md",
+      "sha256": "2eb9ae46d8fab6d781dc332fdd0358b98d7ca8a52f59b9be84a29cfb94bb819d"
+    },
+    {
+      "bytes": 14519,
+      "path": "capsules/EISA_II/litiase_urinaria.md",
+      "sha256": "9cb5c1694aa2205b58b5f287502e95c8b255cda9af1f54c6c23158ef80051dde"
+    },
+    {
+      "bytes": 17160,
+      "path": "capsules/EISA_II/manejo_clinico_ambulatorial_do_dm.md",
+      "sha256": "2e7e5a398bbcd18b4efb8f990052068350a79ee5f2d8fafd508bdd08f0239853"
+    },
+    {
+      "bytes": 14950,
+      "path": "capsules/EISA_II/nefropatia_diabetica.md",
+      "sha256": "8174b4844f46199515dd65f35fb32bd641429cf5255157a898e1c4f474862273"
+    },
+    {
+      "bytes": 17877,
+      "path": "capsules/EISA_II/neoplasia_vesical.md",
+      "sha256": "7268c0a49f5aecd9ff8583f1c6bac81debd1b2ced7b156cc9fc926e212806a5f"
+    },
+    {
+      "bytes": 13979,
+      "path": "capsules/EISA_II/neuroftalmologia.md",
+      "sha256": "b3a2a4f49a0e4c7ec11a5578e3f63a5b9c21285aeaf46dede80d212b1303b9a3"
+    },
+    {
+      "bytes": 15688,
+      "path": "capsules/EISA_II/neuroinfeccoes.md",
+      "sha256": "dce80120cb0762b818430aaf70464ac8a8d6d711deb0518c0e1a655a03f2032f"
+    },
+    {
+      "bytes": 19438,
+      "path": "capsules/EISA_II/nodulos_tireoidianos_e_cancer_de_tireoide.md",
+      "sha256": "6c9e5e61cdb5bd134bd08e28d3d254c13b945f96b1993c6c8a6eaa7ed07e6754"
+    },
+    {
+      "bytes": 15373,
+      "path": "capsules/EISA_II/obesidade_e_sindrome_metabolica.md",
+      "sha256": "0d51bce6976aa9eb242477a6a765f0d88c718467128b3242cbf11fc516b88c21"
+    },
+    {
+      "bytes": 13811,
+      "path": "capsules/EISA_II/otites_aguda_cronica_externa.md",
+      "sha256": "3b634869a6a1d3a8d558070e69bc54d149eb17181b3f5f4a6eaa740793b9c69f"
+    },
+    {
+      "bytes": 12864,
+      "path": "capsules/EISA_II/patologia_cancer_de_tireoide.md",
+      "sha256": "dfae5dee6c61f94ee16ec917f9c4586c9dfc98124cb58991b823bed40cac39f9"
+    },
+    {
+      "bytes": 16927,
+      "path": "capsules/EISA_II/patologias_penianas_e_escrotais.md",
+      "sha256": "cdcf9b6413cd19f6296f7f35fe992eaa84f66a1009b7619a4da2ae0ab3470f48"
+    },
+    {
+      "bytes": 16028,
+      "path": "capsules/EISA_II/pe_diabetico.md",
+      "sha256": "8fa110a977886af4557f0ddc40f5c1790316a08a8f5cde966617eaa1204fae0b"
+    },
+    {
+      "bytes": 11508,
+      "path": "capsules/EISA_II/sarcoma_de_partes_moles.md",
+      "sha256": "6bd54dcf1dc5f4b68d69407e957e9f6aae730f9093d68f89744cadbe036d12d5"
+    },
+    {
+      "bytes": 10163,
+      "path": "capsules/EISA_II/surdez_e_vertigem.md",
+      "sha256": "d2c78480224a9bc18f664d6a1501bc78685a226a431e7c23aabab1a4a005ec78"
+    },
+    {
+      "bytes": 14310,
+      "path": "capsules/EISA_II/terapia_renal_substitutiva.md",
+      "sha256": "affbe6d99621ab2c0164128733e119d20b342dcbbf3bd9a59687cd3c1415babe"
+    },
+    {
+      "bytes": 18075,
+      "path": "capsules/EISA_II/trauma_urogenital.md",
+      "sha256": "3a19a42cb8ba3c792592fffe24a83cdd610fdde3aeac0ec5eb755d2701082ece"
+    },
+    {
+      "bytes": 14493,
+      "path": "capsules/EISA_II/traumatismo_cranioencefalico.md",
+      "sha256": "b28c45629a4c137cd34b5665fc65f705b8ab1034bcff3bc231aefdd8ffb134c9"
+    },
+    {
+      "bytes": 12969,
+      "path": "capsules/EISA_II/tumores_do_sistema_nervoso_central.md",
+      "sha256": "962aa18a84b025bf0c555dec34bc66841b6e60b54aeeec2b26815bc813183bb2"
+    },
+    {
+      "bytes": 13770,
+      "path": "capsules/EISA_II/tumores_renais_e_carcinoma_de_celulas_renais.md",
+      "sha256": "4810d3ca578519f91598833142e643984fd846d1c84ddd58b6d1b685f229a014"
+    },
+    {
+      "bytes": 17301,
+      "path": "capsules/EISA_II/urologia_feminina_infeccao_urinaria_e_incontinencia.md",
+      "sha256": "e4b476825fa41e625c15451a7f694d4a3fce238c0d0f18020fbb5eb115bad526"
+    },
+    {
+      "bytes": 21302,
+      "path": "capsules/EISCA/adolescencia_puberdade_e_semiologia_do_adolescente.md",
+      "sha256": "d022484cbc027ab88dbf0c3f7b2e59d626e9f6c3fe3768d16a1ade555fb1cac2"
+    },
+    {
+      "bytes": 6038,
+      "path": "capsules/EISCA/aleitamento_materno.md",
+      "sha256": "7e680299a9d169b10da126ed5938dbfb08ab586134370d0b799f0869cda3938e"
+    },
+    {
+      "bytes": 12487,
+      "path": "capsules/EISCA/anemia_ferropriva.md",
+      "sha256": "eb687d9dc852efdf55d795db6a3f5737aeb8a6d842052d54e9a898dcae0582c2"
+    },
+    {
+      "bytes": 7360,
+      "path": "capsules/EISCA/asma_em_pediatria.md",
+      "sha256": "3b8ae4f0f181798968b6433c186dc482c71c8409cb5bc1360c3fc63e95f353b0"
+    },
+    {
+      "bytes": 7401,
+      "path": "capsules/EISCA/assistencia_rn_sala_parto_reanimacao_neonatal.md",
+      "sha256": "c87103a63cc60dee730b6eb728c2365650e5bc5e124dd2f21906e0db6bb8f249"
+    },
+    {
+      "bytes": 20115,
+      "path": "capsules/EISCA/atopias_na_infancia.md",
+      "sha256": "c617072153b2ac1e45284f4c901c492d10c93ff975ce65602fdec84d1186cfbf"
+    },
+    {
+      "bytes": 11519,
+      "path": "capsules/EISCA/bronquiolite_viral_aguda.md",
+      "sha256": "90c840a7a848ad11427bfd7db08ebf757380f269865c65e582b2f5eb56819a5c"
+    },
+    {
+      "bytes": 15730,
+      "path": "capsules/EISCA/cardiopatias_congenitas.md",
+      "sha256": "f57921bf94bc956bdb231748617029bebcd8c6ee5c71e66d75062ee18b7342d7"
+    },
+    {
+      "bytes": 14674,
+      "path": "capsules/EISCA/convulsao_febril.md",
+      "sha256": "07a8c2398dc0cb34ecf1acf0846d4da7e3331b9c128f65513033f5dd96079f42"
+    },
+    {
+      "bytes": 17480,
+      "path": "capsules/EISCA/crescimento_e_desenvolvimento.md",
+      "sha256": "4630d5adc0985edc998b57f914f5f45ad8a6058e2133e6105ed8b5a62e1701e2"
+    },
+    {
+      "bytes": 11454,
+      "path": "capsules/EISCA/diagnostico_diferencial_das_anemias_na_infancia.md",
+      "sha256": "4d071b06b398671012dcf9eee43fb02050ca9c652790e3e81fdb7d4b3657e31b"
+    },
+    {
+      "bytes": 15187,
+      "path": "capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md",
+      "sha256": "4c5093585611fdf6bb2928154fddb5921404b0a6b4b8bebf39c3a12b2c0121ef"
+    },
+    {
+      "bytes": 12748,
+      "path": "capsules/EISCA/doenca_hemolitica_perinatal_rh_abo.md",
+      "sha256": "40eeb25f620f437be48b91b2694c0a45a2bfa77184ddb5b104670a0cfc9a0280"
+    },
+    {
+      "bytes": 14857,
+      "path": "capsules/EISCA/doencas_exantematicas.md",
+      "sha256": "06178267575f41afdd657ab648aa63f61220f87d590de9a309ec8cfe56b0f972"
+    },
+    {
+      "bytes": 11826,
+      "path": "capsules/EISCA/faringoamigdalite_estreptococica_escarlatina.md",
+      "sha256": "4d9b72c6e540a18980c8c7f047c1352fc6e80bcead6bf98c83f45eba051a9905"
+    },
+    {
+      "bytes": 12188,
+      "path": "capsules/EISCA/febre_reumatica.md",
+      "sha256": "4009bb157d19c2edf29c3aa5ceab791b139a65ecbcd413ee0892f2199e6ba445"
+    },
+    {
+      "bytes": 13807,
+      "path": "capsules/EISCA/hemoglobinopatias_talassemias_doenca_falciforme.md",
+      "sha256": "628d92c5024c3f6c53b9c7e358501af2460729adc4fab14025d6967d74c3df04"
+    },
+    {
+      "bytes": 10159,
+      "path": "capsules/EISCA/humanizacao_em_uti_neonatal.md",
+      "sha256": "b4fc31a1fedec862c2d14252308e19bf323b9fc34e75e2608d0b651df3458e19"
+    },
+    {
+      "bytes": 14106,
+      "path": "capsules/EISCA/ictericia_neonatal_hiperbilirrubinemia_indireta.md",
+      "sha256": "1415bda65cf5549bb5bfe5529e309d3013f38def8496583258fb33ac9024cd56"
+    },
+    {
+      "bytes": 5299,
+      "path": "capsules/EISCA/imunizacoes_calendario_vacinal_imunizacao_ativa_e_passiva.md",
+      "sha256": "0a9cf78fe77f7188ec926d2e449c6b9f5b07874e6319b3cd5dd2aa1633263801"
+    },
+    {
+      "bytes": 22915,
+      "path": "capsules/EISCA/infeccao_do_trato_urinario_na_infancia.md",
+      "sha256": "5bb0ba2f30710151c10ec3a314864840031cc4618fe403db4efc6bafa87e0532"
+    },
+    {
+      "bytes": 13297,
+      "path": "capsules/EISCA/interpretacao_hemograma_e_coagulacao.md",
+      "sha256": "371a6740a7d855306d8230c31c2d1122a3398caf00dbe7638084384932ec5e7e"
+    },
+    {
+      "bytes": 11377,
+      "path": "capsules/EISCA/leucemias_agudas_na_infancia.md",
+      "sha256": "1b57628e5c997d8b4b2602020902b2723f63460f3fc51d67f537ba864cd965e2"
+    },
+    {
+      "bytes": 20283,
+      "path": "capsules/EISCA/meningites_na_crianca.md",
+      "sha256": "90fc1293fe64f30b62bd1187e754d0a6a96ca90e67a40dc5e19733242ad35eec"
+    },
+    {
+      "bytes": 16328,
+      "path": "capsules/EISCA/neuroblastoma.md",
+      "sha256": "fd69a3dda696c686bfc981b50c2483f34270a56dc0ac4bcc3347a1b7d78bb6f5"
+    },
+    {
+      "bytes": 12111,
+      "path": "capsules/EISCA/obesidade_na_infancia_e_adolescencia.md",
+      "sha256": "61313ab0201496e91a9700c416e9a3f30f10d0c770b93ac1cb5b4fdd2366b6cc"
+    },
+    {
+      "bytes": 11573,
+      "path": "capsules/EISCA/obstrucao_via_aerea_alta_crupe_epiglotite.md",
+      "sha256": "5124cb539a462359ab023b364ac81eea0ccc48c01cb407db93f1644e6d0c3ac8"
+    },
+    {
+      "bytes": 15405,
+      "path": "capsules/EISCA/osteossarcoma.md",
+      "sha256": "31a922f4d9a8bf42ba7589e42230e91f5e682cde3ceaa3e23e71f7a7c9ccc3d5"
+    },
+    {
+      "bytes": 12352,
+      "path": "capsules/EISCA/otite_media_aguda_e_rinossinusite_na_infancia.md",
+      "sha256": "ce7f12f396bf0810808ea928df4f32e7888d7b82dc3a091cfb8804117afe8df9"
+    },
+    {
+      "bytes": 12018,
+      "path": "capsules/EISCA/parasitoses_intestinais.md",
+      "sha256": "422d0ce596c4d1e46a93cab39c4083da2f4da7fdde1f5cfa7891fc83d8c171f1"
+    },
+    {
+      "bytes": 11216,
+      "path": "capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md",
+      "sha256": "02524ec914bcabf3967a99a9abe301df5f9645b44530e8179d2ef2d36d6fd4e9"
+    },
+    {
+      "bytes": 16077,
+      "path": "capsules/EISCA/rinofaringite_aguda_resfriado_comum_e_gripe.md",
+      "sha256": "5bf55441fb8524fa48ec9f8f16a91bd804151765ae8056066bbfcde07c244cb8"
+    },
+    {
+      "bytes": 19398,
+      "path": "capsules/EISCA/saude_ocular_na_infancia.md",
+      "sha256": "00cb833478b373370c251c21fc489e532f497089d8b6c25fbdec808029ed7bb0"
+    },
+    {
+      "bytes": 20430,
+      "path": "capsules/EISCA/semiologia_e_classificacao_do_recem_nascido.md",
+      "sha256": "74ecf3788229ec3adb70f5c63f17b72d7d626a304917b33e7f62a734ab1ef0da"
+    },
+    {
+      "bytes": 4425,
+      "path": "capsules/EISCA/semiologia_pediatrica.md",
+      "sha256": "f7ef29cb013e47a0115a0ca58757bd77f54e0b333273c3d191ac0f72f5cd137d"
+    },
+    {
+      "bytes": 15084,
+      "path": "capsules/EISCA/sepse_e_meningite_neonatal.md",
+      "sha256": "833849837ae8df72838cbadb65b8272a1603c80fa1eb04da70c7e7870d6e9398"
+    },
+    {
+      "bytes": 16307,
+      "path": "capsules/EISCA/tumor_de_wilms.md",
+      "sha256": "5008287d7b9bfce043c75300773e45e6f86d9cdd8b36313db76272d9de4f1a96"
+    },
+    {
+      "bytes": 21262,
+      "path": "capsules/EISCA/tumores_do_sistema_nervoso_central_na_infancia.md",
+      "sha256": "5e5f2766a6e24ccc9c2b7cf84c363526845444a1e5f362cac4c2ed97787f13e2"
+    },
+    {
+      "bytes": 11015,
+      "path": "capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md",
+      "sha256": "96267eb23d66c67ca4664715b8a8f5a228c3efde5432dad15ad187e34c3b0388"
+    },
+    {
+      "bytes": 10230,
+      "path": "capsules/EISM/ansioliticos_e_hipnoticos.md",
+      "sha256": "8b53b7259255fd0976a7bd05c189e51d656254b85123e92f771180b0d7cd98da"
+    },
+    {
+      "bytes": 10981,
+      "path": "capsules/EISM/antidepressivos.md",
+      "sha256": "a2d16bab319968b2e49cd9a9481e8e8cd7dca6a412fa3ba70e8f38299dcc6508"
+    },
+    {
+      "bytes": 14517,
+      "path": "capsules/EISM/antipsicoticos_sep_e_snm.md",
+      "sha256": "d079edca09af67d551f79acba87980e80d899b1dfc07c22376d952bffe1df560"
+    },
+    {
+      "bytes": 9141,
+      "path": "capsules/EISM/delirium.md",
+      "sha256": "9032e66be09468c1bd5b87da1d8bb944208b534e14ebdfbfd0d2617b1889509b"
+    },
+    {
+      "bytes": 10306,
+      "path": "capsules/EISM/depressao.md",
+      "sha256": "4b6123ba2584c68f674b8c1ed96999c6ba9cd9f33bd4669e24cc5117bf76d9dc"
+    },
+    {
+      "bytes": 6885,
+      "path": "capsules/EISM/eletroconvulsoterapia_ect.md",
+      "sha256": "fb7a930657becb5cd09745bbc431c0573ff184fa8f66780ad5bee6e5e8a771c1"
+    },
+    {
+      "bytes": 8580,
+      "path": "capsules/EISM/emergencias_psiquiatricas_e_agitacao_psicomotora.md",
+      "sha256": "5547beda612ccaf36affcd711d42ffe9f6200952f1706dc1a51a8523a7087440"
+    },
+    {
+      "bytes": 10709,
+      "path": "capsules/EISM/esquizofrenia_e_transtornos_psicoticos.md",
+      "sha256": "020ab420bca6f01d08aa488c7de28348eeb456c70e191a401fc4e6d6a308e504"
+    },
+    {
+      "bytes": 10014,
+      "path": "capsules/EISM/farmacoterapia_da_insonia.md",
+      "sha256": "eff6534d951ad97f8492df91b1d7b05f68838de9c9e0efa439e1576aef8f3c53"
+    },
+    {
+      "bytes": 9401,
+      "path": "capsules/EISM/psicopatologia.md",
+      "sha256": "0ea1031e2e0a00e87b19d0611c58fb772275daff19ba88ccfcd929c1d929ffb1"
+    },
+    {
+      "bytes": 8133,
+      "path": "capsules/EISM/psiquiatria_infancia_e_adolescencia.md",
+      "sha256": "3d6e6bc5d3523d57807b6cf3053adb766bd0a9ecc94fb0ba6e20840da1313916"
+    },
+    {
+      "bytes": 9041,
+      "path": "capsules/EISM/risco_de_suicidio.md",
+      "sha256": "3261c1ebc6c85c27773273a6f4c921716f07b690d518bbf6e74b5e4ba94e17f3"
+    },
+    {
+      "bytes": 7056,
+      "path": "capsules/EISM/sexualidade_humana_e_disfuncoes_sexuais.md",
+      "sha256": "bc6345bb99d58f4d7a44dbd10f291a86667caa03dcb42495014903740618fc15"
+    },
+    {
+      "bytes": 9878,
+      "path": "capsules/EISM/tdah.md",
+      "sha256": "ea4caa80d13c0f3ec4ad152b8dae410bdfc63cdfb1397673ae1bdc928ebd7e89"
+    },
+    {
+      "bytes": 10150,
+      "path": "capsules/EISM/tept_e_tea.md",
+      "sha256": "bc4c0145bd0011c75948a69163e1f68dced0f4ab84c37fcd6d9a068745ab99d9"
+    },
+    {
+      "bytes": 9953,
+      "path": "capsules/EISM/toc.md",
+      "sha256": "85b546dea6e7a6a0f502abc4cf31cc2e56d5a215ac5d4234ba307c58cbb77d8c"
+    },
+    {
+      "bytes": 12459,
+      "path": "capsules/EISM/transtorno_bipolar_e_estabilizadores_do_humor.md",
+      "sha256": "1e4fe1329b02c59369b651274ac14d6303f4d311a23720a6fba7a6d22dc93955"
+    },
+    {
+      "bytes": 11927,
+      "path": "capsules/EISM/transtornos_alimentares.md",
+      "sha256": "40ae0fe0b59490323d159bb15bc4e788641a2032eddfcf821462abeb233125d7"
+    },
+    {
+      "bytes": 10011,
+      "path": "capsules/EISM/transtornos_de_ansiedade.md",
+      "sha256": "89db0ca0c556d2f82ffffb67b55664ad770cd9a53b0f407e2aeef88c9a9ec5e7"
+    },
+    {
+      "bytes": 10372,
+      "path": "capsules/EISM/transtornos_de_personalidade.md",
+      "sha256": "05352676f2de39189463eb08af3ebf789bbcc59a826cdfc3d9b47b03349aba2c"
+    },
+    {
+      "bytes": 7913,
+      "path": "capsules/EISM/transtornos_dissociativos.md",
+      "sha256": "86e12da778ad56904f814cb7a5bf91b1275a3ec4e5606b0d9b16e84a27e990ea"
+    },
+    {
+      "bytes": 10729,
+      "path": "capsules/EISM/transtornos_mentais_na_gravidez_e_puerperio.md",
+      "sha256": "b88193a5a93a5a597c0594f2fad6243dc62869e5b1928b923375dc84f9f5579d"
+    },
+    {
+      "bytes": 9517,
+      "path": "capsules/EISM/transtornos_por_uso_de_substancias.md",
+      "sha256": "7be03631aae17877fa6ae03615f9a623907b9ffcda23137134087cf1f14e7f93"
+    },
+    {
+      "bytes": 12724,
+      "path": "capsules/OSCE/formato_roteiro_osce_p7.md",
+      "sha256": "9f2f23acbf5f428cd977d0ae4edfa297630af64db8b1b819afb8bfb6661a163e"
+    },
+    {
+      "bytes": 14077,
+      "path": "capsules/OSCE/osce_banco_de_estacoes.md",
+      "sha256": "5088d347cb43b02f6fa42fe492654d2027a8eec3bc8351275b8880427402de0d"
+    },
+    {
+      "bytes": 15351,
+      "path": "capsules/OSCE/osce_endocrinologia.md",
+      "sha256": "17522b58c2f5bd302843e73420f801d8e8abf974d4e4c195d0de12af7960ef49"
+    },
+    {
+      "bytes": 15513,
+      "path": "capsules/OSCE/osce_nefrologia.md",
+      "sha256": "133f8fe4100d8bfd0e4f75064f8370d223af22cd269b64841a81c58df51f7793"
+    },
+    {
+      "bytes": 22770,
+      "path": "capsules/OSCE/osce_neurologia.md",
+      "sha256": "0350632b46297f1d94b26640ef7a59524d958b203998aa14ee6f95ef1c73c30f"
+    },
+    {
+      "bytes": 22121,
+      "path": "capsules/OSCE/osce_pediatria.md",
+      "sha256": "5df78eb7f66c8c44bb669edbbbc79d84452e1de1cd2a92a2ce40ad1017f45287"
+    },
+    {
+      "bytes": 23957,
+      "path": "capsules/OSCE/osce_urologia.md",
+      "sha256": "5be91348e079187f2a938546161b779a44dc10eaf00ac34479462d568411d419"
+    },
+    {
+      "bytes": 730,
+      "path": "config/normalization.json",
+      "sha256": "1ff348730a4c74725c67400ede9bed973ebbbf807883a9ac97c10c4f1107e2bc"
+    },
+    {
+      "bytes": 717,
+      "path": "config/priority-policy.json",
+      "sha256": "2721c4bcd4ac5edbfd6fae23b5fe08fde7c148488db0e3bb6db6ee7433ee1b0c"
+    },
+    {
+      "bytes": 114524,
+      "path": "p7_source_pack/00_ATOMIC_THEME_INDEX.csv",
+      "sha256": "ae61d921f4854e78c360c9bfa8a1efafa3de778a3d3bdf43afebdc6ca4b00c09"
+    },
+    {
+      "bytes": 9139,
+      "path": "p7_source_pack/00_CALENDARIO_2026_2.md",
+      "sha256": "e1c32f4b6d66eab18f9526c3b1427071098e0074106b7f3701432f706a058a91"
+    },
+    {
+      "bytes": 29627,
+      "path": "p7_source_pack/00_COVERAGE_GAPS.md",
+      "sha256": "44d6380556c0928c009979206911827967199843424ba074796d06145f644f53"
+    },
+    {
+      "bytes": 5073,
+      "path": "p7_source_pack/00_DECISION_LOGS/CURRICULUM_DECISION_LOG.md",
+      "sha256": "0bd9e88eedefe90eeda08b4ac67f2c73b5dc7a9542fcc7169aa6dbe8cdfcb64e"
+    },
+    {
+      "bytes": 32531,
+      "path": "p7_source_pack/00_EXAM_BLUEPRINT.md",
+      "sha256": "bb112eb65e02e4d88bca212e559224b21ebe6039efef7fcbbfe07fd6d5b4d970"
+    },
+    {
+      "bytes": 5285,
+      "path": "p7_source_pack/00_EXAM_EVIDENCE/DEVOLUTIVAS_INDEX.md",
+      "sha256": "d589d0858fcb885969cc7722ad33aebf8ee98111e69b0db115ee946cdc928673"
+    },
+    {
+      "bytes": 3863,
+      "path": "p7_source_pack/00_EXAM_EVIDENCE/PROVAS_ANTIGAS_INDEX.md",
+      "sha256": "09fc2c35cd148f81f6c15ef27632312c69ebe484c1e28413057a968d0d52de74"
+    },
+    {
+      "bytes": 25466,
+      "path": "p7_source_pack/00_FULL_P7_CURRICULUM_MAP.md",
+      "sha256": "1b97e9a4feaf857f10f39e1ab64df078575722367b71ee43b0fc2f54ede5859a"
+    },
+    {
+      "bytes": 32357,
+      "path": "p7_source_pack/00_INTERLIGACOES.md",
+      "sha256": "c9aed94209944b7469cbb0b45f840347d0a51d34617784d5182a366936b9e3f7"
+    },
+    {
+      "bytes": 58767,
+      "path": "p7_source_pack/00_MAPA_OPERACAO_MOVIMENTO.md",
+      "sha256": "508b947408d47f8e7176145b1b83ef004ab05bca75b4bbd9f1ee0acd4277e29c"
+    },
+    {
+      "bytes": 72515,
+      "path": "p7_source_pack/00_SOURCE_MANIFEST.csv",
+      "sha256": "3b5fd6c8d9933e6e42fe2d2f0859b60e0cd3cb88a6c0d9b6e08c68305f00b641"
+    },
+    {
+      "bytes": 2113,
+      "path": "p7_source_pack/00_TAXONOMY_AXIS.md",
+      "sha256": "b9e15b14ec8f9df61740819dd08d218c3c46513cc808b2859d2e490552536392"
+    },
+    {
+      "bytes": 10049,
+      "path": "p7_source_pack/00_UNIT_TOPIC_MAP.md",
+      "sha256": "3163c6deb9de373c7bcb92d4616e84cdbbc8a2621c63b83f0aa9bf3e4e6d1369"
+    },
+    {
+      "bytes": 3836,
+      "path": "references/ADHD_AND_TOKEN_POLICY.md",
+      "sha256": "2ad3fa30123190585c3ffa7f5751c3a76d12efabf819d030c355f6f998bc2420"
+    },
+    {
+      "bytes": 5432,
+      "path": "references/AULA_VIVA.md",
+      "sha256": "37429b3c1cc5908d5ff8a2eb7e478e531bf53a93d5c0656858abb0a287b1e05f"
+    },
+    {
+      "bytes": 6221,
+      "path": "references/CASE_OSCE_TUTOR.md",
+      "sha256": "42cd1f8149bc6e10dc7468e7b2bbd94747d83e936e876b595aa865e624df2400"
+    },
+    {
+      "bytes": 2252,
+      "path": "references/CLINICAL_CLAIM_REVIEW.md",
+      "sha256": "2eea5765d0c26580bf45162101fd44d99a2bcbd42f66d6ded77e6ebf3b413ebe"
+    },
+    {
+      "bytes": 6642,
+      "path": "references/CONTRAPROVA_DIAGNOS.md",
+      "sha256": "a84ea04bb48ec8c48dc966d3d82084fa62ed05f7150fd9c1574d46b8e63fdcbb"
+    },
+    {
+      "bytes": 5179,
+      "path": "references/ERROR_NOTEBOOK_REVIEW_QUEUE.md",
+      "sha256": "a56695f6f77fd130f63c09a0282fc82cc6c21ee5e4235cfc70ac2e78c938c011"
+    },
+    {
+      "bytes": 6934,
+      "path": "references/EVALUATION_SUITE.md",
+      "sha256": "1119e3f349b8ca44bf72c4d4fd251b4b5006b6263583e593dfa51d8838c79e50"
+    },
+    {
+      "bytes": 4564,
+      "path": "references/EXAME_ESTADO_MENTAL_DRILL.md",
+      "sha256": "d19f1afbde9a23485007662599318360902f706f3b8b3039a57913aceb4a401f"
+    },
+    {
+      "bytes": 3802,
+      "path": "references/IGOR_ME_SALVA.md",
+      "sha256": "062c2eea27d895cd34aace632636127c509a3d1026e3c621be60b0c71c0effc8"
+    },
+    {
+      "bytes": 5587,
+      "path": "references/LEARNER_STATE_PROTOCOL.md",
+      "sha256": "a1d1e554b2d8830cc8bc35721e59e2c9c6bd0cc98b42ec711ab9e92209d34d57"
+    },
+    {
+      "bytes": 11448,
+      "path": "references/MEDICAL_SAFETY_LAYER.md",
+      "sha256": "019bce288bf2bb57001558db89423ec39eedb1264508238b814c8a8d6ae6cae6"
+    },
+    {
+      "bytes": 13625,
+      "path": "references/QUESTION_INTELLIGENCE_P7.md",
+      "sha256": "23b4adb815762cc1ce9d39cc319b706f4288b40c52bc5f07607d04971fa015d9"
+    },
+    {
+      "bytes": 5514,
+      "path": "references/SIMULATION_PROTOCOL.md",
+      "sha256": "573add6279168e2ebf463aa93bdf3a78074885f5747949fbacd8daafd7bb2610"
+    },
+    {
+      "bytes": 8134,
+      "path": "references/SOURCE_POLICY.md",
+      "sha256": "3c9f99cb5052f6de57b8f2faa317c27d2684f8554084975c053d9811a10c5028"
+    },
+    {
+      "bytes": 3147,
+      "path": "references/STUDY_GUIDE_GENERATOR.md",
+      "sha256": "e0c99b391b01c80dfa8da2cae9e386bebc65635fbc96903cd29fb892ad4e3411"
+    },
+    {
+      "bytes": 6503,
+      "path": "references/TARGET_AWARE_STUDY_PLANNER.md",
+      "sha256": "81080847a74e32c7ed452287f93f830825699cd0b66f73fd7c3000ccab08846f"
+    },
+    {
+      "bytes": 7685,
+      "path": "references/TEST_PLAN.md",
+      "sha256": "432fcf1f913016519f7336abe788a67fe5e83f676d0dbf7e998a8b79546e3f8a"
+    },
+    {
+      "bytes": 571,
+      "path": "registry/README.md",
+      "sha256": "c196fb135ff64e84507d30411c0658098b025159458a3294a91286b7cb0a4e15"
+    },
+    {
+      "bytes": 766,
+      "path": "registry/aliases.json",
+      "sha256": "e1acd7a4c5e36823c8df3f479e16be71330bd2a7cdf9e3c549eb0f456bcb60b5"
+    },
+    {
+      "bytes": 31979,
+      "path": "registry/clinical_claims.jsonl",
+      "sha256": "6bbf6712d27541f863bba59984dcae8d55fbb711372868124306d2a81b5184f2"
+    },
+    {
+      "bytes": 1955,
+      "path": "registry/release_gates.json",
+      "sha256": "897887935048a9add0aef71f39e52f0b589d84a14cc7f99c5156ca550a61e20b"
+    },
+    {
+      "bytes": 734,
+      "path": "registry/reviewers.json",
+      "sha256": "a35d62dd7f29aa4ab8d046562521d9ccec57da24ee17b8d7c4479c01536c7d0a"
+    },
+    {
+      "bytes": 7796,
+      "path": "registry/source_versions.jsonl",
+      "sha256": "149686efb6b81c4b608ea366000e66f3f246e735cf3186259554faef21e9728b"
+    },
+    {
+      "bytes": 4426,
+      "path": "registry/sources.jsonl",
+      "sha256": "ece9ae6f0b4ca419165ed261a59288c1fff040194d917fc8e179c973c1728369"
+    },
+    {
+      "bytes": 1376,
+      "path": "schemas/README.md",
+      "sha256": "6acf59cf8b325a623f919048bbfb4d795859b1f636690c81847ad8470a8e28a8"
+    },
+    {
+      "bytes": 885,
+      "path": "schemas/v1/assessment-evidence.schema.json",
+      "sha256": "1bd75512996c642a8117f11d54da896119b537a91d9d00f5b1bdf8866c43cbcb"
+    },
+    {
+      "bytes": 1789,
+      "path": "schemas/v1/capsule.schema.json",
+      "sha256": "c699855bb38c3eb1d8927ed9c53a20f42d50b528d54775c4241a4c089a74224e"
+    },
+    {
+      "bytes": 2382,
+      "path": "schemas/v1/clinical-claim.schema.json",
+      "sha256": "109b2c8aa3247cc49977967c16a52ea65f8b24e2290028f611fb93a2c6fb1bc8"
+    },
+    {
+      "bytes": 1427,
+      "path": "schemas/v1/common.schema.json",
+      "sha256": "ec393f4ff01a1f969cd090bc5bfb83889faee6fdc138e617a7f277a2e976bc82"
+    },
+    {
+      "bytes": 1188,
+      "path": "schemas/v1/learner-event.schema.json",
+      "sha256": "6bc428bc6630d97e9b017f88a15b769529deea31b6285d8781f91336814beb56"
+    },
+    {
+      "bytes": 1340,
+      "path": "schemas/v1/learner-hypothesis.schema.json",
+      "sha256": "97d9768bfa7e386b525e0cfa1aa497114c1d7e26a6cc8eed958be69121a9f194"
+    },
+    {
+      "bytes": 1437,
+      "path": "schemas/v1/priority-assessment.schema.json",
+      "sha256": "fb29b0890e827245cf93d325b2cf1d23f7a72ddccfc6362d4a1ec95071f76f42"
+    },
+    {
+      "bytes": 1095,
+      "path": "schemas/v1/release-gates.schema.json",
+      "sha256": "c265a95465931b135e557aebaa6edee5abceec8ff6f691a37f53193311922d18"
+    },
+    {
+      "bytes": 1108,
+      "path": "schemas/v1/review-task.schema.json",
+      "sha256": "8fd3dea80a54facc0c4b33ccd542a8e3df611c4a8ece62bbefdbd0e61a4a19f5"
+    },
+    {
+      "bytes": 818,
+      "path": "schemas/v1/reviewer.schema.json",
+      "sha256": "d3913b91efbb0ef1f5aea5900313ebc1c798fc89523aff0beec40f6b5550348c"
+    },
+    {
+      "bytes": 1189,
+      "path": "schemas/v1/source-version.schema.json",
+      "sha256": "5ecc189ab7b471eeadc23705a3de7c7014977c0c01b82781368012d7aefbbdbe"
+    },
+    {
+      "bytes": 842,
+      "path": "schemas/v1/source.schema.json",
+      "sha256": "6111e1a325a61339d348a130be3b195b1d98caf50340aef84db7f437e711eec8"
+    },
+    {
+      "bytes": 19547,
+      "path": "scripts/ledger.py",
+      "sha256": "a28593230b955f37b754222f78424ea0d89b528c9c72f98c5bdf327ebd1f235c"
+    },
+    {
+      "bytes": 10872,
+      "path": "scripts/p7lib.py",
+      "sha256": "f86593897ddfe2c1d7de32f0ab77a7e84d798fbc943661c43d119104f2005292"
+    },
+    {
+      "bytes": 1198,
+      "path": "scripts/priority.py",
+      "sha256": "47151f64f4a60f93d9669d72abe7a86599d33189a0127f3b222bfa884853eb92"
+    },
+    {
+      "bytes": 6313,
+      "path": "scripts/reconcile_package.py",
+      "sha256": "6272e7fade3781b409059f1d83ededb366729225621165854322647c6fdbc5d5"
+    },
+    {
+      "bytes": 477,
+      "path": "scripts/run_tests.py",
+      "sha256": "bcde7100c47a3404e39106e72409b7bb7cef7e50a0bd8069a247bd224c17e201"
+    },
+    {
+      "bytes": 15589,
+      "path": "scripts/validate_package.py",
+      "sha256": "8e5eb4a969b68a1077cef068c37e68ab4ae32df917944a02316e2df73f0da330"
+    },
+    {
+      "bytes": 15399,
+      "path": "tests/test_ledger.py",
+      "sha256": "c697905e8c1ea9de86efa4518be852a457f7fbf309b24a0541ccc41dbed637a0"
+    },
+    {
+      "bytes": 1694,
+      "path": "tests/test_package.py",
+      "sha256": "ad23124b75b2bea9a018a18930c2d26da4982f258cdb4a63c744d3cdea1dc514"
+    },
+    {
+      "bytes": 1590,
+      "path": "tests/test_priority.py",
+      "sha256": "75f9865ffb512c04c73f9792cf3d7f6b6d3d9b08e3bc211cbfdd11b623faa6b2"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
+  "total_bytes": 2912285
+}

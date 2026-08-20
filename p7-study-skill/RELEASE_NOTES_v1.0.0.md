@@ -1,95 +1,28 @@
-# RELEASE NOTES — P7 Diagnos v1.0.0
+# Release candidate — P7 Study Companion v1.0.0-rc.1
 
-Primeira versão. Sucede a `p6-study-skill` v2.1.0, herdando a arquitetura e
-corrigindo dois defeitos conhecidos dela.
+Esta versão **não é a v1.0.0 final**. Ela recupera regressões funcionais da P6, introduz rastreabilidade e mantém a liberação bloqueada enquanto os gates clínicos e o piloto não forem concluídos.
 
-## O que existe
+## Engenharia de recuperação
 
-| Camada | Conteúdo |
-|---|---|
-| Roteador | `SKILL.md` — 6 modos + triagem Igor |
-| Protocolos | 15 arquivos em `references/` |
-| Source pack | 161 temas · 354 fontes referenciadas · 12 artefatos |
-| Cápsulas | por disciplina, com verificação nível 1 |
-| Geração | contrato, template e checklist de revisão |
+- schemas canônicos versionados para cápsulas, claims, fontes, evidência de avaliação, eventos, hipóteses e revisão;
+- enums normalizados para unidade, prioridade e risco, com aliases preservados;
+- prioridade calculável por fórmula pública; rótulo legado não é tratado como prioridade calculada;
+- inventário, manifesto, métricas, índice técnico e tabela de precisão gerados deterministicamente;
+- ledger local append-only com retomada e agenda 48 h / 7 d / 21 d;
+- acerto frágil, com pista ou não independente não promove estágio;
+- Codex metadata, contrato de manutenção, privacidade e compatibilidade explícitos.
 
-## O acervo por trás
+## Correção do inventário
 
-423 fontes indexadas, extraídas de 9 arquivos do Drive do P7 (~3,2 GB).
-9,5M de caracteres. 428 arquivos no total; 5 não extraídos (2 vídeos, 2 `.ppt`
-legado sem conversor, 1 PDF de imagem pura).
+O baseline auditado tinha 156 cápsulas físicas. “Semiologia pediátrica” e “Aleitamento materno”, embora anunciadas como as duas últimas, não existiam como arquivos autônomos: apareciam apenas parcialmente em cápsulas compostas. A recuperação adicionou ambas de forma rastreável, totalizando 158; a contagem final é derivada do filesystem e não está hardcoded no validador.
 
-**99 dessas fontes são slides do professor fotografados da tela do projetor.** Eles
-são densos e cruciais, e continuam sendo a camada de maior autoridade — muda só o
-método de acesso, que é leitura visual das páginas pré-renderizadas.
+## Gates ainda obrigatórios
 
-## Os 6 modos
+- zero P0;
+- nenhum P1 clínico de alto risco aberto;
+- claims críticos atuais com fonte/versionamento/localizador e revisão adequada, ou quarentena explícita;
+- testes comportamentais e sentinelas aprovados;
+- piloto de 5–8 colegas em duas sessões separadas por 48 h;
+- instalação limpa comprovada.
 
-1. `Plano de Guerra` — alvo, prazo, escopo
-2. `Estudar Tema` — índice → cápsula → fonte
-3. `Resolver Questão` — Diagnos: operação × movimento
-4. `Simular Prova / Arguição / OSCE`
-5. `Aula Viva` — **novo** · captura a aula recém-assistida por 4 lentes e produz delta
-6. `Contraprova` — **novo** · testa a hipótese sobre o erro em vez de declará-la
-
-Mais `igor me salva!` como entrada de desbloqueio.
-
-## O que o P7 tem e o P6 não tinha
-
-**Camada metacognitiva.** 152 questões reais de provas e devolutivas dissecadas por
-4 extratores independentes: operação exigida, variável decisiva e seu tipo, mapa
-distrator→movimento, erro da turma, raciocínio do professor. Mais 33 padrões de
-erro por disciplina, cada um com a intervenção que o corrige.
-Ver `p7_source_pack/00_MAPA_OPERACAO_MOVIMENTO.md`.
-
-**Calendário datado.** 109 aulas de 2026.2 com data, cadeira, subárea e tema, e os
-blocos de cada unidade. A skill calcula o prazo em vez de perguntar.
-
-**Interligações entre cadeiras.** 73 temas que vivem em duas cadeiras, com o ângulo
-de cada uma sobre o mesmo objeto clínico.
-
-**Verificação de cápsula em dois níveis.** A P6 declara em `SKILL.md §10` que a
-verificação por segundo agente está PENDENTE, transferindo ao aluno a conferência
-manual de cada dose. No P7 o nível 1 (releitura dos dados de precisão pelo gerador)
-roda sempre; o nível 2 (independente adversarial) roda em lote priorizando risco
-alto e psicofarmacologia.
-
-**Regra do silêncio.** Derivada do piloto Diagnos 1C-A (2026-07-28, 40 agentes
-cegos), onde o motor concluiu que o aluno "não processou o comando" apenas porque
-ele não mencionou o comando — a única refutação limpa do piloto.
-`QUESTION_INTELLIGENCE_P7.md` §8 proíbe **essa** inferência e, no mesmo movimento,
-protege o motor: alternativa marcada, padrão do bloco, estrutura do item, semântica
-do enunciado e trajetória seguem sendo sinal legítimo. Responder só com a letra
-**não** é `INDETERMINADO`.
-
-**Drill trocado.** `ECG_DRILL` (P6) → `EXAME_ESTADO_MENTAL_DRILL` (P7). Mesma
-mecânica — forçar a sequência antes do diagnóstico — aplicada ao erro dominante da
-psiquiatria de graduação.
-
-## Achados do acervo que valem para a prova
-
-- **O banco de questões é reciclado.** O bloco V/F sobre achados ultrassonográficos
-  na DRC aparece idêntico em 4 provas. A questão de TFG (clearance 24h × CKD-EPI) é
-  palavra por palavra igual entre 2024.1 e 2025.1. Cintilografia renal, em 3.
-- **O item errado quase nunca é grosseiro** — é um número/limiar trocado ou um
-  qualificador absoluto ("obrigatório", "sempre", "nunca").
-- **Bibliografia por subárea**, extraída das devolutivas: Riella (nefro), Vilar
-  (endócrino), Nitrini (neuro), Kanski (oftalmo), Robbins/Bogliolo (patologia),
-  Nelson Rodrigues + EAU (uro).
-- Quase metade dos erros mapeados é **operacional**, não lacuna de conteúdo.
-
-## Limites declarados
-
-Não é app · banco · API · RAG · embeddings · integração MedPattern · parser de PDF
-em runtime. Cápsulas são construídas offline e versionadas.
-
-Dado sintético não conta como evidência de aprendizagem humana.
-
-## Pendências conhecidas
-
-- verificação nível 2 ainda não executada;
-- as cápsulas de EISM da primeira onda não têm a seção `Operação × movimento`
-  (foram escritas antes dela existir);
-- IESEC e Relações Étnico-Raciais sem material no acervo;
-- pendências `confirmar no slide` estão contadas no `CAPSULE_INDEX.md` e nomeadas
-  dentro de cada cápsula.
+`python scripts/validate_package.py --release-gate` deve falhar enquanto algum desses requisitos estiver aberto. MCP permanece fora desta release.

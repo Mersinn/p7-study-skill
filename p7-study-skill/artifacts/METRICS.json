@@ -1,0 +1,50 @@
+{
+  "canonical_evidence_registry": {
+    "claims_by_validity": {
+      "current": 33,
+      "quarantined": 8
+    },
+    "clinical_claims": 41,
+    "source_versions": 17,
+    "sources": 17
+  },
+  "capsules": {
+    "baseline_before_recovery": 156,
+    "by_discipline": {
+      "CASOS_CLINICOS": 15,
+      "EISA_II": 74,
+      "EISCA": 38,
+      "EISM": 24,
+      "OSCE": 7
+    },
+    "by_review_status": {
+      "reviewed_l1": 150,
+      "reviewed_l2": 8
+    },
+    "by_risk": {
+      "high": 105,
+      "low": 10,
+      "medium": 43
+    },
+    "bytes": 2178901,
+    "net_recovered_since_baseline": 2,
+    "total": 158,
+    "without_resolved_source_id": 28
+  },
+  "precision_rows": 2391,
+  "runtime_source_availability": {
+    "corpus_text": {
+      "availability": "absent",
+      "behavior": "metadata_only_do_not_claim_inspection"
+    },
+    "vision_png": {
+      "availability": "absent",
+      "behavior": "metadata_only_do_not_claim_inspection"
+    }
+  },
+  "schema_version": "1.0.0",
+  "sources": {
+    "manifest_rows": 354,
+    "unique_ids": 354
+  }
+}

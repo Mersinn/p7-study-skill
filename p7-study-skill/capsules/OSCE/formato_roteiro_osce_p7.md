@@ -11,7 +11,9 @@
 - Camada de fonte usada: B
 - fonte_visual: sim (`assuntos OSCE p7 2025.1`, p. 1 — imagem fotografada, lida por visão; documento avulso da pasta de ingest, fora do array de fontes mapeadas do cluster, usado aqui só para confirmar a lista oficial de estações 2025.1)
 - Fontes usadas: `OSCE .pdf` (camada B, ~p. 1 — orientações gerais); `FACILITA OSCE (1).pdf` (camada B, ~p. 1-2 — roteiro de exame físico no manequim)
-- Evidência de prova/devolutiva: documento oficial "CONTEÚDOS DA PROVA DO OSCE — P7 A e B — 2025.1" (FAMENE), datado de 14/05/2025, com a grade real de estações aplicadas por especialidade
+- Evidência de prova/devolutiva: fotografia lista conteúdos/temas de 2025.1. Ela
+  comprova que temas foram anunciados, **não** comprova checklist aplicado,
+  pontuação, pesos, itens eliminatórios ou gabarito oficial.
 - Limitações da fonte: ambas as fontes textuais são material de revisão feito por colegas (camada B) para o próprio OSCE, não o roteiro oficial da coordenação de curso. Não há, em nenhuma fonte disponível, tempo cronometrado por estação, número total de estações do dia nem a grade de pontuação do checklist — esses três dados ficam como pendência (`confirmar no slide`/com a coordenação).
 - Verificação nível 1: CONFIRMADO
 
@@ -25,7 +27,10 @@ O OSCE do P7 é organizado por **cabines temáticas** (uma por assunto/especiali
 - **Tempo:** não informado nas fontes disponíveis (nem OSCE .pdf nem FACILITA trazem cronometragem) — **pendência: confirmar com a coordenação/colegas de turma anterior antes da prova**.
 - **Ator/paciente:** varia por cabine — pode ser um manequim ("boneco") com achados colados no corpo (sobretudo nas estações de pele/geral) ou o exame físico já vir descrito no caso quando a cabine é pobre em achado físico simulável (ex.: neurologia).
 - **Material:** prontuário/caso clínico impresso na cabine, resultado(s) de exame(s) complementar(es) (imagem, laboratório) já disponível(is) — "eles não estão ali à toa", ou seja, todo exame fornecido na cabine é para ser lido e usado, não é enfeite.
-- **Critério do checklist (inferido das orientações gerais, não é a grade oficial):** apresentação nominal, higienização das mãos (no início **e** no fim), leitura do prontuário, exame físico executado de forma correta, todos os comandos respondidos, despedida com agradecimento.
+- **Rubrica sintética de treino (não oficial):** apresentação nominal,
+  higienização das mãos, leitura dos comandos, exame adequado, respostas e
+  fechamento. Use para praticar consistência; não alegue que cada item pontua ou
+  zera sem o instrumento aplicado.
 
 ## Pivô clínico
 
@@ -67,7 +72,7 @@ Comando · prontuário · exame físico · manequim · resultado disponível · 
 
 | Distrator | Por que seduz | Movimento que sugere | Por que erra |
 |---|---|---|---|
-| Responder a conduta definitiva já no comando 1 (que só pede a hipótese), "para mostrar que já sabe tudo" | ansiedade de demonstrar domínio do tema rapidamente | sobre-elaboração / responder o que não foi pedido | o checklist pontua cada comando separadamente; queimar a resposta de um comando futuro não substitui responder aquele comando quando ele for lido, e passa a impressão de não seguir o roteiro da estação |
+| Responder a conduta definitiva quando só foi pedida hipótese | ansiedade de demonstrar domínio | sobre-elaboração | prejudica clareza e aderência ao comando; a pontuação real é desconhecida |
 | Pular a higienização das mãos porque "a cabine não tem pia visível" | parece só formalidade cênica, sem relação com o conteúdo médico avaliado | fechamento precoce — tratar item de checklist fixo como dispensável | a orientação geral lista a higienização como passo obrigatório duas vezes (início e fim), independente da cabine ter pia física — o gesto (mimetizado ou verbalizado) é o que é avaliado |
 | Ignorar o resultado de exame já impresso na cabine e responder só com o quadro clínico da história | o aluno já "fechou" o diagnóstico mentalmente antes de olhar o exame | fechamento precoce / narrativa acima do discriminador | o material da cabine ("resultado disponível") é colocado ali propositalmente para ser a peça que confirma ou muda a hipótese — não citá-lo é deixar de usar o discriminador que a banca disponibilizou |
 

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://p7-study.local/schemas/v1/source.schema.json",
+  "title": "Source",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "source_id", "canonical_name", "source_type", "layer", "aliases"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "source_id": {"type": "string", "pattern": "^source:[a-z0-9._:-]+$"},
+    "canonical_name": {"type": "string", "minLength": 1},
+    "source_type": {"enum": ["faculty_slide", "guideline", "article", "textbook", "student_summary", "exam", "feedback", "other"]},
+    "layer": {"enum": ["A", "A_PRIME", "B", "C", "GENERAL_KNOWLEDGE"]},
+    "aliases": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "rights_note": {"type": "string"}
+  }
+}

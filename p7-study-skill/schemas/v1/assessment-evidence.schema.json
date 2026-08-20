@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://p7-study.local/schemas/v1/assessment-evidence.schema.json",
+  "title": "AssessmentEvidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "evidence_id", "source_version_id", "item_id", "demand", "locator"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "evidence_id": {"type": "string", "pattern": "^assessment:[a-z0-9._:-]+$"},
+    "source_version_id": {"type": "string"},
+    "item_id": {"type": "string", "minLength": 1},
+    "demand": {"enum": ["factual", "operational", "mixed"]},
+    "locator": {"type": "string", "minLength": 1},
+    "observed_answer": {"type": ["string", "null"]},
+    "inferred_movement": {"type": ["string", "null"]},
+    "inference_status": {"enum": ["not_assessed", "candidate", "supported", "INDETERMINATE"]}
+  }
+}

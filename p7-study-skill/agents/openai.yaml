@@ -1,0 +1,7 @@
+interface:
+  display_name: "P7 Study Companion"
+  short_description: "Estudo clínico ativo, rastreável e adaptativo"
+  default_prompt: "Use $p7-study-skill para estudar este tema com recuperação ativa e fontes rastreáveis."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://p7-study.local/schemas/v1/common.schema.json",
+  "title": "P7 common definitions",
+  "$defs": {
+    "schema_version": {"const": "1.0.0"},
+    "stable_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._:-]{2,127}$"},
+    "iso_datetime": {"type": "string", "format": "date-time"},
+    "discipline": {
+      "enum": ["EISA_II", "EISCA", "EISM", "CASOS_CLINICOS", "OSCE", "CROSS_CURRICULAR"]
+    },
+    "unit": {"enum": ["UNIT_1", "UNIT_2", "UNIT_3", "UNIT_4", "UNASSIGNED"]},
+    "priority": {"enum": ["high", "medium", "low", "unscored"]},
+    "risk": {"enum": ["high", "medium", "low"]},
+    "self_review_l1": {"enum": ["pending", "completed"]},
+    "independent_review": {"enum": ["not_reviewed", "reviewed_l2"]},
+    "truth_state": {"enum": ["pending", "confirmed", "conflict", "quarantined"]},
+    "clinical_validity": {"enum": ["pending", "current", "historical_only", "conflict", "quarantined"]},
+    "source_layer": {"enum": ["A", "A_PRIME", "B", "C", "GENERAL_KNOWLEDGE"]},
+    "locator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_version_id", "locator"],
+      "properties": {
+        "source_version_id": {"$ref": "#/$defs/stable_id"},
+        "locator": {"type": "string", "minLength": 1},
+        "quotation_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    }
+  }
+}

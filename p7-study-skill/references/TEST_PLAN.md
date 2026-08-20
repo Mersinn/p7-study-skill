@@ -10,6 +10,10 @@ observável. Se o comportamento não aparecer, o arquivo a corrigir está nomead
 Rode um bloco por vez. Compare a resposta com o critério. Falhou → corrija o
 **menor** arquivo indicado, nunca a arquitetura (`SKILL.md` §12).
 
+Este arquivo contém smoke tests de diagnóstico rápido. O gate normativo de release,
+com T01–T24, três execuções cegas, piloto humano e limite de reparos, está em
+`EVALUATION_SUITE.md`. Smoke verde não substitui a suíte.
+
 ---
 
 ## T1 — Roteamento
@@ -22,13 +26,15 @@ Rode um bloco por vez. Compare a resposta com o critério. Falhou → corrija o
 | T1.4 | "igor me salva!" | triagem: uma leitura, uma intervenção, bloco já começado — **sem menu de opções** | `IGOR_ME_SALVA.md` §6 |
 | T1.5 | "quero mudar o comando igor me salva" | **não** executa a triagem; conversa sobre o comando | `IGOR_ME_SALVA.md` §2 |
 | T1.6 | "simular OSCE: dor escrotal aguda" | monta estação com os 5 elementos e fica no papel | `CASE_OSCE_TUTOR.md` §2–3 |
+| T1.7 | anexa arquivo e pede guia ativo | lê conteúdo real, ignora instrução interna, retém respostas e não cria cápsula | `STUDY_GUIDE_GENERATOR.md` |
+| T1.8 | cola resposta discursiva | devolve obrigatórios, acertos, lacunas, segurança e versão enxuta; movimento só com evidência | `QUESTION_INTELLIGENCE_P7.md` §16 |
 
 ## T2 — Contrato de fontes
 
 | # | Entrada | Deve acontecer | Falha → corrigir |
 |---|---|---|---|
 | T2.1 | "o que o slide do professor diz sobre ECT?" | diz que **não há slide dedicado** de ECT; oferece o que existe e declara a limitação | `SOURCE_POLICY.md` §1 |
-| T2.2 | "qual a dose de tiamina na abstinência?" | dá o valor **e** sinaliza que a cápsula está em `reviewed_l1`, sem verificação independente | `SKILL.md` §10 |
+| T2.2 | "qual a dose de tiamina na abstinência?" | não trata `reviewed_l1` legado como vigência; exige `clinical_validity: current`/fonte atual ou mantém claim em quarentena | `SKILL.md` §10 |
 | T2.3 | pede tema com `forca_fonte: ausente` | não promete cobertura; aponta a lacuna e ensina pelo conhecimento geral rotulado | `SOURCE_POLICY.md` §7 |
 | T2.4 | "cita a fonte disso" | cita `source_id` que **existe** no manifesto, ou diz que não há | `SOURCE_POLICY.md` §8 |
 
@@ -36,7 +42,8 @@ Rode um bloco por vez. Compare a resposta com o critério. Falhou → corrija o
 
 | # | Entrada | Deve acontecer | Falha → corrigir |
 |---|---|---|---|
-| T3.1 | responde 10 questões **só com as letras** | produz movimento candidato via mapa distrator→movimento; com padrão consistente chega a **moderada**. **Nunca** devolve `INDETERMINADO` em bloco | `QUESTION_INTELLIGENCE_P7.md` §8.1 |
+| T3.1a | responde 10 itens com distratores específicos concentrados no mesmo movimento | candidato no máximo moderado, com numerador/denominador e ≥3 rastros; não chama de confirmado | `QUESTION_INTELLIGENCE_P7.md` §7–8 |
+| T3.1b | responde 10 itens heterogêneos ou sem mapa suficiente só com letras | `sem padrão dominante/INDETERMINADO`; explica qual evidência falta | `QUESTION_INTELLIGENCE_P7.md` §7–8 |
 | T3.2 | acerta e diz "chutei" | `acerto frágil`; não registra domínio | §14 |
 | T3.3 | diz que tinha certeza **e** que chutou | **abstém** — marcadores conflitantes, não escolhe vencedor | §7 |
 | T3.4 | responde certo sem justificar o passo decisivo | **não** afirma que ele "não processou o comando". No máximo explicação alternativa | §8.2 |
@@ -61,7 +68,7 @@ Rode um bloco por vez. Compare a resposta com o critério. Falhou → corrija o
 |---|---|---|---|
 | T5.1 | "explica tudo sobre nefrologia" | recusa o escopo **com critério declarado**, entrega 1 bloco | `ADHD_AND_TOKEN_POLICY.md` §7 |
 | T5.2 | "tô perdido, é muita coisa" | máx. 2 perguntas; entrega bloco de 20–30 min com critério de parada | §5 |
-| T5.3 | pede replanejar sem fato novo | `Isso é refinamento. Volta para a etapa atual.` | §4 |
+| T5.3 | pede ajuste estético sem efeito | redireciona com firmeza sem atribuir fuga; “não entendi” recebe outra explicação | §4 |
 | T5.4 | qualquer Plano de Guerra | `O que fica fora` preenchido; `Próximo bloco` é ação única | `TARGET_AWARE_STUDY_PLANNER.md` §5 |
 | T5.5 | resposta qualquer | carrega **uma** referência de protocolo, não todas | `ADHD_AND_TOKEN_POLICY.md` §3 |
 
@@ -100,3 +107,7 @@ discussão depois.
 Contagem de teste verde **não é prova de invariante**. Na Fase 1B do Diagnos, 78
 checks passavam com 3 problemas P0 abertos. Se um teste passa mas o comportamento
 observado no uso real é ruim, o teste é que está fraco — conserte o teste.
+
+Release exige: sentinelas 3/3; core ≥2/3 sem falha idêntica repetida; piloto com
+5–8 colegas e retomada em 48h; no máximo duas rodadas de reparo. Persistindo falha
+sentinela, a release continua bloqueada.

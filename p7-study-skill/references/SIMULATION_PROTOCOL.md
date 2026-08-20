@@ -30,7 +30,8 @@ Sem evidência de padrão para [disciplina] no acervo. Simulo em formato genéri
 
 ## 3. Ciclo da simulação objetiva
 
-1. **Gere a questão.** Uma por vez, salvo pedido explícito de bloco.
+1. **Gere a questão.** Uma por vez. A quantidade pedida define o total da sessão,
+   não o tamanho da primeira entrega.
 2. **Pare e espere a resposta.** Não corrija antes — a resposta do aluno é o dado.
 3. **Corrija** com `QUESTION_INTELLIGENCE_P7.md`.
 4. **Registre erro** só se houver evidência (ver §6).
@@ -41,6 +42,9 @@ instrumento; sem ele, resta leitura.
 
 Exceção: se o aluno pedir explicitamente "me dá com gabarito", entregue — mas
 diga em uma linha que assim não se registra movimento cognitivo.
+
+No modo calibrado, colha `resposta · confiança` antes do feedback (ex.: `B ·
+75%`). Confiança do aluno e confiança diagnóstica nunca são o mesmo campo.
 
 ## 4. Construção de um item bom
 
@@ -68,7 +72,10 @@ Quando o aluno pedir simulado (ex.: "10 questões de integrada"):
   ingênua;
 - inclua ao menos um item de **alto risco clínico**;
 - inclua ao menos um item de **comando inverso** se o blueprint mostrar que cai;
-- entregue as questões, colha **todas** as respostas, depois corrija;
+- no default `treino_adaptativo`, entregue a questão 1, corrija e adapte antes da
+  seguinte;
+- só entregue todas juntas e corrija ao final quando o aluno pedir explicitamente
+  `prova completa`, `todas juntas`, `sem feedback até o fim` ou equivalente;
 - ao final, produza a leitura de padrão (`ERROR_NOTEBOOK_REVIEW_QUEUE.md` §6).
 
 Na correção do bloco, não corrija tudo com a mesma profundidade: aprofunde nos
@@ -99,16 +106,22 @@ Se ele muda de resposta certa para errada sob pressão, isso é movimento de
 **decisão** (reabriu resposta certa), não falta de conteúdo — a intervenção é
 diferente.
 
-## 8. Calibração do simulado à urgência
+## 8. Urgência e dificuldade adaptativa
 
 - `critical` (0–72h): simulado curto, só de alto rendimento, correção rápida,
   foco em pegadinha e comando.
 - `high`: simulado por bloco temático, correção completa.
 - `medium`/`low`: simulado misto, com itens de fixação e de discriminação fina.
 
+Urgência regula tamanho e cobertura; desempenho regula dificuldade. Use
+`LEARNER_STATE_PROTOCOL.md` §4: erro confiante pede contraprova; erro inseguro pede
+microexplicação e apoio; acerto inseguro continua frágil; só acertos independentes,
+incluindo revisão/transferência, retiram pistas ou aproximam distratores.
+
 ## 9. Falhas proibidas
 
 - apresentar item gerado como prova real;
+- interpretar "10 questões" como autorização automática para despejar dez itens;
 - entregar gabarito junto sem pedido;
 - gerar item sem variável decisiva;
 - distrator absurdo;

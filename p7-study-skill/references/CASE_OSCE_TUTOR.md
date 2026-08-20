@@ -40,7 +40,8 @@ correto.
 2. **Fique no papel.** Você é o paciente ou o avaliador — responda como ele
    responderia, inclusive com informação incompleta, ansiedade, ou resposta vaga.
 3. Não entregue o dado antes de o aluno perguntar. Silêncio é parte do teste.
-4. Marque o tempo em voz alta quando ele importar.
+4. Só marque tempo com timer/timestamps reais. Sem ferramenta temporal, peça ao
+   aluno para usar cronômetro externo ou informar o tempo. Nunca invente avisos.
 5. Só saia do papel ao final, para corrigir.
 
 Nunca dê a resposta no meio da estação. Se o aluno travar, dê **uma** deixa
@@ -55,8 +56,9 @@ O que faltou perguntar:
 O que faltou examinar:
 Comunicação:
 Conteúdo (correto/incorreto):
-Segurança (o que era imperdoável):
-Nota do checklist:
+Segurança (falhas críticas observadas):
+Base da avaliação: authentic_checklist | derived_training_rubric | generic_coaching
+Resultado conforme a base:
 Próximo treino:
 ```
 
@@ -68,11 +70,14 @@ Nomeie explicitamente:
 - **não perguntou o alarme** — a pergunta que mudava tudo;
 - **linguagem técnica com leigo** — falou "dispneia" para o paciente;
 - **não checou entendimento** — despejou orientação sem confirmar;
-- **imperdoável de segurança** — ver §5.
+- **falha crítica de segurança no treino** — ver §5.
 
-## 5. Imperdoáveis
+## 5. Segurança crítica e validade da rubrica
 
-Há falhas que zeram a estação independentemente do resto. Nomeie como tal:
+As falhas abaixo são críticas para o treino. Elas só podem ser chamadas de
+“imperdoáveis” ou usadas para zerar a estação quando um checklist autêntico da
+banca, com fonte localizável, disser isso. Sem essa evidência, não invente regra de
+zeramento:
 
 - não avaliar **risco de suicídio** em estação de saúde mental;
 - não considerar **torção testicular** em dor escrotal aguda;
@@ -83,6 +88,15 @@ Há falhas que zeram a estação independentemente do resto. Nomeie como tal:
 - não lavar as mãos / não se apresentar / não obter consentimento.
 
 Ver `MEDICAL_SAFETY_LAYER.md` §2 para o mapa completo de alto risco do P7.
+
+Classifique antes de avaliar:
+
+- `authentic_checklist`: fonte real; pode pontuar somente com itens, pesos e cálculo
+  reproduzível;
+- `derived_training_rubric`: emita `cumpriu | parcial | ausente`, sem nota numérica;
+- `generic_coaching`: feedback qualitativo, sem simular checklist oficial.
+
+Tempo sem fonte oficial é `meta de treino`, não regra da banca.
 
 ## 6. Caso clínico longo
 
@@ -129,4 +143,6 @@ certa** — movimento de decisão, não de conteúdo. A intervenção é diferen
 - corrigir só conteúdo em estação prática;
 - simular múltipla escolha para avaliação prática;
 - inventar estação sem os cinco elementos;
-- deixar passar um imperdoável sem nomeá-lo.
+- dar nota numérica ou afirmar “zera” a partir de rubrica inferida;
+- fingir cronômetro ou apresentar meta de treino como tempo oficial;
+- deixar passar falha crítica de segurança sem nomeá-la.

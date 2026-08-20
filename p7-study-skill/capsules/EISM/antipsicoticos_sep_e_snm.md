@@ -7,7 +7,14 @@
 - Unidade: II
 - Prioridade: alta
 - Risco clínico: alto
-- Status: reviewed_l1
+- Status: reviewed_l2
+- Transcription: confirmed
+- Curricular alignment: confirmed
+- Clinical validity: pending (overlay clozapina específico dos EUA; Brasil excluído de conduta atual)
+- Independent review: reviewed_l2
+- Reviewer ID: `agent:clinica_reparos:2026-08-20`
+- Modelo: OpenAI Codex, modelo herdado; versão exata de serving não exposta
+- Revisão clínica humana: pendente
 - Camada de fonte usada: A+A'+B
 - fonte_visual: sim (`Esquizofrenia_e_antipsic_ticos__4b3ccca107` pp.33–38 conferidas por imagem — slide do prof. Roberto Mendes)
 - Fontes usadas: FAMENE_FARMACOTERAPIA_DAS_PSICOSES_2025_1__e5e9511748 (A', prof. Macêdo, texto nativo íntegro); Esquizofrenia_e_antipsic_ticos__4b3ccca107 (A, ESCANEADA, prof. Roberto Mendes, confirmado por imagem); Antipsico_ticos_II_unidade__bea4c8f456 (B, Karen); Antipsico_ticos_Tabela__1d16c62d2d (B, Bianca)
@@ -75,8 +82,11 @@ estreita (1ª geração)
 | Síndrome neuroléptica maligna — tempo / tratamento | Semanas a meses; interromper antipsicótico + dantroleno + suporte intensivo | FAMENE Psicoses (A', texto nativo) | CONFIRMADO |
 | Discinesia tardia — tempo / risco idoso | Meses a anos; idoso risco 5x maior; irreversível se diagnóstico tardio | FAMENE Psicoses (A') | CONFIRMADO |
 | Haloperidol — apresentações | cp/sol oral/inj 1, 5 e 10mg | FAMENE Psicoses (A', texto nativo) | CONFIRMADO |
-| Clozapina — risco de agranulocitose | 1%; hemograma semanal nos 6 primeiros meses, depois quinzenal; se agranulocitose, suspender | FAMENE Psicoses (A') + Karen/Bianca (B) | CONFIRMADO (3 fontes) |
-| Clozapina — risco de convulsão | 4–10%; associar fenitoína ou valproato se necessário | idem | CONFIRMADO |
+| Clozapina — ANC, rótulo FDA 2025 | ANC basal; semanal 0–6 meses, a cada 2 semanas 6–12 meses, mensal após 12 meses se ANC normal | FDA label 2025, Table 2 | CURRENT_VERIFIED_US |
+| Clozapina — limiares FDA | normal ≥1500/µL; leve 1000–1499: continuar e monitorar; moderada 500–999: interromper/hematologia; grave <500: interromper | FDA label 2025, Table 2 | CURRENT_VERIFIED_US |
+| Clozapina REMS nos EUA | FDA removeu o REMS em 13/06/2025; o risco e a monitorização do rótulo permanecem | FDA notice 2025 | CURRENT_VERIFIED_US |
+| Clozapina no Brasil | periodicidade e interrupção devem seguir bula Anvisa vigente/protocolo local; não importar REMS dos EUA | jurisdição ainda sem bula oficial 2026 resolvida | CURRENT_PENDING |
+| “Associar fenitoína ou valproato se convulsão” | consta no material | fonte curricular | QUARANTINED — interação/conduta exige avaliação individual |
 | Risperidona — dose de menor risco de SEP | <6mg/dia | FAMENE Psicoses (A') + B | CONFIRMADO |
 | Quetiapina — dose por indicação | Hipnótico 25–50mg; antidepressivo <300mg XR; antipsicótico >300mg (até 800mg/dia) | FAMENE Psicoses (A') + FAMENE Insônia/Ansiedade p.42 (imagem, A') | CONFIRMADO (2 decks do mesmo professor convergem) |
 | Benefício antipsicótico observado após | 1–2h da administração (psicose aguda) | FAMENE Psicoses (A', texto nativo) | CONFIRMADO |
@@ -90,8 +100,10 @@ estreita (1ª geração)
   evolução (semanas a meses).
 - Idoso com SEP não implica "pode dar biperideno com segurança" — anticolinérgico agrava
   confusão/retenção urinária/boca seca em idoso; a prova usa esse raciocínio como armadilha.
-- Agranulocitose por clozapina não é proibição definitiva de reintrodução — depende de gravidade
-  e tempo de resolução do quadro.
+- Reintrodução de clozapina após neutropenia não é uma regra simples: depende de
+  gravidade, etiologia, jurisdição e balanço risco-benefício; decisão especializada.
+- O fim do Clozapine REMS nos EUA em 2025 não eliminou risco nem monitorização do
+  rótulo e não altera automaticamente a prática regulatória brasileira.
 - A mesma vinheta de "comprimido amarelo" (agitação por ecstasy) aparece com gabaritos
   DIVERGENTES entre provas de anos diferentes — não fixar uma única resposta memorizada sem
   conferir a versão da prova em jogo.
@@ -103,7 +115,7 @@ estreita (1ª geração)
 | Biperideno para acatisia | É o antídoto "padrão" para SEP que o aluno decora | regra mal-aprendida | Acatisia responde melhor a propranolol ou benzodiazepínico; biperideno é para distonia/parkinsonismo |
 | Biperideno para SNM | Parece a mesma lógica dos outros SEP | analogia sem validação | SNM trata-se suspendendo o antipsicótico + dantroleno + suporte, não com anticolinérgico |
 | "Idoso, então biperideno é seguro" | Anticolinérgico parece inócuo por ser "só para tremor" | premissa não checada | Em idoso, o efeito anticolinérgico central é agravado (confusão, retenção urinária) — a prova cobra exatamente essa cautela |
-| Suspender clozapina definitivamente após 1 episódio de neutropenia leve | Parece a conduta mais segura | superextrapolação | O protocolo permite reintrodução conforme gravidade/tempo de resolução — negar isso por completo é o distrator |
+| “Sem REMS = sem hemograma/ANC” | confunde programa regulatório com risco | superextrapolação | FDA retirou o REMS, mas manteve recomendações de ANC no rótulo |
 
 ## Conduta
 
@@ -119,6 +131,8 @@ estreita (1ª geração)
 - O que mudaria a decisão: febre + instabilidade de PA + mioglobinemia muda toda a conduta para
   SNM (emergência, suspender droga); tempo de uso menor que 5 dias aponta para distonia, não
   parkinsonismo.
+- Clozapina: febre/infeção ou queda de ANC exige hemograma/ANC, avaliação de
+  gravidade e protocolo da jurisdição. Não associar anticonvulsivante por memória.
 
 ## Mini-casos ativos
 
@@ -144,7 +158,8 @@ estreita (1ª geração)
 | Distonia aguda — tempo e tratamento | Horas a 1–5 dias; biperideno 5mg IM/EV | dado numérico |
 | Parkinsonismo farmacológico — tempo | 5–30 dias, SEP mais frequente, idoso maior risco | dado numérico |
 | Discinesia tardia — risco no idoso | 5x maior; pode ser irreversível se diagnóstico tardio | dado numérico |
-| Clozapina — risco de agranulocitose e monitoramento | 1%; hemograma semanal 6 meses, depois quinzenal | dado numérico |
+| Clozapina — ANC no rótulo FDA 2025 | semanal 0–6m; quinzenal 6–12m; mensal >12m, se normal | dado numérico |
+| Fim do REMS nos EUA | não elimina risco/monitorização e não define regra brasileira | jurisdição |
 | Risperidona — dose de menor SEP | <6mg/dia | dado numérico |
 | Por que biperideno em idoso exige cautela | Efeito anticolinérgico central agravado (confusão, retenção urinária) | risco |
 
@@ -155,3 +170,8 @@ estreita (1ª geração)
 - Critério de parada: quando conseguir, dado só o tempo de uso + fenomenologia (sem olhar a
   tabela), classificar corretamente distonia x acatisia x parkinsonismo x SNM x discinesia tardia
   e citar o tratamento certo de cada um, incluindo a armadilha do biperideno em idoso.
+
+## Fontes de vigência — clozapina
+
+- FDA, rótulo de clozapina, revisão 2025, Table 2: https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/019758s106lbl.pdf
+- FDA, remoção do Clozapine REMS efetiva em 13/06/2025: https://www.fda.gov/media/188418/download?attachment=

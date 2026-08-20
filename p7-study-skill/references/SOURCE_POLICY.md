@@ -3,7 +3,18 @@
 Como decidir em que fonte confiar, quanto confiar, e o que dizer quando a fonte
 não sustenta a afirmação.
 
-## 1. A regra que governa tudo
+## 1. As duas perguntas que governam tudo
+
+Cada afirmação deve responder separadamente:
+
+1. **Alinhamento curricular:** isto consta no material/prova do P7?
+2. **Vigência clínica:** isto continua correto para cuidado clínico na data da revisão?
+
+`CONFIRMADO` significa apenas **transcrição/alinhamento curricular conferido**. Não
+significa que uma dose, janela, contraindicação ou algoritmo antigo permanece
+clinicamente vigente. Para conduta, use os estados `CURRENT_VERIFIED`,
+`CURRENT_PENDING`, `CONFLICT` ou `QUARANTINED` e registre o claim crítico em
+`CLINICAL_CLAIM_REGISTRY.csv`.
 
 > Nunca afirme que algo "está no material" sem poder apontar o `source_id`.
 
@@ -21,8 +32,8 @@ O acervo P7 tem 423 fontes indexadas. Elas **não** têm o mesmo peso.
 
 | Camada | O que é | Autoridade |
 |---|---|---|
-| **A** | slide da aula do professor | **máxima** — é o que foi ensinado e é o que cai |
-| **A′** | artigo, diretriz e referência bibliográfica indicada (Riella, Jones/AHA, DBHA, tratados, guias de bolso) | **alta** — é a fonte que o professor cita e o gabarito segue |
+| **A** | slide da aula do professor | máxima para alinhamento curricular; não é autoridade de vigência clínica |
+| **A′** | artigo, diretriz e referência bibliográfica indicada ou fonte oficial atual auditada | alta quando versão, data, população e localizador são verificáveis |
 | **B** | apostila e resumos de turma (APOSTILA SA II, RESUmed, Resumos/) | média |
 | **C** | prova antiga e devolutiva | evidência de **cobrança**, nunca autoridade médica |
 
@@ -30,9 +41,13 @@ Consequências operacionais:
 
 - Camada B é **esqueleto**, não veredito. Onde existir A ou A′ para o tema, ela
   confirma e corrige a B.
-- Divergência A × B → prevalece **A**. Divergência A × A′ → declare as duas e diga
-  qual o professor segue, se souber; a diretriz vence em ponto de conduta, o slide
-  vence em "o que cai".
+- Divergência A × B → prevalece **A** somente para "o que foi ensinado".
+- Divergência A × fonte clínica oficial atual → preserve A em painel explícito
+  `Para a prova/material histórico`; use a fonte clínica atual em `Prática clínica
+  atual`. Nunca funda os dois valores numa resposta única.
+- Para vigência clínica, prefira fonte regulatória/nacional ou diretriz oficial
+  atual e aplicável à população; depois evidência primária; depois protocolo local.
+  Material curricular antigo não desempata conduta.
 - Anotação manuscrita é do **aluno**, não do professor. Se for usada, rotule.
 - Camada C nunca vira autoridade médica. Responde "como cai", não "o que é verdade".
 
@@ -129,3 +144,21 @@ Não interrompa o estudo por fonte fraca. Interrompa a **afirmação de precisã
 - contar duplicata como evidência independente;
 - promover `forca_fonte` para deixar o mapa bonito;
 - citar `source_id` que não existe no manifesto.
+- usar `CONFIRMADO` como sinônimo de "clinicamente atual";
+- apresentar como oficial uma rubrica OSCE, peso, item "imperdoável" ou gabarito
+  reconstruído pelo gerador sem checklist aplicado e localizador verificável;
+- importar recomendação de outra jurisdição sem nomear a jurisdição e conferir
+  sua aplicabilidade local.
+
+## 9. Contrato mínimo para claim clínico crítico
+
+Dose, concentração, corte, janela, contraindicação, emergência, sequência
+terapêutica e algoritmo dependente de diretriz exigem: `claim_id`, população,
+contexto, fonte, versão/data, localizador, status de vigência, revisor e estado da
+revisão independente. Fonte externa oficial é permitida e necessária quando o
+acervo não sustenta vigência; ela deve ser citada como **overlay clínico**, nunca
+como se fizesse parte do material do professor.
+
+Sem esses campos, a cápsula pode ensinar o dado como histórico/curricular, mas
+deve marcar a conduta `CURRENT_PENDING` ou `QUARANTINED` e abster-se de aplicá-la
+a um caso real.

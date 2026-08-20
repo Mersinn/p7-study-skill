@@ -1,0 +1,4105 @@
+{
+  "capsules": [
+    {
+      "bytes": 13211,
+      "capsule_id": "capsule:casos_clinicos:abordagem_a_dispneia",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/CASOS_CLINICOS/abordagem_a_dispneia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "f455d5f8493e0acd535384cc5c3b5fa9396b5e982d2c6b46206ec4d998d48bd3",
+      "source_ids": [
+        "CASOS_CL_NICOS_RESUMO__249c11a613",
+        "Casos_Cli_nicos_P7_1__4f3f459b20"
+      ],
+      "source_resolution": "resolved",
+      "title": "Abordagem à dispneia — causas, sinais de alerta e investigação",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 16528,
+      "capsule_id": "capsule:casos_clinicos:abordagem_diarreia_aguda_cronica",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/CASOS_CLINICOS/abordagem_diarreia_aguda_cronica.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "de64e281b05eda8f3fa26c2ef703f4b392a6ee875d89206867a62acec284b1a3",
+      "source_ids": [
+        "Abordagem_a_s_diarreias__41fb86fd8c",
+        "CASOS_CL_NICOS_RESUMO__249c11a613",
+        "Casos_Cli_nicos_P7_1__4f3f459b20",
+        "manejo_do_paciente_com_diarreia_avaliacao_do_estad_240912_14__d02d8d34b1"
+      ],
+      "source_resolution": "resolved",
+      "title": "Abordagem à diarreia aguda e crônica — diagnóstico diferencial e investigação",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 16008,
+      "capsule_id": "capsule:casos_clinicos:cefaleias_classificacao_sinais_alarme",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/CASOS_CLINICOS/cefaleias_classificacao_sinais_alarme.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "157cadcde873d46d25f8afa8122648c3973eaa927f673d6a5a9d0669b9721e3e",
+      "source_ids": [
+        "CASOS_CL_NICOS_RESUMO__249c11a613",
+        "Casos_Cli_nicos_P7_1__4f3f459b20",
+        "Co_pia_de_faculdade_de_medicina_nova_esperanc_a_1___eaddb424fb",
+        "FACILITA_OSCE_1___6c6a714b3e"
+      ],
+      "source_resolution": "resolved",
+      "title": "Cefaleias — classificação, sinais de alarme e tratamento das primárias",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 15672,
+      "capsule_id": "capsule:casos_clinicos:cirrose_hepatica_ascite_pbe",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/CASOS_CLINICOS/cirrose_hepatica_ascite_pbe.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "e1f6ceddd5c2d8028279ff111c8d04924a17e6b22bc9c7b0865a89ca7d24ed0d",
+      "source_ids": [
+        "2_Avaliac_a_o_Casos_Cli_nicos_TURMA_B_2021_1__7bf703af15",
+        "CASOS_CL_NICOS_RESUMO__249c11a613",
+        "Casos_Cli_nicos_P7_1__4f3f459b20"
+      ],
+      "source_resolution": "resolved",
+      "title": "Cirrose hepática, ascite e peritonite bacteriana espontânea",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 16637,
+      "capsule_id": "capsule:casos_clinicos:colite_pseudomembranosa",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/CASOS_CLINICOS/colite_pseudomembranosa.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "fb722ace300e08182dca31738f530bb2846e2faa1d0ff93d309d452718842d67",
+      "source_ids": [
+        "Abordagem_a_s_diarreias__41fb86fd8c"
+      ],
+      "source_resolution": "resolved",
+      "title": "Colite pseudomembranosa por Clostridioides difficile",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 12538,
+      "capsule_id": "capsule:casos_clinicos:doenca_celiaca",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "baixo",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/CASOS_CLINICOS/doenca_celiaca.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "low",
+      "schema_version": "1.0.0",
+      "sha256": "b7b0607e4ac00afc650bb451cb0683c5736c9e5c1a6abf7d7e9d16cb5a905658",
+      "source_ids": [
+        "Abordagem_a_s_diarreias__41fb86fd8c",
+        "Casos_Cli_nicos_P7_1__4f3f459b20"
+      ],
+      "source_resolution": "resolved",
+      "title": "Doença celíaca",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 13195,
+      "capsule_id": "capsule:casos_clinicos:doenca_inflamatoria_intestinal_crohn_versus_retocolite_ulcerativa",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/CASOS_CLINICOS/doenca_inflamatoria_intestinal_crohn_versus_retocolite_ulcerativa.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "fb113f00c6028649a386ffc770201cff382d06ffceb279500a9e23c310f50426",
+      "source_ids": [
+        "Abordagem_a_s_diarreias__41fb86fd8c",
+        "Casos_Cli_nicos_P7_1__4f3f459b20"
+      ],
+      "source_resolution": "resolved",
+      "title": "Doença inflamatória intestinal — Crohn versus retocolite ulcerativa",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 10346,
+      "capsule_id": "capsule:casos_clinicos:formato_avaliacao_discussao_casos_clinicos",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "baixo",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/CASOS_CLINICOS/formato_avaliacao_discussao_casos_clinicos.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "low",
+      "schema_version": "1.0.0",
+      "sha256": "ee51329f4a042bbce6197bfc6be6d45094d17f6c57a34a891bf08dfa2314efdb",
+      "source_ids": [
+        "Cronograma_Casos_Cli_nicos_P7_2025_Dr_Noma_rio__f855930713"
+      ],
+      "source_resolution": "resolved",
+      "title": "Formato da avaliação de Discussão de Casos Clínicos P7 — simulação em grupos (Dr. Nomário)",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 17650,
+      "capsule_id": "capsule:casos_clinicos:fraqueza_muscular_miastenia_polimiosite",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/CASOS_CLINICOS/fraqueza_muscular_miastenia_polimiosite.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "05a8b90afb9d62df3ddb18b50d569214b59479f97180937912bb2cdd5a23ac40",
+      "source_ids": [
+        "2_Avaliac_a_o_Casos_Cli_nicos_TURMA_B_2021_1__7bf703af15",
+        "Casos_Cli_nicos_P7_1__4f3f459b20"
+      ],
+      "source_resolution": "resolved",
+      "title": "Fraqueza muscular — miastenia gravis, polimiosite e diagnóstico diferencial",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 14756,
+      "capsule_id": "capsule:casos_clinicos:ganho_de_peso_obesidade_e_sindrome_metabolica",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/CASOS_CLINICOS/ganho_de_peso_obesidade_e_sindrome_metabolica.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "b64d70a91f06efb0dc3d6e8791df0bc76bda59be470d67646795501e4f0b7be2",
+      "source_ids": [
+        "2_Avaliac_a_o_Casos_Cli_nicos_TURMA_B_2021_1__7bf703af15",
+        "FACILITA_OSCE_1___6c6a714b3e",
+        "Ganho_de_Peso_1___c870af3fac",
+        "OSCE_ENDOCRINOLOGIA__4796d07aed"
+      ],
+      "source_resolution": "resolved",
+      "title": "Ganho de peso, obesidade e síndrome metabólica — avaliação e tratamento",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 17178,
+      "capsule_id": "capsule:casos_clinicos:hemorragia_subaracnoide_hipertensao_intracraniana",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/CASOS_CLINICOS/hemorragia_subaracnoide_hipertensao_intracraniana.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "18728c91ed68b4635cc6000d983a2eba3ab49efbcb708a40ba138917819a473d",
+      "source_ids": [
+        "Casos_Cli_nicos_P7_1__4f3f459b20",
+        "Co_pia_de_faculdade_de_medicina_nova_esperanc_a_1___eaddb424fb",
+        "FACILITA_OSCE_1___6c6a714b3e",
+        "OSCE_NEUROLOGIA__2cfa60427a"
+      ],
+      "source_resolution": "resolved",
+      "title": "Hemorragia subaracnoide e hipertensão intracraniana",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 12761,
+      "capsule_id": "capsule:casos_clinicos:icetericia_e_interpretacao_das_provas_de_funcao_hepatica",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/CASOS_CLINICOS/icetericia_e_interpretacao_das_provas_de_funcao_hepatica.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "7c1f1269384cbe3bad3d64ef601ed9fa2abdf36d6db22cd41b58801cc2ce8151",
+      "source_ids": [
+        "CASOS_CL_NICOS_RESUMO__249c11a613",
+        "Casos_Cli_nicos_P7_1__4f3f459b20"
+      ],
+      "source_resolution": "resolved",
+      "title": "Icterícia e interpretação das provas de função hepática",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 10803,
+      "capsule_id": "capsule:casos_clinicos:sindrome_do_intestino_irritavel",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "baixa",
+        "review_status": "reviewed_l1",
+        "risk": "baixo",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "low",
+      "path": "capsules/CASOS_CLINICOS/sindrome_do_intestino_irritavel.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "low",
+      "schema_version": "1.0.0",
+      "sha256": "4b5fcdc922296c74ed62acabc1a97dfdc2991290e3f2cf343f234b2349ebc436",
+      "source_ids": [
+        "Abordagem_a_s_diarreias__41fb86fd8c",
+        "CASOS_CL_NICOS_RESUMO__249c11a613"
+      ],
+      "source_resolution": "resolved",
+      "title": "Síndrome do intestino irritável",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 15260,
+      "capsule_id": "capsule:casos_clinicos:tireoidopatias_hipotireoidismo_nodulo_e_paaf",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/CASOS_CLINICOS/tireoidopatias_hipotireoidismo_nodulo_e_paaf.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "17e3f5315d7f2818eb7f0fdd88f1d8fdd3b1b88e946b47573f6feb0729eb25b3",
+      "source_ids": [
+        "2_Avaliac_a_o_Casos_Cli_nicos_TURMA_B_2021_1__7bf703af15",
+        "ANOTAC_O_ES_ca_ncer_e_no_dulo_da_tireoide__e5088007bc",
+        "FACILITA_OSCE_1___6c6a714b3e",
+        "OSCE_ENDOCRINOLOGIA__4796d07aed"
+      ],
+      "source_resolution": "resolved",
+      "title": "Tireoidopatias em caso clínico — hipotireoidismo, nódulo tireoidiano e conduta de PAAF",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 16457,
+      "capsule_id": "capsule:casos_clinicos:tontura_vertigem_vppb_dix_hallpike",
+      "discipline": "CASOS_CLINICOS",
+      "legacy_metadata": {
+        "discipline": "CASOS_CLINICOS",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/CASOS_CLINICOS/tontura_vertigem_vppb_dix_hallpike.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "67e848da06fb685b12cb86cf8ab4e0fa3c85b0059308c39a1568b163b3460d63",
+      "source_ids": [
+        "2_Avaliac_a_o_Casos_Cli_nicos_TURMA_B_2021_1__7bf703af15",
+        "Casos_Cli_nicos_P7_1__4f3f459b20"
+      ],
+      "source_resolution": "resolved",
+      "title": "Tontura e vertigem — VPPB, Dix-Hallpike e diagnóstico diferencial",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 12561,
+      "capsule_id": "capsule:eisa_ii:anatomia_osso_temporal_e_audicao",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "baixo",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/anatomia_osso_temporal_e_audicao.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "low",
+      "schema_version": "1.0.0",
+      "sha256": "2b0c61ae5f6b1ba75341e225c302d0bcb1984621c61b6353498d797b56ced28d",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Anatomia do osso temporal e anatomofisiologia da audição",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 11156,
+      "capsule_id": "capsule:eisa_ii:anticonvulsivantes_gestacao",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "IV_UNIDADE"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/anticonvulsivantes_gestacao.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "adf532a6eeea4f612ff6c3e613e0eab235ed38e5c73949a327dd9fd90fbc09b5",
+      "source_ids": [
+        "FAMENE_FARMACOTERAPIA_DAS_CONVULSO_ES_2024_2__f60caaf147"
+      ],
+      "source_resolution": "resolved",
+      "title": "Anticonvulsivantes na gestação — teratogenicidade e escolha",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 15418,
+      "capsule_id": "capsule:eisa_ii:avaliacao_laboratorial_em_nefrologia",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/avaliacao_laboratorial_em_nefrologia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "9a2c98f317c1ff2e841c76190ea1152ae8cb1c88747fbe034cb913510c811fc9",
+      "source_ids": [
+        "3_DiagnA_stico_laboratorial_em_nefrologia_1___356124c454",
+        "3_DiagnA_stico_laboratorial_em_nefrologia__5f2f478f29",
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "AVALIAC_A_O_LABORATORIAL_EM_NEFROLOGIA__4419b29eb0",
+        "DIAG_SIND_DIAG_LAB_2024_2__048561d4fc"
+      ],
+      "source_resolution": "resolved",
+      "title": "Avaliação Laboratorial em Nefrologia (urinálise, TFG, proteinúria)",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 15178,
+      "capsule_id": "capsule:eisa_ii:avaliacao_por_imagem_em_nefrologia",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/avaliacao_por_imagem_em_nefrologia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "9d788d2a04a0511f744983b41c341dfc22404a86a5229a8acc334d5645d5ecc4",
+      "source_ids": [
+        "2_Exames_de_imagem_na_Nefrologia__d17a2c74cb",
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "Avaliac_a_o_por_imagem_em_nefrologia__e68258f0dd",
+        "Diagno_stico_radiolo_gico_I_unidade__c66744abff",
+        "resumed_sa_de_do_adulto_2__f8fd0b8d31"
+      ],
+      "source_resolution": "resolved",
+      "title": "Avaliação por Imagem em Nefrologia",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 14055,
+      "capsule_id": "capsule:eisa_ii:avc_hemorragico",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/avc_hemorragico.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "d26c2f24193ce12024216c53c079317ae9a48a665fdd14513d80b4f3fb07ff68",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "AVCH__6cde4df7bd",
+        "Neurologia_AVCH_1___9f26db1751",
+        "Neurologia_AVCH__111b013ac1"
+      ],
+      "source_resolution": "resolved",
+      "title": "AVC hemorrágico",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 14653,
+      "capsule_id": "capsule:eisa_ii:avc_isquemico_investigacao_etiologica_e_prevencao_secundaria",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/avc_isquemico_investigacao_etiologica_e_prevencao_secundaria.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "0254ffc988a2444f2b3417c2129d654f6be9639aad5df5a1008600b7a2a72e69",
+      "source_ids": [
+        "AVCI_investigac_a_o_etiolo_gica_II_unidade__314b910aaf",
+        "P7_AVC_Investigacao__3e99087656"
+      ],
+      "source_resolution": "resolved",
+      "title": "AVC isquêmico — investigação etiológica e prevenção secundária",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 7677,
+      "capsule_id": "capsule:eisa_ii:avc_isquemico_urgencia_trombolise_e_trombectomia",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l2",
+        "risk": "alto",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/avc_isquemico_urgencia_trombolise_e_trombectomia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l2",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "622e7f9f15400cdbf01f0ec7016555a060ef4034566ffe7b7a12fdf6e27b1fd1",
+      "source_ids": [
+        "AVCI_urge_ncia_neurolo_gica_II_unidade__bec5d0b3b8",
+        "P7_avc_1__5ccf1d6c11"
+      ],
+      "source_resolution": "resolved",
+      "title": "AVC isquêmico: urgência, trombólise e trombectomia",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 16769,
+      "capsule_id": "capsule:eisa_ii:bexiga_neurogenica",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/bexiga_neurogenica.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "8791eea0abac614d336b227257c07c03006c2a0a9e7bb8d52de874ff0ad937c0",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "BEXIGA_NEUROGA_NICA_ATUALIZADA_Luiz_Luna__00b75194d2",
+        "Bexiga_neuroge_nica__d255c01ebc",
+        "Uro_BEXIGA_NEUROGA_NICA__6bd4d01ade"
+      ],
+      "source_resolution": "resolved",
+      "title": "Bexiga Neurogênica",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 17103,
+      "capsule_id": "capsule:eisa_ii:cancer_de_prostata",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/cancer_de_prostata.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "85fef804b2286c941a6c6cf382b8f012f67bb28af8a7a8ae38e36bf601d1ac63",
+      "source_ids": [
+        "ANOTAC_O_ES_ca_ncer_de_pro_stata__6614a32c87",
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "NEOPLASIA_DE_PROSTATA_RESUMIDA__58cfadd4e2",
+        "Onco_NEOPLASIAS_UROLO_GICAS__66462ee210",
+        "Urologia_CA_NCER_DE_PRO_STATA__ec4ee2ece9"
+      ],
+      "source_resolution": "resolved",
+      "title": "Câncer de Próstata",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 15068,
+      "capsule_id": "capsule:eisa_ii:cancer_de_testiculo",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/cancer_de_testiculo.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "8fb3409091485d39782eb1aec1b5c8b5adf117748119a53c8beb176948cb3361",
+      "source_ids": [
+        "C_ncer_de_Test_culo_docx__67d4fd1f6c",
+        "C_ncer_urol_gico_Onco_docx__bedb200d2e",
+        "Onco_NEOPLASIAS_UROLO_GICAS__66462ee210",
+        "Urologia_CA_NCER_DE_TESTI_CULO__2d3b7d9fc1",
+        "resumed_sa_de_do_adulto_2__f8fd0b8d31"
+      ],
+      "source_resolution": "resolved",
+      "title": "Câncer de Testículo",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 17511,
+      "capsule_id": "capsule:eisa_ii:cefaleias_primarias_e_secundarias",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/cefaleias_primarias_e_secundarias.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "b21a21658790a1ed7f3b6db2a6437800ed7bead307285eed411f750ef613ec93",
+      "source_ids": [
+        "3_Cefaleias__8e6ef3de3b",
+        "Cefaleia_I_unidade__9cd7639c6e",
+        "Cefaleias__ecf14a1a72",
+        "cefaleia_2023_ppt__42073aa2f8"
+      ],
+      "source_resolution": "resolved",
+      "title": "Cefaleias primárias e secundárias",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 12583,
+      "capsule_id": "capsule:eisa_ii:coma_e_rebaixamento_do_nivel_de_consciencia",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/coma_e_rebaixamento_do_nivel_de_consciencia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "bab98bd2817442b30a91376d05fd780d61a3a0cef70b6c531ca0b62a8c8ab36c",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "Neuro_COMA__3d9a975464"
+      ],
+      "source_resolution": "resolved",
+      "title": "Coma e rebaixamento do nível de consciência",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 14394,
+      "capsule_id": "capsule:eisa_ii:como_e_quando_encaminhar_para_o_nefrologista",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/como_e_quando_encaminhar_para_o_nefrologista.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "1be9fd801d6f6d8ab3dc983141ee7f6f7548ffa646d1945f9a59b841b112e8c8",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "PDF_Como_e_quando_encaminhar_para_o_nefrologista__6bcd9a270c"
+      ],
+      "source_resolution": "resolved",
+      "title": "Como e Quando Encaminhar para o Nefrologista",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 14760,
+      "capsule_id": "capsule:eisa_ii:demencias",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/demencias.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "772050307dad29e2e279ef164cf08a50e08825fe4702ae1760cd16aa1e5401e3",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "Deme_ncias__7cd0ec2067"
+      ],
+      "source_resolution": "resolved",
+      "title": "Demências",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 13936,
+      "capsule_id": "capsule:eisa_ii:diabetes_complicacoes_agudas_cronicas",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/diabetes_complicacoes_agudas_cronicas.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "24c6b61ce70112a8b8de0bbb934f835087159bb98d2bfb896d497da968c38d9d",
+      "source_ids": [
+        "Diabetes_complicac_o_es_agudas_e_cronicas___e78f327c9d"
+      ],
+      "source_resolution": "resolved",
+      "title": "Diabetes: complicações agudas e crônicas (CAD, EHH, hipoglicemia)",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 12334,
+      "capsule_id": "capsule:eisa_ii:diabetes_mellitus_conceito_classificacao_diagnostico",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/diabetes_mellitus_conceito_classificacao_diagnostico.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "aa4bb043fa1d547a398f82f4131ff0856292083c887797bd095e7ad75102d59a",
+      "source_ids": [
+        "Diabetes_5___828857ad38",
+        "Dm_conceito_diagno_stico_classificac_a_o_2019_FAMENE__5443174de5"
+      ],
+      "source_resolution": "resolved",
+      "title": "Diabetes mellitus: conceito, classificação e diagnóstico",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 12842,
+      "capsule_id": "capsule:eisa_ii:diabetes_mellitus_gestacional",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/diabetes_mellitus_gestacional.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "c90eb177805020eb34783b8e624ead3bdac9e2c9c1929ef8f76eed61bcbdb8cb",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21"
+      ],
+      "source_resolution": "resolved",
+      "title": "Diabetes mellitus gestacional",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 12932,
+      "capsule_id": "capsule:eisa_ii:diabetes_metas_tratamento_terapia_nao_insulinica",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/diabetes_metas_tratamento_terapia_nao_insulinica.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "7cab4025c0eb1a8edccdf3e8cab3feb82f55deee9fade9a7a1049920b06d7273",
+      "source_ids": [
+        "2025_1_Diabetes_metas_e_tto_n_o_insul_nico__083a9449f2"
+      ],
+      "source_resolution": "resolved",
+      "title": "Diabetes: metas de tratamento e terapia não insulínica",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 13759,
+      "capsule_id": "capsule:eisa_ii:diagnostico_sindromico_em_nefrologia",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/diagnostico_sindromico_em_nefrologia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "d341f3c150d6346a928573db9bad1cbe9c5bc34f5b45208a89d75de19140c04a",
+      "source_ids": [
+        "1_DiagnA_stico_das_sA_ndromes_nefrolA_gicas__542c6a898f",
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "DIAG_SIND_DIAG_LAB_2024_2__048561d4fc",
+        "Diagnostico_Sindro_mico_pdf__738877900c"
+      ],
+      "source_resolution": "resolved",
+      "title": "Diagnóstico Sindrômico em Nefrologia",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 13613,
+      "capsule_id": "capsule:eisa_ii:disturbios_do_movimento",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/disturbios_do_movimento.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "51401603f31262c09ab20b141c8b87039c0301881556e9f0204fcc1d7dfc2f12",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "Neuro_DISTA_RBIOS_DO_MOVIMENTO__5a0889bf9a"
+      ],
+      "source_resolution": "resolved",
+      "title": "Distúrbios do Movimento",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 13795,
+      "capsule_id": "capsule:eisa_ii:doenca_renal_cronica_drc",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/doenca_renal_cronica_drc.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "b61ebd8e049c3fd1eb91f9c81e8ba383d146da39190bd400b4d0318f9d6e4455",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "DRC_2024_1_1___ca05068d36",
+        "DRC_Doen_a_renal_cr_nica__2da7fa9f7a",
+        "Nefro_DOENC_A_RENAL_CRO_NICA__3429dee493",
+        "Nefrologia_DoenA_a_renal_crA_nica_I__3be337baf2",
+        "resumed_sa_de_do_adulto_2__f8fd0b8d31"
+      ],
+      "source_resolution": "resolved",
+      "title": "Doença Renal Crônica (DRC)",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 14898,
+      "capsule_id": "capsule:eisa_ii:doenca_renal_na_gestacao",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/doenca_renal_na_gestacao.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "6b16902c76d2bf099f6f2dc28776214e3431443a5957fec0761a6678dfb9de43",
+      "source_ids": [
+        "Rim_e_Gravidez_2021_2__8e028aff9d",
+        "resumed_sa_de_do_adulto_2__f8fd0b8d31"
+      ],
+      "source_resolution": "resolved",
+      "title": "Doença Renal na Gestação (Rim e Gravidez)",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 10729,
+      "capsule_id": "capsule:eisa_ii:doencas_cisticas_renais",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/doencas_cisticas_renais.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "5120053e7c388b83d9e593515fb80581274a98f7b4490c24c15299b6ed792317",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Doenças císticas renais",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 12194,
+      "capsule_id": "capsule:eisa_ii:doencas_da_orelha_externa",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/doencas_da_orelha_externa.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "d7ffb3f16635c505ef77260d132b6bd701cd4fb762f9664f429005845fc47051",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Doenças da orelha externa",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 17986,
+      "capsule_id": "capsule:eisa_ii:doencas_neuromusculares",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/doencas_neuromusculares.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "19c10600c7a793696852a7b4e36aa9df66e3ef94cf0bf9bf4f7601889968525a",
+      "source_ids": [
+        "Doenc_as_neuromusculares_III_unidade__ea38d8f852",
+        "Doenc_as_neuromusculares__63e55fa0f2",
+        "doen_as_neuromusculares__68f8cae128"
+      ],
+      "source_resolution": "resolved",
+      "title": "Doenças neuromusculares (miastenia, Guillain-Barré, ELA, miopatias)",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 18921,
+      "capsule_id": "capsule:eisa_ii:doencas_oculares_em_endocrinologia_oftalmopatia_de_graves_e_retinopatia_diabetica",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/doencas_oculares_em_endocrinologia_oftalmopatia_de_graves_e_retinopatia_diabetica.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "be160c954ab0825983ab52e54d04e74a28fd7c054b09bb7c4fe71bccc8d4ae1e",
+      "source_ids": [
+        "altera_oes_oculares_na_endocrinologia_2025__35d861290b"
+      ],
+      "source_resolution": "resolved",
+      "title": "Doenças oculares em endocrinologia (oftalmopatia de Graves e retinopatia diabética)",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 15736,
+      "capsule_id": "capsule:eisa_ii:doencas_paratireoides_hiperparatireoidismo_osteoporose",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/doencas_paratireoides_hiperparatireoidismo_osteoporose.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "883da7eb36882789b7d3fc2ec8f96e39eaca332fce83c4f647841efaa6f79658",
+      "source_ids": [
+        "2021_2_Doenc_as_das_Paratireoides_e_Osteoporose__532c60e94d",
+        "Doenc_as_das_Paratireoides_e_Osteoporose_2___3eaa869450"
+      ],
+      "source_resolution": "resolved",
+      "title": "Doenças das paratireoides (hiperparatireoidismo) e osteoporose",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 17742,
+      "capsule_id": "capsule:eisa_ii:epilepsia_e_crises_epilepticas",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/epilepsia_e_crises_epilepticas.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "50bc2be2d52dc21ff742fda5e8bdac91f258bb09fcfedb6d42dfa455247c8665",
+      "source_ids": [
+        "Epilepsia__c07e537396",
+        "P7_Epilepsia_pdff__4b408f8a34"
+      ],
+      "source_resolution": "resolved",
+      "title": "Epilepsia e crises epilépticas",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 13821,
+      "capsule_id": "capsule:eisa_ii:erisipela",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/erisipela.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "71310c0bbab305c2495dfa76f8c91d9db8891cc3317b5086c19beed700172b4d",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Erisipela",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 15584,
+      "capsule_id": "capsule:eisa_ii:esclerose_multipla_e_doencas_desmielinizantes",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/esclerose_multipla_e_doencas_desmielinizantes.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "8bdc44b24c4fe3d75ab8622d49970416c3c0c7878be85055284cc0ab61e65efb",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "DOENC_AS_DESMIELINIZANTES_2020__d29f785e2b"
+      ],
+      "source_resolution": "resolved",
+      "title": "Esclerose Múltipla e Doenças Desmielinizantes",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 8316,
+      "capsule_id": "capsule:eisa_ii:estado_de_mal_epileptico_sequencia_doses",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l2",
+        "risk": "alto",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/estado_de_mal_epileptico_sequencia_doses.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l2",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "9c2a76d2a1bc8fa3da579fd1eff4b0a2789587a3b27ec27ba789fdadc7ec5461",
+      "source_ids": [
+        "FAMENE_FARMACOTERAPIA_DAS_CONVULSO_ES_2024_2__f60caaf147"
+      ],
+      "source_resolution": "resolved",
+      "title": "Estado de mal epiléptico — fases terapêuticas e doses",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 12227,
+      "capsule_id": "capsule:eisa_ii:farmacologia_dislipidemias",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "IV"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/farmacologia_dislipidemias.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "a594936b8fb5f2c2500650e988a1dec65fdf2f14f030c2b5d63f0a96dfea202d",
+      "source_ids": [
+        "P7_FAMENE_FARMACOLOGIA_DAS_DISLIPIDEMIAS_2025__766492937d"
+      ],
+      "source_resolution": "resolved",
+      "title": "Farmacologia das dislipidemias — estatinas, ezetimiba, fibratos, resinas, inibidores de PCSK9 e inclisiran",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 13139,
+      "capsule_id": "capsule:eisa_ii:farmacoterapia_convulsoes_mecanismo_escolha",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "IV"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/farmacoterapia_convulsoes_mecanismo_escolha.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "846c0e6769a65e115a151efe9d74710a2268465e05279b2fa3e22a36aa676cd4",
+      "source_ids": [
+        "FAMENE_FARMACOTERAPIA_DAS_CONVULSO_ES_2024_2__f60caaf147"
+      ],
+      "source_resolution": "resolved",
+      "title": "Farmacoterapia das convulsões — anticonvulsivantes por mecanismo e escolha por tipo de crise",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 12256,
+      "capsule_id": "capsule:eisa_ii:farmacoterapia_diabetes_i_nao_secretagogos",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/farmacoterapia_diabetes_i_nao_secretagogos.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "b4eb6e048a9957d227577f683b26a0c2df16499cbe6e42ed163018e79b398f5a",
+      "source_ids": [
+        "P7_FAMENE_FARMACOTERAPIA_DO_DIABETES_2025_1_1a_aula__52271174b7"
+      ],
+      "source_resolution": "resolved",
+      "title": "Farmacoterapia do diabetes mellitus I — antidiabéticos não secretagogos (biguanidas, glitazonas, iSGLT2, acarbose)",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 12511,
+      "capsule_id": "capsule:eisa_ii:farmacoterapia_diabetes_ii_secretagogos",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/farmacoterapia_diabetes_ii_secretagogos.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "48e9e2e85f4af73f4d66a3dd6784dc212dda25eba14e2bad9da95a719a8d8094",
+      "source_ids": [
+        "P7_FAMENE_FARMACOTERAPIA_DO_DIABETES_2025_1_2a_aula__09f55ba2de"
+      ],
+      "source_resolution": "resolved",
+      "title": "Farmacoterapia do diabetes mellitus II — secretagogos e incretinomiméticos (sulfonilureias, glinidas, iDPP-4, agonistas GLP-1, agonistas duais)",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 15538,
+      "capsule_id": "capsule:eisa_ii:glaucoma_e_catarata",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/glaucoma_e_catarata.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "366896c1791d143b289572ef75630e5d3797eb683a70edf902788a75845ec1cc",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Glaucoma e catarata",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 13642,
+      "capsule_id": "capsule:eisa_ii:glomerulopatias_primarias",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/glomerulopatias_primarias.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "db984bba2d2efa5c7c6d5692e1a39e7b4e4fe8cfa127348434fa17ff048bdbb8",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "PDF_Glomerulopatias_1_s_2024_2__fe8a341554",
+        "glomerulopatias_em_ped_GNDA_e_SN__8da6c78621"
+      ],
+      "source_resolution": "resolved",
+      "title": "Glomerulopatias Primárias",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 14572,
+      "capsule_id": "capsule:eisa_ii:glomerulopatias_secundarias",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/glomerulopatias_secundarias.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "1d6b9ce4320d1e7d1fcfffd28edf538af39b78fd8da0b4d046a4c10f4f6b2455",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "Glomerulopatia_Secunda_ria__e2c6bd4d58",
+        "Glomerulopatias_Secund_rias__9af4f064dd",
+        "Glomerulopatias_Secundarias_SAII_1__1e7727c4b1"
+      ],
+      "source_resolution": "resolved",
+      "title": "Glomerulopatias Secundárias",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 14102,
+      "capsule_id": "capsule:eisa_ii:has_nefrogena_renovascular",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/has_nefrogena_renovascular.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "8ee671b7066b6f477d24d5ae3a25c12d6ec863f663d23a0a118909433c531bda",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "DBHA_2020__deed973a25",
+        "resumed_sa_de_do_adulto_2__f8fd0b8d31"
+      ],
+      "source_resolution": "resolved",
+      "title": "Hipertensão Arterial Nefrógena e Renovascular",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 16230,
+      "capsule_id": "capsule:eisa_ii:hiperaldosteronismo_primario_feocromocitoma",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "IV_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/hiperaldosteronismo_primario_feocromocitoma.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "a0669364c79918d51212f6d58e0f176cde928d8fdeea36fae4c521c8ef520e44",
+      "source_ids": [
+        "2025_1_Hiperaldosteronismo_prim_rio_e_feocromocitoma__d986fd0620"
+      ],
+      "source_resolution": "resolved",
+      "title": "Hiperaldosteronismo primário e feocromocitoma",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 13937,
+      "capsule_id": "capsule:eisa_ii:hiperandrogenismo_hac_sop_tumor_virilizante",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/hiperandrogenismo_hac_sop_tumor_virilizante.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "8bd5d2142ba897f4e10e37b91c9b983921b450f68b09c4200b9403fb1cc40319",
+      "source_ids": [
+        "HIPERANDROGENISMO_20250415_152135_0000__4e65401348"
+      ],
+      "source_resolution": "resolved",
+      "title": "Hiperandrogenismo: hiperplasia adrenal congênita, SOP e tumor virilizante",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 16476,
+      "capsule_id": "capsule:eisa_ii:hiperfuncao_hipofisaria",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "IV_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/hiperfuncao_hipofisaria.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "9af8dcb94b77f1b41088b98194a79cd231b33c3a7e1d15085b4daacf1854ba31",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "HIPERFUN_O_HIPOFIS_RIA_PARTE_01__0c915df866"
+      ],
+      "source_resolution": "resolved",
+      "title": "Hiperfunção hipofisária",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 13921,
+      "capsule_id": "capsule:eisa_ii:hiperplasia_adrenal_congenita",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/hiperplasia_adrenal_congenita.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "53015ddc4c6d4f303bbecba3ce65bae664a9d9ff040f8d576a32303c753d5e32",
+      "source_ids": [
+        "HIPERANDROGENISMO_20250415_152135_0000__4e65401348"
+      ],
+      "source_resolution": "resolved",
+      "title": "Hiperplasia adrenal congênita",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 14258,
+      "capsule_id": "capsule:eisa_ii:hiperplasia_prostatica_benigna_clinica_e_tratamento",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/hiperplasia_prostatica_benigna_clinica_e_tratamento.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "0c17c60fdb3b837cea4b7da99655087f7cd8805782b0e22a306d50aa92b9d197",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "AULA_HPB_ATUALIZADA_POWER_POINT__1770a91b62",
+        "HPB_pdf__fbcd79437f",
+        "Hiperplasia_prosta_tica_benigna_I_unidade__241c087b80",
+        "Hiperplasia_prosta_tica_benigna__622ecccb66"
+      ],
+      "source_resolution": "resolved",
+      "title": "Hiperplasia Prostática Benigna (clínica e tratamento)",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 11796,
+      "capsule_id": "capsule:eisa_ii:hipertensao_intracraniana",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/hipertensao_intracraniana.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "23db8fffdc0fa520a47bae3d9968ad36eabeaea1c4e5cb889d26e95079f454e9",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "TRAUMATISMO_CRANIO_ENCEFALICO__a11286e20c"
+      ],
+      "source_resolution": "resolved",
+      "title": "Hipertensão Intracraniana",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 15033,
+      "capsule_id": "capsule:eisa_ii:hipertireoidismo_tireotoxicose",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/hipertireoidismo_tireotoxicose.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "bbac4db0a72460b5b9c0720a22159ba0b83415a381a9929bcb1918fc7230be8d",
+      "source_ids": [
+        "HIPERTIREOIDISMO__6e9927aae4"
+      ],
+      "source_resolution": "resolved",
+      "title": "Hipertireoidismo e tireotoxicose",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 14509,
+      "capsule_id": "capsule:eisa_ii:hipoparatireoidismo_e_hipocalcemia",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/hipoparatireoidismo_e_hipocalcemia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "dbd06fe5a38b0274a543729084207a3162acecad4776e168586b6720ea60e7bb",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "Doenc_as_das_Paratireoides_e_Osteoporose_2___3eaa869450"
+      ],
+      "source_resolution": "resolved",
+      "title": "Hipoparatireoidismo e hipocalcemia",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 15404,
+      "capsule_id": "capsule:eisa_ii:hipopituitarismo",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "IV_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/hipopituitarismo.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "aa1e15461900a46dc7e026d69970d08284c9950c45b93295053cf0919fe3d171",
+      "source_ids": [
+        "2025_1_HIPOPITUITARISMO__1f445bfa8d"
+      ],
+      "source_resolution": "resolved",
+      "title": "Hipopituitarismo (hipofunção hipofisária)",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 16059,
+      "capsule_id": "capsule:eisa_ii:hipotireoidismo",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/hipotireoidismo.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "9b03ec0024b20b6d29557435e18948aa8693ed865900c7be98f308b1ca19aa29",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "HIPOTIREOIDISMO_2025_1__82e83b6322",
+        "Hipotireoidismo_II_unidade__abb7fa5c58",
+        "Hipotireoidismo_pdf_1___af4adf55d6",
+        "Hipotireoidismo_pdf__d416805cb5",
+        "resumed_sa_de_do_adulto_2__f8fd0b8d31"
+      ],
+      "source_resolution": "resolved",
+      "title": "Hipotireoidismo (incluindo subclínico, gestação e idoso)",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 15075,
+      "capsule_id": "capsule:eisa_ii:infeccoes_sexualmente_transmissiveis",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/infeccoes_sexualmente_transmissiveis.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "ee60a8fd17e37d151c4080b05c911c26d49e4d7f50731cbff91107c6ca604db0",
+      "source_ids": [
+        "ANOTAC_O_ES_IST__a05a9c13fa",
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "DST_pdf__9fcaa44f60",
+        "IST_ATUALIZADA_POWER_POINT_Luiz_Luna__8331d211b3",
+        "Uro_DOENA_A_SEXUALMENTE_TRANSMISSA_VEL__077fa8ae91"
+      ],
+      "source_resolution": "resolved",
+      "title": "Infecções Sexualmente Transmissíveis (IST) — Urologia",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 11113,
+      "capsule_id": "capsule:eisa_ii:insulinoterapia_classificacao_farmacocinetica",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/insulinoterapia_classificacao_farmacocinetica.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "8763eb5d04377f28867def685f328ec8e167617cbf2fe11e7577e0da1b9683fa",
+      "source_ids": [
+        "P7_FAMENE_FARMACOTERAPIA_DO_DIABETES_2025_1_2a_aula__09f55ba2de"
+      ],
+      "source_resolution": "resolved",
+      "title": "Insulinoterapia — classificação por tempo de ação, perfis farmacocinéticos e efeitos adversos",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 19155,
+      "capsule_id": "capsule:eisa_ii:insulinoterapia_no_dm1_e_dm2",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/insulinoterapia_no_dm1_e_dm2.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "f379a29690dfa91912ae72141af051e1f0d6a4b5f02ff35ec73e9ee81f8bcd48",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "Diabetes_3_insulinoterapia_I_unidade__6827ea5dfc",
+        "Diabetes_mellitus_insulinoterapia__b65899b766",
+        "Farmacoterapia_no_DM_2_parte_I_unidade__b7dabc93a3",
+        "Insulinoterapia_1___475cb4442b",
+        "resumed_sa_de_do_adulto_2__f8fd0b8d31"
+      ],
+      "source_resolution": "resolved",
+      "title": "Insulinoterapia no DM1 e DM2",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 14671,
+      "capsule_id": "capsule:eisa_ii:lesao_renal_aguda_lra",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/lesao_renal_aguda_lra.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "3c4d431238a276ab65671f909e28122376901a6b5679cddc4be1cdf74712d277",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "Inju_ria_renal_aguda_II_unidade__6a138171d7",
+        "Lesa_o_renal_aguda__0a0674f8cb",
+        "Nefrologia_LesA_o_Renal_Aguda__47a54c6e95"
+      ],
+      "source_resolution": "resolved",
+      "title": "Lesão Renal Aguda (LRA/IRA)",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 12024,
+      "capsule_id": "capsule:eisa_ii:linfedema",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "baixo",
+        "unit": "III"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/linfedema.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "low",
+      "schema_version": "1.0.0",
+      "sha256": "2eb9ae46d8fab6d781dc332fdd0358b98d7ca8a52f59b9be84a29cfb94bb819d",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Linfedema",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 14519,
+      "capsule_id": "capsule:eisa_ii:litiase_urinaria",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/litiase_urinaria.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "9cb5c1694aa2205b58b5f287502e95c8b255cda9af1f54c6c23158ef80051dde",
+      "source_ids": [
+        "1_LitA_ase_urinA_ria__aaca8de431",
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "Liti_ase_Urina_ria_pdf__54fab59ea6",
+        "Liti_ase_urina_ria_II_unidade__6a41fd7eef",
+        "Uro_Liti_ase_Urina_ria__f6b2b3a7f8"
+      ],
+      "source_resolution": "resolved",
+      "title": "Litíase Urinária",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 17160,
+      "capsule_id": "capsule:eisa_ii:manejo_clinico_ambulatorial_do_dm",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/manejo_clinico_ambulatorial_do_dm.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "2e7e5a398bbcd18b4efb8f990052068350a79ee5f2d8fafd508bdd08f0239853",
+      "source_ids": [
+        "Casos_cli_nicos_Prof_Narriane_Chaves__f0a6616ad6",
+        "Oficina_Manejo_Cli_nico_do_DM__48bca328b6",
+        "ROTEIRO_DE_ANAMNESE_ENDO_CRINO__21b691b7d9"
+      ],
+      "source_resolution": "resolved",
+      "title": "Manejo clínico ambulatorial do DM (avaliação inicial, seguimento, anamnese endócrina)",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 14950,
+      "capsule_id": "capsule:eisa_ii:nefropatia_diabetica",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/nefropatia_diabetica.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "8174b4844f46199515dd65f35fb32bd641429cf5255157a898e1c4f474862273",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "Doenc_a_renal_do_diabetes_III_unidade__a682b8eb7b",
+        "Nefro_NEFROPATIA_DIABE_TICA__01f9e16a5f"
+      ],
+      "source_resolution": "resolved",
+      "title": "Nefropatia Diabética / Doença Renal do Diabetes",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 17877,
+      "capsule_id": "capsule:eisa_ii:neoplasia_vesical",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/neoplasia_vesical.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "7268c0a49f5aecd9ff8583f1c6bac81debd1b2ced7b156cc9fc926e212806a5f",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "NEOPLASIA_VESICAL_URO_Larissa_Pinheiro__2de53fcf0a",
+        "NEOPLASIA_VESICAL_WILMAVIVIANE__ac2bfe689a",
+        "Neoplasia_Vesical__5c4780f6ad",
+        "Uro_NEOPLASIA_VESICAL__accd237294"
+      ],
+      "source_resolution": "resolved",
+      "title": "Neoplasia Vesical",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 13979,
+      "capsule_id": "capsule:eisa_ii:neuroftalmologia",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/neuroftalmologia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "b3a2a4f49a0e4c7ec11a5578e3f63a5b9c21285aeaf46dede80d212b1303b9a3",
+      "source_ids": [
+        "No_es_de_Neuroftalmologia__73862bfddf"
+      ],
+      "source_resolution": "resolved",
+      "title": "Neuroftalmologia (neuropatias ópticas, papiledema, pupilas)",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 15688,
+      "capsule_id": "capsule:eisa_ii:neuroinfeccoes",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/neuroinfeccoes.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "dce80120cb0762b818430aaf70464ac8a8d6d711deb0518c0e1a655a03f2032f",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "NEUROINFECOES2021__6f14ede5b5"
+      ],
+      "source_resolution": "resolved",
+      "title": "Neuroinfecções (neurocisticercose, TB meningoencefálica, encefalite viral, neurotoxoplasmose, neuroesquistossomose, abscesso cerebral)",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 19438,
+      "capsule_id": "capsule:eisa_ii:nodulos_tireoidianos_e_cancer_de_tireoide",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/nodulos_tireoidianos_e_cancer_de_tireoide.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "6c9e5e61cdb5bd134bd08e28d3d254c13b945f96b1993c6c8a6eaa7ed07e6754",
+      "source_ids": [
+        "ANOTAC_O_ES_ca_ncer_e_no_dulo_da_tireoide__e5088007bc",
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "Endocrino_NO_DULOS_BENIGNOS_E_MALIGNOS_DA_TIREOIDE__c839df0ce4",
+        "No_dulos_benignos_e_malignos_da_tireoide__0b509e98ff",
+        "Slides_N_dulos_CA_de_tireoide_sem_cuca_s_notes___bd502a2745",
+        "resumed_sa_de_do_adulto_2__f8fd0b8d31"
+      ],
+      "source_resolution": "resolved",
+      "title": "Nódulos tireoidianos e câncer de tireoide",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 15373,
+      "capsule_id": "capsule:eisa_ii:obesidade_e_sindrome_metabolica",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/obesidade_e_sindrome_metabolica.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "0d51bce6976aa9eb242477a6a765f0d88c718467128b3242cbf11fc516b88c21",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "Endocrino_OBESIDADE_E_SA_NDROME_METABA_LICA__79c20cd26e",
+        "Obesidade_e_Sind_Metabo_lica__bd2e4b03f6",
+        "Sd_metab_lica__8e5c3c8899",
+        "resumed_sa_de_do_adulto_2__f8fd0b8d31"
+      ],
+      "source_resolution": "resolved",
+      "title": "Obesidade e síndrome metabólica",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 13811,
+      "capsule_id": "capsule:eisa_ii:otites_aguda_cronica_externa",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/otites_aguda_cronica_externa.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "3b634869a6a1d3a8d558070e69bc54d149eb17181b3f5f4a6eaa740793b9c69f",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Otites (aguda, média crônica e externa)",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 12864,
+      "capsule_id": "capsule:eisa_ii:patologia_cancer_de_tireoide",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/patologia_cancer_de_tireoide.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "dfae5dee6c61f94ee16ec917f9c4586c9dfc98124cb58991b823bed40cac39f9",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Patologia do câncer de tireoide",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 16927,
+      "capsule_id": "capsule:eisa_ii:patologias_penianas_e_escrotais",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/patologias_penianas_e_escrotais.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "cdcf9b6413cd19f6296f7f35fe992eaa84f66a1009b7619a4da2ae0ab3470f48",
+      "source_ids": [
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "resumed_sa_de_do_adulto_2__f8fd0b8d31"
+      ],
+      "source_resolution": "resolved",
+      "title": "Patologias Penianas e Escrotais",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 16028,
+      "capsule_id": "capsule:eisa_ii:pe_diabetico",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/pe_diabetico.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "8fa110a977886af4557f0ddc40f5c1790316a08a8f5cde966617eaa1204fae0b",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Pé diabético",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 11508,
+      "capsule_id": "capsule:eisa_ii:sarcoma_de_partes_moles",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/sarcoma_de_partes_moles.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "6bd54dcf1dc5f4b68d69407e957e9f6aae730f9093d68f89744cadbe036d12d5",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Sarcoma de partes moles",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 10163,
+      "capsule_id": "capsule:eisa_ii:surdez_e_vertigem",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/surdez_e_vertigem.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "d2c78480224a9bc18f664d6a1501bc78685a226a431e7c23aabab1a4a005ec78",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Surdez e vertigem",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 14310,
+      "capsule_id": "capsule:eisa_ii:terapia_renal_substitutiva",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/terapia_renal_substitutiva.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "affbe6d99621ab2c0164128733e119d20b342dcbbf3bd9a59687cd3c1415babe",
+      "source_ids": [
+        "ANOTAC_O_ES_terapia_renal_substitutiva__08a0ff9a53",
+        "APOSTILA_SA_II_P7___e43cc7bc21"
+      ],
+      "source_resolution": "resolved",
+      "title": "Terapia Renal Substitutiva (Hemodiálise, Diálise Peritoneal, Transplante)",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 18075,
+      "capsule_id": "capsule:eisa_ii:trauma_urogenital",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/trauma_urogenital.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "3a19a42cb8ba3c792592fffe24a83cdd610fdde3aeac0ec5eb755d2701082ece",
+      "source_ids": [
+        "4_Trauma_Urogenital___2ef81514cc",
+        "ANOTAC_O_ES_trauma_urogenital__1289c8c631",
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "Trauma_urogenital__b07166e041",
+        "Uro_TRAUMA_UROGENITAL__e578876e7e"
+      ],
+      "source_resolution": "resolved",
+      "title": "Trauma Urogenital",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 14493,
+      "capsule_id": "capsule:eisa_ii:traumatismo_cranioencefalico",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/traumatismo_cranioencefalico.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "b28c45629a4c137cd34b5665fc65f705b8ab1034bcff3bc231aefdd8ffb134c9",
+      "source_ids": [
+        "ANOTAC_O_ES_TCE__acecbecc79",
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "TRAUMATISMO_CRANIO_ENCEFALICO__a11286e20c"
+      ],
+      "source_resolution": "resolved",
+      "title": "Traumatismo Cranioencefálico (TCE)",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 12969,
+      "capsule_id": "capsule:eisa_ii:tumores_do_sistema_nervoso_central",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISA_II/tumores_do_sistema_nervoso_central.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "962aa18a84b025bf0c555dec34bc66841b6e60b54aeeec2b26815bc813183bb2",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Tumores do sistema nervoso central",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 13770,
+      "capsule_id": "capsule:eisa_ii:tumores_renais_e_carcinoma_de_celulas_renais",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/tumores_renais_e_carcinoma_de_celulas_renais.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "4810d3ca578519f91598833142e643984fd846d1c84ddd58b6d1b685f229a014",
+      "source_ids": [
+        "ANOTAC_O_ES_carcinoma_de_ce_lulas_renais__f59012752a",
+        "APOSTILA_SA_II_P7___e43cc7bc21",
+        "C_ncer_urol_gico_Onco_docx__bedb200d2e",
+        "Onco_NEOPLASIAS_UROLO_GICAS__66462ee210",
+        "resumed_sa_de_do_adulto_2__f8fd0b8d31"
+      ],
+      "source_resolution": "resolved",
+      "title": "Tumores Renais e Carcinoma de Células Renais (CCR)",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 17301,
+      "capsule_id": "capsule:eisa_ii:urologia_feminina_infeccao_urinaria_e_incontinencia",
+      "discipline": "EISA_II",
+      "legacy_metadata": {
+        "discipline": "EISA_II",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISA_II/urologia_feminina_infeccao_urinaria_e_incontinencia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "e4b476825fa41e625c15451a7f694d4a3fce238c0d0f18020fbb5eb115bad526",
+      "source_ids": [
+        "UROLOGIA_FEMININA_INFECC_A_O_E_INCONTINE_NCIA_URINA_RIAS__bbdee85aaf",
+        "UROLOGIA_FEMININA__592da80b07"
+      ],
+      "source_resolution": "resolved",
+      "title": "Urologia Feminina: Infecção Urinária e Incontinência",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 21302,
+      "capsule_id": "capsule:eisca:adolescencia_puberdade_e_semiologia_do_adolescente",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "baixo",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISCA/adolescencia_puberdade_e_semiologia_do_adolescente.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "low",
+      "schema_version": "1.0.0",
+      "sha256": "d022484cbc027ab88dbf0c3f7b2e59d626e9f6c3fe3768d16a1ade555fb1cac2",
+      "source_ids": [
+        "Anotac_o_es_semiologia_do_adolescente__bcd52a9267",
+        "Pediatria_ADOLESCA_NCIA__4300471fc6",
+        "Pediatria_ADOLESCE_NCIA__b3f42bd43e",
+        "Semiologia_do_adolescente_pdf__39a1dbc603"
+      ],
+      "source_resolution": "resolved",
+      "title": "Adolescência, puberdade e semiologia do adolescente",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 6038,
+      "capsule_id": "capsule:eisca:aleitamento_materno",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/aleitamento_materno.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "7e680299a9d169b10da126ed5938dbfb08ab586134370d0b799f0869cda3938e",
+      "source_ids": [
+        "Aleitamento_materno__f3ee0f71ef",
+        "Aleitamento_materno_docx__abd28fa2ef",
+        "pediatria_ALEITAMENTO_MATERNO__202c07d31a"
+      ],
+      "source_resolution": "resolved",
+      "title": "Aleitamento materno",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 12487,
+      "capsule_id": "capsule:eisca:anemia_ferropriva",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "IV"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/anemia_ferropriva.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "eb687d9dc852efdf55d795db6a3f5737aeb8a6d842052d54e9a898dcae0582c2",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Anemia ferropriva",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 7360,
+      "capsule_id": "capsule:eisca:asma_em_pediatria",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l2",
+        "risk": "alto",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/asma_em_pediatria.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l2",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "3b8ae4f0f181798968b6433c186dc482c71c8409cb5bc1360c3fc63e95f353b0",
+      "source_ids": [
+        "Asma_em_Pediatria__3def9bfd99"
+      ],
+      "source_resolution": "resolved",
+      "title": "Asma em pediatria — crise aguda e lactente sibilante",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 7401,
+      "capsule_id": "capsule:eisca:assistencia_rn_sala_parto_reanimacao_neonatal",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l2",
+        "risk": "alto",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/assistencia_rn_sala_parto_reanimacao_neonatal.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l2",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "c87103a63cc60dee730b6eb728c2365650e5bc5e124dd2f21906e0db6bb8f249",
+      "source_ids": [
+        "Assiste_ncia_ao_RN_pdf__bc4a064524"
+      ],
+      "source_resolution": "resolved",
+      "title": "Assistência ao recém-nascido em sala de parto e reanimação neonatal",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 20115,
+      "capsule_id": "capsule:eisca:atopias_na_infancia",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/atopias_na_infancia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "c617072153b2ac1e45284f4c901c492d10c93ff975ce65602fdec84d1186cfbf",
+      "source_ids": [
+        "ATOPIAS_na_infancia_1__db787ace52"
+      ],
+      "source_resolution": "resolved",
+      "title": "Atopias na infância (hipersensibilidade tipo I, rinite alérgica, dermatite atópica, urticária/angioedema, alergia alimentar, anafilaxia)",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 11519,
+      "capsule_id": "capsule:eisca:bronquiolite_viral_aguda",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/bronquiolite_viral_aguda.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "90c840a7a848ad11427bfd7db08ebf757380f269865c65e582b2f5eb56819a5c",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Bronquiolite viral aguda (BVA)",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 15730,
+      "capsule_id": "capsule:eisca:cardiopatias_congenitas",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISCA/cardiopatias_congenitas.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "f57921bf94bc956bdb231748617029bebcd8c6ee5c71e66d75062ee18b7342d7",
+      "source_ids": [
+        "AtualizeA5N6__cd97472180"
+      ],
+      "source_resolution": "resolved",
+      "title": "Cardiopatias congênitas",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 14674,
+      "capsule_id": "capsule:eisca:convulsao_febril",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISCA/convulsao_febril.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "07a8c2398dc0cb34ecf1acf0846d4da7e3331b9c128f65513033f5dd96079f42",
+      "source_ids": [
+        "Pediatria_CONVULSA_O_FEBRIL__c54cea60f1"
+      ],
+      "source_resolution": "resolved",
+      "title": "Convulsão febril",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 17480,
+      "capsule_id": "capsule:eisca:crescimento_e_desenvolvimento",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISCA/crescimento_e_desenvolvimento.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "4630d5adc0985edc998b57f914f5f45ad8a6058e2133e6105ed8b5a62e1701e2",
+      "source_ids": [
+        "Crescimento_e_desenvolvimento__03a4aa93bc",
+        "semio_PED__c241597932"
+      ],
+      "source_resolution": "resolved",
+      "title": "Crescimento e desenvolvimento (curvas OMS, escore z, marcos do DNPM, idade corrigida)",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 11454,
+      "capsule_id": "capsule:eisca:diagnostico_diferencial_das_anemias_na_infancia",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "médio",
+        "unit": "IV"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/diagnostico_diferencial_das_anemias_na_infancia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "4d071b06b398671012dcf9eee43fb02050ca9c652790e3e81fdb7d4b3657e31b",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Diagnóstico diferencial das anemias na infância",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 15187,
+      "capsule_id": "capsule:eisca:diarreia_aguda_desidratacao_planos_reidratacao",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "4c5093585611fdf6bb2928154fddb5921404b0a6b4b8bebf39c3a12b2c0121ef",
+      "source_ids": [
+        "diarreia_e_DHE__35f8e57446"
+      ],
+      "source_resolution": "resolved",
+      "title": "Diarreia aguda, desidratação e terapia de reidratação (Planos A, B e C)",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 12748,
+      "capsule_id": "capsule:eisca:doenca_hemolitica_perinatal_rh_abo",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/doenca_hemolitica_perinatal_rh_abo.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "40eeb25f620f437be48b91b2694c0a45a2bfa77184ddb5b104670a0cfc9a0280",
+      "source_ids": [
+        "Icteri_cianeonatal2021_Joa_o_Medeiros__e4f2f5101b"
+      ],
+      "source_resolution": "resolved",
+      "title": "Doença hemolítica perinatal (incompatibilidade Rh e ABO)",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 14857,
+      "capsule_id": "capsule:eisca:doencas_exantematicas",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "IV"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/doencas_exantematicas.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "06178267575f41afdd657ab648aa63f61220f87d590de9a309ec8cfe56b0f972",
+      "source_ids": [
+        "DOENCAS_EXANTEMATICAS__9adcf74177"
+      ],
+      "source_resolution": "resolved",
+      "title": "Doenças exantemáticas",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 11826,
+      "capsule_id": "capsule:eisca:faringoamigdalite_estreptococica_escarlatina",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/faringoamigdalite_estreptococica_escarlatina.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "4d9b72c6e540a18980c8c7f047c1352fc6e80bcead6bf98c83f45eba051a9905",
+      "source_ids": [
+        "IVAS__c9c0ca127f"
+      ],
+      "source_resolution": "resolved",
+      "title": "Faringoamigdalite estreptocócica e escarlatina",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 12188,
+      "capsule_id": "capsule:eisca:febre_reumatica",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/febre_reumatica.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "4009bb157d19c2edf29c3aa5ceab791b139a65ecbcd413ee0892f2199e6ba445",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Febre reumática",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 13807,
+      "capsule_id": "capsule:eisca:hemoglobinopatias_talassemias_doenca_falciforme",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "IV"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/hemoglobinopatias_talassemias_doenca_falciforme.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "628d92c5024c3f6c53b9c7e358501af2460729adc4fab14025d6967d74c3df04",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Hemoglobinopatias (talassemias e doença falciforme)",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 10159,
+      "capsule_id": "capsule:eisca:humanizacao_em_uti_neonatal",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "baixa",
+        "review_status": "reviewed_l1",
+        "risk": "baixo",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "low",
+      "path": "capsules/EISCA/humanizacao_em_uti_neonatal.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "low",
+      "schema_version": "1.0.0",
+      "sha256": "b4fc31a1fedec862c2d14252308e19bf323b9fc34e75e2608d0b651df3458e19",
+      "source_ids": [
+        "HUMANIZAC_A_O_NA_UTI__0ffaa0c1aa"
+      ],
+      "source_resolution": "resolved",
+      "title": "Humanização em UTI neonatal",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 14106,
+      "capsule_id": "capsule:eisca:ictericia_neonatal_hiperbilirrubinemia_indireta",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/ictericia_neonatal_hiperbilirrubinemia_indireta.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "1415bda65cf5549bb5bfe5529e309d3013f38def8496583258fb33ac9024cd56",
+      "source_ids": [
+        "Icteri_cianeonatal2021_Joa_o_Medeiros__e4f2f5101b"
+      ],
+      "source_resolution": "resolved",
+      "title": "Icterícia neonatal e hiperbilirrubinemia indireta",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 5299,
+      "capsule_id": "capsule:eisca:imunizacoes_calendario_vacinal_imunizacao_ativa_e_passiva",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l2",
+        "risk": "alto",
+        "unit": "IV_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/imunizacoes_calendario_vacinal_imunizacao_ativa_e_passiva.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l2",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "0a9cf78fe77f7188ec926d2e449c6b9f5b07874e6319b3cd5dd2aa1633263801",
+      "source_ids": [
+        "Imunizac_a_o_ativa_e_Passiva_2021_Joa_o_Medeiros__830d00b9a4"
+      ],
+      "source_resolution": "resolved",
+      "title": "Imunizações — calendário PNI 2026 e princípios",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 22915,
+      "capsule_id": "capsule:eisca:infeccao_do_trato_urinario_na_infancia",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/infeccao_do_trato_urinario_na_infancia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "5bb0ba2f30710151c10ec3a314864840031cc4618fe403db4efc6bafa87e0532",
+      "source_ids": [
+        "ITU__aa10c88150"
+      ],
+      "source_resolution": "resolved",
+      "title": "Infecção do trato urinário na infância",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 13297,
+      "capsule_id": "capsule:eisca:interpretacao_hemograma_e_coagulacao",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "IV_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/interpretacao_hemograma_e_coagulacao.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "371a6740a7d855306d8230c31c2d1122a3398caf00dbe7638084384932ec5e7e",
+      "source_ids": [
+        "Interpretac_a_o_de_HMG_Tratado_de_ped_5_ed_2022__4dd5a3daa7"
+      ],
+      "source_resolution": "resolved",
+      "title": "Interpretação do Hemograma e das Provas de Coagulação",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 11377,
+      "capsule_id": "capsule:eisca:leucemias_agudas_na_infancia",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "IV"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/leucemias_agudas_na_infancia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "1b57628e5c997d8b4b2602020902b2723f63460f3fc51d67f537ba864cd965e2",
+      "source_ids": [
+        "Leucemia__ef884f25da"
+      ],
+      "source_resolution": "resolved",
+      "title": "Leucemias agudas na infância",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 20283,
+      "capsule_id": "capsule:eisca:meningites_na_crianca",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "IV_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/meningites_na_crianca.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "90fc1293fe64f30b62bd1187e754d0a6a96ca90e67a40dc5e19733242ad35eec",
+      "source_ids": [
+        "Meningites__8f71393752"
+      ],
+      "source_resolution": "resolved",
+      "title": "Meningites na criança",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 16328,
+      "capsule_id": "capsule:eisca:neuroblastoma",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "IV_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/neuroblastoma.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "fd69a3dda696c686bfc981b50c2483f34270a56dc0ac4bcc3347a1b7d78bb6f5",
+      "source_ids": [
+        "Neuroblastoma__97ea516ab3",
+        "Neuroblastoma__c984597fac"
+      ],
+      "source_resolution": "resolved",
+      "title": "Neuroblastoma",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 12111,
+      "capsule_id": "capsule:eisca:obesidade_na_infancia_e_adolescencia",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "médio",
+        "unit": "II"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/obesidade_na_infancia_e_adolescencia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "61313ab0201496e91a9700c416e9a3f30f10d0c770b93ac1cb5b4fdd2366b6cc",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Obesidade na infância e adolescência (exógena e endógena)",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 11573,
+      "capsule_id": "capsule:eisca:obstrucao_via_aerea_alta_crupe_epiglotite",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/obstrucao_via_aerea_alta_crupe_epiglotite.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "5124cb539a462359ab023b364ac81eea0ccc48c01cb407db93f1644e6d0c3ac8",
+      "source_ids": [
+        "IVAS__c9c0ca127f"
+      ],
+      "source_resolution": "resolved",
+      "title": "Obstrução de via aérea alta: laringite viral (crupe) versus epiglotite",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 15405,
+      "capsule_id": "capsule:eisca:osteossarcoma",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "baixa",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "low",
+      "path": "capsules/EISCA/osteossarcoma.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "31a922f4d9a8bf42ba7589e42230e91f5e682cde3ceaa3e23e71f7a7c9ccc3d5",
+      "source_ids": [
+        "1_Osteossarcoma__da1747531d",
+        "Osteossarcoma_pdf__9b8b531f7c",
+        "osteossarcoma__ad984b30b6"
+      ],
+      "source_resolution": "resolved",
+      "title": "Osteossarcoma",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 12352,
+      "capsule_id": "capsule:eisca:otite_media_aguda_e_rinossinusite_na_infancia",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/otite_media_aguda_e_rinossinusite_na_infancia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "ce7f12f396bf0810808ea928df4f32e7888d7b82dc3a091cfb8804117afe8df9",
+      "source_ids": [
+        "IVAS__c9c0ca127f"
+      ],
+      "source_resolution": "resolved",
+      "title": "Otite média aguda e rinossinusite na infância",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 12018,
+      "capsule_id": "capsule:eisca:parasitoses_intestinais",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "médio",
+        "unit": "III"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/parasitoses_intestinais.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "422d0ce596c4d1e46a93cab39c4083da2f4da7fdde1f5cfa7891fc83d8c171f1",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Parasitoses intestinais",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 11216,
+      "capsule_id": "capsule:eisca:pneumonia_adquirida_na_comunidade_na_infancia",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "IV"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "02524ec914bcabf3967a99a9abe301df5f9645b44530e8179d2ef2d36d6fd4e9",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Pneumonia adquirida na comunidade na infância",
+      "unit": "UNIT_4"
+    },
+    {
+      "bytes": 16077,
+      "capsule_id": "capsule:eisca:rinofaringite_aguda_resfriado_comum_e_gripe",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/rinofaringite_aguda_resfriado_comum_e_gripe.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "5bf55441fb8524fa48ec9f8f16a91bd804151765ae8056066bbfcde07c244cb8",
+      "source_ids": [
+        "IVAS__c9c0ca127f"
+      ],
+      "source_resolution": "resolved",
+      "title": "Rinofaringite aguda, resfriado comum e gripe (influenza, COVID-19)",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 19398,
+      "capsule_id": "capsule:eisca:saude_ocular_na_infancia",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/saude_ocular_na_infancia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "00cb833478b373370c251c21fc489e532f497089d8b6c25fbdec808029ed7bb0",
+      "source_ids": [
+        "Slide_Doen_a_Ocular_na_inf_ncia___e681e43aa9"
+      ],
+      "source_resolution": "resolved",
+      "title": "Saúde ocular na infância",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 20430,
+      "capsule_id": "capsule:eisca:semiologia_e_classificacao_do_recem_nascido",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/semiologia_e_classificacao_do_recem_nascido.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "74ecf3788229ec3adb70f5c63f17b72d7d626a304917b33e7f62a734ab1ef0da",
+      "source_ids": [
+        "Anotac_o_es_semiologia_do_RN__c853869a1c",
+        "Pediatria_SEMIOLOGIA_DO_RECEe_M__816c7efb84",
+        "Semiologia_do_RN_pdf__1c3f4c12c9",
+        "Semiologia_em_Neo_pdf__30250c5805"
+      ],
+      "source_resolution": "resolved",
+      "title": "Semiologia e classificação do recém-nascido",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 4425,
+      "capsule_id": "capsule:eisca:semiologia_pediatrica",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I_UNIDADE"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/semiologia_pediatrica.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "f7ef29cb013e47a0115a0ca58757bd77f54e0b333273c3d191ac0f72f5cd137d",
+      "source_ids": [
+        "Pediatria_SEMIOLOGIA_DO_RECEe_M__816c7efb84",
+        "semio_PED__c241597932"
+      ],
+      "source_resolution": "resolved",
+      "title": "Semiologia pediátrica",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 15084,
+      "capsule_id": "capsule:eisca:sepse_e_meningite_neonatal",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISCA/sepse_e_meningite_neonatal.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "833849837ae8df72838cbadb65b8272a1603c80fa1eb04da70c7e7870d6e9398",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Sepse neonatal e meningite neonatal",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 16307,
+      "capsule_id": "capsule:eisca:tumor_de_wilms",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISCA/tumor_de_wilms.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "5008287d7b9bfce043c75300773e45e6f86d9cdd8b36313db76272d9de4f1a96",
+      "source_ids": [
+        "Tumor_de_Wilms__96192b5d5a",
+        "Tumor_de_Wilms__bf002c7f4a",
+        "Tumor_de_Wilms_pdf__b59a97843e"
+      ],
+      "source_resolution": "resolved",
+      "title": "Tumor de Wilms (nefroblastoma)",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 21262,
+      "capsule_id": "capsule:eisca:tumores_do_sistema_nervoso_central_na_infancia",
+      "discipline": "EISCA",
+      "legacy_metadata": {
+        "discipline": "EISCA",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II_UNIDADE"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISCA/tumores_do_sistema_nervoso_central_na_infancia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "5e5f2766a6e24ccc9c2b7cf84c363526845444a1e5f362cac4c2ed97787f13e2",
+      "source_ids": [
+        "Tumores_SNC__bca562a8a2"
+      ],
+      "source_resolution": "resolved",
+      "title": "Tumores do sistema nervoso central na infância",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 11015,
+      "capsule_id": "capsule:eism:abstinencia_alcoolica_delirium_tremens_wernicke",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l2",
+        "risk": "alto",
+        "unit": "III"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l2",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "96267eb23d66c67ca4664715b8a8f5a228c3efde5432dad15ad187e34c3b0388",
+      "source_ids": [
+        "A_lcool_e_Outras_Drogas__ebaba69a52",
+        "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
+        "Psiquiatria_DEPENDE_NCIA_QUI_MICA__e854a68d79",
+        "Transtornos_por_abuso_de_substancias___136c015a4a",
+        "transtornos_por_uso_de_subst_ncias__554a1a793f"
+      ],
+      "source_resolution": "resolved",
+      "title": "Síndrome de Abstinência Alcoólica, Delirium Tremens e Encefalopatia de Wernicke-Korsakoff",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 10230,
+      "capsule_id": "capsule:eism:ansioliticos_e_hipnoticos",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/ansioliticos_e_hipnoticos.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "8b53b7259255fd0976a7bd05c189e51d656254b85123e92f771180b0d7cd98da",
+      "source_ids": [
+        "ANOTAC_O_ES_ansioli_ticos__c32028b863",
+        "FAMENE_FARMACOTERAPIA_DA_INSO_NIA_E_ANSIEDADE_2024_2__f4edb4a564",
+        "ansiol_ticos_e_hipn_ticos__03bc57e119"
+      ],
+      "source_resolution": "resolved",
+      "title": "Ansiolíticos e Hipnóticos (benzodiazepínicos, buspirona, compostos Z)",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 10981,
+      "capsule_id": "capsule:eism:antidepressivos",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/antidepressivos.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "a2d16bab319968b2e49cd9a9481e8e8cd7dca6a412fa3ba70e8f38299dcc6508",
+      "source_ids": [
+        "Antidepressivos_pdf__bdadd3d15a",
+        "Depressa_o_e_Antidepressivos_pdf__100d0878e0",
+        "Depressa_o_e_antidepressivos_I_unidade__68b07e464c",
+        "Depressa_o_e_antidepressivos_pdf__970fb9ba98",
+        "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
+        "P7_FAMENE_FARMACOTERAPIA_DA_DEPRESSA_O_2025_1__9a72b4fec2"
+      ],
+      "source_resolution": "resolved",
+      "title": "Antidepressivos (farmacologia: IMAO, ADT, ISRS, IRSN, moduladores 5-HT, IRND)",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 14517,
+      "capsule_id": "capsule:eism:antipsicoticos_sep_e_snm",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l2",
+        "risk": "alto",
+        "unit": "II"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/antipsicoticos_sep_e_snm.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l2",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "d079edca09af67d551f79acba87980e80d899b1dfc07c22376d952bffe1df560",
+      "source_ids": [
+        "Antipsico_ticos_II_unidade__bea4c8f456",
+        "Antipsico_ticos_Tabela__1d16c62d2d",
+        "Esquizofrenia_e_antipsic_ticos__4b3ccca107",
+        "FAMENE_FARMACOTERAPIA_DAS_PSICOSES_2025_1__e5e9511748"
+      ],
+      "source_resolution": "resolved",
+      "title": "Antipsicóticos, Sintomas Extrapiramidais e Síndrome Neuroléptica Maligna",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 9141,
+      "capsule_id": "capsule:eism:delirium",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/delirium.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "9032e66be09468c1bd5b87da1d8bb944208b534e14ebdfbfd0d2617b1889509b",
+      "source_ids": [
+        "Del_rium_e_dem_ncia_docx__14314da2e4",
+        "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
+        "Psiquiatria_TRANSTORNOS_MENTAIS_ORGA_NICOS_1___cafd7e9f74",
+        "Psiquiatria_TRANSTORNOS_MENTAIS_ORGA_NICOS__408a0a6c55",
+        "Transtornos_Org_nicos__65db2d2b7d"
+      ],
+      "source_resolution": "resolved",
+      "title": "Transtornos Mentais Orgânicos — Delirium",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 10306,
+      "capsule_id": "capsule:eism:depressao",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/depressao.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "4b6123ba2584c68f674b8c1ed96999c6ba9cd9f33bd4669e24cc5117bf76d9dc",
+      "source_ids": [
+        "DEPRESSA_O_1___3e2302e5ae",
+        "Depressa_o__b18d58c2a5",
+        "Depressa_o_e_Antidepressivos_pdf__100d0878e0",
+        "Depressa_o_e_antidepressivos_I_unidade__68b07e464c",
+        "Depressa_o_e_antidepressivos_pdf__970fb9ba98",
+        "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985"
+      ],
+      "source_resolution": "resolved",
+      "title": "Depressão (Transtorno Depressivo Maior / Depressão Unipolar)",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 6885,
+      "capsule_id": "capsule:eism:eletroconvulsoterapia_ect",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISM/eletroconvulsoterapia_ect.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "fb7a930657becb5cd09745bbc431c0573ff184fa8f66780ad5bee6e5e8a771c1",
+      "source_ids": [
+        "Depressa_o_e_antidepressivos_I_unidade__68b07e464c",
+        "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985"
+      ],
+      "source_resolution": "resolved",
+      "title": "Eletroconvulsoterapia (ECT)",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 8580,
+      "capsule_id": "capsule:eism:emergencias_psiquiatricas_e_agitacao_psicomotora",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/emergencias_psiquiatricas_e_agitacao_psicomotora.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "5547beda612ccaf36affcd711d42ffe9f6200952f1706dc1a51a8523a7087440",
+      "source_ids": [
+        "4_Emerge_ncias_Psiquia_tricas__705566fda7",
+        "Diretriz_Para_O_Manejo_Da_Agitac_a_o_Psicomotora__0b56263bde",
+        "Emerge_ncias_psiquia_tricas__ae601e5bab",
+        "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985"
+      ],
+      "source_resolution": "resolved",
+      "title": "Emergências Psiquiátricas e Manejo da Agitação Psicomotora",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 10709,
+      "capsule_id": "capsule:eism:esquizofrenia_e_transtornos_psicoticos",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "II"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/esquizofrenia_e_transtornos_psicoticos.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "020ab420bca6f01d08aa488c7de28348eeb456c70e191a401fc4e6d6a308e504",
+      "source_ids": [
+        "Esquizofrenia_II_unidade__41783f009c",
+        "Esquizofrenia__5d54b28c4d",
+        "Esquizofrenia_pdf__bc5e01ca56",
+        "Psiquiatria_ESQUIZOFRENIA_pdf__50f75805f1"
+      ],
+      "source_resolution": "resolved",
+      "title": "Esquizofrenia e Transtornos Psicóticos",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 10014,
+      "capsule_id": "capsule:eism:farmacoterapia_da_insonia",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "III"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISM/farmacoterapia_da_insonia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "eff6534d951ad97f8492df91b1d7b05f68838de9c9e0efa439e1576aef8f3c53",
+      "source_ids": [
+        "FAMENE_FARMACOTERAPIA_DA_INSO_NIA_E_ANSIEDADE_2024_2__f4edb4a564",
+        "Hipno_ticos_III_unidade__c1b545089c"
+      ],
+      "source_resolution": "resolved",
+      "title": "Farmacoterapia da insônia — hipnóticos, compostos Z e agentes melatoninérgicos",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 9401,
+      "capsule_id": "capsule:eism:psicopatologia",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/psicopatologia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "0ea1031e2e0a00e87b19d0611c58fb772275daff19ba88ccfcd929c1d929ffb1",
+      "source_ids": [
+        "Introduc_a_o_a_psquiatria__905c8170fe"
+      ],
+      "source_resolution": "resolved",
+      "title": "Introdução à Psiquiatria e Psicopatologia (funções psíquicas e suas alterações)",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 8133,
+      "capsule_id": "capsule:eism:psiquiatria_infancia_e_adolescencia",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISM/psiquiatria_infancia_e_adolescencia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "3d6e6bc5d3523d57807b6cf3053adb766bd0a9ecc94fb0ba6e20840da1313916",
+      "source_ids": [
+        "DEVOLUTIVA_I_SM_2015_2__5a5a6af2ac"
+      ],
+      "source_resolution": "resolved",
+      "title": "Psiquiatria da Infância e Adolescência (ansiedade de separação, transtornos do neurodesenvolvimento)",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 9041,
+      "capsule_id": "capsule:eism:risco_de_suicidio",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/risco_de_suicidio.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "3261c1ebc6c85c27773273a6f4c921716f07b690d518bbf6e74b5e4ba94e17f3",
+      "source_ids": [
+        "4_Emerge_ncias_Psiquia_tricas__705566fda7",
+        "Aula_1_2021_1_Transtorno_Bipolar__c902ef25a4",
+        "Diretriz_Para_O_Manejo_Da_Agitac_a_o_Psicomotora__0b56263bde",
+        "Emerge_ncias_psiquia_tricas__ae601e5bab",
+        "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985"
+      ],
+      "source_resolution": "resolved",
+      "title": "Risco de Suicídio e Comportamento Suicida",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 7056,
+      "capsule_id": "capsule:eism:sexualidade_humana_e_disfuncoes_sexuais",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "baixa",
+        "review_status": "reviewed_l1",
+        "risk": "baixo",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "low",
+      "path": "capsules/EISM/sexualidade_humana_e_disfuncoes_sexuais.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "low",
+      "schema_version": "1.0.0",
+      "sha256": "bc6345bb99d58f4d7a44dbd10f291a86667caa03dcb42495014903740618fc15",
+      "source_ids": [
+        "SM_Psiquiatria_SEXUALIDADE_HUMANA__1afb6498a4"
+      ],
+      "source_resolution": "resolved",
+      "title": "Sexualidade Humana e Disfunções Sexuais",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 9878,
+      "capsule_id": "capsule:eism:tdah",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/tdah.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "ea4caa80d13c0f3ec4ad152b8dae410bdfc63cdfb1397673ae1bdc928ebd7e89",
+      "source_ids": [
+        "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
+        "Transtorno_Deficit_de_Atenc_a_o__1792c773b9"
+      ],
+      "source_resolution": "resolved",
+      "title": "TDAH — Transtorno de Déficit de Atenção e Hiperatividade",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 10150,
+      "capsule_id": "capsule:eism:tept_e_tea",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "média",
+        "review_status": "reviewed_l1",
+        "risk": "médio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISM/tept_e_tea.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "bc4c0145bd0011c75948a69163e1f68dced0f4ab84c37fcd6d9a068745ab99d9",
+      "source_ids": [
+        "Antidepressivos_pdf__bdadd3d15a",
+        "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985"
+      ],
+      "source_resolution": "resolved",
+      "title": "TEPT e TEA (Transtorno de Estresse Pós-Traumático e Transtorno do Estresse Agudo)",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 9953,
+      "capsule_id": "capsule:eism:toc",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "média",
+        "review_status": "reviewed_l1",
+        "risk": "médio",
+        "unit": "III"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISM/toc.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "85b546dea6e7a6a0f502abc4cf31cc2e56d5a215ac5d4234ba307c58cbb77d8c",
+      "source_ids": [
+        "ANOTAC_O_ES_TOC__61f6501286",
+        "SLIDES_TOC__5705990d4c",
+        "Transtorno_Obsessivo_Compulsivo__696f85266c"
+      ],
+      "source_resolution": "resolved",
+      "title": "Transtorno Obsessivo-Compulsivo (TOC)",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 12459,
+      "capsule_id": "capsule:eism:transtorno_bipolar_e_estabilizadores_do_humor",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l2",
+        "risk": "alto",
+        "unit": "II"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/transtorno_bipolar_e_estabilizadores_do_humor.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l2",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "1e4fe1329b02c59369b651274ac14d6303f4d311a23720a6fba7a6d22dc93955",
+      "source_ids": [
+        "ANOTAC_O_ES_bipolaridade__a1c9d4465d",
+        "Aula_1_2021_1_Transtorno_Bipolar__c902ef25a4",
+        "Transtorno_bipolar__6d1cddef8b",
+        "Transtorno_bipolar_pdf__dc69aa8c73"
+      ],
+      "source_resolution": "resolved",
+      "title": "Transtorno Bipolar e Estabilizadores do Humor (lítio, valproato, carbamazepina, lamotrigina)",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 11927,
+      "capsule_id": "capsule:eism:transtornos_alimentares",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/transtornos_alimentares.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "40ae0fe0b59490323d159bb15bc4e788641a2032eddfcf821462abeb233125d7",
+      "source_ids": [
+        "9_Transtornos_alimentares__cd91c009ec",
+        "SM_Psiquiatria_TRANSTORNOS_ALIMENTARES__033d08ff0c",
+        "Transtornos_Alimentares__f20cd7390a",
+        "Transtornos_alimentares_III_unidade__3fc0ee59f0"
+      ],
+      "source_resolution": "resolved",
+      "title": "Transtornos Alimentares (anorexia nervosa, bulimia nervosa, TCAP)",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 10011,
+      "capsule_id": "capsule:eism:transtornos_de_ansiedade",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "médio",
+        "unit": "II"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/transtornos_de_ansiedade.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "89db0ca0c556d2f82ffffb67b55664ad770cd9a53b0f407e2aeef88c9a9ec5e7",
+      "source_ids": [
+        "Ansiedade__886bbbe8f5",
+        "Transtorno_de_Ansiedade_e_de_P_nico__58a2231d19",
+        "Transtorno_de_ansiedade_II_unidade__d822ab75a3",
+        "Transtorno_de_ansiedade_docx__39af1dd7f3"
+      ],
+      "source_resolution": "resolved",
+      "title": "Transtornos de Ansiedade (TAG, Transtorno de Pânico, fobias, agorafobia)",
+      "unit": "UNIT_2"
+    },
+    {
+      "bytes": 10372,
+      "capsule_id": "capsule:eism:transtornos_de_personalidade",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "media",
+        "review_status": "reviewed_l1",
+        "risk": "medio",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "medium",
+      "path": "capsules/EISM/transtornos_de_personalidade.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "medium",
+      "schema_version": "1.0.0",
+      "sha256": "05352676f2de39189463eb08af3ebf789bbcc59a826cdfc3d9b47b03349aba2c",
+      "source_ids": [
+        "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
+        "TP__e87eacc7da",
+        "Transtorno_de_personalidade_docx__4a8370a909"
+      ],
+      "source_resolution": "resolved",
+      "title": "Transtornos de Personalidade",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 7913,
+      "capsule_id": "capsule:eism:transtornos_dissociativos",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "baixa",
+        "review_status": "reviewed_l1",
+        "risk": "baixo",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "low",
+      "path": "capsules/EISM/transtornos_dissociativos.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "low",
+      "schema_version": "1.0.0",
+      "sha256": "86e12da778ad56904f814cb7a5bf91b1275a3ec4e5606b0d9b16e84a27e990ea",
+      "source_ids": [
+        "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985"
+      ],
+      "source_resolution": "resolved",
+      "title": "Transtornos Dissociativos",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 10729,
+      "capsule_id": "capsule:eism:transtornos_mentais_na_gravidez_e_puerperio",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "I"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/transtornos_mentais_na_gravidez_e_puerperio.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "b88193a5a93a5a597c0594f2fad6243dc62869e5b1928b923375dc84f9f5579d",
+      "source_ids": [
+        "2_Transtornos_Mentais_na_Gravidez_e_No_Puerpe_rio__0efe14a107",
+        "Transtornos_mentais_e_comportamentais_relacionados_ao_puerpe__d60fdbc256"
+      ],
+      "source_resolution": "resolved",
+      "title": "Transtornos Mentais na Gravidez e no Puerpério",
+      "unit": "UNIT_1"
+    },
+    {
+      "bytes": 9517,
+      "capsule_id": "capsule:eism:transtornos_por_uso_de_substancias",
+      "discipline": "EISM",
+      "legacy_metadata": {
+        "discipline": "EISM",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "III"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/EISM/transtornos_por_uso_de_substancias.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "7be03631aae17877fa6ae03615f9a623907b9ffcda23137134087cf1f14e7f93",
+      "source_ids": [
+        "A_lcool_e_Outras_Drogas__ebaba69a52",
+        "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
+        "Psiquiatria_DEPENDE_NCIA_QUI_MICA__e854a68d79",
+        "Transtornos_por_abuso_de_substancias___136c015a4a",
+        "transtornos_por_uso_de_subst_ncias__554a1a793f"
+      ],
+      "source_resolution": "resolved",
+      "title": "Transtornos por Uso de Substâncias (álcool e outras drogas)",
+      "unit": "UNIT_3"
+    },
+    {
+      "bytes": 12724,
+      "capsule_id": "capsule:osce:formato_roteiro_osce_p7",
+      "discipline": "OSCE",
+      "legacy_metadata": {
+        "discipline": "OSCE",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "baixo",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/OSCE/formato_roteiro_osce_p7.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "low",
+      "schema_version": "1.0.0",
+      "sha256": "9f2f23acbf5f428cd977d0ae4edfa297630af64db8b1b819afb8bfb6661a163e",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Formato e roteiro geral da estação OSCE do P7",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 14077,
+      "capsule_id": "capsule:osce:osce_banco_de_estacoes",
+      "discipline": "OSCE",
+      "legacy_metadata": {
+        "discipline": "OSCE",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/OSCE/osce_banco_de_estacoes.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "5088d347cb43b02f6fa42fe492654d2027a8eec3bc8351275b8880427402de0d",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "Banco de estações OSCE modeladas com comandos e gabarito",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 15351,
+      "capsule_id": "capsule:osce:osce_endocrinologia",
+      "discipline": "OSCE",
+      "legacy_metadata": {
+        "discipline": "OSCE",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/OSCE/osce_endocrinologia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "17522b58c2f5bd302843e73420f801d8e8abf974d4e4c195d0de12af7960ef49",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "OSCE Endocrinologia — diabetes, tireoidopatias, Cushing e hiperfunção hipofisária",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 15513,
+      "capsule_id": "capsule:osce:osce_nefrologia",
+      "discipline": "OSCE",
+      "legacy_metadata": {
+        "discipline": "OSCE",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/OSCE/osce_nefrologia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "133f8fe4100d8bfd0e4f75064f8370d223af22cd269b64841a81c58df51f7793",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "OSCE Nefrologia — síndromes glomerulares, glomerulopatias, DRC e injúria renal aguda",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 22770,
+      "capsule_id": "capsule:osce:osce_neurologia",
+      "discipline": "OSCE",
+      "legacy_metadata": {
+        "discipline": "OSCE",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/OSCE/osce_neurologia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "0350632b46297f1d94b26640ef7a59524d958b203998aa14ee6f95ef1c73c30f",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "OSCE Neurologia — AVC isquêmico, AVC hemorrágico, AIT, coma e TCE",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 22121,
+      "capsule_id": "capsule:osce:osce_pediatria",
+      "discipline": "OSCE",
+      "legacy_metadata": {
+        "discipline": "OSCE",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/OSCE/osce_pediatria.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "5df78eb7f66c8c44bb669edbbbc79d84452e1de1cd2a92a2ce40ad1017f45287",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "OSCE Pediatria — pneumonia, asma, diarreia com desidratação, aleitamento materno e assistência ao recém-nascido",
+      "unit": "UNASSIGNED"
+    },
+    {
+      "bytes": 23957,
+      "capsule_id": "capsule:osce:osce_urologia",
+      "discipline": "OSCE",
+      "legacy_metadata": {
+        "discipline": "OSCE",
+        "priority": "alta",
+        "review_status": "reviewed_l1",
+        "risk": "alto",
+        "unit": "A_DEFINIR"
+      },
+      "legacy_priority_normalized": "high",
+      "path": "capsules/OSCE/osce_urologia.md",
+      "priority": "unscored",
+      "review_status": "reviewed_l1",
+      "risk": "high",
+      "schema_version": "1.0.0",
+      "sha256": "5be91348e079187f2a938546161b779a44dc10eaf00ac34479462d568411d419",
+      "source_ids": [],
+      "source_resolution": "metadata_only",
+      "title": "OSCE Urologia — litíase, hiperplasia prostática benigna, câncer de próstata, câncer renal e trauma urogenital",
+      "unit": "UNASSIGNED"
+    }
+  ],
+  "schema_version": "1.0.0"
+}

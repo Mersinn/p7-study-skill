@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "topic_aliases": [
+    {
+      "alias_id": "topic:semiologia_pediatrica",
+      "aliases": ["semiologia pediátrica", "semiologia pediatrica"],
+      "coverage": "complete",
+      "target_capsule_ids": [
+        "capsule:eisca:semiologia_pediatrica"
+      ],
+      "note": "Cápsula autônoma recuperada na RC; tabelas numéricas não validadas permanecem em quarentena explícita."
+    },
+    {
+      "alias_id": "topic:aleitamento_materno",
+      "aliases": ["aleitamento materno", "amamentação"],
+      "coverage": "complete",
+      "target_capsule_ids": ["capsule:eisca:aleitamento_materno"],
+      "note": "Cápsula autônoma recuperada na RC; listas de fármacos pendentes não são promovidas a prática atual."
+    }
+  ]
+}

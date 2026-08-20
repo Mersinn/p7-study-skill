@@ -43,7 +43,9 @@ Este tema não é um assunto clínico — é o **formato do dia da prova**: vár
 - **Comando 1:** o aspecto do líquido meconial muda a conduta inicial?
 - **Comando 2:** qual a conduta imediata?
 - **Comando 3:** quando o APGAR deve ser calculado?
-- **Gabarito/checklist:** (1) não — a fonte é explícita que o aspecto do líquido não importa na decisão inicial, só as 3 perguntas (IG>34sem? respira/chora? bom tônus?) importam; (2) contato pele a pele com a mãe + clampeamento tardio do cordão + incentivo à amamentação na 1ª hora; (3) no 1º e no 5º minuto de vida (repetir a cada 5min se <7 no 5º) — **nunca** antes da decisão inicial, pois demora a calcular. *Fonte dos dados: `osce_pediatria.md`, tabelas "Reanimação neonatal — 3 perguntas iniciais" e "APGAR" (`FACILITA OSCE (1).pdf`, p.49).*
+- **Gabarito sintético de treino:** (1) IG seleciona o algoritmo; vitalidade usa
+  respiração/choro + tônus; (2) se boa vitalidade, rotina/pele a pele e clampeamento
+  oportuno; (3) APGAR no 1º/5º minuto não decide nem atrasa VPP. *Overlay SBP 2026.*
 
 ### Estação 4 — Pediatria: crise asmática, sequenciamento de conduta
 
@@ -51,7 +53,10 @@ Este tema não é um assunto clínico — é o **formato do dia da prova**: vár
 - **Comando 1:** qual a 1ª linha de tratamento farmacológico?
 - **Comando 2:** se não houver resposta adequada na 1ª hora, qual o próximo passo?
 - **Comando 3:** este paciente tem indicação de antibiótico de rotina?
-- **Gabarito/checklist:** (1) broncodilatador (beta-2 de curta ação, salbutamol/fenoterol) + anticolinérgico (brometo de ipratrópio), nebulização a cada 20min por até 1h; (2) corticoide sistêmico (prednisona VO ou metilprednisolona EV) — **não** pular direto para ele sem antes ter tentado o broncodilatador; SatO2 92% (<94%) mas consciente → considerar VNI, não IOT direta; (3) não — 80% das exacerbações são virais; antibiótico só com forte suspeita bacteriana (febre, escarro purulento, consolidação radiográfica). *Fonte dos dados: `osce_pediatria.md`, tabela "Crise asmática — manejo (mnemônico B-C-D)" (`OSCE - PEDIATRIA.pdf` / `FACILITA OSCE (1).pdf`, p.53).*
+- **Gabarito sintético de treino:** (1) SABA + O2 titulado + corticoide sistêmico
+  precoce; adicionar ipratrópio pela gravidade; (2) SpO2 92% exige tratamento e
+  reavaliação, não VNI automática; (3) antibiótico não é rotina sem evidência
+  bacteriana. *Overlay GINA 2026, crianças 6–11 anos.*
 
 ### Estação 5 — Urologia: trauma abdominal com suspeita de lesão renal
 

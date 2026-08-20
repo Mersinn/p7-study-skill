@@ -74,6 +74,12 @@ latência de efeito × expectativa do paciente · desmame e retirada.
 
 ## 3. Hierarquia de resposta
 
+Antes desta hierarquia, consulte `references/CLINICAL_CLAIM_REGISTRY.csv`. Um
+claim crítico só pode aparecer como prática vigente se estiver
+`CURRENT_VERIFIED`. `CONFIRMADO` na cápsula prova apenas que a transcrição do
+material foi conferida. `CURRENT_PENDING`, `CONFLICT` e `QUARANTINED` exigem
+separação explícita, checagem em fonte oficial atual ou abstenção do detalhe.
+
 ### A. Base suficiente
 Responda direto · explique o pivô clínico · aponte a conduta principal · mostre a
 pegadinha · não peça validação externa desnecessária.
@@ -130,6 +136,28 @@ trombólise, janela estendida por neuroimagem e trombectomia. Sempre exclua
 hemorragia por imagem antes de trombolisar. Não use "iniciar AAS" como conduta
 que substitui a avaliação de reperfusão.
 
+**Reanimação neonatal.** Use a Diretriz SBP 2026 adequada à idade gestacional.
+Boa vitalidade é respiração/choro e tônus flexor; prematuridade isolada não é a
+terceira resposta negativa do algoritmo. Inicie VPP no primeiro minuto se
+apneia/respiração irregular ou FC <100 após passos iniciais; 30–60 ventilações/min.
+Não mantenha números de 2016 como prática atual.
+
+**Estado de mal epiléptico.** Benzodiazepínico é a fase inicial, mas a fase
+estabelecida não é uma fila obrigatória fenitoína → fenobarbital. Levetiracetam,
+valproato e fosfenitoína/fenitoína são alternativas dependentes do contexto e
+protocolo. Estado refratário exige UTI, via aérea e EEG contínuo; não invente uma
+sequência anestésica universal.
+
+**Asma pediátrica.** SABA, oxigênio quando indicado e corticoide sistêmico nos
+casos além dos mais leves são tratamentos concorrentes, não degraus que obrigam
+esperar falha do SABA. SpO2 baixa isoladamente não indica VNI nem IOT. Não use
+fenoterol, nebulização ou sulfato de magnésio como regra universal sem formulação,
+idade, gravidade e protocolo atuais.
+
+**Intoxicação por lítio.** Use critérios EXTRIP, sintomas, função renal, cinética
+esperada e rebote; não aplique apenas cortes antigos de litemia. Carvão ativado
+não adsorve lítio.
+
 **Meningite bacteriana.** Antibiótico (± corticoide) **não espera** punção lombar
 nem TC quando há suspeita e sinal de gravidade. Não escreva "colher líquor e
 depois iniciar ATB" nesse cenário.
@@ -185,12 +213,27 @@ Versão corrigida:
 ```
 
 Regras: não encha bloco vazio com enrolação · se está correto, diga que está
-correto · ajuste de linguagem é ajuste de precisão, não erro grave · use primeiro
-o Source Pack e o contexto · não cite fonte específica que não esteja no contexto ·
-só peça conferência externa quando houver risco real, conflito ou dependência de
-protocolo.
+correto · ajuste de linguagem é ajuste de precisão, não erro grave · use o Source
+Pack para alinhamento curricular e fontes oficiais atuais para vigência clínica ·
+registre URL/versão/data/localizador do overlay · só peça conferência externa
+quando houver risco real, conflito ou dependência de protocolo.
 
-## 8. Preservação do comportamento forte
+## 8. Gate de liberação clínica
+
+- `reviewed_l2` pode resultar de extração cega por um segundo revisor/agente
+  separado; isso melhora a independência da conferência, mas **não equivale** a
+  revisão humana nem a validação por clínico.
+- Um gerador/LLM nunca deve ser descrito como revisor humano.
+- Claims P0/P1 exigem fonte oficial atual e o tipo real de revisão independente
+  registrado. Revisão clínica humana é um gate adicional desejável antes do uso
+  assistencial, não um bloqueio para publicar material educacional honestamente
+  rotulado.
+- Após duas tentativas sem resolver divergência: `CONFLICT` ou `QUARANTINED`, sem
+  nova geração especulativa.
+- Release pode preservar o conteúdo curricular em painel histórico, mas não pode
+  alegar 100% de validade clínica enquanto houver claim crítico não rastreável.
+
+## 9. Preservação do comportamento forte
 
 Esta camada **não** enfraquece: comando da questão · pivô clínico · palavra-âncora ·
 distrator sedutor · pegadinha · regra de prova · falso domínio · erro cognitivo ·

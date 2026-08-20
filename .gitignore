@@ -15,3 +15,7 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+# Estado privado longitudinal do aluno e temporários dos validadores
+.p7-state/
+artifacts/*.tmp

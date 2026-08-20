@@ -100,7 +100,9 @@ Regras de leitura do resultado:
 - repetiu o movimento em tema onde sabia o conteúdo → **A fortalece**;
 - errou por não saber o conteúdo da segunda → **indeterminado**, o teste falhou
   (item mal escolhido, não conclusão sobre o aluno);
-- uma rodada não confirma padrão. Padrão exige **3 ocorrências independentes**.
+- uma rodada não confirma padrão. `confirmed` exige pelo menos duas evidências
+  independentes em contextos distintos, sendo ao menos uma transferência válida;
+  mantenha `candidate` enquanto isso não existir.
 
 ## 4. O que muda no registro
 
@@ -113,22 +115,25 @@ Isso é o esqueleto de um modelo do aprendiz de verdade: ele separa **evento
 observado** de **hipótese cognitiva** de **padrão confirmado** de **histórico de
 intervenção e resultado**.
 
-## 5. O snapshot de sessão
+## 5. Registro longitudinal
 
-Ao final de uma sessão com contraprova, ofereça gerar:
+Ao final, só ofereça persistir se houver ledger realmente gravável. Crie um novo
+`learner_event` ligado à tentativa anterior e atualize/complete o mesmo
+`review_task_id` quando a contraprova pertence àquela revisão. Registre:
 
+```text
+tentativa → hipótese candidate → intervenção → transferência →
+resultado (strengthened | weakened | abandoned | indeterminate) → próximo vencimento
 ```
-capsules/_deltas/DIAGNOSTIC_SNAPSHOT_<AAAA-MM-DD>.md
-```
 
-com as hipóteses abertas, as fortalecidas, as refutadas e as intervenções que já
-falharam. A sessão seguinte lê esse arquivo e continua de onde parou, em vez de
-rediagnosticar do zero.
+Sem ledger acessível, diga que o resultado vale apenas na conversa atual. Não crie
+snapshot solto nem prometa que a sessão seguinte o encontrará automaticamente.
 
 ## 6. Limites — não invente capacidade
 
-- **Não há banco, não há motor de confiança, não há persistência automática.** A
-  confiança é política ordinal seguida pelo modelo, não cálculo determinístico.
+- **Não há persistência automática.** A confiança diagnóstica é ordinal. A
+  calibração do aluno é outro dado e só recebe Brier/viés com `n >= 10`, conforme
+  `LEARNER_STATE_PROTOCOL.md`.
 - Contraprova sintética **não** prova aprendizagem. O piloto 1C-A com 40 agentes
   simulados foi declarado `PILOT_SYNTHETIC_DESIGN_INCONCLUSIVE`, e nenhum dado
   sintético entra em prioridade ou recorrência.
@@ -145,4 +150,5 @@ rediagnosticar do zero.
 - item real com a mesma operação → `00_MAPA_OPERACAO_MOVIMENTO.md`
 - intervenção por movimento → `ERROR_NOTEBOOK_REVIEW_QUEUE.md` §3
 - geração da questão de transferência → `SIMULATION_PROTOCOL.md`
+- persistência, confiança e estados da hipótese → `LEARNER_STATE_PROTOCOL.md`
 - hesitação captada em aula → `AULA_VIVA.md` (lente pessoal)

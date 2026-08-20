@@ -8,6 +8,11 @@
 - Prioridade: alta
 - Risco clínico: alto
 - Status: reviewed_l1
+- Transcription: confirmed
+- Curricular alignment: confirmed
+- Clinical validity: pending (claims de psicofármacos/lactação quarantined até revisão individual)
+- Independent review: reviewed_l1
+- Reviewer ID: `agent:clinica_reparos:2026-08-20`
 - Camada de fonte usada: A+B (slide do Prof. José Kenio confirma, quase linha a linha, a apostila nativa)
 - fonte_visual: sim (`2_Transtornos_Mentais_na_Gravidez_e_No_Puerpe_rio__0efe14a107` pp. 1–2, 8, 12, 14–16, 18)
 - Fontes usadas: Transtornos_mentais_e_comportamentais_relacionados_ao_puerpe__d60fdbc256; 2_Transtornos_Mentais_na_Gravidez_e_No_Puerpe_rio__0efe14a107 (slides do Prof. José Kenio)
@@ -51,7 +56,7 @@ lactação
 |---|---|---|---|---|---|
 | diferenciar próximos | tempo pós-parto + prejuízo funcional (blues até 2 sem / DPP crítico até 12 sem / psicose até 3 sem) | limiar | operacional | pivô perdido | 3 vinhetas variando só o dia pós-parto, forçando classificar antes de escolher conduta |
 | priorizar emergência | velocidade de instalação + sintomas psicóticos (pródromo em dias, pico 48-72h) | sinal-achado | operacional | definitiva antes da inicial | checklist: há sintoma psicótico/pródromo rápido? se sim, tratar como emergência antes de qualquer outra decisão |
-| reconhecer contraindicação | lactante em uso de lítio sem possibilidade de troca | contraindicação | factual | valor errado | card da regra invertida (suspender amamentação, manter lítio) + 2 casos-espelho |
+| reconhecer risco | lactante em psicofármaco exige avaliação fármaco/dose/RN e decisão compartilhada | contraindicação | misto | aplicar regra absoluta | consulta a fonte específica por fármaco |
 | diferenciar próximos | pistas de bipolaridade (pensamento acelerado, sintomas psicóticos, início puerperal) antes de fechar DPP unipolar | sinal-achado | operacional | narrativa acima do discriminador | antes de tratar como DPP, nomear se há pista de mania/hipomania no enunciado |
 
 ## Dados de precisão
@@ -70,21 +75,17 @@ lactação
 | Psicose puerperal — janela de instalação | primeiras 3 semanas pós-parto, em geral entre 48–72h | Karen p.5; slide p.14 | CONFIRMADO (A+B) |
 | Psicose puerperal — taxa de infanticídio se não tratada | ~4% | Karen p.5; slide p.15 | CONFIRMADO (A+B) |
 | Psicose puerperal maniforme → evolução para TAB | 50% | Karen p.5; slide p.15 | CONFIRMADO (A+B) |
-| Olanzapina / Quetiapina — dose segura na lactação | até 20 mg/dia / até 400 mg/dia | Karen p.6 | CONFIRMADO — camada B, não visto em close no slide |
-| Risperidona — dose e posição na lactação | até 6 mg/dia, 2ª linha | Karen p.6 | CONFIRMADO — camada B |
+| Olanzapina/quetiapina/risperidona — doses na lactação | valores constam no resumo, sem overlay farmacológico atual | Karen p.6 | QUARANTINED — não usar em prescrição |
+| Lítio e aleitamento | regra absoluta de suspender aleitamento consta no material | slide/resumo | QUARANTINED — decisão individual especializada |
 
 ## Pegadinhas
 
 - Sintomas de humor no 4º–5º dia pós-parto NÃO são automaticamente blues — só se forem leves,
   autolimitados e sem prejuízo funcional; persistência >2 semanas reclassifica para investigação
   de depressão maior.
-- Fluoxetina é segura na gestação mas deve ser evitada na lactação (metabólito ativo, meia-vida
-  longa, acúmulo no bebê); paroxetina é o oposto (insegura na gestação, mais segura na lactação);
-  sertralina é segura nas duas fases — não trocar essas três.
-- Todo antidepressivo é excretado no leite e NENHUM é formalmente contraindicado na amamentação —
-  a escolha é por perfil de segurança relativo, não por "pode/não pode".
-- Se a mãe usa lítio e não pode trocar de medicação, a orientação é suspender a amamentação (não
-  suspender o lítio) — perigoso inverter essa lógica numa prova.
+- As regras de “seguro/inseguro” do slide para antidepressivos e lítio são
+  `HISTORICAL_ONLY/QUARANTINED`. Compatibilidade depende de fármaco, dose, idade/
+  prematuridade do bebê, monitorização e risco de suspender tratamento ou leite.
 
 ## Distratores sedutores
 
@@ -107,9 +108,9 @@ lactação
   mas mantém a medicação se já engravidou).
 - Diferencial perigoso: depressão pós-parto tratada como unipolar quando na verdade é a 1ª
   manifestação de TAB → virada maníaca com antidepressivo isolado.
-- O que mudaria a decisão: história prévia/familiar de TAB muda a vigilância; pensamento
-  acelerado e sintomas psicóticos mudam a suspeita diagnóstica para TAB; uso de lítio na lactante
-  muda a conduta para suspender a amamentação, não a medicação.
+- O que mudaria a decisão: história prévia/familiar de TAB, sintomas psicóticos,
+  fármaco/dose, função renal do bebê, prematuridade e possibilidade de monitorização.
+  Lítio não autoriza uma regra automática de suspender leite ou medicação.
 
 ## Mini-casos ativos
 
@@ -127,8 +128,8 @@ lactação
 | Blues × DPP × psicose puerperal — tempo | Blues: dias, até 2 sem. DPP: 6 sem. (crítico até 12 sem.). Psicose: até 3 sem. (pico 48-72h) | discriminador |
 | Por que investigar mania/hipomania em toda DPP | Risco 7x maior de 1º episódio de TAB ocorrer no puerpério | risco |
 | Taxa de infanticídio na psicose puerperal não tratada | ~4% | dado numérico |
-| ISRS mais seguro na gestação E lactação | Sertralina | conduta |
-| Mãe em uso de lítio que amamenta | Suspender a amamentação, manter o lítio | conduta |
+| Psicofármaco na lactação | consultar fonte específica; não usar lista de classe | guardrail |
+| Lítio e aleitamento | decisão individual especializada; regra antiga quarantined | risco |
 
 ## Revisão
 
@@ -136,4 +137,11 @@ lactação
   temas se cobram juntos.
 - Critério de parada: quando conseguir preencher de cabeça a tabela tempo×gravidade dos 3
   quadros puerperais e justificar por que sertralina é a 1ª escolha nas duas fases (gestação e
-  lactação).
+  lactação), sem aplicar os esquemas farmacológicos antigos desta cápsula.
+
+## Para a prova/material histórico
+
+O material ensina sertralina como escolha ampla e “suspender amamentação, manter
+lítio”. Isso está curricularmente conferido, mas não foi validado como conduta
+atual e fica excluído do aconselhamento real. Consultar a cápsula
+`aleitamento_materno.md` e fonte farmacológica específica.

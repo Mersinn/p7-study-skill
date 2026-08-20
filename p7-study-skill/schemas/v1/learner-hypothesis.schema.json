@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://p7-study.local/schemas/v1/learner-hypothesis.schema.json",
+  "title": "LearnerHypothesis",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "hypothesis_id", "learner_id", "movement", "status", "evidence_event_ids", "independent_context_count", "valid_transfer_count", "updated_at"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "hypothesis_id": {"type": "string", "pattern": "^hypothesis:[a-z0-9._:-]+$"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "movement": {"type": "string", "minLength": 1},
+    "status": {"enum": ["candidate", "confirmed", "weakened", "abandoned", "indeterminate"]},
+    "evidence_event_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "independent_context_count": {"type": "integer", "minimum": 0},
+    "valid_transfer_count": {"type": "integer", "minimum": 0},
+    "updated_at": {"type": "string", "format": "date-time"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"status": {"const": "confirmed"}}},
+      "then": {
+        "properties": {
+          "evidence_event_ids": {"minItems": 2},
+          "independent_context_count": {"minimum": 2},
+          "valid_transfer_count": {"minimum": 1}
+        }
+      }
+    }
+  ]
+}

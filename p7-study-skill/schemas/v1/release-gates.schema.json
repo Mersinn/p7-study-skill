@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://p7-study.local/schemas/v1/release-gates.schema.json",
+  "title": "Release gates",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "release", "decision", "gates"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "release": {"type": "string"},
+    "decision": {"enum": ["HOLD", "GO"]},
+    "gates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["gate_id", "status", "evidence"],
+        "properties": {
+          "gate_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+          "status": {"enum": ["pending", "failed", "passed"]},
+          "evidence": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "notes": {"type": "string"}
+        },
+        "allOf": [
+          {
+            "if": {"properties": {"status": {"const": "passed"}}},
+            "then": {"properties": {"evidence": {"minItems": 1}}}
+          }
+        ]
+      }
+    }
+  }
+}

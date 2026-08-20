@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://p7-study.local/schemas/v1/clinical-claim.schema.json",
+  "title": "ClinicalClaim",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "claim_id", "capsule_id", "statement", "claim_type", "criticality", "population", "curricular_context", "evidence", "states", "reviewer_id"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "claim_id": {"type": "string", "pattern": "^claim:[a-z0-9._:-]+$"},
+    "capsule_id": {"type": "string", "pattern": "^capsule:[a-z0-9_]+:[a-z0-9_]+$"},
+    "statement": {"type": "string", "minLength": 1},
+    "claim_type": {"enum": ["dose", "concentration", "threshold", "time_window", "contraindication", "emergency", "treatment_sequence", "guideline_dependent", "other"]},
+    "criticality": {"enum": ["high", "medium", "low"]},
+    "population": {"type": "string", "minLength": 1},
+    "curricular_context": {"type": "string", "minLength": 1},
+    "evidence": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/locator"}, "uniqueItems": true},
+    "states": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["transcription", "curricular_alignment", "clinical_validity", "self_review_l1", "independent_review"],
+      "properties": {
+        "transcription": {"enum": ["pending", "confirmed", "conflict", "quarantined"]},
+        "curricular_alignment": {"enum": ["pending", "confirmed", "conflict", "quarantined"]},
+        "clinical_validity": {"enum": ["pending", "current", "historical_only", "conflict", "quarantined"]},
+        "self_review_l1": {"enum": ["pending", "completed"]},
+        "independent_review": {"enum": ["not_reviewed", "reviewed_l2"]}
+      }
+    },
+    "reviewer_id": {"type": ["string", "null"], "minLength": 1},
+    "reviewed_at": {"type": ["string", "null"], "format": "date-time"},
+    "notes": {"type": "string"}
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "states": {
+            "properties": {"independent_review": {"const": "reviewed_l2"}},
+            "required": ["independent_review"]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "reviewer_id": {"type": "string", "minLength": 1},
+          "reviewed_at": {"type": "string", "format": "date-time"}
+        }
+      }
+    }
+  ]
+}

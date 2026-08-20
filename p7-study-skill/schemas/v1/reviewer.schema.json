@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://p7-study.local/schemas/v1/reviewer.schema.json",
+  "title": "Reviewer",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "reviewer_id", "role", "provider", "model", "exact_serving_version", "human_review"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "reviewer_id": {"type": "string", "pattern": "^(agent|human):[a-z0-9._:-]+$"},
+    "role": {"enum": ["generator", "self_reviewer_l1", "independent_reviewer_l2", "human_clinical_reviewer"]},
+    "provider": {"type": "string", "minLength": 1},
+    "model": {"type": "string", "minLength": 1},
+    "exact_serving_version": {"type": ["string", "null"]},
+    "human_review": {"type": "boolean"},
+    "notes": {"type": "string"}
+  }
+}

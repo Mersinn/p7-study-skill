@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://p7-study.local/schemas/v1/source-version.schema.json",
+  "title": "SourceVersion",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "source_version_id", "source_id", "version_label", "published_or_effective_at", "url", "local_reference", "ingested_sha256", "availability"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "source_version_id": {"type": "string", "pattern": "^source-version:[a-z0-9._:-]+$"},
+    "source_id": {"type": "string", "pattern": "^source:[a-z0-9._:-]+$"},
+    "version_label": {"type": "string", "minLength": 1},
+    "published_or_effective_at": {"type": ["string", "null"], "format": "date"},
+    "accessed_at": {"type": ["string", "null"], "format": "date"},
+    "url": {"type": ["string", "null"], "format": "uri"},
+    "local_reference": {"type": ["string", "null"]},
+    "ingested_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+    "availability": {"enum": ["bundled", "local_only", "metadata_only", "unavailable"]},
+    "supersedes": {"type": ["string", "null"]},
+    "notes": {"type": "string"}
+  }
+}

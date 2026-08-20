@@ -1,0 +1,18 @@
+{
+  "formula_version": "study-priority-v1",
+  "formula": "3*exam_recurrence + 3*clinical_risk + 2*curriculum_imminence + 2*learner_gap + transfer_value",
+  "inputs": {
+    "exam_recurrence": {"min": 0, "max": 3, "weight": 3},
+    "clinical_risk": {"min": 0, "max": 3, "weight": 3},
+    "curriculum_imminence": {"min": 0, "max": 2, "weight": 2},
+    "learner_gap": {"min": 0, "max": 2, "weight": 2},
+    "transfer_value": {"min": 0, "max": 2, "weight": 1}
+  },
+  "thresholds": {
+    "high": {"min": 18, "max": 28},
+    "medium": {"min": 10, "max": 17},
+    "low": {"min": 0, "max": 9}
+  },
+  "missing_input_behavior": "unscored",
+  "legacy_label_behavior": "preserve_for_audit_but_do_not_use_as_calculated_priority"
+}

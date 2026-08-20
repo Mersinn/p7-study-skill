@@ -4,23 +4,31 @@
 
 Toda questão médica é um caso clínico comprimido.
 
-O objetivo não é acertar a alternativa. É **diagnosticar o raciocínio**.
+O objetivo não é apenas acertar a alternativa. É caracterizar com precisão o que
+o item exige e, **quando houver evidência individual**, formular uma hipótese
+falsificável sobre o movimento do aluno.
 
-## 2. Duas máquinas, nunca fundidas
+## 2. Dois domínios, nunca fundidos
 
 A unidade do diagnóstico é o desalinhamento:
 
-> **desalinhamento( operação exigida [questão] , movimento realizado [aluno] )**
+> **desalinhamento( operação exigida [questão] , movimento candidato [tentativa] )**
 
-- **PLANO A — a questão (objetivo).** Operação exigida (enum §4) + variável
-  decisiva tipada (`fato | valor | limiar | função | sequência | prioridade |
-  contraindicação | sinal-achado`) + **validade do item**
+- **Question Intelligence / PLANO A — a questão (objetivo e compartilhável).**
+  Operação exigida (enum §4) + natureza da demanda (`factual | operacional |
+  mista`) + variável decisiva tipada (`fato | valor | limiar | função | sequência |
+  prioridade | contraindicação | sinal-achado`) + validade do item
   (`full | partial | ambíguo | insuficiente`).
-- **PLANO B — o aluno (inferido; abstém sem evidência).** `movimento_candidato` +
-  evidência a favor + evidência contra + explicações alternativas + confiança
-  ordinal + razão da abstenção.
+- **Learner State — a tentativa e a trajetória (pessoal, privado e inferido).**
+  Resposta + confiança pré-feedback + `movimento_candidato` + evidência a favor e
+  contra + alternativas + confiança diagnóstica + estado da hipótese.
 
-Item ambíguo ou insuficiente → **não** infira movimento do aluno com firmeza.
+Não existe “Plano B” dentro da questão. O Plano A permanece igual para alunos
+diferentes; o Learner State só existe para uma tentativa observada e segue
+`LEARNER_STATE_PROTOCOL.md`.
+
+Item ambíguo ou insuficiente → **não** infira movimento do aluno. Corrija o item ou
+declare a informação ausente antes de analisar a tentativa.
 
 ## 3. Campos internos
 
@@ -34,6 +42,7 @@ question_intelligence:
   pivo_clinico: ""
   palavra_ancora: ""
   operacao_exigida: ""
+  natureza_da_demanda: "" # factual | operacional | mista
   variavel_decisiva: ""
   validade_do_item: ""
   distrator_sedutor: ""
@@ -45,12 +54,32 @@ question_intelligence:
   dado_que_mudaria_a_conduta: ""
   logica_da_correta: ""
   logica_das_erradas: ""
+learner_observation:
+  learner_answer: ""
+  learner_confidence_before_feedback: null
   movimento_candidato: ""
-  confianca: ""
+  evidencia_a_favor: []
+  evidencia_contra: []
+  explicacoes_alternativas: []
+  diagnostic_confidence: ""
+  hypothesis_status: "" # candidate | confirmed | weakened | abandoned | indeterminate
   validade_metacognitiva: ""
 ```
 
 Não imprima o YAML salvo se ajudar. É estrutura interna.
+
+### 3.1 Natureza da demanda do item
+
+- `factual`: a resolução depende principalmente de recuperar definição, valor,
+  dose, critério ou contraindicação;
+- `operacional`: o dado está disponível e a resolução depende principalmente de
+  aplicar, ordenar, priorizar ou discriminar;
+- `mista`: recuperação factual e execução operacional são materialmente
+  inseparáveis.
+
+Essa classificação pertence ao item. Ela **não** prova a causa do erro. Questão
+operacional errada pode refletir lacuna factual; questão factual errada pode
+refletir leitura. A causa individual exige evidência do aluno.
 
 ## 4. Operações exigidas (enum, 12)
 
@@ -76,21 +105,31 @@ contraindicação · comparar função.
 
 Etiquete cada alternativa errada com o movimento que marcá-la sugere.
 
-Marcar uma alternativa mapeada gera movimento candidato em confiança **baixa**,
-sem exigir justificativa. Justificativa e comportamento só **elevam**.
+Marcar uma alternativa errada previamente mapeada pode gerar movimento
+`candidate` em confiança **baixa** quando o item é válido e o mapeamento é
+específico. Justificativa e trajetória podem elevar; natureza do item, sozinha,
+não gera hipótese.
 
 ## 7. Confiança ordinal e abstenção
 
 Faixas: `insuficiente · baixa · moderada · alta`. Nunca porcentagem.
 
 - distrator sozinho → **teto baixa** ("compatível"), nunca "confirmado";
-- distrator + padrão consistente no bloco → **moderada**, mesmo sem texto;
-- justificativa explícita e alinhada → moderada ou alta;
+- ao menos três distratores específicos e consistentes em itens independentes no
+  bloco → candidato **moderado**, com numerador/denominador, mesmo sem texto;
+- justificativa explícita e alinhada em uma tentativa → até **moderada**;
+- confiança **alta** exige trajetória independente/transferência válida; o estado
+  `confirmed` continua uma decisão separada, regida pelo ciclo de evidência;
 - movimento repetido entre sessões (caderno de erros) → **eleva uma faixa**;
 - **marcadores conflitantes** (ex.: declara certeza + diz que chutou) → **abster**;
 - auto-relato pós-gabarito → teto menor que evidência objetiva;
 - sem alternativa mapeada, sem padrão de bloco e sem trajetória →
   **INDETERMINADO**.
+
+Uma ocorrência (`N=1`) nunca recebe `confirmed`. Confirmação exige pelo menos duas
+evidências independentes em itens/contextos distintos, sendo ao menos uma
+transferência válida da mesma operação em outro conteúdo. Teste contaminado por
+falta de conteúdo, chute, pista decisiva ou item inválido não confirma nem refuta.
 
 `INDETERMINADO` **não** é lacuna de conteúdo. Só vira lacuna de conteúdo com
 evidência independente que a sustente.
@@ -138,9 +177,10 @@ valendo, e devem ser usados:
 - **os três tempos** — o que ele sabia antes, o que produziu agora, o que faz na
   revisão em 48h.
 
-Com bloco inteiro respondido e padrão consistente, a confiança pode chegar a
-**moderada** sem uma linha de justificativa escrita. Com justificativa alinhada,
-chega a alta.
+Com bloco inteiro respondido e padrão consistente, a hipótese pode chegar a
+**moderada** sem justificativa escrita, mas continua `candidate`. Confiança alta ou
+`confirmed` exige evidência independente/transferência, não apenas concentração no
+mesmo bloco.
 
 ### 8.2 O que continua proibido
 
@@ -161,8 +201,9 @@ Pergunte: *qual rastro observado sustenta isso?*
   movimento", **é válido** — em confiança baixa, e sobe com padrão de bloco.
 - Se a resposta for "ele não falou disso", **derrube a hipótese**.
 
-`INDETERMINADO` é para quando não há nem alternativa mapeada, nem padrão de bloco,
-nem trajetória — não para toda resposta sem texto.
+`INDETERMINADO` é para quando não há alternativa mapeada específica, padrão de
+bloco suficiente nem trajetória — e é também o resultado correto de bloco
+heterogêneo. Não é obrigatório para toda resposta sem texto nem proibido em bloco.
 
 ## 9. Correção independente
 
@@ -181,19 +222,25 @@ Se o gabarito informado conflitar com o raciocínio:
 Comando:
 Disciplina · Tema/subtema:
 Operação exigida (Plano A):
+Natureza da demanda: factual | operacional | mista
 Variável decisiva (Plano A):
 Validade do item: full | partial | ambíguo | insuficiente
 Pivô clínico / palavra-âncora:
 Resposta correta + por quê:
 Por que as erradas seduzem (distrator → movimento provável):
-Movimento candidato (Plano B; abster se sem evidência → indeterminado):
+Movimento candidato (Learner State; abster se sem evidência → indeterminado):
 Evidência a favor / contra:
-Confiança: insuficiente | baixa | moderada | alta
+Confiança diagnóstica: insuficiente | baixa | moderada | alta
 Pegadinha / regra de prova:
 Card mínimo + revisão:
 ```
 
 Se o usuário pedir correção rápida, encurte sem perder pivô e pegadinha.
+
+No modo calibrado, peça a confiança do aluno **junto da resposta e antes do
+feedback** (`B · 75%`). Nunca confunda esse valor com confiança diagnóstica. Só
+calcule Brier/viés com `n >= 10` tentativas válidas, conforme
+`LEARNER_STATE_PROTOCOL.md`.
 
 ## 11. Alto risco
 
@@ -253,3 +300,12 @@ Prefira: card de pivô · de conduta · de pegadinha · de distrator · de difer
 perigoso · de erro pessoal · de regra de prova · de dose.
 
 Não gere lote grande de cards durante a correção.
+
+## 16. Resposta discursiva
+
+Para discursiva, determine o comando e a rubrica disponível antes de corrigir.
+Retorne: pontos obrigatórios · acertos · lacunas · erro médico/ambiguidade ·
+organização/prioridade · versão final enxuta. Não invente pesos se não houver
+rubrica autêntica. Movimento cognitivo continua opcional e exige sinal presente na
+produção; omissão de um ponto é lacuna da resposta, não prova automática de como o
+aluno pensou.

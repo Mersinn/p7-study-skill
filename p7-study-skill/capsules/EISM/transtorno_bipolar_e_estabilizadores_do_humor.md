@@ -7,7 +7,14 @@
 - Unidade: II
 - Prioridade: alta
 - Risco clínico: alto
-- Status: reviewed_l1
+- Status: reviewed_l2
+- Transcription: confirmed
+- Curricular alignment: confirmed
+- Clinical validity: pending (current apenas para claims EXTRIP; demais claims terapêuticos excluídos da conduta atual)
+- Independent review: reviewed_l2
+- Reviewer ID: `agent:clinica_reparos:2026-08-20`
+- Modelo: OpenAI Codex, modelo herdado; versão exata de serving não exposta
+- Revisão clínica humana: pendente
 - Camada de fonte usada: A+B
 - fonte_visual: não (fontes atribuídas são todas NATIVA com texto íntegro; não há MISTA/ESCANEADA neste tema)
 - Fontes usadas: Aula_1_2021_1_Transtorno_Bipolar__c902ef25a4 (A, slide do prof. Ricardo Henrique-Araújo); Transtorno_bipolar__6d1cddef8b (B, Aline Maia); ANOTAC_O_ES_bipolaridade__a1c9d4465d (B, Karen); Transtorno_bipolar_pdf__dc69aa8c73 (B, Letícia)
@@ -33,25 +40,25 @@ depressão mas não trata mania.
 
 ## Pivô clínico
 
-Nunca prescrever antidepressivo isolado em bipolar — associar sempre a estabilizador do humor ou
-antipsicótico atípico (o risco é virada maníaca ou simples não-resposta). Na escolha do
-estabilizador, a comorbidade decide: insuficiência renal contraindica lítio (usar valproato);
-hepatopatia contraindica valproato (usar lítio). Na mania aguda, lítio tem início lento (1–3
+Nunca prescrever antidepressivo isolado em bipolar — a escolha na depressão bipolar deve seguir
+diretriz atual e considerar risco de virada. Na escolha do estabilizador, função renal/hepática,
+interações, gestação e gravidade modulam risco; “nefropata nunca usa lítio” e “hepatopata deve usar
+lítio” são absolutos indevidos e ficam `CURRENT_PENDING`. Na mania aguda, lítio tem início lento (1–3
 semanas) — valproato/carbamazepina agem mais rápido (3–5 dias) e são preferidos para tirar o
 paciente da crise; antipsicótico atípico associado acelera ainda mais a resposta.
 
 ## Palavras-âncora
 
 litemia · ciclagem rápida · virada maníaca · episódio misto · mania eufórica × disfórica ·
-hipomania · monoterapia com antidepressivo (proibida) · nefropata → não lítio · hepatopata → não
-valproato · síndrome de Stevens-Johnson (lamotrigina/carbamazepina)
+hipomania · monoterapia com antidepressivo (evitar) · função renal/hepática ·
+interações · síndrome de Stevens-Johnson (lamotrigina/carbamazepina)
 
 ## Operação × movimento
 
 | Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
 |---|---|---|---|---|---|
-| aplicar critério | litemia-alvo por fase (aguda 0,8–1,2; manutenção ≥0,6) e degraus de diálise (>6,0/>4,0/2,5–4,0) | limiar | factual | valor errado | card de limiar + 3 vinhetas de litemia no valor exato do corte (6,0 vs 4,0 vs 2,5) |
-| reconhecer contraindicação | qual comorbidade contraindica qual estabilizador (nefropatia→não lítio; hepatopatia→não valproato) | contraindicacao | factual | valor errado | flashcard de par comorbidade→fármaco contraindicado, revisado em ordem aleatória (nunca lista única) |
+| aplicar critério | indicação EXTRIP integra litemia, função renal, sintomas e cinética prevista | limiar | misto | valor errado | casos pareados com mesma litemia e sintomas/função renal diferentes |
+| reconhecer risco | função renal/hepática, interação, gestação e gravidade modulam escolha | contraindicacao | misto | aplicar troca automática | casos que exigem dados antes de escolher |
 | diferenciar próximos | história pregressa de mania (mesmo remota) fecha tipo I, mesmo com quadro atual só depressivo | sinal-achado | operacional | narrativa acima do discriminador | antes de classificar, perguntar por escrito "já houve UM episódio de mania em qualquer momento da vida?", ignorando o quadro do dia |
 | reconhecer contraindicação | antidepressivo isolado em bipolar exige associação a estabilizador/antipsicótico (risco de virada) | contraindicacao | operacional | regra mal-aprendida | antes de tratar "depressão", checar se há diagnóstico de base bipolar — nunca aplicar a regra "deprimido = AD" sem essa checagem |
 
@@ -63,7 +70,10 @@ valproato · síndrome de Stevens-Johnson (lamotrigina/carbamazepina)
 | Litemia — fase de manutenção | A partir de 0,6 mEq/L | 4 fontes convergentes | CONFIRMADO |
 | Litemia — risco de intoxicação | Acima de 1,2 mEq/L | Karen p.5 (B) | CONFIRMADO (1 fonte B; consistente com o teto da faixa aguda) |
 | Lítio — início de ação | Lento: 1–3 semanas | A (slide) + B | CONFIRMADO |
-| Diálise no lítio — critérios | >6,0 mEq/L qualquer paciente; >4,0 mEq/L se uso crônico; 2,5–4,0 mEq/L com sintomas neurológicos graves/insuf. renal/instabilidade hemodinâmica; <2,5 mEq/L em IRC terminal se litemia >1 em 30h de evolução | A (slide do prof.) | CONFIRMADO |
+| ECTR no lítio — recomendado | função renal prejudicada + Li >4,0 mEq/L; ou rebaixamento de consciência, convulsão ou disritmia ameaçadora independentemente do nível | EXTRIP, Table 7 | CURRENT_VERIFIED |
+| ECTR no lítio — sugerido | Li >5,0 mEq/L; confusão significativa; ou tempo estimado até Li <1,0 mEq/L >36 h | EXTRIP, Table 7 | CURRENT_VERIFIED |
+| Parada e rebote | parar quando Li <1,0 mEq/L ou melhora clínica; se nível indisponível, mínimo 6 h; dosar serialmente por 12 h após parar | EXTRIP, Table 7 | CURRENT_VERIFIED |
+| Cortes antigos de diálise | >6/>4/2,5–4 mEq/L | slide A 2021 | HISTORICAL_ONLY |
 | Lítio — proteção contra suicídio | ~80% menor | 4 fontes convergentes | CONFIRMADO |
 | Episódio maníaco — duração/critérios | ≥1 semana (ou menos se hospitalização); ≥3 critérios (≥4 se humor só irritável) de 7 | 4 fontes convergentes | CONFIRMADO |
 | Episódio hipomaníaco — duração | ≥4 dias | 4 fontes convergentes | CONFIRMADO |
@@ -76,12 +86,12 @@ valproato · síndrome de Stevens-Johnson (lamotrigina/carbamazepina)
 
 ## Pegadinhas
 
-- Lítio sozinho NÃO trata a depressão bipolar — é usado como potencializador do antidepressivo,
-  nunca como monoterapia da fase depressiva.
+- “Lítio sozinho não trata depressão bipolar” é uma afirmação forte do material que não foi
+  validada como prática atual e fica `CURRENT_PENDING`; não a ensine como proibição universal.
 - Lamotrigina não tem eficácia relevante na mania — é droga de prevenção/tratamento da depressão,
   não estabilizador de crise aguda.
-- Nefropata não pode usar lítio; hepatopata não pode usar valproato — mas cada um pode usar o
-  outro estabilizador (lítio serve para hepatopata; valproato serve para nefropata).
+- Doença renal/hepática exige avaliação individual, ajuste/monitorização e diretriz atual; não
+  faça troca automática entre lítio e valproato.
 - Bipolar tipo I é definido por mania OU episódio misto, independentemente de já ter tido
   depressão — não confundir com tipo II, que exige hipomania + depressão e NUNCA teve mania.
 - Em números absolutos, pessoas com depressão morrem mais por suicídio que bipolares (maior
@@ -93,32 +103,34 @@ valproato · síndrome de Stevens-Johnson (lamotrigina/carbamazepina)
 |---|---|---|---|
 | Antidepressivo isolado para depressão bipolar | "O paciente está deprimido, trate a depressão" | regra mal-aprendida | Sem associação a estabilizador/antipsicótico atípico, risco de virada maníaca ou não-resposta |
 | Lamotrigina para tirar paciente da mania aguda | Parece um "estabilizador do humor" genérico | analogia sem validação | Lamotrigina não tem eficácia relevante na mania — serve para prevenir/tratar depressão |
-| Lítio em paciente com insuficiência renal | É o padrão-ouro do transtorno bipolar | premissa não checada | Contraindicado em insuficiência renal — trocar por valproato |
-| Valproato em paciente hepatopata | É eficaz e rápido na mania aguda | valor errado | Contraindicado em hepatopatia — trocar por lítio |
+| Aplicar apenas um corte sérico para diálise | é fácil memorizar | premissa não checada | EXTRIP integra função renal, sintomas e cinética |
+| Dar carvão ativado para lítio | funciona em muitas intoxicações | analogia sem validação | carvão ativado não adsorve lítio |
 
 ## Conduta
 
-- Inicial (mania aguda): lítio OU valproato/carbamazepina (ação mais rápida, 3–5 dias); associar
-  antipsicótico atípico e/ou benzodiazepínico conforme gravidade; nunca antidepressivo isolado.
-- Definitiva: manutenção com estabilizador do humor (lítio é 1ª linha em todas as fases, incluindo
-  proteção contra suicídio); monitorar litemia periodicamente e função renal/tireoidiana.
+- Conduta do transtorno bipolar: os esquemas desta cápsula vêm do material
+  curricular e permanecem `CURRENT_PENDING`; não escolher lítio/valproato por uma
+  troca automática. Use diretriz atual, fase, gravidade, função renal/hepática,
+  gestação, interações, adesão e preferência.
 - Condição da conduta: se a depressão bipolar exigir antidepressivo, associar sempre a
   estabilizador do humor ou antipsicótico atípico.
-- Diferencial perigoso: intoxicação por lítio (litemia elevada, sintomas neurológicos/GI graves,
-  pode progredir para coma e morte) × efeitos colaterais esperados (tremor fino, poliúria,
-  polidipsia) — a distinção é gravidade + nível sérico.
-- O que mudaria a decisão: insuficiência renal (contraindica lítio); hepatopatia (contraindica
-  valproato); episódio misto/ciclagem rápida/comorbidade com uso de substâncias (valproato é
-  preferencial); necessidade de prevenir recorrência depressiva (lamotrigina).
+- Diferencial perigoso: intoxicação por lítio exige interromper exposição, suporte com fluido
+  isotônico quando indicado e dosagens seriadas de lítio/função renal/eletrólitos. Carvão
+  ativado não adsorve lítio. Acione toxicologia/nefrologia cedo quando houver critério EXTRIP.
+- O que mudaria a decisão: função renal/hepática, gestação, interações, episódio
+  atual e histórico de resposta. Nenhum desses dados autoriza automaticamente
+  “trocar pelo outro”.
 
 ## Mini-casos ativos
 
-1. Paciente bipolar com insuficiência renal crônica precisa de estabilizador → valproato (lítio
-   contraindicado). Variável decisiva: função renal.
-2. Paciente bipolar com hepatopatia precisa de estabilizador → lítio (valproato contraindicado).
-   Variável decisiva: função hepática.
-3. Paciente em uso de lítio, litemia de 6,5 mEq/L → diálise indicada independentemente de sintomas
-   (critério: >6,0 mEq/L em qualquer paciente). Variável decisiva: nível sérico absoluto.
+1. Paciente bipolar com doença renal precisa de estabilizador. Que dados faltam
+   antes de escolher? <details><summary>Resposta</summary>Estágio/função renal,
+   fase, outros órgãos, interações, gestação, resposta prévia e alternativas; não
+   trocar automaticamente para valproato.</details>
+2. Paciente com hepatopatia: a resposta automática “use lítio” é segura?
+   <details><summary>Resposta</summary>Não; exige avaliação individual/diretriz.</details>
+3. Paciente com lítio 4,2 mEq/L e função renal prejudicada. Antes de abrir a resposta, classifique
+   pelo EXTRIP. <details><summary>Resposta</summary>ECTR recomendada: função renal prejudicada + Li >4,0 mEq/L.</details>
 4. Paciente com quadro depressivo isolado hoje, mas relata 1 episódio de mania há anos → ainda é
    bipolar tipo I (basta 1 episódio de mania, mesmo que hoje só haja depressão). Variável decisiva:
    história pregressa de mania, não o quadro atual.
@@ -128,9 +140,9 @@ valproato · síndrome de Stevens-Johnson (lamotrigina/carbamazepina)
 | Frente | Verso | Tipo |
 |---|---|---|
 | Litemia — fase aguda × manutenção | Aguda: 0,8–1,2 mEq/L. Manutenção: a partir de 0,6 mEq/L | dado numérico |
-| Diálise no lítio — corte absoluto | >6,0 mEq/L em qualquer paciente | dado numérico |
-| Por que lítio não trata depressão bipolar sozinho | É só potencializador — precisa de antidepressivo associado (e este precisa de estabilizador) | risco |
-| Lítio × Valproato — contraindicação cruzada | Lítio: evitar em nefropata. Valproato: evitar em hepatopata | discriminador |
+| EXTRIP — indicação com função renal prejudicada | Li >4,0 mEq/L | dado numérico |
+| EXTRIP — sintomas que recomendam ECTR sem depender do nível | rebaixamento de consciência, convulsão ou disritmia ameaçadora | risco |
+| Função renal/hepática | modula risco; não autoriza troca automática entre lítio/valproato | guardrail |
 | Bipolar tipo I × tipo II | Tipo I: ≥1 mania/misto (± depressão). Tipo II: hipomania + depressão, nunca mania | discriminador |
 | Lítio — proteção contra suicídio | ~80% menor | dado numérico |
 
@@ -139,5 +151,13 @@ valproato · síndrome de Stevens-Johnson (lamotrigina/carbamazepina)
 - Revisar quando: antes de simulado que combine diagnóstico diferencial de fases do humor com
   escolha de estabilizador por comorbidade.
 - Critério de parada: quando conseguir, sem consultar a tabela, citar a litemia-alvo de cada fase,
-  os critérios de diálise e explicar a contraindicação cruzada lítio × valproato por
-  nefropatia/hepatopatia.
+  os critérios EXTRIP e explicar por que litemia isolada não resume a decisão.
+
+## Prática clínica atual — intoxicação por lítio
+
+ECTR é recomendada/sugerida pelos critérios acima; hemodiálise intermitente é o
+método preferido e terapia contínua é alternativa aceitável. Após ECTR, monitore
+lítio por 12 h para rebote. O painel antigo de cortes fica apenas para prova.
+
+Fonte: EXTRIP Workgroup, *Extracorporeal Treatment for Lithium Poisoning*,
+Table 7, 2015: https://pmc.ncbi.nlm.nih.gov/articles/PMC4422246/

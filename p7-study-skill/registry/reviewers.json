@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "reviewers": [
+    {
+      "schema_version": "1.0.0",
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "role": "independent_reviewer_l2",
+      "provider": "OpenAI",
+      "model": "Codex (inherited model)",
+      "exact_serving_version": "not exposed",
+      "human_review": false,
+      "notes": "Revisão por agente independente; não equivale a revisão clínica humana."
+    }
+  ],
+  "generation_runs": [
+    {
+      "run_id": "generation:p7-recovery:2026-08-20",
+      "performed_at": "2026-08-20",
+      "provider": "OpenAI",
+      "model": "Codex (inherited model)",
+      "exact_serving_version": "not exposed",
+      "scope": "recovery and clinical claim registry"
+    }
+  ]
+}

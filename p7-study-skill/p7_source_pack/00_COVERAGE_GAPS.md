@@ -2,6 +2,25 @@
 
 O que a skill sabe que NAO cobre bem. Consultar antes de prometer cobertura.
 
+## Recovery audit — 20/08/2026
+
+- As duas cápsulas ausentes foram materializadas: `semiologia_pediatrica.md`
+  (I unidade) e `aleitamento_materno.md` (II unidade). O total esperado passa a
+  158; índice/manifestos são gerados pelo reconciliador, não editados à mão.
+- Reanimação neonatal recebeu overlay SBP/PRN 2026; valores de 2016 ficam
+  `historical_only`.
+- Estado de mal, asma 6–11, AVCi, intoxicação por lítio, PNI 2026 e ordem
+  tiamina/glicose foram reparados e registrados em
+  `registry/clinical_claims.jsonl`.
+- Doses de asma ≤5 anos, faixas numéricas da semiologia, alta dose de tiamina em
+  Wernicke e regras brasileiras de clozapina continuam `quarantined`/excluídas da
+  conduta atual até fonte aplicável.
+- Listas de fármacos na lactação permanecem quarantined e exigem consulta por
+  fármaco/dose/contexto.
+- A presença de 158 cápsulas resolve a lacuna estrutural, mas **não autoriza**
+  alegar completude clínica enquanto a varredura dos demais claims críticos e os
+  gates do piloto estiverem pendentes.
+
 ## Lacunas criticas (risco alto com fonte fraca ou ausente)
 
 - Erisipela (EISA_II/Angiologia) — risco ALTO, fonte fraca
@@ -48,7 +67,7 @@ O que a skill sabe que NAO cobre bem. Consultar antes de prometer cobertura.
 - ESTEATORREIA NA DOENÇA CELÍACA: o slide `Abordagem_a_s_diarreias__41fb86fd8c` inclui 'diarreia crônica com esteatorreia' no quadro típico, enquanto a anotação manuscrita `Casos_Cli_nicos_P7_1__4f3f459b20` registra 'a DC não é comum ter esteatorreia'. O OCR da anotação é de baixa confiança — conflito a resolver por leitura visual antes de qualquer cápsula.
 - DEFINIÇÃO DE DIARREIA CRÔNICA/PERSISTENTE (verificado por leitura direta das duas fontes): o slide da Profa. Liane (diarreia_e_DHE__35f8e57446), citando OMS/SBP, define aguda ATÉ 14 DIAS e PERSISTENTE acima de 14 dias; o material de estudo do AVA (DIARRA_IAS_material_para_estudo_AVA_docx__1485e3fd8d) define aguda até 15 dias e CRÔNICA acima de 30 dias. São taxonomias diferentes (OMS pediátrica x classificação gastroenterológica geral). Em prova de pediatria a resposta esperada é quase certamente a da professora (14 dias / persistente). O sintetizador deve fixar a versão do slide e sinalizar a divergência, não escolher em silêncio.
 - CRITÉRIOS DE JONES — VERSÃO (verificado): o capítulo do Tratado SBP (Febre_Reuma_tica__2ada2e3cf7) traz o quadro comparativo Jones 1992 x Jones 2015 e é explícito quanto à coluna de POPULAÇÃO DE ALTO RISCO (Brasil), na qual monoartrite e poliartralgia contam como critério MAIOR, febre >=38 °C e VHS >=30 mm/h como menores, e cardite subclínica por eco conta. O Guia de Bolso das Diretrizes Brasileiras SBC/SBP/SBR (Cardio_GUIA_DE_BOLSO...__4226a18dd2) é anterior a 2015 e usa outro arranjo (trata monoartrite como situação de exceção em nota de rodapé). Os três resumos de colegas provavelmente usam Jones clássico. É um conflito de VIGÊNCIA que muda a resposta de uma questão de diagnóstico. Recomendo adotar Jones 2015 / alto risco como padrão e marcar as demais como históricas.
-- REANIMAÇÃO NEONATAL DESATUALIZADA (verificado): Assiste_ncia_ao_RN_pdf__bc4a064524 declara na bibliografia as 'Diretrizes 2016 da SBP para reanimação do RN >=34 semanas'. A SBP publicou atualização posterior (2022). Pontos que mudaram entre versões e que aparecem no resumo: conduta na presença de líquido meconial, momento e concentração inicial de O2, uso do monitor cardíaco como método preferencial de avaliação da FC, e detalhes de clampeamento. Como este é o tema de maior letalidade da frente, o sintetizador NÃO deve gerar cápsula de reanimação sem verificação médica independente contra a diretriz vigente.
+- REANIMAÇÃO NEONATAL DESATUALIZADA — RESOLUÇÃO PARCIAL (verificado): `Assiste_ncia_ao_RN_pdf__bc4a064524` declara na bibliografia as Diretrizes SBP 2016. A cápsula foi reconstruída com overlay das diretrizes SBP/PRN de 12/06/2026 para RN >=34 semanas e algoritmo separado para prematuros <34 semanas; o material de 2016 ficou em painel histórico. A revisão L2 desta rodada foi feita por agente identificado e não equivale a validação clínica humana. Reabrir o gate quando a SBP atualizar a diretriz ou antes de uso assistencial.
 - CALENDÁRIO VACINAL DESATUALIZADO: Imunizac_a_o_ativa_e_Passiva_2021_Joa_o_Medeiros__830d00b9a4 é de 2021 e o resumo Imunizac_o_es__530d7bac20 é de 2020. O PNI mudou desde então. Os conceitos estruturais (tipos de vacina, eventos adversos da DTP com janelas temporais, profilaxia do tétano, imunoglobulinas) permanecem válidos; as IDADES E ESQUEMAS do calendário não são confiáveis. Separar as duas camadas ao gerar cápsula.
 - BRONQUIOLITE — FAIXA ETÁRIA (verificado): o resumo 1_Bronquiolite__a456a0d201 afirma que a bronquiolite 'atinge as crianças de 1-3 anos de vida'. O capítulo do Tratado SBP (BVA_Tratado...) e o slide do professor (BVA__de95b25ca5) dizem primeiro episódio de sibilância em lactentes MENORES DE 12 MESES, com pico de incidência aos 2-3 MESES e acometimento até 2 anos. O resumo está errado. Prevalece a fonte do professor e o Tratado.
 - DEFINIÇÃO DE RN A TERMO (verificado): Semiologia_do_RN_pdf__1c3f4c12c9 define a termo como 37-41 semanas; Semiologia_em_Neo_pdf__30250c5805 e Pediatria_SEMIOLOGIA_DO_RECEe_M__816c7efb84 definem 37-42 semanas. A definição corrente (ACOG/SBP) é termo 37 0/7 a 41 6/7 e pós-termo a partir de 42 0/7, ou seja, a primeira fonte está correta e as outras duas criam ambiguidade na faixa de 42 semanas exatas.

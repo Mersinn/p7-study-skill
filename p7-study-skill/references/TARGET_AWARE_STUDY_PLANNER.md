@@ -16,6 +16,9 @@ active_study_target:
   assessment_period: primeira_prova | segunda_prova | terceira_prova | quarta_prova | integrada | reposicao | final | osce | a_definir
   deadline: ""
   available_time: ""
+  starting_level: zero | parcial | revisao | a_definir
+  preferred_method: questoes | teoria_ativa | casos | misto | a_definir
+  energy_constraint: estavel | variavel | baixa_agora | a_definir
   declared_topics: []
   urgency: low | medium | high | critical
   priority_layer: ""
@@ -35,9 +38,10 @@ O aluno raramente chega com o alvo formatado. Ele chega assim:
   `especialidade_scope: [Nefrologia, Neurologia]`
 - "tô perdido no P7 inteiro" → `p7_completo`, e o trabalho é **reduzir escopo**
 
-Pergunte no máximo **duas** coisas, e só se a resposta mudar o plano. Prazo e
-recorte de unidade mudam o plano. "Quantas horas por dia você tem" quase nunca
-muda — infira e siga.
+Pergunte no máximo **duas** coisas, e só se a resposta mudar o plano. Prazo,
+recorte de unidade e tempo realmente disponível mudam o número/tamanho dos
+blocos. Infira nível, método e energia quando já estiverem evidentes; faça no
+máximo uma pergunta de personalização se ela mudar o primeiro bloco.
 
 Alvo indefinido não bloqueia. Assuma o mais provável, **declare a suposição**, e
 comece.
@@ -66,7 +70,10 @@ Um tema com fonte média que cai toda prova vence um tema com fonte forte que nu
 caiu. Um tema de risco alto entra mesmo com fonte média — e a fraqueza da fonte é
 declarada.
 
-Tema com `forca_fonte: ausente` não entra no plano. Entra no aviso.
+Tema oficial, de alta cobrança ou alto risco com `forca_fonte: ausente` continua
+no plano como lacuna/pendência. A força da fonte define a rota:
+`pedir_slide | validar_diretriz | conhecimento_geral_rotulado | aguardar_fonte`.
+Tema baixo, não oficial e sem fonte pode ficar fora com justificativa.
 
 ## 5. Saída do Plano de Guerra
 
@@ -74,6 +81,7 @@ Tema com `forca_fonte: ausente` não entra no plano. Entra no aviso.
 Alvo ativo:
 Prazo:
 Urgência:
+Nível · método · energia:
 Prioridade:
 Fontes principais:
 Plano:
@@ -112,6 +120,10 @@ Quebre o plano em blocos que cabem numa sessão real de estudo:
 - cada bloco termina com produção ativa: minicaso, questão, ou card;
 - nunca enfileire mais de 3 blocos à frente. O plano se reajusta depois do bloco 3.
 
+Para `energy_constraint: variavel | baixa_agora`, ofereça versão essencial de
+20 minutos, extensão opcional de 15–25 minutos, produto observável e parada. Um
+plano de 30 minutos não pode ter o mesmo número de blocos de um plano de 3 horas.
+
 Empilhar 15 blocos é o mesmo que não planejar.
 
 ## 8. Anti-loop
@@ -119,7 +131,7 @@ Empilhar 15 blocos é o mesmo que não planejar.
 Quando o aluno abre uma frente nova sem evidência nova:
 
 ```text
-Isso é refinamento. Volta para a etapa atual.
+Este refinamento não muda a decisão para o alvo atual. Fechamos [X] e começamos [Y].
 ```
 
 Quando a fase está suficiente:
@@ -128,11 +140,11 @@ Quando a fase está suficiente:
 Fase fechada. Próximo passo: [X]. Não reabrir sem informação nova.
 ```
 
-Só reabra fase fechada com: erro real · dado novo relevante · risco de perda de
-informação · teste falhado · decisão técnica anterior provada errada.
+Reabra com: erro real · dado novo relevante · risco de perda de informação · teste
+falhado · mudança de prazo/energia/alvo · ou o aluno dizer que não entendeu.
 
-Replanejar é a forma mais confortável de não estudar. Trate pedido de replanejamento
-sem fato novo como o que é: fuga do bloco atual.
+Redirecione refinamento sem efeito para o bloco atual, sem atribuir intenção,
+preguiça ou fuga. Dúvida legítima recebe outra representação e novo teste curto.
 
 ## 9. Falhas proibidas
 

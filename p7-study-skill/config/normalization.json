@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "unit": {
+    "I": "UNIT_1",
+    "I_UNIDADE": "UNIT_1",
+    "II": "UNIT_2",
+    "II_UNIDADE": "UNIT_2",
+    "III": "UNIT_3",
+    "III_UNIDADE": "UNIT_3",
+    "IV": "UNIT_4",
+    "IV_UNIDADE": "UNIT_4",
+    "A_DEFINIR": "UNASSIGNED",
+    "UNASSIGNED": "UNASSIGNED"
+  },
+  "priority": {
+    "alta": "high",
+    "media": "medium",
+    "média": "medium",
+    "baixa": "low"
+  },
+  "risk": {
+    "alto": "high",
+    "medio": "medium",
+    "médio": "medium",
+    "baixo": "low"
+  },
+  "discipline": {
+    "EISA II": "EISA_II",
+    "EISA_II": "EISA_II",
+    "EISCA": "EISCA",
+    "EISM": "EISM",
+    "CASOS CLÍNICOS": "CASOS_CLINICOS",
+    "CASOS_CLINICOS": "CASOS_CLINICOS",
+    "OSCE": "OSCE"
+  }
+}
