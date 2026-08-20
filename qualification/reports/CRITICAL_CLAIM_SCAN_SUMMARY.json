@@ -1,0 +1,44 @@
+{
+  "capsules_high_risk": 105,
+  "capsules_high_risk_with_zero_registered_claims": 94,
+  "capsules_scanned": 158,
+  "claims_registered": 41,
+  "denominator_by_category": {
+    "calendario_regra_jurisdicional": 25,
+    "contraindicacao_interacao": 208,
+    "cutoff_escore_estadiamento": 1283,
+    "dose_via_intervalo": 775,
+    "emergencia_sinal_alarme": 201,
+    "janela_temporal": 64,
+    "sequencia_terapeutica": 103
+  },
+  "denominator_by_discipline": {
+    "CASOS_CLINICOS": 179,
+    "EISA_II": 1305,
+    "EISCA": 791,
+    "EISM": 206,
+    "OSCE": 178
+  },
+  "detections_total": 7587,
+  "excluded_from_denominator": {
+    "historical_section": 16,
+    "non_critical_category": 1351,
+    "pedagogic_meta_section": 2700,
+    "provenance_section": 344,
+    "weak_tier": 2577
+  },
+  "limitations": [
+    "Detecção lexical: mede presença de afirmação crítica, não correção clínica.",
+    "Tier `strong` reduz falso positivo mas não o elimina; tier `weak` fica fora do denominador e permanece no CSV — é perda de cobertura assumida, não zero.",
+    "Ligação detecção->claim exige tokens numéricos compartilhados; coincidência temática sem número permanece não resolvida por decisão de segurança.",
+    "Seções `pedagogic_meta` (distratores, pegadinhas, mini-casos, como cai) ficam fora do denominador porque afirmam o erro, não a conduta; permanecem auditáveis no CSV.",
+    "Nenhum gate é fechado por este artefato."
+  ],
+  "schema_version": "1.1.0",
+  "sweep_denominator": 2659,
+  "sweep_denominator_high_risk": 2071,
+  "sweep_denominator_high_risk_lines": 1625,
+  "sweep_denominator_lines": 2116,
+  "unresolved_high_risk": 2010,
+  "unresolved_total": 2598
+}
