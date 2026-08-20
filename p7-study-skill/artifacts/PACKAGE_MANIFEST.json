@@ -1,5 +1,5 @@
 {
-  "file_count": 233,
+  "file_count": 234,
   "files": [
     {
       "bytes": 1704,
@@ -1022,6 +1022,11 @@
       "sha256": "3ee01dba022e95d2603c5ed4b8c6bcc5e36c64bd907a5a0f9098fb0434d4607e"
     },
     {
+      "bytes": 2598,
+      "path": "registry/GATE_MIGRATIONS.md",
+      "sha256": "47cda45f78ced95887c4a2529ff8667b3e33889399d05091e822da8718708982"
+    },
+    {
       "bytes": 571,
       "path": "registry/README.md",
       "sha256": "c196fb135ff64e84507d30411c0658098b025159458a3294a91286b7cb0a4e15"
@@ -1037,9 +1042,9 @@
       "sha256": "6bbf6712d27541f863bba59984dcae8d55fbb711372868124306d2a81b5184f2"
     },
     {
-      "bytes": 1955,
+      "bytes": 2633,
       "path": "registry/release_gates.json",
-      "sha256": "897887935048a9add0aef71f39e52f0b589d84a14cc7f99c5156ca550a61e20b"
+      "sha256": "359ab09134e1eee88322a06e9038cbd6b7cf3da8be7558d2bef2cb3b75d6c2c1"
     },
     {
       "bytes": 734,
@@ -1169,5 +1174,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 2888828
+  "total_bytes": 2892104
 }

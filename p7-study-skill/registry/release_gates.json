@@ -6,49 +6,68 @@
     {
       "gate_id": "critical_claim_sweep",
       "status": "pending",
-      "evidence": ["registry/clinical_claims.jsonl"],
-      "notes": "O registry cobre sentinelas recuperadas, mas não certifica varredura independente de todas as 103 cápsulas de alto risco."
+      "evidence": [
+        "registry/GATE_MIGRATIONS.md",
+        "registry/clinical_claims.jsonl"
+      ],
+      "notes": "O registry cobre sentinelas recuperadas, mas nao certifica varredura independente de todas as 105 capsulas de alto risco (denominador conforme artifacts/METRICS.json capsules.by_risk.high). Nota anterior citava 103 (stale). Gate permanece pending."
     },
     {
       "gate_id": "p0_zero",
       "status": "pending",
-      "evidence": ["references/CLINICAL_CLAIM_REVIEW.md"],
+      "evidence": [
+        "references/CLINICAL_CLAIM_REVIEW.md"
+      ],
       "notes": "Correções sentinela existem; fechamento P0 integral ainda não foi adjudicado."
     },
     {
       "gate_id": "p1_high_risk_zero",
       "status": "pending",
-      "evidence": ["references/CLINICAL_CLAIM_REVIEW.md"],
+      "evidence": [
+        "references/CLINICAL_CLAIM_REVIEW.md"
+      ],
       "notes": "Pendências/quarentenas são honestas, mas o gate global não foi certificado."
     },
     {
       "gate_id": "behavioral_sentinels_3_of_3",
       "status": "pending",
-      "evidence": ["references/EVALUATION_SUITE.md"],
+      "evidence": [
+        "references/EVALUATION_SUITE.md"
+      ],
       "notes": "Não existem três execuções limpas por sentinela em superfície/modelo declarados."
     },
     {
       "gate_id": "behavioral_core_2_of_3",
       "status": "pending",
-      "evidence": ["references/EVALUATION_SUITE.md"],
+      "evidence": [
+        "references/EVALUATION_SUITE.md"
+      ],
       "notes": "Contratos e testes unitários não substituem os runs comportamentais."
     },
     {
       "gate_id": "longitudinal_resume_end_to_end",
       "status": "pending",
-      "evidence": ["scripts/ledger.py", "tests/test_ledger.py"],
+      "evidence": [
+        "scripts/ledger.py",
+        "tests/test_ledger.py"
+      ],
       "notes": "Unidades determinísticas passam; retomada em duas sessões reais não foi demonstrada."
     },
     {
-      "gate_id": "pilot_5_to_8_students_48h",
+      "gate_id": "scripted_user_journeys",
       "status": "pending",
-      "evidence": [],
-      "notes": "Piloto humano não executado."
+      "evidence": [
+        "registry/GATE_MIGRATIONS.md"
+      ],
+      "notes": "Substitui pilot_5_to_8_students_48h por decisao explicita do usuario; o gate retirado esta registrado como superseded em registry/GATE_MIGRATIONS.md e nunca foi executado nem aprovado. Fecha somente com jornadas sinteticas ponta a ponta em sessoes limpas, com fixtures congeladas, transcricoes, repeticoes e adjudicacao objetiva. Nao equivale a estudo de usabilidade humano."
     },
     {
       "gate_id": "clean_install",
       "status": "pending",
-      "evidence": ["README_INSTALL.md", "COMPATIBILITY.md"],
+      "evidence": [
+        "README_INSTALL.md",
+        "COMPATIBILITY.md"
+      ],
       "notes": "Instruções existem; instalação limpa em clientes alvo ainda não foi registrada."
     }
   ]
