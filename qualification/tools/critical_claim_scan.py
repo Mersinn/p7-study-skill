@@ -289,13 +289,40 @@ def stable_id(*parts: str) -> str:
 
 NUM_TOKEN = re.compile(rf"\d+(?:[.,]\d+)?\s*{UNITS}|\d+(?:[.,]\d+)?")
 
+# Locators de proveniencia (pagina/linha/versao) usam a MESMA forma "digito"
+# que valores clinicos e viram falso positivo de ligacao se nao forem
+# removidos ANTES de tokenizar. Achado real e verificado: "p.24" numa coluna
+# de fonte da tabela "Dados de precisao" tokenizava para "24" e casava
+# espuriamente com "24h" de um fato clinico completamente diferente (a
+# DEFINICAO de diarreia linkando com uma dose de Plano C). Toda tabela de
+# precisao do pacote tem coluna "Fonte (pagina)" — este nao e um caso raro.
+CITATION_STRIP = re.compile(
+    r"\b(?:pp?|pag(?:ina)?s?|l|linha|slide|quadro|tabela|figura|fig)\.?\s*"
+    r"\d+(?:\s*[-–,]\s*\d+)*\b"
+)
+# Boilerplate de teto etário do calendario vacinal brasileiro (PNI), tipo
+# "14a11m29d" — repete-se, com o MESMO valor final, em dezenas de vacinas
+# distintas (convencao regulatoria "ate o dia anterior ao proximo
+# aniversario"), entao NAO prova equivalencia entre duas vacinas diferentes.
+AGE_CEILING_STRIP = re.compile(r"\b\d+a\d+m\d+d\b")
+
+def _is_calendar_year(token: str) -> bool:
+    return bool(re.fullmatch(r"(?:19|20)\d{2}", token))
+
 
 def numeric_tokens(text: str) -> set[str]:
+    cleaned = AGE_CEILING_STRIP.sub(" ", CITATION_STRIP.sub(" ", normalize(text)))
     out: set[str] = set()
-    for match in NUM_TOKEN.finditer(normalize(text)):
+    for match in NUM_TOKEN.finditer(cleaned):
         token = re.sub(r"\s+", "", match.group(0)).replace(",", ".")
         if token in {str(n) for n in range(0, 11)}:
             continue  # números de baixa informação (índices, contagens)
+        if _is_calendar_year(token):
+            # Achado real: "2026" (o ano corrente citado em quase toda
+            # capsula/claim) satisfazia sozinho a regra de ">=2 numeros nus
+            # em comum" ao se combinar com qualquer outro numero coincidente
+            # — ano de diretriz nao e valor clinico, e citado universalmente.
+            continue
         out.add(token)
     return out
 
@@ -431,18 +458,16 @@ def link(detections: list[dict[str, Any]], registered: list[dict[str, Any]]) -> 
     for record in registered:
         by_capsule.setdefault(record["capsule_id"], []).append(record)
 
+    # ATENCAO: tokens vem SOMENTE de `statement` (a afirmacao clinica em si).
+    # `curricular_context`, `notes` e `evidence` contem locators de pagina
+    # ("p.24", "Quadro 6"), datas de revisao ("2026-08-20") e outros numeros de
+    # proveniencia sem significado clinico. Incluir esses campos causou
+    # ligacao espuria real e verificada: uma linha sobre "24h" na DEFINICAO de
+    # diarreia linkava com um claim de Plano C só porque o claim citava "p.24"
+    # como locator — coincidencia de numero de pagina, nao de conteudo clinico.
+    # Ver qualification/reports/DETECTOR_VALIDATION_REPORT.md secao 9.
     claim_tokens = {
-        record["claim_id"]: numeric_tokens(
-            " ".join(
-                [
-                    record.get("statement", ""),
-                    record.get("population") or "",
-                    record.get("curricular_context") or "",
-                    record.get("notes") or "",
-                    json.dumps(record.get("evidence", []), ensure_ascii=False),
-                ]
-            )
-        )
+        record["claim_id"]: numeric_tokens(record.get("statement", ""))
         for record in registered
     }
 
@@ -453,11 +478,32 @@ def link(detections: list[dict[str, Any]], registered: list[dict[str, Any]]) -> 
         linked = sorted(
             record["claim_id"]
             for record in candidates
-            if det_tokens & claim_tokens[record["claim_id"]]
+            if is_material_match(det_tokens & claim_tokens[record["claim_id"]])
         )
         det["linked_claim_ids"] = " ".join(linked)
         det["link_basis"] = "shared_numeric_tokens" if linked else ""
         det["resolved"] = bool(linked)
+
+
+def is_material_match(shared: set[str]) -> bool:
+    """Um token numerico NU (sem unidade), tipo '14' ou '24', e comum demais
+    para provar equivalencia material sozinho — achado real: '14' de 'aguda
+    <=14 dias' casava por coincidencia com '14' de zinco 'por 10 a 14 dias',
+    dois fatos clinicos diferentes.
+
+    Mesmo com unidade, um token tipo '20mg' (inteiro redondo, unidade simples)
+    ainda e comum o bastante para coincidir entre farmacos DIFERENTES — achado
+    real: diazepam 'maximo total 20 mg' casava com fosfenitoina '20 mg PE/kg'
+    numa capsula de status epilepticus, dois farmacos distintos, mesma dose
+    redonda por coincidencia.
+
+    Regra: exige >=1 token FORTE (contem '/', '.' ou '%' — unidade composta
+    tipo mg/kg, decimal, ou percentual, muito menos propenso a coincidir), OU
+    >=2 tokens numericos distintos em comum (coincidencia dupla e rara)."""
+    if not shared:
+        return False
+    has_strong_token = any(re.search(r"[/.%]", token) for token in shared)
+    return has_strong_token or len(shared) >= 2
 
 
 def coverage(detections, capsules, registered) -> list[dict[str, Any]]:

@@ -233,7 +233,93 @@ degrau abaixo de "validado" no sentido da seção 2-3.
   não encontraria mais um padrão sistemático. Diminishing returns esperado,
   não comprovado.
 
-## 8. Reprodução (estado vigente v1.3.0)
+## 9. Auditoria adversarial do mecanismo de ligação ocorrência→claim
+
+Invariante obrigatório do usuário: auditar a passagem "N ocorrências → M
+claims → X% de cobertura" com amostra **negativa** — verificar se cada
+ligação é materialmente equivalente (população, dose/corte, contexto,
+temporalidade), não apenas coincidência de número. Compartilhar cápsula, tema
+ou diretriz não conta como cobertura.
+
+O resultado: **4 bugs reais, verificados e corrigidos**, encontrados por
+amostragem adversarial repetida (não por inspeção de código). Cada um mudou o
+número de ocorrências corretamente resolvidas — sempre para **baixo**
+(removendo confiança falsa), nunca para cima.
+
+### 9.1 Bug 1 — locator do claim vazava para o pool de tokens
+
+`link()` original tokenizava `statement + population + curricular_context +
+notes + evidence` do claim. `curricular_context`/`evidence` contêm citações de
+página ("p.24", "Quadro 6") e `notes` contém datas de revisão
+("2026-08-20"). Achado concreto: a linha da **definição de diarreia** ("≥3
+evacuações... **24h**") ligava a `claim:diarreia-planos.plano-c-expansao-por-idade`
+só porque esse claim cita "**p.24**" como locator — mesmo dígito, zero relação
+de conteúdo. **Correção:** `claim_tokens` passou a usar só `statement`.
+
+### 9.2 Bug 2 — citação de página do lado da DETECÇÃO também vazava
+
+Toda tabela "Dados de precisão" do pacote tem coluna `Fonte (página)` — o
+mesmo problema do lado do texto da cápsula. Achado: "Plano C — expansão ≥1 ano
+| ... | p.24" ligava à definição de diarreia (que genuinamente contém "24h")
+por coincidência de número de página, não de conteúdo. **Correção:** função
+`CITATION_STRIP` remove padrões `p./pp./linha/l./slide/quadro/tabela/figura +
+número` de QUALQUER texto antes de tokenizar (claim e detecção).
+
+### 9.3 Bug 3 — ano de diretriz e boilerplate de teto etário do PNI
+
+Achado: dois claims de vacinas **diferentes** (`vac.dengue`, `vac.hpv`)
+ligavam à mesma detecção de vacina meningocócica ACWY só por compartilharem
+"2026" (ano da diretriz, citado em quase toda cápsula) e o sufixo regulatório
+`"14a11m29d"` ("até o dia anterior ao 15º aniversário" — convenção reusada,
+com o MESMO valor, em dezenas de vacinas do calendário). **Correção:** anos de
+calendário (1900–2099) excluídos de `numeric_tokens`; padrão `\d+a\d+m\d+d`
+removido antes de tokenizar.
+
+### 9.4 Bug 4 — dose redonda comum entre fármacos diferentes
+
+Mesmo após 1–3, um token com unidade simples ainda coincide por acaso: achado
+real — diazepam "**máx. total 20 mg**" ligava a um claim sobre **fosfenitoína**
+("ESETT testou fosfenitoína **20 mg** PE/kg") numa cápsula de status
+epiléptico — dois fármacos diferentes, mesma dose redonda por coincidência.
+**Correção:** a regra de ligação agora exige pelo menos um token "forte"
+(contém `/`, `.` ou `%` — unidade composta, decimal ou percentual, muito menos
+propenso a coincidir) OU ≥2 tokens numéricos distintos em comum.
+
+### 9.5 Resultado agregado das 4 correções
+
+| | antes das correções (pós v1.3.0) | depois |
+|---|---|---|
+| detecções resolvidas (denominador) | ~161 | **86** (amostra final auditada) |
+| não resolvidos, alto risco | 2 630 | **2 696** |
+| não resolvidos, total | 3 410 | **3 476** |
+| cobertura, cápsula diarreia/desidratação | 85,1% (claim original, bloco anterior) → 83,3% (pós v1.3.0) | **76,9%** (real, pós-auditoria) |
+| cobertura, cápsula imunizações (vacinal) | inflada por Bug 3 | **0%** (correta — nenhum dos 4 claims de vacina registrados liga materialmente às outras 11 detecções desta cápsula) |
+
+A correção **reduziu** cobertura reportada em todo lugar que a bug afetava —
+nunca aumentou. Isso é o resultado esperado de remover confiança falsa, não
+uma regressão.
+
+### 9.6 Amostra final de confirmação
+
+Amostra aleatória de 40 detecções resolvidas (seed 555), lida integralmente
+após as 4 correções: **nenhuma ligação espúria encontrada** — toda ligação
+compartilha fármaco/dose/contexto genuinamente idêntico (mesmo Plano C, mesma
+faixa etária de ondansetrona, mesmo alvo de O2 do GINA, etc.).
+
+### 9.7 Limitação que permanece — declarada, não escondida
+
+O mecanismo ainda é **puramente lexical**: não entende semântica, só números e
+unidades. Um cenário adversarial não testado nesta auditoria: dois claims
+sobre o MESMO fármaco, MESMA dose, mas populações genuinamente diferentes
+(ex. "furosemida 40mg em adulto" vs "furosemida 40mg em criança") ligariam
+incorretamente, porque o número/unidade batem mas a população não é
+comparada. Isso não apareceu na amostra porque o pacote atual não tem esse
+padrão de claim par nesta amostra — mas o mecanismo não o preveniria se
+existisse. Ligação numérica prova "mesmo número", não "mesma proposição
+clínica" — a leitura humana/adversarial de cada claim antes de fechá-lo
+continua sendo o controle real, não o script.
+
+## 10. Reprodução (estado vigente v1.3.0 + link fix)
 
 ```bash
 python qualification/tools/critical_claim_scan.py --root p7-study-skill --out qualification/reports

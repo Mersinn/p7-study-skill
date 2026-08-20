@@ -20,6 +20,12 @@ primário diretamente, e está registrado em cada `source_version` afetada.
 
 ## 1. `capsule:eisca:diarreia_aguda_desidratacao_planos_reidratacao` (2026-08-20)
 
+> **SUPERSEDIDO em duas rodadas posteriores no mesmo dia — ver §1b e §1c.**
+> Esta entrada original fechou claims só com fonte SECUNDÁRIA (§1b corrigiu
+> para fonte primária real) e a "cobertura 85,1%" abaixo incluía ligações
+> espúrias por bug de tokenização (§1c corrigiu; número real: **76,9%**).
+> Mantida por histórico — não usar os números desta seção como vigentes.
+
 **Rank no worklist:** #1 (54 claims Tier A não resolvidos, o maior passivo do
 pacote). **Fonte curricular original:** slide fotografado, Profa. Liane
 Carvalho Viana, citando tabela do MS 2023.
@@ -64,13 +70,62 @@ WHO/UNICEF joint statement, 2 artigos secundários), 1 `reviewer`
 
 ---
 
+## 1b. Reabertura contra fonte PRIMÁRIA (2026-08-20, mesmo dia)
+
+Correção obrigatória: fonte secundária (WebFetch de artigo de educação
+médica) não é suficiente para fechar `current` — só descoberta, não
+validação. Extração de texto real via PyMuPDF dos PDFs SBP "Diarreia Aguda
+Infecciosa" e protocolo municipal Rio 2025 (ambos citando/reproduzindo
+BRASIL/MS/SVSA "Manejo do paciente com diarreia", 2023). Detalhe completo em
+`P0_P1_FIXES_LOG.md`.
+
+**Achado real via leitura adversarial (não confirmatória):** o item-asterisco
+de gravidade do domínio "sede" na cápsula estava descrito como "sede
+ausente/bebe pouco" — o Quadro 2 primário mostra que "sem sede" é o valor do
+**Plano A** (sem desidratação, o oposto), e o asterisco correto é "**não é
+capaz de beber**" (incapacidade de ingerir líquidos). **Corrigido no texto da
+cápsula** (4 ocorrências) — é um P1 real de classificação, não só um achado
+de registro. Duas correções adicionais de precisão (zinco "14 dias" → "10-14
+dias"; ondansetrona "0,2mg/kg" → "2mg (0,2-0,4mg/kg)", ambas confirmadas no
+texto primário).
+
+Os 5 claims da §1 foram **substituídos** (não duplicados) por 7 claims com
+locator em fonte primária real: definição/duração, classificação por sinais
+(corrigida), Plano B volume+falha 6h, Plano C expansão por idade incluindo
+RN/cardiopata (antes pending, agora com locator real), zinco (corrigido),
+ondansetrona (o quarantined da §1 foi **revertido** — o próprio documento
+primário mostra as duas formas de dose, mg e mg/kg, como equivalentes, não
+conflitantes), osmolaridade do SRO. Indicações de Plano C (íleo/abdome
+agudo/vômitos biliosos) e taxa de SOG (20 mL/kg/h) permanecem `pending` — não
+encontradas no texto primário lido nesta sessão.
+
+## 1c. Auditoria adversarial da ligação ocorrência→claim (2026-08-20, mesmo dia)
+
+Auditoria obrigatória (ver `DETECTOR_VALIDATION_REPORT.md` §9) encontrou e
+corrigiu 4 bugs reais no mecanismo de ligação por token numérico — o mais
+relevante para esta cápsula: citação de página ("p.24") tokenizava como
+conteúdo clínico e ligava espuriamente a definição de diarreia (que
+genuinamente contém "24h") ao claim de Plano C. Após as 4 correções:
+
+| | §1 (secundária) | §1b (primária) | §1c (link corrigido) |
+|---|---|---|---|
+| Cobertura da cápsula | 85,1% | 83,3% | **76,9%** (7/34 linhas-denominador ainda não resolvidas, 18/78 ocorrências) |
+
+A queda de 83,3% → 76,9% é a remoção de confiança falsa, não uma regressão —
+essas ligações nunca foram válidas. **76,9% é o número vigente** para esta
+cápsula.
+
+---
+
 ## 2. Ritmo observado e projeção honesta
 
-Uma cápsula bem fundamentada em diretriz única, com pesquisa real (múltiplas
-buscas + fetches + leitura + adjudicação + registro em schema), consumiu um
-ciclo de trabalho não trivial e fechou 5 claims/74 detecções. O worklist tem
-**150 cápsulas com Tier A**, somando **2 378 ocorrências de alto risco ainda
-não resolvidas** após este primeiro lote (era 2 441 antes). Extrapolar
+Uma cápsula bem fundamentada em diretriz única, com pesquisa real contra fonte
+primária (múltiplas buscas + fetches + extração de PDF + leitura adversarial +
+adjudicação + registro em schema), consumiu um ciclo de trabalho não trivial e
+fechou 7 claims genuínos, com uma correção de conteúdo real (P0/P1) no
+caminho. Após a auditoria de linkage (§1c), o denominador de alto risco não
+resolvido está em **2 696** (up from 2 630 pré-auditoria — a auditoria reduziu
+cobertura reportada, como deveria). Extrapolar
 linearmente não é seguro — cápsulas variam muito em quantas diretrizes
 distintas tocam e em quão acessível é a fonte primária — mas o volume deixa
 claro que **fechar `critical_claim_sweep` integralmente é um programa de
