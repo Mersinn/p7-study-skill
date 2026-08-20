@@ -2613,7 +2613,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 15069,
+      "bytes": 16092,
       "capsule_id": "capsule:eisca:diarreia_aguda_desidratacao_planos_reidratacao",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2629,7 +2629,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "860f5a96c3018d45fa6e7b0254d07ec494da80f485bb41e398e7a3f39e8a984a",
+      "sha256": "a97e26d684a4cfaaa9aa659c3c494f719b35cec7d3608abb526ebbe420145173",
       "source_ids": [
         "diarreia_e_DHE__35f8e57446"
       ],

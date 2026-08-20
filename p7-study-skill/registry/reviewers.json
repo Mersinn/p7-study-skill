@@ -19,7 +19,7 @@
       "model": "Claude Code (Opus 5 no inicio da sessao; usuario trocou para claude-sonnet-5 via /model durante a sessao)",
       "exact_serving_version": "not exposed",
       "human_review": false,
-      "notes": "Revisor independente com acesso a WebSearch/WebFetch nesta sessao. Sem ferramenta de OCR/renderizacao de PDF no ambiente — fontes primarias em PDF escaneado/comprimido nao puderam ser lidas diretamente; corroboracao feita via multiplas fontes secundarias independentes descrevendo o mesmo documento primario, com valores numericos explicitos e datados. Essa limitacao esta registrada claim a claim; nenhum claim foi promovido a current sem locator concreto obtido nesta sessao."
+      "notes": "Revisor independente com acesso a WebSearch/WebFetch/execucao de codigo nesta sessao. PDFs escaneados/comprimidos NAO puderam ser lidos via WebFetch (retorna stream binario); corrigido extraindo texto integral localmente com PyMuPDF (biblioteca ja instalada no ambiente) e lendo o texto extraido linha a linha contra os claims da capsula, incluindo leitura adversarial deliberada (buscando divergencia, nao apenas confirmacao) — que encontrou e corrigiu um erro real de transcricao na capsula de diarreia/desidratacao. PDF em si nao e commitado ao pacote (ver rights_note de cada source); apenas locator/pagina e citado. Claims fechados como current exigem locator em fonte PRIMARIA lida nesta sessao — nao apenas resumo de busca web nem artigo secundario. Onde so havia fonte secundaria disponivel, o claim permanece pending, nao current."
     }
   ],
   "generation_runs": [

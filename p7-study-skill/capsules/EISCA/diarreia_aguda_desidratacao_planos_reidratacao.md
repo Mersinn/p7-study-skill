@@ -14,6 +14,7 @@
 - Evidência de prova/devolutiva: Devolutiva III SC 2016.1 (Q8 — ≥2 sinais de desidratação classificam como desidratado mesmo com achado tranquilizador coexistente); Integradas — "Gastro — diarreia aguda, etiologia e cronicidade"; banco EISCA lista "AIDPI — classificação de desidratação por contagem" e "Falha da TRO — indicação de via venosa" como itens dissecados
 - Limitações da fonte: slide fotografado (MISTA) com 41 páginas, revisado por amostragem estratégica (~11 páginas focadas em definição, classificação, planos A/B/C e tabela de expansão) — não lido página a página; etiologia infecciosa detalhada (rotavírus, agentes bacterianos específicos) não foi revisada nesta amostra e fica fora do escopo desta cápsula
 - Verificação nível 1: CONFIRMADO
+- Revisão independente L2 (2026-08-20): texto integral extraído (PyMuPDF) de "Diarreia Aguda Infecciosa" (SBP, Depto. Científico de Gastroenterologia, 2022-2024), que reproduz e cita diretamente BRASIL/MS/SVSA "Manejo do paciente com diarreia" (2023); e do protocolo municipal "Doenças Diarreicas Agudas (DDA) na Criança" (Rio de Janeiro, PTC.DEA.005, 09/2025). Confirmado: definição de diarreia, cortes de duração, Plano B (50-100 mL/kg em 4-6h, falha em 6h), Plano C (30+70 mL/kg por faixa etária, RN/cardiopata grave 10 mL/kg), zinco por idade, ondansetrona por idade/peso. **Corrigido nesta revisão**: o sinal com asterisco do domínio "sede" na classificação de gravidade era descrito como "sede ausente/bebe pouco" — o documento primário registra "incapaz de ingerir líquidos/beber"; e a duração do zinco era fixa em "14 dias" — o documento primário registra intervalo "10 a 14 dias". Ver `registry/clinical_claims.jsonl` para claim_ids e locators completos.
 
 ## Como cai
 
@@ -21,7 +22,7 @@ Cai fortemente como classificação do grau de desidratação pela CONTAGEM de s
 
 ## Conceito operacional mínimo
 
-Diarreia = ≥3 evacuações amolecidas/líquidas em 24h (percepção materna é considerada confiável, mais que a frequência habitual em criança em LME). Classificação por duração (OMS): aguda ≤14 dias; disenteria = aguda com sangue; persistente >14 dias. Classificação do estado de hidratação (MS 2023) por CONTAGEM de sinais: hidratado (nenhum sinal alterado); algum grau de desidratação (≥2 sinais alterados); desidratação grave (≥2 sinais alterados, sendo pelo menos 1 marcado com asterisco — sede ausente/bebe pouco, pulsos fracos/ausentes, sensório letárgico/comatoso). Conduta = 3 planos escalonados: A (domiciliar, prevenção), B (unidade de saúde, TRO supervisionada), C (hospitalar, reidratação venosa).
+Diarreia = ≥3 evacuações amolecidas/líquidas em 24h (percepção materna é considerada confiável, mais que a frequência habitual em criança em LME). Classificação por duração (OMS): aguda ≤14 dias; disenteria = aguda com sangue; persistente >14 dias. Classificação do estado de hidratação (MS 2023) por CONTAGEM de sinais: hidratado (nenhum sinal alterado); algum grau de desidratação (≥2 sinais alterados); desidratação grave (≥2 sinais alterados, sendo pelo menos 1 marcado com asterisco — incapaz de ingerir líquidos, pulsos fracos/ausentes, sensório letárgico/comatoso). Conduta = 3 planos escalonados: A (domiciliar, prevenção), B (unidade de saúde, TRO supervisionada), C (hospitalar, reidratação venosa).
 
 ## Pivô clínico
 
@@ -29,7 +30,7 @@ O pivô é a CONTAGEM OBJETIVA de sinais segundo o critério do MS, não a impre
 
 ## Palavras-âncora
 
-3+ evacuações amolecidas/líquidas em 24h · disenteria = diarreia com sangue · desidratação grave = ≥2 sinais com 1 asterisco (sede ausente, pulsos fracos, sensório alterado) · Plano A domiciliar · Plano B unidade de saúde (50-100 mL/kg em 4-6h) · Plano C hospitalar (expansão 30 mL/kg + 70 mL/kg) · zinco 14 dias · ondansetrona por peso/idade · sinais de alarme (sangue nas fezes, recusa alimentar, oligúria).
+3+ evacuações amolecidas/líquidas em 24h · disenteria = diarreia com sangue · desidratação grave = ≥2 sinais com 1 asterisco (incapaz de beber, pulsos fracos, sensório alterado) · Plano A domiciliar · Plano B unidade de saúde (50-100 mL/kg em 4-6h) · Plano C hospitalar (expansão 30 mL/kg + 70 mL/kg) · zinco 10-14 dias · ondansetrona por peso/idade · sinais de alarme (sangue nas fezes, recusa alimentar, oligúria).
 
 ## Operação × movimento
 
@@ -50,14 +51,14 @@ O pivô é a CONTAGEM OBJETIVA de sinais segundo o critério do MS, não a impre
 | Diarreia persistente — duração | superior a 14 dias | Diarreias na Infância (slide Liane Viana), p.6 | CONFIRMADO |
 | Desidratação grave — déficit de peso | acima de 10% | Diarreias na Infância (slide Liane Viana), p.17 (tabela MS 2023) | CONFIRMADO |
 | Algum grau de desidratação — déficit de peso | até 10% | Diarreias na Infância (slide Liane Viana), p.17 | CONFIRMADO |
-| Critério de desidratação grave | ≥2 sinais alterados, incluindo ao menos 1 sinal com asterisco (sede ausente/bebe pouco, pulsos fracos/ausentes, sensório letárgico/comatoso/inconsciente) | Diarreias na Infância (slide Liane Viana), p.17 (tabela MS 2023) | CONFIRMADO |
+| Critério de desidratação grave | ≥2 sinais alterados, incluindo ao menos 1 sinal com asterisco (incapaz de ingerir líquidos, pulsos fracos/ausentes, sensório letárgico/comatoso/inconsciente) | Diarreias na Infância (slide Liane Viana), p.17 (tabela MS 2023) | CONFIRMADO |
 | Plano A — SRO por evacuação, <1 ano | 50-100 mL | Diarreias na Infância (slide Liane Viana), p.20 | CONFIRMADO |
 | Plano A — SRO por evacuação, 1-10 anos | 100-200 mL | Diarreias na Infância (slide Liane Viana), p.20 | CONFIRMADO |
-| Plano A — suplementação de zinco, <6 meses | 10 mg/dia (2,5 mL) por 14 dias | Diarreias na Infância (slide Liane Viana), p.20 | CONFIRMADO |
-| Plano A — suplementação de zinco, ≥6 meses | 20 mg/dia (5 mL) por 14 dias | Diarreias na Infância (slide Liane Viana), p.20 | CONFIRMADO |
+| Plano A — suplementação de zinco, <6 meses | 10 mg/dia (2,5 mL) por 10-14 dias | Diarreias na Infância (slide Liane Viana), p.20 | CONFIRMADO |
+| Plano A — suplementação de zinco, ≥6 meses | 20 mg/dia (5 mL) por 10-14 dias | Diarreias na Infância (slide Liane Viana), p.20 | CONFIRMADO |
 | Plano B — volume orientação inicial | 50-100 mL/kg administrado entre 4-6h | Diarreias na Infância (slide Liane Viana), p.22 | CONFIRMADO |
 | Plano B — SOG se vômitos persistentes | 20 mL/kg/h | Diarreias na Infância (slide Liane Viana), p.22 | CONFIRMADO |
-| Plano B — ondansetrona, 6-24 meses | 0,2 mg/kg/dose | Diarreias na Infância (slide Liane Viana), p.22 | CONFIRMADO |
+| Plano B — ondansetrona, 6-24 meses | 2 mg (0,2-0,4 mg/kg) | Diarreias na Infância (slide Liane Viana), p.22 | CONFIRMADO |
 | Plano B — ondansetrona, 2-10 anos | 4 mg | Diarreias na Infância (slide Liane Viana), p.22 | CONFIRMADO |
 | Plano B — ondansetrona, >10 anos | 8 mg | Diarreias na Infância (slide Liane Viana), p.22 | CONFIRMADO |
 | Plano B — reavaliação de falha | sem melhora após 6h → encaminhar para internação | Diarreias na Infância (slide Liane Viana), p.22 | CONFIRMADO |
@@ -104,11 +105,11 @@ O pivô é a CONTAGEM OBJETIVA de sinais segundo o critério do MS, não a impre
 
 | Frente | Verso | Tipo |
 |---|---|---|
-| Critério de desidratação grave (MS 2023) | ≥2 sinais alterados, incluindo ao menos 1 com asterisco (sede ausente, pulsos fracos, sensório alterado) | Limiar |
+| Critério de desidratação grave (MS 2023) | ≥2 sinais alterados, incluindo ao menos 1 com asterisco (incapaz de beber, pulsos fracos, sensório alterado) | Limiar |
 | Um sinal tranquilizador neutraliza sinais de alarme? | Não — a classificação é por contagem objetiva, não por balanço subjetivo | Pegadinha |
 | Plano C — volume e tempo de expansão <1 ano | 30 mL/kg em 1h + 70 mL/kg em 5h | Valor |
 | Plano C — volume e tempo de expansão ≥1 ano | 30 mL/kg em 30min + 70 mL/kg em 2h30 | Valor |
-| Zinco no Plano A — dose por idade | <6 meses: 10 mg/dia; ≥6 meses: 20 mg/dia, por 14 dias | Valor |
+| Zinco no Plano A — dose por idade | <6 meses: 10 mg/dia; ≥6 meses: 20 mg/dia, por 10-14 dias | Valor |
 | Indicações de Plano C | Perda de peso >10%, contraindicação de TRO, choque, vômitos biliosos/incontroláveis, falha da TRO | Conduta |
 | Exames laboratoriais na diarreia aguda | Não são rotina — só em evolução atípica/grave, imunodeprimido, sangue nas fezes, <4 meses | Pegadinha |
 

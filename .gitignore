@@ -19,3 +19,9 @@ Thumbs.db
 # Estado privado longitudinal do aluno e temporários dos validadores
 .p7-state/
 artifacts/*.tmp
+
+# Texto extraído localmente de PDFs de terceiros (diretrizes oficiais) para
+# adjudicação clínica. Usado só como cache de trabalho desta sessão; o
+# conteúdo de terceiros não é redistribuído no pacote nem no histórico do Git
+# — apenas locator/página é citado em registry/source_versions.jsonl.
+qualification/sources_cache/

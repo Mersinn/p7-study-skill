@@ -572,9 +572,9 @@
       "sha256": "2d4d10c8353ce8eeaa9e5c9b6414ecc892bbddbc89e74042440ce1000ae5af67"
     },
     {
-      "bytes": 15069,
+      "bytes": 16092,
       "path": "capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md",
-      "sha256": "860f5a96c3018d45fa6e7b0254d07ec494da80f485bb41e398e7a3f39e8a984a"
+      "sha256": "a97e26d684a4cfaaa9aa659c3c494f719b35cec7d3608abb526ebbe420145173"
     },
     {
       "bytes": 12647,
@@ -1037,9 +1037,9 @@
       "sha256": "e1acd7a4c5e36823c8df3f479e16be71330bd2a7cdf9e3c549eb0f456bcb60b5"
     },
     {
-      "bytes": 40959,
+      "bytes": 45189,
       "path": "registry/clinical_claims.jsonl",
-      "sha256": "6071b23db20e038cbeed6fe4247b751ff31a39fd319f455d2aa7a6e21d91340b"
+      "sha256": "f09517848233e2b5a2311e69250974cb223768e494100a9ccce2099d9fc5ff22"
     },
     {
       "bytes": 2633,
@@ -1047,19 +1047,19 @@
       "sha256": "359ab09134e1eee88322a06e9038cbd6b7cf3da8be7558d2bef2cb3b75d6c2c1"
     },
     {
-      "bytes": 1612,
+      "bytes": 1976,
       "path": "registry/reviewers.json",
-      "sha256": "c163bea06c069d5d8163c16c0f3d6b79974a3911d9a57742d902824b2c3ffad4"
+      "sha256": "3a74608b8e14fe440ab3e15b79585fb4c978d0da81fa9474c8b3432b490c2a7f"
     },
     {
-      "bytes": 10710,
+      "bytes": 12230,
       "path": "registry/source_versions.jsonl",
-      "sha256": "444ac31c2fbe6b8dfb8aee1b103defdcc70c2cccd7c83f1470dd50cafa9d2b84"
+      "sha256": "76ffad72fad5a4cee7cbacf67c5d6859f14c8847eeca088ace1207e095133831"
     },
     {
-      "bytes": 5880,
+      "bytes": 6805,
       "path": "registry/sources.jsonl",
-      "sha256": "990fc90c2ea374ae1546904c9db84ea9694cd363f5371d09ffc34f500072ecff"
+      "sha256": "9ed1b6b9a379b707f13d03cb2dc3a46ffc5869f9cd81021ce883408517a8b8ed"
     },
     {
       "bytes": 1376,
@@ -1174,5 +1174,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 2908560
+  "total_bytes": 2916622
 }
