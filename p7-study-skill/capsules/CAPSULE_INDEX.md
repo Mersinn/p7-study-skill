@@ -20,7 +20,7 @@ clínico, dado numérico decisivo, conteúdo visual ou ambiguidade real.
 de turma · `C` prova antiga. Cápsula em `B` isolada não afirma o que o professor
 disse — ela ensina o tema e declara a limitação.
 
-## CASOS_CLINICOS  (14 cápsulas)
+## CASOS_CLINICOS  (15 cápsulas)
 
 | Tema | Un. | Prior. | Risco | Camada | Visual | Dados | Pend. | Status | Arquivo |
 |---|---|---|---|---|---|---|---|---|---|
@@ -28,6 +28,7 @@ disse — ela ensina o tema e declara a limitação.
 | Abordagem à dispneia — causas, sinais de alerta e investigação | A_DEFINIR | media | alto | B | não | 7 | 0 | `reviewed_l1` | `capsules/CASOS_CLINICOS/abordagem_a_dispneia.md` |
 | Cefaleias — classificação, sinais de alarme e tratamento das primárias | A_DEFINIR | alta | alto | B | sim | 12 | 0 | `reviewed_l1` | `capsules/CASOS_CLINICOS/cefaleias_classificacao_sinais_alarme.md` |
 | Cirrose hepática, ascite e peritonite bacteriana espontânea | A_DEFINIR | alta | alto | B | sim | 14 | 1 | `reviewed_l1` | `capsules/CASOS_CLINICOS/cirrose_hepatica_ascite_pbe.md` |
+| Colite pseudomembranosa por Clostridioides difficile | A_DEFINIR | alta | alto | B (fisiopatologia/ | sim | 10 | 0 | `reviewed_l1` | `capsules/CASOS_CLINICOS/colite_pseudomembranosa.md` |
 | Doença celíaca | A_DEFINIR | media | baixo | B | não | 11 | 0 | `reviewed_l1` | `capsules/CASOS_CLINICOS/doenca_celiaca.md` |
 | Doença inflamatória intestinal — Crohn versus retocolite ulcerativa | A_DEFINIR | media | medio | B | não | 10 | 0 | `reviewed_l1` | `capsules/CASOS_CLINICOS/doenca_inflamatoria_intestinal_crohn_versus_retocolite_ulcerativa.md` |
 | Formato da avaliação de Discussão de Casos Clínicos P7 — simulação em grupos (Dr. Nomário) | A_DEFINIR | alta | baixo | A | não | 11 | 0 | `reviewed_l1` | `capsules/CASOS_CLINICOS/formato_avaliacao_discussao_casos_clinicos.md` |
@@ -118,11 +119,13 @@ disse — ela ensina o tema e declara a limitação.
 | Tumores do sistema nervoso central | A_DEFINIR | media | medio | B | não | 13 | 0 | `reviewed_l1` | `capsules/EISA_II/tumores_do_sistema_nervoso_central.md` |
 | Urologia Feminina: Infecção Urinária e Incontinência | III_UNIDADE | alta | alto | A+B | sim | 22 | 0 | `reviewed_l1` | `capsules/EISA_II/urologia_feminina_infeccao_urinaria_e_incontinencia.md` |
 
-## EISCA  (33 cápsulas)
+## EISCA  (36 cápsulas)
 
 | Tema | Un. | Prior. | Risco | Camada | Visual | Dados | Pend. | Status | Arquivo |
 |---|---|---|---|---|---|---|---|---|---|
+| Adolescência, puberdade e semiologia do adolescente | I_UNIDADE | media | baixo | B | não | 20 | 1 | `reviewed_l1` | `capsules/EISCA/adolescencia_puberdade_e_semiologia_do_adolescente.md` |
 | Anemia ferropriva | IV | alta | alto | A | não | 14 | 0 | `reviewed_l1` | `capsules/EISCA/anemia_ferropriva.md` |
+| Asma em pediatria (incluindo crise asmática e lactente sibilante) | III | alta | alto | A | sim | 43 | 2 | `reviewed_l1` | `capsules/EISCA/asma_em_pediatria.md` |
 | Assistência ao recém-nascido em sala de parto e reanimação neonatal | I | alta | alto | B | não | 19 | 0 | `reviewed_l1` | `capsules/EISCA/assistencia_rn_sala_parto_reanimacao_neonatal.md` |
 | Atopias na infância (hipersensibilidade tipo I, rinite alérgica, dermatite atópica, urticária/angioedema, alergia alimentar, anafilaxia) | II | alta | alto | A+B | sim | 25 | 10 | `reviewed_l1` | `capsules/EISCA/atopias_na_infancia.md` |
 | Bronquiolite viral aguda (BVA) | I | alta | alto | A | não | 13 | 0 | `reviewed_l1` | `capsules/EISCA/bronquiolite_viral_aguda.md` |
@@ -136,6 +139,7 @@ disse — ela ensina o tema e declara a limitação.
 | Faringoamigdalite estreptocócica e escarlatina | II | alta | alto | A+B | sim | 17 | 1 | `reviewed_l1` | `capsules/EISCA/faringoamigdalite_estreptococica_escarlatina.md` |
 | Febre reumática | III | alta | alto | A | não | 15 | 0 | `reviewed_l1` | `capsules/EISCA/febre_reumatica.md` |
 | Hemoglobinopatias (talassemias e doença falciforme) | IV | alta | alto | A | não | 17 | 0 | `reviewed_l1` | `capsules/EISCA/hemoglobinopatias_talassemias_doenca_falciforme.md` |
+| Humanização em UTI neonatal | A_DEFINIR | baixa | baixo | B | não | 10 | 0 | `reviewed_l1` | `capsules/EISCA/humanizacao_em_uti_neonatal.md` |
 | Icterícia neonatal e hiperbilirrubinemia indireta | III | alta | alto | A | sim | 18 | 0 | `reviewed_l1` | `capsules/EISCA/ictericia_neonatal_hiperbilirrubinemia_indireta.md` |
 | Imunizações (calendário vacinal, imunização ativa e passiva) | IV | alta | alto | A | sim | 16 | 0 | `reviewed_l1` | `capsules/EISCA/imunizacoes_calendario_vacinal_imunizacao_ativa_e_passiva.md` |
 | Infecção do trato urinário na infância | III_UNIDADE | alta | alto | A | sim | 31 | 0 | `reviewed_l1` | `capsules/EISCA/infeccao_do_trato_urinario_na_infancia.md` |
@@ -185,17 +189,21 @@ disse — ela ensina o tema e declara a limitação.
 | Transtornos de Personalidade | A_DEFINIR | media | medio | B (2 apostilas de  | não | 8 | 0 | `reviewed_l1` | `capsules/EISM/transtornos_de_personalidade.md` |
 | Transtornos por Uso de Substâncias (álcool e outras drogas) | III | alta | alto | A+B | sim | 9 | 1 | `reviewed_l1` | `capsules/EISM/transtornos_por_uso_de_substancias.md` |
 
-## OSCE  (3 cápsulas)
+## OSCE  (7 cápsulas)
 
 | Tema | Un. | Prior. | Risco | Camada | Visual | Dados | Pend. | Status | Arquivo |
 |---|---|---|---|---|---|---|---|---|---|
+| Banco de estações OSCE modeladas com comandos e gabarito | A_DEFINIR | alta | alto | B | não | 0 | 0 | `reviewed_l1` | `capsules/OSCE/osce_banco_de_estacoes.md` |
 | Formato e roteiro geral da estação OSCE do P7 | A_DEFINIR | alta | baixo | B | sim | 4 | 2 | `reviewed_l1` | `capsules/OSCE/formato_roteiro_osce_p7.md` |
 | OSCE Endocrinologia — diabetes, tireoidopatias, Cushing e hiperfunção hipofisária | A_DEFINIR | alta | alto | B | sim | 16 | 1 | `reviewed_l1` | `capsules/OSCE/osce_endocrinologia.md` |
 | OSCE Nefrologia — síndromes glomerulares, glomerulopatias, DRC e injúria renal aguda | A_DEFINIR | alta | alto | B | sim | 17 | 1 | `reviewed_l1` | `capsules/OSCE/osce_nefrologia.md` |
+| OSCE Neurologia — AVC isquêmico, AVC hemorrágico, AIT, coma e TCE | A_DEFINIR | alta | alto | B | não | 25 | 2 | `reviewed_l1` | `capsules/OSCE/osce_neurologia.md` |
+| OSCE Pediatria — pneumonia, asma, diarreia com desidratação, aleitamento materno e assistência ao recém-nascido | A_DEFINIR | alta | alto | B | não | 28 | 0 | `reviewed_l1` | `capsules/OSCE/osce_pediatria.md` |
+| OSCE Urologia — litíase, hiperplasia prostática benigna, câncer de próstata, câncer renal e trauma urogenital | A_DEFINIR | alta | alto | B | não | 31 | 0 | `reviewed_l1` | `capsules/OSCE/osce_urologia.md` |
 
 ## Totais
 
-- cápsulas: **148**
-- dados de precisão conferidos no nível 1: **2292**
-- pendências `confirmar no slide`: **72**
-- cápsulas com camada A (slide do professor): **89**
+- cápsulas: **156**
+- dados de precisão conferidos no nível 1: **2459**
+- pendências `confirmar no slide`: **77**
+- cápsulas com camada A (slide do professor): **90**

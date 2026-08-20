@@ -2,15 +2,15 @@
 
 Inventário verificável do pacote. `sha256` truncado em 12 caracteres.
 
-- arquivos: **183**
-- cápsulas: **148**
-- bytes: **2,587,204**
+- arquivos: **191**
+- cápsulas: **156**
+- bytes: **2,746,330**
 
 ## Arquivos
 
 | arquivo | bytes | sha256 |
 |---|---|---|
-| `PACKAGE_MANIFEST.md` | 14299 | `747fc353f2dc` |
+| `PACKAGE_MANIFEST.md` | 14869 | `e2e32b592824` |
 | `README_INSTALL.md` | 4094 | `d6ba7d7c7366` |
 | `RELEASE_NOTES_v1.0.0.md` | 4526 | `1c4b6fccce58` |
 | `SKILL.md` | 19675 | `ace8cf46fab6` |
@@ -18,11 +18,12 @@ Inventário verificável do pacote. `sha256` truncado em 12 caracteres.
 | `capsule_generation/CAPSULE_GENERATION_POLICY.md` | 6903 | `b0dadde6325e` |
 | `capsule_generation/CAPSULE_REVIEW_CHECKLIST.md` | 2610 | `785a2e53a709` |
 | `capsule_generation/CAPSULE_TEMPLATE.md` | 1971 | `63bf5c6c3629` |
-| `capsules/CAPSULE_INDEX.md` | 27948 | `8d85c06e4d0c` |
+| `capsules/CAPSULE_INDEX.md` | 29433 | `41c9eb2929f8` |
 | `capsules/CASOS_CLINICOS/abordagem_a_dispneia.md` | 13109 | `0ccae36f973a` |
 | `capsules/CASOS_CLINICOS/abordagem_diarreia_aguda_cronica.md` | 16417 | `a0dc3910373a` |
 | `capsules/CASOS_CLINICOS/cefaleias_classificacao_sinais_alarme.md` | 15899 | `1df243c1fd0a` |
 | `capsules/CASOS_CLINICOS/cirrose_hepatica_ascite_pbe.md` | 15559 | `232b139103c6` |
+| `capsules/CASOS_CLINICOS/colite_pseudomembranosa.md` | 16531 | `f1e48171b42a` |
 | `capsules/CASOS_CLINICOS/doenca_celiaca.md` | 12431 | `aef15f67f71a` |
 | `capsules/CASOS_CLINICOS/doenca_inflamatoria_intestinal_crohn_versus_retocolite_ulcerativa.md` | 13088 | `ca5b02d93dca` |
 | `capsules/CASOS_CLINICOS/formato_avaliacao_discussao_casos_clinicos.md` | 10250 | `56d8f512ab71` |
@@ -107,7 +108,9 @@ Inventário verificável do pacote. `sha256` truncado em 12 caracteres.
 | `capsules/EISA_II/tumores_do_sistema_nervoso_central.md` | 12863 | `deabab6a2fdd` |
 | `capsules/EISA_II/tumores_renais_e_carcinoma_de_celulas_renais.md` | 13652 | `7a0383781eb9` |
 | `capsules/EISA_II/urologia_feminina_infeccao_urinaria_e_incontinencia.md` | 17175 | `8ad6531f4171` |
+| `capsules/EISCA/adolescencia_puberdade_e_semiologia_do_adolescente.md` | 21171 | `56e3c73ad8b6` |
 | `capsules/EISCA/anemia_ferropriva.md` | 12379 | `e1331741d48a` |
+| `capsules/EISCA/asma_em_pediatria.md` | 24919 | `99bf8af665cf` |
 | `capsules/EISCA/assistencia_rn_sala_parto_reanimacao_neonatal.md` | 13760 | `44103f2d0a53` |
 | `capsules/EISCA/atopias_na_infancia.md` | 19901 | `f3756fdc439b` |
 | `capsules/EISCA/bronquiolite_viral_aguda.md` | 11368 | `215cb19c48ab` |
@@ -121,6 +124,7 @@ Inventário verificável do pacote. `sha256` truncado em 12 caracteres.
 | `capsules/EISCA/faringoamigdalite_estreptococica_escarlatina.md` | 11719 | `910ab10be4e3` |
 | `capsules/EISCA/febre_reumatica.md` | 12080 | `22e853f2cd7c` |
 | `capsules/EISCA/hemoglobinopatias_talassemias_doenca_falciforme.md` | 13695 | `a66cf92cc143` |
+| `capsules/EISCA/humanizacao_em_uti_neonatal.md` | 10062 | `0e1827f9322b` |
 | `capsules/EISCA/ictericia_neonatal_hiperbilirrubinemia_indireta.md` | 13993 | `7e131b24d977` |
 | `capsules/EISCA/imunizacoes_calendario_vacinal_imunizacao_ativa_e_passiva.md` | 12141 | `74f2acdb8707` |
 | `capsules/EISCA/infeccao_do_trato_urinario_na_infancia.md` | 22786 | `131cbacfd30a` |
@@ -165,8 +169,12 @@ Inventário verificável do pacote. `sha256` truncado em 12 caracteres.
 | `capsules/EISM/transtornos_mentais_na_gravidez_e_puerperio.md` | 10273 | `8b579755a9b9` |
 | `capsules/EISM/transtornos_por_uso_de_substancias.md` | 9415 | `786c61fa2052` |
 | `capsules/OSCE/formato_roteiro_osce_p7.md` | 12851 | `60f368724c3a` |
+| `capsules/OSCE/osce_banco_de_estacoes.md` | 14649 | `906a60dc57ce` |
 | `capsules/OSCE/osce_endocrinologia.md` | 15236 | `4acee815c0c7` |
 | `capsules/OSCE/osce_nefrologia.md` | 15398 | `f34d7c6585ed` |
+| `capsules/OSCE/osce_neurologia.md` | 22640 | `10cb7151e29d` |
+| `capsules/OSCE/osce_pediatria.md` | 23276 | `7cb4b3dfefde` |
+| `capsules/OSCE/osce_urologia.md` | 23823 | `8f4b4ded8c2a` |
 | `p7_source_pack/00_ATOMIC_THEME_INDEX.csv` | 114524 | `ae61d921f485` |
 | `p7_source_pack/00_CALENDARIO_2026_2.md` | 9139 | `e1c32f4b6d66` |
 | `p7_source_pack/00_COVERAGE_GAPS.md` | 28670 | `da8b00f9151e` |
