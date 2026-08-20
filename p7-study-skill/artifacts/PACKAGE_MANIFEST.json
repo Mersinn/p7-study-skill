@@ -987,9 +987,9 @@
       "sha256": "a1d1e554b2d8830cc8bc35721e59e2c9c6bd0cc98b42ec711ab9e92209d34d57"
     },
     {
-      "bytes": 11261,
+      "bytes": 13071,
       "path": "references/MEDICAL_SAFETY_LAYER.md",
-      "sha256": "2b753cd8ce0da5c573d13be1e21e7a891a9c0ca71310540daed126f1ea62c3c8"
+      "sha256": "88f9b2e96f5b43f541f6af17c82c77c510c3065c12215e69f557408a4654d0fb"
     },
     {
       "bytes": 13409,
@@ -1002,9 +1002,9 @@
       "sha256": "d870f90c72209d5b45c931633f6732152fc16a6b23730428352c6889306043b0"
     },
     {
-      "bytes": 8011,
+      "bytes": 8431,
       "path": "references/SOURCE_POLICY.md",
-      "sha256": "93b7e272f2d569ddd34b985c701ad3b8223b404775e065d17e11b484e0df435a"
+      "sha256": "61800c51e428626ae25490949c9a9b4e19635f4946bc3ca5dc5e8ca9e819f072"
     },
     {
       "bytes": 3147,
@@ -1174,5 +1174,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 2892104
+  "total_bytes": 2894334
 }

@@ -74,11 +74,45 @@ latência de efeito × expectativa do paciente · desmame e retirada.
 
 ## 3. Hierarquia de resposta
 
-Antes desta hierarquia, consulte `references/CLINICAL_CLAIM_REGISTRY.csv`. Um
-claim crítico só pode aparecer como prática vigente se estiver
-`CURRENT_VERIFIED`. `CONFIRMADO` na cápsula prova apenas que a transcrição do
-material foi conferida. `CURRENT_PENDING`, `CONFLICT` e `QUARANTINED` exigem
-separação explícita, checagem em fonte oficial atual ou abstenção do detalhe.
+Antes desta hierarquia, consulte o registry canônico
+`registry/clinical_claims.jsonl` (view legível: `artifacts/CLINICAL_CLAIMS.csv`).
+Não existe `references/CLINICAL_CLAIM_REGISTRY.csv`; o pacote **proíbe** esse
+arquivo, porque um segundo registry manual seria uma segunda verdade.
+
+O estado que governa conduta é `states.clinical_validity`, com os valores
+canônicos do schema: `current`, `pending`, `historical_only`, `conflict`,
+`quarantined`. Os rótulos antigos `CURRENT_VERIFIED` / `CURRENT_PENDING` /
+`CONFLICT` / `QUARANTINED` são legados de leitura; nas cápsulas eles ainda
+aparecem embutidos na coluna Status dos Dados de precisão e devem ser lidos como
+`current` / `pending` / `conflict` / `quarantined`.
+
+Regras:
+
+- `current` — pode aparecer como prática vigente.
+- `pending`, `conflict`, `quarantined`, `historical_only` — exigem separação
+  explícita, checagem em fonte oficial atual, ou abstenção do detalhe.
+- `CONFIRMADO` na cápsula prova apenas que a **transcrição/alinhamento
+  curricular** foi conferida. Nunca promova `CONFIRMADO` a vigência clínica.
+
+### 3.1 Claim crítico ausente do registry — o caso majoritário
+
+O registry cobre hoje uma fração pequena das afirmações críticas do pacote
+(inventário determinístico em `qualification/reports/CLINICAL_SWEEP_REPORT.md`).
+Ausência do registry **não** é `current` e **não** é permissão para asserir.
+Trate claim crítico não registrado como `pending`:
+
+- pode ser estudado e apresentado como **conteúdo curricular** — "segundo o
+  material/a prova do P7" — porque é isso que ele comprovadamente é;
+- **não** pode ser apresentado como conduta clínica vigente sem sinalização;
+- em dose, concentração, via, dose máxima, contraindicação, interação, janela
+  temporal e emergência, a sinalização é **obrigatória e explícita**: diga que o
+  dado vem do material curricular e não foi verificado em fonte vigente, ou
+  abstenha-se do número;
+- nunca invente a verificação. Não diga "conferido na diretriz" sem ter aberto a
+  diretriz nesta sessão.
+
+Fingir que o registry cobre algo que ele não cobre é exatamente a falha que esta
+camada existe para impedir.
 
 ### A. Base suficiente
 Responda direto · explique o pivô clínico · aponte a conduta principal · mostre a

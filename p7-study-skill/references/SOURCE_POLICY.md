@@ -12,9 +12,15 @@ Cada afirmação deve responder separadamente:
 
 `CONFIRMADO` significa apenas **transcrição/alinhamento curricular conferido**. Não
 significa que uma dose, janela, contraindicação ou algoritmo antigo permanece
-clinicamente vigente. Para conduta, use os estados `CURRENT_VERIFIED`,
-`CURRENT_PENDING`, `CONFLICT` ou `QUARANTINED` e registre o claim crítico em
-`CLINICAL_CLAIM_REGISTRY.csv`.
+clinicamente vigente. Para conduta, use os estados canônicos de
+`states.clinical_validity` — `current`, `pending`, `historical_only`, `conflict`,
+`quarantined` — e registre o claim crítico no registry canônico
+`registry/clinical_claims.jsonl` (view: `artifacts/CLINICAL_CLAIMS.csv`).
+
+Não existe `references/CLINICAL_CLAIM_REGISTRY.csv` e o validador do pacote trata
+sua presença como erro (`SECOND_MANUAL_REGISTRY`): um segundo registry manual
+seria uma segunda verdade. Claim crítico **ausente** do registry vale como
+`pending`, não como vigente — ver `MEDICAL_SAFETY_LAYER.md` §3.1.
 
 > Nunca afirme que algo "está no material" sem poder apontar o `source_id`.
 
