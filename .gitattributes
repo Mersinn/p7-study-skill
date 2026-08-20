@@ -1,0 +1,22 @@
+# Reprodutibilidade determinística do pacote P7.
+# Os artefatos (PACKAGE_MANIFEST.json, CAPSULE_CATALOG.json, METRICS.json) armazenam
+# bytes e SHA-256 do working tree. Sem normalização, um checkout em Windows com
+# core.autocrlf=true produz CRLF, altera bytes/hashes e quebra
+# `reconcile_package.py --check` para qualquer consumidor downstream.
+# Todo conteúdo textual do pacote é LF no índice e no working tree.
+* text=auto eol=lf
+
+*.md   text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.csv  text eol=lf
+*.py   text eol=lf
+*.yaml text eol=lf
+*.yml  text eol=lf
+VERSION text eol=lf
+
+# Binários (nenhum rastreado hoje; regra defensiva).
+*.png binary
+*.jpg binary
+*.pdf binary
+*.zip binary
