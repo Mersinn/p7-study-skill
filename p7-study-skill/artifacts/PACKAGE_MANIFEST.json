@@ -1037,9 +1037,9 @@
       "sha256": "e1acd7a4c5e36823c8df3f479e16be71330bd2a7cdf9e3c549eb0f456bcb60b5"
     },
     {
-      "bytes": 31979,
+      "bytes": 40959,
       "path": "registry/clinical_claims.jsonl",
-      "sha256": "6bbf6712d27541f863bba59984dcae8d55fbb711372868124306d2a81b5184f2"
+      "sha256": "6071b23db20e038cbeed6fe4247b751ff31a39fd319f455d2aa7a6e21d91340b"
     },
     {
       "bytes": 2633,
@@ -1047,19 +1047,19 @@
       "sha256": "359ab09134e1eee88322a06e9038cbd6b7cf3da8be7558d2bef2cb3b75d6c2c1"
     },
     {
-      "bytes": 734,
+      "bytes": 1612,
       "path": "registry/reviewers.json",
-      "sha256": "a35d62dd7f29aa4ab8d046562521d9ccec57da24ee17b8d7c4479c01536c7d0a"
+      "sha256": "c163bea06c069d5d8163c16c0f3d6b79974a3911d9a57742d902824b2c3ffad4"
     },
     {
-      "bytes": 7796,
+      "bytes": 10710,
       "path": "registry/source_versions.jsonl",
-      "sha256": "149686efb6b81c4b608ea366000e66f3f246e735cf3186259554faef21e9728b"
+      "sha256": "444ac31c2fbe6b8dfb8aee1b103defdcc70c2cccd7c83f1470dd50cafa9d2b84"
     },
     {
-      "bytes": 4426,
+      "bytes": 5880,
       "path": "registry/sources.jsonl",
-      "sha256": "ece9ae6f0b4ca419165ed261a59288c1fff040194d917fc8e179c973c1728369"
+      "sha256": "990fc90c2ea374ae1546904c9db84ea9694cd363f5371d09ffc34f500072ecff"
     },
     {
       "bytes": 1376,
@@ -1174,5 +1174,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 2894334
+  "total_bytes": 2908560
 }

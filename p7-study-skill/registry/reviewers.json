@@ -10,6 +10,16 @@
       "exact_serving_version": "not exposed",
       "human_review": false,
       "notes": "Revisão por agente independente; não equivale a revisão clínica humana."
+    },
+    {
+      "schema_version": "1.0.0",
+      "reviewer_id": "agent:qualificacao_p7:2026-08-20-claude",
+      "role": "independent_reviewer_l2",
+      "provider": "Anthropic",
+      "model": "Claude Code (Opus 5 no inicio da sessao; usuario trocou para claude-sonnet-5 via /model durante a sessao)",
+      "exact_serving_version": "not exposed",
+      "human_review": false,
+      "notes": "Revisor independente com acesso a WebSearch/WebFetch nesta sessao. Sem ferramenta de OCR/renderizacao de PDF no ambiente — fontes primarias em PDF escaneado/comprimido nao puderam ser lidas diretamente; corroboracao feita via multiplas fontes secundarias independentes descrevendo o mesmo documento primario, com valores numericos explicitos e datados. Essa limitacao esta registrada claim a claim; nenhum claim foi promovido a current sem locator concreto obtido nesta sessao."
     }
   ],
   "generation_runs": [

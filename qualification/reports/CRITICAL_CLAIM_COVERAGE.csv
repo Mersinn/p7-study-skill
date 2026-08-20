@@ -99,7 +99,7 @@ capsule:eisca:cardiopatias_congenitas,capsules/EISCA/cardiopatias_congenitas.md,
 capsule:eisca:convulsao_febril,capsules/EISCA/convulsao_febril.md,EISCA,high,63,40,24,0,40,0.0
 capsule:eisca:crescimento_e_desenvolvimento,capsules/EISCA/crescimento_e_desenvolvimento.md,EISCA,medium,68,37,28,0,37,0.0
 capsule:eisca:diagnostico_diferencial_das_anemias_na_infancia,capsules/EISCA/diagnostico_diferencial_das_anemias_na_infancia.md,EISCA,medium,42,16,15,0,16,0.0
-capsule:eisca:diarreia_aguda_desidratacao_planos_reidratacao,capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md,EISCA,high,139,74,34,0,74,0.0
+capsule:eisca:diarreia_aguda_desidratacao_planos_reidratacao,capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md,EISCA,high,139,74,34,5,11,85.14
 capsule:eisca:doenca_hemolitica_perinatal_rh_abo,capsules/EISCA/doenca_hemolitica_perinatal_rh_abo.md,EISCA,high,9,4,4,0,4,0.0
 capsule:eisca:doencas_exantematicas,capsules/EISCA/doencas_exantematicas.md,EISCA,high,55,16,12,0,16,0.0
 capsule:eisca:faringoamigdalite_estreptococica_escarlatina,capsules/EISCA/faringoamigdalite_estreptococica_escarlatina.md,EISCA,high,34,21,13,0,21,0.0

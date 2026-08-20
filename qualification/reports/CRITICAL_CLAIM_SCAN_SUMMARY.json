@@ -1,8 +1,8 @@
 {
   "capsules_high_risk": 105,
-  "capsules_high_risk_with_zero_registered_claims": 94,
+  "capsules_high_risk_with_zero_registered_claims": 93,
   "capsules_scanned": 158,
-  "claims_registered": 41,
+  "claims_registered": 46,
   "denominator_by_category": {
     "calendario_regra_jurisdicional": 29,
     "contraindicacao_interacao": 345,
@@ -40,6 +40,6 @@
   "sweep_denominator_high_risk": 2520,
   "sweep_denominator_high_risk_lines": 1853,
   "sweep_denominator_lines": 2414,
-  "unresolved_high_risk": 2441,
-  "unresolved_total": 3122
+  "unresolved_high_risk": 2378,
+  "unresolved_total": 3059
 }
