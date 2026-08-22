@@ -1,7 +1,7 @@
 {
   "claims_by_clinical_validity": {
-    "conflict": 1,
-    "current": 43,
+    "conflict": 3,
+    "current": 41,
     "quarantined": 8
   },
   "claims_by_detector_linkage_status": {
