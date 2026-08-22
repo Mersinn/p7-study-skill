@@ -249,8 +249,8 @@ def main() -> int:
 
     summary = {
         "schema_version": SCHEMA_VERSION,
-        "detector_hash_frozen": "6341856236ae0eac6298a843dfe2e90414210ef706d09fc0d0cdbbc55bd09daa",
-        "detector_schema_version": "1.3.0",
+        "detector_hash_frozen": "771b504b23650e8d048479263647b60acdc8683aa92d8ca95db8c4418cc41323",
+        "detector_schema_version": "1.4.0 (CONGELADO — ver DETECTOR_VALIDATION_REPORT.md secao 11.5)",
         "input_occurrences": len(rows),
         "clusters_total": len(clusters),
         "dedup_ratio": round(len(rows) / len(clusters), 2) if clusters else 0,

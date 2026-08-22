@@ -5,7 +5,7 @@
   "claims_registered": 48,
   "denominator_by_category": {
     "calendario_regra_jurisdicional": 29,
-    "contraindicacao_interacao": 345,
+    "contraindicacao_interacao": 386,
     "cutoff_escore_estadiamento": 1400,
     "dose_via_intervalo": 841,
     "emergencia_sinal_alarme": 236,
@@ -14,19 +14,19 @@
     "sequencia_terapeutica": 134
   },
   "denominator_by_discipline": {
-    "CASOS_CLINICOS": 227,
-    "EISA_II": 1669,
-    "EISCA": 1108,
-    "EISM": 326,
-    "OSCE": 232
+    "CASOS_CLINICOS": 229,
+    "EISA_II": 1698,
+    "EISCA": 1114,
+    "EISM": 328,
+    "OSCE": 234
   },
-  "detections_total": 8855,
+  "detections_total": 8907,
   "excluded_from_denominator": {
     "historical_section": 17,
     "non_critical_category": 1338,
-    "pedagogic_meta_section": 2826,
+    "pedagogic_meta_section": 2840,
     "provenance_section": 355,
-    "weak_tier": 2697
+    "weak_tier": 2693
   },
   "limitations": [
     "Detecção lexical: mede presença de afirmação crítica, não correção clínica.",
@@ -35,11 +35,11 @@
     "Seções `pedagogic_meta` (distratores, pegadinhas, mini-casos, como cai) ficam fora do denominador porque afirmam o erro, não a conduta; permanecem auditáveis no CSV.",
     "Nenhum gate é fechado por este artefato."
   ],
-  "schema_version": "1.3.0",
-  "sweep_denominator": 3562,
-  "sweep_denominator_high_risk": 2782,
-  "sweep_denominator_high_risk_lines": 1984,
-  "sweep_denominator_lines": 2606,
-  "unresolved_high_risk": 2696,
-  "unresolved_total": 3476
+  "schema_version": "1.4.0",
+  "sweep_denominator": 3603,
+  "sweep_denominator_high_risk": 2818,
+  "sweep_denominator_high_risk_lines": 2009,
+  "sweep_denominator_lines": 2633,
+  "unresolved_high_risk": 2732,
+  "unresolved_total": 3517
 }

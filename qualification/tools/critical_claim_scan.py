@@ -45,7 +45,27 @@ import unicodedata
 from pathlib import Path
 from typing import Any, Iterable
 
-SCHEMA_VERSION = "1.3.0"
+SCHEMA_VERSION = "1.4.0"
+
+# Changelog (v1.4.0): FINAL FREEZE. Achado da validacao fresca de recall
+# pos-v1.3.0 (3a amostra, 12 capsulas, sem sobreposicao com as duas amostras
+# anteriores — ver DETECTOR_VALIDATION_REPORT.md secao 11). Unico gap
+# corrigido, por criterio explicito de "so reparar achado sistematico de alto
+# risco, nao perseguir recall perfeito": verbos de CONTRAINDICACAO so
+# casavam em forma participio/substantivo (contraindicado/contraindicacao),
+# nao na forma verbal conjugada (contraindica/contraindicam) — igual ao
+# problema ja corrigido para "evitar" em v1.2.0, mas que ficou faltando aqui.
+# Achado real: "sangue no meato uretral | Contraindica sondagem cega" nao era
+# capturado. Contraindicacao e uma das 5 categorias de dano prioritario.
+#
+# Gaps adicionais encontrados na mesma amostra e DELIBERADAMENTE NAO
+# corrigidos (diminishing returns, nao sistematico/alto-risco o suficiente
+# para justificar mais uma rodada): unidade "UFC/mL" ausente (corte de
+# urocultura); "a partir de Xh" nao coberto (só anos/meses/semanas/dias);
+# abreviacao "sem." faltando especificamente no padrao "ate Xsem."; forma
+# adjetival "nao indicado" (vs. verbo "nao indicar") — este ultimo e
+# direcao seguranca (sub-deteccao de uma NEGACAO e conservador, nao perigoso).
+# Registrados como limitacao conhecida do detector congelado nesta versao.
 
 # Changelog (v1.3.0): achado da REVALIDACAO de recall pos-v1.2.0 (amostra fresca,
 # 18 capsulas sem sobreposicao com a amostra que motivou v1.2.0 — ver
@@ -139,7 +159,8 @@ CATEGORY_PATTERNS: dict[str, list[tuple[str, str]]] = {
         (r"\bjanela\b", "weak"),
     ],
     "contraindicacao_interacao": [
-        (r"\b(?:contraindicad[oa]|contra-indicad[oa]|contraindicacao|contraindicacoes)\b", "strong"),
+        (r"\b(?:contraindicad[oa]|contra-indicad[oa]|contraindicacao|contraindicacoes|"
+         r"contraindic[ae]m?|contraindicando)\b", "strong"),
         (r"\bnao\s+(?:se\s+)?(?:usar|administrar|prescrever|associar|indicar|iniciar|realizar|fazer)\w*\b", "strong"),
         (r"\bnunca\s+(?:usar|administrar|prescrever|associar|indicar|iniciar|realizar|fazer)\w*\b", "strong"),
         (r"\b(?:interacao|interage com|potencializa|antagoniza)\b", "strong"),

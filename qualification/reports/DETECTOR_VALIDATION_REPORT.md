@@ -319,14 +319,92 @@ existisse. Ligação numérica prova "mesmo número", não "mesma proposição
 clínica" — a leitura humana/adversarial de cada claim antes de fechá-lo
 continua sendo o controle real, não o script.
 
-## 10. Reprodução (estado vigente v1.3.0 + link fix)
+## 11. Validação final fresca v1.3.0 → congelamento em v1.4.0
+
+Invariante do usuário: o recall de 93,6% pertence à v1.2.0; como o detector
+mudou para v1.3.0, era preciso validar de novo, fresco, antes de continuar
+usando o número como se ainda valesse. Loop limitado: uma validação, no
+máximo um reparo se aparecer gap sistemático de alto risco, depois congelar.
+
+### 11.1 Terceira amostra, sem sobreposição com as duas anteriores
+
+Seed `20260822`, 12 cápsulas (3 por disciplina), interseção vazia confirmada
+com as amostras da seção 3 (20 cápsulas) e da seção 7 (18 cápsulas) —
+`qualification/reports/DETECTOR_FN_CAPSULE_LIST_v3.csv`. Leitura completa do
+gap (`FN_GAP_LINES_v3.txt`) contra o denominador v1.3.0.
+
+### 11.2 Achados — um gap sistemático de alto risco, o resto descartado por critério explícito
+
+**Corrigido (o único reparo permitido nesta rodada):** verbos de
+**contraindicação** só casavam na forma particípio/substantivo
+(`contraindicado`, `contraindicação`), não na forma verbal conjugada
+(`contraindica`, `contraindicam`) — o mesmo tipo de lacuna já corrigido para
+"evitar" em v1.2.0, mas que ficou faltando para o verbo-âncora da própria
+categoria. Achado concreto perdido: `capsules/EISA_II/trauma_urogenital.md`,
+"Sangue no meato uretral | **Contraindica** sondagem cega — investigar com
+uretrocistografia" — uma contraindicação de segurança real, na categoria
+`contraindicacao_interacao`, uma das 5 categorias de dano prioritário
+definidas pelo usuário. Isso justifica o único reparo desta rodada.
+
+**Encontrado e DELIBERADAMENTE não corrigido** (critério explícito do
+usuário: não perseguir recall perfeito, não expandir regex indefinidamente):
+unidade `UFC/mL` ausente do vocabulário (corte de urocultura); `a partir de
+Xh` não coberto (só anos/meses/semanas/dias); abreviação `sem.` faltando
+especificamente no padrão `ate Xsem.` (já corrigida em outros 3 padrões, não
+neste); forma adjetival "não indicado" vs. verbo "não indicar" — este último
+é direção-segurança (sub-detectar uma negação é conservador, não perigoso).
+Nenhum destes é um padrão sistemático isolado do tamanho do achado de
+contraindicação — são ruído de cauda longa, esperado em qualquer detector
+lexical.
+
+### 11.3 Correção aplicada e verificada
+
+Hash `63418562…` (v1.3.0) → `771b504b…` (v1.4.0). Denominador: 3.562 → 3.603
+(+1,2%; alto risco 2.782 → 2.818). Verificado nesta sessão: a linha do
+achado concreto (`trauma_urogenital.md`, "Contraindica sondagem cega") agora
+aparece no denominador (`in_sweep_denominator=True`).
+
+### 11.4 Regressão sobre as amostras anteriores
+
+As duas correções de recall anteriores (v1.1→v1.2: 14 achados; v1.2→v1.3: o
+padrão de intervalo "nu") foram reverificadas nesta versão — nenhuma
+reapareceu como gap. O link-fix da seção 9 (4 bugs de ligação) também
+permanece correto: a amostra final de 40 detecções resolvidas (§9.6)
+continua válida, pois o patch desta seção não tocou `numeric_tokens()` nem
+`is_material_match()`.
+
+### 11.5 Detector CONGELADO em v1.4.0
+
+Não haverá mais rodada de correção de recall/precisão nesta qualificação,
+por decisão explícita do usuário. Estado final:
+
+| | v1.4.0 (congelado) |
+|---|---|
+| hash | `771b504b23650e8d048479263647b60acdc8683aa92d8ca95db8c4418cc41323` |
+| denominador | 3.603 |
+| denominador em alto risco | 2.818 |
+| precisão medida (amostra v1.1→v1.2, n=220) | 94,1% — não revalidada em v1.3/v1.4, herdada com incerteza |
+| recall medido (3 amostras independentes, 20+18+12=50 cápsulas, 32% do pacote) | ~93-94% estimado, com gaps sistemáticos conhecidos corrigidos e gaps de cauda longa conscientemente deixados abertos |
+
+**Limitações conhecidas e aceitas, não escondidas:**
+- precisão nunca foi revalidada após v1.2 — as correções de v1.3/v1.4 foram
+  aditivas (novos padrões, não alteração dos existentes), então o risco de
+  ter piorado precisão é baixo mas não zero;
+- 4 gaps de cauda longa identificados na seção 11.2 permanecem sem correção;
+- o mecanismo de ligação (seção 9) continua puramente lexical, sem validação
+  de população/contexto além de token numérico compartilhado;
+- todo denominador é um inventário operacional para priorizar trabalho, não
+  uma contagem certificada do universo clínico do pacote.
+
+## 12. Reprodução (estado final v1.4.0)
 
 ```bash
 python qualification/tools/critical_claim_scan.py --root p7-study-skill --out qualification/reports
 python qualification/tools/cluster_and_tier.py --out qualification/reports
-# precisão (amostra histórica v1.1->v1.2, não re-executada em v1.3.0):
+# as 3 amostras de recall, sem sobreposicao entre si:
+python qualification/tools/fn_gap_report.py > qualification/reports/FN_GAP_LINES.txt          # amostra 1 (secao 3)
+python qualification/tools/fn_gap_report.py > qualification/reports/FN_GAP_LINES_v1.2.txt      # amostra 2 (secao 7)
+python qualification/tools/fn_gap_report.py > qualification/reports/FN_GAP_LINES_v3.txt        # amostra 3 (secao 11)
+# precisao (amostra historica v1.1->v1.2, n=220, nao revalidada em versoes seguintes):
 python qualification/tools/validate_detector.py --seed 20260820 --sample-size 220 --fn-capsules 20
-# recall fresco (amostra desta seção 7, sem sobreposição com a acima):
-python qualification/tools/validate_detector.py --seed 20260821 --sample-size 30 --fn-capsules 20
-python qualification/tools/fn_gap_report.py > qualification/reports/FN_GAP_LINES_v1.2.txt
 ```
