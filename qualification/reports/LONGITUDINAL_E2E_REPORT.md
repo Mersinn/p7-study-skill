@@ -5,6 +5,9 @@
 **Executor:** `work/ledger_e2e_check.py`, usando diretamente
 `p7-study-skill/scripts/ledger.py`.
 
+O E2E foi preservado como execução histórica do ledger; a branch vigente agora
+está em `b1cc464`, sem alteração no código do ledger entre os snapshots.
+
 ## Cenário executado
 
 - sessão A criou confiança e tentativa incorreta;

@@ -1042,9 +1042,9 @@
       "sha256": "8bc5c37197fa481eb1c9f0610262cf778142482e338703f005ee19df0874f60f"
     },
     {
-      "bytes": 3133,
+      "bytes": 3613,
       "path": "registry/release_gates.json",
-      "sha256": "00663c7ecccca541be6bd5d82d3dfe554da7b6c0a8613678137560eb38b79e4b"
+      "sha256": "a1960aeaabd47aa0c04aebcf90fccd2e0b049d2facd9163349ab8892b76a38ab"
     },
     {
       "bytes": 2473,
@@ -1174,5 +1174,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 2954915
+  "total_bytes": 2955395
 }

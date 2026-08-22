@@ -1,8 +1,8 @@
 # CLEAN_INSTALL_REPORT — instalação descartável
 
 **Data:** 22/08/2026  
-**Fonte:** `qualification/v1.0.0-codex` @ `f56a1e5`  
-**Ambiente:** cópia descartável em `work/clean_install_20260822`, fora do clone
+**Fonte:** `qualification/v1.0.0-codex` @ `b1cc464`  
+**Ambiente:** cópia descartável em `work/clean_install_20260822_v2`, fora do clone
 versionado; nenhum corpus bruto foi copiado.
 
 ## Procedimento reproduzido
@@ -17,7 +17,7 @@ versionado; nenhum corpus bruto foi copiado.
 python scripts/run_tests.py                         → 20/20 PASS
 python scripts/reconcile_package.py --write         → EXIT_CODE=0
 python scripts/reconcile_package.py --check         → 158 cápsulas reconciliadas, EXIT_CODE=0
-python scripts/validate_package.py                 → error=0, warn=36, info=2, EXIT_CODE=0
+python scripts/validate_package.py                 → error=2, warn=36, info=2, EXIT_CODE=1 (2 conflitos clínicos de alto risco)
 python scripts/validate_package.py --release-gate   → EXIT_CODE=1, HOLD
 ```
 
@@ -31,4 +31,6 @@ A invocação da skill numa superfície de modelo headless não foi concluída: 
 tentativa T10 terminou com `ConnectionRefused`, e uma repetição fora do sandbox
 exigiria autorização explícita para exportar o pacote/fixtures a uma API
 externa. Portanto este relatório comprova instalação e runtime determinístico,
-mas não fecha o gate `clean_install` nem `scripted_user_journeys`.
+mas não fecha o gate `clean_install` nem `scripted_user_journeys`; o pacote
+também preserva os dois conflitos clínicos de alto risco, por isso o release
+gate permanece vermelho mesmo com a instalação determinística aprovada.

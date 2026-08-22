@@ -1,7 +1,8 @@
 # BEHAVIORAL_EXECUTION_BLOCKER — Marco B
 
 **Data:** 22/08/2026  
-**Branch:** `qualification/v1.0.0-codex` @ `f56a1e5`  
+**Branch vigente:** `qualification/v1.0.0-codex` @ `b1cc464`  
+**Snapshot da tentativa:** `f56a1e5`  
 **Fixture tentada:** T10 / `F-HET10`  
 **Fixture SHA-256:** `c4acba1b848ccf3f1b42feb0ad99a635853d7716c66f8f415de62fda4a979016`
 

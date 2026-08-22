@@ -1,6 +1,6 @@
 # BEHAVIORAL_QUALIFICATION_REPORT — T01–T24
 
-**Branch vigente:** `qualification/v1.0.0-codex` @ `f56a1e5` (base recebida
+**Branch vigente:** `qualification/v1.0.0-codex` @ `b1cc464` (base recebida
 `origin/qualification/v1.0.0-claude` @ `0a9f558`)
 **Estado herdado:** fixtures materializadas para os 24 testes (24/24). Execução real
 iniciada — **1 de 24 testes com dado comportamental real e adjudicado
@@ -12,6 +12,10 @@ mas o runtime headless terminou antes da inferência com `API Error: Unable to
 connect to API (ConnectionRefused)`. O raw está em
 `qualification/runs/behavioral/T10/infra_attempt_api_error.json`; não é run
 comportamental e não altera o veredito. Nenhuma sentinela nova foi promovida.
+
+O snapshot comportamental tentado foi preservado no histórico anterior à
+revalidação clínica; o estado vigente da branch inclui os marcos clínicos
+posteriores, sem reclassificar essa execução de infraestrutura.
 
 <!-- Histórico preservado abaixo; o branch/estado vigente está acima. -->
 **Gates fechados por este documento:** nenhum. `behavioral_sentinels_3_of_3`
