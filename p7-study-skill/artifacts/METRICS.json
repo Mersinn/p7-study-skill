@@ -1,12 +1,13 @@
 {
   "canonical_evidence_registry": {
     "claims_by_validity": {
-      "current": 40,
+      "conflict": 1,
+      "current": 43,
       "quarantined": 8
     },
-    "clinical_claims": 48,
-    "source_versions": 23,
-    "sources": 23
+    "clinical_claims": 52,
+    "source_versions": 24,
+    "sources": 24
   },
   "capsules": {
     "baseline_before_recovery": 156,

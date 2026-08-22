@@ -139,3 +139,57 @@ superficialmente.
 `osce_neurologia` (39), `osce_urologia` (37) — ver
 `qualification/reports/CAPSULE_ADJUDICATION_WORKLIST.csv` para a lista
 completa e ordenada.
+
+---
+
+## 3. `capsule:eisca:sepse_e_meningite_neonatal` (2026-08-22)
+
+**Rank no worklist pós-priorização por categoria:** #3, dominado por
+`emergencia_sinal_alarme` (30 de 40 não resolvidos) — cápsula só camada B
+(duas anotações de aula convergentes, sem slide do professor).
+
+**Pesquisa realizada:** WebSearch para localizar diretriz/revisão real →
+identificados protocolos institucionais e uma revisão de literatura da SPRS
+(Sociedade de Pediatria do RS), "Boletim Científico de Pediatria" 2012
+(Silveira RC & Procianoy RS). `WebFetch` direto falhou num PDF (erro de
+certificado) e falhou em decodificar outro (stream binário); o segundo foi
+salvo localmente e o texto extraído via **PyMuPDF** (mesmo método já
+validado nesta sessão) — 7 páginas, 31.089 caracteres, leitura completa.
+
+**Fechado (3 claims `current`, 1 `conflict`):**
+
+| claim_id | Estado | Achado |
+|---|---|---|
+| `claim:sepse-neonatal.janela-precoce-tardia` | `current`, com nota | Fonte primária confirma a janela mas a descreve como faixa "48 a 72 horas", não um corte único. 72h (valor da cápsula) é a simplificação amplamente usada — não é erro, mas registrado como menos preciso que a faixa da fonte. |
+| `claim:sepse-neonatal.amniorrexe-fator-risco-maior` | `current` | Confirmado exatamente (>18h) na Tabela 1 da fonte primária. O multiplicador "risco 4x" da cápsula não foi confirmado nem contradito nesta fonte. |
+| `claim:sepse-neonatal.esquema-empirico-precoce` | `current`, com nota | Núcleo (ampicilina + gentamicina) confirmado textualmente. Penicilina G e amicacina como alternativas não foram citadas nesta fonte especificamente — mantidas sem alteração, não contraditas. |
+| `claim:sepse-neonatal.febre-materna-limiar` | **`conflict`** | Achado real de divergência numérica: a cápsula usa **>38°C** (3 ocorrências, incluindo o pivô clínico central) para febre materna intraparto como fator de risco maior; a fonte primária usa **>37,5°C**. Não resolvido nesta sessão — pode ser variação real de protocolo, não erro. Cápsula **não alterada** até segunda fonte independente. |
+
+**Achado explicitamente NÃO promovido:** o esquema empírico da sepse **tardia**
+(a cápsula lista "oxacilina+cefepima OU vancomicina+meropenem OU
+piperacilina+tazobactam") não foi confirmado — a fonte primária lida afirma
+textualmente que **não há dados de estudos randomizados** que estabeleçam o
+melhor esquema empírico tardio, e a escolha depende do perfil local de
+resistência da UTI. Permanece `pending`. Também permanecem pending: critérios
+de choque séptico, hemograma infeccioso (3/7 critérios), cinética de PCR,
+meta de hematócrito, e o "escore de Rodwell" citado nas devolutivas (já
+sinalizado como não localizado pela própria cápsula).
+
+**Limitação de mecanismo observada e registrada:** a cobertura automática
+desta cápsula em `CRITICAL_CLAIM_COVERAGE.csv` mostra 0% mesmo com 4 claims
+registrados — não é um erro de registro. É o efeito esperado e aceito do
+endurecimento da ligação numérica feito na auditoria da seção 9 do
+`DETECTOR_VALIDATION_REPORT.md`: valores de tempo "nus" como "18h" não têm
+caractere de unidade reconhecido por `numeric_tokens()` (que só reconhece
+unidades de dose), então um único token bare como "18" não satisfaz mais
+`is_material_match()` sozinho. Direção seguros (sub-contagem, não
+super-contagem) — os claims estão genuinamente registrados e rastreáveis via
+`registry/clinical_claims.jsonl`, só não aparecem no contador automático.
+Não gera novo reparo no detector (já congelado) — registrado como limitação
+conhecida do mecanismo de ligação, não do inventário de claims.
+
+**Evidência nova no registry:** 1 `source` + 1 `source_version` (SPRS
+Boletim, 2012), reutilizando o `reviewer` já registrado.
+
+Pacote: 20/20 testes, reconcile 158 cápsulas, validate error=0 warn=36
+info=2. Nenhum gate fechado.

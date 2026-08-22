@@ -1,8 +1,8 @@
 {
   "capsules_high_risk": 105,
-  "capsules_high_risk_with_zero_registered_claims": 93,
+  "capsules_high_risk_with_zero_registered_claims": 92,
   "capsules_scanned": 158,
-  "claims_registered": 48,
+  "claims_registered": 52,
   "denominator_by_category": {
     "calendario_regra_jurisdicional": 29,
     "contraindicacao_interacao": 386,

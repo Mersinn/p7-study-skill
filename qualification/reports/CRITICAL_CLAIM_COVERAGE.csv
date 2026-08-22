@@ -123,7 +123,7 @@ capsule:eisca:rinofaringite_aguda_resfriado_comum_e_gripe,capsules/EISCA/rinofar
 capsule:eisca:saude_ocular_na_infancia,capsules/EISCA/saude_ocular_na_infancia.md,EISCA,high,59,20,16,0,20,0.0
 capsule:eisca:semiologia_e_classificacao_do_recem_nascido,capsules/EISCA/semiologia_e_classificacao_do_recem_nascido.md,EISCA,medium,85,40,31,0,40,0.0
 capsule:eisca:semiologia_pediatrica,capsules/EISCA/semiologia_pediatrica.md,EISCA,high,11,1,1,1,1,0.0
-capsule:eisca:sepse_e_meningite_neonatal,capsules/EISCA/sepse_e_meningite_neonatal.md,EISCA,high,98,48,31,0,48,0.0
+capsule:eisca:sepse_e_meningite_neonatal,capsules/EISCA/sepse_e_meningite_neonatal.md,EISCA,high,98,48,31,4,48,0.0
 capsule:eisca:tumor_de_wilms,capsules/EISCA/tumor_de_wilms.md,EISCA,medium,54,21,15,0,21,0.0
 capsule:eisca:tumores_do_sistema_nervoso_central_na_infancia,capsules/EISCA/tumores_do_sistema_nervoso_central_na_infancia.md,EISCA,high,98,34,26,0,34,0.0
 capsule:eism:abstinencia_alcoolica_delirium_tremens_wernicke,capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md,EISM,high,72,20,16,3,20,0.0
