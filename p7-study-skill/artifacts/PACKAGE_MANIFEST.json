@@ -692,9 +692,9 @@
       "sha256": "f7ef29cb013e47a0115a0ca58757bd77f54e0b333273c3d191ac0f72f5cd137d"
     },
     {
-      "bytes": 15084,
+      "bytes": 17046,
       "path": "capsules/EISCA/sepse_e_meningite_neonatal.md",
-      "sha256": "833849837ae8df72838cbadb65b8272a1603c80fa1eb04da70c7e7870d6e9398"
+      "sha256": "db7fe328b8568fa78cfffc2a639e996d63caf5c8050b274832ebfcc399e60b54"
     },
     {
       "bytes": 16307,
@@ -1037,9 +1037,9 @@
       "sha256": "e1acd7a4c5e36823c8df3f479e16be71330bd2a7cdf9e3c549eb0f456bcb60b5"
     },
     {
-      "bytes": 51433,
+      "bytes": 51616,
       "path": "registry/clinical_claims.jsonl",
-      "sha256": "6e76c8d277e0f555dfa112abe5f23b17365dc2933e2588182a0c174d6a3c06f0"
+      "sha256": "8bc5c37197fa481eb1c9f0610262cf778142482e338703f005ee19df0874f60f"
     },
     {
       "bytes": 3133,
@@ -1047,19 +1047,19 @@
       "sha256": "00663c7ecccca541be6bd5d82d3dfe554da7b6c0a8613678137560eb38b79e4b"
     },
     {
-      "bytes": 1976,
+      "bytes": 2473,
       "path": "registry/reviewers.json",
-      "sha256": "3a74608b8e14fe440ab3e15b79585fb4c978d0da81fa9474c8b3432b490c2a7f"
+      "sha256": "320b3ee052901dc3433bec937ad0990dab4f01e411ba0be3e085ffd7e28cb50d"
     },
     {
-      "bytes": 13208,
+      "bytes": 14981,
       "path": "registry/source_versions.jsonl",
-      "sha256": "9d9c61bd6f81929b2920fedf24b65515f2b2c9c8cbe82aa9f79c352be1395d51"
+      "sha256": "f026dc7241df0b193a078211c7f6426562a028b7513021687a4c3c695b75f6dc"
     },
     {
-      "bytes": 7195,
+      "bytes": 8016,
       "path": "registry/sources.jsonl",
-      "sha256": "17274b2c4b61d8a8829c0beaf6084a57b289a5aaf6016423867293980baa09b4"
+      "sha256": "9141f42b9e4a188a4d414bf699df1dd3d91dff91d688770acdb1cb4fcc786479"
     },
     {
       "bytes": 1376,
@@ -1174,5 +1174,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 2949679
+  "total_bytes": 2954915
 }

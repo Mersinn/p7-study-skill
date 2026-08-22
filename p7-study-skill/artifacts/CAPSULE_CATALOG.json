@@ -3210,7 +3210,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 15084,
+      "bytes": 17046,
       "capsule_id": "capsule:eisca:sepse_e_meningite_neonatal",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3226,7 +3226,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "833849837ae8df72838cbadb65b8272a1603c80fa1eb04da70c7e7870d6e9398",
+      "sha256": "db7fe328b8568fa78cfffc2a639e996d63caf5c8050b274832ebfcc399e60b54",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Sepse neonatal e meningite neonatal",

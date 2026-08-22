@@ -4,7 +4,7 @@
 **Base:** `origin/qualification/v1.0.0-claude` @ `0a9f558a9727e3bb6aa1fb7e9b967517b53128bb`
 **Estágio vigente (22/08/2026):** detector v1.4.0 congelado; 3.603 ocorrências,
 3.008 clusters, 2.113 clusters Tier A e 2.033 ocorrências Tier A em cápsulas de
-alto risco. Claims canônicos: 52 (43 `current`, 8 `quarantined`, 1 `conflict`).
+alto risco. Claims canônicos: 52 (41 `current`, 8 `quarantined`, 3 `conflict`).
 Adjudicação por diretriz e fechamento dos gates continuam **em andamento**.
 **Gates fechados por este documento:** nenhum.
 

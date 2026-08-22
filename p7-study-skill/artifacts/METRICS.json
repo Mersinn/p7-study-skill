@@ -1,13 +1,13 @@
 {
   "canonical_evidence_registry": {
     "claims_by_validity": {
-      "conflict": 1,
-      "current": 43,
+      "conflict": 3,
+      "current": 41,
       "quarantined": 8
     },
     "clinical_claims": 52,
-    "source_versions": 24,
-    "sources": 24
+    "source_versions": 26,
+    "sources": 26
   },
   "capsules": {
     "baseline_before_recovery": 156,
@@ -27,12 +27,12 @@
       "low": 10,
       "medium": 43
     },
-    "bytes": 2179806,
+    "bytes": 2181768,
     "net_recovered_since_baseline": 2,
     "total": 158,
     "without_resolved_source_id": 28
   },
-  "precision_rows": 2391,
+  "precision_rows": 2392,
   "runtime_source_availability": {
     "corpus_text": {
       "availability": "absent",

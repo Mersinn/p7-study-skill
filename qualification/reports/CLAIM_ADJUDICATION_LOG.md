@@ -193,3 +193,34 @@ Boletim, 2012), reutilizando o `reviewer` já registrado.
 
 Pacote: 20/20 testes, reconcile 158 cápsulas, validate error=0 warn=36
 info=2. Nenhum gate fechado.
+
+---
+
+## 3b. Revalidação focal de sepse neonatal — 2026-08-22 (vigente)
+
+Esta seção **supersede o estado da seção 3** para a decisão atual. A cápsula
+foi confrontada com a diretriz brasileira oficial da SBP de 2025 e com a NICE
+NG195 atualizada em 13/05/2026. A fonte SPRS 2012 foi preservada como evidência
+histórica quase-primária, não como autoridade única.
+
+| Claim | Estado vigente | Decisão reproduzível |
+|---|---|---|
+| `janela-precoce-tardia` | `conflict` | A aula fixa 72h; a SBP 2025 descreve precoce especialmente até 48h e tardia após 48h; a SPRS 2012 descreve faixa 48–72h. A cápsula agora exige declarar a definição do protocolo. |
+| `amniorrexe-fator-risco-maior` | `conflict` | >18h foi confirmado na SPRS, mas a NICE 2026 diferencia >18h antes de parto pré-termo e >24h antes de parto a termo. O risco “4x” não foi verificado; a cápsula deixou de tratar >18h como corte universal. |
+| `esquema-empirico-precoce` | `current` com contexto | A SBP 2025 confirma ampicilina ou penicilina cristalina + amicacina ou gentamicina; a NICE usa benzilpenicilina + gentamicina no contexto britânico. A cápsula condiciona a escolha a protocolo, resistência, peso, rim e suspeita de meningite. |
+| `febre-materna-limiar` | `conflict` | Permanecem >38°C na cápsula, >37,5°C na SPRS e ênfase em sepse materna/chorioamnionite na atualização NICE 2026. Nenhum limiar foi promovido a regra universal. |
+
+**Correções de segurança aplicadas na cápsula:** risco de amniorrexe passou a
+ser estratificado por idade gestacional/protocolo; RN assintomático não recebe
+ATB automaticamente por um fator isolado; punção lombar deixou de ser descrita
+como mandatória em toda sepse tardia; esquema tardio foi alinhado à SBP 2025
+(oxacilina+amicacina como primeira opção; vancomicina+cefotaxima/cefepime como
+segunda, conforme flora/resistência).
+
+**Evidência adicionada ao registry:** `source:sbp.diretrizes-antibioticos-neonatal`
+e `source:nice.ng195.neonatal-infection`, com versões e locators em
+`registry/source_versions.jsonl`. Estado canônico após esta adjudicação: 52
+claims — 41 `current`, 8 `quarantined`, 3 `conflict`.
+
+**Limite mantido:** isto não fecha os gates clínicos. Ainda há claims críticos
+pendentes e o gate global permanece HOLD.
