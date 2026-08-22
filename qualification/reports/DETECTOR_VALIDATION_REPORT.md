@@ -7,7 +7,14 @@ sistematicamente errado. Nenhum gate é fechado por este relatório.
 
 ## 1. Estado do detector
 
-| | v1.1.0 (congelado p/ amostra §2-3) | v1.2.0 (pós-correção) | v1.3.0 (pós-recall §7) |
+**Estado vigente em 22/08/2026:** o detector está congelado em **v1.4.0**
+(hash `771b504b23650e8d048479263647b60acdc8683aa92d8ca95db8c4418cc41323`).
+O inventário atual é de **3.603 ocorrências**, **3.008 clusters**, **2.113
+clusters Tier A** e **2.033 ocorrências Tier A em alto risco**, conforme
+`CLAIM_CLUSTER_SUMMARY.json`. Os valores v1.1–v1.3 na tabela seguinte são
+históricos de validação e não devem ser usados como denominador atual.
+
+| | v1.1.0 (histórico) | v1.2.0 (histórico) | v1.3.0 (histórico) |
 |---|---|---|---|
 | hash | `c8e340ce…3613c` | `a51038c0…6c43b1f` | `63418562…d09daa` |
 | denominador (claims críticos) | 2 659 | 3 201 (+20,4%) | **3 562** (+11,3%) |

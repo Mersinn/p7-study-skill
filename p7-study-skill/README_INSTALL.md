@@ -3,7 +3,8 @@
 Skill privada de estudo do P7 (sétimo período, ciclo clínico — FAMENE).
 
 > **Estado: `1.0.0-rc.1` / HOLD.** Esta candidata não é a v1.0.0 final e
-> permanece bloqueada até os gates clínicos, comportamentais e do piloto.
+> permanece bloqueada até os gates clínicos, comportamentais, de longitudinalidade,
+> jornadas sintéticas e instalação limpa.
 
 Sucede a `p6-study-skill` v2.1.0, herdando a arquitetura e recuperando
 regressões e defeitos conhecidos (ver `CHANGELOG` abaixo).
@@ -116,8 +117,8 @@ claim crítico pendente/conflitante fica em quarentena, mesmo com L1. Ver
 `capsule_generation/CAPSULE_GENERATION_POLICY.md` §4.
 
 **2. Regra do silêncio no diagnóstico de raciocínio.**
-O piloto controlado Diagnos 1C-A (2026-07-28, 40 agentes cegos) refutou a
-hipótese H4 com um achado preciso: o motor converteu **silêncio em fato** —
+A análise adversarial registrada para o Diagnos 1C-A refutou a hipótese H4 com
+um achado preciso: o motor converteu **silêncio em fato** —
 concluiu que o aluno "não processou o comando" apenas porque ele não mencionou o
 comando. `references/QUESTION_INTELLIGENCE_P7.md` §8 proíbe **essa** inferência
 específica — e, no mesmo movimento, §8.1 protege o motor: alternativa marcada,

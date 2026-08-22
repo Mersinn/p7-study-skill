@@ -28,4 +28,4 @@ Antes de propor release:
 4. `python scripts/validate_package.py`
 5. `python scripts/validate_package.py --release-gate`
 
-O quinto comando deve permanecer vermelho enquanto houver blocker clínico, varredura incompleta ou piloto pendente. Não remova um gate para obter verde.
+O quinto comando deve permanecer vermelho enquanto houver blocker clínico, varredura incompleta ou gate de qualificação pendente. A qualificação usa jornadas sintéticas reproduzíveis; não remova um gate para obter verde.

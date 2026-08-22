@@ -1,0 +1,24 @@
+{
+  "claims_by_clinical_validity": {
+    "conflict": 1,
+    "current": 43,
+    "quarantined": 8
+  },
+  "claims_by_detector_linkage_status": {
+    "linked": 14,
+    "not_linked_conservative": 34,
+    "not_linked_known_temporal_token_limit": 4
+  },
+  "claims_by_evidence_locator_status": {
+    "complete": 52
+  },
+  "claims_total": 52,
+  "interpretation": "This view counts each canonical registry claim once. Clinical validity and evidence locator status are independent from occurrence-level lexical linkage. It does not close any release gate.",
+  "schema_version": "1.0.0",
+  "time_window_claims": {
+    "known_temporal_token_limit": 4,
+    "linked": 2,
+    "total": 6
+  },
+  "view": "canonical_claim_coverage"
+}

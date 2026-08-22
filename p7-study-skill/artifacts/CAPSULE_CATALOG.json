@@ -1,7 +1,7 @@
 {
   "capsules": [
     {
-      "bytes": 13109,
+      "bytes": 13211,
       "capsule_id": "capsule:casos_clinicos:abordagem_a_dispneia",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -17,7 +17,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "0ccae36f973a4096788fc54cb231ae07d9b27e97435ab07f2c7faa75480f934b",
+      "sha256": "f455d5f8493e0acd535384cc5c3b5fa9396b5e982d2c6b46206ec4d998d48bd3",
       "source_ids": [
         "CASOS_CL_NICOS_RESUMO__249c11a613",
         "Casos_Cli_nicos_P7_1__4f3f459b20"
@@ -27,7 +27,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 16417,
+      "bytes": 16528,
       "capsule_id": "capsule:casos_clinicos:abordagem_diarreia_aguda_cronica",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -43,7 +43,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "a0dc3910373a2f9d7c81abfb3677e9ca7c82e5523968ede426bb2666ef240fb6",
+      "sha256": "de64e281b05eda8f3fa26c2ef703f4b392a6ee875d89206867a62acec284b1a3",
       "source_ids": [
         "Abordagem_a_s_diarreias__41fb86fd8c",
         "CASOS_CL_NICOS_RESUMO__249c11a613",
@@ -55,7 +55,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 15899,
+      "bytes": 16008,
       "capsule_id": "capsule:casos_clinicos:cefaleias_classificacao_sinais_alarme",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -71,7 +71,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "1df243c1fd0a81988c2fcac4e034bcd8102ae82337516c061a762a927c5b4283",
+      "sha256": "157cadcde873d46d25f8afa8122648c3973eaa927f673d6a5a9d0669b9721e3e",
       "source_ids": [
         "CASOS_CL_NICOS_RESUMO__249c11a613",
         "Casos_Cli_nicos_P7_1__4f3f459b20",
@@ -83,7 +83,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 15559,
+      "bytes": 15672,
       "capsule_id": "capsule:casos_clinicos:cirrose_hepatica_ascite_pbe",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -99,7 +99,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "232b139103c66a6edce05f1de164eb17090635d031e7fcf99c79bf3fdd15a996",
+      "sha256": "e1f6ceddd5c2d8028279ff111c8d04924a17e6b22bc9c7b0865a89ca7d24ed0d",
       "source_ids": [
         "2_Avaliac_a_o_Casos_Cli_nicos_TURMA_B_2021_1__7bf703af15",
         "CASOS_CL_NICOS_RESUMO__249c11a613",
@@ -110,7 +110,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 16531,
+      "bytes": 16637,
       "capsule_id": "capsule:casos_clinicos:colite_pseudomembranosa",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -126,7 +126,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "f1e48171b42a5b37631f7e16fd5a639cbf7e4031a29afc1b055e77e7d0efb4c5",
+      "sha256": "fb722ace300e08182dca31738f530bb2846e2faa1d0ff93d309d452718842d67",
       "source_ids": [
         "Abordagem_a_s_diarreias__41fb86fd8c"
       ],
@@ -135,7 +135,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 12431,
+      "bytes": 12538,
       "capsule_id": "capsule:casos_clinicos:doenca_celiaca",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -151,7 +151,7 @@
       "review_status": "reviewed_l1",
       "risk": "low",
       "schema_version": "1.0.0",
-      "sha256": "aef15f67f71a1948ff8bc6bc61b0afe223caf695ec3e563abe85442062e7e39b",
+      "sha256": "b7b0607e4ac00afc650bb451cb0683c5736c9e5c1a6abf7d7e9d16cb5a905658",
       "source_ids": [
         "Abordagem_a_s_diarreias__41fb86fd8c",
         "Casos_Cli_nicos_P7_1__4f3f459b20"
@@ -161,7 +161,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 13088,
+      "bytes": 13195,
       "capsule_id": "capsule:casos_clinicos:doenca_inflamatoria_intestinal_crohn_versus_retocolite_ulcerativa",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -177,7 +177,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "ca5b02d93dca2f59c384efbb9d4595ded221450e61892d021a0b97a8ba6342c4",
+      "sha256": "fb113f00c6028649a386ffc770201cff382d06ffceb279500a9e23c310f50426",
       "source_ids": [
         "Abordagem_a_s_diarreias__41fb86fd8c",
         "Casos_Cli_nicos_P7_1__4f3f459b20"
@@ -187,7 +187,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 10250,
+      "bytes": 10346,
       "capsule_id": "capsule:casos_clinicos:formato_avaliacao_discussao_casos_clinicos",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -203,7 +203,7 @@
       "review_status": "reviewed_l1",
       "risk": "low",
       "schema_version": "1.0.0",
-      "sha256": "56d8f512ab71134303b7d120e7689e9ccac8d67028d83842413dce3d52b83d53",
+      "sha256": "ee51329f4a042bbce6197bfc6be6d45094d17f6c57a34a891bf08dfa2314efdb",
       "source_ids": [
         "Cronograma_Casos_Cli_nicos_P7_2025_Dr_Noma_rio__f855930713"
       ],
@@ -212,7 +212,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 17539,
+      "bytes": 17650,
       "capsule_id": "capsule:casos_clinicos:fraqueza_muscular_miastenia_polimiosite",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -228,7 +228,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "e27bff442e8ee310888727341c73247689ba940470f887e99b4b10b6b97871c9",
+      "sha256": "05a8b90afb9d62df3ddb18b50d569214b59479f97180937912bb2cdd5a23ac40",
       "source_ids": [
         "2_Avaliac_a_o_Casos_Cli_nicos_TURMA_B_2021_1__7bf703af15",
         "Casos_Cli_nicos_P7_1__4f3f459b20"
@@ -238,7 +238,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 14648,
+      "bytes": 14756,
       "capsule_id": "capsule:casos_clinicos:ganho_de_peso_obesidade_e_sindrome_metabolica",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -254,7 +254,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "8ef8114fff9051c8f4c926713e853f823ecd9011c9a3924dfe2f9629ff32fca7",
+      "sha256": "b64d70a91f06efb0dc3d6e8791df0bc76bda59be470d67646795501e4f0b7be2",
       "source_ids": [
         "2_Avaliac_a_o_Casos_Cli_nicos_TURMA_B_2021_1__7bf703af15",
         "FACILITA_OSCE_1___6c6a714b3e",
@@ -266,7 +266,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 17062,
+      "bytes": 17178,
       "capsule_id": "capsule:casos_clinicos:hemorragia_subaracnoide_hipertensao_intracraniana",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -282,7 +282,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "fa5a0d0ab1c9302afc4f3157ca2c6f27751d999eaee92ae09f67dde84172d2af",
+      "sha256": "18728c91ed68b4635cc6000d983a2eba3ab49efbcb708a40ba138917819a473d",
       "source_ids": [
         "Casos_Cli_nicos_P7_1__4f3f459b20",
         "Co_pia_de_faculdade_de_medicina_nova_esperanc_a_1___eaddb424fb",
@@ -294,7 +294,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 12656,
+      "bytes": 12761,
       "capsule_id": "capsule:casos_clinicos:icetericia_e_interpretacao_das_provas_de_funcao_hepatica",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -310,7 +310,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "16309691d837988c1bb75ce2e4bf30952beff87f1e3dea3cc1853a0e37b085b9",
+      "sha256": "7c1f1269384cbe3bad3d64ef601ed9fa2abdf36d6db22cd41b58801cc2ce8151",
       "source_ids": [
         "CASOS_CL_NICOS_RESUMO__249c11a613",
         "Casos_Cli_nicos_P7_1__4f3f459b20"
@@ -320,7 +320,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 10705,
+      "bytes": 10803,
       "capsule_id": "capsule:casos_clinicos:sindrome_do_intestino_irritavel",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -336,7 +336,7 @@
       "review_status": "reviewed_l1",
       "risk": "low",
       "schema_version": "1.0.0",
-      "sha256": "d081daffe9b8d58f7f0cb4faf7c37932d8b59eaf6034457fedaf6c7069931d68",
+      "sha256": "4b5fcdc922296c74ed62acabc1a97dfdc2991290e3f2cf343f234b2349ebc436",
       "source_ids": [
         "Abordagem_a_s_diarreias__41fb86fd8c",
         "CASOS_CL_NICOS_RESUMO__249c11a613"
@@ -346,7 +346,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 15154,
+      "bytes": 15260,
       "capsule_id": "capsule:casos_clinicos:tireoidopatias_hipotireoidismo_nodulo_e_paaf",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -362,7 +362,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "9ec7c86c371451794510b31f830029e99bd2c95341e10578cb17d7a23eade2ff",
+      "sha256": "17e3f5315d7f2818eb7f0fdd88f1d8fdd3b1b88e946b47573f6feb0729eb25b3",
       "source_ids": [
         "2_Avaliac_a_o_Casos_Cli_nicos_TURMA_B_2021_1__7bf703af15",
         "ANOTAC_O_ES_ca_ncer_e_no_dulo_da_tireoide__e5088007bc",
@@ -374,7 +374,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 16342,
+      "bytes": 16457,
       "capsule_id": "capsule:casos_clinicos:tontura_vertigem_vppb_dix_hallpike",
       "discipline": "CASOS_CLINICOS",
       "legacy_metadata": {
@@ -390,7 +390,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "65bd94b12c793e388974a7e3073dcc2cca9902a0a728e40501277ba759258b9c",
+      "sha256": "67e848da06fb685b12cb86cf8ab4e0fa3c85b0059308c39a1568b163b3460d63",
       "source_ids": [
         "2_Avaliac_a_o_Casos_Cli_nicos_TURMA_B_2021_1__7bf703af15",
         "Casos_Cli_nicos_P7_1__4f3f459b20"
@@ -400,7 +400,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 12459,
+      "bytes": 12561,
       "capsule_id": "capsule:eisa_ii:anatomia_osso_temporal_e_audicao",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -416,14 +416,14 @@
       "review_status": "reviewed_l1",
       "risk": "low",
       "schema_version": "1.0.0",
-      "sha256": "3a2b79c231703927ed7d998ec507f9530d58667a3ee5be5098a1adbbf38c9011",
+      "sha256": "2b0c61ae5f6b1ba75341e225c302d0bcb1984621c61b6353498d797b56ced28d",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Anatomia do osso temporal e anatomofisiologia da audição",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 11060,
+      "bytes": 11156,
       "capsule_id": "capsule:eisa_ii:anticonvulsivantes_gestacao",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -439,7 +439,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "7242c232f14b8927051e6cd9f03dca4dcc56a8775efae3120e0d81866cc838a2",
+      "sha256": "adf532a6eeea4f612ff6c3e613e0eab235ed38e5c73949a327dd9fd90fbc09b5",
       "source_ids": [
         "FAMENE_FARMACOTERAPIA_DAS_CONVULSO_ES_2024_2__f60caaf147"
       ],
@@ -448,7 +448,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 15292,
+      "bytes": 15418,
       "capsule_id": "capsule:eisa_ii:avaliacao_laboratorial_em_nefrologia",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -464,7 +464,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "03ec1c6c7efc0fb8809d0e75f4e86d76b339851fc0b5f2a2868b4a9172ab7855",
+      "sha256": "9a2c98f317c1ff2e841c76190ea1152ae8cb1c88747fbe034cb913510c811fc9",
       "source_ids": [
         "3_DiagnA_stico_laboratorial_em_nefrologia_1___356124c454",
         "3_DiagnA_stico_laboratorial_em_nefrologia__5f2f478f29",
@@ -477,7 +477,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 15058,
+      "bytes": 15178,
       "capsule_id": "capsule:eisa_ii:avaliacao_por_imagem_em_nefrologia",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -493,7 +493,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "e91235549056abb883bc98b00ef5e3198bcb8a559f1e8b8e3e85be353069bf99",
+      "sha256": "9d788d2a04a0511f744983b41c341dfc22404a86a5229a8acc334d5645d5ecc4",
       "source_ids": [
         "2_Exames_de_imagem_na_Nefrologia__d17a2c74cb",
         "APOSTILA_SA_II_P7___e43cc7bc21",
@@ -506,7 +506,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 13929,
+      "bytes": 14055,
       "capsule_id": "capsule:eisa_ii:avc_hemorragico",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -522,7 +522,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "eaf0753b6c4e9132f3b9522864f485b99ef8eb700425df97d609e214e68b98af",
+      "sha256": "d26c2f24193ce12024216c53c079317ae9a48a665fdd14513d80b4f3fb07ff68",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "AVCH__6cde4df7bd",
@@ -534,7 +534,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 14531,
+      "bytes": 14653,
       "capsule_id": "capsule:eisa_ii:avc_isquemico_investigacao_etiologica_e_prevencao_secundaria",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -550,7 +550,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "cc9f0668c124135b664b4d628e44c1c7448e5a32c363321a4337994312061974",
+      "sha256": "0254ffc988a2444f2b3417c2129d654f6be9639aad5df5a1008600b7a2a72e69",
       "source_ids": [
         "AVCI_investigac_a_o_etiolo_gica_II_unidade__314b910aaf",
         "P7_AVC_Investigacao__3e99087656"
@@ -586,7 +586,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 16647,
+      "bytes": 16769,
       "capsule_id": "capsule:eisa_ii:bexiga_neurogenica",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -602,7 +602,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "641420cb78db44f3cb732a79f243aa9d7f983b9628b4d9b42e3f27089778ffe9",
+      "sha256": "8791eea0abac614d336b227257c07c03006c2a0a9e7bb8d52de874ff0ad937c0",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "BEXIGA_NEUROGA_NICA_ATUALIZADA_Luiz_Luna__00b75194d2",
@@ -614,7 +614,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 16975,
+      "bytes": 17103,
       "capsule_id": "capsule:eisa_ii:cancer_de_prostata",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -630,7 +630,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "52efaa64c5b1a43143dd73b21bce55b46a9edcc28b257e0407aa618f723b9de2",
+      "sha256": "85fef804b2286c941a6c6cf382b8f012f67bb28af8a7a8ae38e36bf601d1ac63",
       "source_ids": [
         "ANOTAC_O_ES_ca_ncer_de_pro_stata__6614a32c87",
         "APOSTILA_SA_II_P7___e43cc7bc21",
@@ -643,7 +643,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 14949,
+      "bytes": 15068,
       "capsule_id": "capsule:eisa_ii:cancer_de_testiculo",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -659,7 +659,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "bdceddab267545951481f409b017bce1e8a6c5339ee1fa3c10473f38dfaa8dbe",
+      "sha256": "8fb3409091485d39782eb1aec1b5c8b5adf117748119a53c8beb176948cb3361",
       "source_ids": [
         "C_ncer_de_Test_culo_docx__67d4fd1f6c",
         "C_ncer_urol_gico_Onco_docx__bedb200d2e",
@@ -672,7 +672,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 17382,
+      "bytes": 17511,
       "capsule_id": "capsule:eisa_ii:cefaleias_primarias_e_secundarias",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -688,7 +688,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "d8e59bcdec37c81ad4a108c73d72b8319103cd87c684bd413b9b87dd3b1ecdc9",
+      "sha256": "b21a21658790a1ed7f3b6db2a6437800ed7bead307285eed411f750ef613ec93",
       "source_ids": [
         "3_Cefaleias__8e6ef3de3b",
         "Cefaleia_I_unidade__9cd7639c6e",
@@ -700,7 +700,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 12477,
+      "bytes": 12583,
       "capsule_id": "capsule:eisa_ii:coma_e_rebaixamento_do_nivel_de_consciencia",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -716,7 +716,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "0cab434ff76c63f0ab44a99bcb33001a4a554f4105995bb91189f0bcd1fc6684",
+      "sha256": "bab98bd2817442b30a91376d05fd780d61a3a0cef70b6c531ca0b62a8c8ab36c",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "Neuro_COMA__3d9a975464"
@@ -726,7 +726,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 14281,
+      "bytes": 14394,
       "capsule_id": "capsule:eisa_ii:como_e_quando_encaminhar_para_o_nefrologista",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -742,7 +742,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "1f5a15f7b4e14957c21df13d44243edd2868043dcc3a72d050cd4083cb4adfd6",
+      "sha256": "1be9fd801d6f6d8ab3dc983141ee7f6f7548ffa646d1945f9a59b841b112e8c8",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "PDF_Como_e_quando_encaminhar_para_o_nefrologista__6bcd9a270c"
@@ -752,7 +752,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 14645,
+      "bytes": 14760,
       "capsule_id": "capsule:eisa_ii:demencias",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -768,7 +768,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "1a0e1629f42194ad2c58d4e2957070ccaa546c602f8a242c7da6e3850aac1c1d",
+      "sha256": "772050307dad29e2e279ef164cf08a50e08825fe4702ae1760cd16aa1e5401e3",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "Deme_ncias__7cd0ec2067"
@@ -778,7 +778,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 13813,
+      "bytes": 13936,
       "capsule_id": "capsule:eisa_ii:diabetes_complicacoes_agudas_cronicas",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -794,7 +794,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "b6b7a8ebdf63dad9462484b6c25d0a14faf68fabe3f2366c0f7969ec7957a890",
+      "sha256": "24c6b61ce70112a8b8de0bbb934f835087159bb98d2bfb896d497da968c38d9d",
       "source_ids": [
         "Diabetes_complicac_o_es_agudas_e_cronicas___e78f327c9d"
       ],
@@ -803,7 +803,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 12220,
+      "bytes": 12334,
       "capsule_id": "capsule:eisa_ii:diabetes_mellitus_conceito_classificacao_diagnostico",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -819,7 +819,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "ab841f49e8eb6c476b04123ca455359cd8921b3ad8ac270894d3a3477ffd8d87",
+      "sha256": "aa4bb043fa1d547a398f82f4131ff0856292083c887797bd095e7ad75102d59a",
       "source_ids": [
         "Diabetes_5___828857ad38",
         "Dm_conceito_diagno_stico_classificac_a_o_2019_FAMENE__5443174de5"
@@ -829,7 +829,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 12729,
+      "bytes": 12842,
       "capsule_id": "capsule:eisa_ii:diabetes_mellitus_gestacional",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -845,7 +845,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "8681a980e49595c2e41813f693e7887abe1bba9b22ff33ef9ac525766f1ebd50",
+      "sha256": "c90eb177805020eb34783b8e624ead3bdac9e2c9c1929ef8f76eed61bcbdb8cb",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21"
       ],
@@ -854,7 +854,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 12816,
+      "bytes": 12932,
       "capsule_id": "capsule:eisa_ii:diabetes_metas_tratamento_terapia_nao_insulinica",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -870,7 +870,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "4050f5216bb37fc9f368ac8092a0d5ea9833735707b4a4968b2629fde6d69b15",
+      "sha256": "7cab4025c0eb1a8edccdf3e8cab3feb82f55deee9fade9a7a1049920b06d7273",
       "source_ids": [
         "2025_1_Diabetes_metas_e_tto_n_o_insul_nico__083a9449f2"
       ],
@@ -879,7 +879,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 13642,
+      "bytes": 13759,
       "capsule_id": "capsule:eisa_ii:diagnostico_sindromico_em_nefrologia",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -895,7 +895,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "4a12e777c49da5335db88682ea336d65faff3bf69085da55a6ead3373ff3c649",
+      "sha256": "d341f3c150d6346a928573db9bad1cbe9c5bc34f5b45208a89d75de19140c04a",
       "source_ids": [
         "1_DiagnA_stico_das_sA_ndromes_nefrolA_gicas__542c6a898f",
         "APOSTILA_SA_II_P7___e43cc7bc21",
@@ -907,7 +907,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 13499,
+      "bytes": 13613,
       "capsule_id": "capsule:eisa_ii:disturbios_do_movimento",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -923,7 +923,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "e3ad30bbcb5d3db4db43e5a61621b57966ac33449fe9e2e021d56bd2e07bc104",
+      "sha256": "51401603f31262c09ab20b141c8b87039c0301881556e9f0204fcc1d7dfc2f12",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "Neuro_DISTA_RBIOS_DO_MOVIMENTO__5a0889bf9a"
@@ -933,7 +933,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 13677,
+      "bytes": 13795,
       "capsule_id": "capsule:eisa_ii:doenca_renal_cronica_drc",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -949,7 +949,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "6d4df3d76f43054d483cd3b67aca29ad6e0f1448b992cd5816c254d2332db35b",
+      "sha256": "b61ebd8e049c3fd1eb91f9c81e8ba383d146da39190bd400b4d0318f9d6e4455",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "DRC_2024_1_1___ca05068d36",
@@ -963,7 +963,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 14776,
+      "bytes": 14898,
       "capsule_id": "capsule:eisa_ii:doenca_renal_na_gestacao",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -979,7 +979,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "53d5a5d7d9085338164c083ff3a990d7145ae059e2a1dafd813b7a7ee71b5ec0",
+      "sha256": "6b16902c76d2bf099f6f2dc28776214e3431443a5957fec0761a6678dfb9de43",
       "source_ids": [
         "Rim_e_Gravidez_2021_2__8e028aff9d",
         "resumed_sa_de_do_adulto_2__f8fd0b8d31"
@@ -989,7 +989,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 10631,
+      "bytes": 10729,
       "capsule_id": "capsule:eisa_ii:doencas_cisticas_renais",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1005,14 +1005,14 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "e89c1847cf20217b5288d26823f5b311db0ac3e99e8465425a3f195ab8b57d9a",
+      "sha256": "5120053e7c388b83d9e593515fb80581274a98f7b4490c24c15299b6ed792317",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Doenças císticas renais",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 12094,
+      "bytes": 12194,
       "capsule_id": "capsule:eisa_ii:doencas_da_orelha_externa",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1028,14 +1028,14 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "5abe1ac0b3d7cd362f780a8d284c3a0aade2aa501711218678f05ef30c9b4e75",
+      "sha256": "d7ffb3f16635c505ef77260d132b6bd701cd4fb762f9664f429005845fc47051",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Doenças da orelha externa",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 17846,
+      "bytes": 17986,
       "capsule_id": "capsule:eisa_ii:doencas_neuromusculares",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1051,7 +1051,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "2540782689d712170c22a358ba18686319fab6814881460d89f812fe44fb4103",
+      "sha256": "19c10600c7a793696852a7b4e36aa9df66e3ef94cf0bf9bf4f7601889968525a",
       "source_ids": [
         "Doenc_as_neuromusculares_III_unidade__ea38d8f852",
         "Doenc_as_neuromusculares__63e55fa0f2",
@@ -1062,7 +1062,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 18788,
+      "bytes": 18921,
       "capsule_id": "capsule:eisa_ii:doencas_oculares_em_endocrinologia_oftalmopatia_de_graves_e_retinopatia_diabetica",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1078,7 +1078,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "776f407d2ba1f79a886a2616db1bb311f3c30953474fe52f0f9fd55fdeae4e61",
+      "sha256": "be160c954ab0825983ab52e54d04e74a28fd7c054b09bb7c4fe71bccc8d4ae1e",
       "source_ids": [
         "altera_oes_oculares_na_endocrinologia_2025__35d861290b"
       ],
@@ -1087,7 +1087,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 15613,
+      "bytes": 15736,
       "capsule_id": "capsule:eisa_ii:doencas_paratireoides_hiperparatireoidismo_osteoporose",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1103,7 +1103,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "3d3ecebb8c1d52dde629a1788c54d26654c1bb4134f738e6aa818f292767fa66",
+      "sha256": "883da7eb36882789b7d3fc2ec8f96e39eaca332fce83c4f647841efaa6f79658",
       "source_ids": [
         "2021_2_Doenc_as_das_Paratireoides_e_Osteoporose__532c60e94d",
         "Doenc_as_das_Paratireoides_e_Osteoporose_2___3eaa869450"
@@ -1113,7 +1113,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 17603,
+      "bytes": 17742,
       "capsule_id": "capsule:eisa_ii:epilepsia_e_crises_epilepticas",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1129,7 +1129,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "37e146bd3cde750a1e64a80ad559e898561e380f50045bd89ad8a3d833567bc3",
+      "sha256": "50bc2be2d52dc21ff742fda5e8bdac91f258bb09fcfedb6d42dfa455247c8665",
       "source_ids": [
         "Epilepsia__c07e537396",
         "P7_Epilepsia_pdff__4b408f8a34"
@@ -1139,7 +1139,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 13713,
+      "bytes": 13821,
       "capsule_id": "capsule:eisa_ii:erisipela",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1155,14 +1155,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "11fd57d4e96382e03b595cb25c3fa876ff5a00698472ad9ea32f958156239bff",
+      "sha256": "71310c0bbab305c2495dfa76f8c91d9db8891cc3317b5086c19beed700172b4d",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Erisipela",
       "unit": "UNIT_3"
     },
     {
-      "bytes": 15472,
+      "bytes": 15584,
       "capsule_id": "capsule:eisa_ii:esclerose_multipla_e_doencas_desmielinizantes",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1178,7 +1178,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "a02bbadb0f33b6e70d4c2ad7538baa1b1b73ed04a30ac398c087c37cad6a128a",
+      "sha256": "8bdc44b24c4fe3d75ab8622d49970416c3c0c7878be85055284cc0ab61e65efb",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "DOENC_AS_DESMIELINIZANTES_2020__d29f785e2b"
@@ -1213,7 +1213,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 12117,
+      "bytes": 12227,
       "capsule_id": "capsule:eisa_ii:farmacologia_dislipidemias",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1229,7 +1229,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "e45074cadb663b2019e6c2029702e2c0397050470213019ec07317e9ee9c9d29",
+      "sha256": "a594936b8fb5f2c2500650e988a1dec65fdf2f14f030c2b5d63f0a96dfea202d",
       "source_ids": [
         "P7_FAMENE_FARMACOLOGIA_DAS_DISLIPIDEMIAS_2025__766492937d"
       ],
@@ -1238,7 +1238,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 13020,
+      "bytes": 13139,
       "capsule_id": "capsule:eisa_ii:farmacoterapia_convulsoes_mecanismo_escolha",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1254,7 +1254,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "7ce5090e86999c72b79024b92f1cfd12f1dd4813aaeebd0b0e5cd27103eceeeb",
+      "sha256": "846c0e6769a65e115a151efe9d74710a2268465e05279b2fa3e22a36aa676cd4",
       "source_ids": [
         "FAMENE_FARMACOTERAPIA_DAS_CONVULSO_ES_2024_2__f60caaf147"
       ],
@@ -1263,7 +1263,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 12144,
+      "bytes": 12256,
       "capsule_id": "capsule:eisa_ii:farmacoterapia_diabetes_i_nao_secretagogos",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1279,7 +1279,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "d93d5ecb1e5c0072ec478befe4728b576c187f5dd1b25c36078de51467df1439",
+      "sha256": "b4eb6e048a9957d227577f683b26a0c2df16499cbe6e42ed163018e79b398f5a",
       "source_ids": [
         "P7_FAMENE_FARMACOTERAPIA_DO_DIABETES_2025_1_1a_aula__52271174b7"
       ],
@@ -1288,7 +1288,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 12399,
+      "bytes": 12511,
       "capsule_id": "capsule:eisa_ii:farmacoterapia_diabetes_ii_secretagogos",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1304,7 +1304,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "4946211cf92fefd33d5e0379e4a91a148905e984cd3bec132e3299908777cf96",
+      "sha256": "48e9e2e85f4af73f4d66a3dd6784dc212dda25eba14e2bad9da95a719a8d8094",
       "source_ids": [
         "P7_FAMENE_FARMACOTERAPIA_DO_DIABETES_2025_1_2a_aula__09f55ba2de"
       ],
@@ -1313,7 +1313,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 15422,
+      "bytes": 15538,
       "capsule_id": "capsule:eisa_ii:glaucoma_e_catarata",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1329,14 +1329,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "52ed9a1b02803a12167bf44e09e58e3010ed1b9d266b99e6e73063ce0902c5a1",
+      "sha256": "366896c1791d143b289572ef75630e5d3797eb683a70edf902788a75845ec1cc",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Glaucoma e catarata",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 13525,
+      "bytes": 13642,
       "capsule_id": "capsule:eisa_ii:glomerulopatias_primarias",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1352,7 +1352,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "be3fec9800417327f3f49104367a0e4bebf0dd932a01a567e384d727e09c39c7",
+      "sha256": "db984bba2d2efa5c7c6d5692e1a39e7b4e4fe8cfa127348434fa17ff048bdbb8",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "PDF_Glomerulopatias_1_s_2024_2__fe8a341554",
@@ -1363,7 +1363,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 14452,
+      "bytes": 14572,
       "capsule_id": "capsule:eisa_ii:glomerulopatias_secundarias",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1379,7 +1379,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "c9b8a589b2f2cc41fcf910c206ed62be795e9bdd6c924c2def77600a37e2f381",
+      "sha256": "1d6b9ce4320d1e7d1fcfffd28edf538af39b78fd8da0b4d046a4c10f4f6b2455",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "Glomerulopatia_Secunda_ria__e2c6bd4d58",
@@ -1391,7 +1391,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 13983,
+      "bytes": 14102,
       "capsule_id": "capsule:eisa_ii:has_nefrogena_renovascular",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1407,7 +1407,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "a7bbe10605ef137414cedfa96968d66acbe629ce93605ea0b52f148e254939d2",
+      "sha256": "8ee671b7066b6f477d24d5ae3a25c12d6ec863f663d23a0a118909433c531bda",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "DBHA_2020__deed973a25",
@@ -1418,7 +1418,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 16102,
+      "bytes": 16230,
       "capsule_id": "capsule:eisa_ii:hiperaldosteronismo_primario_feocromocitoma",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1434,7 +1434,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "da8f65fae7281e54f72d04940312bab018a7460ab4b3b40b1183314121e3e134",
+      "sha256": "a0669364c79918d51212f6d58e0f176cde928d8fdeea36fae4c521c8ef520e44",
       "source_ids": [
         "2025_1_Hiperaldosteronismo_prim_rio_e_feocromocitoma__d986fd0620"
       ],
@@ -1443,7 +1443,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 13821,
+      "bytes": 13937,
       "capsule_id": "capsule:eisa_ii:hiperandrogenismo_hac_sop_tumor_virilizante",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1459,7 +1459,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "ed26236e8290a28892a64f12b59e52691ad2449073dfbbfcbe83733fe18df038",
+      "sha256": "8bd5d2142ba897f4e10e37b91c9b983921b450f68b09c4200b9403fb1cc40319",
       "source_ids": [
         "HIPERANDROGENISMO_20250415_152135_0000__4e65401348"
       ],
@@ -1468,7 +1468,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 16354,
+      "bytes": 16476,
       "capsule_id": "capsule:eisa_ii:hiperfuncao_hipofisaria",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1484,7 +1484,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "89b0fdfc7cfe76a06b18f041de00f31313780eb8725bfe1869a0867c97e32d64",
+      "sha256": "9af8dcb94b77f1b41088b98194a79cd231b33c3a7e1d15085b4daacf1854ba31",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "HIPERFUN_O_HIPOFIS_RIA_PARTE_01__0c915df866"
@@ -1494,7 +1494,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 13804,
+      "bytes": 13921,
       "capsule_id": "capsule:eisa_ii:hiperplasia_adrenal_congenita",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1510,7 +1510,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "79c7ca40c9e0a7e60c7a1d8ee7e57062990bd2238b3dbba1b66deb04183ef5bd",
+      "sha256": "53015ddc4c6d4f303bbecba3ce65bae664a9d9ff040f8d576a32303c753d5e32",
       "source_ids": [
         "HIPERANDROGENISMO_20250415_152135_0000__4e65401348"
       ],
@@ -1519,7 +1519,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 14136,
+      "bytes": 14258,
       "capsule_id": "capsule:eisa_ii:hiperplasia_prostatica_benigna_clinica_e_tratamento",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1535,7 +1535,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "4d2862984000851ffb287f73168257a5e5e1ab8a1331230dbfff37d0f506048a",
+      "sha256": "0c17c60fdb3b837cea4b7da99655087f7cd8805782b0e22a306d50aa92b9d197",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "AULA_HPB_ATUALIZADA_POWER_POINT__1770a91b62",
@@ -1548,7 +1548,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 11690,
+      "bytes": 11796,
       "capsule_id": "capsule:eisa_ii:hipertensao_intracraniana",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1564,7 +1564,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "9d9f5f0a7ff55aca666899f7cf0bfa21cd53d447edca5c67120b0a8092c35ceb",
+      "sha256": "23db8fffdc0fa520a47bae3d9968ad36eabeaea1c4e5cb889d26e95079f454e9",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "TRAUMATISMO_CRANIO_ENCEFALICO__a11286e20c"
@@ -1574,7 +1574,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 14913,
+      "bytes": 15033,
       "capsule_id": "capsule:eisa_ii:hipertireoidismo_tireotoxicose",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1590,7 +1590,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "1e572153f4a7794208b2726d052a7044e3200ac17d9eb62760341439046ec58c",
+      "sha256": "bbac4db0a72460b5b9c0720a22159ba0b83415a381a9929bcb1918fc7230be8d",
       "source_ids": [
         "HIPERTIREOIDISMO__6e9927aae4"
       ],
@@ -1599,7 +1599,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 14393,
+      "bytes": 14509,
       "capsule_id": "capsule:eisa_ii:hipoparatireoidismo_e_hipocalcemia",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1615,7 +1615,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "6283a7e118f07efe7c387945f569328354e748fc0b0eb9dc69fa7e500cbd9237",
+      "sha256": "dbd06fe5a38b0274a543729084207a3162acecad4776e168586b6720ea60e7bb",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "Doenc_as_das_Paratireoides_e_Osteoporose_2___3eaa869450"
@@ -1625,7 +1625,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 15285,
+      "bytes": 15404,
       "capsule_id": "capsule:eisa_ii:hipopituitarismo",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1641,7 +1641,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "d7a77177138c144d6041874661be636a549c1705237fde309b1308b094a1647a",
+      "sha256": "aa1e15461900a46dc7e026d69970d08284c9950c45b93295053cf0919fe3d171",
       "source_ids": [
         "2025_1_HIPOPITUITARISMO__1f445bfa8d"
       ],
@@ -1650,7 +1650,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 15930,
+      "bytes": 16059,
       "capsule_id": "capsule:eisa_ii:hipotireoidismo",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1666,7 +1666,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "b9f64b909314379abe1d3f2a8555eb12f1abde081e59317e32b5db9c9c983752",
+      "sha256": "9b03ec0024b20b6d29557435e18948aa8693ed865900c7be98f308b1ca19aa29",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "HIPOTIREOIDISMO_2025_1__82e83b6322",
@@ -1680,7 +1680,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 14954,
+      "bytes": 15075,
       "capsule_id": "capsule:eisa_ii:infeccoes_sexualmente_transmissiveis",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1696,7 +1696,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "0baece716735f0280c4807af463591c7e5fd2205cc43015dc636a5f2a4f4b90d",
+      "sha256": "ee60a8fd17e37d151c4080b05c911c26d49e4d7f50731cbff91107c6ca604db0",
       "source_ids": [
         "ANOTAC_O_ES_IST__a05a9c13fa",
         "APOSTILA_SA_II_P7___e43cc7bc21",
@@ -1709,7 +1709,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 11010,
+      "bytes": 11113,
       "capsule_id": "capsule:eisa_ii:insulinoterapia_classificacao_farmacocinetica",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1725,7 +1725,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "609e5d50625bbe8add13b2e1551a8d15c6e7e5f69f0157d3a95d112964075829",
+      "sha256": "8763eb5d04377f28867def685f328ec8e167617cbf2fe11e7577e0da1b9683fa",
       "source_ids": [
         "P7_FAMENE_FARMACOTERAPIA_DO_DIABETES_2025_1_2a_aula__09f55ba2de"
       ],
@@ -1734,7 +1734,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 19024,
+      "bytes": 19155,
       "capsule_id": "capsule:eisa_ii:insulinoterapia_no_dm1_e_dm2",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1750,7 +1750,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "a5e1f40a2eaf740c5248370ca5755e9e89776edde572f15418dd3d78eee12d42",
+      "sha256": "f379a29690dfa91912ae72141af051e1f0d6a4b5f02ff35ec73e9ee81f8bcd48",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "Diabetes_3_insulinoterapia_I_unidade__6827ea5dfc",
@@ -1764,7 +1764,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 14551,
+      "bytes": 14671,
       "capsule_id": "capsule:eisa_ii:lesao_renal_aguda_lra",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1780,7 +1780,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "602dc42296cb097e7eca10095b063f789437a673e42e7be0200db14f1e60524e",
+      "sha256": "3c4d431238a276ab65671f909e28122376901a6b5679cddc4be1cdf74712d277",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "Inju_ria_renal_aguda_II_unidade__6a138171d7",
@@ -1792,7 +1792,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 11925,
+      "bytes": 12024,
       "capsule_id": "capsule:eisa_ii:linfedema",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1808,14 +1808,14 @@
       "review_status": "reviewed_l1",
       "risk": "low",
       "schema_version": "1.0.0",
-      "sha256": "e496dbb9ea72bba4b5ad5396a381ee406c1aa8f133d35314504d5fd127934c9e",
+      "sha256": "2eb9ae46d8fab6d781dc332fdd0358b98d7ca8a52f59b9be84a29cfb94bb819d",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Linfedema",
       "unit": "UNIT_3"
     },
     {
-      "bytes": 14396,
+      "bytes": 14519,
       "capsule_id": "capsule:eisa_ii:litiase_urinaria",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1831,7 +1831,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "f18ab63a465c89eeb4972fd9be5954ed1fa5cfdb74666a0c16558777dada30e0",
+      "sha256": "9cb5c1694aa2205b58b5f287502e95c8b255cda9af1f54c6c23158ef80051dde",
       "source_ids": [
         "1_LitA_ase_urinA_ria__aaca8de431",
         "APOSTILA_SA_II_P7___e43cc7bc21",
@@ -1844,7 +1844,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 17037,
+      "bytes": 17160,
       "capsule_id": "capsule:eisa_ii:manejo_clinico_ambulatorial_do_dm",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1860,7 +1860,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "776f38ebec16139e5f7d314895276a03b626968a9a409bc4496d83a4537b9553",
+      "sha256": "2e7e5a398bbcd18b4efb8f990052068350a79ee5f2d8fafd508bdd08f0239853",
       "source_ids": [
         "Casos_cli_nicos_Prof_Narriane_Chaves__f0a6616ad6",
         "Oficina_Manejo_Cli_nico_do_DM__48bca328b6",
@@ -1871,7 +1871,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 14827,
+      "bytes": 14950,
       "capsule_id": "capsule:eisa_ii:nefropatia_diabetica",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1887,7 +1887,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "f3bbff32bf5c5f01b0da2e401e2fbf6d25c95be8eb4baddefbf10732b7f2772a",
+      "sha256": "8174b4844f46199515dd65f35fb32bd641429cf5255157a898e1c4f474862273",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "Doenc_a_renal_do_diabetes_III_unidade__a682b8eb7b",
@@ -1898,7 +1898,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 17751,
+      "bytes": 17877,
       "capsule_id": "capsule:eisa_ii:neoplasia_vesical",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1914,7 +1914,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "c034a7996b21e883e2cb6c0580531599e06c832da8df4ed59ab3df270309415d",
+      "sha256": "7268c0a49f5aecd9ff8583f1c6bac81debd1b2ced7b156cc9fc926e212806a5f",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "NEOPLASIA_VESICAL_URO_Larissa_Pinheiro__2de53fcf0a",
@@ -1927,7 +1927,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 13873,
+      "bytes": 13979,
       "capsule_id": "capsule:eisa_ii:neuroftalmologia",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1943,7 +1943,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "c5530f259008a0599b855955d5838162b6304b90c8a913fbce63459b1009a35e",
+      "sha256": "b3a2a4f49a0e4c7ec11a5578e3f63a5b9c21285aeaf46dede80d212b1303b9a3",
       "source_ids": [
         "No_es_de_Neuroftalmologia__73862bfddf"
       ],
@@ -1952,7 +1952,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 15573,
+      "bytes": 15688,
       "capsule_id": "capsule:eisa_ii:neuroinfeccoes",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1968,7 +1968,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "818b0e48638ada7d501806b2f728f01faf34b6fd58ae473a971a6a39e6eb3886",
+      "sha256": "dce80120cb0762b818430aaf70464ac8a8d6d711deb0518c0e1a655a03f2032f",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "NEUROINFECOES2021__6f14ede5b5"
@@ -1978,7 +1978,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 19304,
+      "bytes": 19438,
       "capsule_id": "capsule:eisa_ii:nodulos_tireoidianos_e_cancer_de_tireoide",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1994,7 +1994,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "c6ebd582666df8f77321d1a0b91f9be6c5774c9e29b021794a4dd9a83aedb766",
+      "sha256": "6c9e5e61cdb5bd134bd08e28d3d254c13b945f96b1993c6c8a6eaa7ed07e6754",
       "source_ids": [
         "ANOTAC_O_ES_ca_ncer_e_no_dulo_da_tireoide__e5088007bc",
         "APOSTILA_SA_II_P7___e43cc7bc21",
@@ -2008,7 +2008,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 15253,
+      "bytes": 15373,
       "capsule_id": "capsule:eisa_ii:obesidade_e_sindrome_metabolica",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2024,7 +2024,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "2640028c2c05a100ce3a343f454955f26bc0c52df27c9c21bad1c2c070f48d51",
+      "sha256": "0d51bce6976aa9eb242477a6a765f0d88c718467128b3242cbf11fc516b88c21",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "Endocrino_OBESIDADE_E_SA_NDROME_METABA_LICA__79c20cd26e",
@@ -2037,7 +2037,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 13706,
+      "bytes": 13811,
       "capsule_id": "capsule:eisa_ii:otites_aguda_cronica_externa",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2053,14 +2053,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "b9d86829d03a79176973189ad17c2e6ecdc68497a3c009b0a3f0777942e7eb27",
+      "sha256": "3b634869a6a1d3a8d558070e69bc54d149eb17181b3f5f4a6eaa740793b9c69f",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Otites (aguda, média crônica e externa)",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 12760,
+      "bytes": 12864,
       "capsule_id": "capsule:eisa_ii:patologia_cancer_de_tireoide",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2076,14 +2076,14 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "7b0a0f31fc3b7ccca1ba28614c4b8896f7cff743351be5fe994ad7cb918c205c",
+      "sha256": "dfae5dee6c61f94ee16ec917f9c4586c9dfc98124cb58991b823bed40cac39f9",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Patologia do câncer de tireoide",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 16805,
+      "bytes": 16927,
       "capsule_id": "capsule:eisa_ii:patologias_penianas_e_escrotais",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2099,7 +2099,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "6b68d5ef2605b04bf58343155ed67d66b65c4eb0c83d9c03ceb81dde199e076c",
+      "sha256": "cdcf9b6413cd19f6296f7f35fe992eaa84f66a1009b7619a4da2ae0ab3470f48",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "resumed_sa_de_do_adulto_2__f8fd0b8d31"
@@ -2109,7 +2109,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 15915,
+      "bytes": 16028,
       "capsule_id": "capsule:eisa_ii:pe_diabetico",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2125,14 +2125,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "a4ff531b0e26f73e24fe50da2a8a3dd0618e597cc2ef4604603c51c118757ad9",
+      "sha256": "8fa110a977886af4557f0ddc40f5c1790316a08a8f5cde966617eaa1204fae0b",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Pé diabético",
       "unit": "UNIT_2"
     },
     {
-      "bytes": 11405,
+      "bytes": 11508,
       "capsule_id": "capsule:eisa_ii:sarcoma_de_partes_moles",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2148,14 +2148,14 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "45de2f5ab2a19dc1ac3116ec1b1b052d1c436d19175818ca82d683804f1da8be",
+      "sha256": "6bd54dcf1dc5f4b68d69407e957e9f6aae730f9093d68f89744cadbe036d12d5",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Sarcoma de partes moles",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 10063,
+      "bytes": 10163,
       "capsule_id": "capsule:eisa_ii:surdez_e_vertigem",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2171,14 +2171,14 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "282d26d2b3262890abbc60162caf1e3b8ff3da393fda2f273bdcbed12ecd7050",
+      "sha256": "d2c78480224a9bc18f664d6a1501bc78685a226a431e7c23aabab1a4a005ec78",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Surdez e vertigem",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 14186,
+      "bytes": 14310,
       "capsule_id": "capsule:eisa_ii:terapia_renal_substitutiva",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2194,7 +2194,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "bbffec41f38caac5d4ec586a1cc07c1d64e79a5f0e8efaccecf98ffbf7f31e14",
+      "sha256": "affbe6d99621ab2c0164128733e119d20b342dcbbf3bd9a59687cd3c1415babe",
       "source_ids": [
         "ANOTAC_O_ES_terapia_renal_substitutiva__08a0ff9a53",
         "APOSTILA_SA_II_P7___e43cc7bc21"
@@ -2204,7 +2204,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 17954,
+      "bytes": 18075,
       "capsule_id": "capsule:eisa_ii:trauma_urogenital",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2220,7 +2220,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "49bcdff11873062a6e9013de7c246dc6436eb28fce3d1a8e1ce9c1e0e94ccf23",
+      "sha256": "3a19a42cb8ba3c792592fffe24a83cdd610fdde3aeac0ec5eb755d2701082ece",
       "source_ids": [
         "4_Trauma_Urogenital___2ef81514cc",
         "ANOTAC_O_ES_trauma_urogenital__1289c8c631",
@@ -2233,7 +2233,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 14376,
+      "bytes": 14493,
       "capsule_id": "capsule:eisa_ii:traumatismo_cranioencefalico",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2249,7 +2249,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "569b334d891db715a77ed76fa42c98c8279ec0923330567697154c959d3db5b9",
+      "sha256": "b28c45629a4c137cd34b5665fc65f705b8ab1034bcff3bc231aefdd8ffb134c9",
       "source_ids": [
         "ANOTAC_O_ES_TCE__acecbecc79",
         "APOSTILA_SA_II_P7___e43cc7bc21",
@@ -2260,7 +2260,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 12863,
+      "bytes": 12969,
       "capsule_id": "capsule:eisa_ii:tumores_do_sistema_nervoso_central",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2276,14 +2276,14 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "deabab6a2fdde193254fe3566860cc41cb24b94ad03d96c3ba79a793a1968f98",
+      "sha256": "962aa18a84b025bf0c555dec34bc66841b6e60b54aeeec2b26815bc813183bb2",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Tumores do sistema nervoso central",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 13652,
+      "bytes": 13770,
       "capsule_id": "capsule:eisa_ii:tumores_renais_e_carcinoma_de_celulas_renais",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2299,7 +2299,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "7a0383781eb9fa46d722e886558f9a07d4291a3bfcba955a911585e23f62acfd",
+      "sha256": "4810d3ca578519f91598833142e643984fd846d1c84ddd58b6d1b685f229a014",
       "source_ids": [
         "ANOTAC_O_ES_carcinoma_de_ce_lulas_renais__f59012752a",
         "APOSTILA_SA_II_P7___e43cc7bc21",
@@ -2312,7 +2312,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 17175,
+      "bytes": 17301,
       "capsule_id": "capsule:eisa_ii:urologia_feminina_infeccao_urinaria_e_incontinencia",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2328,7 +2328,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "8ad6531f41714a531f14e98e8feec3f1871fd22c8c98c53be7b0aaadd26f4407",
+      "sha256": "e4b476825fa41e625c15451a7f694d4a3fce238c0d0f18020fbb5eb115bad526",
       "source_ids": [
         "UROLOGIA_FEMININA_INFECC_A_O_E_INCONTINE_NCIA_URINA_RIAS__bbdee85aaf",
         "UROLOGIA_FEMININA__592da80b07"
@@ -2338,7 +2338,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 21171,
+      "bytes": 21302,
       "capsule_id": "capsule:eisca:adolescencia_puberdade_e_semiologia_do_adolescente",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2354,7 +2354,7 @@
       "review_status": "reviewed_l1",
       "risk": "low",
       "schema_version": "1.0.0",
-      "sha256": "56e3c73ad8b6ac2372b6c13f872e4fe42b2bdd0ecee056aab44de2bdc41dec95",
+      "sha256": "d022484cbc027ab88dbf0c3f7b2e59d626e9f6c3fe3768d16a1ade555fb1cac2",
       "source_ids": [
         "Anotac_o_es_semiologia_do_adolescente__bcd52a9267",
         "Pediatria_ADOLESCA_NCIA__4300471fc6",
@@ -2393,7 +2393,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 12379,
+      "bytes": 12487,
       "capsule_id": "capsule:eisca:anemia_ferropriva",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2409,7 +2409,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "e1331741d48a33ada08d582db4049eba9482def636f283213cfb8fddd32c6dab",
+      "sha256": "eb687d9dc852efdf55d795db6a3f5737aeb8a6d842052d54e9a898dcae0582c2",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Anemia ferropriva",
@@ -2466,7 +2466,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 19901,
+      "bytes": 20115,
       "capsule_id": "capsule:eisca:atopias_na_infancia",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2482,7 +2482,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "f3756fdc439b80417d50b2ef6d29caf92f2764223915ee231d1aefc91ee891ac",
+      "sha256": "c617072153b2ac1e45284f4c901c492d10c93ff975ce65602fdec84d1186cfbf",
       "source_ids": [
         "ATOPIAS_na_infancia_1__db787ace52"
       ],
@@ -2491,7 +2491,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 11368,
+      "bytes": 11519,
       "capsule_id": "capsule:eisca:bronquiolite_viral_aguda",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2507,14 +2507,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "215cb19c48ab6e4bbd24494d99a58ed5924dbdba8b957f7f0b346778bce91734",
+      "sha256": "90c840a7a848ad11427bfd7db08ebf757380f269865c65e582b2f5eb56819a5c",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Bronquiolite viral aguda (BVA)",
       "unit": "UNIT_1"
     },
     {
-      "bytes": 15620,
+      "bytes": 15730,
       "capsule_id": "capsule:eisca:cardiopatias_congenitas",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2530,7 +2530,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "198d04106d6933feed942b1f4b662dc307d676db431381d0dc6ab7e293265113",
+      "sha256": "f57921bf94bc956bdb231748617029bebcd8c6ee5c71e66d75062ee18b7342d7",
       "source_ids": [
         "AtualizeA5N6__cd97472180"
       ],
@@ -2539,7 +2539,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 14553,
+      "bytes": 14674,
       "capsule_id": "capsule:eisca:convulsao_febril",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2555,7 +2555,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "f95e4ed405bb52f450138581c36332e2d27e62767a8b6ffb8351bdbac407e6db",
+      "sha256": "07a8c2398dc0cb34ecf1acf0846d4da7e3331b9c128f65513033f5dd96079f42",
       "source_ids": [
         "Pediatria_CONVULSA_O_FEBRIL__c54cea60f1"
       ],
@@ -2564,7 +2564,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 17354,
+      "bytes": 17480,
       "capsule_id": "capsule:eisca:crescimento_e_desenvolvimento",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2580,7 +2580,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "a13d382f4e80bab840e62f984426741deeb05a747911c36819395093c43f84c4",
+      "sha256": "4630d5adc0985edc998b57f914f5f45ad8a6058e2133e6105ed8b5a62e1701e2",
       "source_ids": [
         "Crescimento_e_desenvolvimento__03a4aa93bc",
         "semio_PED__c241597932"
@@ -2590,7 +2590,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 11299,
+      "bytes": 11454,
       "capsule_id": "capsule:eisca:diagnostico_diferencial_das_anemias_na_infancia",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2606,7 +2606,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "2d4d10c8353ce8eeaa9e5c9b6414ecc892bbddbc89e74042440ce1000ae5af67",
+      "sha256": "4d071b06b398671012dcf9eee43fb02050ca9c652790e3e81fdb7d4b3657e31b",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Diagnóstico diferencial das anemias na infância",
@@ -2638,7 +2638,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 12647,
+      "bytes": 12748,
       "capsule_id": "capsule:eisca:doenca_hemolitica_perinatal_rh_abo",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2654,7 +2654,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "093f305bea45c06a32381667d7f84e73cadf0d0e44c9af0138c65c4b324a6204",
+      "sha256": "40eeb25f620f437be48b91b2694c0a45a2bfa77184ddb5b104670a0cfc9a0280",
       "source_ids": [
         "Icteri_cianeonatal2021_Joa_o_Medeiros__e4f2f5101b"
       ],
@@ -2663,7 +2663,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 14747,
+      "bytes": 14857,
       "capsule_id": "capsule:eisca:doencas_exantematicas",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2679,7 +2679,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "f226e34b45f98122b4dd17c5acff76b0e5081669e0d8123764f0f69b25b2ec35",
+      "sha256": "06178267575f41afdd657ab648aa63f61220f87d590de9a309ec8cfe56b0f972",
       "source_ids": [
         "DOENCAS_EXANTEMATICAS__9adcf74177"
       ],
@@ -2688,7 +2688,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 11719,
+      "bytes": 11826,
       "capsule_id": "capsule:eisca:faringoamigdalite_estreptococica_escarlatina",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2704,7 +2704,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "910ab10be4e363440300ab8fb98ac09acc602dea3bc655c155b7f62c8cfc1ef4",
+      "sha256": "4d9b72c6e540a18980c8c7f047c1352fc6e80bcead6bf98c83f45eba051a9905",
       "source_ids": [
         "IVAS__c9c0ca127f"
       ],
@@ -2713,7 +2713,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 12080,
+      "bytes": 12188,
       "capsule_id": "capsule:eisca:febre_reumatica",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2729,14 +2729,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "22e853f2cd7c54bfc486ed82bbc3f4a2e45001f6980c5f93045415f170addb4f",
+      "sha256": "4009bb157d19c2edf29c3aa5ceab791b139a65ecbcd413ee0892f2199e6ba445",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Febre reumática",
       "unit": "UNIT_3"
     },
     {
-      "bytes": 13695,
+      "bytes": 13807,
       "capsule_id": "capsule:eisca:hemoglobinopatias_talassemias_doenca_falciforme",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2752,14 +2752,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "a66cf92cc143a62aaf63398bbf15ec4d1448dddf618c8ad0ed2574fc9f696a9f",
+      "sha256": "628d92c5024c3f6c53b9c7e358501af2460729adc4fab14025d6967d74c3df04",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Hemoglobinopatias (talassemias e doença falciforme)",
       "unit": "UNIT_4"
     },
     {
-      "bytes": 10062,
+      "bytes": 10159,
       "capsule_id": "capsule:eisca:humanizacao_em_uti_neonatal",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2775,7 +2775,7 @@
       "review_status": "reviewed_l1",
       "risk": "low",
       "schema_version": "1.0.0",
-      "sha256": "0e1827f9322bb8aa0b6f4f73401e58f43680b80213214beafc538e12c16d3182",
+      "sha256": "b4fc31a1fedec862c2d14252308e19bf323b9fc34e75e2608d0b651df3458e19",
       "source_ids": [
         "HUMANIZAC_A_O_NA_UTI__0ffaa0c1aa"
       ],
@@ -2784,7 +2784,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 13993,
+      "bytes": 14106,
       "capsule_id": "capsule:eisca:ictericia_neonatal_hiperbilirrubinemia_indireta",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2800,7 +2800,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "7e131b24d97798e9b998cc8f3988780e17a7b0626b5f285d8f9a82f2cf7e7eac",
+      "sha256": "1415bda65cf5549bb5bfe5529e309d3013f38def8496583258fb33ac9024cd56",
       "source_ids": [
         "Icteri_cianeonatal2021_Joa_o_Medeiros__e4f2f5101b"
       ],
@@ -2834,7 +2834,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 22786,
+      "bytes": 22915,
       "capsule_id": "capsule:eisca:infeccao_do_trato_urinario_na_infancia",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2850,7 +2850,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "131cbacfd30a63b28033dbb92287e44d30338985516bc1ca86ee5407ac96b9e0",
+      "sha256": "5bb0ba2f30710151c10ec3a314864840031cc4618fe403db4efc6bafa87e0532",
       "source_ids": [
         "ITU__aa10c88150"
       ],
@@ -2859,7 +2859,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 13182,
+      "bytes": 13297,
       "capsule_id": "capsule:eisca:interpretacao_hemograma_e_coagulacao",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2875,7 +2875,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "d8fe6cb09191dd80baa17ce58dfbac4d3894f153484b66f13aaea57813c5d18a",
+      "sha256": "371a6740a7d855306d8230c31c2d1122a3398caf00dbe7638084384932ec5e7e",
       "source_ids": [
         "Interpretac_a_o_de_HMG_Tratado_de_ped_5_ed_2022__4dd5a3daa7"
       ],
@@ -2884,7 +2884,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 11216,
+      "bytes": 11377,
       "capsule_id": "capsule:eisca:leucemias_agudas_na_infancia",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2900,7 +2900,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "9e6db65d5f382e38adc0c7af4050fc62a9998cd9db1ce49f37d9724c44166988",
+      "sha256": "1b57628e5c997d8b4b2602020902b2723f63460f3fc51d67f537ba864cd965e2",
       "source_ids": [
         "Leucemia__ef884f25da"
       ],
@@ -2909,7 +2909,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 20163,
+      "bytes": 20283,
       "capsule_id": "capsule:eisca:meningites_na_crianca",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2925,7 +2925,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "62f76ec717dc173616f9626be76d2f3f75579c38fcdcca3aa847810317e0ca39",
+      "sha256": "90fc1293fe64f30b62bd1187e754d0a6a96ca90e67a40dc5e19733242ad35eec",
       "source_ids": [
         "Meningites__8f71393752"
       ],
@@ -2934,7 +2934,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 16210,
+      "bytes": 16328,
       "capsule_id": "capsule:eisca:neuroblastoma",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2950,7 +2950,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "fdc6b79479f3be5dca6d0a55916374fad4abd4801e31fb928f846ff3a72b2cad",
+      "sha256": "fd69a3dda696c686bfc981b50c2483f34270a56dc0ac4bcc3347a1b7d78bb6f5",
       "source_ids": [
         "Neuroblastoma__97ea516ab3",
         "Neuroblastoma__c984597fac"
@@ -2960,7 +2960,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 11955,
+      "bytes": 12111,
       "capsule_id": "capsule:eisca:obesidade_na_infancia_e_adolescencia",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2976,14 +2976,14 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "4814c2c116ee909c86949aebfd796da42ea74d858ca0f27871f8f562d0127a61",
+      "sha256": "61313ab0201496e91a9700c416e9a3f30f10d0c770b93ac1cb5b4fdd2366b6cc",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Obesidade na infância e adolescência (exógena e endógena)",
       "unit": "UNIT_2"
     },
     {
-      "bytes": 11465,
+      "bytes": 11573,
       "capsule_id": "capsule:eisca:obstrucao_via_aerea_alta_crupe_epiglotite",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2999,7 +2999,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "a8722ab98ccfd26502ba9590866f5ba47b3cb175ba588b0d3ccb3d3de3f191a5",
+      "sha256": "5124cb539a462359ab023b364ac81eea0ccc48c01cb407db93f1644e6d0c3ac8",
       "source_ids": [
         "IVAS__c9c0ca127f"
       ],
@@ -3008,7 +3008,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 15296,
+      "bytes": 15405,
       "capsule_id": "capsule:eisca:osteossarcoma",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3024,7 +3024,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "414323afd24cf3abecf7b5449f64c89af236c76a927ba25e13327480833993a2",
+      "sha256": "31a922f4d9a8bf42ba7589e42230e91f5e682cde3ceaa3e23e71f7a7c9ccc3d5",
       "source_ids": [
         "1_Osteossarcoma__da1747531d",
         "Osteossarcoma_pdf__9b8b531f7c",
@@ -3035,7 +3035,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 12191,
+      "bytes": 12352,
       "capsule_id": "capsule:eisca:otite_media_aguda_e_rinossinusite_na_infancia",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3051,7 +3051,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "e94f360838c79b3d3acc276844acc7ff98d4f2e547de228094fdd71800176c46",
+      "sha256": "ce7f12f396bf0810808ea928df4f32e7888d7b82dc3a091cfb8804117afe8df9",
       "source_ids": [
         "IVAS__c9c0ca127f"
       ],
@@ -3060,7 +3060,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 11861,
+      "bytes": 12018,
       "capsule_id": "capsule:eisca:parasitoses_intestinais",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3076,14 +3076,14 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "40ce4e7d6e73bde28d0b9391231cd4b66102f5e3d83fd75ab6bb8ad0dbd52320",
+      "sha256": "422d0ce596c4d1e46a93cab39c4083da2f4da7fdde1f5cfa7891fc83d8c171f1",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Parasitoses intestinais",
       "unit": "UNIT_3"
     },
     {
-      "bytes": 11068,
+      "bytes": 11216,
       "capsule_id": "capsule:eisca:pneumonia_adquirida_na_comunidade_na_infancia",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3099,14 +3099,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "b5adfe1249eb338db5bef3ef0a06c165d83d2d67d3bd4495bbfeb62b698299b2",
+      "sha256": "02524ec914bcabf3967a99a9abe301df5f9645b44530e8179d2ef2d36d6fd4e9",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Pneumonia adquirida na comunidade na infância",
       "unit": "UNIT_4"
     },
     {
-      "bytes": 15964,
+      "bytes": 16077,
       "capsule_id": "capsule:eisca:rinofaringite_aguda_resfriado_comum_e_gripe",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3122,7 +3122,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "c5ab0913c12fbeca629589bade4585bc95a376da8c455769b1b412c25b1b9494",
+      "sha256": "5bf55441fb8524fa48ec9f8f16a91bd804151765ae8056066bbfcde07c244cb8",
       "source_ids": [
         "IVAS__c9c0ca127f"
       ],
@@ -3131,7 +3131,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 19183,
+      "bytes": 19398,
       "capsule_id": "capsule:eisca:saude_ocular_na_infancia",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3147,7 +3147,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "4bf9511611a55272bc4149f5309a25eeb47f2c48fe3869ab8b1f4c00295dbe0c",
+      "sha256": "00cb833478b373370c251c21fc489e532f497089d8b6c25fbdec808029ed7bb0",
       "source_ids": [
         "Slide_Doen_a_Ocular_na_inf_ncia___e681e43aa9"
       ],
@@ -3156,7 +3156,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 20285,
+      "bytes": 20430,
       "capsule_id": "capsule:eisca:semiologia_e_classificacao_do_recem_nascido",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3172,7 +3172,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "2b40b9ad0cbbd1bf84376b589dca95629b94478de05f5d5eea9f37f53bb615c9",
+      "sha256": "74ecf3788229ec3adb70f5c63f17b72d7d626a304917b33e7f62a734ab1ef0da",
       "source_ids": [
         "Anotac_o_es_semiologia_do_RN__c853869a1c",
         "Pediatria_SEMIOLOGIA_DO_RECEe_M__816c7efb84",
@@ -3210,7 +3210,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 14972,
+      "bytes": 15084,
       "capsule_id": "capsule:eisca:sepse_e_meningite_neonatal",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3226,14 +3226,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "3686a582a1d51c83146e608f41a17742a419f28e25b5422eb9064a411b41790a",
+      "sha256": "833849837ae8df72838cbadb65b8272a1603c80fa1eb04da70c7e7870d6e9398",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Sepse neonatal e meningite neonatal",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 16191,
+      "bytes": 16307,
       "capsule_id": "capsule:eisca:tumor_de_wilms",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3249,7 +3249,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "404474617f1229515677e7e15928b7ed62422b47edac8aeea437b64b2065a5b1",
+      "sha256": "5008287d7b9bfce043c75300773e45e6f86d9cdd8b36313db76272d9de4f1a96",
       "source_ids": [
         "Tumor_de_Wilms__96192b5d5a",
         "Tumor_de_Wilms__bf002c7f4a",
@@ -3260,7 +3260,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 21116,
+      "bytes": 21262,
       "capsule_id": "capsule:eisca:tumores_do_sistema_nervoso_central_na_infancia",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3276,7 +3276,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "c9b10bbe3e2505edf2fe0c4665bc74317238c5e1d502139fb991e1309039341e",
+      "sha256": "5e5f2766a6e24ccc9c2b7cf84c363526845444a1e5f362cac4c2ed97787f13e2",
       "source_ids": [
         "Tumores_SNC__bca562a8a2"
       ],
@@ -3285,7 +3285,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 10928,
+      "bytes": 11015,
       "capsule_id": "capsule:eism:abstinencia_alcoolica_delirium_tremens_wernicke",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3301,7 +3301,7 @@
       "review_status": "reviewed_l2",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "6f6b0baf1417418fefc352f3b5e10d9304ae81eb500fa6bbaf94feff9cbe0d89",
+      "sha256": "96267eb23d66c67ca4664715b8a8f5a228c3efde5432dad15ad187e34c3b0388",
       "source_ids": [
         "A_lcool_e_Outras_Drogas__ebaba69a52",
         "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
@@ -3314,7 +3314,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 10093,
+      "bytes": 10230,
       "capsule_id": "capsule:eism:ansioliticos_e_hipnoticos",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3330,7 +3330,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "03b24b6d2bc69fa7b222b5150a94a5a4623b2cd1d983808045d094bf66fdcdca",
+      "sha256": "8b53b7259255fd0976a7bd05c189e51d656254b85123e92f771180b0d7cd98da",
       "source_ids": [
         "ANOTAC_O_ES_ansioli_ticos__c32028b863",
         "FAMENE_FARMACOTERAPIA_DA_INSO_NIA_E_ANSIEDADE_2024_2__f4edb4a564",
@@ -3341,7 +3341,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 10840,
+      "bytes": 10981,
       "capsule_id": "capsule:eism:antidepressivos",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3357,7 +3357,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "bf1fd919a3303158c9e618f9bd5477a435890431d3464ec96f7bffa45ba96d36",
+      "sha256": "a2d16bab319968b2e49cd9a9481e8e8cd7dca6a412fa3ba70e8f38299dcc6508",
       "source_ids": [
         "Antidepressivos_pdf__bdadd3d15a",
         "Depressa_o_e_Antidepressivos_pdf__100d0878e0",
@@ -3371,7 +3371,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 14372,
+      "bytes": 14517,
       "capsule_id": "capsule:eism:antipsicoticos_sep_e_snm",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3387,7 +3387,7 @@
       "review_status": "reviewed_l2",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "82d66e27d62f5bc1cc11bdbcabdf2156894196a5e76f1461a4420bf607b5f01a",
+      "sha256": "d079edca09af67d551f79acba87980e80d899b1dfc07c22376d952bffe1df560",
       "source_ids": [
         "Antipsico_ticos_II_unidade__bea4c8f456",
         "Antipsico_ticos_Tabela__1d16c62d2d",
@@ -3399,7 +3399,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 9040,
+      "bytes": 9141,
       "capsule_id": "capsule:eism:delirium",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3415,7 +3415,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "106d0de4aa7c1045d813913e8279c4f06b92e1b86b4b69d65bbe9f5ecf94558f",
+      "sha256": "9032e66be09468c1bd5b87da1d8bb944208b534e14ebdfbfd0d2617b1889509b",
       "source_ids": [
         "Del_rium_e_dem_ncia_docx__14314da2e4",
         "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
@@ -3428,7 +3428,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 10170,
+      "bytes": 10306,
       "capsule_id": "capsule:eism:depressao",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3444,7 +3444,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "b795acdbc36c2778e9e1865fad20aad7961497b755d9e0755ddc3edc8e0dfd5a",
+      "sha256": "4b6123ba2584c68f674b8c1ed96999c6ba9cd9f33bd4669e24cc5117bf76d9dc",
       "source_ids": [
         "DEPRESSA_O_1___3e2302e5ae",
         "Depressa_o__b18d58c2a5",
@@ -3458,7 +3458,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 6777,
+      "bytes": 6885,
       "capsule_id": "capsule:eism:eletroconvulsoterapia_ect",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3474,7 +3474,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "d6c694605efc73f86127ac391af7f19b0ccaede4d4c93df12057294a6265aa59",
+      "sha256": "fb7a930657becb5cd09745bbc431c0573ff184fa8f66780ad5bee6e5e8a771c1",
       "source_ids": [
         "Depressa_o_e_antidepressivos_I_unidade__68b07e464c",
         "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985"
@@ -3484,7 +3484,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 8482,
+      "bytes": 8580,
       "capsule_id": "capsule:eism:emergencias_psiquiatricas_e_agitacao_psicomotora",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3500,7 +3500,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "a51f92822123d9bb20e47938fa3b425c2c97bbeaad86f9d89060e1ac9326302d",
+      "sha256": "5547beda612ccaf36affcd711d42ffe9f6200952f1706dc1a51a8523a7087440",
       "source_ids": [
         "4_Emerge_ncias_Psiquia_tricas__705566fda7",
         "Diretriz_Para_O_Manejo_Da_Agitac_a_o_Psicomotora__0b56263bde",
@@ -3512,7 +3512,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 10581,
+      "bytes": 10709,
       "capsule_id": "capsule:eism:esquizofrenia_e_transtornos_psicoticos",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3528,7 +3528,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "c5e74b3577c3fe14b1c634e360c775435a33daab3a2bc7b2d81ec2b904f36fdf",
+      "sha256": "020ab420bca6f01d08aa488c7de28348eeb456c70e191a401fc4e6d6a308e504",
       "source_ids": [
         "Esquizofrenia_II_unidade__41783f009c",
         "Esquizofrenia__5d54b28c4d",
@@ -3540,7 +3540,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 9881,
+      "bytes": 10014,
       "capsule_id": "capsule:eism:farmacoterapia_da_insonia",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3556,7 +3556,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "d5a4ba99a973304493a93d513b4f2a9d17a3a336897bec22f40a43ba8de5797c",
+      "sha256": "eff6534d951ad97f8492df91b1d7b05f68838de9c9e0efa439e1576aef8f3c53",
       "source_ids": [
         "FAMENE_FARMACOTERAPIA_DA_INSO_NIA_E_ANSIEDADE_2024_2__f4edb4a564",
         "Hipno_ticos_III_unidade__c1b545089c"
@@ -3566,7 +3566,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 9278,
+      "bytes": 9401,
       "capsule_id": "capsule:eism:psicopatologia",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3582,7 +3582,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "2164fd3cda8ffd41ee5cb9b30d689d00a6fbc1ef31b3b948b8ef19f7656622fe",
+      "sha256": "0ea1031e2e0a00e87b19d0611c58fb772275daff19ba88ccfcd929c1d929ffb1",
       "source_ids": [
         "Introduc_a_o_a_psquiatria__905c8170fe"
       ],
@@ -3591,7 +3591,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 8022,
+      "bytes": 8133,
       "capsule_id": "capsule:eism:psiquiatria_infancia_e_adolescencia",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3607,7 +3607,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "14cf081cb4727ed0d152dc59e035454c35deb3ae6ee015fe992d0b477dae54fb",
+      "sha256": "3d6e6bc5d3523d57807b6cf3053adb766bd0a9ecc94fb0ba6e20840da1313916",
       "source_ids": [
         "DEVOLUTIVA_I_SM_2015_2__5a5a6af2ac"
       ],
@@ -3616,7 +3616,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 8942,
+      "bytes": 9041,
       "capsule_id": "capsule:eism:risco_de_suicidio",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3632,7 +3632,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "ed2bd392a644eea804a193a4a4aafe45e72b2cf4779772b48ea11c7e2ff6a3f4",
+      "sha256": "3261c1ebc6c85c27773273a6f4c921716f07b690d518bbf6e74b5e4ba94e17f3",
       "source_ids": [
         "4_Emerge_ncias_Psiquia_tricas__705566fda7",
         "Aula_1_2021_1_Transtorno_Bipolar__c902ef25a4",
@@ -3645,7 +3645,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 6942,
+      "bytes": 7056,
       "capsule_id": "capsule:eism:sexualidade_humana_e_disfuncoes_sexuais",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3661,7 +3661,7 @@
       "review_status": "reviewed_l1",
       "risk": "low",
       "schema_version": "1.0.0",
-      "sha256": "bb30b192e90f2c416d74cf7045ddd268ded1a01a5bd48552b3bd8176f12a678a",
+      "sha256": "bc6345bb99d58f4d7a44dbd10f291a86667caa03dcb42495014903740618fc15",
       "source_ids": [
         "SM_Psiquiatria_SEXUALIDADE_HUMANA__1afb6498a4"
       ],
@@ -3670,7 +3670,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 9749,
+      "bytes": 9878,
       "capsule_id": "capsule:eism:tdah",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3686,7 +3686,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "03102dd4a8c53e05732933f6ddcd2e2fd223b1129bae720f71875458645adf2c",
+      "sha256": "ea4caa80d13c0f3ec4ad152b8dae410bdfc63cdfb1397673ae1bdc928ebd7e89",
       "source_ids": [
         "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
         "Transtorno_Deficit_de_Atenc_a_o__1792c773b9"
@@ -3696,7 +3696,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 10017,
+      "bytes": 10150,
       "capsule_id": "capsule:eism:tept_e_tea",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3712,7 +3712,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "e899ab01a394392e6b40734db8af951d6b2abdfd2789c65e39112c6962c5080e",
+      "sha256": "bc4c0145bd0011c75948a69163e1f68dced0f4ab84c37fcd6d9a068745ab99d9",
       "source_ids": [
         "Antidepressivos_pdf__bdadd3d15a",
         "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985"
@@ -3722,7 +3722,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 9818,
+      "bytes": 9953,
       "capsule_id": "capsule:eism:toc",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3738,7 +3738,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "09c7f5197625d152ef05b1c06ba994e407801e0493f27a617d507e954cc7ebfc",
+      "sha256": "85b546dea6e7a6a0f502abc4cf31cc2e56d5a215ac5d4234ba307c58cbb77d8c",
       "source_ids": [
         "ANOTAC_O_ES_TOC__61f6501286",
         "SLIDES_TOC__5705990d4c",
@@ -3749,7 +3749,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 12353,
+      "bytes": 12459,
       "capsule_id": "capsule:eism:transtorno_bipolar_e_estabilizadores_do_humor",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3765,7 +3765,7 @@
       "review_status": "reviewed_l2",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "b742e566d42813343c51663edde680f5efb6af9395a9a658ab12f6ab55589fff",
+      "sha256": "1e4fe1329b02c59369b651274ac14d6303f4d311a23720a6fba7a6d22dc93955",
       "source_ids": [
         "ANOTAC_O_ES_bipolaridade__a1c9d4465d",
         "Aula_1_2021_1_Transtorno_Bipolar__c902ef25a4",
@@ -3777,7 +3777,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 11788,
+      "bytes": 11927,
       "capsule_id": "capsule:eism:transtornos_alimentares",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3793,7 +3793,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "cf7aea012e17ea95e197b6c0ed6322e655d226b7fd52876f09ac6ee9df518b47",
+      "sha256": "40ae0fe0b59490323d159bb15bc4e788641a2032eddfcf821462abeb233125d7",
       "source_ids": [
         "9_Transtornos_alimentares__cd91c009ec",
         "SM_Psiquiatria_TRANSTORNOS_ALIMENTARES__033d08ff0c",
@@ -3805,7 +3805,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 9879,
+      "bytes": 10011,
       "capsule_id": "capsule:eism:transtornos_de_ansiedade",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3821,7 +3821,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "e23e0476c48e3d2e5cfbdb35d10d4f3df8e458fafe82344da98a16ae8ba4d13a",
+      "sha256": "89db0ca0c556d2f82ffffb67b55664ad770cd9a53b0f407e2aeef88c9a9ec5e7",
       "source_ids": [
         "Ansiedade__886bbbe8f5",
         "Transtorno_de_Ansiedade_e_de_P_nico__58a2231d19",
@@ -3833,7 +3833,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 10237,
+      "bytes": 10372,
       "capsule_id": "capsule:eism:transtornos_de_personalidade",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3849,7 +3849,7 @@
       "review_status": "reviewed_l1",
       "risk": "medium",
       "schema_version": "1.0.0",
-      "sha256": "997db3930d0aaf4379226c2d6a791b78136dc4846033671664c6ed4129a73a1a",
+      "sha256": "05352676f2de39189463eb08af3ebf789bbcc59a826cdfc3d9b47b03349aba2c",
       "source_ids": [
         "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
         "TP__e87eacc7da",
@@ -3860,7 +3860,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 7794,
+      "bytes": 7913,
       "capsule_id": "capsule:eism:transtornos_dissociativos",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3876,7 +3876,7 @@
       "review_status": "reviewed_l1",
       "risk": "low",
       "schema_version": "1.0.0",
-      "sha256": "d0a69f3b4a6151efc8f6f4392c14ff9e51b7f5461527a61d4ba6259953e5c1fc",
+      "sha256": "86e12da778ad56904f814cb7a5bf91b1275a3ec4e5606b0d9b16e84a27e990ea",
       "source_ids": [
         "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985"
       ],
@@ -3885,7 +3885,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 10607,
+      "bytes": 10729,
       "capsule_id": "capsule:eism:transtornos_mentais_na_gravidez_e_puerperio",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3901,7 +3901,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "0cbd5f43a60278012a4c264eee3858d9721b8ac405784fc4427cb0d53183a60b",
+      "sha256": "b88193a5a93a5a597c0594f2fad6243dc62869e5b1928b923375dc84f9f5579d",
       "source_ids": [
         "2_Transtornos_Mentais_na_Gravidez_e_No_Puerpe_rio__0efe14a107",
         "Transtornos_mentais_e_comportamentais_relacionados_ao_puerpe__d60fdbc256"
@@ -3911,7 +3911,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 9415,
+      "bytes": 9517,
       "capsule_id": "capsule:eism:transtornos_por_uso_de_substancias",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3927,7 +3927,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "786c61fa20527928bf0d57a3d613a903bb9013e8e3414f775d92cbc61b298a55",
+      "sha256": "7be03631aae17877fa6ae03615f9a623907b9ffcda23137134087cf1f14e7f93",
       "source_ids": [
         "A_lcool_e_Outras_Drogas__ebaba69a52",
         "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
@@ -3940,7 +3940,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 12627,
+      "bytes": 12724,
       "capsule_id": "capsule:osce:formato_roteiro_osce_p7",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -3956,14 +3956,14 @@
       "review_status": "reviewed_l1",
       "risk": "low",
       "schema_version": "1.0.0",
-      "sha256": "9aba2c77fc301b802213859e2e03cbd9f2d72183d711a8933a74e5c4127def6e",
+      "sha256": "9f2f23acbf5f428cd977d0ae4edfa297630af64db8b1b819afb8bfb6661a163e",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Formato e roteiro geral da estação OSCE do P7",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 13946,
+      "bytes": 14077,
       "capsule_id": "capsule:osce:osce_banco_de_estacoes",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -3979,14 +3979,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "ac3db70e5cafb26a800a0a587f8fb63361a122dd2472e8b90299c68ef100c499",
+      "sha256": "5088d347cb43b02f6fa42fe492654d2027a8eec3bc8351275b8880427402de0d",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Banco de estações OSCE modeladas com comandos e gabarito",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 15236,
+      "bytes": 15351,
       "capsule_id": "capsule:osce:osce_endocrinologia",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -4002,14 +4002,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "4acee815c0c7bd157ec8c2b00aca23ff7b3e79fb685087e886db9578e398067c",
+      "sha256": "17522b58c2f5bd302843e73420f801d8e8abf974d4e4c195d0de12af7960ef49",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "OSCE Endocrinologia — diabetes, tireoidopatias, Cushing e hiperfunção hipofisária",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 15398,
+      "bytes": 15513,
       "capsule_id": "capsule:osce:osce_nefrologia",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -4025,14 +4025,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "f34d7c6585edd6753506f393a710aeb75cefed0b9d697150bb3525656534e1a1",
+      "sha256": "133f8fe4100d8bfd0e4f75064f8370d223af22cd269b64841a81c58df51f7793",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "OSCE Nefrologia — síndromes glomerulares, glomerulopatias, DRC e injúria renal aguda",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 22640,
+      "bytes": 22770,
       "capsule_id": "capsule:osce:osce_neurologia",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -4048,14 +4048,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "10cb7151e29d2010bc5c5406cd833284f8c9f1900b5f6fd79d6d36c15bf12785",
+      "sha256": "0350632b46297f1d94b26640ef7a59524d958b203998aa14ee6f95ef1c73c30f",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "OSCE Neurologia — AVC isquêmico, AVC hemorrágico, AIT, coma e TCE",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 21996,
+      "bytes": 22121,
       "capsule_id": "capsule:osce:osce_pediatria",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -4071,14 +4071,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "e738082a38a9c196d5e5f3dd5c04632088299c366df93af079c467f754fe8c47",
+      "sha256": "5df78eb7f66c8c44bb669edbbbc79d84452e1de1cd2a92a2ce40ad1017f45287",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "OSCE Pediatria — pneumonia, asma, diarreia com desidratação, aleitamento materno e assistência ao recém-nascido",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 23823,
+      "bytes": 23957,
       "capsule_id": "capsule:osce:osce_urologia",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -4094,7 +4094,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "8f4b4ded8c2a18bcfa45e978f21d287e0b9eca249f1a10b7be897340d555631a",
+      "sha256": "5be91348e079187f2a938546161b779a44dc10eaf00ac34479462d568411d419",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "OSCE Urologia — litíase, hiperplasia prostática benigna, câncer de próstata, câncer renal e trauma urogenital",
