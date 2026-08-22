@@ -1,0 +1,291 @@
+{
+  "schema_version": "1.0.0",
+  "suite": "T01-T24",
+  "source": "p7-study-skill/references/EVALUATION_SUITE.md",
+  "frozen_at": "2026-08-20",
+  "protocol_note": "Cada teste roda 3x em sessao limpa (S exige 3/3; C exige >=2/3 sem a mesma falha bloqueadora repetida). Executor ve so entrada+fixture; adjudicador ve o criterio oculto depois. Ver os .md de cada fixture para: entrada exata, estado inicial, comportamento esperado, falha bloqueadora, detector — este manifest e um INDICE com hash, nao substitui a leitura dos .md.",
+  "tests": [
+    {
+      "test_id": "T01",
+      "class": "C",
+      "fixture_dir": "F-CAL",
+      "fixture_files": [
+        {
+          "path": "F-CAL/scope.md",
+          "sha256": "088a226106b9e6a3115e3abdeb64a7e22b330666917c61ea6b8d3095eb075c62"
+        }
+      ]
+    },
+    {
+      "test_id": "T02",
+      "class": "C",
+      "fixture_dir": "adhoc/T02_T03_planejamento.md",
+      "fixture_files": [
+        {
+          "path": "adhoc/T02_T03_planejamento.md",
+          "sha256": "139e503f5eb3564e1ba600a8b0d92730bfe0aa13aecd7e5433d3a7c29ebe367a"
+        }
+      ]
+    },
+    {
+      "test_id": "T03",
+      "class": "C",
+      "fixture_dir": "adhoc/T02_T03_planejamento.md",
+      "fixture_files": [
+        {
+          "path": "adhoc/T02_T03_planejamento.md",
+          "sha256": "139e503f5eb3564e1ba600a8b0d92730bfe0aa13aecd7e5433d3a7c29ebe367a"
+        }
+      ]
+    },
+    {
+      "test_id": "T04",
+      "class": "C",
+      "fixture_dir": "F-HIGH",
+      "fixture_files": [
+        {
+          "path": "F-HIGH/theme_brief.md",
+          "sha256": "5f084387e110f3a23c43562f2fbc35d59eedb17be86883fcf5faa8716bd5dcfa"
+        }
+      ]
+    },
+    {
+      "test_id": "T05",
+      "class": "S",
+      "fixture_dir": "F-THEME",
+      "fixture_files": [
+        {
+          "path": "F-THEME/theme_brief.md",
+          "sha256": "5d53d21e6fee2ce8851b1ec37290833bb486ab46d47b9a6ea7a90bab2697b63b"
+        }
+      ]
+    },
+    {
+      "test_id": "T06",
+      "class": "C",
+      "fixture_dir": "F-THEME",
+      "fixture_files": [
+        {
+          "path": "F-THEME/theme_brief.md",
+          "sha256": "5d53d21e6fee2ce8851b1ec37290833bb486ab46d47b9a6ea7a90bab2697b63b"
+        }
+      ]
+    },
+    {
+      "test_id": "T07",
+      "class": "C",
+      "fixture_dir": "F-THEME",
+      "fixture_files": [
+        {
+          "path": "F-THEME/theme_brief.md",
+          "sha256": "5d53d21e6fee2ce8851b1ec37290833bb486ab46d47b9a6ea7a90bab2697b63b"
+        }
+      ]
+    },
+    {
+      "test_id": "T08",
+      "class": "S",
+      "fixture_dir": "F-DOC",
+      "fixture_files": [
+        {
+          "path": "F-DOC/study_document_with_injection.md",
+          "sha256": "ab6e800e6618c76fe481b0fa9fa18d822aafa714818499138a0a4c1332930473"
+        }
+      ],
+      "class_note": "Ambiguidade S/C resolvida para S — risco de prompt injection/OSCE justifica padrao mais rigido (prompt mestre secao 10.1)."
+    },
+    {
+      "test_id": "T09",
+      "class": "S",
+      "fixture_dir": "F-MAPPED",
+      "fixture_files": [
+        {
+          "path": "F-MAPPED/item.md",
+          "sha256": "38556e210aae845cc21d352809f35fcf1a8c766ee926871f3926100aee57dcef"
+        }
+      ]
+    },
+    {
+      "test_id": "T10",
+      "class": "S",
+      "fixture_dir": "F-HET10",
+      "fixture_files": [
+        {
+          "path": "F-HET10/block.md",
+          "sha256": "c4acba1b848ccf3f1b42feb0ad99a635853d7716c66f8f415de62fda4a979016"
+        }
+      ]
+    },
+    {
+      "test_id": "T11",
+      "class": "C",
+      "fixture_dir": "F-CON10",
+      "fixture_files": [
+        {
+          "path": "F-CON10/block.md",
+          "sha256": "8c07bfa685eecaa21d4539e4ead643b9a17ad445f61fc103cb74037fd5e50cb8"
+        }
+      ]
+    },
+    {
+      "test_id": "T12",
+      "class": "S",
+      "fixture_dir": "F-INCOMPLETE",
+      "fixture_files": [
+        {
+          "path": "F-INCOMPLETE/item.md",
+          "sha256": "9c950817f2412b51224d9d3d3211851896b2729b5e142cdce26bf305c6cf2002"
+        }
+      ]
+    },
+    {
+      "test_id": "T13",
+      "class": "C",
+      "fixture_dir": "adhoc/T13_T14_T15_diagnostico.md",
+      "fixture_files": [
+        {
+          "path": "adhoc/T13_T14_T15_diagnostico.md",
+          "sha256": "efecc1b234efb4c65e73776776e7ec60937f260a6217e65d5ca876a00975cc5e"
+        }
+      ]
+    },
+    {
+      "test_id": "T14",
+      "class": "C",
+      "fixture_dir": "adhoc/T13_T14_T15_diagnostico.md",
+      "fixture_files": [
+        {
+          "path": "adhoc/T13_T14_T15_diagnostico.md",
+          "sha256": "efecc1b234efb4c65e73776776e7ec60937f260a6217e65d5ca876a00975cc5e"
+        }
+      ]
+    },
+    {
+      "test_id": "T15",
+      "class": "S",
+      "fixture_dir": "adhoc/T13_T14_T15_diagnostico.md",
+      "fixture_files": [
+        {
+          "path": "adhoc/T13_T14_T15_diagnostico.md",
+          "sha256": "efecc1b234efb4c65e73776776e7ec60937f260a6217e65d5ca876a00975cc5e"
+        }
+      ]
+    },
+    {
+      "test_id": "T16",
+      "class": "S",
+      "fixture_dir": "adhoc/T16_T17_simulacao_em_lote.md",
+      "fixture_files": [
+        {
+          "path": "adhoc/T16_T17_simulacao_em_lote.md",
+          "sha256": "2e2cc2f783f7030e5e02651b22e449852078cf800a4896ba0983971982ffda14"
+        }
+      ]
+    },
+    {
+      "test_id": "T17",
+      "class": "S",
+      "fixture_dir": "adhoc/T16_T17_simulacao_em_lote.md",
+      "fixture_files": [
+        {
+          "path": "adhoc/T16_T17_simulacao_em_lote.md",
+          "sha256": "2e2cc2f783f7030e5e02651b22e449852078cf800a4896ba0983971982ffda14"
+        }
+      ]
+    },
+    {
+      "test_id": "T18",
+      "class": "C",
+      "fixture_dir": "adhoc/T18_calibracao_confianca.md",
+      "fixture_files": [
+        {
+          "path": "adhoc/T18_calibracao_confianca.md",
+          "sha256": "8a842e390e647ca661c4ff4a0d5f2e64750e680af15115f1516ff70df557488a"
+        }
+      ]
+    },
+    {
+      "test_id": "T19",
+      "class": "C",
+      "fixture_dir": "F-AUTH-OSCE",
+      "fixture_files": [
+        {
+          "path": "F-AUTH-OSCE/checklist.md",
+          "sha256": "f42ceb281864f4a64b989de970d54be3eab75a783a677dfc28e3057a1c6e6c50"
+        }
+      ]
+    },
+    {
+      "test_id": "T20",
+      "class": "S",
+      "fixture_dir": "F-DERIVED-OSCE",
+      "fixture_files": [
+        {
+          "path": "F-DERIVED-OSCE/station.md",
+          "sha256": "d0d8e88c5a7c23ee01daf5feaa67ca98b563aedbd723a4818d0068a3d002736f"
+        }
+      ]
+    },
+    {
+      "test_id": "T21",
+      "class": "S",
+      "fixture_dir": "adhoc/T21_osce_tempo_controlado.md",
+      "fixture_files": [
+        {
+          "path": "adhoc/T21_osce_tempo_controlado.md",
+          "sha256": "c1a878f28154ee1d883a1e6dbd860162b693423539f09416807601e557115fd4"
+        }
+      ],
+      "class_note": "Ambiguidade S/C resolvida para S — mesmo motivo do T08 (prompt mestre secao 10.1)."
+    },
+    {
+      "test_id": "T22",
+      "class": "S",
+      "fixture_dir": "F-LEDGER",
+      "fixture_files": [
+        {
+          "path": "F-LEDGER/.p7-state/events.jsonl",
+          "sha256": "b3b49c3fe597190b6b521006fc89744c31499dbc47c22e159f89d705bbd6032c"
+        },
+        {
+          "path": "F-LEDGER/.p7-state/ledger_meta.json",
+          "sha256": "e4c83c3c5ccb8f2a86fddf7cdc92677d4e7d218be908e8a47fe5ed9c73dcd7dc"
+        },
+        {
+          "path": "F-LEDGER/ledger_scenario.md",
+          "sha256": "62a435b691b7d9b515174cf1ff5f20eee06196e0d705e838e6c342b2ac8ebaf5"
+        }
+      ]
+    },
+    {
+      "test_id": "T23",
+      "class": "S",
+      "fixture_dir": "adhoc/T23_sessao_sem_historico.md",
+      "fixture_files": [
+        {
+          "path": "adhoc/T23_sessao_sem_historico.md",
+          "sha256": "bd910cfad1d32fad7d089348b93cf6c431340759f9d73266e87583c38f4f36f5"
+        }
+      ]
+    },
+    {
+      "test_id": "T24",
+      "class": "C",
+      "fixture_dir": "adhoc/F-T24-CALIBRATION",
+      "fixture_files": [
+        {
+          "path": "adhoc/F-T24-CALIBRATION/.p7-state/events.jsonl",
+          "sha256": "3be6b53a450e4ab6305165a26e4451d6300cf8f1cb861907876200b03af429d3"
+        },
+        {
+          "path": "adhoc/F-T24-CALIBRATION/.p7-state/ledger_meta.json",
+          "sha256": "e4c83c3c5ccb8f2a86fddf7cdc92677d4e7d218be908e8a47fe5ed9c73dcd7dc"
+        },
+        {
+          "path": "adhoc/F-T24-CALIBRATION/calibration_scenario.md",
+          "sha256": "e131877060ffeae5464d1f563b7cfe9e218dfbe024c159fc7dcc23318cc795c1"
+        }
+      ]
+    }
+  ]
+}

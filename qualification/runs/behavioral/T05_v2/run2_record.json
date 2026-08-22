@@ -1,0 +1,21 @@
+{
+  "run_id": "run:T05:2:2026-08-20",
+  "test_id": "T05",
+  "date_time": "2026-08-20 (America/Fortaleza)",
+  "model_surface_version": "Claude Code 2.1.220, claude -p headless",
+  "skill_snapshot_sha": "qualification/v1.0.0-claude (ver git log)",
+  "tool_access": [
+    "default minus Bash,Edit,Write (--disallowedTools)"
+  ],
+  "new_session": true,
+  "prior_history_supplied": false,
+  "session_id": "d8033339-c720-4f94-85ea-cddf2cb8f557",
+  "num_turns": 8,
+  "is_error": false,
+  "total_cost_usd": 0.624277,
+  "prompt_sent": "Quero estudar asma na infância agora — crise aguda. Mas quero que você me teste primeiro, não me explica nada ainda — me dá um caso pra eu tentar resolver antes.",
+  "transcript_file": "run2_transcript.md",
+  "transcript_sha256": "325dd3412a5bec3b5bbfab6d332772399d1ec326fc4b2c6b134a6894b51e2c00",
+  "input_tokens": 10,
+  "output_tokens": 3078
+}

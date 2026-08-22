@@ -1,0 +1,33 @@
+Caso montado. Não vou explicar nada antes da sua resposta.
+
+**Alvo:** EISCA · III unidade · Asma em pediatria — crise aguda. Fonte principal do tema no acervo: slide da Profª Adrianna Araruna (`Asma_em_Pediatria`, camada A, 63 pp.). Aula de asma no calendário 2026.2: 27/11 — você está com folga de prazo, então dá pra errar aqui sem custo.
+
+---
+
+## Caso — Estação 1
+
+**Lorena, 4 anos e 2 meses**, trazida à emergência pela mãe às 22h40 por falta de ar e chiado iniciados há cerca de 6 horas, após 3 dias de coriza clara e tosse seca.
+
+**História:** dois episódios semelhantes no último ano, ambos resolvidos em casa com "bombinha da vizinha". Mãe asmática. Dermatite atópica desde os 5 meses, em acompanhamento. Nunca internou. Sem uso regular de medicação preventiva. Última consulta pediátrica há 8 meses.
+
+**Ao exame (chegada):**
+- Alerta, chorosa, senta-se preferencialmente inclinada para frente
+- Fala **frases curtas**, interrompe para respirar; aceitou pequenos goles de água
+- FR 46 irpm · FC 178 bpm · T 37,4 °C
+- SpO₂ **93%** em ar ambiente
+- Tiragem subcostal e intercostal; batimento de asa nasal
+- Ausculta: sibilos expiratórios difusos, murmúrio vesicular audível bilateralmente, expiração prolongada
+
+A mãe informa que em casa, às 20h, fez **uma** aplicação de salbutamol spray, sem espaçador, "uns 2 jatos", com melhora parcial e breve.
+
+---
+
+### O que eu quero de você (responda em texto, sem consultar nada)
+
+1. **Classifique a gravidade da crise** e diga explicitamente **quais parâmetros** você usou para chegar nessa classificação — inclusive os que discordam entre si, se você achar que discordam.
+2. **Conduta nos primeiros 60 minutos:** o que você faz, com que droga, dose, via e intervalo. Seja concreto — nome do fármaco, número de jatos ou gotas, de quanto em quanto tempo, quantas vezes.
+3. **Qual é o seu alvo de SpO₂** durante o tratamento, e quando você oferta oxigênio.
+4. **Corticoide sistêmico: sim ou não?** Se sim: qual, dose, quando entra na sequência — e por quê nesse momento e não em outro.
+5. Diga **um dado do caso que, se fosse diferente, mudaria sua classificação de gravidade** — e para qual lado.
+
+Não responda a Estação 2 ainda; ela só existe depois que você fechar essas cinco. Escreva tudo o que passar pela cabeça, inclusive as dúvidas — o raciocínio que você mostrar é o que eu vou corrigir, e o que você não escrever eu não vou inferir.

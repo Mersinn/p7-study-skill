@@ -25,3 +25,9 @@ artifacts/*.tmp
 # conteúdo de terceiros não é redistribuído no pacote nem no histórico do Git
 # — apenas locator/página é citado em registry/source_versions.jsonl.
 qualification/sources_cache/
+
+# Copia descartavel do pacote usada para invocacoes headless isoladas
+# (ver qualification/reports/BEHAVIORAL_QUALIFICATION_REPORT.md para o
+# comando de setup reproduzivel). Nao e evidencia — os runs/transcritos
+# reais ficam em qualification/runs/.
+qualification/headless_test_env/
