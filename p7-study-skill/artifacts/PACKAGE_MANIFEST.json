@@ -37,9 +37,9 @@
       "sha256": "16a335c7fe219b59512cd4308f10e2c218eb257a543da3dc77f43e722b99b78e"
     },
     {
-      "bytes": 25278,
+      "bytes": 27362,
       "path": "SKILL.md",
-      "sha256": "b24b6c4dc0202896795fb83846bdbbbc9b7fd855529da1f70a575c4286824269"
+      "sha256": "82bf29475268b861e18c7576bb9ba1c0fdf985f2e554a16b52e94f0a9ef0d5cb"
     },
     {
       "bytes": 11,
@@ -1042,9 +1042,9 @@
       "sha256": "f09517848233e2b5a2311e69250974cb223768e494100a9ccce2099d9fc5ff22"
     },
     {
-      "bytes": 2633,
+      "bytes": 3389,
       "path": "registry/release_gates.json",
-      "sha256": "359ab09134e1eee88322a06e9038cbd6b7cf3da8be7558d2bef2cb3b75d6c2c1"
+      "sha256": "5d215fae7f75d4f567fd7d658a3602be67ef923399f3bfa72b57d547303c8518"
     },
     {
       "bytes": 1976,
@@ -1174,5 +1174,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 2916622
+  "total_bytes": 2919462
 }

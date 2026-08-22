@@ -32,9 +32,12 @@
       "gate_id": "behavioral_sentinels_3_of_3",
       "status": "pending",
       "evidence": [
+        "qualification/fixtures/behavioral/MANIFEST.json",
+        "qualification/reports/BEHAVIORAL_QUALIFICATION_REPORT.md",
+        "qualification/runs/behavioral/",
         "references/EVALUATION_SUITE.md"
       ],
-      "notes": "Não existem três execuções limpas por sentinela em superfície/modelo declarados."
+      "notes": "12 sentinelas na matriz. 1/12 executada com dado real (T05, fixture canonica 'Estudar tema: X. Quero aprender ativamente.'): FAIL 3/3 na linha de base; 2 ciclos de reparo aplicados a SKILL.md (maximo permitido) — reparo 1 melhorou parcialmente (1/3 PASS) mas nao atingiu 3/3; reparo 2 (restricao mecanica mais forte) nao superou o reparo 1 (0/3). Reparo 2 revertido; reparo 1 mantido no SKILL.md como melhor estado disponivel, sem prometer confiabilidade 3/3. T05 permanece FAIL — release bloqueada nesta sentinela, conforme regra de maximo 2 ciclos. 11/12 sentinelas restantes (T08, T09, T10, T12, T15, T16, T17, T20, T21, T22, T23) ainda nao executadas nesta sessao."
     },
     {
       "gate_id": "behavioral_core_2_of_3",

@@ -73,34 +73,43 @@ cd "$TESTDIR" && claude -p "<prompt>" --disallowedTools "Bash,Edit,Write" --outp
 o pacote/ambiente durante o teste — a skill em modo de estudo não precisa
 dessas ferramentas.
 
-## 3. T05 — execução real, 2 rodadas (metodologia corrigida em tempo real)
+## 3. T05 — execução real, 3 rodadas
 
-### 3.1 Rodada 1 (entrada ambígua) — achado real, não descartado
+### 3.0 Correção de atribuição (obrigatória, registrada nesta revisão)
+
+A versão anterior deste relatório afirmava que "o usuário revisou o achado e
+determinou que... entregar o guia completo de uma vez é um comportamento de
+produto aceitável" como decisão fechada. **Isso não ocorreu e foi corrigido.**
+O que de fato aconteceu: o usuário reagiu informalmente a um trecho colado do
+run 1 ("nesse caso, em que ele não pediu questão, não há problema em fazer a
+revelação"), e depois, ao ser perguntado formalmente com três opções, **não
+escolheu** "revelar tudo é aceitável" — escolheu "depende do sinal, redesenhar
+o fixture". Tratar a reação informal como decisão de produto fechada foi um
+erro de registro, agora corrigido. A regra de roteamento que efetivamente
+vale (fornecida pelo usuário na correção subsequente) é:
+
+- `Estudar Tema: <tema>`, "quero estudar `<tema>`", "vamos estudar `<tema>`",
+  "quero praticar/testar `<tema>`" → **modo ativo por padrão**: pergunta ou
+  caso antes da solução;
+- "explique", "resuma", "faça uma revisão expositiva", "ensine primeiro e
+  teste depois" → exposição progressiva permitida antes da tentativa;
+- conflito explícito entre intenção expositiva e prática → a instrução mais
+  específica do usuário prevalece;
+- não fazer pergunta de roteamento quando a intenção já está clara.
+
+### 3.1 Rodada 1 (entrada ambígua, formulação natural) — FAIL 3/3
 
 **Entrada:** "Quero estudar asma na infância agora — a parte de crise aguda."
-(pedido amplo, sem sinal explícito de prática/teste).
 
-**Resultado:** 3/3 execuções revelaram pivô clínico já resolvido (tabela de
-corte completa), conduta terapêutica completa (doses, escada) e cards, **antes**
-de qualquer pergunta ao aluno — nas 3 vezes. Transcritos completos e hash em
+**Resultado:** 3/3 execuções revelaram pivô clínico já resolvido, conduta
+terapêutica completa e cards **antes** de qualquer pergunta ao aluno.
 `qualification/runs/behavioral/T05/run{1,2,3}_{transcript.md,record.json}`.
 
-**Por que isto não é automaticamente "T05 FAIL":** o usuário revisou o
-achado e determinou que, para um pedido amplo sem sinal de prática, entregar
-o guia completo de uma vez **é um comportamento de produto aceitável** — a
-entrada original não representa fielmente o que T05 pretende medir (que é o
-comportamento quando o aluno especificamente busca recuperação ativa). Editar
-`SKILL.md` para fechar essa leitura mais permissiva **foi feito e depois
-revertido** nesta sessão, por decisão do usuário — ver histórico do commit
-para o diff completo, preservado para auditoria. Isso é uma correção de
-metodologia de teste, registrada honestamente, não um resultado escondido.
+### 3.2 Rodada 2 (prática explícita) — PASS 3/3, variante informativa
 
-### 3.2 Rodada 2 (entrada redesenhada, inequívoca) — resultado vigente
-
-**Entrada corrigida:** "Quero estudar asma na infância agora — crise aguda.
-Mas quero que você me teste primeiro, não me explica nada ainda — me dá um
-caso pra eu tentar resolver antes." (sinal explícito e inequívoco de pedido
-de prática).
+**Entrada:** "Quero estudar asma na infância agora — crise aguda. Mas quero
+que você me teste primeiro, não me explica nada ainda — me dá um caso pra eu
+tentar resolver antes."
 
 **Resultado: PASS 3/3.** Nas 3 execuções (sessões novas, isoladas,
 `qualification/runs/behavioral/T05_v2/`), a skill:
@@ -110,15 +119,113 @@ de prática).
 - terminou explicitamente em espera pela tentativa ("Não vou explicar nada
   ainda", "Não consulte a cápsula nem o slide", "Responda antes de continuar").
 
-**T05: PASS confirmado 3/3** sob a entrada corrigida.
+### 3.3 Rodada 3 — fixture CANÔNICA da matriz (verdicto vigente de T05 pré-reparo)
 
-### 3.3 Lição de método preservada
+Por instrução do usuário: usar exatamente a formulação canônica, sem
+modificar após observar o resultado.
 
-A ambiguidade da entrada original do fixture não tinha sido detectada na
-fase de materialização — só apareceu ao rodar de verdade e ao usuário
-revisar o resultado. Isso valida por que "executar de verdade" não é
-opcional: um fixture pode parecer bem desenhado e ainda assim testar a coisa
-errada. `F-THEME/theme_brief.md` documenta o redesenho com data e motivo.
+**Entrada (exata, sem edição):** "Estudar tema: asma em pediatria — crise
+aguda. Quero aprender ativamente."
+
+Esta entrada cai, sem ambiguidade, no primeiro balde da regra de roteamento
+(§3.0): é o gatilho canônico `Estudar Tema:` **e** carrega o sinal explícito
+"quero aprender ativamente" — não há leitura razoável em que isto pede
+exposição em vez de prática.
+
+**Resultado: FAIL 3/3.** Nas 3 execuções isoladas
+(`qualification/runs/behavioral/T05_canonical/`), a skill revelou pivô
+clínico já resolvido (tabela de corte completa), escada terapêutica completa
+com doses e pegadinhas — nas 3 vezes, antes de qualquer pergunta ao aluno.
+Run 3 chegou a perguntar ao final ("Agora é sua vez — 3 vinhetas"), mas só
+depois de já ter entregue toda a solução.
+
+**T05: FAIL 3/3 confirmado na fixture canônica, entrada não modificada.**
+Ver §3.4 para o ciclo de reparo.
+
+### 3.4 Ciclo de reparo 1
+
+**Causa-raiz identificada:** `SKILL.md` §6 ("Modo — Estudar Tema") continha
+uma contradição estrutural real, não uma leitura forçada do modelo. O
+parágrafo de divulgação progressiva dizia "mostre primeiro apenas
+`study_core` (pivô, poucos dados, uma armadilha e uma pergunta)", mas a lista
+numerada logo abaixo colocava o item 6 ("conduta inicial × definitiva" — o
+protocolo completo) **antes** do item 9 ("uma questão ativa"), sem nenhum
+marcador de que a lista numerada não é a ordem de entrega. A frase
+"recuperação antes da revelação" vinha depois da lista, desconectada dela.
+Isso foi corrigido e revertido nesta sessão antes (§3.0) por uma razão
+diferente (a entrada de teste era ambígua); a causa-raiz estrutural em si
+nunca foi refutada — só a leitura de que ela explicava o run 1 sozinha.
+Com a fixture canônica agora confirmando FAIL de forma inequívoca, a correção
+é reaplicada.
+
+**Patch aplicado (mínimo, mesmo da tentativa anterior):** reestruturação de
+`SKILL.md` §6 em duas fases explícitas — "Primeira intervenção (`study_core`)"
+contendo só itens 1–3 + pivô como **pergunta em aberto** (nunca a tabela de
+corte já preenchida) + a questão ativa; um portão textual explícito; depois
+palavras-âncora, conduta completa, pegadinhas, distratores, cards, critério
+de parada. Nenhum teste foi enfraquecido — a fixture canônica usada no
+reteste é idêntica à do §3.3.
+
+**Reteste (3 sessões novas, isoladas, mesma entrada exata):**
+`qualification/runs/behavioral/T05_canonical_repair1/`.
+
+**Resultado: 1/3 PASS, 2/3 FAIL.**
+- run1: PASS limpo — pivô como pergunta aberta (6 parâmetros nomeados, sem
+  valores de corte), escada mostrada só como sequência (sem doses),
+  pegadinhas explicitamente seguradas ("Vou segurar as pegadinhas e os
+  distratores até você responder").
+- run2: FAIL parcial — a tabela de corte com valores preenchidos (SpO₂ >92%
+  × <92%, FC por faixa etária, tórax silencioso) apareceu antes da tentativa;
+  doses não apareceram.
+- run3: FAIL quase completo — tabela de corte com valores **e** todas as
+  doses (salbutamol, prednisolona, ipratrópio, MgSO₄) **e** as três
+  divergências internas do slide, tudo antes das vinhetas.
+
+Melhoria real (0/3 → 1/3) mas não confiável. Não fecha o gate.
+
+### 3.5 Ciclo de reparo 2 (último permitido)
+
+**Patch aplicado, sobre o reparo 1:** restrição mecânica explícita e
+verificável — proibição de tabela markdown, de número com unidade de
+dose/corte, e de bloco de sequência de fármacos na primeira intervenção em
+modo ativo, com instrução de reescrever antes de enviar caso o rascunho
+viole a regra. Texto completo no diff do commit desta sessão.
+
+**Reteste (3 sessões novas, isoladas, mesma entrada exata):**
+`qualification/runs/behavioral/T05_canonical_repair2/`.
+
+**Resultado: 0/3 PASS.** As 3 execuções voltaram a revelar tabela de corte
+completa (todas com valores preenchidos) e, em 2 das 3, doses completas —
+sem melhora mensurável sobre o reparo 1, possivelmente pior.
+
+### 3.6 Verdicto final de T05 — FAIL, ciclos de reparo esgotados
+
+Conforme a máquina de estados do prompt mestre ("máximo de duas rodadas de
+reparo... persistindo falha, mantenha a release bloqueada"): **2 ciclos
+consumidos, T05 permanece FAIL.** Não há um terceiro ciclo nesta
+qualificação.
+
+**Estado deixado em `SKILL.md`:** o incremento do reparo 2 foi **revertido**
+(não superou o reparo 1 e adicionava complexidade sem benefício demonstrado).
+O incremento do reparo 1 foi **mantido** — é uma correção estrutural real
+(a lista numerada de `Estudar Tema` genuinamente contradizia a instrução de
+"recuperação antes da revelação" logo abaixo dela) e produziu melhora
+mensurável (0/3 → 1/3), mesmo não sendo suficiente. Isto não é registrado
+como reparo bem-sucedido — é o melhor estado disponível, deixado no lugar
+porque reverter integralmente devolveria 0/3 comprovado, e a causa-raiz
+estrutural documentada continua correta mesmo sem garantir compliance.
+
+**Leitura honesta:** isto pode não ser um problema resolúvel só por texto de
+instrução. A inconsistência run-a-run (mesma entrada, mesmo SKILL.md,
+resultados diferentes) sugere um limite de confiabilidade do seguimento de
+instrução do modelo para geração de conteúdo longo e estruturado, não
+necessariamente uma ambiguidade textual remanescente. Registrado como
+limitação conhecida, não escondida atrás de mais uma rodada de patch.
+
+**Gate afetado:** `behavioral_sentinels_3_of_3` permanece `pending` (a
+matriz inteira, não só T05), com nota atualizada em
+`registry/release_gates.json` registrando este resultado. Release
+permanece bloqueada nesta sentinela.
 
 ## 4. Estado dos demais 23 testes
 
@@ -136,6 +243,11 @@ Prioridade sugerida para o próximo bloco, por classe e risco:
 
 ## 5. Regressões e integridade do pacote
 
-Nenhuma. `SKILL.md` foi editado e revertido na mesma sessão (net diff zero);
-`reconcile_package.py --check` e `run_tests.py` confirmados limpos após o
-revert. Nenhum gate fechado ou reaberto por este bloco.
+Nenhuma regressão. `SKILL.md` §6 tem diff líquido não-zero: a correção
+estrutural do reparo 1 foi mantida (portão explícito entre `study_core` e o
+resto, pivô como pergunta aberta, regra de roteamento modo ativo × modo
+expositivo); o incremento do reparo 2 foi revertido. `reconcile_package.py
+--check`, `run_tests.py` (20/20) e `validate_package.py` (error=0)
+confirmados limpos após cada mudança. Nenhum gate fechado; `registry/
+release_gates.json` atualizado só nas notas do gate `behavioral_
+sentinels_3_of_3`, status permanece `pending`.
