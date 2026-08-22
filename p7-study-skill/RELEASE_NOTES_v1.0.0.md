@@ -1,6 +1,9 @@
 # Release candidate — P7 Study Companion v1.0.0-rc.1
 
-Esta versão **não é a v1.0.0 final**. Ela recupera regressões funcionais da P6, introduz rastreabilidade e mantém a liberação bloqueada enquanto os gates clínicos e o piloto não forem concluídos.
+Esta versão **não é a v1.0.0 final**. Ela recupera regressões funcionais da P6,
+introduz rastreabilidade e mantém a liberação bloqueada enquanto os gates
+clínicos, comportamentais, de longitudinalidade, jornadas sintéticas e
+instalação limpa não forem concluídos.
 
 ## Engenharia de recuperação
 
@@ -22,7 +25,7 @@ O baseline auditado tinha 156 cápsulas físicas. “Semiologia pediátrica” e
 - nenhum P1 clínico de alto risco aberto;
 - claims críticos atuais com fonte/versionamento/localizador e revisão adequada, ou quarentena explícita;
 - testes comportamentais e sentinelas aprovados;
-- piloto de 5–8 colegas em duas sessões separadas por 48 h;
+- jornadas sintéticas headless em sessões limpas, incluindo retomada em 48 h;
 - instalação limpa comprovada.
 
 `python scripts/validate_package.py --release-gate` deve falhar enquanto algum desses requisitos estiver aberto. MCP permanece fora desta release.

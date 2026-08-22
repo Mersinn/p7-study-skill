@@ -32,9 +32,9 @@
       "sha256": "62bfb91a27d7dc41e36ad948a3a1fc0fa23719b8fdacdccfa1e78ff3cb129943"
     },
     {
-      "bytes": 1849,
+      "bytes": 1937,
       "path": "RELEASE_NOTES_v1.0.0.md",
-      "sha256": "16a335c7fe219b59512cd4308f10e2c218eb257a543da3dc77f43e722b99b78e"
+      "sha256": "7853950f085fe2da6f2095a533b4b1de1e7cf1d55cf91fca6bbff77b9d2e6f79"
     },
     {
       "bytes": 27362,
@@ -882,9 +882,9 @@
       "sha256": "e1c32f4b6d66eab18f9526c3b1427071098e0074106b7f3701432f706a058a91"
     },
     {
-      "bytes": 29627,
+      "bytes": 29668,
       "path": "p7_source_pack/00_COVERAGE_GAPS.md",
-      "sha256": "44d6380556c0928c009979206911827967199843424ba074796d06145f644f53"
+      "sha256": "2b83af63e44370d051a3723e8cb8e173374a072ac3b629dad4016090b5b56a35"
     },
     {
       "bytes": 5073,
@@ -967,9 +967,9 @@
       "sha256": "a56695f6f77fd130f63c09a0282fc82cc6c21ee5e4235cfc70ac2e78c938c011"
     },
     {
-      "bytes": 6934,
+      "bytes": 6874,
       "path": "references/EVALUATION_SUITE.md",
-      "sha256": "1119e3f349b8ca44bf72c4d4fd251b4b5006b6263583e593dfa51d8838c79e50"
+      "sha256": "28f7677c88b9981109fafb1e16d36de1e0a67f9b1d1b99c9cb9b5c57b6a7fec4"
     },
     {
       "bytes": 4564,
@@ -1017,9 +1017,9 @@
       "sha256": "81080847a74e32c7ed452287f93f830825699cd0b66f73fd7c3000ccab08846f"
     },
     {
-      "bytes": 7685,
+      "bytes": 7690,
       "path": "references/TEST_PLAN.md",
-      "sha256": "432fcf1f913016519f7336abe788a67fe5e83f676d0dbf7e998a8b79546e3f8a"
+      "sha256": "90211b6dfd070c648dd412086b69ccf2aba3f62a1bb327acc755962fc7face97"
     },
     {
       "bytes": 2598,
@@ -1042,9 +1042,9 @@
       "sha256": "6e76c8d277e0f555dfa112abe5f23b17365dc2933e2588182a0c174d6a3c06f0"
     },
     {
-      "bytes": 3014,
+      "bytes": 3133,
       "path": "registry/release_gates.json",
-      "sha256": "7707384e19b73699ab45b972870be50680ddde9ba1f4014e095d642ba2b60d69"
+      "sha256": "00663c7ecccca541be6bd5d82d3dfe554da7b6c0a8613678137560eb38b79e4b"
     },
     {
       "bytes": 1976,
@@ -1174,5 +1174,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 2949486
+  "total_bytes": 2949679
 }

@@ -1,11 +1,19 @@
 # BEHAVIORAL_QUALIFICATION_REPORT — T01–T24
 
-**Branch:** `qualification/v1.0.0-claude`
-**Estágio:** fixtures materializadas para os 24 testes (24/24). Execução real
+**Branch vigente:** `qualification/v1.0.0-codex` @ `f56a1e5` (base recebida
+`origin/qualification/v1.0.0-claude` @ `0a9f558`)
+**Estado herdado:** fixtures materializadas para os 24 testes (24/24). Execução real
 iniciada — **1 de 24 testes com dado comportamental real e adjudicado
 (T05)**. Os outros 23 permanecem `INCONCLUSIVO` (fixture pronta, não
 executada nesta sessão).
 
+**Execução do Marco B (22/08/2026):** T10 teve uma tentativa de sessão limpa,
+mas o runtime headless terminou antes da inferência com `API Error: Unable to
+connect to API (ConnectionRefused)`. O raw está em
+`qualification/runs/behavioral/T10/infra_attempt_api_error.json`; não é run
+comportamental e não altera o veredito. Nenhuma sentinela nova foi promovida.
+
+<!-- Histórico preservado abaixo; o branch/estado vigente está acima. -->
 **Gates fechados por este documento:** nenhum. `behavioral_sentinels_3_of_3`
 e `behavioral_core_2_of_3` continuam abertos — 1/24 não fecha um gate que
 exige a suíte inteira.
@@ -271,9 +279,11 @@ Nenhuma das 3 elevou a hipótese além de candidate/confiança baixa.
 
 ## 6. Estado dos demais 21 testes
 
-**Não executados nesta sessão** — fixtures prontas (hash congelado em
-`MANIFEST.json`), aguardando o próximo bloco. `NOT_EXECUTABLE_ON_THIS_SURFACE`
-não se aplica a nenhum deles.
+**Sem resultado comportamental válido nesta sessão** — T10 teve uma tentativa
+operacional sem inferência e está documentado como `INCONCLUSIVO`; T12, T15,
+T16, T17, T20, T21, T22 e T23 não foram executados. As fixtures continuam
+prontas (hash congelado em `MANIFEST.json`). `NOT_EXECUTABLE_ON_THIS_SURFACE`
+não se aplica; o bloqueio observado foi de conexão do executor externo.
 
 Prioridade para o próximo bloco, por classe e risco:
 1. Sentinelas restantes: T10, T12, T15, T16, T17, T20, T21, T22, T23.
@@ -286,7 +296,8 @@ Prioridade para o próximo bloco, por classe e risco:
 | T05 | S | **FAIL** — ciclos de reparo esgotados (2/2) | 3+3+3+3+3 = 15 execuções em 5 configurações |
 | T08 | S | **PASS 3/3** | 3 |
 | T09 | S | **PASS 3/3** | 3 |
-| demais 21 | — | INCONCLUSIVO (fixture pronta, não executado) | 0 |
+| T10 | S | **INCONCLUSIVO** — ConnectionRefused antes da inferência | tentativa operacional |
+| demais 20 | — | INCONCLUSIVO (fixture pronta, não executado) | 0 |
 
 ## 5. Regressões e integridade do pacote
 

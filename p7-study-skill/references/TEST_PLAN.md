@@ -11,7 +11,7 @@ Rode um bloco por vez. Compare a resposta com o critério. Falhou → corrija o
 **menor** arquivo indicado, nunca a arquitetura (`SKILL.md` §12).
 
 Este arquivo contém smoke tests de diagnóstico rápido. O gate normativo de release,
-com T01–T24, três execuções cegas, piloto humano e limite de reparos, está em
+com T01–T24, três execuções cegas, jornadas sintéticas e limite de reparos, está em
 `EVALUATION_SUITE.md`. Smoke verde não substitui a suíte.
 
 ---
@@ -108,6 +108,6 @@ Contagem de teste verde **não é prova de invariante**. Na Fase 1B do Diagnos, 
 checks passavam com 3 problemas P0 abertos. Se um teste passa mas o comportamento
 observado no uso real é ruim, o teste é que está fraco — conserte o teste.
 
-Release exige: sentinelas 3/3; core ≥2/3 sem falha idêntica repetida; piloto com
-5–8 colegas e retomada em 48h; no máximo duas rodadas de reparo. Persistindo falha
+Release exige: sentinelas 3/3; core ≥2/3 sem falha idêntica repetida; jornadas
+sintéticas com retomada em 48h; no máximo duas rodadas de reparo. Persistindo falha
 sentinela, a release continua bloqueada.

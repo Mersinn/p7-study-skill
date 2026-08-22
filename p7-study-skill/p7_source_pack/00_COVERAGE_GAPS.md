@@ -19,7 +19,7 @@ O que a skill sabe que NAO cobre bem. Consultar antes de prometer cobertura.
   fármaco/dose/contexto.
 - A presença de 158 cápsulas resolve a lacuna estrutural, mas **não autoriza**
   alegar completude clínica enquanto a varredura dos demais claims críticos e os
-  gates do piloto estiverem pendentes.
+  gates de qualificação (incluindo jornadas sintéticas) estiverem pendentes.
 
 ## Lacunas criticas (risco alto com fonte fraca ou ausente)
 

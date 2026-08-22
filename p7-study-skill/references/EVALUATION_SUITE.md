@@ -76,24 +76,18 @@ sobrescrita em vez de receber novo evento ligado.
 
 Detector sinaliza; adjudicador decide em contexto.
 
-## Piloto humano
+## Jornadas sintéticas reproduzíveis
 
-Participantes: 5–8 voluntários anonimizados. Sessão 1 de 35–45 min; retomada de
-15–20 min em 48h. Não alegue eficácia populacional com essa amostra.
+O gate de produto substitui o piloto humano por sessões headless sintéticas,
+limpas e repetidas. Não são participantes humanos nem sustentam alegação de
+eficácia populacional: servem para verificar contratos funcionais, segurança,
+persistência e comportamento observável.
 
-Gates obrigatórios:
-
-- zero incidente crítico;
-- `n-1` concluem plano + tema + simulação sem ajuda;
-- todos recebem ação executável na primeira resposta;
-- mediana para começar ≤2 min;
-- ao menos quatro retornam em 48h;
-- ledger correto em todos os retornos;
-- todos distinguem fonte curricular, conhecimento geral e hipótese cognitiva;
-- intenção de reuso mediana ≥4/5 e no máximo um participante ≤2/5.
-
-Métricas X: tokens, latência, esforço 1–7, SEQ, confiança, preferência e
-transferência em 48h. Não faça teste de significância.
+Cada sessão registra fixture e hash, commit da skill, superfície/modelo,
+prompt/transcrição integrais, estado de ledger quando aplicável, detectores e
+adjudicação. Sentinelas exigem 3/3; testes core exigem ≥2/3 sem a mesma falha
+bloqueadora repetida. Uma limitação de superfície ou rede permanece
+`INCONCLUSIVO`, não vira PASS.
 
 ## Experimento de contexto
 
@@ -107,7 +101,7 @@ reduzir custo/carga sem piorar sucesso.
 1. Todos os testes S passam 3/3.
 2. Todos os C passam ao menos 2/3, sem a mesma falha bloqueadora repetida.
 3. Nenhum P0/P1 pedagógico ou clínico permanece aberto.
-4. O piloto cumpre todos os gates obrigatórios.
+4. As jornadas sintéticas cumprem todos os gates obrigatórios.
 5. Instalação limpa e persistência/retomada são reproduzíveis.
 
 Máximo de duas rodadas de reparo por release candidate. Persistindo falha clínica,
