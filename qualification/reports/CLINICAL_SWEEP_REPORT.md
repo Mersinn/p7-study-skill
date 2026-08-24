@@ -2,10 +2,13 @@
 
 **Branch:** `qualification/v1.0.0-codex`
 **Base:** `origin/qualification/v1.0.0-claude` @ `0a9f558a9727e3bb6aa1fb7e9b967517b53128bb`
-**Estágio vigente (22/08/2026):** detector v1.4.0 congelado; 3.603 ocorrências,
-3.008 clusters, 2.113 clusters Tier A e 2.033 ocorrências Tier A em cápsulas de
-alto risco. Claims canônicos: 52 (41 `current`, 8 `quarantined`, 3 `conflict`).
-Adjudicação por diretriz e fechamento dos gates continuam **em andamento**.
+**Estágio vigente (24/08/2026; detector reexecutado):** detector v1.4.0
+congelado; 8.936 detecções totais, 3.602 no denominador primário e 2.817 no
+recorte de alto risco, em 158 cápsulas (105 de alto risco). Permanecem 2.731
+detecções não resolvidas no alto risco e 3.516 no total; 92/105 cápsulas de alto
+risco ainda têm zero claim registrado. Claims canônicos: 52 (41 `current`, 8
+`quarantined`, 3 `conflict`). Adjudicação por diretriz e fechamento dos gates
+continuam **em andamento**.
 **Gates fechados por este documento:** nenhum.
 
 > **Nota de leitura:** as seções que preservam números v1.1–v1.3 abaixo são
@@ -85,55 +88,59 @@ cobertura assumida e auditável, não zero.
 |---|---|
 | Cápsulas varridas | **158** |
 | Cápsulas de alto risco | **105** |
-| Detecções totais (todas as categorias/tiers) | 7 587 |
-| **Denominador da varredura (claims críticos)** | **2 659** |
-| Denominador em linhas distintas | 2 116 |
-| **Denominador em cápsulas de alto risco** | **2 071** (1 625 linhas) |
-| **Claims registrados em `registry/clinical_claims.jsonl`** | **41** |
-| **Não resolvidos (total)** | **2 598** |
-| **Não resolvidos (alto risco)** | **2 010** |
-| **Cápsulas de alto risco com ZERO claim registrado** | **94 de 105** |
+| Detecções totais (todas as categorias/tiers) | **8 936** |
+| **Denominador da varredura (claims críticos)** | **3 602** |
+| Denominador em linhas distintas | **2 633** |
+| **Denominador em cápsulas de alto risco** | **2 817** (2 009 linhas) |
+| **Claims registrados em `registry/clinical_claims.jsonl`** | **52** |
+| **Não resolvidos (total)** | **3 516** |
+| **Não resolvidos (alto risco)** | **2 731** |
+| **Cápsulas de alto risco com ZERO claim registrado** | **92 de 105** |
 
-**Cobertura de rastreabilidade: 61 / 2 659 = 2,3 %** (alto risco: 61/2 071 = 2,9 %).
+**Rastreabilidade lexical resolvida:** 86 / 3 602 = 2,4 % (alto risco:
+86 / 2 817 = 3,1 %). Isto é ligação detector→claim por tokens explícitos, não
+validação clínica nem cobertura de toda afirmação.
 
 ### 3.1 Por categoria (denominador)
 
 | Categoria | Claims |
 |---|---|
-| cutoff/escore/estadiamento | 1 283 |
-| dose/via/intervalo/máximo | 775 |
-| contraindicação/interação | 208 |
-| emergência/sinal de alarme | 201 |
-| sequência terapêutica | 103 |
-| janela temporal | 64 |
-| calendário/regra jurisdicional | 25 |
+| cutoff/escore/estadiamento | 1 400 |
+| dose/via/intervalo/máximo | 840 |
+| contraindicação/interação | 387 |
+| emergência/sinal de alarme | 234 |
+| sequência terapêutica | 133 |
+| janela temporal | 558 |
+| calendário/regra jurisdicional | 29 |
+| internação/alta | 21 |
 
 ### 3.2 Por disciplina (não resolvidos)
 
 | Disciplina | Não resolvidos |
 |---|---|
-| EISA_II | 1 285 |
-| EISCA | 759 |
-| CASOS_CLINICOS | 179 |
-| OSCE | 178 |
-| EISM | 197 |
+| EISA_II | 1 698 |
+| EISCA | 1 113 |
+| CASOS_CLINICOS | 229 |
+| OSCE | 234 |
+| EISM | 328 |
 
 ### 3.3 Distribuição por cápsula de alto risco
 
-mínimo 1 · mediana 18 · média 19,7 · máximo 54 · soma 2 071
+mínimo 0 · máximo 58 · soma 2 817 (recorte de alto risco; distribuição
+completa permanece auditável em `CRITICAL_CLAIM_COVERAGE.csv`)
 
-Cápsulas com maior passivo (todas com **zero** claims registrados):
+Cápsulas com maior passivo no snapshot atual:
 
 | Não resolvidos | Cápsula |
 |---|---|
-| 54 | `capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md` |
-| 46 | `capsules/EISCA/sepse_e_meningite_neonatal.md` |
-| 43 | `capsules/EISA_II/nefropatia_diabetica.md` |
-| 43 | `capsules/OSCE/osce_urologia.md` |
-| 42 | `capsules/EISA_II/doencas_paratireoides_hiperparatireoidismo_osteoporose.md` |
-| 41 | `capsules/EISA_II/diabetes_complicacoes_agudas_cronicas.md` |
-| 41 | `capsules/OSCE/osce_pediatria.md` |
-| 40 | `capsules/EISCA/anemia_ferropriva.md` |
+| 58 | `capsules/OSCE/osce_pediatria.md` |
+| 55 | `capsules/EISCA/anemia_ferropriva.md` |
+| 55 | `capsules/EISCA/atopias_na_infancia.md` |
+| 54 | `capsules/EISA_II/nefropatia_diabetica.md` |
+| 52 | `capsules/OSCE/osce_neurologia.md` |
+| 52 | `capsules/OSCE/osce_urologia.md` |
+| 50 | `capsules/EISA_II/doencas_paratireoides_hiperparatireoidismo_osteoporose.md` |
+| 49 | `capsules/EISA_II/hipotireoidismo.md` |
 
 As 11 cápsulas de alto risco **com** claims registrados são exatamente as
 sentinelas reparadas na fase anterior (reanimação neonatal, estado de mal, asma
@@ -148,7 +155,8 @@ para 26 claims críticos detectados (17 não resolvidos).
 
 O trabalho clínico anterior **não foi uma varredura**. Foi um **reparo dirigido de
 sentinelas**: encontrou e corrigiu os P0 mais perigosos em 11 cápsulas. Isso é
-real e não deve ser desfeito. Mas o registry cobre 2,3 % das afirmações críticas
+real e não deve ser desfeito. Mas o registry cobre apenas uma fração pequena
+das afirmações críticas: o detector ligou lexicalmente 86/3.602 (2,4 %),
 que a skill efetivamente entrega ao aluno.
 
 Consequências diretas:
@@ -157,7 +165,8 @@ Consequências diretas:
   fechamento é de aproximadamente **duas ordens de grandeza**, não de um último
   quilômetro.
 - `p0_zero` e `p1_high_risk_zero` são, no estado atual, **indetermináveis**: não
-  é possível afirmar "zero P0" sobre 2 598 afirmações nunca adjudicadas. A
+  é possível afirmar "zero P0" sobre 3.516 afirmações nunca adjudicadas (2.731
+  no alto risco). A
   ausência de P0 conhecido não é evidência de ausência de P0.
 - A nota anterior do gate ("o registry cobre sentinelas recuperadas, mas não
   certifica varredura independente") estava **correta** e agora está
@@ -165,7 +174,7 @@ Consequências diretas:
 
 ## 5. O que este relatório NÃO estabelece
 
-- Não afirma que os 2 598 claims não resolvidos estejam errados. A maioria
+- Não afirma que os 3.516 claims não resolvidos estejam errados. A maioria
   provavelmente está correta — eles simplesmente **não estão rastreados**.
 - Não mede recall do detector.
 - Não substitui revisão clínica humana. Nenhuma revisão humana ocorreu.
@@ -175,7 +184,7 @@ Consequências diretas:
 
 | Arquivo | Conteúdo |
 |---|---|
-| `qualification/reports/CRITICAL_CLAIM_DETECTIONS.csv` | 7 587 detecções, uma por linha, com `detection_id` estável, tier, classe de seção, ligação e texto |
+| `qualification/reports/CRITICAL_CLAIM_DETECTIONS.csv` | 8.936 detecções, uma por linha, com `detection_id` estável, tier, classe de seção, ligação e texto |
 | `qualification/reports/CRITICAL_CLAIM_COVERAGE.csv` | cobertura por cápsula: detectado / denominador / registrado / não resolvido |
 | `qualification/reports/CRITICAL_CLAIM_SCAN_SUMMARY.json` | sumário determinístico com limitações declaradas |
 

@@ -1,8 +1,8 @@
 # CLINICAL_FOCAL_REVALIDATION_REPORT — P7 / sepse neonatal
 
 **Marco:** D — revalidação clínica focal de alto risco  
-**Data:** 2026-08-22  
-**Branch:** `qualification/v1.0.0-codex`  
+**Data:** 2026-08-22 (revalidação clínica; relatório atualizado em 24/08)
+**Branch:** `qualification/v1.0.0-codex` @ `3bb365b`
 **Base de auditoria:** `origin/qualification/v1.0.0-claude` @ `0a9f558a9727e3bb6aa1fb7e9b967517b53128bb`  
 **Estado de release:** `HOLD`
 
@@ -50,4 +50,6 @@ python scripts/validate_package.py --release-gate   # exit 1, como esperado em H
 
 Estado canônico: 52 claims — 41 `current`, 8 `quarantined`, 3 `conflict`; todos os 52 com FK de source-version e locator completos. Os dois conflitos de alto risco permanecem bloqueadores objetivos.
 
-Este marco não fecha nenhum gate global. Jornadas comportamentais continuam sem novo resultado válido: a tentativa T10 foi registrada como `INCONCLUSIVE` por `ConnectionRefused`, sem inferência sobre o produto.
+Este marco não fecha nenhum gate global. Jornadas comportamentais continuam sem
+resultado válido: T10 tem o `ConnectionRefused` histórico e uma tentativa
+autorizada posterior com OAuth expirado, ambas sem inferência sobre o produto.
