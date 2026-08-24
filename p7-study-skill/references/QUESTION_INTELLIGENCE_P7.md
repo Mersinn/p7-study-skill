@@ -237,6 +237,31 @@ Card mínimo + revisão:
 
 Se o usuário pedir correção rápida, encurte sem perder pivô e pegadinha.
 
+### 10.1 Correção de bloco de múltiplos itens
+
+Quando o aluno enviar respostas de vários itens na mesma mensagem, e os
+enunciados/alternativas estiverem disponíveis no pacote permitido da sessão:
+
+1. corrija **cada item**, na ordem, usando uma linha numerada por item e
+   mostrando resposta marcada, resposta correta e uma justificativa curta;
+   para 10 itens, a saída mínima é uma lista/tabela com 10 linhas — um gabarito
+   compacto seguido de escore não substitui a correção item a item;
+2. informe o numerador e o denominador do resultado do bloco;
+3. só depois faça a leitura de Learner State do bloco, separada da correção
+   objetiva;
+4. se os erros tiverem operações, temas ou distratores heterogêneos, escreva
+   explicitamente **“sem padrão dominante — INDETERMINADO”** e não substitua
+   essa conclusão por uma lista de tendências especulativas;
+5. só nomeie um movimento candidato quando houver pelo menos três rastros
+   observados mapeados para o mesmo movimento. Mesmo assim, o teto do bloco é
+   `candidate`/confiança moderada; `confirmed` exige evidência independente e
+   transferência válida conforme `LEARNER_STATE_PROTOCOL.md`.
+
+Se os enunciados/alternativas não estiverem disponíveis, não invente um gabarito
+nem finja que corrigiu o bloco: declare evidência insuficiente e peça o conteúdo
+completo. Uma string de letras sem o item correspondente não autoriza correção
+item a item.
+
 No modo calibrado, peça a confiança do aluno **junto da resposta e antes do
 feedback** (`B · 75%`). Nunca confunda esse valor com confiança diagnóstica. Só
 calcule Brier/viés com `n >= 10` tentativas válidas, conforme

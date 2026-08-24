@@ -16,6 +16,6 @@
   "prompt_sent": "Vou te mandar minhas respostas de 10 questões, só as letras, sem justificativa: 1-B, 2-C, 3-C, 4-B, 5-A, 6-D, 7-C, 8-B, 9-D, 10-A",
   "raw_file": "run1_raw.md",
   "raw_sha256": "ef4241176c8401eab4f1d1ed6669ee4fd25351055094928923df63b21507265c",
-  "adjudication": "FAIL",
-  "adjudication_basis": "A resposta apenas acusa recebimento das letras; não faz correção item a item nem declara ausência de padrão dominante/indeterminação."
+  "adjudication": "INCONCLUSIVE",
+  "adjudication_basis": "A rodada forneceu somente a string de letras, sem o payload de enunciados necessário para uma correção item a item; a confirmação de recebimento não distingue falha da skill de entrada insuficiente."
 }
