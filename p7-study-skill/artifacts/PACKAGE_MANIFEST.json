@@ -1,5 +1,5 @@
 {
-  "file_count": 234,
+  "file_count": 236,
   "files": [
     {
       "bytes": 1778,
@@ -37,9 +37,9 @@
       "sha256": "7853950f085fe2da6f2095a533b4b1de1e7cf1d55cf91fca6bbff77b9d2e6f79"
     },
     {
-      "bytes": 27362,
+      "bytes": 27893,
       "path": "SKILL.md",
-      "sha256": "82bf29475268b861e18c7576bb9ba1c0fdf985f2e554a16b52e94f0a9ef0d5cb"
+      "sha256": "41b29562d2eb146a21400b3526a292ba0fea8cd363fb99a036dca3df087b2452"
     },
     {
       "bytes": 11,
@@ -937,6 +937,16 @@
       "sha256": "3163c6deb9de373c7bcb92d4616e84cdbbc8a2621c63b83f0aa9bf3e4e6d1369"
     },
     {
+      "bytes": 2111,
+      "path": "references/ACTIVE_STUDY_QUESTION_FIRST.md",
+      "sha256": "5b35a140483c342defe9489047fa387315dc27bb8c4df961cf3c3598676171a2"
+    },
+    {
+      "bytes": 1648,
+      "path": "references/ACTIVE_STUDY_REVEAL_AFTER_ATTEMPT.md",
+      "sha256": "2b6791a8f989cffada8bde0438184a914ea4cbfb9533392835a31d97f2339084"
+    },
+    {
       "bytes": 3836,
       "path": "references/ADHD_AND_TOKEN_POLICY.md",
       "sha256": "2ad3fa30123190585c3ffa7f5751c3a76d12efabf819d030c355f6f998bc2420"
@@ -1042,9 +1052,9 @@
       "sha256": "8bc5c37197fa481eb1c9f0610262cf778142482e338703f005ee19df0874f60f"
     },
     {
-      "bytes": 3613,
+      "bytes": 3738,
       "path": "registry/release_gates.json",
-      "sha256": "a1960aeaabd47aa0c04aebcf90fccd2e0b049d2facd9163349ab8892b76a38ab"
+      "sha256": "1aabc8c44aeaa5a517d0a7477a4596a9400cf6a0fde7c0ea0c42a660877eac21"
     },
     {
       "bytes": 2473,
@@ -1174,5 +1184,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 2955395
+  "total_bytes": 2959810
 }

@@ -1,7 +1,7 @@
 # CLEAN_INSTALL_REPORT — instalação descartável
 
-**Data:** 22/08/2026  
-**Fonte:** `qualification/v1.0.0-codex` @ `b1cc464`  
+**Data:** 24/08/2026
+**Fonte:** `qualification/v1.0.0-codex` @ `48d0e44`
 **Ambiente:** cópia descartável em `work/clean_install_20260822_v2`, fora do clone
 versionado; nenhum corpus bruto foi copiado.
 
@@ -28,9 +28,9 @@ padrão Python.
 ## Limitação
 
 A invocação da skill numa superfície de modelo headless não foi concluída: a
-tentativa T10 terminou com `ConnectionRefused`, e uma repetição fora do sandbox
-exigiria autorização explícita para exportar o pacote/fixtures a uma API
-externa. Portanto este relatório comprova instalação e runtime determinístico,
+tentativa histórica T10 terminou com `ConnectionRefused` e a tentativa
+autorizada de 24/08 terminou antes da inferência com `401 OAuth access token has
+expired`. Portanto este relatório comprova instalação e runtime determinístico,
 mas não fecha o gate `clean_install` nem `scripted_user_journeys`; o pacote
 também preserva os dois conflitos clínicos de alto risco, por isso o release
 gate permanece vermelho mesmo com a instalação determinística aprovada.

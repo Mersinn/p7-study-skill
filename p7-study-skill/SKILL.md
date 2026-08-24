@@ -336,6 +336,14 @@ mostre primeiro apenas `study_core`. Abra precisão, Diagnos, cards e notas de
 fonte somente quando a tarefa ou o aluno exigirem. Preserve a cápsula integral;
 **não imponha corte por KB**.
 
+**Entrega ativa em views separadas (contrato estrutural).** Para a primeira
+intervenção em modo ativo, leia somente `references/ACTIVE_STUDY_QUESTION_FIRST.md`.
+Esse arquivo é self-contained e não exige que o executor leia ou recompile o
+bloco de revelação. Depois de uma tentativa, de `não sei` ou de um pedido
+explícito de exposição, carregue `references/ACTIVE_STUDY_REVEAL_AFTER_ATTEMPT.md`
+e abra somente o que o bloco atual exige. Os dois arquivos são views separadas,
+não uma lista para despejar em sequência.
+
 **Modo ativo é o padrão.** `Estudar Tema: <tema>`, "quero estudar `<tema>`",
 "vamos estudar `<tema>`", "quero praticar/testar `<tema>`", "quero aprender
 ativamente" → modo ativo: pergunta ou caso antes da solução (regra abaixo).
