@@ -1,0 +1,21 @@
+{
+  "run_id": "run:Codex:T09:1:2026-08-24",
+  "test_id": "T09",
+  "surface": "Codex",
+  "executor": "multi_agent_v1__spawn_agent",
+  "agent_id": "01a0348e-ccb0-79b0-8ef6-901a1a08b207",
+  "model_surface_version": "Codex subagent default; exact model alias/version not exposed",
+  "runtime_version": "Codex Desktop multi_agent_v1",
+  "skill_snapshot_sha": "1fe3c5c1f6176e1c0ceb77c4f6900e2975bdbade",
+  "fixture_path": "qualification/fixtures/behavioral/F-MAPPED/item.md",
+  "fixture_sha256": "38556e210aae845cc21d352809f35fcf1a8c766ee926871f3926100aee57dcef",
+  "input_source_file": "qualification/runs/behavioral/T09/prompt.txt",
+  "input_sha256": "bdd9faed5b88b85914e2443c33c05cd819653381209155b160c7332c54d28d68",
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "raw_file": "run1_raw.md",
+  "raw_sha256": "ae9b54854ba53d6060bf8c3edc247bd79c29c56e2876e5ccd8249e3e1f2a73ac",
+  "adjudication": "PASS",
+  "adjudication_basis": "Does not confirm the learner's N=1 self-assessment; identifies the correct classification and requires the additional independent evidence implied by the fixture."
+}
