@@ -25,6 +25,24 @@ O fallback sem corpus/vision foi observado como `metadata_only`; não houve
 alegação de inspeção de fonte bruta. As dependências são apenas biblioteca
 padrão Python.
 
+## Revalidação após a reconstrução estrutural — 24/08/2026
+
+Uma terceira cópia descartável (`qualification/clean_install_20260824_structural`)
+foi criada a partir do commit local `16b492f`, incluindo as duas views novas de
+entrega ativa. Resultado reproduzível:
+
+```text
+python scripts/run_tests.py                         → 20/20 PASS
+python scripts/reconcile_package.py --write         → EXIT_CODE=0
+python scripts/reconcile_package.py --check         → 158 cápsulas reconciliadas, EXIT_CODE=0
+python scripts/validate_package.py                 → error=2, warn=36, info=2, EXIT_CODE=1
+python scripts/validate_package.py --release-gate   → EXIT_CODE=1, HOLD
+```
+
+A instalação e os artefatos permanecem determinísticos. Os dois erros são os
+conflitos clínicos de alto risco já registrados; não foram mascarados pela
+mudança estrutural.
+
 ## Limitação
 
 A invocação da skill numa superfície de modelo headless não foi concluída: a

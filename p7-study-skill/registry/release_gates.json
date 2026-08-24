@@ -71,7 +71,7 @@
         "README_INSTALL.md",
         "COMPATIBILITY.md"
       ],
-      "notes": "A instalação descartável v2 (branch 48d0e44) passou 20/20 testes e reconciliação 158; validate mantém error=2 por dois conflitos clínicos de alto risco e o gate permanece pending porque ainda não há execução comportamental headless concluída. Ver qualification/reports/CLEAN_INSTALL_REPORT.md."
+      "notes": "A instalação descartável v3 (commit local 16b492f) passou 20/20 testes e reconciliação 158; validate mantém error=2 por dois conflitos clínicos de alto risco e o gate permanece pending porque ainda não há execução comportamental headless concluída. Ver qualification/reports/CLEAN_INSTALL_REPORT.md."
     }
   ]
 }
