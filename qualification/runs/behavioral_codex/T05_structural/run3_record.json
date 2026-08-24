@@ -1,0 +1,21 @@
+{
+  "run_id": "run:Codex:T05-structural:3:2026-08-24",
+  "test_id": "T05",
+  "surface": "Codex",
+  "executor": "multi_agent_v1__spawn_agent",
+  "agent_id": "01a03423-99aa-7450-abba-1a1111d408ff",
+  "model_surface_version": "Codex subagent default; exact model alias/version not exposed by executor API",
+  "runtime_version": "Codex Desktop multi_agent_v1",
+  "skill_snapshot_sha": "1fe3c5c1f6176e1c0ceb77c4f6900e2975bdbade",
+  "fixture_id": "T05 canonical input",
+  "fixture_hash_type": "UTF-8 SHA-256 of frozen input",
+  "fixture_sha256": "ccb513a712610834fcb5da6c14805b24d5a331fd199693dae9c7652e6ddccfcf",
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "prompt_sent": "Estudar tema: asma em pediatria — crise aguda. Quero aprender ativamente.",
+  "raw_file": "run3_raw.md",
+  "raw_sha256": "5b6f70da4d7d70b3cd0a2c2e1fd9bbeeed1d2942b9ccfa21a5e7f46e3403b668",
+  "adjudication": "PASS",
+  "adjudication_basis": "Primeira intervenção contém apenas enquadramento, conceito mínimo, pivô em aberto e uma pergunta clínica; não há solução aplicada nem conteúdo pós-tentativa."
+}

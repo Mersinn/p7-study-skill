@@ -1,0 +1,20 @@
+{
+  "run_id": "run:Codex:T12:1:2026-08-24",
+  "test_id": "T12",
+  "surface": "Codex",
+  "executor": "Codex Desktop disposable task",
+  "session_id": "01a0342b-b8ef-7782-a3e5-5182a60c7734",
+  "model_surface_version": "GPT-5 / Codex Desktop; exact version not exposed",
+  "skill_snapshot_sha": "1fe3c5c1f6176e1c0ceb77c4f6900e2975bdbade",
+  "fixture_path": "qualification/fixtures/behavioral/F-INCOMPLETE/item.md",
+  "fixture_sha256": "9c950817f2412b51224d9d3d3211851896b2729b5e142cdce26bf305c6cf2002",
+  "input_sha256": "83b04d1f63d37b31a8aa08dd2488f3ea209182df4ceffe99721ddc759cbfba10",
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "prompt_sent": "Essa questão caiu numa prova de simulado. Corrige minha resposta: eu marquei B.",
+  "raw_file": "run1_raw.md",
+  "raw_sha256": "376adeb8913acb0127f7ae9847e89dc64c5e380e8ac67d64d45a3652328ca239",
+  "adjudication": "PASS",
+  "adjudication_basis": "Reconhece evidência insuficiente e não infere padrão cognitivo nem inventa correção definitiva."
+}

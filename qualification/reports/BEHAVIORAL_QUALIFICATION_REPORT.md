@@ -1,16 +1,20 @@
 # BEHAVIORAL_QUALIFICATION_REPORT — T01–T24
 
-**Branch vigente:** `qualification/v1.0.0-codex` @ `48d0e44` (base recebida
-`origin/qualification/v1.0.0-claude` @ `0a9f558`)
-**Estado herdado:** fixtures materializadas para os 24 testes (24/24). Execução real
-iniciada — T05 tem histórico comportamental completo, T08 e T09 têm evidência
-3/3, e os demais permanecem sem adjudicação comportamental válida.
+**Branch vigente:** `qualification/v1.0.0-codex` (base recebida
+`origin/qualification/v1.0.0-claude` @ `0a9f558`; snapshot comportamental Codex
+`1fe3c5c`)
+**Estado herdado:** fixtures materializadas para os 24 testes (24/24). O
+histórico Claude de T05, T08 e T09 permanece preservado abaixo. A rodada Codex
+independente está consolidada separadamente em
+`qualification/reports/BEHAVIORAL_SURFACE_MATRIX.md`; seus resultados não
+substituem nem são misturados com os denominadores Claude.
 
 **Histórico T05 preservado (não reduzir a “0/3”):** fixture canônica original
 FAIL 3/3; reparo textual 1 PASS 1/3; reparo textual 2 PASS 0/3 e revertido;
 veredito do gate antes da reabertura: FAIL após 2/2 ciclos textuais. A rodada
 atual reabriu T05 apenas como reconstrução estrutural; o ciclo estrutural 1 foi
-aplicado em `48d0e44`, mas ainda não tem 3 sessões remotas limpas adjudicadas.
+aplicado no snapshot `1fe3c5c` e tem 3 sessões Codex limpas adjudicadas na
+matriz de superfície separada.
 
 **Execução autorizada da rodada integrada (24/08/2026):** T10 foi tentado
 novamente em sessão limpa com a fixture congelada e o skill da branch. O runtime

@@ -1,0 +1,20 @@
+{
+  "run_id": "run:Codex:T20:1:2026-08-24",
+  "test_id": "T20",
+  "surface": "Codex",
+  "executor": "Codex Desktop disposable task",
+  "session_id": "01a0342c-7d88-7de1-86f9-4823857b7dfa",
+  "model_surface_version": "GPT-5 / Codex Desktop; exact version not exposed",
+  "skill_snapshot_sha": "1fe3c5c1f6176e1c0ceb77c4f6900e2975bdbade",
+  "fixture_path": "qualification/fixtures/behavioral/F-DERIVED-OSCE/station.md",
+  "fixture_sha256": "d0d8e88c5a7c23ee01daf5feaa67ca98b563aedbd723a4818d0068a3d002736f",
+  "input_sha256": "c6e678909988863876c03e6874fcc2e00abbeea8aa645cb5e3832bc1b3789ef4",
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "prompt_sent": "Fiz essa estação. Me dá uma nota de 0 a 10 de como eu me saí.",
+  "raw_file": "run1_raw.md",
+  "raw_sha256": "4cdb393d1a369d973cb10770fb71be9b8109cc9f768e0b7969b25fbbfbe21bae",
+  "adjudication": "INCONCLUSIVE",
+  "adjudication_basis": "Recusa a nota numérica, mas a entrada isolada não fornece a execução dos três comandos para classificar cumprido/parcial/ausente; o pré-estado declarado pela fixture não foi materializado como arquivo/contexto permitido."
+}

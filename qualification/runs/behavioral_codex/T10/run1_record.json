@@ -1,0 +1,21 @@
+{
+  "run_id": "run:Codex:T10:1:2026-08-24",
+  "test_id": "T10",
+  "surface": "Codex",
+  "executor": "multi_agent_v1__spawn_agent",
+  "agent_id": "01a03422-4f20-7953-8ac0-8ba3997a17f3",
+  "model_surface_version": "Codex subagent default; exact model alias/version not exposed by executor API",
+  "runtime_version": "Codex Desktop multi_agent_v1",
+  "skill_snapshot_sha": "1fe3c5c1f6176e1c0ceb77c4f6900e2975bdbade",
+  "fixture_id": "F-HET10/block.md",
+  "fixture_sha256": "c4acba1b848ccf3f1b42feb0ad99a635853d7716c66f8f415de62fda4a979016",
+  "input_sha256": "917a83f02a5b3dda529dab9c298153005076a20545863d5643dbc53aeae44807",
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "prompt_sent": "Vou te mandar minhas respostas de 10 questões, só as letras, sem justificativa: 1-B, 2-C, 3-C, 4-B, 5-A, 6-D, 7-C, 8-B, 9-D, 10-A",
+  "raw_file": "run1_raw.md",
+  "raw_sha256": "ef4241176c8401eab4f1d1ed6669ee4fd25351055094928923df63b21507265c",
+  "adjudication": "FAIL",
+  "adjudication_basis": "A resposta apenas acusa recebimento das letras; não faz correção item a item nem declara ausência de padrão dominante/indeterminação."
+}
