@@ -280,6 +280,14 @@ demanda do item, não uma taxonomia de pessoas nem uma prevalência de erros.
   treino do movimento;
 - evidência individual insuficiente → `INDETERMINADO`.
 
+**Contrato duro de contraprova:** antes de separar hipóteses em sondagens,
+compare suas variáveis decisivas. Se duas hipóteses dependem do mesmo limiar,
+discriminador ou operação (por exemplo, ambas dependem de reconhecer o marco
+de 5 minutos), trate-as como uma hipótese composta e use **uma intervenção
+conjunta**. Não crie um “teste de X” e outro “teste de Y” para o mesmo
+discriminador; duas intervenções só são válidas quando as variáveis decisivas
+forem realmente diferentes. Ver `references/CONTRAPROVA_DIAGNOS.md`.
+
 Use o mapa para as 33 armadilhas plausíveis por disciplina e para o banco de 152
 itens com operação, variável decisiva e distrator mapeado. Não reduza o diagnóstico a
 "factual ou operacional" — essa é uma pergunta auxiliar, feita **depois** de

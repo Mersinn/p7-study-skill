@@ -50,6 +50,17 @@ Confiança: insuficiente | baixa | moderada | alta
 
 Se A e B não pedem intervenções diferentes, não vale contraprova — junte as duas.
 
+**Contrato duro contra redundância:** antes de criar a lista de sondagens,
+extraia a variável decisiva de cada hipótese. Se as duas hipóteses são duas
+descrições do mesmo limiar, discriminador ou operação (por exemplo, ambas
+dependem de reconhecer o marco de 5 minutos), elas formam uma única hipótese
+composta para fins de teste. Faça **uma intervenção conjunta**, com uma única
+pergunta/caso que avalie a variável compartilhada; não divida em “teste de X”
+e “teste de Y”. Só proponha duas intervenções quando houver duas variáveis
+decisivas realmente diferentes. O diagnóstico continua candidato/indeterminado
+até haver evidência, mas o desenho não pode desperdiçar duas sondas para o
+mesmo discriminador.
+
 ### Passo 3 — a menor intervenção que discrimina
 Não dê a aula inteira do tema. Selecione a **menor intervenção que separa A de B**.
 Frequentemente é uma única pergunta.
