@@ -72,6 +72,13 @@ Tema diferente é o ponto. Se A é "fechamento precoce" e B é "lacuna de conte�
 sobre pré-eclâmpsia", repetir pré-eclâmpsia não discrimina nada — o aluno pode
 acertar por ter acabado de estudar. Outro tema, mesma operação, separa as duas.
 
+**Contrato duro de transferência:** mudar idade, duração, medicação ou detalhes
+da mesma doença não muda o tema. Depois de estudar estado de mal epiléptico, por
+exemplo, um segundo caso de convulsão/status continua sendo repetição, não
+contraprova. Troque para outro tema clínico e preserve somente a operação
+(como reconhecer um limiar temporal); não anuncie essa variável antes da
+tentativa.
+
 Use o `00_MAPA_OPERACAO_MOVIMENTO.md` para achar um item real com a mesma operação.
 
 ### Passo 5 — não revele a hipótese antes

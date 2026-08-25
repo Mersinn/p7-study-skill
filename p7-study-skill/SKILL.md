@@ -288,6 +288,14 @@ conjunta**. Não crie um “teste de X” e outro “teste de Y” para o mesmo
 discriminador; duas intervenções só são válidas quando as variáveis decisivas
 forem realmente diferentes. Ver `references/CONTRAPROVA_DIAGNOS.md`.
 
+**Contrato duro de transferência:** uma contraprova só é transferência se
+mantiver a mesma operação e mudar o tema clínico. Se o aluno acabou de estudar
+estado de mal epiléptico e a operação é reconhecer um limiar temporal, não use
+outra convulsão/status com idade, duração ou medicação diferentes: isso é
+repetição. Use outro tema (por exemplo, anafilaxia ou choque) com o mesmo tipo
+de decisão, não revele a variável antes da tentativa e só explique o alvo
+depois da resposta.
+
 Use o mapa para as 33 armadilhas plausíveis por disciplina e para o banco de 152
 itens com operação, variável decisiva e distrator mapeado. Não reduza o diagnóstico a
 "factual ou operacional" — essa é uma pergunta auxiliar, feita **depois** de
