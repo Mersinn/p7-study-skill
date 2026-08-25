@@ -334,8 +334,16 @@ T22 permanecem fora do denominador e estão registradas como inconclusivas.
 As fixtures continuam prontas (hash congelado em `MANIFEST.json`).
 `NOT_EXECUTABLE_ON_THIS_SURFACE` não se aplica.
 
+T01 foi executado novamente após o reparo do contrato de escopo real: o
+histórico genérico FAIL 3/3 permanece preservado fora do denominador, e três
+sessões limpas enumeraram os cinco temas reais da EISM II, separaram entra/fora
+e nomearam o primeiro bloco — **PASS 3/3**. T04 também foi reexecutado em três
+sessões limpas; todas mantiveram Burnout no plano, declararam a ausência de
+cápsula/fonte local e não inventaram citação — **PASS 3/3**. Esses resultados
+formam um denominador core separado do denominador dos sentinelas.
+
 Prioridade para o próximo bloco, por classe e risco:
-1. Regressões/core: T01, T02, T03, T04, T06, T07, T11, T13, T14, T18, T19, T24.
+1. Regressões/core: T02, T03, T06, T07, T11, T13, T14, T18, T19, T24.
 2. Reconfirmar qualquer sentinela somente se o contrato ou o runtime mudar.
 
 ## 7. Resumo de veredictos até aqui
@@ -351,6 +359,9 @@ Prioridade para o próximo bloco, por classe e risco:
 | T20 — Codex | S | **PASS 3/3** após materialização da estação e execução | 3 sessões limpas |
 | T21 — Codex | S/C | **PASS 3/3** após materialização da estação | 3 sessões limpas |
 | T22 — Codex | S | **PASS 3/3** após ledger gravável e segundo turno | 3 sessões com append/hash validados |
+| T01 — Codex histórico | C | **FAIL 3/3** preservado fora do denominador | Plano genérico sem escopo real |
+| T01 — Codex reparo | C | **PASS 3/3** após contrato de escopo real | 3 sessões limpas |
+| T04 — Codex | C | **PASS 3/3** | 3 sessões limpas |
 | demais testes não integrados | — | INCONCLUSIVO / não executado | conforme matriz |
 
 ## 5. Regressões e integridade do pacote

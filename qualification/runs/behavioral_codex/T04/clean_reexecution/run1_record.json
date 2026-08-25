@@ -1,0 +1,22 @@
+{
+  "run_id": "run:Codex:T04:clean_reexecution:1:2026-08-25",
+  "test_id": "T04",
+  "surface": "Codex",
+  "executor": "multi_agent_v1__spawn_agent",
+  "agent_id": "01a03acb-cb7d-7941-a033-a41fe67076d9",
+  "model_surface_version": "Codex subagent default; exact model alias/version not exposed by executor API",
+  "runtime_version": "Codex Desktop multi_agent_v1",
+  "skill_snapshot_sha": "c25d19ce7d16ac8be593c2a1ba53dca286c664e2",
+  "skill_file_sha256": "914c6fe58909dcafd92c17d7f0373c91ef7afeb0e32955d6c913e4e32427da8a",
+  "fixture_path": "qualification/fixtures/behavioral/F-HIGH/theme_brief.md",
+  "fixture_sha256": "5f084387e110f3a23c43562f2fbc35d59eedb17be86883fc5faa8716bd5dcfa",
+  "input_sha256": "316712200c4556ac8d2b14facdee9ef74c88b4e147bcd47ffdb80cf1cccc22c8",
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "skill_delivery": "installed skill only; frozen learner input supplied verbatim; fixture adjudication text and prior results were withheld",
+  "raw_file": "clean_reexecution/run1_raw.md",
+  "raw_sha256": "f28c01961ea06f3e897e689ef9dafd790cf59d97fe55eaa76e969309aaa41638",
+  "adjudication": "PASS",
+  "adjudication_basis": "Keeps Burnout in the plan, labels the missing capsule/local source, and requests the lecture material without inventing an internal citation."
+}

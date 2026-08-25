@@ -1,0 +1,22 @@
+{
+  "run_id": "run:Codex:T04:clean_reexecution:3:2026-08-25",
+  "test_id": "T04",
+  "surface": "Codex",
+  "executor": "multi_agent_v1__spawn_agent",
+  "agent_id": "01a03acb-cd21-7fe3-b005-6889c1b6df60",
+  "model_surface_version": "Codex subagent default; exact model alias/version not exposed by executor API",
+  "runtime_version": "Codex Desktop multi_agent_v1",
+  "skill_snapshot_sha": "c25d19ce7d16ac8be593c2a1ba53dca286c664e2",
+  "skill_file_sha256": "914c6fe58909dcafd92c17d7f0373c91ef7afeb0e32955d6c913e4e32427da8a",
+  "fixture_path": "qualification/fixtures/behavioral/F-HIGH/theme_brief.md",
+  "fixture_sha256": "5f084387e110f3a23c43562f2fbc35d59eedb17be86883fc5faa8716bd5dcfa",
+  "input_sha256": "316712200c4556ac8d2b14facdee9ef74c88b4e147bcd47ffdb80cf1cccc22c8",
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "skill_delivery": "installed skill only; frozen learner input supplied verbatim; fixture adjudication text and prior results were withheld",
+  "raw_file": "clean_reexecution/run3_raw.md",
+  "raw_sha256": "68ebe4edfab54c3fdf7326135ba924400cb6797d90229c7781249fd8f1222be2",
+  "adjudication": "PASS",
+  "adjudication_basis": "Keeps Burnout explicit despite no capsule, preserves the evidence boundary, and names the lecture material as the next source rather than inventing one."
+}

@@ -37,9 +37,9 @@
       "sha256": "7853950f085fe2da6f2095a533b4b1de1e7cf1d55cf91fca6bbff77b9d2e6f79"
     },
     {
-      "bytes": 29800,
+      "bytes": 30489,
       "path": "SKILL.md",
-      "sha256": "1c1f6df80fc39b7b558d12450ea4ad5c3c026826a59e493022131069e19a4fac"
+      "sha256": "914c6fe58909dcafd92c17d7f0373c91ef7afeb0e32955d6c913e4e32427da8a"
     },
     {
       "bytes": 11,
@@ -1022,9 +1022,9 @@
       "sha256": "e0c99b391b01c80dfa8da2cae9e386bebc65635fbc96903cd29fb892ad4e3411"
     },
     {
-      "bytes": 6503,
+      "bytes": 6809,
       "path": "references/TARGET_AWARE_STUDY_PLANNER.md",
-      "sha256": "81080847a74e32c7ed452287f93f830825699cd0b66f73fd7c3000ccab08846f"
+      "sha256": "bbd11ad9dcf3ed19c9ab55188e97ce598909a79adb57047d4b21f43025e5152a"
     },
     {
       "bytes": 7690,
@@ -1052,9 +1052,9 @@
       "sha256": "8bc5c37197fa481eb1c9f0610262cf778142482e338703f005ee19df0874f60f"
     },
     {
-      "bytes": 4132,
+      "bytes": 4452,
       "path": "registry/release_gates.json",
-      "sha256": "c7c073fa331dfb7745c9983e12e33025432e991b279cdae5a55bf159ba42b5eb"
+      "sha256": "1626a81a5555eb5e716f6a4023ad3cad686968b0faf65bba7a1acda4f11522ae"
     },
     {
       "bytes": 2473,
@@ -1184,5 +1184,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 2963565
+  "total_bytes": 2964880
 }
