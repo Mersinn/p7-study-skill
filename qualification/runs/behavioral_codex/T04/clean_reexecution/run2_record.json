@@ -15,7 +15,7 @@
   "history_inherited": false,
   "prior_history_supplied": false,
   "skill_delivery": "installed skill only; frozen learner input supplied verbatim; fixture adjudication text and prior results were withheld",
-  "raw_file": "clean_reexecution/run2_raw.md",
+  "raw_file": "run2_raw.md",
   "raw_sha256": "867a730355c49a98e598ad349555a8aa5160d8b60468628c33ff2f87ca5b5759",
   "adjudication": "PASS",
   "adjudication_basis": "Keeps Burnout in the plan as a source-pending priority, states the capsule is absent, and separates general knowledge from professor-confirmed material."

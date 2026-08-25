@@ -15,7 +15,7 @@
   "history_inherited": false,
   "prior_history_supplied": false,
   "skill_delivery": "installed skill only; frozen learner input supplied verbatim; fixture adjudication text and prior results were withheld",
-  "raw_file": "clean_reexecution/run1_raw.md",
+  "raw_file": "run1_raw.md",
   "raw_sha256": "f28c01961ea06f3e897e689ef9dafd790cf59d97fe55eaa76e969309aaa41638",
   "adjudication": "PASS",
   "adjudication_basis": "Keeps Burnout in the plan, labels the missing capsule/local source, and requests the lecture material without inventing an internal citation."

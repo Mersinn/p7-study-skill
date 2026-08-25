@@ -35,6 +35,8 @@ not available.
 | T01 initial | 0 counted; 3 historical | FAIL 3/3 historical, preserved outside denominator | `qualification/runs/behavioral_codex/T01/run*_raw.md` and records |
 | T01 planner repair | 3 | PASS 3/3 | `qualification/runs/behavioral_codex/T01/repair_scope/` |
 | T04 | 3 | PASS 3/3 | `qualification/runs/behavioral_codex/T04/clean_reexecution/` |
+| T02 | 3 | PASS 3/3 | `qualification/runs/behavioral_codex/T02/clean_reexecution/` |
+| T03 | 3 A/B contrasts | PASS 3/3 contrasts | `qualification/runs/behavioral_codex/T03/clean_reexecution/` |
 
 Codex valid qualification denominator: **22 runs = 19 PASS, 0 FAIL, 0
 INCONCLUSIVE**. T10's original letters-only attempt is preserved and
@@ -70,8 +72,8 @@ are integral in `qualification/runs/behavioral_codex/`.
 
 The core reconnaissance is intentionally not added to the 22-run sentinel
 denominator: T01's original FAIL is preserved as the regression being fixed,
-while the repair and T04 runs use a separate core denominator. This prevents a
-repaired core behavior from masking unexecuted core tests.
+while T01 repair, T02, T03 and T04 use a separate core denominator. This
+prevents a repaired core behavior from masking unexecuted core tests.
 
 ## Claude
 

@@ -15,7 +15,7 @@
   "history_inherited": false,
   "prior_history_supplied": false,
   "skill_delivery": "installed skill only; frozen learner input supplied verbatim; fixture adjudication text and prior results were withheld",
-  "raw_file": "clean_reexecution/run3_raw.md",
+  "raw_file": "run3_raw.md",
   "raw_sha256": "68ebe4edfab54c3fdf7326135ba924400cb6797d90229c7781249fd8f1222be2",
   "adjudication": "PASS",
   "adjudication_basis": "Keeps Burnout explicit despite no capsule, preserves the evidence boundary, and names the lecture material as the next source rather than inventing one."

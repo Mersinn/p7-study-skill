@@ -15,7 +15,7 @@
   "history_inherited": false,
   "prior_history_supplied": false,
   "skill_delivery": "installed skill plus exact unit-map excerpt and capsule metadata allowed by the fixture; no adjudication or expected result supplied",
-  "raw_file": "repair_scope/run2_raw.md",
+  "raw_file": "run2_raw.md",
   "raw_sha256": "851cca3115b89e7ecefdc6b020cadd6d82093c33e6b9e0b16402f4b3491c38f5",
   "adjudication": "PASS",
   "adjudication_basis": "Enumerated the five real EISM II themes, allocated 180 minutes, declared inside/out scope, and named antipsychotics as the first real block."

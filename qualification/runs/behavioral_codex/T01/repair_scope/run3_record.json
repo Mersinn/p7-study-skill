@@ -15,7 +15,7 @@
   "history_inherited": false,
   "prior_history_supplied": false,
   "skill_delivery": "installed skill plus exact unit-map excerpt and capsule metadata allowed by the fixture; no adjudication or expected result supplied",
-  "raw_file": "repair_scope/run3_raw.md",
+  "raw_file": "run3_raw.md",
   "raw_sha256": "6a5205ec9b0590c2a5b2e8c62c25a71353bfba959d336973dde2a532e5fb8378",
   "adjudication": "PASS",
   "adjudication_basis": "Enumerated the five real EISM II themes, allocated 180 minutes, declared inside/out scope, and named antipsychotics as the first real block; Burnout remained explicitly external/pending."

@@ -39,7 +39,7 @@
         "qualification/runs/behavioral_codex/",
         "references/EVALUATION_SUITE.md"
       ],
-      "notes": "Denominadores permanecem separados por superficie. Claude preserva: T05 historico FAIL apos fixture canonica 3/3, reparo textual 1 em 1/3 e reparo textual 2 em 0/3; T08 PASS 3/3; T09 PASS 3/3; T10 INCONCLUSIVE por ConnectionRefused e OAuth expirado. No Codex: T05 estrutural PASS 3/3; T08 e T09 PASS 1/1; T10 reparado PASS 3/3; T12, T15, T16, T17 e T23 PASS; T20, T21 e T22 materializados PASS 3/3; T01 reparo de escopo real PASS 3/3; T04 clean reexecution PASS 3/3. O T01 historico FAIL permanece preservado fora do denominador e a rodada core nao substitui os testes ainda nao executados. As tentativas minimas anteriores permanecem preservadas fora do denominador materializado; T22 tambem preserva uma tentativa de caminho sibling e uma divergencia raw/estado como INCONCLUSIVE. O gate permanece pending por lacunas restantes; nenhum resultado Codex e transferido para Claude. Ver qualification/reports/BEHAVIORAL_SURFACE_MATRIX.md."
+      "notes": "Denominadores permanecem separados por superficie. Claude preserva: T05 historico FAIL apos fixture canonica 3/3, reparo textual 1 em 1/3 e reparo textual 2 em 0/3; T08 PASS 3/3; T09 PASS 3/3; T10 INCONCLUSIVE por ConnectionRefused e OAuth expirado. No Codex: T05 estrutural PASS 3/3; T08 e T09 PASS 1/1; T10 reparado PASS 3/3; T12, T15, T16, T17 e T23 PASS; T20, T21 e T22 materializados PASS 3/3; T01 reparo de escopo real PASS 3/3; T02 PASS 3/3; T03 PASS 3/3 contrastes A/B; T04 clean reexecution PASS 3/3. O T01 historico FAIL permanece preservado fora do denominador e a rodada core nao substitui os testes ainda nao executados. As tentativas minimas anteriores permanecem preservadas fora do denominador materializado; T22 tambem preserva uma tentativa de caminho sibling e uma divergencia raw/estado como INCONCLUSIVE. O gate permanece pending por lacunas restantes; nenhum resultado Codex e transferido para Claude. Ver qualification/reports/BEHAVIORAL_SURFACE_MATRIX.md."
     },
     {
       "gate_id": "behavioral_core_2_of_3",
@@ -47,7 +47,7 @@
       "evidence": [
         "references/EVALUATION_SUITE.md"
       ],
-      "notes": "T01 reparo de escopo real e T04 passaram 3/3 em sessões Codex limpas, mas isso é apenas a primeira tranche do core; contratos e testes unitários não substituem os runs comportamentais restantes."
+      "notes": "T01 reparo de escopo real, T02, T03 e T04 passaram nos runs Codex limpos registrados, mas isso é apenas a primeira tranche do core; contratos e testes unitários não substituem os runs comportamentais restantes."
     },
     {
       "gate_id": "longitudinal_resume_end_to_end",
