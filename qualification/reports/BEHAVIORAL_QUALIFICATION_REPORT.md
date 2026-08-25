@@ -344,10 +344,13 @@ formam um denominador core separado do denominador dos sentinelas. T02 passou
 em três sessões com duas chamadas na mesma sessão: o plano de 30 minutos ficou
 menor e o de três horas acrescentou recuperação, transferência e casos. T03
 passou em três contrastes A/B: baixa energia/iniciante recebeu essencial,
-ritmo gentil e apoio; revisão recebeu recuperação direta e extensão.
+ritmo gentil e apoio; revisão recebeu recuperação direta e extensão. T06 passou
+3/3 com ensino inicial rotulado seguido de caso para tentativa. T07 passou 3/3:
+cada pedido de nova explicação mudou a representação do pivô, checou a
+compreensão e retornou ao alvo clínico.
 
 Prioridade para o próximo bloco, por classe e risco:
-1. Regressões/core: T06, T07, T11, T13, T14, T18, T19, T24.
+1. Regressões/core: T11, T13, T14, T18, T19, T24.
 2. Reconfirmar qualquer sentinela somente se o contrato ou o runtime mudar.
 
 ## 7. Resumo de veredictos até aqui
@@ -368,6 +371,8 @@ Prioridade para o próximo bloco, por classe e risco:
 | T04 — Codex | C | **PASS 3/3** | 3 sessões limpas |
 | T02 — Codex | C | **PASS 3/3** | 3 sessões com duas chamadas na mesma sessão |
 | T03 — Codex | C | **PASS 3/3 contrastes A/B** | 3 pares de sessões limpas |
+| T06 — Codex | C | **PASS 3/3** | 3 sessões limpas |
+| T07 — Codex | C | **PASS 3/3** | 3 sessões com nova representação |
 | demais testes não integrados | — | INCONCLUSIVO / não executado | conforme matriz |
 
 ## 5. Regressões e integridade do pacote

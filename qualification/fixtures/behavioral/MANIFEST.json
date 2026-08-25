@@ -56,7 +56,7 @@
       "fixture_files": [
         {
           "path": "F-THEME/theme_brief.md",
-          "sha256": "5d53d21e6fee2ce8851b1ec37290833bb486ab46d47b9a6ea7a90bab2697b63b"
+          "sha256": "469610d531236ebe755aaf7655a1089c6b0d8cdeb8dbe5adf605ad79940edb58"
         }
       ]
     },
@@ -67,7 +67,7 @@
       "fixture_files": [
         {
           "path": "F-THEME/theme_brief.md",
-          "sha256": "5d53d21e6fee2ce8851b1ec37290833bb486ab46d47b9a6ea7a90bab2697b63b"
+          "sha256": "469610d531236ebe755aaf7655a1089c6b0d8cdeb8dbe5adf605ad79940edb58"
         }
       ]
     },
@@ -78,7 +78,7 @@
       "fixture_files": [
         {
           "path": "F-THEME/theme_brief.md",
-          "sha256": "5d53d21e6fee2ce8851b1ec37290833bb486ab46d47b9a6ea7a90bab2697b63b"
+          "sha256": "469610d531236ebe755aaf7655a1089c6b0d8cdeb8dbe5adf605ad79940edb58"
         }
       ]
     },
@@ -273,14 +273,6 @@
       "class": "C",
       "fixture_dir": "adhoc/F-T24-CALIBRATION",
       "fixture_files": [
-        {
-          "path": "adhoc/F-T24-CALIBRATION/.p7-state/events.jsonl",
-          "sha256": "3be6b53a450e4ab6305165a26e4451d6300cf8f1cb861907876200b03af429d3"
-        },
-        {
-          "path": "adhoc/F-T24-CALIBRATION/.p7-state/ledger_meta.json",
-          "sha256": "e4c83c3c5ccb8f2a86fddf7cdc92677d4e7d218be908e8a47fe5ed9c73dcd7dc"
-        },
         {
           "path": "adhoc/F-T24-CALIBRATION/calibration_scenario.md",
           "sha256": "e131877060ffeae5464d1f563b7cfe9e218dfbe024c159fc7dcc23318cc795c1"
