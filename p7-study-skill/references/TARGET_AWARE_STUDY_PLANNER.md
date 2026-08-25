@@ -111,6 +111,10 @@ Regras:
 - `unidade: A_DEFINIR` não bloqueia o estudo — limita a precisão do recorte, e
   isso deve ser dito em uma linha;
 - EISCA tem **quatro** provas; as demais têm três. Não presuma simetria.
+- Em prazo crítico, o plano só fecha depois de enumerar os temas/cápsulas reais
+  encontrados no mapa e nos metadados, separar `entra` de `fora` com a razão de
+  cada exclusão e nomear o primeiro bloco executável. Não substitua esse
+  levantamento por placeholders ou por um método genérico de estudo.
 
 ## 7. Blocos de execução
 

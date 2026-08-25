@@ -318,6 +318,16 @@ Próximo bloco:
 escopo não foi decidido. `Próximo bloco` é ação única e imediata.
 `Critério de parada` é observável, nunca "quando se sentir seguro".
 
+**Contrato de escopo real para prova de unidade.** Se o pedido trouxer
+disciplina + unidade + prazo curto (por exemplo, "EISM, II unidade, 48h"),
+antes de escrever o cronograma consulte `p7_source_pack/00_UNIT_TOPIC_MAP.md`
+e confronte os temas com o índice/metadados das cápsulas reais. Declare
+explicitamente: (a) quantos e quais temas/cápsulas entram no plano; (b) quais
+ficam fora por limite de tempo, conflito de unidade ou fonte ausente; e (c) o
+primeiro tema real que será iniciado agora. Um plano com marcadores genéricos
+("liste os tópicos", "X/Y", ou apenas método de estudo) não satisfaz o
+contrato. Se o mapa trouxer conflito, reporte-o e não o resolva em silêncio.
+
 Em urgência `critical` (0–72h), priorize: pivôs · regras de prova · provas antigas
 e devolutivas · minicasos · erros prováveis · distratores frequentes · cards
 mínimos · simulado curto.
