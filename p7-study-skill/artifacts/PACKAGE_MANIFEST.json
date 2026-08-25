@@ -37,9 +37,9 @@
       "sha256": "7853950f085fe2da6f2095a533b4b1de1e7cf1d55cf91fca6bbff77b9d2e6f79"
     },
     {
-      "bytes": 27893,
+      "bytes": 29800,
       "path": "SKILL.md",
-      "sha256": "41b29562d2eb146a21400b3526a292ba0fea8cd363fb99a036dca3df087b2452"
+      "sha256": "1c1f6df80fc39b7b558d12450ea4ad5c3c026826a59e493022131069e19a4fac"
     },
     {
       "bytes": 11,
@@ -1002,9 +1002,9 @@
       "sha256": "88f9b2e96f5b43f541f6af17c82c77c510c3065c12215e69f557408a4654d0fb"
     },
     {
-      "bytes": 13625,
+      "bytes": 15079,
       "path": "references/QUESTION_INTELLIGENCE_P7.md",
-      "sha256": "23b4adb815762cc1ce9d39cc319b706f4288b40c52bc5f07607d04971fa015d9"
+      "sha256": "25eeb44881d7d9cb43d7bd096525f0cbfe76d0fa479d0d7e576308e3bfc0b72f"
     },
     {
       "bytes": 5514,
@@ -1052,9 +1052,9 @@
       "sha256": "8bc5c37197fa481eb1c9f0610262cf778142482e338703f005ee19df0874f60f"
     },
     {
-      "bytes": 3826,
+      "bytes": 4117,
       "path": "registry/release_gates.json",
-      "sha256": "5c7ade33264a82360b89b2e53d20320923c1d2a3e20133d853d7adb4f1c28548"
+      "sha256": "3d20d3849f95ffd55cda56932af6bd6ede0f913df9e38b4d52968ff775cb7eb0"
     },
     {
       "bytes": 2473,
@@ -1184,5 +1184,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 2959898
+  "total_bytes": 2963550
 }

@@ -7,7 +7,9 @@
 histórico Claude de T05, T08 e T09 permanece preservado abaixo. A rodada Codex
 independente está consolidada separadamente em
 `qualification/reports/BEHAVIORAL_SURFACE_MATRIX.md`; seus resultados não
-substituem nem são misturados com os denominadores Claude.
+substituem nem são misturados com os denominadores Claude. A qualificação
+Codex do T10 foi reparada no commit local `c072c922`; o snapshot inicial
+`1fe3c5c` e o histórico de reparos permanecem preservados.
 
 **Histórico T05 preservado (não reduzir a “0/3”):** fixture canônica original
 FAIL 3/3; reparo textual 1 PASS 1/3; reparo textual 2 PASS 0/3 e revertido;
@@ -16,13 +18,20 @@ atual reabriu T05 apenas como reconstrução estrutural; o ciclo estrutural 1 fo
 aplicado no snapshot `1fe3c5c` e tem 3 sessões Codex limpas adjudicadas na
 matriz de superfície separada.
 
-**Execução autorizada da rodada integrada (24/08/2026):** T10 foi tentado
-novamente em sessão limpa com a fixture congelada e o skill da branch. O runtime
-alcançou o executor, mas terminou antes da inferência com `401 OAuth access
-token has expired`; o raw integral está em
+**Execução autorizada da rodada integrada (24/08/2026):** a tentativa Claude
+de T10 alcançou o executor, mas terminou antes da inferência com `401 OAuth
+access token has expired`; o raw integral está em
 `qualification/runs/behavioral/T10/infra_attempt_oauth_expired_20260824.json`.
-Não é run comportamental e não altera nenhum veredito. O `ConnectionRefused`
+Não é run comportamental e não altera nenhum veredito; o `ConnectionRefused`
 de 22/08 permanece preservado em `infra_attempt_api_error.json`.
+
+Na superfície Codex, T10 foi executado depois com um payload de execução
+explícito contendo somente enunciados/opções, sem gabarito ou adjudicação.
+Três sessões novas receberam a skill instalada, a entrada congelada e esse
+arquivo permitido. As três produziram correção item a item, `marcada →
+correta`, justificativas breves, escore 5/10 e `sem padrão dominante —
+INDETERMINADO`: **PASS 3/3**. Raws e registros separados estão em
+`qualification/runs/behavioral_codex/T10/repair_full_skill/`.
 
 O snapshot comportamental tentado foi preservado no histórico anterior à
 revalidação clínica; o estado vigente da branch inclui os marcos clínicos
@@ -264,7 +273,7 @@ conteúdo clínico; reduz a necessidade de o executor ler/recompilar o bloco de
 revelação antes da primeira intervenção.
 
 O reteste canônico autorizado ainda não pôde começar: a tentativa operacional
-T10 de 24/08 alcançou o CLI, mas a conta retornou `401 OAuth access token has
+do T05 de 24/08 alcançou o CLI, mas a conta retornou `401 OAuth access token has
 expired` antes de qualquer token de inferência. Portanto o ciclo estrutural 1
 está `INCONCLUSIVO`, não PASS nem FAIL, e não consome um segundo ciclo
 estrutural. O gate T05 continua bloqueado até 3 sessões limpas reais e
@@ -312,16 +321,18 @@ discriminador". `qualification/runs/behavioral/T09/`.
 
 Nenhuma das 3 elevou a hipótese além de candidate/confiança baixa.
 
-## 6. Estado dos demais 21 testes
+## 6. Estado dos demais testes
 
-**Sem resultado comportamental válido nesta rodada** — T10 teve duas tentativas
-operacionais sem inferência e está documentado como `INCONCLUSIVO`; T12, T15,
-T16, T17, T20, T21, T22 e T23 não foram executados. As fixtures continuam
-prontas (hash congelado em `MANIFEST.json`). `NOT_EXECUTABLE_ON_THIS_SURFACE`
-não se aplica; o bloqueio observado foi de conexão do executor externo.
+T10 não está mais inconclusivo na superfície Codex: a tentativa inicial
+somente com letras foi reclassificada como `INCONCLUSIVE` por falta de
+enunciados/opções, e a execução materializada posterior fechou **PASS 3/3**.
+T12, T15, T16, T17, T20, T21, T22 e T23 têm registros Codex separados na
+matriz de superfície; T20, T21 e T22 permanecem `INCONCLUSIVE` por não
+materializarem toda a evidência exigida. As fixtures continuam prontas (hash
+congelado em `MANIFEST.json`). `NOT_EXECUTABLE_ON_THIS_SURFACE` não se aplica.
 
 Prioridade para o próximo bloco, por classe e risco:
-1. Sentinelas restantes: T10, T12, T15, T16, T17, T20, T21, T22, T23.
+1. Sentinelas restantes: T12, T15, T16, T17, T20, T21, T22, T23.
 2. Core: T01, T02, T03, T04, T06, T07, T11, T13, T14, T18, T19, T24.
 
 ## 7. Resumo de veredictos até aqui
@@ -331,8 +342,11 @@ Prioridade para o próximo bloco, por classe e risco:
 | T05 | S | **FAIL histórico** (textual 2/2); ciclo estrutural 1 `INCONCLUSIVO` | 15 runs históricos + 1 ciclo estrutural sem inferência |
 | T08 | S | **PASS 3/3** | 3 |
 | T09 | S | **PASS 3/3** | 3 |
-| T10 | S | **INCONCLUSIVO** — ConnectionRefused histórico; OAuth expirado na tentativa autorizada | 2 tentativas operacionais, 0 inferência |
-| demais 20 | — | INCONCLUSIVO (fixture pronta, não executado) | 0 |
+| T10 — Claude | S | **INCONCLUSIVO** — ConnectionRefused histórico; OAuth expirado na tentativa autorizada | 2 tentativas operacionais, 0 inferência |
+| T10 — Codex | S | **PASS 3/3** após materialização do payload de execução | 3 sessões limpas, raws integrais em `behavioral_codex/T10/repair_full_skill/` |
+| T12, T15, T16, T17, T23 — Codex | S | **PASS** na matriz de superfície | 1 por teste |
+| T20, T21, T22 — Codex | S | **INCONCLUSIVO** | 1 por teste |
+| demais testes não integrados | — | INCONCLUSIVO / não executado | conforme matriz |
 
 ## 5. Regressões e integridade do pacote
 
