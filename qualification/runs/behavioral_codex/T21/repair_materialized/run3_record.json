@@ -1,0 +1,23 @@
+{
+  "run_id": "run:Codex:T21:repair_materialized:3:2026-08-25",
+  "test_id": "T21",
+  "surface": "Codex",
+  "executor": "multi_agent_v1__spawn_agent",
+  "agent_id": "01a03923-2edd-7cd1-955c-ed0e702c810b",
+  "model_surface_version": "Codex subagent default; exact model alias/version not exposed by executor API",
+  "runtime_version": "Codex Desktop multi_agent_v1",
+  "skill_snapshot_sha": "434c51b8b892790f10b04624eee02a22ef4f6fce",
+  "fixture_path": "qualification/fixtures/behavioral/adhoc/T21_osce_tempo_controlado.md",
+  "fixture_sha256": "c1a878f28154ee1d883a1e6dbd860162b693423539f09416807601e557115fd4",
+  "allowed_execution_file": "qualification/fixtures/behavioral/execution_payloads/T21_OSCE_items.md",
+  "allowed_execution_file_sha256": "16bd3c598e132a59c30c07e0a85adc1e4fc0b2935434e6fcc6c36c6b7ebce543",
+  "input_sha256": "d343f2f2835256b3c00f4a4640e3828ed55d05cef5ec00d97974ac6d28b6f0b8",
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "skill_delivery": "installed skill plus effective OSCE reference; allowed payload contained station only, without rubric/adjudication",
+  "raw_file": "repair_materialized/run3_raw.md",
+  "raw_sha256": "966f26dbe3d3a7ee6991bbae30a92a0e0f2e9ade6c9be7146035de339374ecb8",
+  "adjudication": "PASS",
+  "adjudication_basis": "Opened the station one command at a time, kept the learner in control of timing, did not reveal later commands or answers, and did not fabricate a timer."
+}

@@ -39,7 +39,7 @@
         "qualification/runs/behavioral_codex/",
         "references/EVALUATION_SUITE.md"
       ],
-      "notes": "Denominadores permanecem separados por superficie. Claude preserva: T05 historico FAIL apos fixture canonica 3/3, reparo textual 1 em 1/3 e reparo textual 2 em 0/3; T08 PASS 3/3; T09 PASS 3/3; T10 INCONCLUSIVE por ConnectionRefused e OAuth expirado. No Codex: T05 estrutural PASS 3/3; T08 e T09 PASS 1/1; T10 reparado PASS 3/3 em tres sessoes limpas com payload de execucao explicito; T12, T15, T16, T17 e T23 PASS; T20, T21 e T22 INCONCLUSIVE. A tentativa Codex inicial de T10, somente com letras e sem enunciados, permanece INCONCLUSIVE e fora do denominador materializado. O gate permanece pending por lacunas restantes; nenhum resultado Codex e transferido para Claude. Ver qualification/reports/BEHAVIORAL_SURFACE_MATRIX.md."
+      "notes": "Denominadores permanecem separados por superficie. Claude preserva: T05 historico FAIL apos fixture canonica 3/3, reparo textual 1 em 1/3 e reparo textual 2 em 0/3; T08 PASS 3/3; T09 PASS 3/3; T10 INCONCLUSIVE por ConnectionRefused e OAuth expirado. No Codex: T05 estrutural PASS 3/3; T08 e T09 PASS 1/1; T10 reparado PASS 3/3; T12, T15, T16, T17 e T23 PASS; T20, T21 e T22 materializados PASS 3/3. As tentativas minimas anteriores permanecem preservadas fora do denominador materializado; T22 tambem preserva uma tentativa de caminho sibling e uma divergencia raw/estado como INCONCLUSIVE. O gate permanece pending por lacunas restantes; nenhum resultado Codex e transferido para Claude. Ver qualification/reports/BEHAVIORAL_SURFACE_MATRIX.md."
     },
     {
       "gate_id": "behavioral_core_2_of_3",

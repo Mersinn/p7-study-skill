@@ -327,13 +327,16 @@ T10 não está mais inconclusivo na superfície Codex: a tentativa inicial
 somente com letras foi reclassificada como `INCONCLUSIVE` por falta de
 enunciados/opções, e a execução materializada posterior fechou **PASS 3/3**.
 T12, T15, T16, T17, T20, T21, T22 e T23 têm registros Codex separados na
-matriz de superfície; T20, T21 e T22 permanecem `INCONCLUSIVE` por não
-materializarem toda a evidência exigida. As fixtures continuam prontas (hash
-congelado em `MANIFEST.json`). `NOT_EXECUTABLE_ON_THIS_SURFACE` não se aplica.
+matriz de superfície. T20 e T21 passaram após receberem estação/execução sem
+rubrica; T22 passou em três cópias descartáveis do ledger com append e leitura
+estrita validados. As tentativas incompletas e a divergência de caminho/raw do
+T22 permanecem fora do denominador e estão registradas como inconclusivas.
+As fixtures continuam prontas (hash congelado em `MANIFEST.json`).
+`NOT_EXECUTABLE_ON_THIS_SURFACE` não se aplica.
 
 Prioridade para o próximo bloco, por classe e risco:
-1. Sentinelas restantes: T12, T15, T16, T17, T20, T21, T22, T23.
-2. Core: T01, T02, T03, T04, T06, T07, T11, T13, T14, T18, T19, T24.
+1. Regressões/core: T01, T02, T03, T04, T06, T07, T11, T13, T14, T18, T19, T24.
+2. Reconfirmar qualquer sentinela somente se o contrato ou o runtime mudar.
 
 ## 7. Resumo de veredictos até aqui
 
@@ -345,7 +348,9 @@ Prioridade para o próximo bloco, por classe e risco:
 | T10 — Claude | S | **INCONCLUSIVO** — ConnectionRefused histórico; OAuth expirado na tentativa autorizada | 2 tentativas operacionais, 0 inferência |
 | T10 — Codex | S | **PASS 3/3** após materialização do payload de execução | 3 sessões limpas, raws integrais em `behavioral_codex/T10/repair_full_skill/` |
 | T12, T15, T16, T17, T23 — Codex | S | **PASS** na matriz de superfície | 1 por teste |
-| T20, T21, T22 — Codex | S | **INCONCLUSIVO** | 1 por teste |
+| T20 — Codex | S | **PASS 3/3** após materialização da estação e execução | 3 sessões limpas |
+| T21 — Codex | S/C | **PASS 3/3** após materialização da estação | 3 sessões limpas |
+| T22 — Codex | S | **PASS 3/3** após ledger gravável e segundo turno | 3 sessões com append/hash validados |
 | demais testes não integrados | — | INCONCLUSIVO / não executado | conforme matriz |
 
 ## 5. Regressões e integridade do pacote
