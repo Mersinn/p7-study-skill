@@ -1,7 +1,7 @@
 # CLEAN_INSTALL_REPORT — instalação descartável
 
-**Data:** 24/08/2026
-**Fonte:** `qualification/v1.0.0-codex` @ `48d0e44`
+**Data:** 25/08/2026 (snapshot histórico anterior preservado abaixo)
+**Fonte vigente:** `qualification/v1.0.0-codex` @ `39ed34e`
 **Ambiente:** cópia descartável em `work/clean_install_20260822_v2`, fora do clone
 versionado; nenhum corpus bruto foi copiado.
 
@@ -45,10 +45,24 @@ mudança estrutural.
 
 ## Limitação
 
-A invocação da skill numa superfície de modelo headless não foi concluída: a
-tentativa histórica T10 terminou com `ConnectionRefused` e a tentativa
-autorizada de 24/08 terminou antes da inferência com `401 OAuth access token has
-expired`. Portanto este relatório comprova instalação e runtime determinístico,
-mas não fecha o gate `clean_install` nem `scripted_user_journeys`; o pacote
-também preserva os dois conflitos clínicos de alto risco, por isso o release
-gate permanece vermelho mesmo com a instalação determinística aprovada.
+As tentativas Claude de T10 continuam registradas como compatibilidade e não
+afetam este gate de instalação. Elas permanecem relevantes para
+`scripted_user_journeys`, não para `clean_install`.
+
+## Revalidação vigente — instalação descartável v4
+
+Foi copiada a skill atual para
+`qualification/headless_test_env/clean_install_20260825/p7-study-skill`, sem
+corpus bruto nem estado do aluno. Na cópia descartável, os comandos produziram:
+
+```text
+python scripts/run_tests.py                 → 20/20 PASS
+python scripts/reconcile_package.py --write → EXIT_CODE=0
+python scripts/reconcile_package.py --check → 158 cápsulas reconciliadas, EXIT_CODE=0
+python scripts/validate_package.py          → error=0, warn=36, info=2
+```
+
+O gate `clean_install` está **PASS** com esta evidência. Isso não fecha a
+release: `critical_claim_sweep`, `p0_zero`, `p1_high_risk_zero`, os gates
+comportamentais, o E2E longitudinal e as jornadas continuam independentes e
+mantêm a decisão global em `HOLD`.
