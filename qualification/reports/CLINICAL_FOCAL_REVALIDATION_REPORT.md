@@ -2,7 +2,7 @@
 
 **Marco:** D — revalidação clínica focal de alto risco  
 **Data:** 2026-08-22 (revalidação clínica; relatório atualizado em 24/08)
-**Branch:** `qualification/v1.0.0-codex` @ `3bb365b`
+**Branch:** `qualification/v1.0.0-codex` (marco vigente)
 **Base de auditoria:** `origin/qualification/v1.0.0-claude` @ `0a9f558a9727e3bb6aa1fb7e9b967517b53128bb`  
 **Estado de release:** `HOLD`
 
@@ -20,8 +20,8 @@ Nenhuma divergência foi convertida em `current` por média ou por plausibilidad
 
 | Claim | Estado | Resultado |
 |---|---|---|
-| `janela-precoce-tardia` | `conflict` | A cápsula/aula usa 72h; a SBP 2025 descreve precoce especialmente até 48h e tardia após 48h; a SPRS 2012 descreve faixa 48–72h. A cápsula passou a exigir declaração do protocolo. |
-| `amniorrexe-fator-risco-maior` | `conflict` | >18h é confirmado na SPRS, mas o NICE atual separa >18h antes de parto pré-termo e >24h antes de parto a termo. O “risco 4x” não foi confirmado. O corte deixou de ser universalizado. |
+| `janela-precoce-tardia` | `quarantined` | A cápsula/aula usa 72h; a SBP 2025 descreve precoce especialmente até 48h e tardia após 48h; a SPRS 2012 descreve faixa 48–72h. A convenção curricular permanece fora de conduta atual e exige protocolo explícito. |
+| `amniorrexe-fator-risco-maior` | `quarantined` | >18h é confirmado na SPRS, mas o NICE atual separa >18h antes de parto pré-termo e >24h antes de parto a termo. O “risco 4x” não foi confirmado. O corte foi retirado de universalização e permanece fora de conduta atual. |
 | `esquema-empirico-precoce` | `current` com contexto | SBP 2025 confirma ampicilina ou penicilina cristalina + amicacina ou gentamicina. A cápsula agora explicita dependência de protocolo, resistência, peso, idade gestacional, rim e meningite; NICE usa benzilpenicilina + gentamicina em seu contexto. |
 | `febre-materna-limiar` | `conflict` | >38°C na cápsula, >37,5°C na SPRS e atualização NICE 2026 enfatizando sepse materna/chorioamnionite. Nenhum limiar universal foi promovido. |
 
@@ -44,11 +44,11 @@ python scripts/run_tests.py                         # 20/20 PASS
 python scripts/reconcile_package.py --write         # 6 artefatos determinísticos
 python qualification/tools/build_canonical_coverage.py
 python scripts/reconcile_package.py --check         # 158 cápsulas reconciliadas
-python scripts/validate_package.py                  # error=2, warn=36, info=2
-python scripts/validate_package.py --release-gate   # exit 1, como esperado em HOLD
+python scripts/validate_package.py                  # error=0, warn=36, info=2
+python scripts/validate_package.py --release-gate   # exit 1, gates globais ainda em HOLD
 ```
 
-Estado canônico: 52 claims — 41 `current`, 8 `quarantined`, 3 `conflict`; todos os 52 com FK de source-version e locator completos. Os dois conflitos de alto risco permanecem bloqueadores objetivos.
+Estado canônico vigente: 52 claims — 41 `current`, 10 `quarantined`, 1 `conflict`; todos os 52 com FK de source-version e locator completos. A quarentena remove os dois `ERROR` de claims de alto risco sem promover divergências a `current`. O gate clínico global permanece pending porque a cobertura da varredura ainda é incompleta.
 
 Este marco não fecha nenhum gate global. Jornadas comportamentais continuam sem
 resultado válido: T10 tem o `ConnectionRefused` histórico e uma tentativa

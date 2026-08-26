@@ -28,6 +28,18 @@ not available.
 | T22 | 3 valid materialized runs | PASS 3/3 | `qualification/runs/behavioral_codex/T22/repair_materialized/` |
 | T23 | 1 | PASS | `qualification/runs/behavioral_codex/T23/` |
 
+### Codex longitudinal surface (separate release gate)
+
+| Session | Runs | Result | Evidence |
+|---|---:|---|---|
+| T22_surface A | 1 | PASS | `qualification/runs/behavioral_codex/T22_surface/clean_sessions/sessionA_*` |
+| T22_surface B2 | 1 | INCONCLUSIVE | `qualification/runs/behavioral_codex/T22_surface/clean_sessions/sessionB2_*` |
+
+These runs are not added to the 22-run sentinel denominator. Session B2
+reconstructed the overdue task in a new Codex process and applied the pivot,
+but could not append the new event because its executor filesystem was
+read-only. The longitudinal release gate remains pending.
+
 ### Codex core reconnaissance (separate denominator)
 
 | Test | Runs counted | Result | Evidence |
@@ -61,6 +73,9 @@ second learner turn, with post-run strict hash validation. Exploratory
 attempts that did not satisfy the strict contract remain preserved outside the
 counted denominator, including T22's sibling-path write and raw/state
 mismatch.
+The separate `T22_surface` longitudinal reexecution is not counted here:
+session A passed its append, while session B2 remains `INCONCLUSIVE` because
+the executor could not write the follow-up event.
 The noncanonical T15 run with an initial capital `A` is
 preserved as `run1_noncanonical_record.json` but excluded from this
 denominator; the exact lowercase input was rerun and is the counted result.

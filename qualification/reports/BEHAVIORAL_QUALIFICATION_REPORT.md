@@ -393,6 +393,7 @@ Prioridade para o próximo bloco, por classe e risco:
 | T20 — Codex | S | **PASS 3/3** após materialização da estação e execução | 3 sessões limpas |
 | T21 — Codex | S/C | **PASS 3/3** após materialização da estação | 3 sessões limpas |
 | T22 — Codex | S | **PASS 3/3** após ledger gravável e segundo turno | 3 sessões com append/hash validados |
+| T22_surface — Codex | S | **PASS parcial / INCONCLUSIVO**: A passou; B2 reconstruiu a revisão vencida, mas não gravou o novo evento em filesystem somente leitura | 2 sessões limpas; raw e hashes em `behavioral_codex/T22_surface/` |
 | T01 — Codex histórico | C | **FAIL 3/3** preservado fora do denominador | Plano genérico sem escopo real |
 | T01 — Codex reparo | C | **PASS 3/3** após contrato de escopo real | 3 sessões limpas |
 | T04 — Codex | C | **PASS 3/3** | 3 sessões limpas |

@@ -56,7 +56,7 @@
         "scripts/ledger.py",
         "tests/test_ledger.py"
       ],
-      "notes": "Unidades determinísticas e E2E local do ledger passam; retomada através da superfície real em duas sessões headless ainda não foi demonstrada. Ver qualification/reports/LONGITUDINAL_E2E_REPORT.md."
+      "notes": "A reexecução Codex em duas sessões limpas demonstrou leitura longitudinal, retomada vencida e ausência de memória inventada; a sessão B2 não conseguiu persistir o novo evento por filesystem somente leitura. O gate permanece pending até append encadeado demonstrado na segunda sessão. Ver qualification/reports/LONGITUDINAL_E2E_REPORT.md e qualification/runs/behavioral_codex/T22_surface/."
     },
     {
       "gate_id": "scripted_user_journeys",

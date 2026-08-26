@@ -1,9 +1,9 @@
 {
   "canonical_evidence_registry": {
     "claims_by_validity": {
-      "conflict": 3,
+      "conflict": 1,
       "current": 41,
-      "quarantined": 8
+      "quarantined": 10
     },
     "clinical_claims": 52,
     "source_versions": 26,

@@ -6,8 +6,8 @@
 congelado; 8.936 detecções totais, 3.602 no denominador primário e 2.817 no
 recorte de alto risco, em 158 cápsulas (105 de alto risco). Permanecem 2.731
 detecções não resolvidas no alto risco e 3.516 no total; 92/105 cápsulas de alto
-risco ainda têm zero claim registrado. Claims canônicos: 52 (41 `current`, 8
-`quarantined`, 3 `conflict`). Adjudicação por diretriz e fechamento dos gates
+risco ainda têm zero claim registrado. Claims canônicos: 52 (41 `current`, 10
+`quarantined`, 1 `conflict`). Adjudicação por diretriz e fechamento dos gates
 continuam **em andamento**.
 **Gates fechados por este documento:** nenhum.
 
