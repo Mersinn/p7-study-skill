@@ -551,6 +551,15 @@ fonte, itens, pesos e cálculo reproduzível; `derived_training_rubric` recebe
 qualitativo. “Zera/imperdoável” só é regra da banca quando a fonte autêntica o
 demonstra; caso contrário, diga `falha crítica de segurança no treino`.
 
+**Proveniência antes da nota.** Em `authentic_checklist`, a correção deve começar
+declarando de onde veio a rubrica (`fornecida pelo usuário/fixture`, ou fonte de
+banca verificável com identificador). Um cabeçalho que diga “oficial” não prova
+autenticidade: se a rubrica for sintética, fictícia ou apenas fornecida para o
+treino, rotule-a assim e não a atribua ao Source Pack ou a uma banca real. Em
+seguida, preserve exatamente os itens e pesos recebidos e mostre a soma
+reproduzível item a item; nunca substitua essa linha de proveniência por uma nota
+isolada ou por uma autoridade inventada.
+
 Só cronometre se a superfície tiver timer/timestamps reais. Sem isso, peça ao
 aluno para usar cronômetro externo ou informar o tempo; nunca invente “faltam 30
 segundos”. Tempo sem fonte oficial é `meta de treino`, não regra da banca.

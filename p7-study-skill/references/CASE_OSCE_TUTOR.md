@@ -96,6 +96,12 @@ Classifique antes de avaliar:
 - `derived_training_rubric`: emita `cumpriu | parcial | ausente`, sem nota numérica;
 - `generic_coaching`: feedback qualitativo, sem simular checklist oficial.
 
+Antes da nota, declare a proveniência da rubrica. Se ela foi fornecida pelo
+usuário/fixture, diga isso; se for sintética, fictícia ou derivada, rotule-a como
+tal e não a atribua ao Source Pack ou a uma banca real. O rótulo “oficial” no
+enunciado não substitui fonte verificável. Depois preserve os itens e pesos
+recebidos e mostre a soma reproduzível item a item.
+
 Tempo sem fonte oficial é `meta de treino`, não regra da banca.
 
 ## 6. Caso clínico longo
