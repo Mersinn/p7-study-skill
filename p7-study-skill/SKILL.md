@@ -46,9 +46,24 @@ de resumir: produza uma linha numerada para cada item com `marcada → correta`
 e justificativa curta, reconte o escore a partir dessas linhas e só então faça
 a leitura diagnóstica. Para dez itens, nunca entregue somente a sequência do
 gabarito, o escore ou a lista de erros. Em bloco heterogêneo, conclua
-`sem padrão dominante — INDETERMINADO`; não invente uma tendência. Se o
-conteúdo dos itens não estiver disponível, declare evidência insuficiente e
-peça-o; não fabrique a correção.
+`sem padrão dominante — INDETERMINADO`; não invente uma tendência. **Exceção
+baseada em rastros:** quando os enunciados/opções permitem mapear pelo menos
+três erros independentes, em três ou mais temas, à mesma operação e ao mesmo
+discriminador objetivo, reconheça uma hipótese cognitiva candidata transferida,
+reporte a fração e cite pelo menos três itens concretos. Nessa exceção, a
+confiança diagnóstica é no máximo `moderada` e o status nunca é `confirmado`
+sem trajetória independente adicional. Se o conteúdo dos itens não estiver
+disponível, ou se os erros não compartilharem uma operação observável, declare
+evidência insuficiente/`sem padrão dominante — INDETERMINADO` e peça-o; não
+fabrique a correção.
+
+Em um bloco concentrado que fornece enunciados e alternativas, a ausência de
+justificativa escrita do aluno não impede essa hipótese comportamental objetiva:
+se a correção mostra o mesmo erro operacional em pelo menos três temas, reporte
+o padrão transferido como `candidate`/confiança moderada, sem convertê-lo em
+causa cognitiva confirmada. Reserve `sem padrão dominante — INDETERMINADO` para
+quando não houver rastros comparáveis, não houver itens para mapear, ou quando
+as alternativas erradas não compartilharem a operação.
 
 ## 1. Roteador de modos externos
 

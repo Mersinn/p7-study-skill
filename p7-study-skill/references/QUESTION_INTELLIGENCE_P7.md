@@ -202,8 +202,10 @@ Pergunte: *qual rastro observado sustenta isso?*
 - Se a resposta for "ele não falou disso", **derrube a hipótese**.
 
 `INDETERMINADO` é para quando não há alternativa mapeada específica, padrão de
-bloco suficiente nem trajetória — e é também o resultado correto de bloco
-heterogêneo. Não é obrigatório para toda resposta sem texto nem proibido em bloco.
+bloco suficiente nem trajetória — inclusive bloco heterogêneo sem operação
+comum observável. Não é obrigatório para toda resposta sem texto nem proibido
+em bloco: uma concentração objetiva de rastros pode sustentar candidato
+moderado mesmo sem justificativa escrita.
 
 ## 9. Correção independente
 
@@ -249,18 +251,29 @@ enunciados/alternativas estiverem disponíveis no pacote permitido da sessão:
 2. informe o numerador e o denominador do resultado do bloco;
 3. só depois faça a leitura de Learner State do bloco, separada da correção
    objetiva;
-4. se os erros tiverem operações, temas ou distratores heterogêneos, escreva
-   explicitamente **“sem padrão dominante — INDETERMINADO”** e não substitua
-   essa conclusão por uma lista de tendências especulativas;
-5. só nomeie um movimento candidato quando houver pelo menos três rastros
-   observados mapeados para o mesmo movimento. Mesmo assim, o teto do bloco é
-   `candidate`/confiança moderada; `confirmed` exige evidência independente e
-   transferência válida conforme `LEARNER_STATE_PROTOCOL.md`.
+4. se os erros forem heterogêneos **e não houver operação comum observável**,
+   escreva explicitamente **“sem padrão dominante — INDETERMINADO”** e não
+   substitua essa conclusão por uma lista de tendências especulativas; temas
+   diferentes não anulam, por si só, uma operação transferida;
+5. quando pelo menos três rastros, em três ou mais temas, estiverem mapeados
+   para o mesmo movimento/operação, nomeie-o como hipótese candidata e informe
+   numerador/denominador e pelo menos três exemplos. Mesmo assim, o teto do
+   bloco é `candidate`/confiança moderada; `confirmed` exige evidência
+   independente e transferência válida conforme `LEARNER_STATE_PROTOCOL.md`.
 
 Se os enunciados/alternativas não estiverem disponíveis, não invente um gabarito
 nem finja que corrigiu o bloco: declare evidência insuficiente e peça o conteúdo
 completo. Uma string de letras sem o item correspondente não autoriza correção
 item a item.
+
+**Invariante de padrão estrutural transferido.** Se, em três ou mais itens de
+temas distintos, a alternativa marcada fecha gravidade ou conduta por um único
+achado saliente, enquanto a alternativa correta exige verificar o conjunto de
+critérios/variáveis objetivos, esses erros constituem o mesmo movimento
+observável (narrativa acima do discriminador), mesmo quando o aluno forneceu
+somente letras. Conte a fração e cite pelo menos três itens; classifique como
+`candidate`/confiança moderada. Isso descreve o padrão de resposta, não prova a
+causa cognitiva e não pode virar `confirmed` sem trajetória independente.
 
 No modo calibrado, peça a confiança do aluno **junto da resposta e antes do
 feedback** (`B · 75%`). Nunca confunda esse valor com confiança diagnóstica. Só
