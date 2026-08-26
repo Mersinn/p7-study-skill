@@ -1,0 +1,5 @@
+{
+  "review_intervals": ["PT48H", "P7D", "P21D"],
+  "schema_version": "1.0.0",
+  "storage": "local_private_append_only"
+}
