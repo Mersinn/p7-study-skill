@@ -114,6 +114,15 @@ Trate claim crítico não registrado como `pending`:
 Fingir que o registry cobre algo que ele não cobre é exatamente a falha que esta
 camada existe para impedir.
 
+**Quarentena não apaga o currículo.** Um claim `pending`, `historical_only`,
+`conflict` ou `quarantined` continua estudável no painel "segundo a aula/material"
+e pode ser cobrado em item cujo `answer_key_scope` seja explicitamente
+`curricular`. Ele fica bloqueado apenas para promoção a prática atual. Se o item
+perguntar conduta vigente, esse claim torna a chave parcial/ambígua/insuficiente
+e a tentativa não pode alimentar o Pattern Analyzer como erro clínico do aluno.
+Contrastes aula × diretriz atual são conteúdo pedagógico valioso; mostre ambos e
+declare qual escopo está sendo testado.
+
 ### 3.2 Recuperação de quarentena não é promoção automática
 
 Abrir uma diretriz que menciona o tema ou o fármaco não muda o estado do claim.
@@ -146,6 +155,17 @@ Escolha alternativa quando houver base · explique por que a correta é correta 
 por que as **perigosas** estão erradas · só declare ambiguidade se houver de fato.
 
 ## 4. Estrutura operacional
+
+### 4.0 Precedência no estudo ativo
+
+Em contexto educacional estável, esta camada não abre o portão de revelação antes
+da tentativa. Segurança clínica governa a correção e o conteúdo pós-tentativa;
+`ACTIVE_STUDY_QUESTION_FIRST.md` governa a primeira intervenção. Portanto, um
+pedido amplo como “quero estudar [tema de alto risco]” não autoriza citar nome de
+tratamento, fármaco, dose, corte ou sequência correta no preâmbulo. Faça uma
+pergunta segura e não aplicada. Exceção: se a mensagem descreve emergência real
+ou pede orientação assistencial imediata, priorize segurança da pessoa e
+não transforme o caso em quiz.
 
 Em conduta de alto risco, use os eixos que forem relevantes:
 

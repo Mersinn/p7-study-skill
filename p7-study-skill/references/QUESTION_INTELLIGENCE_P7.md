@@ -30,10 +30,53 @@ diferentes; o Learner State só existe para uma tentativa observada e segue
 Item ambíguo ou insuficiente → **não** infira movimento do aluno. Corrija o item ou
 declare a informação ausente antes de analisar a tentativa.
 
+### 2.1 Três planos de proveniência e escopo
+
+Question Intelligence descreve o item usando três planos relacionados, mas
+ortogonais:
+
+- `Aula/Curricular Intelligence`: `source_id`, localizador, sinal observado da
+  aula (`slide | grifo | repetição | exemplo | questão/devolutiva`) e operação de
+  prova. Isso descreve o ensino, não o aluno e não a vigência clínica.
+- `Clinical Validity`: `claim_id` e estado `current | pending |
+  historical_only | conflict | quarantined`. Isso governa se a chave pode ser
+  apresentada como prática atual.
+- `Learner State / Pattern Analyzer`: eventos realmente observados da tentativa.
+  Estrutura do item entra como contexto; só resposta, justificativa, confiança
+  pré-feedback, trajetória e transferência entram como evidência pessoal.
+
+Use `answer_key_scope: curricular` quando a chave pede literalmente o que foi
+ensinado, mesmo que o claim esteja não vigente ou não resolvido. Esse resultado
+pode sustentar `inference_scope: curricular_performance` ou, com rastros
+adequados, `reasoning_operation`; nunca `clinical_current_practice`. Se o item
+pergunta prática atual e o claim não é `current`, marque a validade como
+`partial | ambíguo | insuficiente` e não infira movimento do aluno.
+
+Quarentena clínica não apaga a aula. Ela bloqueia apenas a promoção silenciosa a
+conduta vigente. Uma divergência aula × diretriz pode virar excelente item de
+comparação, desde que os dois painéis e o escopo do gabarito estejam explícitos.
+
+**Gate anti-contaminação.** Defina `answer_key_scope` antes de corrigir e aplique
+a chave somente dentro dele. Uma alternativa correta na prática atual, mas
+divergente de uma chave curricular histórica, é `scope_disagreement` — não
+distrator cognitivo, erro clínico nem evidência de movimento. Nesse caso,
+`inference_scope: none`, salvo se o enunciado declarou o escopo antes da tentativa
+e houver rastro positivo na justificativa, execução ou trajetória — não apenas o
+resultado da chave. Mesmo então, a inferência fica limitada a
+`curricular_performance` ou `reasoning_operation`; nunca é promovida a domínio de
+prática atual. Claim `pending | historical_only | conflict | quarantined` não
+sustenta `clinical_current_practice`.
+
 ## 3. Campos internos
 
 ```yaml
 question_intelligence:
+  source_id: ""
+  claim_id: ""
+  curricular_frame: ""   # faculty_current_cycle | faculty_historical | synthetic_training | external_current
+  clinical_validity: ""  # current | pending | historical_only | conflict | quarantined | not_applicable
+  answer_key_scope: ""   # curricular | clinical_current_practice | reasoning_only
+  scope_alignment: ""    # aligned | scope_disagreement | unresolved
   comando_explicito: ""
   comando_implicito: ""
   disciplina: ""          # EISA_II | EISCA | EISM | CASOS | OSCE
@@ -41,11 +84,15 @@ question_intelligence:
   subtema: ""
   pivo_clinico: ""
   palavra_ancora: ""
-  operacao_exigida: ""
+  operacao_id: ""         # enum estável da §4
+  operacao_exigida: ""    # rótulo humano derivado; nunca substituir o ID
   natureza_da_demanda: "" # factual | operacional | mista
-  variavel_decisiva: ""
+  variavel_decisiva: ""   # o discriminador, sem a resposta resolvida antes da tentativa
+  tipo_discriminador: ""  # fato | valor | limiar | função | sequência | prioridade | contraindicação | sinal_achado
+  variavel_localizador: "" # onde está no enunciado/imagem/lab/fonte
+  regra_aplicacao: ""      # como separa a correta das finalistas
   validade_do_item: ""
-  distrator_sedutor: ""
+  distractor_map: {}      # alternativa → {movement_ids: [], rationale: "", specificity: specific|nonspecific}
   pegadinha: ""
   regra_de_prova: ""
   conduta_inicial_vs_definitiva: ""
@@ -55,6 +102,7 @@ question_intelligence:
   logica_da_correta: ""
   logica_das_erradas: ""
 learner_observation:
+  inference_scope: ""    # curricular_performance | clinical_current_practice | reasoning_operation | none
   learner_answer: ""
   learner_confidence_before_feedback: null
   movimento_candidato: ""
@@ -81,34 +129,83 @@ Essa classificação pertence ao item. Ela **não** prova a causa do erro. Quest
 operacional errada pode refletir lacuna factual; questão factual errada pode
 refletir leitura. A causa individual exige evidência do aluno.
 
-## 4. Operações exigidas (enum, 12)
+## 4. Operações exigidas (enum estável, 12)
 
-reconhecer diagnóstico · conduta inicial · conduta definitiva · exame inicial ·
-melhor exame · diferenciar próximos · identificar complicação · aplicar critério ·
-priorizar emergência · interpretar imagem/ECG/laboratório · reconhecer
-contraindicação · comparar função.
+Persista e compare pelo ID; mostre ao aluno `rótulo humano` ou `ID — rótulo`.
+Rótulos podem ser ajustados sem migrar eventos. IDs não podem ser renomeados.
 
-## 5. Movimentos (macros — cada um com intervenção própria)
+| `operacao_id` | `operacao_exigida` (rótulo humano) |
+|---|---|
+| `OP_RECOGNIZE_DIAGNOSIS` | reconhecer diagnóstico |
+| `OP_INITIAL_MANAGEMENT` | escolher conduta inicial |
+| `OP_DEFINITIVE_MANAGEMENT` | escolher conduta definitiva |
+| `OP_INITIAL_EXAM` | escolher exame inicial |
+| `OP_BEST_EXAM` | escolher melhor exame |
+| `OP_DIFFERENTIATE` | diferenciar diagnósticos próximos |
+| `OP_IDENTIFY_COMPLICATION` | identificar complicação |
+| `OP_APPLY_CRITERION` | aplicar critério |
+| `OP_PRIORITIZE_EMERGENCY` | priorizar emergência |
+| `OP_INTERPRET_IMAGE_ECG_LABS` | interpretar imagem/ECG/laboratório |
+| `OP_RECOGNIZE_CONTRAINDICATION` | reconhecer contraindicação |
+| `OP_COMPARE_FUNCTION` | comparar função/finalidade |
 
-- **Conteúdo:** lacuna · valor errado · regra mal-aprendida.
-- **Interpretação:** troca de comando · erro de leitura · pivô perdido.
-- **Validação externa** (⚠ hipótese personalizada do aluno, N=1 — **não** é classe
-  dominante universal): analogia sem validação funcional → *"que propriedades da
-  fonte seguem válidas no alvo? estrutura E função batem?"* · narrativa acima do
-  discriminador → *"qual a ÚNICA variável que separa as duas finalistas? nomeie
-  antes de marcar."* · premissa não checada · superextrapolação.
-- **Decisão:** fechamento precoce · reabriu resposta certa · sobre-elaboração.
-- **Priorização:** definitiva antes da inicial · provável antes da perigosa.
-- **Abstenção:** indeterminado.
+Escolha **uma** operação primária: a ação mínima que produz a resposta pedida.
+Operações auxiliares podem ser descritas na explicação, mas não entram no par
+`operação exigida × movimento observado`.
+
+### 4.1 Variável decisiva operacional
+
+Registre uma variável que passe por este teste contrafactual: entre as alternativas
+finalistas, mudar apenas essa variável mudaria a chave. Se não mudaria, ela é
+contexto, não variável decisiva. Preencha `variavel_decisiva`,
+`tipo_discriminador`, `variavel_localizador` e `regra_aplicacao`; se dois dados
+forem inseparáveis, registre uma tupla explícita, não duas listas vagas. Item sem
+discriminador recuperável é `ambíguo | insuficiente` e não sustenta Learner State.
+
+## 5. Movimentos (IDs para inferência; cada um com intervenção própria)
+
+| Macro | `movement_id` — rótulo humano |
+|---|---|
+| Conteúdo | `M_CONTENT_GAP` — lacuna; `M_WRONG_VALUE` — valor errado; `M_MISLEARNED_RULE` — regra mal-aprendida |
+| Interpretação | `M_COMMAND_SWAP` — troca de comando; `M_READING_MISS` — erro de leitura; `M_PIVOT_MISSED` — pivô perdido |
+| Validação externa | `M_VALIDATION_ANALOGY_MISMATCH` — analogia sem validação funcional; `M_NARRATIVE_OVER_DISCRIMINATOR` — narrativa acima do discriminador; `M_UNCHECKED_PREMISE` — premissa não checada; `M_OVEREXTRAPOLATION` — superextrapolação |
+| Decisão | `M_PREMATURE_CLOSURE` — fechamento precoce; `M_REOPENED_CORRECT` — reabriu resposta certa; `M_OVERELABORATION` — sobre-elaboração |
+| Priorização | `M_DEFINITIVE_BEFORE_INITIAL` — definitiva antes da inicial; `M_PROBABLE_BEFORE_DANGEROUS` — provável antes da perigosa |
+| Abstenção | `M_INDETERMINATE` — indeterminado |
+
+Movimento é hipótese personalizada da tentativa, nunca classe universal. Toda
+tentativa N=1 produz no máximo `candidate`; sem sinal observado,
+`M_INDETERMINATE`. Os rótulos não autorizam inferência por si mesmos.
+
+Intervenções distintas preservadas: `M_VALIDATION_ANALOGY_MISMATCH` → perguntar
+quais propriedades da fonte seguem válidas no alvo; `M_NARRATIVE_OVER_DISCRIMINATOR`
+→ pedir a única variável que separa as finalistas antes de marcar.
 
 ## 6. Mapa distrator → movimento
 
-Etiquete cada alternativa errada com o movimento que marcá-la sugere.
+Mapeie **cada alternativa errada** para zero, um ou vários `movement_ids`
+(relação distrator 1:N). O mapa pertence ao item e deve ser criado antes de usar
+a resposta do aluno:
 
-Marcar uma alternativa errada previamente mapeada pode gerar movimento
-`candidate` em confiança **baixa** quando o item é válido e o mapeamento é
-específico. Justificativa e trajetória podem elevar; natureza do item, sozinha,
-não gera hipótese.
+```yaml
+distractor_map:
+  B:
+    movement_ids: [M_COMMAND_SWAP, M_PIVOT_MISSED]
+    rationale: "responde ao melhor exame, embora o comando peça o inicial"
+    specificity: specific
+```
+
+`rationale` deve ligar conteúdo da alternativa + comando + variável decisiva ao
+movimento; repetir a definição do movimento não basta. Use `specific` somente
+quando esse caminho explica a alternativa melhor que os concorrentes. Use
+`nonspecific` ou `movement_ids: []` quando múltiplas causas gerais cabem — não
+adicione `M_CONTENT_GAP` por padrão. A alternativa correta não recebe movimento.
+
+Marcar um distrator `specific` pode gerar todos os movimentos listados como
+**candidatos concorrentes**, teto de confiança baixa; nunca selecione um vencedor
+sem evidência adicional. Distrator curricular que é resposta válida em outro
+`answer_key_scope` cai no gate anti-contaminação da §2.1 e não entra neste mapa
+para inferência pessoal.
 
 ## 7. Confiança ordinal e abstenção
 
@@ -223,13 +320,14 @@ Se o gabarito informado conflitar com o raciocínio:
 ```text
 Comando:
 Disciplina · Tema/subtema:
-Operação exigida (Plano A):
+Operação exigida (Plano A): <operacao_id> — <rótulo humano>
 Natureza da demanda: factual | operacional | mista
-Variável decisiva (Plano A):
+Variável decisiva (Plano A): <valor> · <tipo> · <regra de aplicação>
 Validade do item: full | partial | ambíguo | insuficiente
+Escopo da chave · validade clínica:
 Pivô clínico / palavra-âncora:
 Resposta correta + por quê:
-Por que as erradas seduzem (distrator → movimento provável):
+Por que as erradas seduzem (distrator → movimentos concorrentes):
 Movimento candidato (Learner State; abster se sem evidência → indeterminado):
 Evidência a favor / contra:
 Confiança diagnóstica: insuficiente | baixa | moderada | alta

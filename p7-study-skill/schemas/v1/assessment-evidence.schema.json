@@ -4,16 +4,132 @@
   "title": "AssessmentEvidence",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema_version", "evidence_id", "source_version_id", "item_id", "demand", "locator"],
+  "required": ["schema_version", "evidence_id", "source_version_id", "item_id", "operation_id", "demand", "locator", "item_validity", "curricular_frame", "clinical_validity_at_attempt", "answer_key_scope", "inference_scope"],
+  "$defs": {
+    "operation_id": {
+      "enum": [
+        "OP_RECOGNIZE_DIAGNOSIS",
+        "OP_INITIAL_MANAGEMENT",
+        "OP_DEFINITIVE_MANAGEMENT",
+        "OP_INITIAL_EXAM",
+        "OP_BEST_EXAM",
+        "OP_DIFFERENTIATE",
+        "OP_IDENTIFY_COMPLICATION",
+        "OP_APPLY_CRITERION",
+        "OP_PRIORITIZE_EMERGENCY",
+        "OP_INTERPRET_IMAGE_ECG_LABS",
+        "OP_RECOGNIZE_CONTRAINDICATION",
+        "OP_COMPARE_FUNCTION"
+      ]
+    },
+    "movement_id": {
+      "type": "string",
+      "pattern": "^M_[A-Z][A-Z0-9_]*$"
+    },
+    "inference_scope": {
+      "enum": ["curricular_performance", "clinical_current_practice", "reasoning_operation", "none"]
+    }
+  },
   "properties": {
     "schema_version": {"const": "1.0.0"},
     "evidence_id": {"type": "string", "pattern": "^assessment:[a-z0-9._:-]+$"},
     "source_version_id": {"type": "string"},
     "item_id": {"type": "string", "minLength": 1},
+    "operation_id": {"$ref": "#/$defs/operation_id"},
+    "operation_label": {"type": "string", "minLength": 1},
     "demand": {"enum": ["factual", "operational", "mixed"]},
+    "decisive_variable": {"type": ["string", "null"]},
+    "discriminator_type": {"enum": ["fact", "value", "threshold", "function", "sequence", "priority", "contraindication", "sign_finding", "combined"]},
     "locator": {"type": "string", "minLength": 1},
-    "observed_answer": {"type": ["string", "null"]},
-    "inferred_movement": {"type": ["string", "null"]},
-    "inference_status": {"enum": ["not_assessed", "candidate", "supported", "INDETERMINATE"]}
-  }
+    "item_validity": {"enum": ["full", "partial", "ambiguous", "insufficient"]},
+    "curricular_frame": {"enum": ["faculty_current_cycle", "faculty_historical", "synthetic_training", "external_current"]},
+    "clinical_validity_at_attempt": {"enum": ["current", "pending", "historical_only", "conflict", "quarantined", "not_applicable"]},
+    "answer_key_scope": {"enum": ["curricular", "clinical_current_practice", "reasoning_only"]},
+    "inference_scope": {"$ref": "#/$defs/inference_scope"},
+    "observed_answer": {
+      "type": ["string", "null"],
+      "description": "Legacy attempt observation. New append-only observations belong in learner-event.observation."
+    },
+    "inferred_movement": {
+      "anyOf": [{"$ref": "#/$defs/movement_id"}, {"type": "null"}],
+      "description": "Legacy attempt inference. New inferred state belongs in learner-hypothesis."
+    },
+    "inference_status": {
+      "enum": ["not_assessed", "candidate", "supported", "INDETERMINATE"],
+      "description": "Legacy attempt-level status retained for schema 1.0.0 compatibility."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "required": ["item_validity"],
+        "properties": {"item_validity": {"enum": ["ambiguous", "insufficient"]}}
+      },
+      "then": {
+        "properties": {
+          "inference_scope": {"const": "none"},
+          "inference_status": {"enum": ["not_assessed", "INDETERMINATE"]},
+          "inferred_movement": {"enum": [null, "M_INDETERMINATE"]}
+        }
+      }
+    },
+    {
+      "if": {
+        "required": ["answer_key_scope", "clinical_validity_at_attempt"],
+        "properties": {
+          "answer_key_scope": {"const": "clinical_current_practice"},
+          "clinical_validity_at_attempt": {"enum": ["pending", "historical_only", "conflict", "quarantined", "not_applicable"]}
+        }
+      },
+      "then": {
+        "properties": {
+          "item_validity": {"enum": ["partial", "ambiguous", "insufficient"]},
+          "inference_scope": {"const": "none"},
+          "inference_status": {"enum": ["not_assessed", "INDETERMINATE"]},
+          "inferred_movement": {"enum": [null, "M_INDETERMINATE"]}
+        }
+      }
+    },
+    {
+      "if": {
+        "required": ["inference_scope"],
+        "properties": {"inference_scope": {"const": "clinical_current_practice"}}
+      },
+      "then": {
+        "properties": {
+          "answer_key_scope": {"const": "clinical_current_practice"},
+          "clinical_validity_at_attempt": {"const": "current"},
+          "item_validity": {"const": "full"}
+        }
+      }
+    },
+    {
+      "if": {
+        "required": ["inference_status"],
+        "properties": {"inference_status": {"enum": ["candidate", "supported"]}}
+      },
+      "then": {
+        "required": ["observed_answer", "inferred_movement"],
+        "properties": {
+          "observed_answer": {"type": "string", "minLength": 1},
+          "inferred_movement": {"$ref": "#/$defs/movement_id"},
+          "inference_scope": {"not": {"const": "none"}}
+        }
+      }
+    },
+    {
+      "if": {
+        "required": ["inference_status"],
+        "properties": {"inference_status": {"const": "not_assessed"}}
+      },
+      "then": {"properties": {"inferred_movement": {"type": "null"}}}
+    },
+    {
+      "if": {
+        "required": ["inference_status"],
+        "properties": {"inference_status": {"const": "INDETERMINATE"}}
+      },
+      "then": {"properties": {"inferred_movement": {"enum": [null, "M_INDETERMINATE"]}}}
+    }
+  ]
 }

@@ -59,6 +59,15 @@ class PackageTests(unittest.TestCase):
             self.assertIn("emissor verificável", text)
         self.assertIn("Não o rebaixe para `derived_training_rubric`", skill)
         self.assertIn("Nunca classifique checklist ponderado fornecido e sintético", osce)
+        self.assertIn("pontuação binária por item", osce)
+        self.assertIn("peso original`, `evidência", osce)
+        self.assertIn("escore de treino", osce)
+
+    def test_medical_safety_does_not_override_question_first_in_stable_study(self):
+        safety = self.read("references/MEDICAL_SAFETY_LAYER.md")
+        self.assertIn("Precedência no estudo ativo", safety)
+        self.assertIn("não abre o portão de revelação antes", safety)
+        self.assertIn("emergência real", safety)
 
     def test_longitudinal_memory_requires_identity_and_verified_write(self):
         skill = self.read("SKILL.md")
@@ -86,6 +95,30 @@ class PackageTests(unittest.TestCase):
             spec_paths = {entry["path"] for entry in item["adjudication_spec_files"]}
             payload_paths = {entry["path"] for entry in item["executor_payload_files"]}
             self.assertFalse(spec_paths & payload_paths, item["test_id"])
+
+    def test_curriculum_clinical_validity_and_pattern_analyzer_stay_orthogonal(self):
+        skill = self.read("SKILL.md")
+        question = self.read("references/QUESTION_INTELLIGENCE_P7.md")
+        learner = self.read("references/LEARNER_STATE_PROTOCOL.md")
+        safety = self.read("references/MEDICAL_SAFETY_LAYER.md")
+        pattern = self.read("references/PATTERN_ANALYZER_CONTRACT.md")
+        schema = json.loads(self.read("schemas/v1/assessment-evidence.schema.json"))
+        self.assertIn("Três planos ligados, nunca fundidos", skill)
+        self.assertIn("Quarentena clínica não", skill)
+        self.assertIn("apaga conteúdo curricular", skill)
+        self.assertIn("answer_key_scope: curricular", skill)
+        self.assertIn("Três planos de proveniência e escopo", question)
+        self.assertIn("inference_scope: curricular_performance", question)
+        self.assertIn("Fronteira do Pattern Analyzer", learner)
+        self.assertIn("não alimenta hipótese", learner)
+        self.assertIn("Quarentena não apaga o currículo", safety)
+        self.assertIn("operação_exigida(item) × movimento_candidato(tentativa)", pattern)
+        self.assertIn("Toda hipótese", pattern)
+        self.assertIn("evidence_event_ids", pattern)
+        self.assertIn("Percentual sem numerador/denominador é proibido", pattern)
+        self.assertIn("sessão sem histórico", pattern)
+        required = set(schema["required"])
+        self.assertTrue({"item_validity", "curricular_frame", "clinical_validity_at_attempt", "answer_key_scope", "inference_scope"} <= required)
 
 
 if __name__ == "__main__":

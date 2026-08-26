@@ -8,46 +8,55 @@
       "status": "pending",
       "evidence": [
         "registry/GATE_MIGRATIONS.md",
-        "registry/clinical_claims.jsonl"
+        "registry/clinical_claims.jsonl",
+        "qualification/reports/CLINICAL_SWEEP_REPORT.md",
+        "qualification/reports/RED_TEAM_SAMPLE_SUMMARY.json",
+        "qualification/reports/RED_TEAM_CLINICAL_BLIND.md"
       ],
-      "notes": "O registry cobre sentinelas recuperadas, mas nao certifica varredura independente de todas as 105 capsulas de alto risco (denominador conforme artifacts/METRICS.json capsules.by_risk.high). Nota anterior citava 103 (stale). Gate permanece pending."
+      "notes": "Detector v1.4: 3.602 detecções no denominador primário, 3.516 não resolvidas; alto risco 2.817 total e 2.731 não resolvidas em 105 cápsulas. Amostra red-team congelada: 32 linhas, 19 cápsulas, todos os 11 claims não atuais; revisor Sol xhigh encerrou por limite antes de achados, logo INCONCLUSIVE. Gate permanece pending, sem converter ausência de saída em PASS."
     },
     {
       "gate_id": "p0_zero",
       "status": "pending",
       "evidence": [
-        "references/CLINICAL_CLAIM_REVIEW.md"
+        "references/CLINICAL_CLAIM_REVIEW.md",
+        "qualification/reports/RED_TEAM_CLINICAL_BLIND.md"
       ],
-      "notes": "Correções sentinela existem; fechamento P0 integral ainda não foi adjudicado."
+      "notes": "Correções sentinela existem, mas 3.516 detecções primárias permanecem não resolvidas e o red team clínico cego foi inconclusivo por limite. Zero P0 não foi demonstrado."
     },
     {
       "gate_id": "p1_high_risk_zero",
       "status": "pending",
       "evidence": [
-        "references/CLINICAL_CLAIM_REVIEW.md"
+        "references/CLINICAL_CLAIM_REVIEW.md",
+        "qualification/reports/RED_TEAM_CLINICAL_BLIND.md"
       ],
-      "notes": "Pendências/quarentenas são honestas, mas o gate global não foi certificado."
+      "notes": "Registry canônico: 52 claims = 41 current + 10 quarantined + 1 conflict. O restante crítico ausente é tratado como pending em runtime, preservando o currículo mas bloqueando promoção silenciosa; o gate global P1 ainda não foi certificado por revisor independente."
     },
     {
       "gate_id": "behavioral_sentinels_3_of_3",
-      "status": "pending",
+      "status": "failed",
       "evidence": [
         "qualification/fixtures/behavioral/MANIFEST.json",
         "qualification/reports/BEHAVIORAL_QUALIFICATION_REPORT.md",
         "qualification/reports/BEHAVIORAL_SURFACE_MATRIX.md",
         "qualification/runs/behavioral/",
         "qualification/runs/behavioral_codex/",
-        "references/EVALUATION_SUITE.md"
+        "references/EVALUATION_SUITE.md",
+        "qualification/records/red_team_behavioral_adjudications.jsonl",
+        "qualification/reports/RED_TEAM_BEHAVIORAL_SUMMARY.json"
       ],
-      "notes": "Denominadores permanecem separados por superficie. Claude preserva: T05 historico FAIL apos fixture canonica 3/3, reparo textual 1 em 1/3 e reparo textual 2 em 0/3; T08 PASS 3/3; T09 PASS 3/3; T10 INCONCLUSIVE por ConnectionRefused e OAuth expirado. No Codex: T05 estrutural PASS 3/3; T08 e T09 PASS 1/1; T10 reparado PASS 3/3; T11 reparado PASS 3/3; T12, T15, T16, T17 e T23 PASS; T20, T21 e T22 materializados PASS 3/3; T01 reparo de escopo real PASS 3/3; T02 PASS 3/3; T03 PASS 3/3 contrastes A/B; T04 clean reexecution PASS 3/3; T06 PASS 3/3; T07 PASS 3/3; T13 reparo PASS 3/3; T14 reparo PASS 3/3; T18 PASS 3/3; T19 reparado PASS 3/3 após declarar a proveniência sintética no payload; T24 PASS 3/3 após projeção tolerante do ledger. Os T01, T13, T14 e T19 historicos FAIL permanecem preservados fora dos denominadores reparados e a rodada core nao substitui os testes ainda nao executados. As tentativas minimas anteriores permanecem preservadas fora do denominador materializado; T22 tambem preserva uma tentativa de caminho sibling e uma divergencia raw/estado como INCONCLUSIVE. O gate permanece pending por lacunas restantes; nenhum resultado Codex e transferido para Claude. Ver qualification/reports/BEHAVIORAL_SURFACE_MATRIX.md."
+      "notes": "Denominadores permanecem separados por superfície. No red team Codex afetado, T05 amplo produziu 1 PASS + 1 FAIL; como a classe S exige 3/3, o gate é FAIL e um terceiro run não pode recuperar o denominador. T08 diferido e T16 multipasso passaram 3/3. Total afetado: 9 runs = 7 PASS + 2 FAIL, incluindo T19 core. Claude permanece separado e bloqueado por compatibilidade/OAuth. Ver matriz e sumário derivados."
     },
     {
       "gate_id": "behavioral_core_2_of_3",
       "status": "pending",
       "evidence": [
-        "references/EVALUATION_SUITE.md"
+        "references/EVALUATION_SUITE.md",
+        "qualification/records/red_team_behavioral_adjudications.jsonl",
+        "qualification/reports/RED_TEAM_BEHAVIORAL_SUMMARY.json"
       ],
-      "notes": "T01 reparo de escopo real, T02, T03, T04, T06, T07, T11, T13, T14, T18, T19 e T24 passaram nos runs Codex limpos registrados, mas os gates comportamentais permanecem pending enquanto a matriz Claude e os demais gates globais não forem fechados; contratos e testes unitários não substituem esses gates."
+      "notes": "Resultados históricos dos demais cores permanecem preservados. O red team reabriu T19 com fixture sintética ponderada: o snapshot final tem 0 PASS + 1 FAIL em 1 run. Como classe C exige 2/3, o resultado correto é INCOMPLETE, não FAIL definitivo; restam exatamente dois slots e ambos precisam passar em sessões Codex limpas."
     },
     {
       "gate_id": "longitudinal_resume_end_to_end",
@@ -55,8 +64,8 @@
       "evidence": [
         "scripts/ledger.py",
         "tests/test_ledger.py",
-        "../qualification/reports/LONGITUDINAL_E2E_REPORT.md",
-        "../qualification/runs/longitudinal_codex/F-LEDGER-B/sessionB_record.json"
+        "qualification/reports/LONGITUDINAL_E2E_REPORT.md",
+        "qualification/runs/longitudinal_codex/F-LEDGER-B/sessionB_record.json"
       ],
       "notes": "Sessões Codex limpas demonstraram retomada sem memória inventada e append real na segunda sessão. A sessão B final recebeu estado gravável com 6 eventos e produziu 8; a releitura independente validou a cadeia estrita, learner_id sintético e SHA-256 final 4726ea3931f109d244150518e38257596fb2d2a541936e856a6131f7a6848721. A tentativa B2 somente leitura permanece preservada como INCONCLUSIVE fora do par válido."
     },
@@ -64,9 +73,10 @@
       "gate_id": "scripted_user_journeys",
       "status": "pending",
       "evidence": [
-        "registry/GATE_MIGRATIONS.md"
+        "registry/GATE_MIGRATIONS.md",
+        "qualification/reports/SCRIPTED_JOURNEYS_SUMMARY.json"
       ],
-      "notes": "Substitui pilot_5_to_8_students_48h por decisao explicita do usuario; o gate retirado esta registrado como superseded em registry/GATE_MIGRATIONS.md e nunca foi executado nem aprovado. Fecha somente com jornadas sinteticas ponta a ponta em sessoes limpas, com fixtures congeladas, transcricoes, repeticoes e adjudicacao objetiva. A tentativa T10 foi somente ConnectionRefused e permanece inconclusiva; ver qualification/reports/BEHAVIORAL_EXECUTION_BLOCKER.md. Nao equivale a estudo de usabilidade humano."
+      "notes": "Substitui pilot_5_to_8_students_48h. Estado Codex derivado: 4 runs = 3 PASS + 1 INCONCLUSIVE; J01 2 PASS, J02 1 PASS, J03 1 INCONCLUSIVE. A regra é cada jornada PASS 3/3, portanto faltam 1 PASS de J01, 2 de J02 e 3 de J03 (a tentativa inconclusiva não conta como PASS). Não equivale a estudo de usabilidade humano."
     },
     {
       "gate_id": "clean_install",

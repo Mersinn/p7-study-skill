@@ -4,8 +4,8 @@
 
 | Superfície | Estado | Observação |
 |---|---|---|
-| Codex | metadata presente | `agents/openai.yaml`; comportamento clínico ainda depende dos gates |
-| Claude com skills locais | estrutura compatível | instalação manual; não certificada nesta RC |
+| Codex | bloqueado para qualificação final | execução real existe, mas T05 falhou; T19 e jornadas estão incompletos; longitudinal passou |
+| Claude com skills locais | não avaliado nesta RC | OAuth expirado é pendência de compatibilidade Claude e não entra no denominador Codex |
 | ChatGPT/Claude mobile | fallback por conversa/anexo | sem garantia de instalação de skill ou ledger local |
 | Python | testado com 3.14 | scripts usam somente a biblioteca padrão |
 | MCP | não implementado | explicitamente posterior à aprovação da skill |

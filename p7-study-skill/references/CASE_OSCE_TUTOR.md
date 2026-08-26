@@ -123,6 +123,15 @@ authentic_checklist | provided_weighted_training_rubric`; `Proveniência da rubr
 pesos originais; `Soma total: ...` com expressão numérica; resultado. Não omita a
 linha de proveniência porque o aluno pediu uma correção restrita ao checklist.
 
+**Algoritmo mecânico quando a rubrica ponderada não define crédito parcial:**
+use pontuação binária por item — peso integral somente se todos os componentes
+observáveis do item foram demonstrados; caso contrário, zero. Não invente meio
+ponto. A tabela final deve conter, para cada item, `peso original`, `evidência
+observada` e `pontos atribuídos`, inclusive os zeros. Escreva a soma com todos os
+termos (`0 + 1,5 + ... = total/10,0`) e rotule literalmente `escore de treino`.
+Se a rubrica fornecer regra de parcial, aplique exatamente essa regra e cite-a.
+Nunca encerre apenas com `cumpriu/parcial/ausente` quando pesos foram fornecidos.
+
 Tempo sem fonte oficial é `meta de treino`, não regra da banca.
 
 ## 6. Caso clínico longo

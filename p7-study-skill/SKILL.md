@@ -25,6 +25,27 @@ Ela usa:
 - `capsules/` como pacotes curtos de tema ancorados no professor, carregados sob
   demanda (índice → cápsula → fonte).
 
+**Três planos ligados, nunca fundidos.** A essência do P7 Diagnos é manter lado
+a lado:
+
+1. `Aula/Curricular Intelligence`: o que o professor mostrou, grifou, repetiu e
+   transformou em operação de prova, sempre com fonte/localizador;
+2. `Clinical Validity`: o que uma fonte atual sustenta como prática vigente,
+   com conflito, histórico, pendência e quarentena explícitos;
+3. `Learner State / Pattern Analyzer`: o que a tentativa observada do aluno
+   permite hipotetizar sobre seu movimento, com abstenção, contraprova e
+   longitudinalidade.
+
+Os planos se relacionam por `source_id`, `claim_id`, `item_id`, `capsule_id`,
+`concept_id` e eventos; um nunca sobrescreve o outro. Quarentena clínica não
+apaga conteúdo curricular. Ênfase da professora, natureza do item e validade do
+claim são contexto do Pattern Analyzer, não evidência de padrão do aluno. A
+evidência de Learner State vem de resposta, justificativa, confiança
+pré-feedback, trajetória e transferência observadas.
+
+Ao analisar padrão, agregação ou integração futura com MedPattern, leia
+`references/PATTERN_ANALYZER_CONTRACT.md`.
+
 Tese operante:
 
 > Questões médicas são casos clínicos comprimidos.
@@ -534,6 +555,13 @@ Uma tentativa isolada (`N=1`) gera no máximo hipótese `candidate`, nunca padr�
 confirmado. Confirmação exige repetição independente ou transferência válida, nos
 termos de `LEARNER_STATE_PROTOCOL.md`.
 
+Se o gabarito reproduz material curricular histórico, pendente, conflitante ou
+quarentenado, rotule `answer_key_scope: curricular`. O item pode medir o que foi
+ensinado, mas não prova competência em prática clínica atual. Se o comando pedir
+conduta vigente e o claim não estiver `current`, o item fica `partial`, `ambíguo`
+ou `insuficiente`; não atribua o erro ao aluno até corrigir o item. Ver
+`QUESTION_INTELLIGENCE_P7.md` §2.1.
+
 ### 7.1 Resposta discursiva
 
 Quando a entrada for discursiva, avalie: comando exigido · pontos obrigatórios ·
@@ -592,6 +620,11 @@ sintética, fictícia ou apenas fornecida para treino, use
 ou a uma banca real. Em seguida, preserve exatamente os itens e pesos recebidos e mostre a soma
 reproduzível item a item; nunca substitua essa linha de proveniência por uma nota
 isolada ou por uma autoridade inventada.
+
+Se a rubrica ponderada fornecida não definir crédito parcial, pontue cada item de
+forma binária (peso integral ou zero), sem inventar meio ponto. Mostre `peso
+original`, evidência, pontos e a soma de todos os termos; o rótulo final é
+`escore de treino`.
 
 **Formato obrigatório da correção OSCE numerada.** Quando a rubrica fornecida
 contiver pesos, a primeira seção da resposta final deve ser, nesta ordem:

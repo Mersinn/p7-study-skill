@@ -5,26 +5,160 @@
   "type": "object",
   "additionalProperties": false,
   "required": ["schema_version", "hypothesis_id", "learner_id", "movement", "status", "evidence_event_ids", "independent_context_count", "valid_transfer_count", "updated_at"],
+  "$defs": {
+    "event_id": {"type": "string", "pattern": "^event:[a-z0-9._:-]+$"},
+    "operation_id": {
+      "enum": [
+        "OP_RECOGNIZE_DIAGNOSIS",
+        "OP_INITIAL_MANAGEMENT",
+        "OP_DEFINITIVE_MANAGEMENT",
+        "OP_INITIAL_EXAM",
+        "OP_BEST_EXAM",
+        "OP_DIFFERENTIATE",
+        "OP_IDENTIFY_COMPLICATION",
+        "OP_APPLY_CRITERION",
+        "OP_PRIORITIZE_EMERGENCY",
+        "OP_INTERPRET_IMAGE_ECG_LABS",
+        "OP_RECOGNIZE_CONTRAINDICATION",
+        "OP_COMPARE_FUNCTION"
+      ]
+    },
+    "movement_id": {"type": "string", "pattern": "^M_[A-Z][A-Z0-9_]*$"},
+    "inference_scope": {
+      "enum": ["curricular_performance", "clinical_current_practice", "reasoning_operation", "none"]
+    },
+    "diagnostic_confidence": {"enum": ["insufficient", "low", "moderate", "high"]}
+  },
   "properties": {
     "schema_version": {"const": "1.0.0"},
     "hypothesis_id": {"type": "string", "pattern": "^hypothesis:[a-z0-9._:-]+$"},
     "learner_id": {"type": "string", "minLength": 1},
-    "movement": {"type": "string", "minLength": 1},
+    "operation_id": {"$ref": "#/$defs/operation_id"},
+    "inference_scope": {"$ref": "#/$defs/inference_scope"},
+    "movement": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Legacy human-readable movement field retained for schema 1.0.0 compatibility."
+    },
+    "movement_id": {"$ref": "#/$defs/movement_id"},
     "status": {"enum": ["candidate", "confirmed", "weakened", "abandoned", "indeterminate"]},
-    "evidence_event_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "evidence_event_ids": {"type": "array", "items": {"$ref": "#/$defs/event_id"}, "uniqueItems": true},
+    "supporting_evidence_event_ids": {"type": "array", "items": {"$ref": "#/$defs/event_id"}, "uniqueItems": true},
+    "opposing_evidence_event_ids": {"type": "array", "items": {"$ref": "#/$defs/event_id"}, "uniqueItems": true},
+    "transfer_event_ids": {"type": "array", "items": {"$ref": "#/$defs/event_id"}, "uniqueItems": true},
+    "alternative_movement_ids": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/movement_id"},
+      "uniqueItems": true
+    },
+    "diagnostic_confidence": {"$ref": "#/$defs/diagnostic_confidence"},
+    "abstention_reason": {"type": ["string", "null"]},
+    "confidence_policy_version": {"type": "string", "minLength": 1},
     "independent_context_count": {"type": "integer", "minimum": 0},
     "valid_transfer_count": {"type": "integer", "minimum": 0},
+    "supersedes_hypothesis_id": {"type": ["string", "null"], "pattern": "^hypothesis:[a-z0-9._:-]+$"},
     "updated_at": {"type": "string", "format": "date-time"}
   },
   "allOf": [
     {
-      "if": {"properties": {"status": {"const": "confirmed"}}},
+      "if": {"required": ["status"], "properties": {"status": {"const": "confirmed"}}},
       "then": {
         "properties": {
           "evidence_event_ids": {"minItems": 2},
           "independent_context_count": {"minimum": 2},
-          "valid_transfer_count": {"minimum": 1}
+          "valid_transfer_count": {"minimum": 1},
+          "inference_scope": {"not": {"const": "none"}},
+          "movement_id": {"not": {"const": "M_INDETERMINATE"}},
+          "diagnostic_confidence": {"enum": ["moderate", "high"]},
+          "supporting_evidence_event_ids": {"minItems": 2},
+          "transfer_event_ids": {"minItems": 1}
         }
+      }
+    },
+    {
+      "if": {
+        "required": ["movement_id"],
+        "properties": {"movement_id": {"not": {"const": "M_INDETERMINATE"}}}
+      },
+      "then": {
+        "required": ["operation_id", "inference_scope", "diagnostic_confidence", "supporting_evidence_event_ids"],
+        "properties": {
+          "inference_scope": {"not": {"const": "none"}},
+          "supporting_evidence_event_ids": {"minItems": 1}
+        }
+      }
+    },
+    {
+      "if": {
+        "required": ["status", "movement_id"],
+        "properties": {
+          "status": {"const": "confirmed"},
+          "movement_id": {"not": {"const": "M_INDETERMINATE"}}
+        }
+      },
+      "then": {
+        "required": ["transfer_event_ids"],
+        "properties": {"transfer_event_ids": {"minItems": 1}}
+      }
+    },
+    {
+      "if": {
+        "required": ["evidence_event_ids"],
+        "properties": {"evidence_event_ids": {"maxItems": 1}}
+      },
+      "then": {
+        "properties": {
+          "status": {"enum": ["candidate", "indeterminate"]},
+          "diagnostic_confidence": {"enum": ["insufficient", "low"]}
+        }
+      }
+    },
+    {
+      "if": {
+        "required": ["status"],
+        "properties": {"status": {"const": "candidate"}}
+      },
+      "then": {
+        "properties": {
+          "evidence_event_ids": {"minItems": 1},
+          "movement_id": {"not": {"const": "M_INDETERMINATE"}},
+          "diagnostic_confidence": {"enum": ["low", "moderate"]}
+        }
+      }
+    },
+    {
+      "if": {
+        "required": ["evidence_event_ids"],
+        "properties": {"evidence_event_ids": {"maxItems": 0}}
+      },
+      "then": {
+        "properties": {
+          "status": {"const": "indeterminate"},
+          "diagnostic_confidence": {"const": "insufficient"}
+        }
+      }
+    },
+    {
+      "if": {
+        "required": ["inference_scope"],
+        "properties": {"inference_scope": {"const": "none"}}
+      },
+      "then": {
+        "properties": {
+          "status": {"const": "indeterminate"},
+          "movement_id": {"enum": ["M_INDETERMINATE"]},
+          "diagnostic_confidence": {"const": "insufficient"}
+        }
+      }
+    },
+    {
+      "if": {
+        "required": ["transfer_event_ids"],
+        "properties": {"transfer_event_ids": {"minItems": 1}}
+      },
+      "then": {
+        "required": ["operation_id"],
+        "properties": {"valid_transfer_count": {"minimum": 1}}
       }
     }
   ]

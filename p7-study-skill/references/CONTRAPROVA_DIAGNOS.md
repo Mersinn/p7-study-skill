@@ -23,12 +23,14 @@ Não é para toda questão. Ative quando:
 
 - há **duas hipóteses concorrentes** que explicam o mesmo erro, e elas pedem
   intervenções diferentes;
-- a hipótese principal é de **movimento** (operacional), não de conteúdo;
+- ao menos uma hipótese é de **movimento**; a concorrente pode ser outro
+  movimento ou lacuna de conteúdo;
 - o mesmo movimento já apareceu antes (`ERROR_NOTEBOOK_REVIEW_QUEUE.md`);
 - o aluno discorda do diagnóstico.
 
 Não ative quando o erro é claramente factual e único ("não sabia o valor"), nem
-quando a evidência é `INDETERMINADO`. Testar hipótese sem hipótese é teatro.
+quando não há qualquer sinal observado para formular concorrentes. O estado pode
+continuar `INDETERMINADO` durante o teste; testar hipótese sem hipótese é teatro.
 
 ## 3. O fluxo
 
@@ -37,36 +39,49 @@ O aluno responde. Idealmente com três rastros: **resposta · justificativa ·
 confiança**. Sem justificativa ainda funciona (§8.1 do `QUESTION_INTELLIGENCE_P7`):
 a alternativa marcada já mapeia movimento em confiança baixa.
 
-### Passo 2 — hipóteses concorrentes, não veredito
-Nunca escreva "você tem fechamento precoce". Escreva:
+### Passo 2 — hipóteses concorrentes internas, não veredito
+
+Antes da segunda tentativa, registre internamente — **não mostre ao aluno**:
 
 ```text
-Hipótese A: <movimento> — evidência a favor: <sinal observado>
-Hipótese B: <alternativa> — evidência a favor: <sinal observado>
-Evidência contra A:
-O que ainda não sabemos:
-Confiança: insuficiente | baixa | moderada | alta
+Hipótese A: <movement_id> — suporte observado — evidência contra
+Hipótese B: <movement_id ou lacuna específica> — suporte observado — evidência contra
+Predição exclusiva se A estiver certa:
+Predição exclusiva se B estiver certa:
+Observação que enfraquece/falsifica A:
+Observação que enfraquece/falsifica B:
+Contaminadores que tornam a rodada indeterminada:
 ```
 
-Se A e B não pedem intervenções diferentes, não vale contraprova — junte as duas.
+Sem predições diferentes e falsificadores observáveis, não há contraprova: há
+apenas outra questão. Nunca escreva "você tem fechamento precoce"; antes do teste,
+o aluno recebe somente a sonda do Passo 4.
+
+Se A e B não produzem predições diferentes ou levam à mesma intervenção, distingui-las
+não muda a decisão: junte as duas.
 
 **Contrato duro contra redundância:** antes de criar a lista de sondagens,
 extraia a variável decisiva de cada hipótese. Se as duas hipóteses são duas
 descrições do mesmo limiar, discriminador ou operação (por exemplo, ambas
 dependem de reconhecer o marco de 5 minutos), elas formam uma única hipótese
-composta para fins de teste. Faça **uma intervenção conjunta**, com uma única
+composta para fins de teste. Faça **uma sonda conjunta**, com uma única
 pergunta/caso que avalie a variável compartilhada; não divida em “teste de X”
-e “teste de Y”. Só proponha duas intervenções quando houver duas variáveis
+e “teste de Y”. Só proponha duas sondas quando houver duas variáveis
 decisivas realmente diferentes. O diagnóstico continua candidato/indeterminado
 até haver evidência, mas o desenho não pode desperdiçar duas sondas para o
 mesmo discriminador.
 
-### Passo 3 — a menor intervenção que discrimina
-Não dê a aula inteira do tema. Selecione a **menor intervenção que separa A de B**.
-Frequentemente é uma única pergunta.
+### Passo 3 — a menor sonda que discrimina
+
+Não dê aula, card, regra, pista nem intervenção corretiva antes do teste. Selecione
+a menor **sonda** que produz resultados diferentes sob A e B. Frequentemente é
+uma única pergunta. A intervenção pedagógica vem depois da leitura do resultado.
 
 ### Passo 4 — a questão de transferência
-Segunda questão com a **mesma operação exigida** e **tema diferente**.
+
+Segunda questão com o mesmo `operacao_id` e tema diferente. Registre internamente
+o rótulo humano, a variável decisiva e o mapa de distratores conforme
+`QUESTION_INTELLIGENCE_P7.md`, mas não os revele antes da resposta.
 
 Tema diferente é o ponto. Se A é "fechamento precoce" e B é "lacuna de conteúdo
 sobre pré-eclâmpsia", repetir pré-eclâmpsia não discrimina nada — o aluno pode
@@ -81,9 +96,27 @@ tentativa.
 
 Use o `00_MAPA_OPERACAO_MOVIMENTO.md` para achar um item real com a mesma operação.
 
-### Passo 5 — não revele a hipótese antes
-**Não diga o que está testando.** Se você anunciar "vou ver se você fecha cedo",
-o aluno passa a vigiar exatamente isso e o teste se contamina.
+Para separar movimento operacional de lacuna factual, prefira item em que o fato
+necessário esteja dado no enunciado ou já tenha domínio observado; caso contrário,
+o erro não discrimina. Para separar dois movimentos, cada alternativa/traço de
+resposta deve corresponder a previsões diferentes no quadro do Passo 2. Se o
+conteúdo-base da transferência não estiver assegurado, faça a rodada e marque-a
+`indeterminada`; não converta o novo erro em movimento.
+
+Fixe também `answer_key_scope` antes da tentativa. Se a questão pede prática
+atual, exija `clinical_validity: current`; material curricular `pending |
+historical_only | conflict | quarantined` não serve como controle de conteúdo
+clínico. Se o alvo é recordação curricular, declare ao aluno apenas esse **escopo**
+antes da questão — sem revelar chave, variável decisiva ou hipótese — e limite a
+inferência ao escopo curricular.
+
+### Passo 5 — portão sem revelação
+
+Antes de bloquear a resposta — e, quando coletadas, justificativa e confiança —
+não revele: hipótese, `operacao_id`/rótulo, variável decisiva, mapa de
+distratores, gabarito, regra, card, dica ou movimento-alvo. Se você anunciar "vou
+ver se você fecha cedo", o aluno passa a vigiar exatamente isso e o teste se
+contamina.
 
 Diga apenas:
 
@@ -91,7 +124,7 @@ Diga apenas:
 Quero te dar uma segunda questão curta antes de explicar.
 ```
 
-Só depois da resposta, revele:
+Só depois de uma tentativa — inclusive `não sei` — revele e corrija:
 
 ```text
 Eu estava distinguindo entre <A> e <B>.
@@ -99,25 +132,33 @@ Eu estava distinguindo entre <A> e <B>.
 
 Isso não é manipulação — é cegamento, e é o que torna o resultado interpretável.
 Se o aluno perguntar diretamente o que você está testando, **responda a verdade**
-e registre que a rodada ficou contaminada.
+e registre que a rodada ficou contaminada; ela pode servir como treino, mas não
+fortalece, enfraquece nem confirma movimento.
 
 ### Passo 6 — o resultado
 ```text
 Tentativa A: <o que ele fez>
 Hipótese testada: <A vs B>
-Intervenção aplicada: <a menor>
+Sonda aplicada: <a menor>
 Transferência B: <o que ele fez na segunda>
-Resultado: hipótese A ficou mais forte | mais fraca | indeterminada
+Resultado por hipótese: strengthened | weakened | abandoned | indeterminate
 Confiança atualizada:
-Próximo passo:
+Intervenção pós-teste / próximo passo:
 ```
 
 Regras de leitura do resultado:
 
-- executou o processo corretamente na segunda → **A enfraquece**;
-- repetiu o movimento em tema onde sabia o conteúdo → **A fortalece**;
-- errou por não saber o conteúdo da segunda → **indeterminado**, o teste falhou
-  (item mal escolhido, não conclusão sobre o aluno);
+- aplique as predições escritas **antes** da sonda; não invente a explicação após
+  ver a resposta;
+- observou o falsificador de A em rodada limpa → A `weakened` ou `abandoned` para
+  aquele evento; isso não prova automaticamente B;
+- observou a predição exclusiva de A e o falsificador de B → A `strengthened`, B
+  `weakened`;
+- ambas as hipóteses predizem o resultado → `indeterminate`; redesenhe a sonda;
+- nenhuma prediz o resultado → abandone ambas para o evento e formule novas
+  concorrentes apenas com sinal observado;
+- errou por não saber o conteúdo, acertou por pista, recebeu revelação precoce ou
+  enfrentou item/escopo inválido → `indeterminate` (falha do teste, não do aluno);
 - uma rodada não confirma padrão. `confirmed` exige pelo menos duas evidências
   independentes em contextos distintos, sendo ao menos uma transferência válida;
   mantenha `candidate` enquanto isso não existir.
@@ -126,8 +167,8 @@ Regras de leitura do resultado:
 
 A unidade deixa de ser "errei cardiologia" e passa a ser:
 
-> tentativa A → hipótese → intervenção X → transferência B → hipótese ficou
-> mais forte / mais fraca / indeterminada
+> tentativa A → hipóteses → sonda de transferência B → resultado por hipótese →
+> intervenção pós-teste
 
 Isso é o esqueleto de um modelo do aprendiz de verdade: ele separa **evento
 observado** de **hipótese cognitiva** de **padrão confirmado** de **histórico de
@@ -140,8 +181,8 @@ Ao final, só ofereça persistir se houver ledger realmente gravável. Crie um n
 `review_task_id` quando a contraprova pertence àquela revisão. Registre:
 
 ```text
-tentativa → hipótese candidate → intervenção → transferência →
-resultado (strengthened | weakened | abandoned | indeterminate) → próximo vencimento
+tentativa → hipótese candidate → sonda/transferência →
+resultado (strengthened | weakened | abandoned | indeterminate) → intervenção → próximo vencimento
 ```
 
 Sem ledger acessível, diga que o resultado vale apenas na conversa atual. Não crie

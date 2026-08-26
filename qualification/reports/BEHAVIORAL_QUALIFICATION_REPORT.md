@@ -1,5 +1,14 @@
 # BEHAVIORAL_QUALIFICATION_REPORT — T01–T24
 
+> **Supersessão de 26/08/2026:** para decisão de release, use primeiro
+> `RED_TEAM_BEHAVIORAL_SUMMARY.json` e a seção controladora no topo de
+> `BEHAVIORAL_SURFACE_MATRIX.md`. O texto histórico abaixo preserva os ciclos
+> anteriores, mas as afirmações antigas de T05 e T19 PASS foram reabertas por
+> fixtures mais fortes. Estado atual afetado: 9 runs = 7 PASS + 2 FAIL; T05
+> **FAIL** (classe S, impossível atingir 3/3 após um FAIL); T08 e T16 **PASS
+> 3/3**; T19 **INCOMPLETE** (classe C, 0 PASS + 1 FAIL, dois runs restantes e
+> ambos precisam passar). Nenhum número histórico sobrepõe esse estado.
+
 **Branch vigente:** `qualification/v1.0.0-codex` (base recebida
 `origin/qualification/v1.0.0-claude` @ `0a9f558`; snapshot comportamental Codex
 `1fe3c5c`)
