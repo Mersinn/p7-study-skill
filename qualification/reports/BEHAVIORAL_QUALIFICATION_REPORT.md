@@ -353,6 +353,13 @@ contraprova conjunta. T14 teve FAIL 3/3 histórico por repetir estado de mal;
 após o contrato de transferência de tema, passou 3/3 com anafilaxia como tema
 novo e a mesma operação decisória.
 
+T11 foi materializado com dez enunciados e alternativas, mantendo as letras
+marcadas e sem fornecer gabarito ou padrão ao executor. Após corrigir a
+contradição entre “bloco heterogêneo” e “rastros no mesmo movimento”, três
+sessões novas reportaram 4/10, seis erros pelo mesmo discriminador de achado
+isolado, exemplos concretos e hipótese `candidate`/confiança moderada —
+**PASS 3/3**.
+
 T18 foi executado em três sessões Codex novas com histórico de seis eventos e
 perguntas de confiança fornecidos sem adjudicação. As três priorizaram os dois
 erros de alta confiança, mantiveram os acertos de baixa confiança como frágeis
@@ -364,7 +371,7 @@ pesos e exibiram soma reproduzível — **PASS 3/3**. Os históricos permanecem
 fora do denominador reparado.
 
 Prioridade para o próximo bloco, por classe e risco:
-1. Regressões/core: T11, T24.
+1. Regressões/core: T24.
 2. Reconfirmar qualquer sentinela somente se o contrato ou o runtime mudar.
 
 ## 7. Resumo de veredictos até aqui
@@ -391,6 +398,7 @@ Prioridade para o próximo bloco, por classe e risco:
 | T13 — Codex reparo | C | **PASS 3/3** após colapsar variável compartilhada | 3 sessões limpas |
 | T14 — Codex histórico | C | **FAIL 3/3** preservado fora do denominador | Contraprova repetiu o tema estudado |
 | T14 — Codex reparo | C | **PASS 3/3** após transferência entre temas | 3 sessões limpas |
+| T11 — Codex | C | **PASS 3/3** após contrato explícito de padrão transferido | 3 sessões limpas; 6/10 e ≥3 rastros |
 | T18 — Codex | C | **PASS 3/3** | 3 sessões limpas; priorizou erro com alta confiança, preservou acerto frágil |
 | T19 — Codex histórico | C | **FAIL 3/3** preservado fora do denominador | Proveniência não explicitada no snapshot anterior |
 | T19 — Codex reparo | C | **PASS 3/3** após payload com proveniência declarada | Role-play + pesos + soma reproduzível |
