@@ -102,6 +102,11 @@ tal e não a atribua ao Source Pack ou a uma banca real. O rótulo “oficial”
 enunciado não substitui fonte verificável. Depois preserve os itens e pesos
 recebidos e mostre a soma reproduzível item a item.
 
+Para checklist ponderado, a ordem é obrigatória: `Base da avaliação:
+authentic_checklist`; `Proveniência da rubrica: ...`; tabela completa com os
+pesos originais; `Soma total: ...` com expressão numérica; resultado. Não omita a
+linha de proveniência porque o aluno pediu uma correção restrita ao checklist.
+
 Tempo sem fonte oficial é `meta de treino`, não regra da banca.
 
 ## 6. Caso clínico longo
