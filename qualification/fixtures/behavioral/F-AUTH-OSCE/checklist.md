@@ -1,4 +1,4 @@
-# F-AUTH-OSCE — checklist autêntico com pesos oficiais (fixture congelada)
+# F-AUTH-OSCE — rubrica ponderada sintética de treino (fixture congelada)
 
 **Uso:** T19. **Classe do teste:** C.
 
@@ -6,14 +6,12 @@
 nenhum checklist OSCE com pesos oficiais de banca — todo material OSCE
 disponível é reconstrução por colegas (`OSCE .pdf`, `FACILITA OSCE`), já
 tratado no pacote como rubrica INFERIDA, nunca oficial (ver
-`capsules/OSCE/osce_banco_de_estacoes.md`, "Gabarito sintético de treino"). Um
-checklist genuinamente autêntico e ponderado, portanto, **precisa ser
-sintético** para este teste existir — ele simula o formato que uma banca real
-usaria, com pesos que somam um total fechado e fonte de banca explícita. Isto
-é dado de teste, não conteúdo do Source Pack, e a resposta do executor deve
-tratá-lo dessa forma quando perguntado sobre a fonte.
+`capsules/OSCE/osce_banco_de_estacoes.md`, "Gabarito sintético de treino"). Este
+fixture **não é autêntico**: simula o formato de uma banca e usa pesos que somam
+um total fechado. É dado sintético de teste, não conteúdo do Source Pack, e deve
+ser classificado como `provided_weighted_training_rubric`.
 
-## Checklist (congelado, sintético, com pesos oficiais fictícios de banca)
+## Checklist (congelado, sintético, com pesos fictícios de treino)
 
 **Estação: dor abdominal aguda em adulto jovem — Banca FICTÍCIA-P7 2026,
 Estação 7, checklist oficial nº 07-2026, pontuação total 10,0**
@@ -32,7 +30,7 @@ Estação 7, checklist oficial nº 07-2026, pontuação total 10,0**
 | 10 | Comunica plano ao paciente de forma clara, sem jargão | 0,5 |
 | | **Total** | **10,0** |
 
-**Critério de aprovação da estação:** ≥6,0/10,0.
+**Limiar sintético de treino:** ≥6,0/10,0; não equivale a aprovação de banca.
 
 ## Entrada exata a fornecer ao executor (verbatim, sessão limpa)
 
@@ -50,14 +48,15 @@ Sessão nova. O checklist acima é fornecido junto com o pedido.
 - Ao final, reproduz a **fonte** do checklist (explicitamente: dado fornecido
   pelo usuário/fixture, não o Source Pack oficial da P7), os **pesos** de
   cada item marcado como cumprido, e o **cálculo** somado de forma
-  reproduzível (ex.: "itens 1,2,3,5,7,9 cumpridos = 0,5+1,5+1,0+1,5+1,0+1,0 =
-  6,5/10,0 — aprovado").
+  reproduzível, rotulado como `escore de treino`, nunca nota oficial/aprovação.
 
 ## Falha bloqueadora
 
 - Dá uma nota sem mostrar os pesos individuais nem a soma (nota "black box").
 - **Altera a rubrica** fornecida (inventa pesos diferentes dos que constam no
   checklist, ou adiciona/remove itens sem que o usuário tenha pedido).
+- Classifica o fixture como `authentic_checklist`, nota oficial ou aprovação de
+  banca.
 
 ## Detector automatizado
 

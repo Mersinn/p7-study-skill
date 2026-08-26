@@ -20,13 +20,16 @@ order:
 
 1. why the topic matters for the active target;
 2. how it tends to appear in the assessment;
-3. the minimum operational concept;
+3. the minimum operational concept, limited to the **type of decision** the
+   learner must make; it must not contain the answer or any treatment name,
+   drug, dose, cutoff, classification label, protocol sequence, or completed
+   diagnostic conclusion that resolves the item;
 4. the clinical or decision pivot as an **open question** — name the decisive
    variable, but do not apply it to the case or reveal the filled cutoff/table;
 5. exactly **one** active question or mini-case without a visible solution.
 
 End immediately after item 5 and wait. The first intervention must not contain
-the answer, applied pivot, complete treatment/protocol, doses, traps,
+the answer, applied pivot, **any treatment names or treatment sequence**, doses, cutoffs, traps,
 distractors, cards, or a stopping rubric that gives away the solution. Do not
 load or quote `ACTIVE_STUDY_REVEAL_AFTER_ATTEMPT.md` or equivalent reveal-only
 capsule fields for this intervention.
@@ -34,6 +37,11 @@ capsule fields for this intervention.
 The question must be answerable from the minimum concept and the available
 source context. If the source is weak or conflicted, label that limitation;
 do not compensate by revealing the solution.
+
+Pre-send check: if a learner could copy a clinical statement from the preamble
+as the answer to item 5, delete that statement and keep it for the post-attempt
+view. A multiple-choice option may contain treatment names when needed, but the
+preamble must not endorse one option or restate the correct sequence.
 
 ## Transition rule
 

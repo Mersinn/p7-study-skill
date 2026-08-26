@@ -43,6 +43,25 @@ recorte de unidade e tempo realmente disponível mudam o número/tamanho dos
 blocos. Infira nível, método e energia quando já estiverem evidentes; faça no
 máximo uma pergunta de personalização se ela mudar o primeiro bloco.
 
+### 2.1 Efeitos ortogonais obrigatórios no primeiro bloco
+
+Cada campo controla uma dimensão diferente; não use um para mascarar os demais:
+
+- `starting_level` controla **quantidade de apoio**: `zero` recebe mapa mínimo e
+  worked example antes do item isomórfico; `parcial`, diagnóstico curto e apoio
+  moderado; `revisao`, pivô/caso direto sem aula introdutória.
+- `preferred_method` controla **formato da ação**: `questoes`, item objetivo;
+  `teoria_ativa`, recuperação livre/teach-back; `casos`, vinheta clínica;
+  `misto`, alternância declarada. Mantidos os demais campos, mudar só o método
+  deve mudar visivelmente a primeira ação.
+- `energy_constraint` controla **carga e duração**, não dificuldade atribuída ao
+  aluno: `baixa_agora`, núcleo essencial de até 20 minutos, uma ação por vez e
+  extensão opcional; `variavel`, núcleo autossuficiente com checkpoints;
+  `estavel`, bloco completo dentro do orçamento. Nunca use tom punitivo.
+
+Se o aluno atualizar qualquer campo durante a sessão, recalibre o próximo bloco e
+declare a mudança; não conte item abandonado durante a transição como erro.
+
 Alvo indefinido não bloqueia. Assuma o mais provável, **declare a suposição**, e
 comece.
 

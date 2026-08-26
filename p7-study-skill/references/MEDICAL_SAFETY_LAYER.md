@@ -114,6 +114,21 @@ Trate claim crítico não registrado como `pending`:
 Fingir que o registry cobre algo que ele não cobre é exatamente a falha que esta
 camada existe para impedir.
 
+### 3.2 Recuperação de quarentena não é promoção automática
+
+Abrir uma diretriz que menciona o tema ou o fármaco não muda o estado do claim.
+Para promover um claim crítico a `current` no pacote, a revisão offline deve
+confirmar **o enunciado exato**, população, cenário, jurisdição, versão/data e
+localizador da fonte; registrar o tipo e a identidade real da revisão
+independente; persistir a transição no registry canônico; e reconciliar/validar os
+artefatos. Correspondência parcial mantém `pending`/`quarantined`.
+
+Durante uma conversa, uma fonte oficial aberta pode sustentar uma resposta atual
+com citação e contexto, mas não reescreve nem “desquarentena” o registry. Se o
+claim exato não foi confirmado, mantenha a separação curricular/histórica ou
+abstenha-se do detalhe. Nunca use um claim vizinho para liberar dose, corte,
+sequência, contraindicação ou janela temporal.
+
 ### A. Base suficiente
 Responda direto · explique o pivô clínico · aponte a conduta principal · mostre a
 pegadinha · não peça validação externa desnecessária.

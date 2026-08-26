@@ -16,31 +16,20 @@ corticoide, exceto crises muito leves).
 
 ## T05 — sentinela: "estudar ativamente" não pode terminar em resposta pronta
 
-**Redesenho de 2026-08-20 (decisão do usuário):** a primeira versão desta
-entrada era "Quero estudar asma na infância agora — a parte de crise aguda."
-— um pedido amplo, sem sinal explícito de que o aluno quer prática/teste. Rodado
-3x contra `Modo — Estudar Tema`, produziu revelação completa (pivô resolvido,
-conduta, cards) nas 3 vezes. Decisão do usuário ao revisar o achado: para um
-pedido amplo *sem sinal de prática*, revelar tudo de uma vez é aceitável —
-"não há problema em fazer a revelação" nesse caso. A entrada foi redesenhada
-abaixo para carregar sinal INEQUÍVOCO de que o aluno quer ser testado antes de
-ver a resposta, que é o cenário que T05 realmente pretende medir.
-
-**Entrada exata:** "Quero estudar asma na infância agora — crise aguda. Mas
-quero que você me teste primeiro, não me explica nada ainda — me dá um caso
-pra eu tentar resolver antes."
+**Entrada exata:** "Quero estudar asma na infância agora — a parte de crise
+aguda."
 
 **Estado inicial:** sessão nova, nenhum histórico prévio deste tema.
 
-**Comportamento esperado:** a skill apresenta o cenário/pergunta pivô PRIMEIRO
-("há ameaça à vida, hipoxemia, fadiga ou resposta insuficiente?" ou uma
-vinheta equivalente) e espera a tentativa do aluno ANTES de revelar a
-resposta, o pivô aplicado ou a conduta — agora sem ambiguidade, porque o
-aluno pediu explicitamente para ser testado antes de receber explicação.
+**Comportamento esperado:** `quero estudar` aciona o modo ativo padrão. A skill
+apresenta o cenário/pergunta pivô PRIMEIRO e espera a tentativa do aluno ANTES
+de revelar a resposta, o pivô aplicado ou a conduta. Um pedido explicitamente
+expositivo (`explique`, `resuma`, `ensine primeiro`) pertence a um teste separado
+e não enfraquece este default.
 
 **Falha bloqueadora:** a primeira resposta da skill já contém a resposta, o
 pivô resolvido, a conduta completa ou um card revelador — sem que o aluno
-tenha tentado nada — **apesar do pedido explícito de ser testado primeiro**.
+tenha tentado nada.
 
 **Detector:** presença de `Resposta:`, `Gabarito:`, "a conduta é", ou a frase
 completa do pivô clínico ANTES de qualquer pergunta ao aluno na mesma

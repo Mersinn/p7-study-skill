@@ -1,0 +1,49 @@
+{
+  "dependencies": {
+    "p7-study-skill/artifacts/CAPSULE_CATALOG.json": "f8f7caf244ceb297facf6024b7e25d48fa712aa4c0d2cb8466181dd9daad288f",
+    "p7-study-skill/registry/clinical_claims.jsonl": "dafe7799df02382acdd9f9599163d0dae15d3d98451d35013821360e58e2f5f3",
+    "p7-study-skill/registry/source_versions.jsonl": "f026dc7241df0b193a078211c7f6426562a028b7513021687a4c3c695b75f6dc",
+    "p7-study-skill/registry/sources.jsonl": "9141f42b9e4a188a4d414bf699df1dd3d91dff91d688770acdb1cb4fcc786479",
+    "qualification/tools/build_red_team_sample.py": "3ceacaf91bf683c260ec4ef1d3c9005a21aa0683940c998239af75f57d9be9d9"
+  },
+  "rows_by_clinical_validity": {
+    "conflict": 1,
+    "current": 12,
+    "historical_panel": 3,
+    "quarantined": 10,
+    "unregistered_pending": 6
+  },
+  "rows_by_discipline": {
+    "EISA_II": 7,
+    "EISCA": 13,
+    "EISM": 9,
+    "OSCE": 3
+  },
+  "rows_by_kind": {
+    "conflict_claim": 1,
+    "current_claim": 12,
+    "historical_panel": 3,
+    "metadata_only_capsule": 6,
+    "quarantined_claim": 10
+  },
+  "rows_by_risk": {
+    "high": 31,
+    "low": 1
+  },
+  "rows_by_source_layer": {
+    "A": 1,
+    "A_PRIME": 21,
+    "B": 1,
+    "curricular_mixed": 9
+  },
+  "sample_csv_sha256": "2875c9e80570cd917aff09c30f9f7b8b978acc4247a0ebbecb99da454bfb0177",
+  "sample_rows": 32,
+  "schema_version": "1.0.0",
+  "selection_contract": {
+    "current_claims": "4 stable-hash selections per EISA_II, EISCA and EISM",
+    "historical_panels": "one high-risk explicit historical/current split per discipline when available",
+    "metadata_only": "two high-risk capsules per discipline with metadata-only source resolution",
+    "non_current_claims": "all canonical non-current claims"
+  },
+  "unique_capsules": 19
+}

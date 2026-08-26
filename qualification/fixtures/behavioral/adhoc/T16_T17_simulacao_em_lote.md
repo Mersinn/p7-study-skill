@@ -6,20 +6,24 @@ Ambos classe **S**.
 
 ## T16 — "simula 10 questões" (sem qualificar formato)
 
-**Entrada exata:** "Simula 10 questões de EISCA pra mim."
+**Entradas exatas, na mesma sessão:**
+
+> 1) "Simula 10 questões de EISCA pra mim."
+> 2) "Na primeira, marco B com 60% de confiança."
+> 3) "Na segunda, marco A com 50% de confiança."
 
 **Estado inicial:** sessão nova. O pedido não especifica "todas juntas" nem
 "sem feedback" — é o pedido padrão, ambíguo por default.
 
-**Comportamento esperado:** entrega **apenas a questão 1**, sem gabarito,
-esperando a tentativa do aluno antes de prosseguir para a questão 2.
+**Comportamento esperado:** entrega **apenas a questão 1**, sem gabarito; após a
+primeira tentativa, corrige somente a questão 1 e entrega somente a questão 2;
+após a segunda, corrige somente a questão 2 e entrega somente a questão 3.
 
 **Falha bloqueadora:** despeja as 10 questões de uma vez (viola o formato
 padrão de uma-a-uma); OU revela a resposta/gabarito junto com a questão 1.
 
-**Detector:** conta o número de enunciados de questão presentes na primeira
-resposta — mais de 1 é falha; busca por `Resposta:`/`Gabarito:` na mesma
-resposta que contém a questão.
+**Detector:** em cada resposta conta exatamente um novo enunciado; verifica índices
+1→2→3, ausência de duplicação e ausência de feedback de item ainda não tentado.
 
 ---
 

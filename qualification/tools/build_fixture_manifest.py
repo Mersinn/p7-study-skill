@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Monta MANIFEST.json da suite comportamental T01-T24: para cada teste,
-classe, caminho(s) do fixture, sha256 de cada arquivo do fixture, e um
-resumo estruturado (comportamento esperado / falha bloqueadora / detector)
-extraido dos proprios arquivos de fixture (fonte de verdade e o .md, este
-manifest e um indice, nao duplica o conteudo por extenso)."""
+"""Index adjudication specs separately from executor-only payloads."""
 from __future__ import annotations
 
 import hashlib
@@ -50,10 +46,41 @@ TESTS = [
     {"id": "T20", "class": "S", "fixture_dir": "F-DERIVED-OSCE"},
     {"id": "T21", "class": "S", "fixture_dir": "adhoc", "fixture_file": "adhoc/T21_osce_tempo_controlado.md",
      "class_note": "Ambiguidade S/C resolvida para S — mesmo motivo do T08 (prompt mestre secao 10.1)."},
-    {"id": "T22", "class": "S", "fixture_dir": "F-LEDGER"},
+    {"id": "T22", "class": "S", "fixture_dir": "F-LEDGER", "fixture_file": "F-LEDGER/ledger_scenario.md"},
     {"id": "T23", "class": "S", "fixture_dir": "adhoc", "fixture_file": "adhoc/T23_sessao_sem_historico.md"},
-    {"id": "T24", "class": "C", "fixture_dir": "adhoc", "fixture_file": "adhoc/F-T24-CALIBRATION"},
+    {"id": "T24", "class": "C", "fixture_dir": "adhoc", "fixture_file": "adhoc/F-T24-CALIBRATION/calibration_scenario.md"},
 ]
+
+PAYLOADS = {
+    "T01": ["execution_payloads/REMAINING_INPUTS.md"],
+    "T02": ["execution_payloads/T02_inputs.md"],
+    "T03": ["execution_payloads/T03_inputs.md"],
+    "T04": ["execution_payloads/REMAINING_INPUTS.md"],
+    "T05": ["execution_payloads/REMAINING_INPUTS.md"],
+    "T06": ["execution_payloads/F-THEME_inputs.md"],
+    "T07": ["execution_payloads/F-THEME_inputs.md"],
+    "T08": ["execution_payloads/F-DOC_input.md"],
+    "T09": ["execution_payloads/F-MAPPED_input.md"],
+    "T10": ["execution_payloads/F-HET10_items.md"],
+    "T11": ["execution_payloads/F-CON10_inputs.md"],
+    "T12": ["execution_payloads/F-INCOMPLETE_input.md"],
+    "T13": ["execution_payloads/T13_T14_inputs.md"],
+    "T14": ["execution_payloads/T13_T14_inputs.md"],
+    "T15": ["execution_payloads/REMAINING_INPUTS.md"],
+    "T16": ["execution_payloads/REMAINING_INPUTS.md"],
+    "T17": ["execution_payloads/REMAINING_INPUTS.md"],
+    "T18": ["execution_payloads/T18_inputs.md"],
+    "T19": ["execution_payloads/F-AUTH-OSCE_inputs.md"],
+    "T20": ["execution_payloads/F-DERIVED-OSCE_items.md"],
+    "T21": ["execution_payloads/T21_OSCE_items.md"],
+    "T22": ["execution_payloads/F-LEDGER_surface_inputs.md", "F-LEDGER/.p7-state/events.jsonl", "F-LEDGER/.p7-state/ledger_meta.json"],
+    "T23": ["execution_payloads/REMAINING_INPUTS.md"],
+    "T24": ["execution_payloads/F-T24_inputs.md", "adhoc/F-T24-CALIBRATION/.p7-state/events.jsonl", "adhoc/F-T24-CALIBRATION/.p7-state/ledger_meta.json"],
+}
+
+
+def explicit_files(paths: list[str]) -> list[dict]:
+    return [{"path": rel, "sha256": sha256_file(ROOT / rel)} for rel in paths]
 
 
 def main() -> int:
@@ -68,31 +95,33 @@ def main() -> int:
             "test_id": t["id"],
             "class": t["class"],
             "fixture_dir": t.get("fixture_file", t["fixture_dir"]),
-            "fixture_files": fixture_files,
+            "adjudication_spec_files": fixture_files,
+            "executor_payload_files": explicit_files(PAYLOADS[t["id"]]),
         }
         if "class_note" in t:
             entry["class_note"] = t["class_note"]
         entries.append(entry)
 
     manifest = {
-        "schema_version": "1.0.0",
+        "schema_version": "1.1.0",
         "suite": "T01-T24",
         "source": "p7-study-skill/references/EVALUATION_SUITE.md",
         "frozen_at": "2026-08-20",
         "protocol_note": (
             "Cada teste roda 3x em sessao limpa (S exige 3/3; C exige >=2/3 sem "
             "a mesma falha bloqueadora repetida). Executor ve so entrada+fixture; "
-            "adjudicador ve o criterio oculto depois. Ver os .md de cada fixture "
-            "para: entrada exata, estado inicial, comportamento esperado, falha "
-            "bloqueadora, detector — este manifest e um INDICE com hash, nao "
-            "substitui a leitura dos .md."
+            "adjudicador ve o criterio oculto depois. adjudication_spec_files sao "
+            "PROIBIDOS ao executor; executor_payload_files sao a lista exaustiva "
+            "de arquivos permitidos e hasheados. O raw/record preserva o turno "
+            "exato enviado e sua ordem."
         ),
         "tests": entries,
     }
     out_path = Path(__file__).resolve().parents[1] / "fixtures" / "behavioral" / "MANIFEST.json"
     out_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="")
     print(f"wrote {out_path} with {len(entries)} test entries, "
-          f"{sum(len(e['fixture_files']) for e in entries)} fixture files hashed")
+          f"{sum(len(e['adjudication_spec_files']) for e in entries)} specs and "
+          f"{sum(len(e['executor_payload_files']) for e in entries)} executor files hashed")
     return 0
 
 

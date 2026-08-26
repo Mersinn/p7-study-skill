@@ -37,9 +37,9 @@
       "sha256": "7853950f085fe2da6f2095a533b4b1de1e7cf1d55cf91fca6bbff77b9d2e6f79"
     },
     {
-      "bytes": 33835,
+      "bytes": 35080,
       "path": "SKILL.md",
-      "sha256": "1dafc05d8ef5d8c1e85c9822a85bc41fdc484c083b3c7bb8cb4b04e2f18eb7e7"
+      "sha256": "eacbd05fd4d2655d4b6bb036d428f653103de0e5ae4e0f7cb1e12b0362c84e91"
     },
     {
       "bytes": 11,
@@ -937,9 +937,9 @@
       "sha256": "3163c6deb9de373c7bcb92d4616e84cdbbc8a2621c63b83f0aa9bf3e4e6d1369"
     },
     {
-      "bytes": 2111,
+      "bytes": 2690,
       "path": "references/ACTIVE_STUDY_QUESTION_FIRST.md",
-      "sha256": "5b35a140483c342defe9489047fa387315dc27bb8c4df961cf3c3598676171a2"
+      "sha256": "137c7facb7078be8d79ade69d92911f5eeacf31b19c57938fd24c0e2e91fbe33"
     },
     {
       "bytes": 1648,
@@ -957,9 +957,9 @@
       "sha256": "37429b3c1cc5908d5ff8a2eb7e478e531bf53a93d5c0656858abb0a287b1e05f"
     },
     {
-      "bytes": 6918,
+      "bytes": 7292,
       "path": "references/CASE_OSCE_TUTOR.md",
-      "sha256": "cb23ffd5e6f78bbf95cbbfb0e07d9eec93c2cd81fce88302c77d8a49ed36c65d"
+      "sha256": "9108cac73d3822307b0d947c6057f0030457dc5793aea5e3fa04990ae8af4a33"
     },
     {
       "bytes": 2252,
@@ -992,14 +992,14 @@
       "sha256": "062c2eea27d895cd34aace632636127c509a3d1026e3c621be60b0c71c0effc8"
     },
     {
-      "bytes": 5587,
+      "bytes": 6062,
       "path": "references/LEARNER_STATE_PROTOCOL.md",
-      "sha256": "a1d1e554b2d8830cc8bc35721e59e2c9c6bd0cc98b42ec711ab9e92209d34d57"
+      "sha256": "3398e76b3a46fa2a32eb0e1a6ae8072ad799be0a0174637ade3d01ef8d037de0"
     },
     {
-      "bytes": 13071,
+      "bytes": 13988,
       "path": "references/MEDICAL_SAFETY_LAYER.md",
-      "sha256": "88f9b2e96f5b43f541f6af17c82c77c510c3065c12215e69f557408a4654d0fb"
+      "sha256": "41ae0fa583924bbcefb388f74c990b0152961ffee15a4258fd22db2c8fe34fa5"
     },
     {
       "bytes": 15999,
@@ -1022,9 +1022,9 @@
       "sha256": "e0c99b391b01c80dfa8da2cae9e386bebc65635fbc96903cd29fb892ad4e3411"
     },
     {
-      "bytes": 6809,
+      "bytes": 7948,
       "path": "references/TARGET_AWARE_STUDY_PLANNER.md",
-      "sha256": "bbd11ad9dcf3ed19c9ab55188e97ce598909a79adb57047d4b21f43025e5152a"
+      "sha256": "8b281bffdfd8e09a8d4cd6451dae91d19ec3f9ef11b0e4fae1eefc42a13c4270"
     },
     {
       "bytes": 7690,
@@ -1172,9 +1172,9 @@
       "sha256": "c697905e8c1ea9de86efa4518be852a457f7fbf309b24a0541ccc41dbed637a0"
     },
     {
-      "bytes": 1694,
+      "bytes": 4350,
       "path": "tests/test_package.py",
-      "sha256": "ad23124b75b2bea9a018a18930c2d26da4982f258cdb4a63c744d3cdea1dc514"
+      "sha256": "4574de1d0bfb926b8023c9c159590fc3635ede139c88034b43d3a62298a56697"
     },
     {
       "bytes": 1590,
@@ -1184,5 +1184,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 2971564
+  "total_bytes": 2978949
 }

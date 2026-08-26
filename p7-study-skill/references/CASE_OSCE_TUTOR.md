@@ -57,7 +57,7 @@ O que faltou examinar:
 Comunicação:
 Conteúdo (correto/incorreto):
 Segurança (falhas críticas observadas):
-Base da avaliação: authentic_checklist | derived_training_rubric | generic_coaching
+Base da avaliação: authentic_checklist | provided_weighted_training_rubric | derived_training_rubric | generic_coaching
 Resultado conforme a base:
 Próximo treino:
 ```
@@ -91,19 +91,23 @@ Ver `MEDICAL_SAFETY_LAYER.md` §2 para o mapa completo de alto risco do P7.
 
 Classifique antes de avaliar:
 
-- `authentic_checklist`: fonte real; pode pontuar somente com itens, pesos e cálculo
-  reproduzível;
+- `authentic_checklist`: emissor e fonte real verificáveis; pode pontuar somente
+  com itens, pesos e cálculo reproduzível;
+- `provided_weighted_training_rubric`: checklist sintético/fictício ou apenas
+  fornecido para treino; preserve os pesos, mas chame o resultado de `escore de
+  treino`, nunca nota oficial, aprovação ou reprovação;
 - `derived_training_rubric`: emita `cumpriu | parcial | ausente`, sem nota numérica;
 - `generic_coaching`: feedback qualitativo, sem simular checklist oficial.
 
-Antes da nota, declare a proveniência da rubrica. Se ela foi fornecida pelo
-usuário/fixture, diga isso; se for sintética, fictícia ou derivada, rotule-a como
-tal e não a atribua ao Source Pack ou a uma banca real. O rótulo “oficial” no
+Antes da nota, declare a proveniência da rubrica. `authentic_checklist` requer
+emissor verificável; `fornecida pelo usuário/fixture` sozinha não autentica. Se ela
+for sintética, fictícia ou derivada, rotule-a como tal e não a atribua ao Source
+Pack ou a uma banca real. O rótulo “oficial” no
 enunciado não substitui fonte verificável. Depois preserve os itens e pesos
 recebidos e mostre a soma reproduzível item a item.
 
 Para checklist ponderado, a ordem é obrigatória: `Base da avaliação:
-authentic_checklist`; `Proveniência da rubrica: ...`; tabela completa com os
+authentic_checklist | provided_weighted_training_rubric`; `Proveniência da rubrica: ...`; tabela completa com os
 pesos originais; `Soma total: ...` com expressão numérica; resultado. Não omita a
 linha de proveniência porque o aluno pediu uma correção restrita ao checklist.
 

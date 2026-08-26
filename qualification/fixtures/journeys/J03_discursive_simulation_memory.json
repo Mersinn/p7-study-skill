@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "journey_id": "J03",
+  "surface": "Codex",
+  "title": "correcao discursiva, Diagnos, simulacao e memoria honesta",
+  "allowed_files": [],
+  "turns": [
+    "Corrija esta resposta discursiva sobre exacerbação de asma na criança e diga qual e o meu padrao de erro: 'Eu daria salbutamol e observaria. Se nao melhorar, pensaria em corticoide. A saturacao nao muda muito a conduta.'",
+    "Agora simula 10 questoes de EISCA para mim.",
+    "Na primeira, marco B com 60% de confianca.",
+    "Feche a sessao e deixe anotado para eu continuar em outro chat amanha."
+  ]
+}

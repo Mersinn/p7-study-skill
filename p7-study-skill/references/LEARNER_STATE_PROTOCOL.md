@@ -85,15 +85,22 @@ novidade do contexto. Diga brevemente por que mudou.
 
 ## 5. Ledger e persistência honesta
 
-O estado vale apenas na conversa atual, salvo se um ledger foi realmente criado e
-está acessível. Nova sessão:
+O estado vale apenas na conversa atual, salvo se um ledger foi realmente criado,
+está acessível e está vinculado ao aprendiz atual. Nova sessão:
 
-1. se houver ledger, leia vencidos e hipóteses abertas antes de gerar novos itens;
-2. crie um novo `learner_event_id` ligado ao evento anterior e atualize/complete o
+1. valide `learner_id` contra o vínculo/escopo fornecido pela sessão; ausência de
+   vínculo verificável produz `histórico não atribuível`, e mismatch nunca é
+   retomado automaticamente;
+2. se houver ledger vinculado, leia vencidos e hipóteses abertas antes de gerar
+   novos itens;
+3. crie um novo `learner_event_id` ligado ao evento anterior e atualize/complete o
    mesmo `review_task_id` quando for a mesma tarefa; não sobrescreva tentativa;
-3. se não houver, diga `sessão sem histórico` e peça o ledger ou ofereça revisão
+4. se não houver, diga `sessão sem histórico` e peça o ledger ou ofereça revisão
    genérica rotulada;
-4. nunca alegue lembrar outra conversa sem mecanismo real.
+5. nunca alegue lembrar outra conversa sem mecanismo real;
+6. só confirme `salvo/registrado` após append, releitura estrita e presença do novo
+   evento com hash/parent válidos. Se for legível mas read-only, declare
+   explicitamente `histórico lido; atualização não persistida`.
 
 Eventos são imutáveis; correções viram novos eventos ligados ao anterior. Estado de
 domínio, hipóteses e fila são projeções reconstruíveis, não fatos sobrescritos.
