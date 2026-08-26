@@ -360,6 +360,12 @@ sessões novas reportaram 4/10, seis erros pelo mesmo discriminador de achado
 isolado, exemplos concretos e hipótese `candidate`/confiança moderada —
 **PASS 3/3**.
 
+T24 foi reconstruído pelo gerador versionado de calibração, com cadeia de
+ledger real, uma linha corrompida e cópia inicial somente leitura. Três sessões
+Codex novas trataram o lote como exatamente 40 itens em 25 minutos, calcularam
+`n=11`, Brier `0,3075` e viés `+0,095455`, excluíram a corrupção em cascata e a
+pista decisiva e não alteraram o fixture — **PASS 3/3**.
+
 T18 foi executado em três sessões Codex novas com histórico de seis eventos e
 perguntas de confiança fornecidos sem adjudicação. As três priorizaram os dois
 erros de alta confiança, mantiveram os acertos de baixa confiança como frágeis
@@ -371,7 +377,7 @@ pesos e exibiram soma reproduzível — **PASS 3/3**. Os históricos permanecem
 fora do denominador reparado.
 
 Prioridade para o próximo bloco, por classe e risco:
-1. Regressões/core: T24.
+1. Próximo bloco: gates clínicos P0/P1, varredura de alto risco e E2E longitudinal.
 2. Reconfirmar qualquer sentinela somente se o contrato ou o runtime mudar.
 
 ## 7. Resumo de veredictos até aqui
@@ -399,6 +405,7 @@ Prioridade para o próximo bloco, por classe e risco:
 | T14 — Codex histórico | C | **FAIL 3/3** preservado fora do denominador | Contraprova repetiu o tema estudado |
 | T14 — Codex reparo | C | **PASS 3/3** após transferência entre temas | 3 sessões limpas |
 | T11 — Codex | C | **PASS 3/3** após contrato explícito de padrão transferido | 3 sessões limpas; 6/10 e ≥3 rastros |
+| T24 — Codex | C | **PASS 3/3** após materialização do ledger | n=11; Brier/viés/exclusões reproduzíveis |
 | T18 — Codex | C | **PASS 3/3** | 3 sessões limpas; priorizou erro com alta confiança, preservou acerto frágil |
 | T19 — Codex histórico | C | **FAIL 3/3** preservado fora do denominador | Proveniência não explicitada no snapshot anterior |
 | T19 — Codex reparo | C | **PASS 3/3** após payload com proveniência declarada | Role-play + pesos + soma reproduzível |

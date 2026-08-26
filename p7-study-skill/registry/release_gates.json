@@ -39,7 +39,7 @@
         "qualification/runs/behavioral_codex/",
         "references/EVALUATION_SUITE.md"
       ],
-      "notes": "Denominadores permanecem separados por superficie. Claude preserva: T05 historico FAIL apos fixture canonica 3/3, reparo textual 1 em 1/3 e reparo textual 2 em 0/3; T08 PASS 3/3; T09 PASS 3/3; T10 INCONCLUSIVE por ConnectionRefused e OAuth expirado. No Codex: T05 estrutural PASS 3/3; T08 e T09 PASS 1/1; T10 reparado PASS 3/3; T11 reparado PASS 3/3; T12, T15, T16, T17 e T23 PASS; T20, T21 e T22 materializados PASS 3/3; T01 reparo de escopo real PASS 3/3; T02 PASS 3/3; T03 PASS 3/3 contrastes A/B; T04 clean reexecution PASS 3/3; T06 PASS 3/3; T07 PASS 3/3; T13 reparo PASS 3/3; T14 reparo PASS 3/3; T18 PASS 3/3; T19 reparado PASS 3/3 após declarar a proveniência sintética no payload. Os T01, T13, T14 e T19 historicos FAIL permanecem preservados fora dos denominadores reparados e a rodada core nao substitui os testes ainda nao executados. As tentativas minimas anteriores permanecem preservadas fora do denominador materializado; T22 tambem preserva uma tentativa de caminho sibling e uma divergencia raw/estado como INCONCLUSIVE. O gate permanece pending por lacunas restantes; nenhum resultado Codex e transferido para Claude. Ver qualification/reports/BEHAVIORAL_SURFACE_MATRIX.md."
+      "notes": "Denominadores permanecem separados por superficie. Claude preserva: T05 historico FAIL apos fixture canonica 3/3, reparo textual 1 em 1/3 e reparo textual 2 em 0/3; T08 PASS 3/3; T09 PASS 3/3; T10 INCONCLUSIVE por ConnectionRefused e OAuth expirado. No Codex: T05 estrutural PASS 3/3; T08 e T09 PASS 1/1; T10 reparado PASS 3/3; T11 reparado PASS 3/3; T12, T15, T16, T17 e T23 PASS; T20, T21 e T22 materializados PASS 3/3; T01 reparo de escopo real PASS 3/3; T02 PASS 3/3; T03 PASS 3/3 contrastes A/B; T04 clean reexecution PASS 3/3; T06 PASS 3/3; T07 PASS 3/3; T13 reparo PASS 3/3; T14 reparo PASS 3/3; T18 PASS 3/3; T19 reparado PASS 3/3 após declarar a proveniência sintética no payload; T24 PASS 3/3 após projeção tolerante do ledger. Os T01, T13, T14 e T19 historicos FAIL permanecem preservados fora dos denominadores reparados e a rodada core nao substitui os testes ainda nao executados. As tentativas minimas anteriores permanecem preservadas fora do denominador materializado; T22 tambem preserva uma tentativa de caminho sibling e uma divergencia raw/estado como INCONCLUSIVE. O gate permanece pending por lacunas restantes; nenhum resultado Codex e transferido para Claude. Ver qualification/reports/BEHAVIORAL_SURFACE_MATRIX.md."
     },
     {
       "gate_id": "behavioral_core_2_of_3",
@@ -47,7 +47,7 @@
       "evidence": [
         "references/EVALUATION_SUITE.md"
       ],
-      "notes": "T01 reparo de escopo real, T02, T03, T04, T06, T07, T11, T13, T14, T18 e T19 passaram nos runs Codex limpos registrados, mas isso é apenas a tranche inicial do core; contratos e testes unitários não substituem os runs comportamentais restantes."
+      "notes": "T01 reparo de escopo real, T02, T03, T04, T06, T07, T11, T13, T14, T18, T19 e T24 passaram nos runs Codex limpos registrados, mas os gates comportamentais permanecem pending enquanto a matriz Claude e os demais gates globais não forem fechados; contratos e testes unitários não substituem esses gates."
     },
     {
       "gate_id": "longitudinal_resume_end_to_end",
