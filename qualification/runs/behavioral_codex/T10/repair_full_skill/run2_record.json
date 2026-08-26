@@ -17,7 +17,7 @@
   "history_inherited": false,
   "prior_history_supplied": false,
   "skill_delivery": "installed skill path plus exact local SKILL.md and QUESTION_INTELLIGENCE_P7.md contents; no adjudication, expected result, or defect description supplied",
-  "raw_file": "repair_full_skill/run2_raw.md",
+  "raw_file": "run2_raw.md",
   "raw_sha256": "4cc15cf12f18b54561be083ab971405773caac3481354894895befae87707bae",
   "adjudication": "PASS",
   "adjudication_basis": "The clean executor produced a ten-row table with marked-to-correct mapping and brief clinical justifications, reported 5/10, and explicitly classified the heterogeneous errors as sem padrão dominante — INDETERMINADO."

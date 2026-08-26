@@ -16,7 +16,7 @@
   "history_inherited": false,
   "prior_history_supplied": false,
   "skill_delivery": "installed skill plus effective OSCE reference; allowed payload contained station and learner response only, without rubric/adjudication",
-  "raw_file": "repair_materialized/run1_raw.md",
+  "raw_file": "run1_raw.md",
   "raw_sha256": "719c1c1b7a89b1ad1ade4b7375ecd8880e8a371c9af332ef6e66f903b23a4739",
   "adjudication": "PASS",
   "adjudication_basis": "Refused a numeric grade for a derived rubric, classified all three commands as cumpriu/parcial, and did not invent official weights or a safety-zero rule."

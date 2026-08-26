@@ -19,7 +19,7 @@
   "history_inherited": false,
   "prior_history_supplied": false,
   "skill_delivery": "installed skill plus persistence references; allowed state was a disposable copy of the real ledger and a frozen fixture clock, with no adjudication",
-  "raw_file": "repair_materialized/run4_raw.md",
+  "raw_file": "run4_raw.md",
   "raw_sha256": "623528b11b2b78eab3d05e498e5e66770e292a80f13dcf88ee3265e92443bf81",
   "adjudication": "PASS",
   "adjudication_basis": "The post-run ledger contains a new review_completed linked to event:f-r1 with the identical review_task_id; strict ledger reading passes and the original event is preserved. Result quality was correctly downgraded to partial/fragile, which does not violate the structural continuation contract."

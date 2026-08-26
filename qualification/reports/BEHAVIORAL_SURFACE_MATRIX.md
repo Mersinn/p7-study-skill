@@ -1,6 +1,6 @@
 # Behavioral qualification by surface
 
-**Snapshots under test:** initial Codex qualification at local commit `1fe3c5c1f6176e1c0ceb77c4f6900e2975bdbade`; T10 repair qualification at local commit `c072c922e69c584f6194fdf41093de3fc0963f59`; T20–T22 materialized qualification at `434c51b8b892790f10b04624eee02a22ef4f6fce`; T01 planner repair and T04 clean reexecution at `c25d19ce7d16ac8be593c2a1ba53dca286c664e2`; T02/T03 at `e9f47c4eb09b9cca5be66df6c8c5fadce0ebe214`; T06/T07 at `e9f47c4eb09b9cca5be66df6c8c5fadce0ebe214` plus regenerated fixture manifest.
+**Snapshots under test:** initial Codex qualification at local commit `1fe3c5c1f6176e1c0ceb77c4f6900e2975bdbade`; T10 repair qualification at local commit `c072c922e69c584f6194fdf41093de3fc0963f59`; T20–T22 materialized qualification at `434c51b8b892790f10b04624eee02a22ef4f6fce`; T01 planner repair and T04 clean reexecution at `c25d19ce7d16ac8be593c2a1ba53dca286c664e2`; T02/T03/T06/T07 at `e9f47c4eb09b9cca5be66df6c8c5fadce0ebe214` plus regenerated fixture manifest; T13 repair at `4856fab6c10181aadbd62f0adaece7bfc8112c0c`; T14 repair at `b7b2389a51fb124da8b80f3343318b7bb0d0913b`; T19 provenance repair at `27d4b24`/`fec84b1` with final payload hash `bf98e26f3fdc90da9725bd65fa07e488792c5c43173c285f4a0e74da34075fcd`.
 **Branch:** `qualification/v1.0.0-codex`  
 **Rule:** Codex and Claude are separate denominators. No result below is transferred between surfaces.
 
@@ -39,6 +39,13 @@ not available.
 | T03 | 3 A/B contrasts | PASS 3/3 contrasts | `qualification/runs/behavioral_codex/T03/clean_reexecution/` |
 | T06 | 3 | PASS 3/3 | `qualification/runs/behavioral_codex/T06/clean_reexecution/` |
 | T07 | 3 | PASS 3/3 | `qualification/runs/behavioral_codex/T07/clean_reexecution/` |
+| T13 initial | 0 counted; 3 historical | FAIL 3/3 historical, preserved outside denominator | `qualification/runs/behavioral_codex/T13/initial_fail/` |
+| T13 repair | 3 | PASS 3/3 | `qualification/runs/behavioral_codex/T13/repair/` |
+| T14 initial | 0 counted; 3 historical | FAIL 3/3 historical, preserved outside denominator | `qualification/runs/behavioral_codex/T14/initial_fail/` |
+| T14 repair | 3 | PASS 3/3 | `qualification/runs/behavioral_codex/T14/repair/` |
+| T18 | 3 | PASS 3/3 | `qualification/runs/behavioral_codex/T18/clean_reexecution/` |
+| T19 initial | 0 counted; 3 historical | FAIL 3/3 historical, preserved outside denominator | `qualification/runs/behavioral_codex/T19/initial_fail/` and `T19/clean_reexecution/` |
+| T19 repair | 3 | PASS 3/3 | `qualification/runs/behavioral_codex/T19/repair/clean_reexecution/` |
 
 Codex valid qualification denominator: **22 runs = 19 PASS, 0 FAIL, 0
 INCONCLUSIVE**. T10's original letters-only attempt is preserved and
@@ -74,7 +81,7 @@ are integral in `qualification/runs/behavioral_codex/`.
 
 The core reconnaissance is intentionally not added to the 22-run sentinel
 denominator: T01's original FAIL is preserved as the regression being fixed,
-while T01 repair, T02, T03 and T04 use a separate core denominator. This
+while T01 repair, T02, T03, T04, T06, T07, T13, T14, T18 and T19 use a separate core denominator. This
 prevents a repaired core behavior from masking unexecuted core tests.
 
 ## Claude

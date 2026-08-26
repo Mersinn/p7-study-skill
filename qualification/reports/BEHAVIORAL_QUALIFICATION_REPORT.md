@@ -347,10 +347,24 @@ passou em três contrastes A/B: baixa energia/iniciante recebeu essencial,
 ritmo gentil e apoio; revisão recebeu recuperação direta e extensão. T06 passou
 3/3 com ensino inicial rotulado seguido de caso para tentativa. T07 passou 3/3:
 cada pedido de nova explicação mudou a representação do pivô, checou a
-compreensão e retornou ao alvo clínico.
+compreensão e retornou ao alvo clínico. T13 teve FAIL 3/3 histórico por sondas
+redundantes; após o contrato de variável compartilhada, passou 3/3 com uma
+contraprova conjunta. T14 teve FAIL 3/3 histórico por repetir estado de mal;
+após o contrato de transferência de tema, passou 3/3 com anafilaxia como tema
+novo e a mesma operação decisória.
+
+T18 foi executado em três sessões Codex novas com histórico de seis eventos e
+perguntas de confiança fornecidos sem adjudicação. As três priorizaram os dois
+erros de alta confiança, mantiveram os acertos de baixa confiança como frágeis
+e preservaram os acertos robustos — **PASS 3/3**. T19 teve um histórico FAIL
+3/3 no snapshot anterior porque a correção ponderada não explicitava a
+proveniência do checklist. Após o contrato OSCE e o payload com proveniência
+sintética declarada, três sessões novas fizeram role-play, preservaram os dez
+pesos e exibiram soma reproduzível — **PASS 3/3**. Os históricos permanecem
+fora do denominador reparado.
 
 Prioridade para o próximo bloco, por classe e risco:
-1. Regressões/core: T11, T13, T14, T18, T19, T24.
+1. Regressões/core: T11, T24.
 2. Reconfirmar qualquer sentinela somente se o contrato ou o runtime mudar.
 
 ## 7. Resumo de veredictos até aqui
@@ -373,6 +387,13 @@ Prioridade para o próximo bloco, por classe e risco:
 | T03 — Codex | C | **PASS 3/3 contrastes A/B** | 3 pares de sessões limpas |
 | T06 — Codex | C | **PASS 3/3** | 3 sessões limpas |
 | T07 — Codex | C | **PASS 3/3** | 3 sessões com nova representação |
+| T13 — Codex histórico | C | **FAIL 3/3** preservado fora do denominador | Contraprovas redundantes |
+| T13 — Codex reparo | C | **PASS 3/3** após colapsar variável compartilhada | 3 sessões limpas |
+| T14 — Codex histórico | C | **FAIL 3/3** preservado fora do denominador | Contraprova repetiu o tema estudado |
+| T14 — Codex reparo | C | **PASS 3/3** após transferência entre temas | 3 sessões limpas |
+| T18 — Codex | C | **PASS 3/3** | 3 sessões limpas; priorizou erro com alta confiança, preservou acerto frágil |
+| T19 — Codex histórico | C | **FAIL 3/3** preservado fora do denominador | Proveniência não explicitada no snapshot anterior |
+| T19 — Codex reparo | C | **PASS 3/3** após payload com proveniência declarada | Role-play + pesos + soma reproduzível |
 | demais testes não integrados | — | INCONCLUSIVO / não executado | conforme matriz |
 
 ## 5. Regressões e integridade do pacote

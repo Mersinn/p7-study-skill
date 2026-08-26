@@ -37,9 +37,9 @@
       "sha256": "7853950f085fe2da6f2095a533b4b1de1e7cf1d55cf91fca6bbff77b9d2e6f79"
     },
     {
-      "bytes": 30489,
+      "bytes": 32726,
       "path": "SKILL.md",
-      "sha256": "914c6fe58909dcafd92c17d7f0373c91ef7afeb0e32955d6c913e4e32427da8a"
+      "sha256": "5e28131762ceb76297480f7b0bedb482f4c1980252e27dd77cd37a43a22b235a"
     },
     {
       "bytes": 11,
@@ -957,9 +957,9 @@
       "sha256": "37429b3c1cc5908d5ff8a2eb7e478e531bf53a93d5c0656858abb0a287b1e05f"
     },
     {
-      "bytes": 6221,
+      "bytes": 6918,
       "path": "references/CASE_OSCE_TUTOR.md",
-      "sha256": "42cd1f8149bc6e10dc7468e7b2bbd94747d83e936e876b595aa865e624df2400"
+      "sha256": "cb23ffd5e6f78bbf95cbbfb0e07d9eec93c2cd81fce88302c77d8a49ed36c65d"
     },
     {
       "bytes": 2252,
@@ -967,9 +967,9 @@
       "sha256": "2eea5765d0c26580bf45162101fd44d99a2bcbd42f66d6ded77e6ebf3b413ebe"
     },
     {
-      "bytes": 6642,
+      "bytes": 7793,
       "path": "references/CONTRAPROVA_DIAGNOS.md",
-      "sha256": "a84ea04bb48ec8c48dc966d3d82084fa62ed05f7150fd9c1574d46b8e63fdcbb"
+      "sha256": "7608bed20bd194e9ae1c03961c4ae593b08c341e3ec571cd337f3ed35cd13fe9"
     },
     {
       "bytes": 5179,
@@ -1052,9 +1052,9 @@
       "sha256": "8bc5c37197fa481eb1c9f0610262cf778142482e338703f005ee19df0874f60f"
     },
     {
-      "bytes": 4547,
+      "bytes": 4732,
       "path": "registry/release_gates.json",
-      "sha256": "ae745c877b8e9efc3e2e11a2bb0e7f322301970063f8d7765f4c8c76fcf4ce06"
+      "sha256": "6bb4a8be4bc95e21b84118e7af9f747d8fc81f3937c4d14a6972f7961806e316"
     },
     {
       "bytes": 2473,
@@ -1184,5 +1184,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 2964975
+  "total_bytes": 2969245
 }

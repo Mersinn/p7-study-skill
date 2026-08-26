@@ -17,7 +17,7 @@
   "history_inherited": false,
   "prior_history_supplied": false,
   "skill_delivery": "installed skill path plus exact local SKILL.md and QUESTION_INTELLIGENCE_P7.md contents; no adjudication, expected result, or defect description supplied",
-  "raw_file": "repair_full_skill/run1_raw.md",
+  "raw_file": "run1_raw.md",
   "raw_sha256": "88b379c3a0b9c6c1a86c9522a0cdbec43535c8682769e6ab1e0fd0eec978c7ae",
   "adjudication": "PASS",
   "adjudication_basis": "The clean executor corrected all ten items individually with marked-to-correct mapping and brief justifications, reported 5/10, and explicitly classified the heterogeneous block as sem padrão dominante — INDETERMINADO."

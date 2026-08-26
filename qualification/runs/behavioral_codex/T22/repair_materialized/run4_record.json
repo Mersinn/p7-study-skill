@@ -19,7 +19,7 @@
   "history_inherited": false,
   "prior_history_supplied": false,
   "skill_delivery": "installed skill plus persistence references; executor wrote a sibling state file instead of the explicitly allowed .p7-state path",
-  "raw_file": "repair_materialized/run3_raw.md",
+  "raw_file": "run3_raw.md",
   "raw_sha256": "ea95b9fc69d9632820989848ee8bfd5273765a0dcf9f28334c401a9f2511b778",
   "adjudication": "INCONCLUSIVE",
   "adjudication_basis": "The raw claims a valid append, but the executor wrote to a sibling events.jsonl outside the explicitly allowed .p7-state path; the required post-state hash for the allowed path is therefore not the executor's requested write target."

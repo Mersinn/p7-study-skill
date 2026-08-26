@@ -16,7 +16,7 @@
   "history_inherited": false,
   "prior_history_supplied": false,
   "skill_delivery": "installed skill plus effective OSCE reference; allowed payload contained station only, without rubric/adjudication",
-  "raw_file": "repair_materialized/run2_raw.md",
+  "raw_file": "run2_raw.md",
   "raw_sha256": "495576791016010315cca9c74367270c47e9d74279327ec1ddedd66c3028461c",
   "adjudication": "PASS",
   "adjudication_basis": "Opened the station one command at a time, kept the learner in control of timing, did not reveal later commands or answers, and did not fabricate a timer."

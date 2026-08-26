@@ -19,7 +19,7 @@
   "history_inherited": false,
   "prior_history_supplied": false,
   "skill_delivery": "installed skill plus persistence references; allowed state was a disposable copy of the real ledger and a frozen fixture clock, with no adjudication",
-  "raw_file": "repair_materialized/run2_raw.md",
+  "raw_file": "run2_raw.md",
   "raw_sha256": "cd0774653814b6e9b2f776db8614b0e8fded6ad094d122549cf44592f18a9c0b",
   "adjudication": "PASS",
   "adjudication_basis": "The post-run ledger contains a new review_completed linked to event:f-r1 with the identical review_task_id; strict ledger reading passes and the original event is preserved."
