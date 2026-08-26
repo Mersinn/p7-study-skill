@@ -51,12 +51,14 @@
     },
     {
       "gate_id": "longitudinal_resume_end_to_end",
-      "status": "pending",
+      "status": "passed",
       "evidence": [
         "scripts/ledger.py",
-        "tests/test_ledger.py"
+        "tests/test_ledger.py",
+        "../qualification/reports/LONGITUDINAL_E2E_REPORT.md",
+        "../qualification/runs/longitudinal_codex/F-LEDGER-B/sessionB_record.json"
       ],
-      "notes": "A reexecução Codex em duas sessões limpas demonstrou leitura longitudinal, retomada vencida e ausência de memória inventada; a sessão B2 não conseguiu persistir o novo evento por filesystem somente leitura. O gate permanece pending até append encadeado demonstrado na segunda sessão. Ver qualification/reports/LONGITUDINAL_E2E_REPORT.md e qualification/runs/behavioral_codex/T22_surface/."
+      "notes": "Sessões Codex limpas demonstraram retomada sem memória inventada e append real na segunda sessão. A sessão B final recebeu estado gravável com 6 eventos e produziu 8; a releitura independente validou a cadeia estrita, learner_id sintético e SHA-256 final 4726ea3931f109d244150518e38257596fb2d2a541936e856a6131f7a6848721. A tentativa B2 somente leitura permanece preservada como INCONCLUSIVE fora do par válido."
     },
     {
       "gate_id": "scripted_user_journeys",
