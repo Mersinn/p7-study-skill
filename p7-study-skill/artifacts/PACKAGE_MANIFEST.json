@@ -37,9 +37,9 @@
       "sha256": "7853950f085fe2da6f2095a533b4b1de1e7cf1d55cf91fca6bbff77b9d2e6f79"
     },
     {
-      "bytes": 35080,
+      "bytes": 35497,
       "path": "SKILL.md",
-      "sha256": "eacbd05fd4d2655d4b6bb036d428f653103de0e5ae4e0f7cb1e12b0362c84e91"
+      "sha256": "0df35214a55fa20f924026b38a84234d8104b3df92634236d566d5b58df138d5"
     },
     {
       "bytes": 11,
@@ -957,9 +957,9 @@
       "sha256": "37429b3c1cc5908d5ff8a2eb7e478e531bf53a93d5c0656858abb0a287b1e05f"
     },
     {
-      "bytes": 7292,
+      "bytes": 7993,
       "path": "references/CASE_OSCE_TUTOR.md",
-      "sha256": "9108cac73d3822307b0d947c6057f0030457dc5793aea5e3fa04990ae8af4a33"
+      "sha256": "1b8c35b7da450145053d45c3cc60b6f3b75802024c57fac784bbf439ad40222e"
     },
     {
       "bytes": 2252,
@@ -1172,9 +1172,9 @@
       "sha256": "c697905e8c1ea9de86efa4518be852a457f7fbf309b24a0541ccc41dbed637a0"
     },
     {
-      "bytes": 4350,
+      "bytes": 4520,
       "path": "tests/test_package.py",
-      "sha256": "4574de1d0bfb926b8023c9c159590fc3635ede139c88034b43d3a62298a56697"
+      "sha256": "d3c375406aac161a725117e5031d85ef4b2c19150a2a3d1f1f3aaa7a110ca4ae"
     },
     {
       "bytes": 1590,
@@ -1184,5 +1184,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 2978949
+  "total_bytes": 2980237
 }

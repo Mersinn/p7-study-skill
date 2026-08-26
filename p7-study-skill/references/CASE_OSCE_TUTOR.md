@@ -99,6 +99,18 @@ Classifique antes de avaliar:
 - `derived_training_rubric`: emita `cumpriu | parcial | ausente`, sem nota numérica;
 - `generic_coaching`: feedback qualitativo, sem simular checklist oficial.
 
+Decisão mecânica, antes de avaliar:
+
+| Origem e estrutura | Base obrigatória | Resultado |
+|---|---|---|
+| usuário/fixture + itens + pesos, sem emissor real verificável | `provided_weighted_training_rubric` | preservar pesos e calcular `escore de treino` |
+| skill cria ou infere a rubrica, sem pesos fornecidos | `derived_training_rubric` | `cumpriu | parcial | ausente`, sem nota |
+| banca real verificável + itens + pesos | `authentic_checklist` | nota reproduzível conforme a fonte |
+
+Nunca classifique checklist ponderado fornecido e sintético como
+`derived_training_rubric`; isso apagaria informação válida de treino. Nunca o
+classifique como autêntico; isso inventaria autoridade.
+
 Antes da nota, declare a proveniência da rubrica. `authentic_checklist` requer
 emissor verificável; `fornecida pelo usuário/fixture` sozinha não autentica. Se ela
 for sintética, fictícia ou derivada, rotule-a como tal e não a atribua ao Source

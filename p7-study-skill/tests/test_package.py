@@ -57,6 +57,8 @@ class PackageTests(unittest.TestCase):
             self.assertIn("escore de", text)
             self.assertIn("treino`, nunca nota oficial", text)
             self.assertIn("emissor verificável", text)
+        self.assertIn("Não o rebaixe para `derived_training_rubric`", skill)
+        self.assertIn("Nunca classifique checklist ponderado fornecido e sintético", osce)
 
     def test_longitudinal_memory_requires_identity_and_verified_write(self):
         skill = self.read("SKILL.md")

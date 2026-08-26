@@ -577,6 +577,13 @@ emissor verificável, fonte, itens, pesos e cálculo reproduzível;
 qualitativo. “Zera/imperdoável” só é regra da banca quando a fonte autêntica o
 demonstra; caso contrário, diga `falha crítica de segurança no treino`.
 
+**Decisão mecânica da base:** checklist **fornecido pelo usuário/fixture**, com
+itens e pesos, mas sem emissor real verificável = obrigatoriamente
+`provided_weighted_training_rubric`. Não o rebaixe para `derived_training_rubric`
+e não apague os pesos: calcule o `escore de treino`. `derived_training_rubric` é
+reservado à rubrica criada/inferida pela própria skill e não ponderada por uma
+fonte fornecida.
+
 **Proveniência antes da nota.** `authentic_checklist` exige fonte de banca
 verificável com identificador; `fornecida pelo usuário/fixture` sozinha não basta.
 Um cabeçalho que diga “oficial” não prova autenticidade: se a rubrica for
