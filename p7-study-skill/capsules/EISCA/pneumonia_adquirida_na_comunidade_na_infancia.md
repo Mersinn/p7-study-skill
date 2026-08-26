@@ -43,7 +43,7 @@ QUALQUER pneumonia é considerada grave e exige internação — não existe
 ## Palavras-âncora
 
 FR por idade (<2m ≥60; 2m-1a ≥50; >1a ≥40); "basta 1 sinal"; SpO2 <92%;
-amoxicilina 1ª escolha; <2 meses = sempre grave; kernicterus/ceftriaxona em RN.
+esquemas e cortes etários do material = `QUARANTINED`; confirmar em fonte vigente.
 
 ## Operação × movimento
 
@@ -66,7 +66,7 @@ amoxicilina 1ª escolha; <2 meses = sempre grave; kernicterus/ceftriaxona em RN.
 | Critério de internação por hipoxemia — <2 meses | SpO2 <92%, FR ≥70 irpm, cianose, apneia, gemido, incapacidade de se alimentar | PNEUMONIA COMUNITÁRIA.pdf, Classificação por faixa etária | CONFIRMADO |
 | Critério de internação por hipoxemia — 2m a 5a | SpO2 <92%, FR ≥50 irpm, cianose, gemido, sinais de desidratação | PNEUMONIA COMUNITÁRIA.pdf, Classificação por faixa etária | CONFIRMADO |
 | Indicação de UTI | SpO2 <92% com FiO2 >60%, hipotensão, falência respiratória, apneia recorrente | PNEUMONIA COMUNITÁRIA.pdf, Indicações de UTI | CONFIRMADO |
-| Antibiótico ambulatorial de 1ª escolha | amoxicilina 50 mg/kg/dia em 3 doses (ou 90 mg/kg/dia em 2 doses) | PNEUMONIA COMUNITÁRIA.pdf, Tratamento ambulatorial | CONFIRMADO |
+| Regime ambulatorial ensinado no material | amoxicilina 50 mg/kg/dia em 3 doses (ou 90 mg/kg/dia em 2 doses) | PNEUMONIA COMUNITÁRIA.pdf, Tratamento ambulatorial | QUARANTINED — confirmação curricular; vigência/dose não verificadas |
 | Prazo para reavaliar falha terapêutica ambulatorial | febre persistente ou piora após 72h | PNEUMONIA COMUNITÁRIA.pdf, Tratamento ambulatorial | CONFIRMADO |
 | Esquema hospitalar <2 meses | penicilina cristalina/ampicilina + amicacina/gentamicina, ou ampicilina + cefalosporina de 3ª geração | PNEUMONIA COMUNITÁRIA.pdf, Tratamento medicamentoso | CONFIRMADO |
 | RN <28 dias — cefalosporina preferida | cefotaxima (não ceftriaxona, risco de deslocar bilirrubina/kernicterus) | PNEUMONIA COMUNITÁRIA.pdf, Tratamento medicamentoso | CONFIRMADO |
@@ -96,17 +96,20 @@ amoxicilina 1ª escolha; <2 meses = sempre grave; kernicterus/ceftriaxona em RN.
 
 ## Conduta
 
-- Inicial: classificar gravidade pela FR e sinais AIDPI/OMS (1 sinal define a
-  classificação mais grave); amoxicilina 50 mg/kg/dia (3x) ou 90 mg/kg/dia
-  (2x) para tratamento ambulatorial em >2 meses sem sinais de gravidade.
-- Definitiva: se falha em 72h sem complicação → trocar para amoxicilina-
+- Inicial: classificar gravidade pela FR, oxigenação, esforço, capacidade de
+  alimentação e sinais de perigo. Os esquemas/doses do material ficam em painel
+  curricular `QUARANTINED`; não prescrever como prática atual sem fonte pediátrica
+  vigente e contexto de idade, gravidade, resistência e protocolo local.
+- Definitiva curricular: os esquemas de troca, combinação e duração abaixo são
+  preservados apenas como conteúdo da aula e ficam `QUARANTINED`; não os use como
+  algoritmo de prática atual sem overlay pediátrico vigente. O material cita amoxicilina-
   clavulanato ou cefalosporina 2ª/3ª geração (<5 anos) ou claritromicina/
   amoxicilina-clavulanato/cefalosporina (>5 anos). Hospitalar: <2 meses,
   penicilina cristalina/ampicilina + aminoglicosídeo, ou ampicilina +
   cefotaxima (preferir a ceftriaxona em RN <28d); casos muito graves >2 meses,
   oxacilina + cloranfenicol ou cefalosporina de 3ª geração.
-- Condição da conduta: <2 meses = sempre grave = sempre internar,
-  independentemente da intensidade aparente do quadro.
+- Condição da conduta: idade pequena aumenta risco, mas internação depende da
+  avaliação clínica e do protocolo pediátrico vigente; não usar regra absoluta B-only.
 - Diferencial perigoso: derrame pleural, pneumatocele, abscesso — sinais
   radiológicos de complicação que indicam internação obrigatória mesmo sem
   outros critérios clínicos de gravidade.

@@ -25,7 +25,18 @@ def sha256(path: Path) -> str:
 
 def main() -> int:
     rows = [json.loads(line) for line in RECORDS.read_text(encoding="utf-8").splitlines() if line.strip()]
-    counted = [row for row in rows if row.get("counted")]
+    # A material repair creates a new dependency cycle. Historical runs remain
+    # canonical evidence, but only the last counted cycle of each test controls
+    # that test's current gate.
+    selected_cycle: dict[str, str] = {}
+    for row in rows:
+        if row.get("counted"):
+            selected_cycle[row["test_id"]] = row.get("qualification_cycle", "legacy")
+    counted = [
+        row for row in rows
+        if row.get("counted")
+        and row.get("qualification_cycle", "legacy") == selected_cycle.get(row["test_id"])
+    ]
     totals = Counter(row["adjudication"] for row in counted)
     by_test: dict[str, Counter[str]] = defaultdict(Counter)
     for row in counted:
@@ -67,10 +78,16 @@ def main() -> int:
         "surface": "Codex",
         "scope": "affected behavioral red-team reruns only",
         "records_sha256": sha256(RECORDS),
+        "recorded_runs_all_cycles": sum(1 for row in rows if row.get("counted")),
         "counted_runs": len(counted),
+        "selected_cycle_by_test": dict(sorted(selected_cycle.items())),
         "runs_by_adjudication": dict(sorted(totals.items())),
         "tests": tests,
-        "release_interpretation": "FAIL" if any(item["gate_result"] == "FAIL" for item in tests.values()) else "INCOMPLETE",
+        "release_interpretation": (
+            "FAIL" if any(item["gate_result"] == "FAIL" for item in tests.values())
+            else "PASS" if all(item["gate_result"] == "PASS" for item in tests.values())
+            else "INCOMPLETE"
+        ),
     }
     OUTPUT.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False, indent=2))

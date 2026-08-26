@@ -287,9 +287,9 @@
       "sha256": "50bc2be2d52dc21ff742fda5e8bdac91f258bb09fcfedb6d42dfa455247c8665"
     },
     {
-      "bytes": 13821,
+      "bytes": 13971,
       "path": "capsules/EISA_II/erisipela.md",
-      "sha256": "71310c0bbab305c2495dfa76f8c91d9db8891cc3317b5086c19beed700172b4d"
+      "sha256": "e11c4ca757144fedaf40f2ffce280538f91bb617bb3d569035b1528f43b1ba71"
     },
     {
       "bytes": 15584,
@@ -457,9 +457,9 @@
       "sha256": "0d51bce6976aa9eb242477a6a765f0d88c718467128b3242cbf11fc516b88c21"
     },
     {
-      "bytes": 13811,
+      "bytes": 13629,
       "path": "capsules/EISA_II/otites_aguda_cronica_externa.md",
-      "sha256": "3b634869a6a1d3a8d558070e69bc54d149eb17181b3f5f4a6eaa740793b9c69f"
+      "sha256": "b3baa5ae9f031ed1d4172fd4db52ebd4c4d2046ebf58450022bd64dd1139dbb7"
     },
     {
       "bytes": 12864,
@@ -532,9 +532,9 @@
       "sha256": "eb687d9dc852efdf55d795db6a3f5737aeb8a6d842052d54e9a898dcae0582c2"
     },
     {
-      "bytes": 7360,
+      "bytes": 7373,
       "path": "capsules/EISCA/asma_em_pediatria.md",
-      "sha256": "3b8ae4f0f181798968b6433c186dc482c71c8409cb5bc1360c3fc63e95f353b0"
+      "sha256": "9e354443012d4a501dbebe3111cfc8072d02e7fffe5ecad2579e9618ef46fca2"
     },
     {
       "bytes": 7401,
@@ -667,9 +667,9 @@
       "sha256": "422d0ce596c4d1e46a93cab39c4083da2f4da7fdde1f5cfa7891fc83d8c171f1"
     },
     {
-      "bytes": 11216,
+      "bytes": 11601,
       "path": "capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md",
-      "sha256": "02524ec914bcabf3967a99a9abe301df5f9645b44530e8179d2ef2d36d6fd4e9"
+      "sha256": "deb4710d6d3b214b5ac9043b1bf9b948faf3857a30e92ce4d2202a8dcad9f294"
     },
     {
       "bytes": 16077,
@@ -692,9 +692,9 @@
       "sha256": "f7ef29cb013e47a0115a0ca58757bd77f54e0b333273c3d191ac0f72f5cd137d"
     },
     {
-      "bytes": 17046,
+      "bytes": 17029,
       "path": "capsules/EISCA/sepse_e_meningite_neonatal.md",
-      "sha256": "db7fe328b8568fa78cfffc2a639e996d63caf5c8050b274832ebfcc399e60b54"
+      "sha256": "2717cdfe2bf0ffff9c84f2f2b1c5a2378f3be2f07a0bcfc4a5c1759a4e562a1e"
     },
     {
       "bytes": 16307,
@@ -817,9 +817,9 @@
       "sha256": "86e12da778ad56904f814cb7a5bf91b1275a3ec4e5606b0d9b16e84a27e990ea"
     },
     {
-      "bytes": 10729,
+      "bytes": 10786,
       "path": "capsules/EISM/transtornos_mentais_na_gravidez_e_puerperio.md",
-      "sha256": "b88193a5a93a5a597c0594f2fad6243dc62869e5b1928b923375dc84f9f5579d"
+      "sha256": "27f00e617f218058aa2a6a8429ef57b39c5924648d5334326b11da071363c6f7"
     },
     {
       "bytes": 9517,
@@ -827,14 +827,14 @@
       "sha256": "7be03631aae17877fa6ae03615f9a623907b9ffcda23137134087cf1f14e7f93"
     },
     {
-      "bytes": 12724,
+      "bytes": 12335,
       "path": "capsules/OSCE/formato_roteiro_osce_p7.md",
-      "sha256": "9f2f23acbf5f428cd977d0ae4edfa297630af64db8b1b819afb8bfb6661a163e"
+      "sha256": "fbc4c87ae2510d98c9d51edbcef3786747d40573c3c8ffa7771147bf765c117f"
     },
     {
-      "bytes": 14077,
+      "bytes": 14058,
       "path": "capsules/OSCE/osce_banco_de_estacoes.md",
-      "sha256": "5088d347cb43b02f6fa42fe492654d2027a8eec3bc8351275b8880427402de0d"
+      "sha256": "2a67cb710e8b71413a826d56223122c103d10616ba00ef0099ec1bb388e83101"
     },
     {
       "bytes": 15351,
@@ -842,9 +842,9 @@
       "sha256": "17522b58c2f5bd302843e73420f801d8e8abf974d4e4c195d0de12af7960ef49"
     },
     {
-      "bytes": 15513,
+      "bytes": 15450,
       "path": "capsules/OSCE/osce_nefrologia.md",
-      "sha256": "133f8fe4100d8bfd0e4f75064f8370d223af22cd269b64841a81c58df51f7793"
+      "sha256": "ba40df211ba92ad16f0cedec2c2946372e75a37e74e62f547fe529e9fa1f7500"
     },
     {
       "bytes": 22770,
@@ -1057,9 +1057,9 @@
       "sha256": "dafe7799df02382acdd9f9599163d0dae15d3d98451d35013821360e58e2f5f3"
     },
     {
-      "bytes": 5211,
+      "bytes": 4696,
       "path": "registry/release_gates.json",
-      "sha256": "80f0abd24b7900fa19de9aff179fd5f9e9462141c3f71b9e5546e6d958958879"
+      "sha256": "3359baebd2fbeb82c0ce39aa3b939f7f82d8632e21c73f37e67bf5cac9b2537d"
     },
     {
       "bytes": 2473,
@@ -1177,9 +1177,9 @@
       "sha256": "c697905e8c1ea9de86efa4518be852a457f7fbf309b24a0541ccc41dbed637a0"
     },
     {
-      "bytes": 6618,
+      "bytes": 6756,
       "path": "tests/test_package.py",
-      "sha256": "fc937ee4e0ad5d5e24c7155dc70ba9255cf3f2866c9be251a32856ab05013b6b"
+      "sha256": "18d03eacc8abd82e4206328a1fc95aba8b1353dc79efbc9bd4dd9393af91ae72"
     },
     {
       "bytes": 1590,
@@ -1189,5 +1189,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 3031637
+  "total_bytes": 3031195
 }

@@ -1139,7 +1139,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 13821,
+      "bytes": 13971,
       "capsule_id": "capsule:eisa_ii:erisipela",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1155,7 +1155,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "71310c0bbab305c2495dfa76f8c91d9db8891cc3317b5086c19beed700172b4d",
+      "sha256": "e11c4ca757144fedaf40f2ffce280538f91bb617bb3d569035b1528f43b1ba71",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Erisipela",
@@ -2037,7 +2037,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 13811,
+      "bytes": 13629,
       "capsule_id": "capsule:eisa_ii:otites_aguda_cronica_externa",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2053,7 +2053,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "3b634869a6a1d3a8d558070e69bc54d149eb17181b3f5f4a6eaa740793b9c69f",
+      "sha256": "b3baa5ae9f031ed1d4172fd4db52ebd4c4d2046ebf58450022bd64dd1139dbb7",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Otites (aguda, média crônica e externa)",
@@ -2416,7 +2416,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 7360,
+      "bytes": 7373,
       "capsule_id": "capsule:eisca:asma_em_pediatria",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2432,7 +2432,7 @@
       "review_status": "reviewed_l2",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "3b8ae4f0f181798968b6433c186dc482c71c8409cb5bc1360c3fc63e95f353b0",
+      "sha256": "9e354443012d4a501dbebe3111cfc8072d02e7fffe5ecad2579e9618ef46fca2",
       "source_ids": [
         "Asma_em_Pediatria__3def9bfd99"
       ],
@@ -3083,7 +3083,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 11216,
+      "bytes": 11601,
       "capsule_id": "capsule:eisca:pneumonia_adquirida_na_comunidade_na_infancia",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3099,7 +3099,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "02524ec914bcabf3967a99a9abe301df5f9645b44530e8179d2ef2d36d6fd4e9",
+      "sha256": "deb4710d6d3b214b5ac9043b1bf9b948faf3857a30e92ce4d2202a8dcad9f294",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Pneumonia adquirida na comunidade na infância",
@@ -3210,7 +3210,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 17046,
+      "bytes": 17029,
       "capsule_id": "capsule:eisca:sepse_e_meningite_neonatal",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3226,7 +3226,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "db7fe328b8568fa78cfffc2a639e996d63caf5c8050b274832ebfcc399e60b54",
+      "sha256": "2717cdfe2bf0ffff9c84f2f2b1c5a2378f3be2f07a0bcfc4a5c1759a4e562a1e",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Sepse neonatal e meningite neonatal",
@@ -3885,7 +3885,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 10729,
+      "bytes": 10786,
       "capsule_id": "capsule:eism:transtornos_mentais_na_gravidez_e_puerperio",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3901,7 +3901,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "b88193a5a93a5a597c0594f2fad6243dc62869e5b1928b923375dc84f9f5579d",
+      "sha256": "27f00e617f218058aa2a6a8429ef57b39c5924648d5334326b11da071363c6f7",
       "source_ids": [
         "2_Transtornos_Mentais_na_Gravidez_e_No_Puerpe_rio__0efe14a107",
         "Transtornos_mentais_e_comportamentais_relacionados_ao_puerpe__d60fdbc256"
@@ -3940,7 +3940,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 12724,
+      "bytes": 12335,
       "capsule_id": "capsule:osce:formato_roteiro_osce_p7",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -3956,14 +3956,14 @@
       "review_status": "reviewed_l1",
       "risk": "low",
       "schema_version": "1.0.0",
-      "sha256": "9f2f23acbf5f428cd977d0ae4edfa297630af64db8b1b819afb8bfb6661a163e",
+      "sha256": "fbc4c87ae2510d98c9d51edbcef3786747d40573c3c8ffa7771147bf765c117f",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Formato e roteiro geral da estação OSCE do P7",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 14077,
+      "bytes": 14058,
       "capsule_id": "capsule:osce:osce_banco_de_estacoes",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -3979,7 +3979,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "5088d347cb43b02f6fa42fe492654d2027a8eec3bc8351275b8880427402de0d",
+      "sha256": "2a67cb710e8b71413a826d56223122c103d10616ba00ef0099ec1bb388e83101",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Banco de estações OSCE modeladas com comandos e gabarito",
@@ -4009,7 +4009,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 15513,
+      "bytes": 15450,
       "capsule_id": "capsule:osce:osce_nefrologia",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -4025,7 +4025,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "133f8fe4100d8bfd0e4f75064f8370d223af22cd269b64841a81c58df51f7793",
+      "sha256": "ba40df211ba92ad16f0cedec2c2946372e75a37e74e62f547fe529e9fa1f7500",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "OSCE Nefrologia — síndromes glomerulares, glomerulopatias, DRC e injúria renal aguda",

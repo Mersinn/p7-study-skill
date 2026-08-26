@@ -96,7 +96,7 @@ Todos os dados clínicos usados nas 6 estações já estão verificados nível 1
 
 ## Pegadinhas
 
-**Imperdoáveis (aplicam-se a qualquer estação do banco, não só às 6 modeladas aqui):**
+**Erros de treino de alto impacto nas estações modeladas (não são regras oficiais nem generalizáveis à banca):**
 
 - Responder um comando futuro dentro da resposta de um comando anterior (sobre-elaboração).
 - Nomear um exame padrão-ouro genérico ("exame de imagem") em vez do exame específico do órgão pedido.
@@ -115,7 +115,7 @@ Todos os dados clínicos usados nas 6 estações já estão verificados nível 1
 - Inicial: em toda estação, cumprir a sequência fixa do roteiro geral do OSCE do P7 (cumprimentar → lavar as mãos → ler o caso → exame físico/exames disponíveis) antes de responder qualquer comando de conteúdo médico.
 - Definitiva: responder comando por comando, na ordem, citando a classificação formal antes da conduta e o exame padrão-ouro específico antes de qualquer interpretação de achado.
 - Condição da conduta: cada estação tem seu próprio corte/critério objetivo — não existe "resposta padrão" que sirva para todas; a variável decisiva muda a cada cabine.
-- Diferencial perigoso: comandos que pedem apenas classificação/exame não devem ser respondidos com a conduta terapêutica completa — isso é pontuado como erro de execução, não como conhecimento extra.
+- Erro de treino: comandos que pedem apenas classificação/exame não devem receber conduta completa; o efeito na pontuação real é desconhecido e depende da banca.
 - O que mudaria a decisão: o verbo do comando (classifique / cite / qual a conduta / qual o exame) decide o formato exato da resposta esperada.
 
 ## Mini-casos ativos

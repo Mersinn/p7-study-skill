@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "p7-study-skill/artifacts/CAPSULE_CATALOG.json": "f8f7caf244ceb297facf6024b7e25d48fa712aa4c0d2cb8466181dd9daad288f",
+    "p7-study-skill/artifacts/CAPSULE_CATALOG.json": "ba8f6291e91c2b583ea5c64cc2f55de5f2b4ce72f686f83ab68e58ff10067241",
     "p7-study-skill/registry/clinical_claims.jsonl": "dafe7799df02382acdd9f9599163d0dae15d3d98451d35013821360e58e2f5f3",
     "p7-study-skill/registry/source_versions.jsonl": "f026dc7241df0b193a078211c7f6426562a028b7513021687a4c3c695b75f6dc",
     "p7-study-skill/registry/sources.jsonl": "9141f42b9e4a188a4d414bf699df1dd3d91dff91d688770acdb1cb4fcc786479",

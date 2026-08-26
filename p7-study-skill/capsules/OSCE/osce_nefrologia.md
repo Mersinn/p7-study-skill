@@ -62,14 +62,14 @@ Síndrome nefrótica × nefrítica · proteinúria 24h · complemento C3 · ASLO
 | GNRP — achados de imunofluorescência por tipo | tipo I: padrão linear (jovens) · tipo II: padrão granular (jovens) · tipo III: ausência de depósitos (meia-idade/homens); tipo I exige associar plasmaférese ao tratamento | OSCE .pdf, p. ~53 / OSCE - NEFROLOGIA.pdf p. ~1-2 (camada B) | CONFIRMADO |
 | DRC — definição | TFG <60 mL/min/1,73m² OU alteração estrutural renal por período >3 meses (pode haver DRC com TFG >60 se houver doença estrutural, ex. RAC >30 ou DRPAD) | FACILITA OSCE (1).pdf, p. 34 (camada B) | CONFIRMADO |
 | DRC — fórmula mais acurada de TFG | CKD-EPI (mais acurada, sobretudo em TFG mais altas); Cockcroft-Gault é mais simples de calcular | FACILITA OSCE (1).pdf, p. 34 (camada B) | CONFIRMADO |
-| DRC — regra de encaminhamento ao nefrologista | acompanhamento por qualquer médico até o estágio 3A; encaminhar ao nefrologista a partir do estágio 3B | FACILITA OSCE (1).pdf, p. 34 (camada B) | CONFIRMADO |
+| DRC — regra de encaminhamento citada no material | estágio 3B | FACILITA OSCE (camada B) | QUARANTINED — não é regra clínica/OSCE oficial |
 | DRC — estadiamento por TFG (G1-G5) | G1 ≥90 · G2 60-89 · G3a 45-59 · G3b 30-44 · G4 15-29 · G5 <15 (mL/min/1,73m²) | conhecimento geral (KDIGO) — não confirmado nas fontes B, que perderam a tabela numérica na extração | conhecimento geral |
 | DRC — 4 principais etiologias no Brasil | HAS, diabetes mellitus, glomerulopatias e DRPAD são citadas como as 4 principais; a ordem exata não sobreviveu à extração de texto | FACILITA OSCE (1).pdf, p. ~35-36 (camada B) | confirmar no slide |
 | Síndrome urêmica — manifestações | flapping, pericardite urêmica (dor pleurítica + atrito pericárdico), elevação de ST difusa, infra de PR | FACILITA OSCE (1).pdf, p. ~39 (camada B) | CONFIRMADO |
 
 ## Pegadinhas
 
-**Imperdoáveis:**
+**Erros de treino de alto impacto (rubrica inferida; não são critérios oficiais/eliminatórios):**
 
 - Classificar como "nefrótica" ou "nefrítica" sem citar o corte de proteinúria de 24h (3,5g) que faz a diferença — o achado clínico isolado (edema, hematúria) não fecha a classificação.
 - Fechar GNDA sem checar o tempo de latência entre a infecção e o início do quadro — se o intervalo for de 2-3 dias, é IgA, não GNDA.
@@ -96,7 +96,7 @@ Síndrome nefrótica × nefrítica · proteinúria 24h · complemento C3 · ASLO
 
 1. Menina, 12 anos, dor abdominal + edema há 7 dias + febre que cedeu, progressão do edema para face há 5 dias, oligúria e urina escura há 3 dias, faringite 2 semanas antes do quadro. **Pivô:** o intervalo de 2 semanas entre a faringite e o início do quadro bate com GNDA (7-21 dias); se o enunciado dissesse "2-3 dias após a faringite", a resposta certa mudaria para nefropatia por IgA mesmo com clínica idêntica.
 2. Menina, 10 anos, edema de MMII, urina escura, PA aumentada, início pós-IVAS. Complemento vem baixo, FAN e anti-DNA negativos. **Pivô:** complemento baixo + FAN/anti-DNA negativos aponta GNDA, não lúpus (que teria FAN+/anti-DNA+) nem IgA (que teria complemento normal) — decida pelo painel completo, não pelo quadro clínico isolado.
-3. Paciente com DM2 de longa data, TFG de 38 mL/min/1,73m² em exame de rotina, assintomático. **Pivô:** TFG de 38 já é estágio 3B — o critério de encaminhamento ao nefrologista já está preenchido mesmo sem sintomas, e a periodicidade de exames muda de anual para semestral.
+3. Paciente com DM2 e TFG 38. **Pivô de treino:** reconhecer G3b; encaminhamento e periodicidade dependem de albuminúria, evolução, complicações e protocolo vigente. A regra B-only está `QUARANTINED`.
 
 ## Cards mínimos
 

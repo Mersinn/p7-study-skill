@@ -41,7 +41,7 @@ Sinal de Scheibe · MT abaulada · MT perfurada · otorreia fétida · colesteat
 |---|---|---|---|---|---|
 | diferenciar próximos | dor à tração do pavilhão (OE) x estado da MT (OMA/OMC) | sinal-achado | factual | troca de comando — atribuir dor à tração a OMA em vez de OE | tabela comparativa OMA x OMC x OE lado a lado, com o sinal discriminador de cada uma treinado em flashcard |
 | identificar complicação | diabético idoso + otalgia desproporcional + tecido de granulação no CAE = suspeitar de OE maligna | sinal-achado | operacional | fechamento precoce — tratar como OE comum sem investigar osteomielite | checklist automático: "todo diabético com OE refratária ao tratamento tópico padrão = suspeitar de OE maligna, pedir VHS e exame de imagem" |
-| reconhecer contraindicação | quinolona sistêmica contraindicada em criança/adolescente e gestante (calcificação de cartilagem de crescimento) | contraindicação | factual | valor errado — prescrever ciprofloxacino oral em criança | flashcard fixo "quinolona oral = evitar em criança/gestante", revisado junto com escolha de antibiótico |
+| reconhecer limitação de fonte | material antigo afirma contraindicação absoluta de quinolona sistêmica em criança/adolescente e gestante | contraindicação | factual | promover regra de 2005 a prática atual | `QUARANTINED`: estudar como formulação curricular histórica; conferir indicação/risco em fonte vigente |
 | interpretar imagem/ECG/laboratório | Ramsay Hunt = herpes-zoster do gânglio geniculado, causa otite externa herpética + paralisia facial + disacusia/vertigem | fato | factual | pivô perdido — atribuir a paralisia facial só a Bell sem checar vesículas no CAE (zona de Ramsay Hunt) | flashcard pareado etiologia-síndrome: Ramsay Hunt = varicela-zoster reativado, treinado junto com paralisia facial periférica |
 
 ## Dados de precisão
@@ -61,7 +61,7 @@ Sinal de Scheibe · MT abaulada · MT perfurada · otorreia fétida · colesteat
 
 ## Pegadinhas
 
-- Tratar toda otite em criança/adolescente com quinolona sistêmica sem lembrar da contraindicação por calcificação de cartilagem de crescimento (vale também para gestante).
+- Repetir como contraindicação absoluta atual a formulação antiga sobre quinolona sistêmica em criança/gestante; esse claim está `QUARANTINED` e depende de fonte vigente e contexto.
 - Confundir dor à tração do pavilhão (sinal de OE) com dor de OMA — a tração dolorosa é o discriminador que separa as duas quando a MT não pode ser visualizada por edema do CAE.
 - Não suspeitar de OE maligna em diabético com otite externa "comum" que não responde ao tratamento tópico padrão — a otalgia desproporcional e o tecido de granulação no assoalho do CAE são os sinais que não podem ser perdidos.
 - Atribuir paralisia facial periférica isolada a paralisia de Bell sem checar vesículas na zona de Ramsay Hunt (concha auricular e conduto) — a prova já cobrou esse cruzamento etiológico.
@@ -78,8 +78,8 @@ Sinal de Scheibe · MT abaulada · MT perfurada · otorreia fétida · colesteat
 ## Conduta
 
 - Inicial: caracterizar dor (tração de pavilhão positiva ou negativa), estado da MT quando visível, tempo de evolução (agudo vs >3 meses) e fator de risco sistêmico (diabetes, imunossupressão).
-- Definitiva: OMA — antibioticoterapia (amoxicilina ± clavulanato) e analgesia; OMC simples — clínico primeiro, cirúrgico (timpanoplastia) se persistente; OMC supurativa/colesteatomatosa — cirúrgico (timpanomastoidectomia); OE aguda difusa — cuidados locais + gotas tópicas (quinolona preferencial, sem ototoxicidade); OE maligna — antibioticoterapia sistêmica antipseudomonas prolongada (6–9 semanas) + debridamento diário, monitorada por VHS/cintilografia com gálio.
-- Condição da conduta: em criança/adolescente ou gestante, evitar quinolona sistêmica; em diabético com otite externa refratária, sempre elevar a suspeita para OE maligna antes de escalar o tratamento tópico.
+- Definitiva: a seleção de antimicrobiano, via e duração descrita no seminário de 2005 permanece `QUARANTINED`; não recuperar “6–9 semanas”, contraindicação absoluta ou esquema específico como prática atual. Suspeita de OE maligna exige avaliação urgente e protocolo otorrino/infectológico vigente.
+- Condição da conduta: idade, gestação, perfuração timpânica, diabetes/imunossupressão, gravidade e microbiologia local mudam a escolha; não universalize o material antigo.
 - Diferencial perigoso: OE maligna — pode evoluir para paralisia de múltiplos pares cranianos (VII, IX, X, XI), trombose de seio sigmóide/cavernoso e morte; é o diferencial que separa uma "otite externa comum" de uma emergência de base de crânio.
 - O que mudaria a decisão: presença de diabetes/imunossupressão + otalgia desproporcional + tecido de granulação muda a conduta de "otite externa comum" para investigação de OE maligna; presença de vesículas na zona de Ramsay Hunt muda paralisia facial de "Bell" para "herpes-zoster ótico" (indicação de antiviral).
 
@@ -97,7 +97,7 @@ Sinal de Scheibe · MT abaulada · MT perfurada · otorreia fétida · colesteat
 | Diabético com otite externa refratária e otalgia desproporcional: o que suspeitar? | Otite externa maligna (necrotizante) — investigar com VHS e imagem, não só trocar o tópico | regra |
 | Qual o agente etiológico da síndrome de Ramsay Hunt? | Vírus varicela-zoster reativado no gânglio geniculado (herpes-zoster ótico) | fato |
 | Colesteatoma tem tratamento clínico definitivo? | Não — é sempre cirúrgico, pois não para de crescer e destrói estruturas adjacentes (principal complicação: paralisia facial) | regra |
-| Quinolona sistêmica pode ser usada em criança/gestante para otite? | Não — contraindicada por risco de calcificação da cartilagem de crescimento | fato |
+| O material antigo permite concluir contraindicação absoluta de quinolona sistêmica em criança/gestante? | Não. Claim `QUARANTINED`; conferir indicação e risco em fonte vigente | limite de fonte |
 
 ## Revisão
 

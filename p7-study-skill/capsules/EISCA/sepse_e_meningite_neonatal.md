@@ -39,7 +39,7 @@ Streptococcus grupo B (GBS) · amniorrexe = limiar dependente de idade gestacion
 | conduta definitiva | esquema empírico depende da definição temporal adotada: precoce (penicilina/ampicilina + aminoglicosídeo) × tardia (cobertura hospitalar conforme flora/resistência) | sequencia | operacional | definitiva antes da inicial (aplica esquema tardio hospitalar em quadro precoce ou vice-versa) | casos pareados com o protocolo declarado e horários próximos de 48/72h |
 | priorizar emergência | RN assintomático de risco não recebe ATB automaticamente por um único fator; aplicar via de indicadores, observação seriada ou investigação/tratamento conforme protocolo | prioridade | operacional | fechamento precoce (trata sem critério) ou atraso indevido (aguarda cultura quando a via já indica ATB) | árvore risco/indicador × sinais clínicos × observação/ATB, sem transformar um fator isolado em regra |
 | exame inicial | hemocultura antes do antibiótico; líquor quando houver suspeita de meningite e estabilidade, com cobertura para meningite se a punção não for segura | sequencia | operacional | erro de leitura/troca de comando (colhe cultura após iniciar ATB, ou punciona RN instável) | checklist de coleta, indicação de PL e cobertura, treinado em casos com estabilidade variável |
-| aplicar critério | diagnóstico clínico de sepse tardia = 3+ sinais OU 2 sinais + 1 fator de risco | limiar | operacional | valor errado (fecha diagnóstico com 1 sinal isolado, ou exige confirmação laboratorial antes de tratar) | 4 casos-par variando o número de sinais e fatores de risco presentes |
+| aplicar critério curricular | material B cita 3+ sinais OU 2 sinais + 1 fator de risco | limiar | operacional | promover corte curricular a regra atual | `QUARANTINED`; treinar avaliação clínica/protocolo vigente |
 
 ## Dados de precisão
 
@@ -53,8 +53,8 @@ Streptococcus grupo B (GBS) · amniorrexe = limiar dependente de idade gestacion
 | Fator de risco — amniorrexe | limiar depende da idade gestacional e do protocolo; NICE: >18h antes de parto pré-termo, >24h antes de parto a termo | SPRS 2012, p.2; NICE NG195, atualização 13/05/2026 | CONFLITO — não universalizar; risco 4x não verificado |
 | Febre materna intraparto | cápsula usa >38°C; SPRS 2012 usa >37,5°C; NICE 2026 enfatiza sepse materna/chorioamnionite no eixo de risco | SPRS 2012, p.2; NICE NG195, rationale, atualização 13/05/2026 | CONFLITO — limiar não universal |
 | Sepse presumível — critério de soma | 1 fator maior + 2 fatores menores (ou 2 maiores, conforme Seixas) | Sepse e meningite neonatal (Burity), p.2; (Seixas), p.2 — pequena divergência de redação entre as 2 fontes B, mesma professora | CORRIGIDO (mantido "2 maiores OU 1 maior+2 menores" por ser a formulação mais completa e coerente com o padrão geral de critérios combinados em pediatria) |
-| Sepse clínica tardia — diagnóstico | 3+ sinais clínicos OU 2 sinais + 1 fator de risco | Sepse e meningite neonatal (Burity), p.3; (Seixas), p.4 | CONFIRMADO |
-| Choque séptico — limiares | FC>160bpm; FR>60ipm; PAM<30mmHg; TEC>2s; diurese <1 mL/kg/h | Sepse e meningite neonatal (Seixas), p.3 | CONFIRMADO |
+| Sepse clínica tardia — corte citado na aula | 3+ sinais clínicos OU 2 sinais + 1 fator de risco | fontes B | QUARANTINED — não usar como critério atual isolado |
+| Choque séptico — limiares citados no material | FC>160bpm; FR>60ipm; PAM<30mmHg; TEC>2s; diurese <1 mL/kg/h | Sepse e meningite neonatal (Seixas), p.3 | QUARANTINED — B-only; não usar cortes isolados como critério atual |
 | Hemocultura — sensibilidade | 80%, padrão-ouro, coletar antes do ATB | Sepse e meningite neonatal (Burity), p.3; (Seixas), p.4 | CONFIRMADO |
 | Meningite associada a sepse | suspeitar e indicar líquor conforme clínica/estabilidade; se PL não for segura, cobrir meningite empiricamente e reavaliar | Sepse e meningite neonatal (Seixas), p.4; julgamento clínico de segurança | REFORMULADO — não é PL mandatória em todo caso tardio |
 | Hemograma infeccioso | 3 ou mais dos 7 aspectos avaliados positivos | Sepse e meningite neonatal (Burity), p.3; (Seixas), p.4 | CONFIRMADO |
@@ -86,7 +86,7 @@ Streptococcus grupo B (GBS) · amniorrexe = limiar dependente de idade gestacion
 - Inicial: aplicar a via institucional de fatores/indicadores, idade gestacional e sinais do RN; amniorrexe e febre materna têm limiares/contextos conflitantes. Quando a via indicar antibiótico, colher hemocultura ANTES da primeira dose; considerar líquor quando houver suspeita de meningite e o estado clínico permitir.
 - Definitiva: no contexto brasileiro SBP 2025, sepse precoce → penicilínico (penicilina G cristalina ou ampicilina) + aminoglicosídeo (gentamicina ou amicacina); sepse tardia → oxacilina+amicacina como primeira opção, ou vancomicina+cefotaxima/cefepime como segunda, sempre conforme flora/resistência local, função renal e foco; sepse fúngica → seguir protocolo especializado.
 - Condição da conduta: se o estado clínico não permitir punção lombar, tratar empiricamente com doses adequadas para meningite (não subdosar assumindo apenas sepse sem SNC).
-- Diferencial perigoso: choque séptico (FC>160, FR>60, PAM<30, TEC>2s, oligúria) e CIVD (petéquias, hematúria, hepatoesplenomegalia) são sinais de gravidade que mudam a urgência do suporte hemodinâmico, independente do resultado de cultura.
+- Diferencial perigoso: deterioração de perfusão, consciência, respiração e diurese exige resposta urgente, sem aguardar cultura. Os cortes numéricos B-only acima estão `QUARANTINED` e não funcionam isoladamente como regra atual.
 - O que mudaria a decisão: combinação de fatores/indicadores que fecha a via institucional, qualquer sinal clínico de deterioração, idade gestacional, suspeita de meningite e estabilidade para punção; um fator isolado não deve ser promovido a indicação universal.
 
 ## Mini-casos ativos
@@ -104,7 +104,7 @@ Streptococcus grupo B (GBS) · amniorrexe = limiar dependente de idade gestacion
 | Ordem hemocultura × antibiótico | Hemocultura SEMPRE antes de iniciar o ATB | Sequência |
 | Esquema empírico sepse precoce | Penicilina/ampicilina + aminoglicosídeo (gentamicina/amicacina) | Conduta |
 | Esquema empírico sepse tardia | SBP 2025: oxacilina+amicacina como primeira opção; vancomicina+cefotaxima/cefepime como segunda, conforme flora/resistência | Conduta |
-| Diagnóstico clínico de sepse tardia | 3+ sinais clínicos OU 2 sinais + 1 fator de risco | Limiar |
+| Corte curricular para sepse tardia | 3+ sinais OU 2 sinais + 1 fator — `QUARANTINED` | Histórico |
 | RN assintomático com fatores de risco — conduta | Aplicar via institucional de indicadores/observação; se ATB indicado, colher cultura antes e não esperar positividade | Pegadinha |
 
 ## Revisão

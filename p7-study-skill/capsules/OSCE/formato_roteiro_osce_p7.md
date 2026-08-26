@@ -34,7 +34,7 @@ O OSCE do P7 é organizado por **cabines temáticas** (uma por assunto/especiali
 
 ## Pivô clínico
 
-O pivô não é o conteúdo médico — é o **comando**. Cada comando pede uma coisa específica (hipótese, achado de exame físico, conduta, orientação). A prova pontua comando por comando; antecipar a resposta de um comando futuro dentro da resposta de um comando anterior não "ganha pontos extras" e pode indicar ao avaliador que o roteiro não foi seguido. Sublinhar mentalmente o verbo do comando ("descreva", "cite", "oriente", "examine") antes de responder é o que ancora a resposta ao que foi realmente pedido.
+O pivô de treino é o **comando**. Cada comando pede uma coisa específica. Não há pesos oficiais disponíveis; responder na ordem é estratégia pedagógica, não regra confirmada da banca.
 
 ## Palavras-âncora
 
@@ -59,10 +59,10 @@ Comando · prontuário · exame físico · manequim · resultado disponível · 
 
 ## Pegadinhas
 
-**Imperdoáveis (zeram ou derrubam pesadamente a estação, segundo as orientações gerais e o próprio roteiro de exame físico):**
+**Erros de treino de alto impacto na rubrica sintética (não zeram oficialmente nem representam regra de banca):**
 
 - Não se apresentar ao paciente/ator no início.
-- Não lavar as mãos (é item duplicado nas orientações — início **e** fim — logo pesa duas vezes se esquecido).
+- Não verbalizar higiene das mãos quando pertinente; o peso real é desconhecido.
 - Examinar o manequim sem avisar o paciente e sem pedir licença antes de descobrir o corpo.
 - Sair da cabine com um comando sem resposta (a orientação geral manda explicitamente "verificar se todos os comandos foram respondidos" antes de lavar as mãos e se despedir).
 - Ignorar um exame complementar já disponível na cabine e fechar a resposta só pela história clínica — o material "não está ali à toa".

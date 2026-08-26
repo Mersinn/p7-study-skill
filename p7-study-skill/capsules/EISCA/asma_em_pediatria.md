@@ -66,7 +66,7 @@ Sem resposta/justificativa do aluno, o movimento cognitivo é `INDETERMINADO`.
 
 O material traz algoritmos/doses antigos e divergentes. Até que a faixa ≤5 anos
 seja revisada em fonte atual específica, os valores de “gotas”, cortes de FC
-180/200 e tetos por idade ficam `CURRENT_PENDING`. Para prática, consulte a seção
+180/200 e tetos por idade ficam `QUARANTINED`. Para prática, consulte a seção
 ≤5 anos do GINA/protocolo pediátrico local e prescreva por formulação e dispositivo,
 não por “número de gotas” desacompanhado da concentração.
 
@@ -96,7 +96,7 @@ auditoria e fica `QUARANTINED`; não deve ser ensinada como proibição atual.
 | alvo O2, 6–11 anos | ≥94% | GINA 2026, exacerbações 6–11 | CURRENT_VERIFIED |
 | prednisolona, 6–11 anos | 1–2 mg/kg/d, máx. 40 mg, 3–5 d | GINA 2026, exacerbações 6–11 | CURRENT_VERIFIED |
 | VNI | evidência fraca; sem gatilho por SpO2 isolada | GINA 2026, NIV | CURRENT_VERIFIED |
-| doses em gotas e cortes ≤5 antigos | aguardam fonte atual específica | slide A antigo | CURRENT_PENDING |
+| doses em gotas e cortes ≤5 antigos | excluídos de conduta atual até revisão específica | slide A antigo | QUARANTINED |
 
 ## Distratores sedutores
 

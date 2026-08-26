@@ -86,6 +86,8 @@ class PackageTests(unittest.TestCase):
 
     def test_behavioral_manifest_separates_executor_payload_from_oracle(self):
         manifest_path = ROOT.parent / "qualification" / "fixtures" / "behavioral" / "MANIFEST.json"
+        if not manifest_path.is_file():
+            self.skipTest("qualification fixture manifest is not shipped in standalone installs")
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         self.assertEqual(manifest["schema_version"], "1.1.0")
         self.assertEqual(len(manifest["tests"]), 24)

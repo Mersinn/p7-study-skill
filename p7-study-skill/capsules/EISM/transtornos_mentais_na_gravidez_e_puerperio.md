@@ -98,9 +98,10 @@ lactação
 
 - Inicial: classificar o quadro pelo tempo decorrido, gravidade e prejuízo funcional (blues × DPP
   × psicose puerperal); psicose puerperal = emergência, quase sempre com internação.
-- Definitiva: blues — suporte social/familiar, sem fármaco. DPP leve-moderada — TCC como 1ª
-  linha; DPP moderada-grave — ISRS (sertralina é a 1ª escolha global: segura na gestação e na
-  lactação). Psicose puerperal — tratamento imediato (antipsicótico ± estabilizador), retirada
+- Definitiva: blues — suporte social/familiar, sem fármaco. DPP leve-moderada — psicoterapia
+  conforme avaliação. A escolha de psicofármaco na gestação/lactação permanece `QUARANTINED`:
+  não existe “1ª escolha global” segura sem avaliação individual, fase gestacional, lactação,
+  riscos materno-fetais e diretriz vigente. Psicose puerperal — tratamento imediato especializado,
   lenta e cuidadosa só após remissão completa, acompanhamento por até 1 ano.
 - Condição da conduta: mulher em tratamento psiquiátrico que deseja engravidar deve comunicar ao
   psiquiatra para ajuste em tempo hábil — a medicação não deve ser interrompida abruptamente,
@@ -135,9 +136,9 @@ lactação
 
 - Revisar quando: antes de qualquer simulado que misture humor/depressão com puerpério — os dois
   temas se cobram juntos.
-- Critério de parada: quando conseguir preencher de cabeça a tabela tempo×gravidade dos 3
-  quadros puerperais e justificar por que sertralina é a 1ª escolha nas duas fases (gestação e
-  lactação), sem aplicar os esquemas farmacológicos antigos desta cápsula.
+- Critério de parada: preencher de cabeça a tabela tempo×gravidade dos três
+  quadros puerperais e explicar por que a escolha farmacológica é individualizada;
+  não promover sertralina ou esquemas antigos a regra global.
 
 ## Para a prova/material histórico
 

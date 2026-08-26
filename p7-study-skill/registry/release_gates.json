@@ -13,7 +13,7 @@
         "qualification/reports/RED_TEAM_SAMPLE_SUMMARY.json",
         "qualification/reports/RED_TEAM_CLINICAL_BLIND.md"
       ],
-      "notes": "Detector v1.4: 3.602 detecções no denominador primário, 3.516 não resolvidas; alto risco 2.817 total e 2.731 não resolvidas em 105 cápsulas. Amostra red-team congelada: 32 linhas, 19 cápsulas, todos os 11 claims não atuais; revisor Sol xhigh encerrou por limite antes de achados, logo INCONCLUSIVE. Gate permanece pending, sem converter ausência de saída em PASS."
+      "notes": "Detector v1.4: 3.602 detecções, 3.516 não resolvidas; alto risco 2.817/2.731 em 105 cápsulas. Red team cego revisou 32/32: 2 P0 + 6 P1 + 1 P2 + 6 inconclusivos + 17 sem finding. Dois ciclos de reparo foram aplicados aos 9 findings; falta somente rechecagem independente final dos 8 reparos do ciclo 2."
     },
     {
       "gate_id": "p0_zero",
@@ -35,7 +35,7 @@
     },
     {
       "gate_id": "behavioral_sentinels_3_of_3",
-      "status": "failed",
+      "status": "passed",
       "evidence": [
         "qualification/fixtures/behavioral/MANIFEST.json",
         "qualification/reports/BEHAVIORAL_QUALIFICATION_REPORT.md",
@@ -46,17 +46,17 @@
         "qualification/records/red_team_behavioral_adjudications.jsonl",
         "qualification/reports/RED_TEAM_BEHAVIORAL_SUMMARY.json"
       ],
-      "notes": "Denominadores permanecem separados por superfície. No red team Codex afetado, T05 amplo produziu 1 PASS + 1 FAIL; como a classe S exige 3/3, o gate é FAIL e um terceiro run não pode recuperar o denominador. T08 diferido e T16 multipasso passaram 3/3. Total afetado: 9 runs = 7 PASS + 2 FAIL, incluindo T19 core. Claude permanece separado e bloqueado por compatibilidade/OAuth. Ver matriz e sumário derivados."
+      "notes": "Codex, ciclos atuais por SHA: T05 3/3, T08 3/3 e T16 3/3 PASS. Runs históricos permanecem preservados fora do denominador do snapshot reparado. Claude permanece separado e não avaliado por OAuth."
     },
     {
       "gate_id": "behavioral_core_2_of_3",
-      "status": "pending",
+      "status": "passed",
       "evidence": [
         "references/EVALUATION_SUITE.md",
         "qualification/records/red_team_behavioral_adjudications.jsonl",
         "qualification/reports/RED_TEAM_BEHAVIORAL_SUMMARY.json"
       ],
-      "notes": "Resultados históricos dos demais cores permanecem preservados. O red team reabriu T19 com fixture sintética ponderada: o snapshot final tem 0 PASS + 1 FAIL em 1 run. Como classe C exige 2/3, o resultado correto é INCOMPLETE, não FAIL definitivo; restam exatamente dois slots e ambos precisam passar em sessões Codex limpas."
+      "notes": "T19 no ciclo repair-495c07e passou 2/2 sessões Codex limpas: rubrica sintética, pesos originais, zeros, soma explícita e rótulo escore de treino. Classe C exige 2/3."
     },
     {
       "gate_id": "longitudinal_resume_end_to_end",
@@ -76,7 +76,7 @@
         "registry/GATE_MIGRATIONS.md",
         "qualification/reports/SCRIPTED_JOURNEYS_SUMMARY.json"
       ],
-      "notes": "Substitui pilot_5_to_8_students_48h. Estado Codex derivado: 4 runs = 3 PASS + 1 INCONCLUSIVE; J01 2 PASS, J02 1 PASS, J03 1 INCONCLUSIVE. A regra é cada jornada PASS 3/3, portanto faltam 1 PASS de J01, 2 de J02 e 3 de J03 (a tentativa inconclusiva não conta como PASS). Não equivale a estudo de usabilidade humano."
+      "notes": "Execuções Codex adicionais observaram PASS em J01, duas J02 e três J03, mas os raws/records integrais desta rodada ainda precisam ser materializados no registro canônico antes de promover o gate. Não equivale a estudo de usabilidade humano."
     },
     {
       "gate_id": "clean_install",

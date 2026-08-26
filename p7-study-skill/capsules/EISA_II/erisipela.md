@@ -48,7 +48,7 @@ Linfangite · capilarite · placa eritematosa com margens bem definidas · sem �
 |---|---|---|---|
 | Agente etiológico principal | *Streptococcus pyogenes* beta-hemolítico do grupo A, ~67% dos casos | resumo edine ERISIPELA (p. 2); resumed saúde do adulto 2 (p. ~226) | CONFIRMADO (convergência de 2 fontes independentes) |
 | Segundo agente | *Streptococcus agalactiae*, ~9% | resumo edine ERISIPELA (p. 2) | CONFIRMADO |
-| Tto forma simples (ambulatorial) | Penicilina G benzatina 1.200.000 U IM a cada 3 dias, total de 4 injeções | 3 fontes convergentes (Erisipela III unidade p.4; resumo edine p.2; APOSTILA p.246) | CONFIRMADO |
+| Tto forma simples (ambulatorial) | Penicilina G benzatina 1.200.000 U IM a cada 3 dias, total de 4 injeções | 3 fontes curriculares B (Erisipela III unidade p.4; resumo edine p.2; APOSTILA p.246) | QUARANTINED — regime curricular, não usar como prática atual |
 | Tto forma bolhosa/necrosante (internação) | Penicilina cristalina 5.000.000 U EV 6/6h por 7 dias | 3 fontes convergentes | CONFIRMADO |
 | Alergia a penicilina — forma simples | Eritromicina 500 mg VO 12/12h | Erisipela III unidade (p.4); resumo edine (p.2) | CONFIRMADO |
 | Alergia a penicilina — forma grave | Clindamicina 600 mg EV 6/6h | Erisipela III unidade (p.4); resumo edine (p.2) | CONFIRMADO |
@@ -77,15 +77,15 @@ Linfangite · capilarite · placa eritematosa com margens bem definidas · sem �
 
 ## Conduta
 
-- Inicial: repouso com membro inferior elevado; limpeza mecânica da região; NÃO romper flictenas; cuidados higiênicos com os pés; investigar e tratar porta de entrada (micose interdigital com cetoconazol 200 mg/dia VO por 10 dias).
-- Definitiva: forma simples → penicilina G benzatina 1.200.000 U IM a cada 3 dias (total 4 doses), ambulatorial. Forma bolhosa/necrosante → penicilina cristalina 5.000.000 U EV 6/6h por 7 dias, internado; desbridamento se necrose.
+- Inicial: elevar o membro quando apropriado, cuidado local e avaliação da porta de entrada. Os esquemas de antibiótico/antifúngico, doses, vias e durações desta cápsula são B-only e ficam `QUARANTINED`; não usar como prescrição atual sem fonte vigente e avaliação clínica.
+- Definitiva: selecionar tratamento e necessidade de internação por gravidade, comorbidades e protocolo vigente. Os regimes B-only acima permanecem exclusivamente no painel curricular `QUARANTINED`.
 - Condição da conduta: presença de flictena OU necrose muda a via de simples/ambulatorial para grave/internação — é o único critério que importa, não o tamanho da placa.
 - Diferencial perigoso: celulite (Staphylococcus, bordas difusas, área sadia central, tratada com cefalexina) e TVP (empastamento muscular, tríade de Virchow) — ambas podem mimetizar eritema de perna e mudar completamente a conduta.
 - O que mudaria a decisão: alergia a penicilina → eritromicina (simples) ou clindamicina (grave); recorrência ≥6 episódios/ano → adicionar profilaxia com benzetacil 21/21 dias por ~1 ano; presença de micose → adicionar antifúngico obrigatoriamente, sob pena de recidiva e evolução para linfedema/elefantíase.
 
 ## Mini-casos ativos
 
-1. Paciente com placa eritematosa de bordas bem definidas em perna direita, sem bolhas, sem necrose, afebril, com micose interdigital associada. **Variável decisiva**: ausência de flictena/necrose → tratamento ambulatorial com penicilina benzatina + cetoconazol para a micose. Erro típico: esquecer de tratar a micose (leva a recidiva).
+1. Paciente com placa eritematosa de bordas bem definidas em perna direita, sem bolhas, sem necrose, afebril, com micose interdigital associada. **Variável decisiva curricular**: reconhecer forma não complicada e a porta de entrada. A seleção farmacológica do material está `QUARANTINED` e não integra a resposta de prática atual.
 2. Paciente com a mesma placa, mas agora com flictenas hemorrágicas. **Variável decisiva**: presença de flictena → internação, penicilina cristalina EV, mesmo que o paciente esteja hemodinamicamente estável. Erro típico: tratar como ambulatorial por "não parecer grave".
 3. Paciente relata 7º episódio de erisipela em 10 meses, atualmente sem lesão ativa. **Variável decisiva**: recorrência frequente (≥6/ano) → indicar profilaxia com penicilina benzatina 21/21 dias por cerca de 1 ano, além de reforçar cuidados com porta de entrada. Erro típico: não pensar em profilaxia por "não haver lesão agora".
 4. Paciente pós-mastectomia com linfedema crônico de braço há 2 anos, evolui com placa eritematosa quente no membro. **Variável decisiva**: linfedema prévio (mesmo de causa não infecciosa) é fator de risco para nova erisipela — o ciclo se retroalimenta; tratar a erisipela e reforçar prevenção do linfedema (meia elástica, drenagem).
@@ -97,7 +97,7 @@ Linfangite · capilarite · placa eritematosa com margens bem definidas · sem �
 | Agente etiológico mais comum da erisipela | *Streptococcus pyogenes* beta-hemolítico do grupo A (~67%) | fato |
 | Diferença de borda entre erisipela e celulite | Erisipela: bordas bem definidas, sem área sadia. Celulite: bordas difusas, com área sadia no meio | sinal-achado |
 | Critério que define internação na erisipela | Presença de flictena (bolhosa) ou necrose (necrosante) — não o tamanho da lesão | prioridade |
-| Antibiótico de escolha na forma simples | Penicilina G benzatina 1.200.000 U IM a cada 3 dias, 4 doses | valor |
+| Regime citado no material curricular para forma simples | Penicilina G benzatina 1.200.000 U IM a cada 3 dias, 4 doses — `QUARANTINED`, somente memória da aula | histórico, não prática atual |
 | Antibiótico de escolha na forma bolhosa/necrosante | Penicilina cristalina 5.000.000 U EV 6/6h, 7 dias | valor |
 | Conduta diante de flictena íntegra | Não romper — é barreira contra nova infecção | contraindicacao |
 | Complicação típica da erisipela de repetição | Linfedema, que pode evoluir a elefantíase se não tratado/prevenido | sequencia |
