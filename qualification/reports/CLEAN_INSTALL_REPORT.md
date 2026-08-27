@@ -1,5 +1,11 @@
 # CLEAN_INSTALL_REPORT — instalação descartável
 
+> **Fechamento v7 — 26/08/2026:** instalação standalone final executada a
+> partir da árvore de release. Resultado: 28 testes = 27 PASS + 1 SKIP
+> da fixture de qualificação que não é distribuída; 158 cápsulas reconciliadas;
+> `validate_package.py` com `error=0`; release gate `READY_FOR_USER_REVIEW`.
+> O snapshot histórico abaixo permanece apenas como trilha de auditoria.
+
 **Data:** 25/08/2026 (snapshot histórico anterior preservado abaixo)
 **Fonte vigente:** `qualification/v1.0.0-codex` @ `39ed34e`
 **Ambiente:** cópia descartável em `work/clean_install_20260822_v2`, fora do clone

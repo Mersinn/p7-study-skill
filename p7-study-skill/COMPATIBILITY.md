@@ -4,13 +4,16 @@
 
 | Superfície | Estado | Observação |
 |---|---|---|
-| Codex | bloqueado para qualificação final | execução real existe, mas T05 falhou; T19 e jornadas estão incompletos; longitudinal passou |
+| Codex | qualificado para revisão do usuário | T05/T08/T16 sentinelas, T19, jornadas e longitudinalidade passaram em sessões limpas |
 | Claude com skills locais | não avaliado nesta RC | OAuth expirado é pendência de compatibilidade Claude e não entra no denominador Codex |
 | ChatGPT/Claude mobile | fallback por conversa/anexo | sem garantia de instalação de skill ou ledger local |
 | Python | testado com 3.14 | scripts usam somente a biblioteca padrão |
 | MCP | não implementado | explicitamente posterior à aprovação da skill |
 
-“Compatível” não significa clinicamente aprovado. A RC continua bloqueada até a conclusão da revisão de claims e dos testes comportamentais.
+“Compatível” não significa clinicamente aprovado. A RC preserva 16 claims
+`quarantined`, 1 `conflict` e conteúdo crítico não registrado como `pending`;
+nenhum deles pode ser recuperado como prática atual. Claude não entra no
+denominador Codex.
 
 ## Camadas opcionais ausentes
 

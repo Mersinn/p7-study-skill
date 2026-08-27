@@ -98,6 +98,12 @@ class PackageTests(unittest.TestCase):
             payload_paths = {entry["path"] for entry in item["executor_payload_files"]}
             self.assertFalse(spec_paths & payload_paths, item["test_id"])
 
+    def test_release_contract_never_uses_legacy_go(self):
+        validator = self.read("scripts/validate_package.py")
+        gates = json.loads(self.read("registry/release_gates.json"))
+        self.assertNotIn('expected_decision = "GO"', validator)
+        self.assertIn(gates["decision"], {"HOLD", "READY_FOR_USER_REVIEW"})
+
     def test_curriculum_clinical_validity_and_pattern_analyzer_stay_orthogonal(self):
         skill = self.read("SKILL.md")
         question = self.read("references/QUESTION_INTELLIGENCE_P7.md")

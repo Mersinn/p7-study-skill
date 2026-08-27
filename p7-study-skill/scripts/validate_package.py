@@ -269,7 +269,9 @@ def validate_release(root: Path) -> list[Finding]:
         if status != "passed":
             open_gates += 1
             findings.append(Finding("WARN", "RELEASE_GATE_OPEN", f"{gate_id}: {status}", True))
-    expected_decision = "GO" if open_gates == 0 else "HOLD"
+    # READY_FOR_USER_REVIEW closes qualification without authorizing merge or
+    # publication. The legacy GO label is not part of the P7 release contract.
+    expected_decision = "READY_FOR_USER_REVIEW" if open_gates == 0 else "HOLD"
     if gates.get("decision") != expected_decision:
         findings.append(Finding("ERROR", "RELEASE_DECISION_INCONSISTENT", f"expected {expected_decision}", True))
     for directory in ("corpus_text", "vision_png"):

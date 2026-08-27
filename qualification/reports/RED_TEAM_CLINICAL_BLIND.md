@@ -1,5 +1,11 @@
 # Red team clínico cego — execução e limite
 
+> **Fechamento supersessor (2026-08-26):** 32/32 ocorrências revisadas; 9 findings
+> materiais reparados em dois ciclos. As 6 ocorrências inconclusivas não foram
+> convertidas em PASS: os claims foram rebaixados de `current` para `quarantined`.
+> Amostra final: 36 linhas, SHA
+> `07e5a9ca13fbcd4b1dec2c8bda8c3c2fbbb972790faa85ad2c7aa389380c7bee`.
+
 **Estado:** `INCONCLUSIVE` — nenhuma conclusão clínica do revisor foi produzida.
 
 ## Contrato da amostra

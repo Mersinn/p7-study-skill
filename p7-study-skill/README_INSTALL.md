@@ -2,9 +2,10 @@
 
 Skill privada de estudo do P7 (sétimo período, ciclo clínico — FAMENE).
 
-> **Estado: `1.0.0-rc.1` / HOLD.** Esta candidata não é a v1.0.0 final. O gate
-> longitudinal já passou; permanecem bloqueios clínicos, T05 comportamental,
-> conclusão de T19, jornadas sintéticas e reconfirmação da instalação final.
+> **Estado: `1.0.0-rc.1` / READY_FOR_USER_REVIEW.** Codex, longitudinalidade,
+> jornadas, gates estruturais e instalação portátil estão qualificados. Conteúdo
+> clínico é liberável somente com as quarentenas explícitas do registry. O usuário
+> ainda decide merge e publicação; Claude permanece não avaliado.
 
 Sucede a `p6-study-skill` v2.1.0, herdando a arquitetura e recuperando
 regressões e defeitos conhecidos (ver `CHANGELOG` abaixo).

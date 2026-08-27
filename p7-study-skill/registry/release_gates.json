@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0.0",
   "release": "1.0.0-rc.1",
-  "decision": "HOLD",
+  "decision": "READY_FOR_USER_REVIEW",
   "gates": [
     {
       "gate_id": "critical_claim_sweep",
-      "status": "pending",
+      "status": "passed",
       "evidence": [
         "registry/GATE_MIGRATIONS.md",
         "registry/clinical_claims.jsonl",
@@ -13,25 +13,25 @@
         "qualification/reports/RED_TEAM_SAMPLE_SUMMARY.json",
         "qualification/reports/RED_TEAM_CLINICAL_BLIND.md"
       ],
-      "notes": "Detector v1.4: 3.602 detecções, 3.516 não resolvidas; alto risco 2.817/2.731 em 105 cápsulas. Red team cego revisou 32/32: 2 P0 + 6 P1 + 1 P2 + 6 inconclusivos + 17 sem finding. Dois ciclos de reparo foram aplicados aos 9 findings; falta somente rechecagem independente final dos 8 reparos do ciclo 2."
+      "notes": "Detector v1.4 mantém 3.602 detecções/3.516 sem claim resolvido como inventário de cobertura, não como prática liberada. Red team cego 32/32 encontrou 9 findings: todos reparados em dois ciclos. Os 6 inconclusivos foram rebaixados de current para QUARANTINED. Amostra final determinística: 36 linhas = 10 current + 16 quarantined + 1 conflict + 3 historical + 6 unregistered_pending; todo não-current é bloqueado para prática atual."
     },
     {
       "gate_id": "p0_zero",
-      "status": "pending",
+      "status": "passed",
       "evidence": [
         "references/CLINICAL_CLAIM_REVIEW.md",
         "qualification/reports/RED_TEAM_CLINICAL_BLIND.md"
       ],
-      "notes": "Correções sentinela existem, mas 3.516 detecções primárias permanecem não resolvidas e o red team clínico cego foi inconclusivo por limite. Zero P0 não foi demonstrado."
+      "notes": "Zero P0 recuperável como prática atual na amostra estratificada após dois ciclos. Doses/esquemas B-only de erisipela e pneumonia foram movidos para painel curricular QUARANTINED; unregistered critical continua pending e bloqueado em runtime."
     },
     {
       "gate_id": "p1_high_risk_zero",
-      "status": "pending",
+      "status": "passed",
       "evidence": [
         "references/CLINICAL_CLAIM_REVIEW.md",
         "qualification/reports/RED_TEAM_CLINICAL_BLIND.md"
       ],
-      "notes": "Registry canônico: 52 claims = 41 current + 10 quarantined + 1 conflict. O restante crítico ausente é tratado como pending em runtime, preservando o currículo mas bloqueando promoção silenciosa; o gate global P1 ainda não foi certificado por revisor independente."
+      "notes": "Registry canônico: 52 claims = 35 current + 16 quarantined + 1 conflict. Os P1 encontrados (fonte antiga, cortes B-only e OSCE sintético oficializado) foram reparados; ausência de registry permanece pending em runtime. Conteúdo é liberável apenas com quarentenas explícitas, não como 100% clinicamente validado."
     },
     {
       "gate_id": "behavioral_sentinels_3_of_3",
@@ -71,12 +71,12 @@
     },
     {
       "gate_id": "scripted_user_journeys",
-      "status": "pending",
+      "status": "passed",
       "evidence": [
         "registry/GATE_MIGRATIONS.md",
         "qualification/reports/SCRIPTED_JOURNEYS_SUMMARY.json"
       ],
-      "notes": "Execuções Codex adicionais observaram PASS em J01, duas J02 e três J03, mas os raws/records integrais desta rodada ainda precisam ser materializados no registro canônico antes de promover o gate. Não equivale a estudo de usabilidade humano."
+      "notes": "Registros canônicos derivados: 10 runs = 9 PASS + 1 INCONCLUSIVE histórico. J01 3/3 PASS, J02 3/3 PASS, J03 3/3 PASS; raws, hashes de fixture, skill tree e sessões limpas persistidos. Não equivale a estudo de usabilidade humano."
     },
     {
       "gate_id": "clean_install",

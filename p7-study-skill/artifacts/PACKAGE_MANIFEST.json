@@ -7,9 +7,9 @@
       "sha256": "15bd33c92eeec9d4141d74278678d34552e808b079ffde6b53f25bf6c969b111"
     },
     {
-      "bytes": 1373,
+      "bytes": 1471,
       "path": "COMPATIBILITY.md",
-      "sha256": "588a76046bbf3551542b090fb2ccb435e8d1685e83d11c8307fc7ba557ee9297"
+      "sha256": "a752bf1053467e560c45774f70ffe21ec002a267c67675352a3068012f30bd2f"
     },
     {
       "bytes": 878,
@@ -27,9 +27,9 @@
       "sha256": "804f285e50c13fc339d99581c988883577f6c87bf27619e30b9a82ac8f223680"
     },
     {
-      "bytes": 6602,
+      "bytes": 6680,
       "path": "README_INSTALL.md",
-      "sha256": "bf453386fb374d709c67f83cd7581493a9b13059e7751827eb98c660666f1448"
+      "sha256": "b9519a7638a3c4d3453bbc6a93f9a8f4a9f25030cbd2a3eaf5ddeab7112cdae4"
     },
     {
       "bytes": 1937,
@@ -1052,14 +1052,14 @@
       "sha256": "e1acd7a4c5e36823c8df3f479e16be71330bd2a7cdf9e3c549eb0f456bcb60b5"
     },
     {
-      "bytes": 51644,
+      "bytes": 51528,
       "path": "registry/clinical_claims.jsonl",
-      "sha256": "dafe7799df02382acdd9f9599163d0dae15d3d98451d35013821360e58e2f5f3"
+      "sha256": "4db8f870eeadb6534525e56040ea648571b2421e75867a7306231740d65f57d7"
     },
     {
-      "bytes": 4696,
+      "bytes": 4949,
       "path": "registry/release_gates.json",
-      "sha256": "3359baebd2fbeb82c0ce39aa3b939f7f82d8632e21c73f37e67bf5cac9b2537d"
+      "sha256": "677076921dbf711a661954aeac7417ef6959119e5a376d46c1c8ff024a22f794"
     },
     {
       "bytes": 2473,
@@ -1167,9 +1167,9 @@
       "sha256": "bcde7100c47a3404e39106e72409b7bb7cef7e50a0bd8069a247bd224c17e201"
     },
     {
-      "bytes": 15589,
+      "bytes": 15765,
       "path": "scripts/validate_package.py",
-      "sha256": "8e5eb4a969b68a1077cef068c37e68ab4ae32df917944a02316e2df73f0da330"
+      "sha256": "c38a7f8c118551fa7d7e2bd7030e137ae131bf59e2a5663e6ca610c923089925"
     },
     {
       "bytes": 15399,
@@ -1177,9 +1177,9 @@
       "sha256": "c697905e8c1ea9de86efa4518be852a457f7fbf309b24a0541ccc41dbed637a0"
     },
     {
-      "bytes": 6756,
+      "bytes": 7085,
       "path": "tests/test_package.py",
-      "sha256": "18d03eacc8abd82e4206328a1fc95aba8b1353dc79efbc9bd4dd9393af91ae72"
+      "sha256": "b486bdf26b2892560a1ca96cc808cecec1c732e95a36c6a144e3c61d6866e68f"
     },
     {
       "bytes": 1590,
@@ -1189,5 +1189,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 3031195
+  "total_bytes": 3032013
 }
