@@ -45,3 +45,28 @@ aqui como `superseded`, com motivo, autoridade e gate substituto.
   Semiologia Pediátrica.
 - **Natureza:** correção de denominador stale. O gate **permanece `pending`**;
   nenhuma conclusão de varredura foi alterada, adiantada ou fechada.
+
+---
+
+## 2026-08-27 — migração da qualificação 1.0.0 para os gates v1.5.0
+
+- **Autoridade:** contrato explícito do usuário para a v1.5.0.
+- **Snapshot de origem:** `6fc906fdc2522c340a8d4f4c67a942f5c62433bb`,
+  tree `ec5b387c72470d05eca505d4350e16049c3d9932`.
+- `critical_claim_sweep`, `p0_zero` e `p1_high_risk_zero` foram reabertos e
+  desdobrados em `critical_inventory_complete`, `high_risk_accounted`,
+  `p0_exposed_zero`, `p1_high_risk_exposed_zero` e
+  `current_claim_traceability`. A amostra clínica reparada permanece evidência
+  válida de processo, mas não substitui 3.602/3.602 ocorrências.
+- `behavioral_sentinels_3_of_3`, `behavioral_core_2_of_3` e
+  `scripted_user_journeys` foram substituídos por `behavioral_regression` e
+  `p6_parity`. Seus raws e adjudicações não foram apagados; os gates atuais
+  ficam `pending` porque a v1.5.0 alterará o bundle de runtime.
+- `longitudinal_resume_end_to_end` migrou para `longitudinal_resume` mantendo
+  `passed`: ledger, schemas dependentes e fixture não mudaram neste snapshot.
+- `clean_install` voltou a `pending`: a evidência herdada não testa o ZIP v1.5.0.
+- Foram adicionados gates explícitos de versão, integridade de evidência,
+  higiene, consistência de relatórios, red team, custo de contexto, proveniência
+  estruturada e coerência narrativa.
+- **Decisão após a migração:** `HOLD`. Nenhum PASS clínico foi transferido por
+  narrativa e nenhum PASS comportamental histórico foi descartado.

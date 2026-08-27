@@ -1,92 +1,24 @@
 {
   "schema_version": "1.0.0",
-  "release": "1.0.0-rc.1",
-  "decision": "READY_FOR_USER_REVIEW",
+  "release": "1.5.0-rc.1",
+  "decision": "HOLD",
   "gates": [
-    {
-      "gate_id": "critical_claim_sweep",
-      "status": "passed",
-      "evidence": [
-        "registry/GATE_MIGRATIONS.md",
-        "registry/clinical_claims.jsonl",
-        "qualification/reports/CLINICAL_SWEEP_REPORT.md",
-        "qualification/reports/RED_TEAM_SAMPLE_SUMMARY.json",
-        "qualification/reports/RED_TEAM_CLINICAL_BLIND.md"
-      ],
-      "notes": "Detector v1.4 mantém 3.602 detecções/3.516 sem claim resolvido como inventário de cobertura, não como prática liberada. Red team cego 32/32 encontrou 9 findings: todos reparados em dois ciclos. Os 6 inconclusivos foram rebaixados de current para QUARANTINED. Amostra final determinística: 36 linhas = 10 current + 16 quarantined + 1 conflict + 3 historical + 6 unregistered_pending; todo não-current é bloqueado para prática atual."
-    },
-    {
-      "gate_id": "p0_zero",
-      "status": "passed",
-      "evidence": [
-        "references/CLINICAL_CLAIM_REVIEW.md",
-        "qualification/reports/RED_TEAM_CLINICAL_BLIND.md"
-      ],
-      "notes": "Zero P0 recuperável como prática atual na amostra estratificada após dois ciclos. Doses/esquemas B-only de erisipela e pneumonia foram movidos para painel curricular QUARANTINED; unregistered critical continua pending e bloqueado em runtime."
-    },
-    {
-      "gate_id": "p1_high_risk_zero",
-      "status": "passed",
-      "evidence": [
-        "references/CLINICAL_CLAIM_REVIEW.md",
-        "qualification/reports/RED_TEAM_CLINICAL_BLIND.md"
-      ],
-      "notes": "Registry canônico: 52 claims = 35 current + 16 quarantined + 1 conflict. Os P1 encontrados (fonte antiga, cortes B-only e OSCE sintético oficializado) foram reparados; ausência de registry permanece pending em runtime. Conteúdo é liberável apenas com quarentenas explícitas, não como 100% clinicamente validado."
-    },
-    {
-      "gate_id": "behavioral_sentinels_3_of_3",
-      "status": "passed",
-      "evidence": [
-        "qualification/fixtures/behavioral/MANIFEST.json",
-        "qualification/reports/BEHAVIORAL_QUALIFICATION_REPORT.md",
-        "qualification/reports/BEHAVIORAL_SURFACE_MATRIX.md",
-        "qualification/runs/behavioral/",
-        "qualification/runs/behavioral_codex/",
-        "references/EVALUATION_SUITE.md",
-        "qualification/records/red_team_behavioral_adjudications.jsonl",
-        "qualification/reports/RED_TEAM_BEHAVIORAL_SUMMARY.json"
-      ],
-      "notes": "Codex, ciclos atuais por SHA: T05 3/3, T08 3/3 e T16 3/3 PASS. Runs históricos permanecem preservados fora do denominador do snapshot reparado. Claude permanece separado e não avaliado por OAuth."
-    },
-    {
-      "gate_id": "behavioral_core_2_of_3",
-      "status": "passed",
-      "evidence": [
-        "references/EVALUATION_SUITE.md",
-        "qualification/records/red_team_behavioral_adjudications.jsonl",
-        "qualification/reports/RED_TEAM_BEHAVIORAL_SUMMARY.json"
-      ],
-      "notes": "T19 no ciclo repair-495c07e passou 2/2 sessões Codex limpas: rubrica sintética, pesos originais, zeros, soma explícita e rótulo escore de treino. Classe C exige 2/3."
-    },
-    {
-      "gate_id": "longitudinal_resume_end_to_end",
-      "status": "passed",
-      "evidence": [
-        "scripts/ledger.py",
-        "tests/test_ledger.py",
-        "qualification/reports/LONGITUDINAL_E2E_REPORT.md",
-        "qualification/runs/longitudinal_codex/F-LEDGER-B/sessionB_record.json"
-      ],
-      "notes": "Sessões Codex limpas demonstraram retomada sem memória inventada e append real na segunda sessão. A sessão B final recebeu estado gravável com 6 eventos e produziu 8; a releitura independente validou a cadeia estrita, learner_id sintético e SHA-256 final 4726ea3931f109d244150518e38257596fb2d2a541936e856a6131f7a6848721. A tentativa B2 somente leitura permanece preservada como INCONCLUSIVE fora do par válido."
-    },
-    {
-      "gate_id": "scripted_user_journeys",
-      "status": "passed",
-      "evidence": [
-        "registry/GATE_MIGRATIONS.md",
-        "qualification/reports/SCRIPTED_JOURNEYS_SUMMARY.json"
-      ],
-      "notes": "Registros canônicos derivados: 10 runs = 9 PASS + 1 INCONCLUSIVE histórico. J01 3/3 PASS, J02 3/3 PASS, J03 3/3 PASS; raws, hashes de fixture, skill tree e sessões limpas persistidos. Não equivale a estudo de usabilidade humano."
-    },
-    {
-      "gate_id": "clean_install",
-      "status": "passed",
-      "evidence": [
-        "README_INSTALL.md",
-        "COMPATIBILITY.md",
-        "qualification/reports/CLEAN_INSTALL_REPORT.md"
-      ],
-      "notes": "Instalação descartável v4 da skill no commit 39ed34e passou 20/20 testes, reconciliação de 158 cápsulas e validate com error=0. Este gate é independente; a decisão global permanece HOLD pelos demais gates pendentes. Ver qualification/reports/CLEAN_INSTALL_REPORT.md."
-    }
+    {"gate_id": "version_integrity", "status": "pending", "evidence": [], "notes": "A RC foi aberta; versão final, notas, registry e ZIP ainda não foram reconciliados."},
+    {"gate_id": "evidence_integrity", "status": "pending", "evidence": [], "notes": "O contrato de hash, snapshot e dois modos de validação será implementado no Marco B."},
+    {"gate_id": "critical_inventory_complete", "status": "pending", "evidence": ["qualification/reports/CLINICAL_SWEEP_REPORT.md"], "notes": "Snapshot herdado: 3.602 ocorrências no denominador e 3.516 sem destino resolvido."},
+    {"gate_id": "high_risk_accounted", "status": "pending", "evidence": ["qualification/reports/CLINICAL_SWEEP_REPORT.md"], "notes": "Snapshot herdado: 2.817 ocorrências de alto risco e 2.731 sem destino resolvido."},
+    {"gate_id": "p0_exposed_zero", "status": "pending", "evidence": ["qualification/reports/RED_TEAM_SAMPLE_SUMMARY.json"], "notes": "A amostra reparada não prova zero P0 no universo ainda não canonicalizado."},
+    {"gate_id": "p1_high_risk_exposed_zero", "status": "pending", "evidence": ["qualification/reports/RED_TEAM_SAMPLE_SUMMARY.json"], "notes": "A amostra reparada não prova zero P1 no universo de alto risco ainda não canonicalizado."},
+    {"gate_id": "current_claim_traceability", "status": "pending", "evidence": ["registry/clinical_claims.jsonl"], "notes": "Os 35 claims current herdados serão verificados contra fonte vigente, localizador, contexto e revisão exigida."},
+    {"gate_id": "behavioral_regression", "status": "pending", "evidence": ["qualification/reports/RED_TEAM_BEHAVIORAL_SUMMARY.json"], "notes": "11/11 PASS herdados são preservados; o gate do snapshot final aguarda a refatoração de contexto e os reruns afetados."},
+    {"gate_id": "p6_parity", "status": "pending", "evidence": ["qualification/reports/SCRIPTED_JOURNEYS_SUMMARY.json"], "notes": "9/9 jornadas válidas e testes P6 são preservados; o gate final aguarda reruns dos bundles alterados."},
+    {"gate_id": "longitudinal_resume", "status": "passed", "evidence": ["qualification/reports/LONGITUDINAL_E2E_REPORT.md", "qualification/runs/longitudinal_codex/F-LEDGER-B/sessionB_record.json"], "notes": "PASS herdado preservado: bundle do ledger não mudou; sessão B 6→8 eventos e cadeia estrita válida."},
+    {"gate_id": "package_hygiene", "status": "pending", "evidence": [], "notes": "O ZIP anterior contém 10 entradas __pycache__/pyc; o builder determinístico ainda não existe."},
+    {"gate_id": "clean_install", "status": "pending", "evidence": ["qualification/reports/CLEAN_INSTALL_REPORT.md"], "notes": "A instalação herdada pertence a snapshot anterior; a v1.5.0 precisa testar o ZIP produzido."},
+    {"gate_id": "report_consistency", "status": "failed", "evidence": ["qualification/reports/FINAL_RELEASE_REPORT.md", "qualification/reports/CLINICAL_SWEEP_REPORT.md", "qualification/reports/RED_TEAM_CLINICAL_BLIND.md"], "notes": "Relatórios canônicos se contradizem sobre fechamento clínico e estado do red team."},
+    {"gate_id": "red_team", "status": "pending", "evidence": ["qualification/reports/RED_TEAM_CLINICAL_BLIND.md"], "notes": "O red team final deve ocorrer após inventário completo e reparos da v1.5.0."},
+    {"gate_id": "runtime_context", "status": "pending", "evidence": [], "notes": "Bundles por modo e A/B comportamental ainda não foram medidos."},
+    {"gate_id": "structured_provenance", "status": "pending", "evidence": ["artifacts/PRECISION_ROWS.csv"], "notes": "2.317/2.392 linhas não têm source_ids estruturados."},
+    {"gate_id": "narrative_consistency", "status": "failed", "evidence": ["SKILL.md", "references/SOURCE_POLICY.md", "artifacts/METRICS.json", "p7_source_pack/00_MAPA_OPERACAO_MOVIMENTO.md", "config/priority-policy.json"], "notes": "Contagens 423/354 e 33/42, vocabulário operacional e fórmula de prioridade ainda divergem."}
   ]
 }

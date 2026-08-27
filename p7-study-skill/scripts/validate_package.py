@@ -253,9 +253,13 @@ def validate_artifacts(root: Path) -> list[Finding]:
 def validate_release(root: Path) -> list[Finding]:
     findings = []
     version = (root / "VERSION").read_text(encoding="utf-8").strip()
-    if not re.fullmatch(r"1\.0\.0-rc\.\d+", version):
-        findings.append(Finding("ERROR", "NOT_RELEASE_CANDIDATE", version, True))
+    is_candidate = re.fullmatch(r"1\.5\.0-rc\.\d+", version) is not None
+    is_final = version == "1.5.0"
+    if not (is_candidate or is_final):
+        findings.append(Finding("ERROR", "INVALID_RELEASE_VERSION", version, True))
     gates = load_json(root / "registry" / "release_gates.json")
+    if gates.get("release") != version:
+        findings.append(Finding("ERROR", "RELEASE_VERSION_DIVERGENCE", f"VERSION={version}; registry={gates.get('release')}", True))
     gate_ids: set[str] = set()
     open_gates = 0
     for gate in gates.get("gates", []):
@@ -269,11 +273,13 @@ def validate_release(root: Path) -> list[Finding]:
         if status != "passed":
             open_gates += 1
             findings.append(Finding("WARN", "RELEASE_GATE_OPEN", f"{gate_id}: {status}", True))
-    # READY_FOR_USER_REVIEW closes qualification without authorizing merge or
-    # publication. The legacy GO label is not part of the P7 release contract.
-    expected_decision = "READY_FOR_USER_REVIEW" if open_gates == 0 else "HOLD"
+    expected_decision = "READY_FOR_RELEASE" if is_final and open_gates == 0 else "HOLD"
     if gates.get("decision") != expected_decision:
         findings.append(Finding("ERROR", "RELEASE_DECISION_INCONSISTENT", f"expected {expected_decision}", True))
+    if is_candidate and open_gates == 0:
+        findings.append(Finding("ERROR", "RELEASE_CANDIDATE_CANNOT_CLOSE_GATES", version, True))
+    if is_final and open_gates:
+        findings.append(Finding("ERROR", "FINAL_VERSION_WITH_OPEN_GATES", f"{open_gates} gate(s) open", True))
     for directory in ("corpus_text", "vision_png"):
         if not (root / directory).is_dir():
             findings.append(Finding("INFO", "OPTIONAL_SOURCE_LAYER_ABSENT", f"{directory}: metadata-only fallback required", False))

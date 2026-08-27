@@ -1,5 +1,5 @@
 {
-  "file_count": 237,
+  "file_count": 238,
   "files": [
     {
       "bytes": 1778,
@@ -37,6 +37,11 @@
       "sha256": "7853950f085fe2da6f2095a533b4b1de1e7cf1d55cf91fca6bbff77b9d2e6f79"
     },
     {
+      "bytes": 1139,
+      "path": "RELEASE_NOTES_v1.5.0.md",
+      "sha256": "8886395f09689fb3cfbbd975e9617af6968cbcdd16c20f97728d68bca8fded92"
+    },
+    {
       "bytes": 37327,
       "path": "SKILL.md",
       "sha256": "421de31c68ddf1ab9f31b799e673b8c2f5e5c6d5070f2e5dca805f11dd1131f2"
@@ -44,7 +49,7 @@
     {
       "bytes": 11,
       "path": "VERSION",
-      "sha256": "8e3ccfbe492191dbb919be7b4ef3d93bd88f92b1d99532b25ba19c5ad9f1f722"
+      "sha256": "f617c94b70aa3ef81aaf84be25b0164d033ba53c450d90952beed38158f3f3e0"
     },
     {
       "bytes": 272,
@@ -1037,9 +1042,9 @@
       "sha256": "90211b6dfd070c648dd412086b69ccf2aba3f62a1bb327acc755962fc7face97"
     },
     {
-      "bytes": 2598,
+      "bytes": 4085,
       "path": "registry/GATE_MIGRATIONS.md",
-      "sha256": "47cda45f78ced95887c4a2529ff8667b3e33889399d05091e822da8718708982"
+      "sha256": "1fb6135786220ae7dd31cd96d480482639d32cd10faeb4438b624cda69a25405"
     },
     {
       "bytes": 571,
@@ -1057,9 +1062,9 @@
       "sha256": "4db8f870eeadb6534525e56040ea648571b2421e75867a7306231740d65f57d7"
     },
     {
-      "bytes": 4949,
+      "bytes": 3993,
       "path": "registry/release_gates.json",
-      "sha256": "677076921dbf711a661954aeac7417ef6959119e5a376d46c1c8ff024a22f794"
+      "sha256": "fcb46519865667187f6f4767c1090bd9bcede615a4f45c69176b720b7df2481a"
     },
     {
       "bytes": 2473,
@@ -1117,9 +1122,9 @@
       "sha256": "fb29b0890e827245cf93d325b2cf1d23f7a72ddccfc6362d4a1ec95071f76f42"
     },
     {
-      "bytes": 1095,
+      "bytes": 1110,
       "path": "schemas/v1/release-gates.schema.json",
-      "sha256": "c265a95465931b135e557aebaa6edee5abceec8ff6f691a37f53193311922d18"
+      "sha256": "91ec186d3189fc991a6c514deb369749438b05c3784d4b61c057434579964f70"
     },
     {
       "bytes": 1108,
@@ -1167,9 +1172,9 @@
       "sha256": "bcde7100c47a3404e39106e72409b7bb7cef7e50a0bd8069a247bd224c17e201"
     },
     {
-      "bytes": 15765,
+      "bytes": 16165,
       "path": "scripts/validate_package.py",
-      "sha256": "c38a7f8c118551fa7d7e2bd7030e137ae131bf59e2a5663e6ca610c923089925"
+      "sha256": "a5ae540186a88d0d0c403629d74549a71bde837ffc566605ae00550b04437727"
     },
     {
       "bytes": 15399,
@@ -1189,5 +1194,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 3032013
+  "total_bytes": 3034098
 }
