@@ -21,6 +21,7 @@ from p7lib import (
     load_source_rows,
     precision_rows,
 )
+from release_evidence import validate_gate_evidence
 
 
 @dataclass(frozen=True)
@@ -250,11 +251,11 @@ def validate_artifacts(root: Path) -> list[Finding]:
     return findings
 
 
-def validate_release(root: Path) -> list[Finding]:
+def validate_release(root: Path, evidence_mode: str = "auto") -> list[Finding]:
     findings = []
     version = (root / "VERSION").read_text(encoding="utf-8").strip()
-    is_candidate = re.fullmatch(r"1\.5\.0-rc\.\d+", version) is not None
-    is_final = version == "1.5.0"
+    is_candidate = re.fullmatch(r"\d+\.\d+\.\d+-rc\.\d+", version) is not None
+    is_final = re.fullmatch(r"\d+\.\d+\.\d+", version) is not None
     if not (is_candidate or is_final):
         findings.append(Finding("ERROR", "INVALID_RELEASE_VERSION", version, True))
     gates = load_json(root / "registry" / "release_gates.json")
@@ -273,20 +274,22 @@ def validate_release(root: Path) -> list[Finding]:
         if status != "passed":
             open_gates += 1
             findings.append(Finding("WARN", "RELEASE_GATE_OPEN", f"{gate_id}: {status}", True))
-    expected_decision = "READY_FOR_RELEASE" if is_final and open_gates == 0 else "HOLD"
+    expected_decision = "READY_FOR_USER_REVIEW" if is_final and open_gates == 0 else "HOLD"
     if gates.get("decision") != expected_decision:
         findings.append(Finding("ERROR", "RELEASE_DECISION_INCONSISTENT", f"expected {expected_decision}", True))
     if is_candidate and open_gates == 0:
         findings.append(Finding("ERROR", "RELEASE_CANDIDATE_CANNOT_CLOSE_GATES", version, True))
     if is_final and open_gates:
         findings.append(Finding("ERROR", "FINAL_VERSION_WITH_OPEN_GATES", f"{open_gates} gate(s) open", True))
+    for evidence in validate_gate_evidence(root, gates, version, evidence_mode):
+        findings.append(Finding("ERROR", evidence.code, evidence.message, True))
     for directory in ("corpus_text", "vision_png"):
         if not (root / directory).is_dir():
             findings.append(Finding("INFO", "OPTIONAL_SOURCE_LAYER_ABSENT", f"{directory}: metadata-only fallback required", False))
     return findings
 
 
-def collect(root: Path) -> list[Finding]:
+def collect(root: Path, evidence_mode: str = "auto") -> list[Finding]:
     findings = validate_schemas(root)
     catalog, catalog_findings = validate_catalog(root)
     findings.extend(catalog_findings)
@@ -296,7 +299,7 @@ def collect(root: Path) -> list[Finding]:
     findings.extend(registry_findings)
     findings.extend(validate_claims(root, version_ids, reviewer_ids, {item["capsule_id"] for item in catalog}))
     findings.extend(validate_artifacts(root))
-    findings.extend(validate_release(root))
+    findings.extend(validate_release(root, evidence_mode))
     return findings
 
 
@@ -305,8 +308,9 @@ def main() -> int:
     parser.add_argument("--root", type=Path, default=PACKAGE_ROOT)
     parser.add_argument("--json", action="store_true")
     parser.add_argument("--release-gate", action="store_true", help="also fail on unresolved release blockers")
+    parser.add_argument("--evidence-mode", choices=("auto", "repository", "standalone"), default="auto", help="resolve release evidence against a Git checkout or a standalone package snapshot")
     args = parser.parse_args()
-    findings = collect(args.root.resolve())
+    findings = collect(args.root.resolve(), args.evidence_mode)
     if args.json:
         print(json.dumps([asdict(item) for item in findings], ensure_ascii=False, indent=2, sort_keys=True))
     else:

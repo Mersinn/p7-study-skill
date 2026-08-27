@@ -1,14 +1,15 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://p7-study.local/schemas/v1/release-gates.schema.json",
-  "title": "Release gates",
+  "title": "Release gates and evidence attestation contract",
+  "description": "registry/release_gates.json declares gate state. A passed gate is valid only when registry/release_evidence.json contains one attestation for each declared evidence path, conforming to $defs.evidence_attestation.",
   "type": "object",
   "additionalProperties": false,
   "required": ["schema_version", "release", "decision", "gates"],
   "properties": {
     "schema_version": {"const": "1.0.0"},
-    "release": {"type": "string"},
-    "decision": {"enum": ["HOLD", "READY_FOR_RELEASE"]},
+    "release": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-rc\\.[0-9]+)?$"},
+    "decision": {"enum": ["HOLD", "READY_FOR_USER_REVIEW"]},
     "gates": {
       "type": "array",
       "items": {
@@ -18,16 +19,36 @@
         "properties": {
           "gate_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
           "status": {"enum": ["pending", "failed", "passed"]},
-          "evidence": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "evidence": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
           "notes": {"type": "string"}
         },
-        "allOf": [
-          {
-            "if": {"properties": {"status": {"const": "passed"}}},
-            "then": {"properties": {"evidence": {"minItems": 1}}}
-          }
-        ]
+        "allOf": [{"if": {"properties": {"status": {"const": "passed"}}}, "then": {"properties": {"evidence": {"minItems": 1}}}}]
       }
+    }
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "relative_path": {"type": "string", "minLength": 1, "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"},
+    "evidence_attestation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["gate_id", "artifact", "snapshot", "scope", "adjudication", "quantitative", "limitations"],
+      "properties": {
+        "gate_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+        "artifact": {"type": "object", "additionalProperties": false, "required": ["path", "sha256"], "properties": {"path": {"$ref": "#/$defs/relative_path"}, "sha256": {"$ref": "#/$defs/sha256"}}},
+        "snapshot": {
+          "oneOf": [
+            {"type": "object", "additionalProperties": false, "required": ["mode", "git_commit"], "properties": {"mode": {"const": "repository"}, "git_commit": {"type": "string", "pattern": "^[a-f0-9]{40}$"}}},
+            {"type": "object", "additionalProperties": false, "required": ["mode", "package_manifest_path", "package_manifest_sha256"], "properties": {"mode": {"const": "standalone"}, "package_manifest_path": {"$ref": "#/$defs/relative_path"}, "package_manifest_sha256": {"$ref": "#/$defs/sha256"}}}
+          ]
+        },
+        "scope": {"type": "object", "additionalProperties": false, "required": ["included_paths", "excluded_paths"], "properties": {"included_paths": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/relative_path"}, "uniqueItems": true}, "excluded_paths": {"type": "array", "items": {"$ref": "#/$defs/relative_path"}, "uniqueItems": true}}},
+        "adjudication": {"type": "object", "additionalProperties": false, "required": ["adjudicator", "adjudicated_at", "outcome"], "properties": {"adjudicator": {"type": "string", "minLength": 1}, "adjudicated_at": {"type": "string", "format": "date-time"}, "outcome": {"const": "passed"}}},
+        "quantitative": {"type": "boolean"},
+        "metrics": {"type": "object", "additionalProperties": false, "required": ["numerator", "denominator", "components"], "properties": {"numerator": {"type": "integer", "minimum": 0}, "denominator": {"type": "integer", "minimum": 1}, "components": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "integer", "minimum": 0}}}},
+        "limitations": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+      },
+      "allOf": [{"if": {"properties": {"quantitative": {"const": true}}}, "then": {"required": ["metrics"]}}]
     }
   }
 }

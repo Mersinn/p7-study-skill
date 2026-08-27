@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "template": true,
+  "release": "<copy VERSION exactly>",
+  "reported_decision": "HOLD",
+  "evidence": [
+    {
+      "gate_id": "<gate_id already marked passed>",
+      "artifact": {
+        "path": "<repository-relative in repository mode; package-relative in standalone mode>",
+        "sha256": "<lowercase SHA-256 of artifact>"
+      },
+      "snapshot": {"mode": "repository", "git_commit": "<exact HEAD commit>"},
+      "scope": {"included_paths": ["<artifact.path>", "<other paths actually assessed>"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "<stable reviewer or operator id>", "adjudicated_at": "2026-08-27T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true,
+      "metrics": {"numerator": 0, "denominator": 1, "components": {"pass": 0, "fail": 1}},
+      "limitations": ["State what this artifact does not establish."]
+    }
+  ]
+}
