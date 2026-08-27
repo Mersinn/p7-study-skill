@@ -1,5 +1,5 @@
 {
-  "file_count": 238,
+  "file_count": 242,
   "files": [
     {
       "bytes": 1778,
@@ -27,9 +27,9 @@
       "sha256": "804f285e50c13fc339d99581c988883577f6c87bf27619e30b9a82ac8f223680"
     },
     {
-      "bytes": 6680,
+      "bytes": 6637,
       "path": "README_INSTALL.md",
-      "sha256": "b9519a7638a3c4d3453bbc6a93f9a8f4a9f25030cbd2a3eaf5ddeab7112cdae4"
+      "sha256": "604a8dd5f6d93bc0943e17ca42e38253a3a08c0c72cb02aa6b82b3f8b19bd419"
     },
     {
       "bytes": 1937,
@@ -42,9 +42,9 @@
       "sha256": "8886395f09689fb3cfbbd975e9617af6968cbcdd16c20f97728d68bca8fded92"
     },
     {
-      "bytes": 37327,
+      "bytes": 11198,
       "path": "SKILL.md",
-      "sha256": "421de31c68ddf1ab9f31b799e673b8c2f5e5c6d5070f2e5dca805f11dd1131f2"
+      "sha256": "8d3d289d9435e2cfc84a31b180e75d976f985466640908bfff7d763330bfdda4"
     },
     {
       "bytes": 11,
@@ -57,24 +57,24 @@
       "sha256": "281e7e67fb118b3c9784c41a8637e32c0f93eee8091e3171c2edc28ae1f0ed47"
     },
     {
-      "bytes": 8599,
+      "bytes": 8479,
       "path": "capsule_generation/CAPSULE_GENERATION_POLICY.md",
-      "sha256": "749981ea78cf3be3c6a128af75061e0543209a3fc6cd96cb5dcf3c05cfc3ff29"
+      "sha256": "1a9f78a54a8147fc1582d0a4da6c5dd5b2038dc295fc96442865efa7efdb79c6"
     },
     {
-      "bytes": 4197,
+      "bytes": 4143,
       "path": "capsule_generation/CAPSULE_REVIEW_CHECKLIST.md",
-      "sha256": "1c07940d8b55cbb153ea5bf220cc69e7b4db0f3abd3b35312238d942f0358f49"
+      "sha256": "6b67ba895f5d3364f76dd145f8f997e3ad631e86186d7498b5f6cd2947ee1692"
     },
     {
-      "bytes": 3446,
+      "bytes": 3380,
       "path": "capsule_generation/CAPSULE_TEMPLATE.md",
-      "sha256": "08b4abea358fe83829838ff4020c6c39845454d132dc4f6cc09e79d6fabe8c5d"
+      "sha256": "ee4cb60c9fa47f973deae79aadeb5c96a2c9bc6f1b74a9f37c36cdd481ef29fd"
     },
     {
-      "bytes": 30320,
+      "bytes": 30121,
       "path": "capsules/CAPSULE_INDEX.md",
-      "sha256": "98867555c325b4754bf0bb050734d627e75f596f15eb42da50bbd6dc8a5b6e33"
+      "sha256": "e83ac545515741f4738a3b92598064c0c4976f1ee1ac16d11bf9a6b3dcfff8e5"
     },
     {
       "bytes": 13211,
@@ -207,9 +207,9 @@
       "sha256": "b21a21658790a1ed7f3b6db2a6437800ed7bead307285eed411f750ef613ec93"
     },
     {
-      "bytes": 12583,
+      "bytes": 12477,
       "path": "capsules/EISA_II/coma_e_rebaixamento_do_nivel_de_consciencia.md",
-      "sha256": "bab98bd2817442b30a91376d05fd780d61a3a0cef70b6c531ca0b62a8c8ab36c"
+      "sha256": "0cab434ff76c63f0ab44a99bcb33001a4a554f4105995bb91189f0bcd1fc6684"
     },
     {
       "bytes": 14394,
@@ -292,9 +292,9 @@
       "sha256": "50bc2be2d52dc21ff742fda5e8bdac91f258bb09fcfedb6d42dfa455247c8665"
     },
     {
-      "bytes": 13971,
+      "bytes": 13868,
       "path": "capsules/EISA_II/erisipela.md",
-      "sha256": "e11c4ca757144fedaf40f2ffce280538f91bb617bb3d569035b1528f43b1ba71"
+      "sha256": "fbea8025d6df578e09dfefe137157c5b8f51ff0b8754d2816a72181718096d41"
     },
     {
       "bytes": 15584,
@@ -462,9 +462,9 @@
       "sha256": "0d51bce6976aa9eb242477a6a765f0d88c718467128b3242cbf11fc516b88c21"
     },
     {
-      "bytes": 13629,
+      "bytes": 13529,
       "path": "capsules/EISA_II/otites_aguda_cronica_externa.md",
-      "sha256": "b3baa5ae9f031ed1d4172fd4db52ebd4c4d2046ebf58450022bd64dd1139dbb7"
+      "sha256": "b5789beb8be8398e9042ad6777b8c8ec872fab8acce83aa711bbee0348fbc13b"
     },
     {
       "bytes": 12864,
@@ -672,9 +672,9 @@
       "sha256": "422d0ce596c4d1e46a93cab39c4083da2f4da7fdde1f5cfa7891fc83d8c171f1"
     },
     {
-      "bytes": 11601,
+      "bytes": 11462,
       "path": "capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md",
-      "sha256": "deb4710d6d3b214b5ac9043b1bf9b948faf3857a30e92ce4d2202a8dcad9f294"
+      "sha256": "f8695701c85798d9acaaa1a0a75eb7db848aff1081bdb78bd0020cfddc704ce6"
     },
     {
       "bytes": 16077,
@@ -697,9 +697,9 @@
       "sha256": "f7ef29cb013e47a0115a0ca58757bd77f54e0b333273c3d191ac0f72f5cd137d"
     },
     {
-      "bytes": 17029,
+      "bytes": 16948,
       "path": "capsules/EISCA/sepse_e_meningite_neonatal.md",
-      "sha256": "2717cdfe2bf0ffff9c84f2f2b1c5a2378f3be2f07a0bcfc4a5c1759a4e562a1e"
+      "sha256": "e0565904a3a18ab712a4ec4bac265d5fa692ec497932cf95d18050ebfaa985dd"
     },
     {
       "bytes": 16307,
@@ -712,9 +712,9 @@
       "sha256": "5e5f2766a6e24ccc9c2b7cf84c363526845444a1e5f362cac4c2ed97787f13e2"
     },
     {
-      "bytes": 11015,
+      "bytes": 10928,
       "path": "capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md",
-      "sha256": "96267eb23d66c67ca4664715b8a8f5a228c3efde5432dad15ad187e34c3b0388"
+      "sha256": "6f6b0baf1417418fefc352f3b5e10d9304ae81eb500fa6bbaf94feff9cbe0d89"
     },
     {
       "bytes": 10230,
@@ -727,9 +727,9 @@
       "sha256": "a2d16bab319968b2e49cd9a9481e8e8cd7dca6a412fa3ba70e8f38299dcc6508"
     },
     {
-      "bytes": 14517,
+      "bytes": 14372,
       "path": "capsules/EISM/antipsicoticos_sep_e_snm.md",
-      "sha256": "d079edca09af67d551f79acba87980e80d899b1dfc07c22376d952bffe1df560"
+      "sha256": "82d66e27d62f5bc1cc11bdbcabdf2156894196a5e76f1461a4420bf607b5f01a"
     },
     {
       "bytes": 9141,
@@ -752,9 +752,9 @@
       "sha256": "5547beda612ccaf36affcd711d42ffe9f6200952f1706dc1a51a8523a7087440"
     },
     {
-      "bytes": 10709,
+      "bytes": 10581,
       "path": "capsules/EISM/esquizofrenia_e_transtornos_psicoticos.md",
-      "sha256": "020ab420bca6f01d08aa488c7de28348eeb456c70e191a401fc4e6d6a308e504"
+      "sha256": "c5e74b3577c3fe14b1c634e360c775435a33daab3a2bc7b2d81ec2b904f36fdf"
     },
     {
       "bytes": 10014,
@@ -797,9 +797,9 @@
       "sha256": "85b546dea6e7a6a0f502abc4cf31cc2e56d5a215ac5d4234ba307c58cbb77d8c"
     },
     {
-      "bytes": 12459,
+      "bytes": 12353,
       "path": "capsules/EISM/transtorno_bipolar_e_estabilizadores_do_humor.md",
-      "sha256": "1e4fe1329b02c59369b651274ac14d6303f4d311a23720a6fba7a6d22dc93955"
+      "sha256": "b742e566d42813343c51663edde680f5efb6af9395a9a658ab12f6ab55589fff"
     },
     {
       "bytes": 11927,
@@ -822,9 +822,9 @@
       "sha256": "86e12da778ad56904f814cb7a5bf91b1275a3ec4e5606b0d9b16e84a27e990ea"
     },
     {
-      "bytes": 10786,
+      "bytes": 10669,
       "path": "capsules/EISM/transtornos_mentais_na_gravidez_e_puerperio.md",
-      "sha256": "27f00e617f218058aa2a6a8429ef57b39c5924648d5334326b11da071363c6f7"
+      "sha256": "fcf42644f84bb9af98deb1ad04f3b1bf118d8040cf7623e5f92b779a3b98cf78"
     },
     {
       "bytes": 9517,
@@ -832,14 +832,14 @@
       "sha256": "7be03631aae17877fa6ae03615f9a623907b9ffcda23137134087cf1f14e7f93"
     },
     {
-      "bytes": 12335,
+      "bytes": 12241,
       "path": "capsules/OSCE/formato_roteiro_osce_p7.md",
-      "sha256": "fbc4c87ae2510d98c9d51edbcef3786747d40573c3c8ffa7771147bf765c117f"
+      "sha256": "a00b3312734470289e3bae96a7b25efd81a2093320d8e3316f9a9bc4de5ba3ad"
     },
     {
-      "bytes": 14058,
+      "bytes": 13929,
       "path": "capsules/OSCE/osce_banco_de_estacoes.md",
-      "sha256": "2a67cb710e8b71413a826d56223122c103d10616ba00ef0099ec1bb388e83101"
+      "sha256": "b7f07a8f194a160504e79bc897f51f96f8e9b077be8b08673378845fb446295d"
     },
     {
       "bytes": 15351,
@@ -847,9 +847,9 @@
       "sha256": "17522b58c2f5bd302843e73420f801d8e8abf974d4e4c195d0de12af7960ef49"
     },
     {
-      "bytes": 15450,
+      "bytes": 15338,
       "path": "capsules/OSCE/osce_nefrologia.md",
-      "sha256": "ba40df211ba92ad16f0cedec2c2946372e75a37e74e62f547fe529e9fa1f7500"
+      "sha256": "95084928f0bc1dbc84e4b8d0824283ed632a16e604145654948706720459e033"
     },
     {
       "bytes": 22770,
@@ -857,9 +857,9 @@
       "sha256": "0350632b46297f1d94b26640ef7a59524d958b203998aa14ee6f95ef1c73c30f"
     },
     {
-      "bytes": 22121,
+      "bytes": 21996,
       "path": "capsules/OSCE/osce_pediatria.md",
-      "sha256": "5df78eb7f66c8c44bb669edbbbc79d84452e1de1cd2a92a2ce40ad1017f45287"
+      "sha256": "e738082a38a9c196d5e5f3dd5c04632088299c366df93af079c467f754fe8c47"
     },
     {
       "bytes": 23957,
@@ -867,9 +867,9 @@
       "sha256": "5be91348e079187f2a938546161b779a44dc10eaf00ac34479462d568411d419"
     },
     {
-      "bytes": 730,
+      "bytes": 967,
       "path": "config/normalization.json",
-      "sha256": "1ff348730a4c74725c67400ede9bed973ebbbf807883a9ac97c10c4f1107e2bc"
+      "sha256": "f5cc5f75b3339e3ef53a8c19a900bb77bc1866cd19c73f14a150b64674a73ed3"
     },
     {
       "bytes": 717,
@@ -887,9 +887,9 @@
       "sha256": "e1c32f4b6d66eab18f9526c3b1427071098e0074106b7f3701432f706a058a91"
     },
     {
-      "bytes": 29668,
+      "bytes": 29572,
       "path": "p7_source_pack/00_COVERAGE_GAPS.md",
-      "sha256": "2b83af63e44370d051a3723e8cb8e173374a072ac3b629dad4016090b5b56a35"
+      "sha256": "ae2abe5c0279893164a3fb8ce9e1ef85af39f79b114916675803f11df7a131ce"
     },
     {
       "bytes": 5073,
@@ -922,9 +922,9 @@
       "sha256": "c9aed94209944b7469cbb0b45f840347d0a51d34617784d5182a366936b9e3f7"
     },
     {
-      "bytes": 58767,
+      "bytes": 58578,
       "path": "p7_source_pack/00_MAPA_OPERACAO_MOVIMENTO.md",
-      "sha256": "508b947408d47f8e7176145b1b83ef004ab05bca75b4bbd9f1ee0acd4277e29c"
+      "sha256": "1024ea9b05ac2cb948db048aa4db3f456edd6a4d9e0804620c42290e5c6a5cf8"
     },
     {
       "bytes": 72515,
@@ -942,29 +942,29 @@
       "sha256": "3163c6deb9de373c7bcb92d4616e84cdbbc8a2621c63b83f0aa9bf3e4e6d1369"
     },
     {
-      "bytes": 2690,
+      "bytes": 2597,
       "path": "references/ACTIVE_STUDY_QUESTION_FIRST.md",
-      "sha256": "137c7facb7078be8d79ade69d92911f5eeacf31b19c57938fd24c0e2e91fbe33"
+      "sha256": "ddc573c823a77b8fc5ede41ae035a8efe6d4c1446c005a69ba32f23dc3d0b315"
     },
     {
-      "bytes": 1648,
+      "bytes": 1463,
       "path": "references/ACTIVE_STUDY_REVEAL_AFTER_ATTEMPT.md",
-      "sha256": "2b6791a8f989cffada8bde0438184a914ea4cbfb9533392835a31d97f2339084"
+      "sha256": "84eee8cd9b801bae9558a155f8550f18184ae94c9c38733ba883c336433cf471"
     },
     {
-      "bytes": 3836,
+      "bytes": 3740,
       "path": "references/ADHD_AND_TOKEN_POLICY.md",
-      "sha256": "2ad3fa30123190585c3ffa7f5751c3a76d12efabf819d030c355f6f998bc2420"
+      "sha256": "ff8639f7132cf5c95fa13ba100930b9dec3d147ed5d3e47e02dd95c4b7e038c2"
     },
     {
-      "bytes": 5432,
+      "bytes": 5306,
       "path": "references/AULA_VIVA.md",
-      "sha256": "37429b3c1cc5908d5ff8a2eb7e478e531bf53a93d5c0656858abb0a287b1e05f"
+      "sha256": "f0bcb0d4b89f30b88ffc5f13ce830925b3b19fda8bd659601efac028cb90df5d"
     },
     {
-      "bytes": 8646,
+      "bytes": 8525,
       "path": "references/CASE_OSCE_TUTOR.md",
-      "sha256": "e183accd193c98af78a6edd7df9c54400b2397e066033901b9d5472a832a8183"
+      "sha256": "6354ab2707e243265ae8713b1496eca49bb13991fdaa946bc9d05131cc8140ac"
     },
     {
       "bytes": 2252,
@@ -972,14 +972,14 @@
       "sha256": "2eea5765d0c26580bf45162101fd44d99a2bcbd42f66d6ded77e6ebf3b413ebe"
     },
     {
-      "bytes": 10227,
+      "bytes": 10148,
       "path": "references/CONTRAPROVA_DIAGNOS.md",
-      "sha256": "6cc63ba2dffed8bd5d22054ca7ca190d5a9be144a3ed544e57b5795373fb136d"
+      "sha256": "f13117c248fbee154afa6cfb2d8e0c483f0a8fd1fc6506fda1ae05bb40ce15bb"
     },
     {
-      "bytes": 5179,
+      "bytes": 5088,
       "path": "references/ERROR_NOTEBOOK_REVIEW_QUEUE.md",
-      "sha256": "a56695f6f77fd130f63c09a0282fc82cc6c21ee5e4235cfc70ac2e78c938c011"
+      "sha256": "dc44283cf60f9c50aea65de8b9bd648c39b54025b18bb7738847597c9977b950"
     },
     {
       "bytes": 6874,
@@ -992,9 +992,9 @@
       "sha256": "d19f1afbde9a23485007662599318360902f706f3b8b3039a57913aceb4a401f"
     },
     {
-      "bytes": 3802,
+      "bytes": 3706,
       "path": "references/IGOR_ME_SALVA.md",
-      "sha256": "062c2eea27d895cd34aace632636127c509a3d1026e3c621be60b0c71c0effc8"
+      "sha256": "a6ff07e4981d334191f1a74a92c70301202ab5abc78f393b24986a49a7bc2e73"
     },
     {
       "bytes": 16408,
@@ -1012,19 +1012,19 @@
       "sha256": "6e874e8ca3df5f98482e7e27e9e3578b3de16ba9a8d2c962630ee816787e98f1"
     },
     {
-      "bytes": 22166,
+      "bytes": 21981,
       "path": "references/QUESTION_INTELLIGENCE_P7.md",
-      "sha256": "6fe293b0688432a23a4d221f4cf061c9a98b925f155d2c6c427d9389022bcafd"
+      "sha256": "63e4f4df5be444f6d57333b31a426ee5af43e3c3a97718cc92bd326d04171dc1"
     },
     {
-      "bytes": 5514,
+      "bytes": 5410,
       "path": "references/SIMULATION_PROTOCOL.md",
-      "sha256": "573add6279168e2ebf463aa93bdf3a78074885f5747949fbacd8daafd7bb2610"
+      "sha256": "d870f90c72209d5b45c931633f6732152fc16a6b23730428352c6889306043b0"
     },
     {
-      "bytes": 8431,
+      "bytes": 9200,
       "path": "references/SOURCE_POLICY.md",
-      "sha256": "61800c51e428626ae25490949c9a9b4e19635f4946bc3ca5dc5e8ca9e819f072"
+      "sha256": "2414f65138ee2d3e43a19a343351e28154a8b840b31b53afce815251ca61754d"
     },
     {
       "bytes": 3147,
@@ -1032,14 +1032,14 @@
       "sha256": "e0c99b391b01c80dfa8da2cae9e386bebc65635fbc96903cd29fb892ad4e3411"
     },
     {
-      "bytes": 7948,
+      "bytes": 8329,
       "path": "references/TARGET_AWARE_STUDY_PLANNER.md",
-      "sha256": "8b281bffdfd8e09a8d4cd6451dae91d19ec3f9ef11b0e4fae1eefc42a13c4270"
+      "sha256": "53f87de9070687ef32f7125e9dd64e10326d33b52d83550314ffa882df7dbd87"
     },
     {
-      "bytes": 7690,
+      "bytes": 7599,
       "path": "references/TEST_PLAN.md",
-      "sha256": "90211b6dfd070c648dd412086b69ccf2aba3f62a1bb327acc755962fc7face97"
+      "sha256": "e5d4facd2463a259391475a1126619cc2fa0c99bdb88a12008ced82458cd3464"
     },
     {
       "bytes": 4085,
@@ -1060,6 +1060,11 @@
       "bytes": 51528,
       "path": "registry/clinical_claims.jsonl",
       "sha256": "4db8f870eeadb6534525e56040ea648571b2421e75867a7306231740d65f57d7"
+    },
+    {
+      "bytes": 909,
+      "path": "registry/release_evidence.template.json",
+      "sha256": "cc282c3ce61152a400ee2702860c505d7d7826f9e0739f8ef8e13ded5d8184ea"
     },
     {
       "bytes": 3993,
@@ -1122,9 +1127,9 @@
       "sha256": "fb29b0890e827245cf93d325b2cf1d23f7a72ddccfc6362d4a1ec95071f76f42"
     },
     {
-      "bytes": 1110,
+      "bytes": 3920,
       "path": "schemas/v1/release-gates.schema.json",
-      "sha256": "91ec186d3189fc991a6c514deb369749438b05c3784d4b61c057434579964f70"
+      "sha256": "55d683c3557859fb85db5460d36752373b755b3e4c2a51d904a8ab6662c0e05a"
     },
     {
       "bytes": 1108,
@@ -1152,9 +1157,9 @@
       "sha256": "a28593230b955f37b754222f78424ea0d89b528c9c72f98c5bdf327ebd1f235c"
     },
     {
-      "bytes": 10872,
+      "bytes": 13263,
       "path": "scripts/p7lib.py",
-      "sha256": "f86593897ddfe2c1d7de32f0ab77a7e84d798fbc943661c43d119104f2005292"
+      "sha256": "72b8a046c10c2863dc86af984a9fa4ba321fffa4baa448a98a6823e9515d592c"
     },
     {
       "bytes": 1198,
@@ -1162,9 +1167,14 @@
       "sha256": "47151f64f4a60f93d9669d72abe7a86599d33189a0127f3b222bfa884853eb92"
     },
     {
-      "bytes": 6313,
+      "bytes": 6475,
       "path": "scripts/reconcile_package.py",
-      "sha256": "6272e7fade3781b409059f1d83ededb366729225621165854322647c6fdbc5d5"
+      "sha256": "968587cc78626c84cc4670a00c777555ffa1759abb21c569f077bc68a0ab071c"
+    },
+    {
+      "bytes": 12708,
+      "path": "scripts/release_evidence.py",
+      "sha256": "2d0cf9aa253a08c081960b5e7ce1c38eef9ed71f39521779503a786b28698402"
     },
     {
       "bytes": 477,
@@ -1172,9 +1182,9 @@
       "sha256": "bcde7100c47a3404e39106e72409b7bb7cef7e50a0bd8069a247bd224c17e201"
     },
     {
-      "bytes": 16165,
+      "bytes": 16705,
       "path": "scripts/validate_package.py",
-      "sha256": "a5ae540186a88d0d0c403629d74549a71bde837ffc566605ae00550b04437727"
+      "sha256": "1246fbfc0bcf2e7142a7a19268a5b45420bcf3ec70fb1259a2fb55dcafb2d8ba"
     },
     {
       "bytes": 15399,
@@ -1182,17 +1192,27 @@
       "sha256": "c697905e8c1ea9de86efa4518be852a457f7fbf309b24a0541ccc41dbed637a0"
     },
     {
-      "bytes": 7085,
+      "bytes": 7565,
       "path": "tests/test_package.py",
-      "sha256": "b486bdf26b2892560a1ca96cc808cecec1c732e95a36c6a144e3c61d6866e68f"
+      "sha256": "926691dadbacd1f86df7da9613b77ec77d9267484afb8110c4056e22e3eff5ca"
     },
     {
       "bytes": 1590,
       "path": "tests/test_priority.py",
       "sha256": "75f9865ffb512c04c73f9792cf3d7f6b6d3d9b08e3bc211cbfdd11b623faa6b2"
+    },
+    {
+      "bytes": 6215,
+      "path": "tests/test_release_evidence.py",
+      "sha256": "43e5f372cec00af7e756b4231dc3f2c473f9897c9e12f0816e4cde725345e230"
+    },
+    {
+      "bytes": 4761,
+      "path": "tests/test_v150_contract.py",
+      "sha256": "2c2c726d33924dbc276ed2ed940678c7a376f9598110ea0762ae62227146eff2"
     }
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 3034098
+  "total_bytes": 3036726
 }

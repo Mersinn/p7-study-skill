@@ -175,15 +175,61 @@ def precision_rows(root: Path = PACKAGE_ROOT) -> list[dict[str, Any]]:
             if any(fold(cell) in {"dado", "valor", "fonte", "status"} for cell in cells):
                 continue
             row_text = " | ".join(cells)
+            resolved_ids = referenced_source_ids(row_text, source_ids)
             rows.append(
                 {
                     "capsule_path": relpath(path, root),
                     "section_row": line_no,
                     "claim_text": row_text,
-                    "source_ids": ";".join(referenced_source_ids(row_text, source_ids)),
+                    "source_ids": ";".join(resolved_ids),
+                    "source_reference_status": "resolved" if resolved_ids else "unresolved_source_reference",
                 }
             )
     return rows
+
+
+def build_operation_counts(root: Path = PACKAGE_ROOT) -> dict[str, Any]:
+    """Derive canonical operation counts from the 152 dissected item rows."""
+    normalization = load_json(root / "config" / "normalization.json")
+    configured = {key.casefold(): value for key, value in normalization.get("operation", {}).items()}
+    source = root / "p7_source_pack" / "00_MAPA_OPERACAO_MOVIMENTO.md"
+    in_item_bank = False
+    counts: Counter[str] = Counter()
+    labels: dict[str, set[str]] = {}
+    rows = 0
+    for raw in source.read_text(encoding="utf-8").splitlines():
+        if raw.strip() == "## Banco de itens dissecados":
+            in_item_bank = True
+            continue
+        if not in_item_bank or not raw.startswith("|"):
+            continue
+        fields = [field.strip() for field in raw.strip().strip("|").split("|")]
+        if len(fields) != 6 or fields[0] == "Tema" or set(fields[0]) <= {"-", ":"}:
+            continue
+        label = fields[1]
+        operation_id = configured.get(label.casefold())
+        if operation_id is None:
+            ascii_label = "".join(
+                char for char in unicodedata.normalize("NFKD", label.casefold())
+                if not unicodedata.combining(char)
+            )
+            operation_id = re.sub(r"[^a-z0-9]+", "_", ascii_label).strip("_")
+        rows += 1
+        counts[operation_id] += 1
+        labels.setdefault(operation_id, set()).add(label)
+    return {
+        "schema_version": "1.0.0",
+        "source": "p7_source_pack/00_MAPA_OPERACAO_MOVIMENTO.md#banco-de-itens-dissecados",
+        "taxonomy_rows": rows,
+        "operations": [
+            {
+                "operation_id": operation_id,
+                "count": counts[operation_id],
+                "observed_labels": sorted(labels[operation_id]),
+            }
+            for operation_id in sorted(counts, key=lambda key: (-counts[key], key))
+        ],
+    }
 
 
 def package_files(root: Path = PACKAGE_ROOT) -> list[Path]:
@@ -230,6 +276,7 @@ def build_metrics(root: Path = PACKAGE_ROOT) -> dict[str, Any]:
             "availability": "bundled" if path.is_dir() else "absent",
             "behavior": "read_source" if path.is_dir() else "metadata_only_do_not_claim_inspection",
         }
+    operations = build_operation_counts(root)
     return {
         "schema_version": SCHEMA_VERSION,
         "capsules": {
@@ -250,6 +297,11 @@ def build_metrics(root: Path = PACKAGE_ROOT) -> dict[str, Any]:
             "claims_by_validity": dict(sorted(Counter(claim.get("states", {}).get("clinical_validity", "UNKNOWN") for claim in claims).items())),
         },
         "precision_rows": len(precision),
+        "precision_provenance": dict(sorted(Counter(row["source_reference_status"] for row in precision).items())),
+        "operation_taxonomy": {
+            "taxonomy_rows": operations["taxonomy_rows"],
+            "canonical_operations": len(operations["operations"]),
+        },
         "runtime_source_availability": fallback,
     }
 

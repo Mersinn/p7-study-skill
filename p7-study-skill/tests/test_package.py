@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from p7lib import build_capsule_catalog, build_manifest, build_metrics, index_capsule_paths  # noqa: E402
+from p7lib import build_capsule_catalog, build_manifest, build_metrics, build_operation_counts, index_capsule_paths  # noqa: E402
 
 
 class PackageTests(unittest.TestCase):
@@ -33,6 +33,14 @@ class PackageTests(unittest.TestCase):
         self.assertTrue(all(item["legacy_priority_normalized"] in {"high", "medium", "low"} for item in catalog))
         self.assertTrue(all(item["priority"] == "unscored" for item in catalog))
 
+    def test_operation_taxonomy_uses_canonical_ids(self):
+        result = build_operation_counts(ROOT)
+        self.assertEqual(result["taxonomy_rows"], 152)
+        by_id = {item["operation_id"]: item for item in result["operations"]}
+        merged = by_id["differentiate_close_alternatives"]
+        self.assertEqual(merged["count"], 17)
+        self.assertEqual(merged["observed_labels"], ["diferenciar proximos", "diferenciar próximos"])
+
     def test_missing_runtime_sources_degrade_honestly(self):
         metrics = build_metrics(ROOT)
         for name in ("corpus_text", "vision_png"):
@@ -52,12 +60,15 @@ class PackageTests(unittest.TestCase):
     def test_synthetic_weighted_osce_is_not_authentic_or_official(self):
         skill = self.read("SKILL.md")
         osce = self.read("references/CASE_OSCE_TUTOR.md")
-        for text in (skill, osce):
-            self.assertIn("provided_weighted_training_rubric", text)
-            self.assertIn("escore de", text)
-            self.assertIn("treino`, nunca nota oficial", text)
-            self.assertIn("emissor verificável", text)
-        self.assertIn("Não o rebaixe para `derived_training_rubric`", skill)
+        self.assertIn("references/CASE_OSCE_TUTOR.md", skill)
+        self.assertIn("provided_weighted_training_rubric", skill)
+        for required in (
+            "provided_weighted_training_rubric",
+            "escore de",
+            "treino`, nunca nota oficial",
+            "emissor verificável",
+        ):
+            self.assertIn(required, osce)
         self.assertIn("Nunca classifique checklist ponderado fornecido e sintético", osce)
         self.assertIn("pontuação binária por item", osce)
         self.assertIn("peso original`, `evidência", osce)
@@ -102,7 +113,7 @@ class PackageTests(unittest.TestCase):
         validator = self.read("scripts/validate_package.py")
         gates = json.loads(self.read("registry/release_gates.json"))
         self.assertNotIn('expected_decision = "GO"', validator)
-        self.assertIn(gates["decision"], {"HOLD", "READY_FOR_USER_REVIEW"})
+        self.assertIn(gates["decision"], {"HOLD", "READY_FOR_RELEASE"})
 
     def test_curriculum_clinical_validity_and_pattern_analyzer_stay_orthogonal(self):
         skill = self.read("SKILL.md")

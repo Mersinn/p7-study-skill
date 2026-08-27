@@ -700,7 +700,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 12583,
+      "bytes": 12477,
       "capsule_id": "capsule:eisa_ii:coma_e_rebaixamento_do_nivel_de_consciencia",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -716,7 +716,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "bab98bd2817442b30a91376d05fd780d61a3a0cef70b6c531ca0b62a8c8ab36c",
+      "sha256": "0cab434ff76c63f0ab44a99bcb33001a4a554f4105995bb91189f0bcd1fc6684",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "Neuro_COMA__3d9a975464"
@@ -1139,7 +1139,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 13971,
+      "bytes": 13868,
       "capsule_id": "capsule:eisa_ii:erisipela",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1155,7 +1155,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "e11c4ca757144fedaf40f2ffce280538f91bb617bb3d569035b1528f43b1ba71",
+      "sha256": "fbea8025d6df578e09dfefe137157c5b8f51ff0b8754d2816a72181718096d41",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Erisipela",
@@ -2037,7 +2037,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 13629,
+      "bytes": 13529,
       "capsule_id": "capsule:eisa_ii:otites_aguda_cronica_externa",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2053,7 +2053,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "b3baa5ae9f031ed1d4172fd4db52ebd4c4d2046ebf58450022bd64dd1139dbb7",
+      "sha256": "b5789beb8be8398e9042ad6777b8c8ec872fab8acce83aa711bbee0348fbc13b",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Otites (aguda, média crônica e externa)",
@@ -3083,7 +3083,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 11601,
+      "bytes": 11462,
       "capsule_id": "capsule:eisca:pneumonia_adquirida_na_comunidade_na_infancia",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3099,7 +3099,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "deb4710d6d3b214b5ac9043b1bf9b948faf3857a30e92ce4d2202a8dcad9f294",
+      "sha256": "f8695701c85798d9acaaa1a0a75eb7db848aff1081bdb78bd0020cfddc704ce6",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Pneumonia adquirida na comunidade na infância",
@@ -3210,7 +3210,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 17029,
+      "bytes": 16948,
       "capsule_id": "capsule:eisca:sepse_e_meningite_neonatal",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3226,7 +3226,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "2717cdfe2bf0ffff9c84f2f2b1c5a2378f3be2f07a0bcfc4a5c1759a4e562a1e",
+      "sha256": "e0565904a3a18ab712a4ec4bac265d5fa692ec497932cf95d18050ebfaa985dd",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Sepse neonatal e meningite neonatal",
@@ -3285,7 +3285,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 11015,
+      "bytes": 10928,
       "capsule_id": "capsule:eism:abstinencia_alcoolica_delirium_tremens_wernicke",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3301,7 +3301,7 @@
       "review_status": "reviewed_l2",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "96267eb23d66c67ca4664715b8a8f5a228c3efde5432dad15ad187e34c3b0388",
+      "sha256": "6f6b0baf1417418fefc352f3b5e10d9304ae81eb500fa6bbaf94feff9cbe0d89",
       "source_ids": [
         "A_lcool_e_Outras_Drogas__ebaba69a52",
         "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
@@ -3371,7 +3371,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 14517,
+      "bytes": 14372,
       "capsule_id": "capsule:eism:antipsicoticos_sep_e_snm",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3387,7 +3387,7 @@
       "review_status": "reviewed_l2",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "d079edca09af67d551f79acba87980e80d899b1dfc07c22376d952bffe1df560",
+      "sha256": "82d66e27d62f5bc1cc11bdbcabdf2156894196a5e76f1461a4420bf607b5f01a",
       "source_ids": [
         "Antipsico_ticos_II_unidade__bea4c8f456",
         "Antipsico_ticos_Tabela__1d16c62d2d",
@@ -3512,7 +3512,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 10709,
+      "bytes": 10581,
       "capsule_id": "capsule:eism:esquizofrenia_e_transtornos_psicoticos",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3528,7 +3528,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "020ab420bca6f01d08aa488c7de28348eeb456c70e191a401fc4e6d6a308e504",
+      "sha256": "c5e74b3577c3fe14b1c634e360c775435a33daab3a2bc7b2d81ec2b904f36fdf",
       "source_ids": [
         "Esquizofrenia_II_unidade__41783f009c",
         "Esquizofrenia__5d54b28c4d",
@@ -3749,7 +3749,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 12459,
+      "bytes": 12353,
       "capsule_id": "capsule:eism:transtorno_bipolar_e_estabilizadores_do_humor",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3765,7 +3765,7 @@
       "review_status": "reviewed_l2",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "1e4fe1329b02c59369b651274ac14d6303f4d311a23720a6fba7a6d22dc93955",
+      "sha256": "b742e566d42813343c51663edde680f5efb6af9395a9a658ab12f6ab55589fff",
       "source_ids": [
         "ANOTAC_O_ES_bipolaridade__a1c9d4465d",
         "Aula_1_2021_1_Transtorno_Bipolar__c902ef25a4",
@@ -3885,7 +3885,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 10786,
+      "bytes": 10669,
       "capsule_id": "capsule:eism:transtornos_mentais_na_gravidez_e_puerperio",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3901,7 +3901,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "27f00e617f218058aa2a6a8429ef57b39c5924648d5334326b11da071363c6f7",
+      "sha256": "fcf42644f84bb9af98deb1ad04f3b1bf118d8040cf7623e5f92b779a3b98cf78",
       "source_ids": [
         "2_Transtornos_Mentais_na_Gravidez_e_No_Puerpe_rio__0efe14a107",
         "Transtornos_mentais_e_comportamentais_relacionados_ao_puerpe__d60fdbc256"
@@ -3940,7 +3940,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 12335,
+      "bytes": 12241,
       "capsule_id": "capsule:osce:formato_roteiro_osce_p7",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -3956,14 +3956,14 @@
       "review_status": "reviewed_l1",
       "risk": "low",
       "schema_version": "1.0.0",
-      "sha256": "fbc4c87ae2510d98c9d51edbcef3786747d40573c3c8ffa7771147bf765c117f",
+      "sha256": "a00b3312734470289e3bae96a7b25efd81a2093320d8e3316f9a9bc4de5ba3ad",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Formato e roteiro geral da estação OSCE do P7",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 14058,
+      "bytes": 13929,
       "capsule_id": "capsule:osce:osce_banco_de_estacoes",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -3979,7 +3979,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "2a67cb710e8b71413a826d56223122c103d10616ba00ef0099ec1bb388e83101",
+      "sha256": "b7f07a8f194a160504e79bc897f51f96f8e9b077be8b08673378845fb446295d",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Banco de estações OSCE modeladas com comandos e gabarito",
@@ -4009,7 +4009,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 15450,
+      "bytes": 15338,
       "capsule_id": "capsule:osce:osce_nefrologia",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -4025,7 +4025,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "ba40df211ba92ad16f0cedec2c2946372e75a37e74e62f547fe529e9fa1f7500",
+      "sha256": "95084928f0bc1dbc84e4b8d0824283ed632a16e604145654948706720459e033",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "OSCE Nefrologia — síndromes glomerulares, glomerulopatias, DRC e injúria renal aguda",
@@ -4055,7 +4055,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 22121,
+      "bytes": 21996,
       "capsule_id": "capsule:osce:osce_pediatria",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -4071,7 +4071,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "5df78eb7f66c8c44bb669edbbbc79d84452e1de1cd2a92a2ce40ad1017f45287",
+      "sha256": "e738082a38a9c196d5e5f3dd5c04632088299c366df93af079c467f754fe8c47",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "OSCE Pediatria — pneumonia, asma, diarreia com desidratação, aleitamento materno e assistência ao recém-nascido",

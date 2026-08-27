@@ -9,7 +9,7 @@
   "properties": {
     "schema_version": {"const": "1.0.0"},
     "release": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-rc\\.[0-9]+)?$"},
-    "decision": {"enum": ["HOLD", "READY_FOR_USER_REVIEW"]},
+    "decision": {"enum": ["HOLD", "READY_FOR_RELEASE"]},
     "gates": {
       "type": "array",
       "items": {

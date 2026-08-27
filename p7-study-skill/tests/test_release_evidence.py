@@ -21,7 +21,7 @@ def sha256(path: Path) -> str:
 
 
 class ReleaseEvidenceTests(unittest.TestCase):
-    def build_package(self, *, version: str = "1.5.0", status: str = "passed", decision: str = "READY_FOR_USER_REVIEW") -> tuple[Path, dict]:
+    def build_package(self, *, version: str = "1.5.0", status: str = "passed", decision: str = "READY_FOR_RELEASE") -> tuple[Path, dict]:
         directory = Path(tempfile.mkdtemp())
         self.addCleanup(shutil.rmtree, directory, ignore_errors=True)
         package = directory / "package"

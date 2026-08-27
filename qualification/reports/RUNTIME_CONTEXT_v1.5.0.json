@@ -1,0 +1,174 @@
+{
+  "baseline_ref": "6fc906f",
+  "bundles": {
+    "estudar_tema": {
+      "after": {
+        "bytes": 44115,
+        "estimated_tokens": 11029,
+        "files": {
+          "SKILL.md": 11198,
+          "capsules/CAPSULE_INDEX.md": 30320,
+          "references/ACTIVE_STUDY_QUESTION_FIRST.md": 2597
+        }
+      },
+      "before": {
+        "bytes": 70138,
+        "estimated_tokens": 17535,
+        "files": {
+          "SKILL.md": 37327,
+          "capsules/CAPSULE_INDEX.md": 30121,
+          "references/ACTIVE_STUDY_QUESTION_FIRST.md": 2690
+        }
+      },
+      "files": [
+        "SKILL.md",
+        "references/ACTIVE_STUDY_QUESTION_FIRST.md",
+        "capsules/CAPSULE_INDEX.md"
+      ],
+      "reduction": {
+        "bytes": 26023,
+        "percent": 37.1
+      }
+    },
+    "osce": {
+      "after": {
+        "bytes": 19844,
+        "estimated_tokens": 4961,
+        "files": {
+          "SKILL.md": 11198,
+          "references/CASE_OSCE_TUTOR.md": 8646
+        }
+      },
+      "before": {
+        "bytes": 45852,
+        "estimated_tokens": 11463,
+        "files": {
+          "SKILL.md": 37327,
+          "references/CASE_OSCE_TUTOR.md": 8525
+        }
+      },
+      "files": [
+        "SKILL.md",
+        "references/CASE_OSCE_TUTOR.md"
+      ],
+      "reduction": {
+        "bytes": 26008,
+        "percent": 56.72
+      }
+    },
+    "plano_de_guerra": {
+      "after": {
+        "bytes": 19638,
+        "estimated_tokens": 4910,
+        "files": {
+          "SKILL.md": 11198,
+          "references/TARGET_AWARE_STUDY_PLANNER.md": 8440
+        }
+      },
+      "before": {
+        "bytes": 45151,
+        "estimated_tokens": 11288,
+        "files": {
+          "SKILL.md": 37327,
+          "references/TARGET_AWARE_STUDY_PLANNER.md": 7824
+        }
+      },
+      "files": [
+        "SKILL.md",
+        "references/TARGET_AWARE_STUDY_PLANNER.md"
+      ],
+      "reduction": {
+        "bytes": 25513,
+        "percent": 56.51
+      }
+    },
+    "resolver_questao": {
+      "after": {
+        "bytes": 33364,
+        "estimated_tokens": 8341,
+        "files": {
+          "SKILL.md": 11198,
+          "references/QUESTION_INTELLIGENCE_P7.md": 22166
+        }
+      },
+      "before": {
+        "bytes": 59308,
+        "estimated_tokens": 14827,
+        "files": {
+          "SKILL.md": 37327,
+          "references/QUESTION_INTELLIGENCE_P7.md": 21981
+        }
+      },
+      "files": [
+        "SKILL.md",
+        "references/QUESTION_INTELLIGENCE_P7.md"
+      ],
+      "reduction": {
+        "bytes": 25944,
+        "percent": 43.74
+      }
+    },
+    "retomada": {
+      "after": {
+        "bytes": 27606,
+        "estimated_tokens": 6902,
+        "files": {
+          "SKILL.md": 11198,
+          "references/LEARNER_STATE_PROTOCOL.md": 16408
+        }
+      },
+      "before": {
+        "bytes": 53735,
+        "estimated_tokens": 13434,
+        "files": {
+          "SKILL.md": 37327,
+          "references/LEARNER_STATE_PROTOCOL.md": 16408
+        }
+      },
+      "files": [
+        "SKILL.md",
+        "references/LEARNER_STATE_PROTOCOL.md"
+      ],
+      "reduction": {
+        "bytes": 26129,
+        "percent": 48.63
+      }
+    },
+    "simular_prova": {
+      "after": {
+        "bytes": 16712,
+        "estimated_tokens": 4178,
+        "files": {
+          "SKILL.md": 11198,
+          "references/SIMULATION_PROTOCOL.md": 5514
+        }
+      },
+      "before": {
+        "bytes": 42737,
+        "estimated_tokens": 10685,
+        "files": {
+          "SKILL.md": 37327,
+          "references/SIMULATION_PROTOCOL.md": 5410
+        }
+      },
+      "files": [
+        "SKILL.md",
+        "references/SIMULATION_PROTOCOL.md"
+      ],
+      "reduction": {
+        "bytes": 26025,
+        "percent": 60.9
+      }
+    }
+  },
+  "dynamic_capsule": {
+    "count": 158,
+    "max_bytes": 23957,
+    "median_bytes": 13936,
+    "min_bytes": 4425,
+    "note": "dynamic capsule cost is separate from the fixed Estudar Tema bundle",
+    "p95_bytes": 20283
+  },
+  "schema_version": "1.0.0",
+  "token_estimate": "ceil(utf8_bytes/4); comparative estimate, not tokenizer output"
+}

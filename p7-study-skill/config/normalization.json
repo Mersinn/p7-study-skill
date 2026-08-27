@@ -32,5 +32,11 @@
     "CASOS CLÍNICOS": "CASOS_CLINICOS",
     "CASOS_CLINICOS": "CASOS_CLINICOS",
     "OSCE": "OSCE"
+  },
+  "operation": {
+    "aplicar critério": "apply_criterion",
+    "aplicar criterio": "apply_criterion",
+    "diferenciar próximos": "differentiate_close_alternatives",
+    "diferenciar proximos": "differentiate_close_alternatives"
   }
 }

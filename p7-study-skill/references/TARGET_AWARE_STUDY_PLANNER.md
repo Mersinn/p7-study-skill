@@ -77,17 +77,28 @@ comece.
 Em `critical`, a pergunta não é "o que eu preciso saber?" — é **"o que me faz
 perder ponto amanhã?"**.
 
-## 4. Ordem de prioridade dos temas
+Urgência sozinha não autoriza revelação precoce. Em `critical`, mantenha um
+microteste único como default. Se o aluno pedir revisão rápida, ofereça
+`microteste único | bloco de pivôs | exposição direta`; pedido explícito de
+exposição direta prevalece, sem impor dois turnos, e termina com prática não
+resolvida opcional.
 
-Prioridade final = função de, nesta ordem de peso:
+## 4. Prioridade dos temas e confiança da fonte
 
-1. **evidência de cobrança** (`00_EXAM_BLUEPRINT.md`, devolutivas) — cai?
-2. **risco clínico** — errar mata? (herda `MEDICAL_SAFETY_LAYER.md` §2)
-3. **força da fonte** — dá para estudar bem? (`SOURCE_POLICY.md` §6)
+Existe uma única fórmula operacional, versionada em
+`config/priority-policy.json`:
 
-Um tema com fonte média que cai toda prova vence um tema com fonte forte que nunca
-caiu. Um tema de risco alto entra mesmo com fonte média — e a fraqueza da fonte é
-declarada.
+```text
+study_priority = 3*exam_recurrence + 3*clinical_risk
+               + 2*curriculum_imminence + 2*learner_gap + transfer_value
+```
+
+Use os intervalos e limiares do próprio arquivo; entrada faltante produz
+`unscored`. Não recalcule por prosa nem reutilize rótulo legado.
+
+`source_strength` é eixo separado: governa confiança, profundidade e rota de
+obtenção, mas não integra `study_priority`. Assim, fonte fraca não remove tema de
+alta recorrência/risco; ela exige rotular a limitação e escolher uma rota segura.
 
 Tema oficial, de alta cobrança ou alto risco com `forca_fonte: ausente` continua
 no plano como lacuna/pendência. A força da fonte define a rota:

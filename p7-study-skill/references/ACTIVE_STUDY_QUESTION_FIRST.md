@@ -1,53 +1,49 @@
-# Active study — question-first view
+# Estudo ativo — view question-first
 
-This is the complete delivery contract for the **first intervention** in
-active study mode. It is intentionally self-contained: the executor can
-produce the first response from this file without reading or reconstructing
-the post-attempt reveal view.
+Contrato completo da **primeira intervenção** no modo ativo. É autocontido: o
+executor produz a primeira resposta sem ler nem reconstruir a view pós-tentativa.
 
-## When to use this view
+## Quando usar
 
-Use it for `Estudar Tema`, `quero estudar`, `vamos estudar`, `quero
-praticar/testar` or `quero aprender ativamente`, unless the learner explicitly
-asks for exposition first (`explique`, `resuma`, `faça uma revisão expositiva`,
-`ensine primeiro e teste depois`). Do not ask a routing question when the
-intent is already clear.
+Use em `Estudar Tema`, `quero estudar`, `vamos estudar`, `quero praticar/testar`
+ou `quero aprender ativamente`, salvo pedido explícito de exposição primeiro
+(`explique`, `resuma`, `revisão expositiva`, `ensine primeiro`). Não faça pergunta
+de roteamento quando a intenção já estiver clara.
 
-## First response contract
+`urgency: critical` reduz o escopo, mas não abre o portão por si só. Se o aluno
+pedir revisão rápida, ofereça uma escolha concreta: microteste único, bloco de
+pivôs ou exposição direta. Pedido explícito de exposição direta permite carregar
+a view pós-tentativa imediatamente, sem impor dois turnos; não trate exposição
+como tentativa e ofereça prática não resolvida ao final.
 
-Before the learner attempts anything, deliver only these elements, in this
-order:
+## Contrato da primeira resposta
 
-1. why the topic matters for the active target;
-2. how it tends to appear in the assessment;
-3. the minimum operational concept, limited to the **type of decision** the
-   learner must make; it must not contain the answer or any treatment name,
-   drug, dose, cutoff, classification label, protocol sequence, or completed
-   diagnostic conclusion that resolves the item;
-4. the clinical or decision pivot as an **open question** — name the decisive
-   variable, but do not apply it to the case or reveal the filled cutoff/table;
-5. exactly **one** active question or mini-case without a visible solution.
+Antes de qualquer tentativa, entregue somente, nesta ordem:
 
-End immediately after item 5 and wait. The first intervention must not contain
-the answer, applied pivot, **any treatment names or treatment sequence**, doses, cutoffs, traps,
-distractors, cards, or a stopping rubric that gives away the solution. Do not
-load or quote `ACTIVE_STUDY_REVEAL_AFTER_ATTEMPT.md` or equivalent reveal-only
-capsule fields for this intervention.
+1. por que o tema importa para o alvo ativo;
+2. como tende a aparecer na avaliação;
+3. conceito operacional mínimo, restrito ao **tipo de decisão**; não inclua a
+   resposta, tratamento, fármaco, dose, corte, rótulo classificatório, sequência
+   de protocolo ou conclusão diagnóstica que resolva o item;
+4. pivô clínico/decisório como **pergunta em aberto**: nomeie a variável decisiva,
+   sem aplicá-la ao caso nem preencher corte/tabela;
+5. exatamente **uma** pergunta ativa ou minicaso sem solução visível.
 
-The question must be answerable from the minimum concept and the available
-source context. If the source is weak or conflicted, label that limitation;
-do not compensate by revealing the solution.
+Termine imediatamente depois do item 5 e espere. A primeira intervenção não pode
+conter gabarito, pivô aplicado, nome/sequência de tratamento, doses, cortes,
+pegadinhas, distratores, cards ou critério de parada que revele a solução. Não
+leia nem cite `ACTIVE_STUDY_REVEAL_AFTER_ATTEMPT.md` para compor esta resposta.
 
-Pre-send check: if a learner could copy a clinical statement from the preamble
-as the answer to item 5, delete that statement and keep it for the post-attempt
-view. A multiple-choice option may contain treatment names when needed, but the
-preamble must not endorse one option or restate the correct sequence.
+A questão precisa ser respondível pelo conceito mínimo e pela fonte disponível.
+Fonte fraca/conflitante recebe rótulo honesto; não compense revelando a solução.
 
-## Transition rule
+Antes de enviar, remova qualquer frase do preâmbulo que o aluno pudesse copiar
+como resposta. Alternativas podem conter tratamentos quando necessário, mas o
+preâmbulo não pode endossar uma opção nem repetir a sequência correta.
 
-The gate opens only after the learner submits an attempt, says they do not
-know, or explicitly requests exposition. A declaration of `não sei` is still a
-response event, but it is not evidence of mastery. If the learner explicitly
-requested exposition before practice, the reveal view may be used immediately,
-but the answer must still end with an unsolved practice item and must not treat
-exposure as an evaluated attempt.
+## Transição
+
+O portão abre somente após tentativa, `não sei` ou pedido explícito de exposição.
+`Não sei` é evento de resposta, mas não evidência de domínio. Exposição pedida
+antes da prática pode ser imediata, porém deve terminar com item não resolvido e
+nunca ser registrada como tentativa avaliada.

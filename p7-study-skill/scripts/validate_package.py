@@ -274,7 +274,7 @@ def validate_release(root: Path, evidence_mode: str = "auto") -> list[Finding]:
         if status != "passed":
             open_gates += 1
             findings.append(Finding("WARN", "RELEASE_GATE_OPEN", f"{gate_id}: {status}", True))
-    expected_decision = "READY_FOR_USER_REVIEW" if is_final and open_gates == 0 else "HOLD"
+    expected_decision = "READY_FOR_RELEASE" if is_final and open_gates == 0 else "HOLD"
     if gates.get("decision") != expected_decision:
         findings.append(Finding("ERROR", "RELEASE_DECISION_INCONSISTENT", f"expected {expected_decision}", True))
     if is_candidate and open_gates == 0:

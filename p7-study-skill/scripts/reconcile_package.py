@@ -17,6 +17,7 @@ from p7lib import (
     build_capsule_catalog,
     build_manifest,
     build_metrics,
+    build_operation_counts,
     canonical_json,
     index_capsule_paths,
     load_json,
@@ -31,7 +32,11 @@ def pretty_json(value: Any) -> str:
 
 def precision_csv(rows: list[dict[str, Any]]) -> str:
     stream = io.StringIO(newline="")
-    writer = csv.DictWriter(stream, fieldnames=["capsule_path", "section_row", "claim_text", "source_ids"], lineterminator="\n")
+    writer = csv.DictWriter(
+        stream,
+        fieldnames=["capsule_path", "section_row", "claim_text", "source_ids", "source_reference_status"],
+        lineterminator="\n",
+    )
     writer.writeheader()
     writer.writerows(rows)
     return stream.getvalue()
@@ -103,6 +108,7 @@ def artifacts(root: Path) -> dict[str, str]:
         "CAPSULE_CATALOG.json": pretty_json({"schema_version": "1.0.0", "capsules": catalog}),
         "CAPSULE_INDEX.generated.md": generated_index(catalog, root),
         "METRICS.json": pretty_json(build_metrics(root)),
+        "OPERATION_COUNTS.json": pretty_json(build_operation_counts(root)),
         "PACKAGE_MANIFEST.json": pretty_json(build_manifest(root)),
         "PRECISION_ROWS.csv": precision_csv(precision_rows(root)),
         "CLINICAL_CLAIMS.csv": clinical_claims_csv(root),

@@ -27,10 +27,18 @@
       "low": 10,
       "medium": 43
     },
-    "bytes": 2181703,
+    "bytes": 2180131,
     "net_recovered_since_baseline": 2,
     "total": 158,
     "without_resolved_source_id": 28
+  },
+  "operation_taxonomy": {
+    "canonical_operations": 12,
+    "taxonomy_rows": 152
+  },
+  "precision_provenance": {
+    "resolved": 75,
+    "unresolved_source_reference": 2317
   },
   "precision_rows": 2392,
   "runtime_source_availability": {

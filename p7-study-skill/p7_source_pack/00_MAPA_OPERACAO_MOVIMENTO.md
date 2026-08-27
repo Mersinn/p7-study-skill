@@ -34,15 +34,17 @@ em causa do erro.
 | aplicar critério | 42 |
 | conduta definitiva | 21 |
 | conduta inicial | 16 |
-| diferenciar próximos | 13 |
+| diferenciar próximos | 17 |
 | reconhecer diagnóstico | 13 |
 | comparar função | 10 |
 | melhor exame | 7 |
 | interpretar imagem/ecg/laboratório | 7 |
 | priorizar emergência | 4 |
-| diferenciar proximos | 4 |
 | identificar complicação | 3 |
 | reconhecer contraindicação | 3 |
+
+As variantes ortográficas são consolidadas por `config/normalization.json`; as
+contagens canônicas reproduzíveis estão em `artifacts/OPERATION_COUNTS.json`.
 
 `aplicar critério` domina. Isso significa que a prova do P7 raramente pergunta
 "o que é X" — ela dá um caso e pede que você **aplique um critério a ele**.
