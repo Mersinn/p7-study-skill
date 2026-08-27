@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "p7/v1.5.0/occurrence-disposition.schema.json",
+  "title": "OccurrenceDisposition",
+  "type": "object",
+  "required": ["schema_version", "record_type", "detection_id", "disposition", "target_claim_id", "target_origin", "decision_basis"],
+  "properties": {
+    "schema_version": {"const": "1.5.0-inventory.1"},
+    "record_type": {"const": "OccurrenceDisposition"},
+    "detection_id": {"type": "string", "minLength": 1},
+    "disposition": {"enum": ["canonical_claim", "candidate_claim_pending"]},
+    "target_claim_id": {"type": "string", "minLength": 1},
+    "target_origin": {"enum": ["read_only_registry_reference", "candidate_inventory"]},
+    "decision_basis": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": true
+}
