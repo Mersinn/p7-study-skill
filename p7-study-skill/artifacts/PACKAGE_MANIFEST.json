@@ -42,9 +42,9 @@
       "sha256": "8886395f09689fb3cfbbd975e9617af6968cbcdd16c20f97728d68bca8fded92"
     },
     {
-      "bytes": 11443,
+      "bytes": 11529,
       "path": "SKILL.md",
-      "sha256": "5b2a76843bf8d6d660df0067f1568642d8d6d56852ddbbe13265627dcd9aecb2"
+      "sha256": "265ff379e8d8fc71f880e82a731809ac63f1d0bbbad8bd4f497000b182365a6b"
     },
     {
       "bytes": 11,
@@ -1002,9 +1002,9 @@
       "sha256": "b5f4012e4ab9a3fac2113e9082963522b27c18acf5d1f53fb01a47f757c89ade"
     },
     {
-      "bytes": 15659,
+      "bytes": 15956,
       "path": "references/MEDICAL_SAFETY_LAYER.md",
-      "sha256": "e62ab6d34dd4e126222252c6bdf86738a4f0abf4f112d83970837d4e4c3f0e87"
+      "sha256": "7661e8d2f79e4ed0d5d56f7896bb6a74102c8df8bd137a409c1980bdb159e8c7"
     },
     {
       "bytes": 11325,
@@ -1207,12 +1207,12 @@
       "sha256": "43e5f372cec00af7e756b4231dc3f2c473f9897c9e12f0816e4cde725345e230"
     },
     {
-      "bytes": 5210,
+      "bytes": 5324,
       "path": "tests/test_v150_contract.py",
-      "sha256": "cc845c18b39cc0bcc8911933974d9babbb8f76bdbe23b2617b0caa1a9811c504"
+      "sha256": "2ac05effb4e1d80e63ce356be9d14a89115e255d5bb2139f1318f6de685f1de2"
     }
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 3039404
+  "total_bytes": 3039901
 }

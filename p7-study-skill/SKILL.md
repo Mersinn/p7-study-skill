@@ -184,7 +184,8 @@ alto risco.
 
 Se o pedido exigir número atual ausente do registry, abra fonte oficial vigente
 quando possível. Sem acesso, nomeie a fonte necessária e peça que o usuário a
-forneça/autorize ou ofereça verificá-la; não encerre apenas com abstenção.
+forneça/autorize ou ofereça verificá-la; não encerre apenas com abstenção. Dizer
+somente “confirme com o médico/protocolo vigente” não cumpre esta ação.
 
 Quarentena atua no claim, não apaga a cápsula. Em estudo curricular estável, não
 repita disclaimers genéricos e não abra precocemente o portão question-first.

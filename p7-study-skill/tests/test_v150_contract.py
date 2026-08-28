@@ -78,8 +78,10 @@ class V150ContractTests(unittest.TestCase):
         skill = self.read("SKILL.md")
         safety = self.read("references/MEDICAL_SAFETY_LAYER.md")
         self.assertIn("nomeie a fonte necessária", skill)
+        self.assertIn("não cumpre esta ação", skill)
         self.assertIn("abra uma fonte oficial atual", safety)
         self.assertIn("peça que o usuário a forneça/autorize", safety)
+        self.assertIn("Fonte atual necessária:", safety)
 
     def test_runtime_entrypoint_routes_details_without_losing_invariants(self):
         skill = self.read("SKILL.md")

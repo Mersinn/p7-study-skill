@@ -114,7 +114,11 @@ Trate claim crítico não registrado como `pending`:
   registrado, a resposta não termina apenas em abstenção ou “procure um médico”:
   abra uma fonte oficial atual se a superfície permitir; se não permitir, nomeie
   a fonte oficial necessária e peça que o usuário a forneça/autorize, ou ofereça
-  explicitamente verificá-la. Não forneça o número antes dessa checagem.
+  explicitamente verificá-la. Inclua na resposta uma ação concreta, por exemplo:
+  `Fonte atual necessária: diretriz oficial da sociedade/autoridade aplicável;
+  envie o documento ou autorize a consulta e eu verifico o número.` Referência
+  genérica a “médico” ou “protocolo vigente” não substitui essa ação. Não forneça
+  o número antes da checagem.
 
 Fingir que o registry cobre algo que ele não cobre é exatamente a falha que esta
 camada existe para impedir.
