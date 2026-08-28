@@ -58,6 +58,8 @@ class V150ContractTests(unittest.TestCase):
         reveal = self.read("references/ACTIVE_STUDY_REVEAL_AFTER_ATTEMPT.md")
         self.assertIn("Contrato completo da **primeira intervenção**", first)
         self.assertIn("exatamente **uma** pergunta ativa", first)
+        self.assertIn("Faça também o teste de subtração", first)
+        self.assertIn("Omita por completo", first)
         self.assertIn("O portão abre somente", first)
         self.assertIn("o único\n   prompt interrogativo", first)
         self.assertIn("Entrega pós-tentativa", reveal)

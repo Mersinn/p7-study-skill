@@ -942,9 +942,9 @@
       "sha256": "3163c6deb9de373c7bcb92d4616e84cdbbc8a2621c63b83f0aa9bf3e4e6d1369"
     },
     {
-      "bytes": 2806,
+      "bytes": 3489,
       "path": "references/ACTIVE_STUDY_QUESTION_FIRST.md",
-      "sha256": "e78fbb522b0c5fb165e6b710bc2e40c0ce5e86a69ec3dfc92b50ae4a07754579"
+      "sha256": "16ec87c6322f4fb5cd5c157da29ccc234bab0cd4f9467bb92daceab447ac1837"
     },
     {
       "bytes": 1463,
@@ -1207,12 +1207,12 @@
       "sha256": "43e5f372cec00af7e756b4231dc3f2c473f9897c9e12f0816e4cde725345e230"
     },
     {
-      "bytes": 5324,
+      "bytes": 5444,
       "path": "tests/test_v150_contract.py",
-      "sha256": "2ac05effb4e1d80e63ce356be9d14a89115e255d5bb2139f1318f6de685f1de2"
+      "sha256": "3bb217ac6c0e5df89f0ae417c39e5ee6f8e1ccec83a78d3fb373f34e71c154e8"
     }
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 3039901
+  "total_bytes": 3040704
 }

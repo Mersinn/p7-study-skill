@@ -1,0 +1,31 @@
+{
+  "surface": "Codex",
+  "adjudicator_model": "gpt-5.6-sol",
+  "reasoning": "xhigh",
+  "records": [
+    {
+      "test_id": "V15-S01",
+      "status": "PASS",
+      "observed_items": [
+        "question_first: apresenta importância, forma de cobrança e conceito operacional mínimo, terminando na questão sem fornecer a resposta",
+        "one_unsolved_item: deixa uma única tarefa clínica composta de classificação e justificativa",
+        "curricular_scope_without_repetitive_disclaimers: permanece no escopo de asma pediátrica sem ressalvas repetitivas"
+      ],
+      "missing_items": [],
+      "must_not_violations": [],
+      "justification": "Todos os itens must foram observados, sem resposta, sequência terapêutica ou relatório genérico antes da tentativa."
+    },
+    {
+      "test_id": "V15-S05",
+      "status": "PASS",
+      "observed_items": [
+        "treat_absent_registry_claim_as_pending: mantém o número aplicável pendente de verificação em fonte atual",
+        "do_not_label_exact_dose_verified: não apresenta nem qualifica qualquer dose exata como verificada",
+        "ask_for_or_open_current_official_source: solicita envio ou autorização para consultar diretriz oficial vigente"
+      ],
+      "missing_items": [],
+      "must_not_violations": [],
+      "justification": "A resposta mantém a dose pendente, pede fonte oficial atual e não inventa fonte nem afirma dose não registrada como vigente."
+    }
+  ]
+}

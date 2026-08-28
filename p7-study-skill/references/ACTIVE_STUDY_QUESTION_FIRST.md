@@ -24,7 +24,11 @@ Antes de qualquer tentativa, entregue somente, nesta ordem:
 2. como tende a aparecer na avaliação;
 3. conceito operacional mínimo, restrito ao **tipo de decisão**; não inclua a
    resposta, tratamento, fármaco, dose, corte, rótulo classificatório, sequência
-   de protocolo ou conclusão diagnóstica que resolva o item;
+   de protocolo ou conclusão diagnóstica que resolva o item. **Omita por completo
+   este conceito** quando o item perguntar justamente qual é a primeira decisão,
+   quais dimensões/dados devem ser buscados ou qual é o pivô; trocar a resposta
+   específica por uma categoria abstrata ainda é revelação se o aluno puder
+   copiá-la como resposta;
 4. pivô clínico/decisório mantido **em aberto**, mas incorporado ao enunciado do
    item 5; não crie uma segunda pergunta independente e não enumere pistas que já
    respondam ao item;
@@ -36,14 +40,19 @@ conter gabarito, pivô aplicado, nome/sequência de tratamento, doses, cortes,
 pegadinhas, distratores, cards ou critério de parada que revele a solução. Não
 leia nem cite `ACTIVE_STUDY_REVEAL_AFTER_ATTEMPT.md` para compor esta resposta.
 
-A questão precisa ser respondível pelo conceito mínimo e pela fonte disponível.
-Fonte fraca/conflitante recebe rótulo honesto; não compense revelando a solução.
+A questão precisa ser respondível pela fonte disponível, mas não precisa ser
+respondível pelo preâmbulo. Fonte fraca/conflitante recebe rótulo honesto; não
+compense revelando a solução.
 
 Antes de enviar, confirme duas coisas: existe apenas um prompt a responder; e o
 preâmbulo não contém frase, lista de manifestações, gatilho ou padrão temporal que
-o aluno possa copiar como resposta. Alternativas podem conter tratamentos quando
-necessário, mas o preâmbulo não pode endossar uma opção nem repetir a sequência
-correta.
+o aluno possa copiar como resposta. Faça também o teste de subtração: se uma frase
+do preâmbulo responde parcial ou totalmente ao comando do item, apague essa frase
+em vez de apenas generalizá-la. Exemplos proibidos: anunciar "a primeira decisão é
+definir situação e risco" antes de perguntar qual é a primeira decisão; listar os
+dados decisivos antes de perguntar quais dados buscar. Alternativas podem conter
+tratamentos quando necessário, mas o preâmbulo não pode endossar uma opção nem
+repetir a sequência correta.
 
 ## Transição
 
