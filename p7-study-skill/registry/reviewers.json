@@ -30,6 +30,16 @@
       "exact_serving_version": "not exposed",
       "human_review": false,
       "notes": "Revalidação focal de sepse neonatal contra SBP 2025 e NICE NG195 atualizado em 13/05/2026, com conflito preservado quando as fontes diferem. Não equivale a revisão clínica humana."
+    },
+    {
+      "schema_version": "1.0.0",
+      "reviewer_id": "agent:codex-clinical:2026-08-27",
+      "role": "self_reviewer_l1",
+      "provider": "OpenAI",
+      "model": "gpt-5.6-sol",
+      "exact_serving_version": "not exposed",
+      "human_review": false,
+      "notes": "Revisão L1 da v1.5.0; fonte GINA 2026 aberta e claim de oxigênio corrigido. Não equivale a revisão independente nem humana."
     }
   ],
   "generation_runs": [
