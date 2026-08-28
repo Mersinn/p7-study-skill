@@ -42,9 +42,9 @@
       "sha256": "8886395f09689fb3cfbbd975e9617af6968cbcdd16c20f97728d68bca8fded92"
     },
     {
-      "bytes": 11198,
+      "bytes": 11443,
       "path": "SKILL.md",
-      "sha256": "8d3d289d9435e2cfc84a31b180e75d976f985466640908bfff7d763330bfdda4"
+      "sha256": "5b2a76843bf8d6d660df0067f1568642d8d6d56852ddbbe13265627dcd9aecb2"
     },
     {
       "bytes": 11,
@@ -942,9 +942,9 @@
       "sha256": "3163c6deb9de373c7bcb92d4616e84cdbbc8a2621c63b83f0aa9bf3e4e6d1369"
     },
     {
-      "bytes": 2597,
+      "bytes": 2806,
       "path": "references/ACTIVE_STUDY_QUESTION_FIRST.md",
-      "sha256": "ddc573c823a77b8fc5ede41ae035a8efe6d4c1446c005a69ba32f23dc3d0b315"
+      "sha256": "e78fbb522b0c5fb165e6b710bc2e40c0ce5e86a69ec3dfc92b50ae4a07754579"
     },
     {
       "bytes": 1463,
@@ -1002,9 +1002,9 @@
       "sha256": "b5f4012e4ab9a3fac2113e9082963522b27c18acf5d1f53fb01a47f757c89ade"
     },
     {
-      "bytes": 15248,
+      "bytes": 15659,
       "path": "references/MEDICAL_SAFETY_LAYER.md",
-      "sha256": "b5f2c26953c16227c1becba5fda9d3fe4773618a2a7abdd0891a5f88556c55ae"
+      "sha256": "e62ab6d34dd4e126222252c6bdf86738a4f0abf4f112d83970837d4e4c3f0e87"
     },
     {
       "bytes": 11325,
@@ -1172,9 +1172,9 @@
       "sha256": "968587cc78626c84cc4670a00c777555ffa1759abb21c569f077bc68a0ab071c"
     },
     {
-      "bytes": 12708,
+      "bytes": 14072,
       "path": "scripts/release_evidence.py",
-      "sha256": "2d0cf9aa253a08c081960b5e7ce1c38eef9ed71f39521779503a786b28698402"
+      "sha256": "c8565affcef21714c72fed052f18cdba72a7959269257ff15925dc8a796f612f"
     },
     {
       "bytes": 477,
@@ -1207,12 +1207,12 @@
       "sha256": "43e5f372cec00af7e756b4231dc3f2c473f9897c9e12f0816e4cde725345e230"
     },
     {
-      "bytes": 4761,
+      "bytes": 5210,
       "path": "tests/test_v150_contract.py",
-      "sha256": "2c2c726d33924dbc276ed2ed940678c7a376f9598110ea0762ae62227146eff2"
+      "sha256": "cc845c18b39cc0bcc8911933974d9babbb8f76bdbe23b2617b0caa1a9811c504"
     }
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 3036726
+  "total_bytes": 3039404
 }

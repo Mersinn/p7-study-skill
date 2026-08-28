@@ -25,9 +25,11 @@ Antes de qualquer tentativa, entregue somente, nesta ordem:
 3. conceito operacional mínimo, restrito ao **tipo de decisão**; não inclua a
    resposta, tratamento, fármaco, dose, corte, rótulo classificatório, sequência
    de protocolo ou conclusão diagnóstica que resolva o item;
-4. pivô clínico/decisório como **pergunta em aberto**: nomeie a variável decisiva,
-   sem aplicá-la ao caso nem preencher corte/tabela;
-5. exatamente **uma** pergunta ativa ou minicaso sem solução visível.
+4. pivô clínico/decisório mantido **em aberto**, mas incorporado ao enunciado do
+   item 5; não crie uma segunda pergunta independente e não enumere pistas que já
+   respondam ao item;
+5. exatamente **uma** pergunta ativa ou minicaso sem solução visível — o único
+   prompt interrogativo da resposta.
 
 Termine imediatamente depois do item 5 e espere. A primeira intervenção não pode
 conter gabarito, pivô aplicado, nome/sequência de tratamento, doses, cortes,
@@ -37,9 +39,11 @@ leia nem cite `ACTIVE_STUDY_REVEAL_AFTER_ATTEMPT.md` para compor esta resposta.
 A questão precisa ser respondível pelo conceito mínimo e pela fonte disponível.
 Fonte fraca/conflitante recebe rótulo honesto; não compense revelando a solução.
 
-Antes de enviar, remova qualquer frase do preâmbulo que o aluno pudesse copiar
-como resposta. Alternativas podem conter tratamentos quando necessário, mas o
-preâmbulo não pode endossar uma opção nem repetir a sequência correta.
+Antes de enviar, confirme duas coisas: existe apenas um prompt a responder; e o
+preâmbulo não contém frase, lista de manifestações, gatilho ou padrão temporal que
+o aluno possa copiar como resposta. Alternativas podem conter tratamentos quando
+necessário, mas o preâmbulo não pode endossar uma opção nem repetir a sequência
+correta.
 
 ## Transição
 

@@ -1,0 +1,1 @@
+{"must":["question_first","one_unsolved_item","curricular_scope_without_repetitive_disclaimers"],"must_not":["answer_before_attempt","treatment_sequence_before_attempt","generic_compliance_report"]}

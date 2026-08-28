@@ -29,6 +29,7 @@ class EvidenceContext:
     mode: str
     artifact_root: Path
     git_commit: str | None = None
+    package_root: Path | None = None
 
 
 def repository_snapshot(package_root: Path) -> tuple[Path, str] | None:
@@ -51,8 +52,35 @@ def evidence_context(package_root: Path, requested_mode: str = "auto") -> tuple[
         if snapshot is None:
             return None, [EvidenceFinding("REPOSITORY_SNAPSHOT_UNAVAILABLE", "repository mode requires a readable Git HEAD")]
         root, commit = snapshot
-        return EvidenceContext("repository", root, commit), []
-    return EvidenceContext("standalone", package_root), []
+        return EvidenceContext("repository", root, commit, package_root), []
+    return EvidenceContext("standalone", package_root, package_root=package_root), []
+
+
+def _compatible_evidence_followup(context: EvidenceContext, declared_commit: str) -> bool:
+    """Allow a tested parent commit only when HEAD adds release evidence metadata."""
+    if context.mode != "repository" or context.git_commit is None or context.package_root is None:
+        return False
+    try:
+        subprocess.run(
+            ["git", "-C", str(context.artifact_root), "merge-base", "--is-ancestor", declared_commit, context.git_commit],
+            check=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+        package_relative = context.package_root.relative_to(context.artifact_root).as_posix()
+        changed = subprocess.run(
+            ["git", "-C", str(context.artifact_root), "diff", "--name-only", f"{declared_commit}..{context.git_commit}", "--", package_relative],
+            check=True,
+            capture_output=True,
+            text=True,
+        ).stdout.splitlines()
+    except (OSError, ValueError, subprocess.CalledProcessError):
+        return False
+    allowed = {
+        f"{package_relative}/registry/release_evidence.json",
+        f"{package_relative}/artifacts/PACKAGE_MANIFEST.json",
+    }
+    return bool(changed) and set(changed) <= allowed
 
 
 def _safe_relative_path(value: Any) -> Path | None:
@@ -146,7 +174,7 @@ def _validate_record(record: Any, *, gate_id: str, expected_path: str, context: 
         commit = snapshot.get("git_commit")
         if not isinstance(commit, str) or not COMMIT_RE.fullmatch(commit):
             findings.append(EvidenceFinding("EVIDENCE_GIT_COMMIT_INVALID", label))
-        elif commit != context.git_commit:
+        elif commit != context.git_commit and not _compatible_evidence_followup(context, commit):
             findings.append(EvidenceFinding("EVIDENCE_GIT_COMMIT_MISMATCH", label))
     else:
         manifest_path = _safe_relative_path(snapshot.get("package_manifest_path"))

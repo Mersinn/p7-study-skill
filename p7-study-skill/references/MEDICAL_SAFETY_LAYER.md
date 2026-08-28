@@ -110,6 +110,11 @@ Trate claim crítico não registrado como `pending`:
   abstenha-se do número;
 - nunca invente a verificação. Não diga "conferido na diretriz" sem ter aberto a
   diretriz nesta sessão.
+- quando o usuário pedir **prática atual** e o número exato não estiver
+  registrado, a resposta não termina apenas em abstenção ou “procure um médico”:
+  abra uma fonte oficial atual se a superfície permitir; se não permitir, nomeie
+  a fonte oficial necessária e peça que o usuário a forneça/autorize, ou ofereça
+  explicitamente verificá-la. Não forneça o número antes dessa checagem.
 
 Fingir que o registry cobre algo que ele não cobre é exatamente a falha que esta
 camada existe para impedir.

@@ -59,6 +59,7 @@ class V150ContractTests(unittest.TestCase):
         self.assertIn("Contrato completo da **primeira intervenção**", first)
         self.assertIn("exatamente **uma** pergunta ativa", first)
         self.assertIn("O portão abre somente", first)
+        self.assertIn("o único\n   prompt interrogativo", first)
         self.assertIn("Entrega pós-tentativa", reveal)
         self.assertIn("INDETERMINADO", reveal)
         self.assertNotIn("## When to use", first)
@@ -72,6 +73,13 @@ class V150ContractTests(unittest.TestCase):
             self.assertIn("microteste", text)
             self.assertIn("exposição direta", text)
         self.assertIn("não abre o portão por si só", skill)
+
+    def test_unregistered_current_number_has_an_operational_source_next_step(self):
+        skill = self.read("SKILL.md")
+        safety = self.read("references/MEDICAL_SAFETY_LAYER.md")
+        self.assertIn("nomeie a fonte necessária", skill)
+        self.assertIn("abra uma fonte oficial atual", safety)
+        self.assertIn("peça que o usuário a forneça/autorize", safety)
 
     def test_runtime_entrypoint_routes_details_without_losing_invariants(self):
         skill = self.read("SKILL.md")

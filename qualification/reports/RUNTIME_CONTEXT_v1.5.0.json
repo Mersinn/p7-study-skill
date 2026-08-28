@@ -3,12 +3,12 @@
   "bundles": {
     "estudar_tema": {
       "after": {
-        "bytes": 44115,
-        "estimated_tokens": 11029,
+        "bytes": 44370,
+        "estimated_tokens": 11093,
         "files": {
-          "SKILL.md": 11198,
-          "capsules/CAPSULE_INDEX.md": 30320,
-          "references/ACTIVE_STUDY_QUESTION_FIRST.md": 2597
+          "SKILL.md": 11443,
+          "capsules/CAPSULE_INDEX.md": 30121,
+          "references/ACTIVE_STUDY_QUESTION_FIRST.md": 2806
         }
       },
       "before": {
@@ -26,17 +26,17 @@
         "capsules/CAPSULE_INDEX.md"
       ],
       "reduction": {
-        "bytes": 26023,
-        "percent": 37.1
+        "bytes": 25768,
+        "percent": 36.74
       }
     },
     "osce": {
       "after": {
-        "bytes": 19844,
-        "estimated_tokens": 4961,
+        "bytes": 19968,
+        "estimated_tokens": 4992,
         "files": {
-          "SKILL.md": 11198,
-          "references/CASE_OSCE_TUTOR.md": 8646
+          "SKILL.md": 11443,
+          "references/CASE_OSCE_TUTOR.md": 8525
         }
       },
       "before": {
@@ -52,17 +52,17 @@
         "references/CASE_OSCE_TUTOR.md"
       ],
       "reduction": {
-        "bytes": 26008,
-        "percent": 56.72
+        "bytes": 25884,
+        "percent": 56.45
       }
     },
     "plano_de_guerra": {
       "after": {
-        "bytes": 19638,
-        "estimated_tokens": 4910,
+        "bytes": 19772,
+        "estimated_tokens": 4943,
         "files": {
-          "SKILL.md": 11198,
-          "references/TARGET_AWARE_STUDY_PLANNER.md": 8440
+          "SKILL.md": 11443,
+          "references/TARGET_AWARE_STUDY_PLANNER.md": 8329
         }
       },
       "before": {
@@ -78,17 +78,17 @@
         "references/TARGET_AWARE_STUDY_PLANNER.md"
       ],
       "reduction": {
-        "bytes": 25513,
-        "percent": 56.51
+        "bytes": 25379,
+        "percent": 56.21
       }
     },
     "resolver_questao": {
       "after": {
-        "bytes": 33364,
-        "estimated_tokens": 8341,
+        "bytes": 33424,
+        "estimated_tokens": 8356,
         "files": {
-          "SKILL.md": 11198,
-          "references/QUESTION_INTELLIGENCE_P7.md": 22166
+          "SKILL.md": 11443,
+          "references/QUESTION_INTELLIGENCE_P7.md": 21981
         }
       },
       "before": {
@@ -104,16 +104,16 @@
         "references/QUESTION_INTELLIGENCE_P7.md"
       ],
       "reduction": {
-        "bytes": 25944,
-        "percent": 43.74
+        "bytes": 25884,
+        "percent": 43.64
       }
     },
     "retomada": {
       "after": {
-        "bytes": 27606,
-        "estimated_tokens": 6902,
+        "bytes": 27851,
+        "estimated_tokens": 6963,
         "files": {
-          "SKILL.md": 11198,
+          "SKILL.md": 11443,
           "references/LEARNER_STATE_PROTOCOL.md": 16408
         }
       },
@@ -130,17 +130,17 @@
         "references/LEARNER_STATE_PROTOCOL.md"
       ],
       "reduction": {
-        "bytes": 26129,
-        "percent": 48.63
+        "bytes": 25884,
+        "percent": 48.17
       }
     },
     "simular_prova": {
       "after": {
-        "bytes": 16712,
-        "estimated_tokens": 4178,
+        "bytes": 16853,
+        "estimated_tokens": 4214,
         "files": {
-          "SKILL.md": 11198,
-          "references/SIMULATION_PROTOCOL.md": 5514
+          "SKILL.md": 11443,
+          "references/SIMULATION_PROTOCOL.md": 5410
         }
       },
       "before": {
@@ -156,15 +156,15 @@
         "references/SIMULATION_PROTOCOL.md"
       ],
       "reduction": {
-        "bytes": 26025,
-        "percent": 60.9
+        "bytes": 25884,
+        "percent": 60.57
       }
     }
   },
   "dynamic_capsule": {
     "count": 158,
     "max_bytes": 23957,
-    "median_bytes": 13936,
+    "median_bytes": 13925,
     "min_bytes": 4425,
     "note": "dynamic capsule cost is separate from the fixed Estudar Tema bundle",
     "p95_bytes": 20283

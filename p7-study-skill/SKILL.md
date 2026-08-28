@@ -182,6 +182,10 @@ alto risco.
 - claim crítico ausente, `pending`, `conflict` ou `quarantined`: não o apresente
   como vigente.
 
+Se o pedido exigir número atual ausente do registry, abra fonte oficial vigente
+quando possível. Sem acesso, nomeie a fonte necessária e peça que o usuário a
+forneça/autorize ou ofereça verificá-la; não encerre apenas com abstenção.
+
 Quarentena atua no claim, não apaga a cápsula. Em estudo curricular estável, não
 repita disclaimers genéricos e não abra precocemente o portão question-first.
 Emergência real do usuário tem precedência de segurança.
