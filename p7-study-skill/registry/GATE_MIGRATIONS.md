@@ -70,3 +70,15 @@ aqui como `superseded`, com motivo, autoridade e gate substituto.
   estruturada e coerência narrativa.
 - **Decisão após a migração:** `HOLD`. Nenhum PASS clínico foi transferido por
   narrativa e nenhum PASS comportamental histórico foi descartado.
+
+---
+
+## 2026-08-30 — fechamento verificável da v1.5.0
+
+- Os 17 gates atuais foram fechados a partir de registros canônicos, hashes e
+  denominadores explícitos; nenhum gate retirado foi convertido retroativamente em PASS.
+- O inventário 3.602/3.602 e o alto risco 2.817/2.817 significam destino clínico
+  explícito. `pending`, `quarantined` e `conflict` continuam bloqueados para prática atual.
+- `READY_FOR_RELEASE` é somente o estado mecânico do registry. A decisão de produto
+  é `READY_FOR_USER_REVIEW`; merge, tag e publicação não foram autorizados.
+- Claude permaneceu `not_evaluated` por OAuth e não foi misturado ao denominador Codex.

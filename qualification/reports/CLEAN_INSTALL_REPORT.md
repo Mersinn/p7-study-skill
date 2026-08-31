@@ -1,74 +1,20 @@
-# CLEAN_INSTALL_REPORT — instalação descartável
+# CLEAN_INSTALL_REPORT — P7 Study Skill 1.5.0
 
-> **Fechamento v7 — 26/08/2026:** instalação standalone final executada a
-> partir da árvore de release. Resultado: 28 testes = 27 PASS + 1 SKIP
-> da fixture de qualificação que não é distribuída; 158 cápsulas reconciliadas;
-> `validate_package.py` com `error=0`; release gate `READY_FOR_USER_REVIEW`.
-> O snapshot histórico abaixo permanece apenas como trilha de auditoria.
+## Estado
 
-**Data:** 25/08/2026 (snapshot histórico anterior preservado abaixo)
-**Fonte vigente:** `qualification/v1.0.0-codex` @ `39ed34e`
-**Ambiente:** cópia descartável em `work/clean_install_20260822_v2`, fora do clone
-versionado; nenhum corpus bruto foi copiado.
+O gate permanece condicionado à execução final sobre o ZIP determinístico da
+v1.5.0. O snapshot do repositório já passou 54/54 testes e reconciliou 158/158
+cápsulas; os números standalone serão preenchidos após a extração descartável.
 
-## Procedimento reproduzido
+## Contrato da execução final
 
-1. Copiada a pasta completa `p7-study-skill/` para
-   `.codex/skills/p7-study-skill/` em diretório descartável.
-2. Confirmadas as camadas opcionais ausentes: `corpus_text=False`,
-   `vision_png=False`.
-3. Executados os comandos documentados pelo pacote:
+1. construir duas vezes e exigir ZIPs byte a byte idênticos;
+2. extrair em diretório descartável, sem histórico, `corpus_text/` ou `vision_png/`;
+3. executar testes, reconciliação, validação normal e `--release-gate` em modo standalone;
+4. registrar SHA-256 do ZIP, contagens exatas, warnings e código de saída;
+5. não converter ausência de camada opcional em PASS clínico.
 
-```text
-python scripts/run_tests.py                         → 20/20 PASS
-python scripts/reconcile_package.py --write         → EXIT_CODE=0
-python scripts/reconcile_package.py --check         → 158 cápsulas reconciliadas, EXIT_CODE=0
-python scripts/validate_package.py                 → error=2, warn=36, info=2, EXIT_CODE=1 (2 conflitos clínicos de alto risco)
-python scripts/validate_package.py --release-gate   → EXIT_CODE=1, HOLD
-```
+## Compatibilidade separada
 
-O fallback sem corpus/vision foi observado como `metadata_only`; não houve
-alegação de inspeção de fonte bruta. As dependências são apenas biblioteca
-padrão Python.
-
-## Revalidação após a reconstrução estrutural — 24/08/2026
-
-Uma terceira cópia descartável (`qualification/clean_install_20260824_structural`)
-foi criada a partir do commit local `16b492f`, incluindo as duas views novas de
-entrega ativa. Resultado reproduzível:
-
-```text
-python scripts/run_tests.py                         → 20/20 PASS
-python scripts/reconcile_package.py --write         → EXIT_CODE=0
-python scripts/reconcile_package.py --check         → 158 cápsulas reconciliadas, EXIT_CODE=0
-python scripts/validate_package.py                 → error=2, warn=36, info=2, EXIT_CODE=1
-python scripts/validate_package.py --release-gate   → EXIT_CODE=1, HOLD
-```
-
-A instalação e os artefatos permanecem determinísticos. Os dois erros são os
-conflitos clínicos de alto risco já registrados; não foram mascarados pela
-mudança estrutural.
-
-## Limitação
-
-As tentativas Claude de T10 continuam registradas como compatibilidade e não
-afetam este gate de instalação. Elas permanecem relevantes para
-`scripted_user_journeys`, não para `clean_install`.
-
-## Revalidação vigente — instalação descartável v4
-
-Foi copiada a skill atual para
-`qualification/headless_test_env/clean_install_20260825/p7-study-skill`, sem
-corpus bruto nem estado do aluno. Na cópia descartável, os comandos produziram:
-
-```text
-python scripts/run_tests.py                 → 20/20 PASS
-python scripts/reconcile_package.py --write → EXIT_CODE=0
-python scripts/reconcile_package.py --check → 158 cápsulas reconciliadas, EXIT_CODE=0
-python scripts/validate_package.py          → error=0, warn=36, info=2
-```
-
-O gate `clean_install` está **PASS** com esta evidência. Isso não fecha a
-release: `critical_claim_sweep`, `p0_zero`, `p1_high_risk_zero`, os gates
-comportamentais, o E2E longitudinal e as jornadas continuam independentes e
-mantêm a decisão global em `HOLD`.
+Claude permanece `not_evaluated` por OAuth. Essa pendência não bloqueia a
+instalação Codex e não entra no denominador standalone.

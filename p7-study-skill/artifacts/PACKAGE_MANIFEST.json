@@ -7,9 +7,9 @@
       "sha256": "15bd33c92eeec9d4141d74278678d34552e808b079ffde6b53f25bf6c969b111"
     },
     {
-      "bytes": 1471,
+      "bytes": 1467,
       "path": "COMPATIBILITY.md",
-      "sha256": "a752bf1053467e560c45774f70ffe21ec002a267c67675352a3068012f30bd2f"
+      "sha256": "269de6f80acb585b61f97a1506e5bfd6dfd5d7a290443358157772672c3eb26c"
     },
     {
       "bytes": 878,
@@ -27,9 +27,9 @@
       "sha256": "804f285e50c13fc339d99581c988883577f6c87bf27619e30b9a82ac8f223680"
     },
     {
-      "bytes": 6637,
+      "bytes": 6758,
       "path": "README_INSTALL.md",
-      "sha256": "604a8dd5f6d93bc0943e17ca42e38253a3a08c0c72cb02aa6b82b3f8b19bd419"
+      "sha256": "dad5958655017640dc071bf7960d3f9a0c98ab4216cc10c5c1da14600b8fbaf9"
     },
     {
       "bytes": 1937,
@@ -37,9 +37,9 @@
       "sha256": "7853950f085fe2da6f2095a533b4b1de1e7cf1d55cf91fca6bbff77b9d2e6f79"
     },
     {
-      "bytes": 1139,
+      "bytes": 1447,
       "path": "RELEASE_NOTES_v1.5.0.md",
-      "sha256": "8886395f09689fb3cfbbd975e9617af6968cbcdd16c20f97728d68bca8fded92"
+      "sha256": "038afd09daceb22733190cea1042615bc2182e9c2681407ddfdb6918e9203b23"
     },
     {
       "bytes": 11529,
@@ -47,9 +47,9 @@
       "sha256": "265ff379e8d8fc71f880e82a731809ac63f1d0bbbad8bd4f497000b182365a6b"
     },
     {
-      "bytes": 11,
+      "bytes": 6,
       "path": "VERSION",
-      "sha256": "f617c94b70aa3ef81aaf84be25b0164d033ba53c450d90952beed38158f3f3e0"
+      "sha256": "acb57a7135b2d7d6e665f67f056e21353023b93835f54def1ae523bf76f1bfb3"
     },
     {
       "bytes": 272,
@@ -1042,9 +1042,9 @@
       "sha256": "e5d4facd2463a259391475a1126619cc2fa0c99bdb88a12008ced82458cd3464"
     },
     {
-      "bytes": 4085,
+      "bytes": 4746,
       "path": "registry/GATE_MIGRATIONS.md",
-      "sha256": "1fb6135786220ae7dd31cd96d480482639d32cd10faeb4438b624cda69a25405"
+      "sha256": "ea1927126f3d68d85d8e0c794d57d3fc533ba54a6438d16494202f00ba598cfd"
     },
     {
       "bytes": 571,
@@ -1067,9 +1067,9 @@
       "sha256": "f8ea259898daaeabfac5cd3a9f9d792b40423af993caa649dedac43cab9d112d"
     },
     {
-      "bytes": 3993,
+      "bytes": 4264,
       "path": "registry/release_gates.json",
-      "sha256": "fcb46519865667187f6f4767c1090bd9bcede615a4f45c69176b720b7df2481a"
+      "sha256": "6faccb172a5e72bc5b72050eb443f3ac056cf957744d06a3116ddf78f9182570"
     },
     {
       "bytes": 3503,
@@ -1224,5 +1224,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 3055470
+  "total_bytes": 3056822
 }

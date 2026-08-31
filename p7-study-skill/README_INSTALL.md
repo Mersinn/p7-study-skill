@@ -2,10 +2,12 @@
 
 Skill privada de estudo do P7 (sétimo período, ciclo clínico — FAMENE).
 
-> **Estado: `1.0.0-rc.1` / READY_FOR_USER_REVIEW.** Codex, longitudinalidade,
+> **Estado: `1.5.0` / READY_FOR_USER_REVIEW.** Codex, longitudinalidade,
 > jornadas, gates estruturais e instalação portátil estão qualificados. Conteúdo
 > clínico é liberável somente com as quarentenas explícitas do registry. O usuário
-> ainda decide merge e publicação; Claude permanece não avaliado.
+> ainda decide merge e publicação; Claude permanece não avaliado. O registry
+> mecânico usa `READY_FOR_RELEASE` para indicar que os gates estão fechados, não
+> para autorizar publicação.
 
 Sucede a `p6-study-skill` v2.1.0, herdando a arquitetura e recuperando
 regressões e defeitos conhecidos (ver `CHANGELOG` abaixo).

@@ -1,6 +1,7 @@
-# P7 Study Skill 1.5.0-rc.1
+# P7 Study Skill 1.5.0
 
-**Estado:** `HOLD`. Esta release candidate não autoriza merge, tag ou publicação.
+**Estado dos gates:** `READY_FOR_RELEASE`. **Decisão de produto:**
+`READY_FOR_USER_REVIEW`. Isso não autoriza merge, tag ou publicação.
 
 ## Escopo da v1.5.0
 
@@ -11,15 +12,18 @@
 - proveniência estruturada e vocabulário normalizado;
 - builder determinístico, auditoria de ZIP e instalação limpa do artefato final.
 
-## Estado herdado
+## Resultado fechado
 
-Os resultados comportamentais, longitudinais e clínicos da qualificação 1.0.0
-foram preservados. Gates clínicos baseados em amostra foram reabertos porque não
-demonstram cobertura do universo. O gate longitudinal permanece aprovado porque
-seu bundle não mudou; comportamento e paridade P6 serão reexecutados somente nos
-bundles afetados pela refatoração.
+- 54/54 testes do repositório passaram no snapshot final.
+- Codex: 13/13 verificações comportamentais e 9/9 jornadas válidas passaram.
+- Longitudinalidade: 2/2 sessões limpas válidas; a sessão B avançou de 6 para 8 eventos.
+- Registry clínico: 52 claims = 34 `current` + 17 `quarantined` + 1 `conflict`.
+- Claims `current`: 34/34 com rastreabilidade exigida.
+- Inventário: 3.602/3.602 ocorrências primárias e 2.817/2.817 de alto risco têm
+  destino explícito; pendência/quarentena não é promovida a prática atual.
+- Claude permanece não avaliado por incompatibilidade OAuth, fora do denominador Codex.
 
 ## Condição de finalização
 
-Somente `VERSION = 1.5.0`, os 17 gates comprovados e o ZIP final validado permitem
-`READY_FOR_RELEASE`. Isso ainda não significa merge ou publicação.
+`VERSION = 1.5.0`, os 17/17 gates comprovados e o ZIP final validado permitem
+revisão do usuário. O usuário ainda decide merge, tag e publicação.
