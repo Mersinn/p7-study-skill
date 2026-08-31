@@ -29,6 +29,18 @@
 - Runtime: 6/6 bundles menores, redução de 36,74% a 60,57%.
 - Gates: 17/17 PASS.
 
+## Artefato final e instalação limpa
+
+- ZIP: `dist/P7-Study-Skill-1.5.0.zip`.
+- SHA-256: `21416ca72252856ce4d7b189b3f742a4bc1720d7f8276eec5ec31e4db92ed55f`.
+- Duas construções: 2/2 byte a byte idênticas; 253 entradas; raiz única;
+  0 caminhos inseguros, 0 duplicatas case-insensitive e 0 entradas proibidas.
+- Standalone: 54 testes executados = 53 PASS + 1 SKIP esperado da fixture de
+  qualificação não distribuída; 158/158 cápsulas; validação normal e release gate
+  com `error=0`, `warn=28`, `info=2` e exit code 0.
+- A cópia descartável confirmou `corpus_text=False`, `vision_png=False` e
+  `.p7-state=False`.
+
 ## Interpretação clínica correta
 
 “Contabilizado” não significa “clinicamente resolvido”. O inventário prova que
