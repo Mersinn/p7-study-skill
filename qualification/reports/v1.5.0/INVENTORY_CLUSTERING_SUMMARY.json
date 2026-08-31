@@ -40,7 +40,7 @@
     }
   },
   "input": {
-    "claims_registry_sha256": "4db8f870eeadb6534525e56040ea648571b2421e75867a7306231740d65f57d7",
+    "claims_registry_sha256": "df3f7ed4f07e2e2cc91dd804fce9336db1c9721c1eab237b5ea80f0d6ae3d337",
     "detections_sha256": "90eb93d1dd3af6ce02cb31a60a7aee884eff95a6cd2b0f06dfe4210ffe60fd14",
     "detector_schema_version": "critical-claim-scan/1.4.0"
   },

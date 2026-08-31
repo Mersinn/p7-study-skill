@@ -21,6 +21,7 @@ class PackageTests(unittest.TestCase):
         second = build_manifest(ROOT)
         self.assertEqual(first, second)
         self.assertTrue(all(not item["path"].startswith("artifacts/") for item in first["files"]))
+        self.assertTrue(all(item["path"] != "registry/release_evidence.json" for item in first["files"]))
 
     def test_capsule_index_reconciles_by_path(self):
         discovered = {item["path"] for item in build_capsule_catalog(ROOT)}

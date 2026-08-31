@@ -68,6 +68,20 @@ class ReleaseEvidenceTests(unittest.TestCase):
         with patch("release_evidence.repository_snapshot", return_value=(package, commit)):
             self.assertEqual(self.validate(package, evidence, "repository"), set())
 
+    def test_dual_snapshot_validates_in_repository_and_standalone(self):
+        package, evidence = self.build_package()
+        commit = "a" * 40
+        manifest = package / "artifacts" / "PACKAGE_MANIFEST.json"
+        evidence["evidence"][0]["snapshot"] = {
+            "mode": "dual",
+            "git_commit": commit,
+            "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+            "package_manifest_sha256": sha256(manifest),
+        }
+        self.assertEqual(self.validate(package, evidence, "standalone"), set())
+        with patch("release_evidence.repository_snapshot", return_value=(package, commit)):
+            self.assertEqual(self.validate(package, evidence, "repository"), set())
+
     def test_missing_artifact_path_is_rejected(self):
         package, evidence = self.build_package()
         (package / "proof.txt").unlink()

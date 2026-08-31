@@ -39,7 +39,8 @@
         "snapshot": {
           "oneOf": [
             {"type": "object", "additionalProperties": false, "required": ["mode", "git_commit"], "properties": {"mode": {"const": "repository"}, "git_commit": {"type": "string", "pattern": "^[a-f0-9]{40}$"}}},
-            {"type": "object", "additionalProperties": false, "required": ["mode", "package_manifest_path", "package_manifest_sha256"], "properties": {"mode": {"const": "standalone"}, "package_manifest_path": {"$ref": "#/$defs/relative_path"}, "package_manifest_sha256": {"$ref": "#/$defs/sha256"}}}
+            {"type": "object", "additionalProperties": false, "required": ["mode", "package_manifest_path", "package_manifest_sha256"], "properties": {"mode": {"const": "standalone"}, "package_manifest_path": {"$ref": "#/$defs/relative_path"}, "package_manifest_sha256": {"$ref": "#/$defs/sha256"}}},
+            {"type": "object", "additionalProperties": false, "required": ["mode", "git_commit", "package_manifest_path", "package_manifest_sha256"], "properties": {"mode": {"const": "dual"}, "git_commit": {"type": "string", "pattern": "^[a-f0-9]{40}$"}, "package_manifest_path": {"$ref": "#/$defs/relative_path"}, "package_manifest_sha256": {"$ref": "#/$defs/sha256"}}}
           ]
         },
         "scope": {"type": "object", "additionalProperties": false, "required": ["included_paths", "excluded_paths"], "properties": {"included_paths": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/relative_path"}, "uniqueItems": true}, "excluded_paths": {"type": "array", "items": {"$ref": "#/$defs/relative_path"}, "uniqueItems": true}}},

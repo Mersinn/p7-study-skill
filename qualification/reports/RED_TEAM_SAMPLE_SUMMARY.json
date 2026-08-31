@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "p7-study-skill/artifacts/CAPSULE_CATALOG.json": "23041f26c508d4cf1ea06dd7682c4d420014456c3438fbfecc34a848d9ad151c",
-    "p7-study-skill/registry/clinical_claims.jsonl": "4db8f870eeadb6534525e56040ea648571b2421e75867a7306231740d65f57d7",
-    "p7-study-skill/registry/source_versions.jsonl": "f026dc7241df0b193a078211c7f6426562a028b7513021687a4c3c695b75f6dc",
+    "p7-study-skill/artifacts/CAPSULE_CATALOG.json": "2958372e30cc267f71dc91da0d8c882d69979e69302839d72c65c7adfc7c20c6",
+    "p7-study-skill/registry/clinical_claims.jsonl": "df3f7ed4f07e2e2cc91dd804fce9336db1c9721c1eab237b5ea80f0d6ae3d337",
+    "p7-study-skill/registry/source_versions.jsonl": "5eabcbf322ebbce1c82945c94e6766f23b3c09a372b49b6eda31263b3e26c46e",
     "p7-study-skill/registry/sources.jsonl": "9141f42b9e4a188a4d414bf699df1dd3d91dff91d688770acdb1cb4fcc786479",
     "qualification/tools/build_red_team_sample.py": "3ceacaf91bf683c260ec4ef1d3c9005a21aa0683940c998239af75f57d9be9d9"
   },
@@ -10,12 +10,12 @@
     "conflict": 1,
     "current": 10,
     "historical_panel": 3,
-    "quarantined": 16,
+    "quarantined": 17,
     "unregistered_pending": 6
   },
   "rows_by_discipline": {
     "EISA_II": 8,
-    "EISCA": 14,
+    "EISCA": 15,
     "EISM": 11,
     "OSCE": 3
   },
@@ -24,20 +24,20 @@
     "current_claim": 10,
     "historical_panel": 3,
     "metadata_only_capsule": 6,
-    "quarantined_claim": 16
+    "quarantined_claim": 17
   },
   "rows_by_risk": {
-    "high": 35,
+    "high": 36,
     "low": 1
   },
   "rows_by_source_layer": {
     "A": 1,
-    "A_PRIME": 25,
+    "A_PRIME": 26,
     "B": 1,
     "curricular_mixed": 9
   },
-  "sample_csv_sha256": "07e5a9ca13fbcd4b1dec2c8bda8c3c2fbbb972790faa85ad2c7aa389380c7bee",
-  "sample_rows": 36,
+  "sample_csv_sha256": "9fa353ffefdde58316debb49dc148eaba1fb22444555342667a7c9a3a8e06ce2",
+  "sample_rows": 37,
   "schema_version": "1.0.0",
   "selection_contract": {
     "current_claims": "4 stable-hash selections per EISA_II, EISCA and EISM",

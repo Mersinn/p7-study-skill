@@ -12,9 +12,9 @@
       "high": 33,
       "medium": 1
     },
-    "current_traceable": 33,
-    "current_untraceable": 1,
-    "gate_result": "FAIL",
+    "current_traceable": 34,
+    "current_untraceable": 0,
+    "gate_result": "PASS",
     "limitations": [
       "This deterministic audit verifies traceability fields and reviewer independence, not medical truth by itself.",
       "Clinical support is challenged separately by the blind red team against the exact proposition and locator.",
@@ -180,14 +180,12 @@
         "source-version:gina.strategy.2026"
       ],
       "locators": [
-        "What is new in GINA 2026; Box 9-4 p.180 e Box 9-6 p.186"
+        "Box 9-4, PDF físico p.182 (rodapé impresso 181); Box 9-6, PDF físico p.187 (rodapé impresso 186)"
       ],
-      "reviewer_id": "agent:codex-clinical:2026-08-27",
-      "reviewed_at": "2026-08-27T12:00:00-03:00",
-      "traceability_status": "fail",
-      "failures": [
-        "missing_independent_review_l2"
-      ]
+      "reviewer_id": "agent:red-team-v150:2026-08-30",
+      "reviewed_at": "2026-08-30T23:45:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
     },
     {
       "claim_id": "claim:asth.initial-concurrent",

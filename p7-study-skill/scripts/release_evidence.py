@@ -158,7 +158,9 @@ def _validate_record(record: Any, *, gate_id: str, expected_path: str, context: 
     else:
         if path_value != expected_path:
             findings.append(EvidenceFinding("EVIDENCE_ARTIFACT_DECLARATION_MISMATCH", label))
-        path = context.artifact_root / relative
+        # Gate artifacts use one package-relative declaration in repository
+        # and standalone modes, so the same attestation travels in the ZIP.
+        path = (context.package_root or context.artifact_root) / relative
         if not path.is_file():
             findings.append(EvidenceFinding("EVIDENCE_ARTIFACT_MISSING", f"{label}: {path_value}"))
         else:
@@ -168,7 +170,8 @@ def _validate_record(record: Any, *, gate_id: str, expected_path: str, context: 
             elif sha256_file(path) != expected_hash:
                 findings.append(EvidenceFinding("EVIDENCE_SHA256_MISMATCH", label))
     snapshot = record.get("snapshot")
-    if not isinstance(snapshot, dict) or snapshot.get("mode") != context.mode:
+    snapshot_mode = snapshot.get("mode") if isinstance(snapshot, dict) else None
+    if not isinstance(snapshot, dict) or snapshot_mode not in {context.mode, "dual"}:
         findings.append(EvidenceFinding("EVIDENCE_SNAPSHOT_MODE_MISMATCH", label))
     elif context.mode == "repository":
         commit = snapshot.get("git_commit")

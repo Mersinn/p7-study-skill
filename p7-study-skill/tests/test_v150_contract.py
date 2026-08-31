@@ -114,6 +114,7 @@ class V150ContractTests(unittest.TestCase):
         osce_neuro = self.read("capsules/OSCE/osce_neurologia.md")
         ansioliticos = self.read("capsules/EISM/ansioliticos_e_hipnoticos.md")
         osce_pediatria = self.read("capsules/OSCE/osce_pediatria.md")
+        diarreia = self.read("capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md")
 
         for capsule in (erisipela, pneumonia, otites, nephro, sepse):
             self.assertIn("answer_key_scope: curricular", capsule)
@@ -168,6 +169,9 @@ class V150ContractTests(unittest.TestCase):
         self.assertNotIn("sequência B-C-D", osce_ped_active)
         self.assertNotIn("30mL/kg em 30min + 70mL/kg", osce_ped_active)
         self.assertIn("regra antiga de interrupção", osce_pediatria)
+        self.assertIn("claim:diarreia-planos.osmolaridade-sro", diarreia)
+        self.assertEqual(diarreia.count("QUARANTINED — transcrição curricular; locator clínico não fecha o conjunto"), 1)
+        self.assertEqual(diarreia.count("QUARANTINED — referência curricular não validada para prática atual"), 1)
 
         all_capsules = "\n".join(
             path.read_text(encoding="utf-8") for path in (ROOT / "capsules").rglob("*.md")

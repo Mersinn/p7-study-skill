@@ -577,9 +577,9 @@
       "sha256": "4d071b06b398671012dcf9eee43fb02050ca9c652790e3e81fdb7d4b3657e31b"
     },
     {
-      "bytes": 16092,
+      "bytes": 16662,
       "path": "capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md",
-      "sha256": "a97e26d684a4cfaaa9aa659c3c494f719b35cec7d3608abb526ebbe420145173"
+      "sha256": "868d86d5f26fe93cd72fd52e40336b87df0ede8d201b3d39e6e60c2456b1a8e3"
     },
     {
       "bytes": 12748,
@@ -1057,14 +1057,14 @@
       "sha256": "e1acd7a4c5e36823c8df3f479e16be71330bd2a7cdf9e3c549eb0f456bcb60b5"
     },
     {
-      "bytes": 50460,
+      "bytes": 50570,
       "path": "registry/clinical_claims.jsonl",
-      "sha256": "26d3a86644d4009cd28a090268062c40c740ddcd669c6a7d0e22ef4c10bd1050"
+      "sha256": "df3f7ed4f07e2e2cc91dd804fce9336db1c9721c1eab237b5ea80f0d6ae3d337"
     },
     {
-      "bytes": 909,
+      "bytes": 1004,
       "path": "registry/release_evidence.template.json",
-      "sha256": "cc282c3ce61152a400ee2702860c505d7d7826f9e0739f8ef8e13ded5d8184ea"
+      "sha256": "f8ea259898daaeabfac5cd3a9f9d792b40423af993caa649dedac43cab9d112d"
     },
     {
       "bytes": 3993,
@@ -1072,9 +1072,9 @@
       "sha256": "fcb46519865667187f6f4767c1090bd9bcede615a4f45c69176b720b7df2481a"
     },
     {
-      "bytes": 2887,
+      "bytes": 3503,
       "path": "registry/reviewers.json",
-      "sha256": "08a90066f28d730b972ce8bf356929e8d050740ac94d21e67d3a70990d75aaca"
+      "sha256": "ee4310c77839b7d15b4f203f2093007eb804303226634db83ec0af82ee79af7d"
     },
     {
       "bytes": 15617,
@@ -1127,9 +1127,9 @@
       "sha256": "fb29b0890e827245cf93d325b2cf1d23f7a72ddccfc6362d4a1ec95071f76f42"
     },
     {
-      "bytes": 3920,
+      "bytes": 4292,
       "path": "schemas/v1/release-gates.schema.json",
-      "sha256": "55d683c3557859fb85db5460d36752373b755b3e4c2a51d904a8ab6662c0e05a"
+      "sha256": "8b1b51cce600d72409b0e5e521fda5af4ab67fa01c168425cae663c3d2f8280a"
     },
     {
       "bytes": 1108,
@@ -1162,9 +1162,9 @@
       "sha256": "a28593230b955f37b754222f78424ea0d89b528c9c72f98c5bdf327ebd1f235c"
     },
     {
-      "bytes": 13263,
+      "bytes": 13564,
       "path": "scripts/p7lib.py",
-      "sha256": "72b8a046c10c2863dc86af984a9fa4ba321fffa4baa448a98a6823e9515d592c"
+      "sha256": "f8f0a74aba37fd440bb4b3750e522b1b0d350c22d0f5e624bd84ed12b101f072"
     },
     {
       "bytes": 1198,
@@ -1177,9 +1177,9 @@
       "sha256": "968587cc78626c84cc4670a00c777555ffa1759abb21c569f077bc68a0ab071c"
     },
     {
-      "bytes": 14072,
+      "bytes": 14338,
       "path": "scripts/release_evidence.py",
-      "sha256": "c8565affcef21714c72fed052f18cdba72a7959269257ff15925dc8a796f612f"
+      "sha256": "4e0d5604b8ce61ace8c5134bfdb99c88311cd8d9d042f40984488f6cf4a3a3b2"
     },
     {
       "bytes": 477,
@@ -1202,9 +1202,9 @@
       "sha256": "c697905e8c1ea9de86efa4518be852a457f7fbf309b24a0541ccc41dbed637a0"
     },
     {
-      "bytes": 7565,
+      "bytes": 7671,
       "path": "tests/test_package.py",
-      "sha256": "926691dadbacd1f86df7da9613b77ec77d9267484afb8110c4056e22e3eff5ca"
+      "sha256": "316f8ce93b08536a97d22ceb750d3178c023d820a05be5ba2919cc6ce9a72725"
     },
     {
       "bytes": 1590,
@@ -1212,17 +1212,17 @@
       "sha256": "75f9865ffb512c04c73f9792cf3d7f6b6d3d9b08e3bc211cbfdd11b623faa6b2"
     },
     {
-      "bytes": 6215,
+      "bytes": 6936,
       "path": "tests/test_release_evidence.py",
-      "sha256": "43e5f372cec00af7e756b4231dc3f2c473f9897c9e12f0816e4cde725345e230"
+      "sha256": "d07785773a809fa3cc1074526a2d892f5f218be3f92180e67552fc7b32949bb1"
     },
     {
-      "bytes": 10113,
+      "bytes": 10532,
       "path": "tests/test_v150_contract.py",
-      "sha256": "b5e473fd42cff8ee69c4afc7041b1970b7a424f7083c22cfe55420212925d3a4"
+      "sha256": "48d321fb9a89f10d9811aa01ef5ca1f6c53e0ca81b973d89597797859d1d6932"
     }
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 3051894
+  "total_bytes": 3055470
 }

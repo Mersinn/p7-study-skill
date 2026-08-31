@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "reviewed_snapshot": "c74e873",
+  "surface": "Codex",
+  "requested_model": "gpt-5.6-sol",
+  "reasoning_effort": "xhigh",
+  "exact_serving_version": "not_exposed",
+  "session": "independent_projectless_task",
+  "thread_id": "01a05583-c4f0-7b61-9d2a-dc88cfc3f0e1",
+  "targets": [
+    {"target": "rt:ea2613b03215af88", "result": "PASS_REPAIRED"},
+    {"target": "coma.apnea-brain-death", "result": "PASS_REPAIRED"},
+    {"target": "osce-neurology.active-algorithms", "result": "PASS_REPAIRED"},
+    {"target": "benzodiazepine.fixed-taper", "result": "PASS_REPAIRED"},
+    {"target": "osce-pediatrics.active-sequences", "result": "PASS_REPAIRED"},
+    {"target": "claim:asth.severity-oxygen", "result": "PASS_REPAIRED"}
+  ],
+  "counts": {"pass_repaired": 6, "fail": 0, "inconclusive": 0, "total": 6},
+  "remaining": {"p0": 0, "p1": 0},
+  "gina_locators": [
+    "Box 9-4, physical PDF page 182, printed footer 181",
+    "Box 9-6, physical PDF page 187, printed footer 186"
+  ],
+  "decision": "PASS"
+}

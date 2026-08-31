@@ -242,6 +242,11 @@ def package_files(root: Path = PACKAGE_ROOT) -> list[Path]:
             continue
         if relative.parts and relative.parts[0] == "artifacts":
             continue
+        # The active attestation hashes PACKAGE_MANIFEST.json in standalone
+        # mode. Excluding the attestation itself avoids a circular hash while
+        # every substantive package file remains covered.
+        if relative.as_posix() == "registry/release_evidence.json":
+            continue
         if path.suffix == ".pyc":
             continue
         result.append(path)

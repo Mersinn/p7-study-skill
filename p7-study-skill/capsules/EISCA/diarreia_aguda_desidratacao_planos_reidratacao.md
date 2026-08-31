@@ -16,6 +16,14 @@
 - Verificação nível 1: CONFIRMADO
 - Revisão independente L2 (2026-08-20): texto integral extraído (PyMuPDF) de "Diarreia Aguda Infecciosa" (SBP, Depto. Científico de Gastroenterologia, 2022-2024), que reproduz e cita diretamente BRASIL/MS/SVSA "Manejo do paciente com diarreia" (2023); e do protocolo municipal "Doenças Diarreicas Agudas (DDA) na Criança" (Rio de Janeiro, PTC.DEA.005, 09/2025). Confirmado: definição de diarreia, cortes de duração, Plano B (50-100 mL/kg em 4-6h, falha em 6h), Plano C (30+70 mL/kg por faixa etária, RN/cardiopata grave 10 mL/kg), zinco por idade, ondansetrona por idade/peso. **Corrigido nesta revisão**: o sinal com asterisco do domínio "sede" na classificação de gravidade era descrito como "sede ausente/bebe pouco" — o documento primário registra "incapaz de ingerir líquidos/beber"; e a duração do zinco era fixa em "14 dias" — o documento primário registra intervalo "10 a 14 dias". Ver `registry/clinical_claims.jsonl` para claim_ids e locators completos.
 
+## Contrato de recuperação clínica
+
+Claims `current` desta cápsula só são recuperados com o contexto e o localizador
+do registry. Em particular, `claim:diarreia-planos.osmolaridade-sro` está
+`QUARANTINED`: a fonte aberta sustenta 75 mmol/L de sódio, mas não fecha no
+mesmo localizador 245 mOsm/L nem a referência plasmática de ~291 mOsm/L. Os
+três valores permanecem curriculares e não entram em resposta de prática atual.
+
 ## Como cai
 
 Cai fortemente como classificação do grau de desidratação pela CONTAGEM de sinais (≥2 sinais = algum grau; ≥2 sinais incluindo pelo menos 1 com asterisco = grave) — não pela impressão clínica global, mesmo quando um sinal tranquilizador (ex. lágrimas presentes) coexiste com sinais de alarme. Cobra também o escalonamento estrito dos planos (nunca pular direto para C sem esgotar B) e as doses por peso/idade de SRO, zinco e expansão venosa — variáveis clássicas do tipo `valor` e `sequencia`.
@@ -66,8 +74,8 @@ O pivô é a CONTAGEM OBJETIVA de sinais segundo o critério do MS, não a impre
 | Plano C — expansão ≥1 ano | 30 mL/kg em 30 min + 70 mL/kg em 2h30 (SF 0,9% ou Ringer lactato) | Diarreias na Infância (slide Liane Viana), p.24 (recomendação MS) | CONFIRMADO |
 | Plano C — RN e cardiopata grave | expansão com 10 mL/kg em 30 min | Diarreias na Infância (slide Liane Viana), p.24 | CONFIRMADO |
 | Plano C — indicações | perda de peso >10%, contraindicação de TRO (íleo paralítico, abdome agudo, alteração de consciência/convulsões), choque hipovolêmico, vômitos biliosos ou de difícil controle, falha da TRO | Diarreias na Infância (slide Liane Viana), p.23 | CONFIRMADO |
-| Osmolaridade SRO OMS 2002 | 245 mOsm/L (Na 75 mmol/L) | Diarreias na Infância (slide Liane Viana), p.21 | CONFIRMADO |
-| Osmolaridade do plasma (referência) | 291 mOsm/L | Diarreias na Infância (slide Liane Viana), p.21 | CONFIRMADO |
+| Osmolaridade SRO OMS 2002 | 245 mOsm/L (Na 75 mmol/L) | Diarreias na Infância (slide Liane Viana), p.21 | QUARANTINED — transcrição curricular; locator clínico não fecha o conjunto |
+| Osmolaridade do plasma (referência) | 291 mOsm/L | Diarreias na Infância (slide Liane Viana), p.21 | QUARANTINED — referência curricular não validada para prática atual |
 | Exames laboratoriais — indicação | não são rotina; solicitar em evolução atípica/arrastada/grave, imunodeprimidos, sangue nas fezes, lactentes <4 meses | Diarreias na Infância (slide Liane Viana), p.16 | CONFIRMADO |
 
 ## Pegadinhas
