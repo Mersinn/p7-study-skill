@@ -207,9 +207,9 @@
       "sha256": "b21a21658790a1ed7f3b6db2a6437800ed7bead307285eed411f750ef613ec93"
     },
     {
-      "bytes": 12477,
+      "bytes": 12697,
       "path": "capsules/EISA_II/coma_e_rebaixamento_do_nivel_de_consciencia.md",
-      "sha256": "0cab434ff76c63f0ab44a99bcb33001a4a554f4105995bb91189f0bcd1fc6684"
+      "sha256": "06c81ead250b68e430510c34842de768fef1975edefdaaf717a9e1eee5af3b3e"
     },
     {
       "bytes": 14394,
@@ -292,9 +292,9 @@
       "sha256": "50bc2be2d52dc21ff742fda5e8bdac91f258bb09fcfedb6d42dfa455247c8665"
     },
     {
-      "bytes": 13178,
+      "bytes": 13173,
       "path": "capsules/EISA_II/erisipela.md",
-      "sha256": "a7233ce950b9cae4859d842b1ccffef11141335485071587e09c6c94168ddda2"
+      "sha256": "ea8bb0b52f735af1aba7fb3f75496b6316528b14048beb9ad86eb240f607624d"
     },
     {
       "bytes": 15584,
@@ -462,9 +462,9 @@
       "sha256": "0d51bce6976aa9eb242477a6a765f0d88c718467128b3242cbf11fc516b88c21"
     },
     {
-      "bytes": 13564,
+      "bytes": 13811,
       "path": "capsules/EISA_II/otites_aguda_cronica_externa.md",
-      "sha256": "327b7b20d43a9fe1250adf8840886e22f43bd01c6fa5b1714cceba020a5ac69c"
+      "sha256": "0c94512f9d2517f1e1afc07fa1462365ab3d631c12a1203bca9765d048950b14"
     },
     {
       "bytes": 12864,
@@ -537,9 +537,9 @@
       "sha256": "eb687d9dc852efdf55d795db6a3f5737aeb8a6d842052d54e9a898dcae0582c2"
     },
     {
-      "bytes": 7373,
+      "bytes": 7598,
       "path": "capsules/EISCA/asma_em_pediatria.md",
-      "sha256": "9e354443012d4a501dbebe3111cfc8072d02e7fffe5ecad2579e9618ef46fca2"
+      "sha256": "05ed40d6aae67f86ca38e12b7584005bd19a20c29571eed1e472da7a7db7a4bc"
     },
     {
       "bytes": 7401,
@@ -672,9 +672,9 @@
       "sha256": "422d0ce596c4d1e46a93cab39c4083da2f4da7fdde1f5cfa7891fc83d8c171f1"
     },
     {
-      "bytes": 11883,
+      "bytes": 12179,
       "path": "capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md",
-      "sha256": "3c9f4c01c9da977cad64f9380f12f5397620be3d2105e565118950b404212aec"
+      "sha256": "e932139b9c8b0dc19a530a03848eaaf67c7d0d65663f4e44776ca7ebba472dfa"
     },
     {
       "bytes": 16077,
@@ -697,9 +697,9 @@
       "sha256": "f7ef29cb013e47a0115a0ca58757bd77f54e0b333273c3d191ac0f72f5cd137d"
     },
     {
-      "bytes": 16948,
+      "bytes": 16517,
       "path": "capsules/EISCA/sepse_e_meningite_neonatal.md",
-      "sha256": "e0565904a3a18ab712a4ec4bac265d5fa692ec497932cf95d18050ebfaa985dd"
+      "sha256": "ad77ddac7803fb9d646fc3fc47d22777da900b977944d375ae1ecf1746076057"
     },
     {
       "bytes": 16307,
@@ -717,9 +717,9 @@
       "sha256": "6f6b0baf1417418fefc352f3b5e10d9304ae81eb500fa6bbaf94feff9cbe0d89"
     },
     {
-      "bytes": 10230,
+      "bytes": 10211,
       "path": "capsules/EISM/ansioliticos_e_hipnoticos.md",
-      "sha256": "8b53b7259255fd0976a7bd05c189e51d656254b85123e92f771180b0d7cd98da"
+      "sha256": "748a221ef705345818bcd6ecd6c970bfe7fe191081480abe91dba3c743723080"
     },
     {
       "bytes": 10981,
@@ -832,14 +832,14 @@
       "sha256": "7be03631aae17877fa6ae03615f9a623907b9ffcda23137134087cf1f14e7f93"
     },
     {
-      "bytes": 12275,
+      "bytes": 11796,
       "path": "capsules/OSCE/formato_roteiro_osce_p7.md",
-      "sha256": "61e088ee1de6d4801e64cfcab64d34cc331a69221b2c59620b38dd579fb3f293"
+      "sha256": "b74e4def25349e5b2f666922faba727e389786f8c332a83fe70115875896441c"
     },
     {
-      "bytes": 14078,
+      "bytes": 13925,
       "path": "capsules/OSCE/osce_banco_de_estacoes.md",
-      "sha256": "b95f9fdbba50ee48e60f7c370c9d2853896a6de44ccba72d6984dc9f23fa9412"
+      "sha256": "313a0239e921fdfa7d5c9df1becf9be0556bdd289ad1ccb4d21ce4c2c71ab938"
     },
     {
       "bytes": 15351,
@@ -847,19 +847,19 @@
       "sha256": "17522b58c2f5bd302843e73420f801d8e8abf974d4e4c195d0de12af7960ef49"
     },
     {
-      "bytes": 15342,
+      "bytes": 15963,
       "path": "capsules/OSCE/osce_nefrologia.md",
-      "sha256": "f397a0f85f8c2ca1c262e605e49d1ab8784627d7e752759c88a3929605e8390a"
+      "sha256": "d1bdf091cde3869ae75e3a4f3a8e29476979be3769fdfa7ee39b073f7f2d6d69"
     },
     {
-      "bytes": 22770,
+      "bytes": 22818,
       "path": "capsules/OSCE/osce_neurologia.md",
-      "sha256": "0350632b46297f1d94b26640ef7a59524d958b203998aa14ee6f95ef1c73c30f"
+      "sha256": "4a6fd88e737483ce3a6e367067d91d85b45cbb88bde726e1ae3c7dc0f3c200c2"
     },
     {
-      "bytes": 21996,
+      "bytes": 22154,
       "path": "capsules/OSCE/osce_pediatria.md",
-      "sha256": "e738082a38a9c196d5e5f3dd5c04632088299c366df93af079c467f754fe8c47"
+      "sha256": "6e6ede1922e567d15e2cee45f6bbfbf2c4fe915350bd55788375a7c200a7b61b"
     },
     {
       "bytes": 23957,
@@ -1057,9 +1057,9 @@
       "sha256": "e1acd7a4c5e36823c8df3f479e16be71330bd2a7cdf9e3c549eb0f456bcb60b5"
     },
     {
-      "bytes": 50249,
+      "bytes": 50499,
       "path": "registry/clinical_claims.jsonl",
-      "sha256": "ca26f6f4aeac91609e4178b1fc8e60272900b207b64575c91cd925aa424e10c4"
+      "sha256": "1dbcc1fdf5f1acef0dd9914b2f0107ecb604e7c50763fc115e4e6bd6bfa4a6b9"
     },
     {
       "bytes": 909,
@@ -1217,12 +1217,12 @@
       "sha256": "43e5f372cec00af7e756b4231dc3f2c473f9897c9e12f0816e4cde725345e230"
     },
     {
-      "bytes": 7546,
+      "bytes": 8971,
       "path": "tests/test_v150_contract.py",
-      "sha256": "a237fde74e9aef8b7baf714a12e911b5538fa820db9b5708e93d84c70a2b4df5"
+      "sha256": "ffbd544a4a07fd703f46bde174e90378ccae75ac85218a45b3f171f3ce88ef4b"
     }
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 3049105
+  "total_bytes": 3051508
 }

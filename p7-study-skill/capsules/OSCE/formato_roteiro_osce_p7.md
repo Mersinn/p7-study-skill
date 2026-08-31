@@ -45,7 +45,7 @@ Comando · prontuário · exame físico · manequim · resultado disponível · 
 | Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
 |---|---|---|---|---|---|
 | executar a tarefa pedida | correspondência comando → resposta (1 comando = 1 resposta, na ordem) | sequência | operacional | sobre-elaboração — responder um comando futuro (ex.: já dar a conduta definitiva) dentro da resposta de um comando anterior que só pedia a hipótese | treinar "comando por comando": ler todos os comandos primeiro, sublinhar o verbo de cada um, e só então responder um de cada vez, em voz alta, sem adiantar o próximo |
-| aplicar critério (checklist implícito de higiene/apresentação) | higienizar as mãos no início **e** no fim + apresentar-se + despedir-se | sequência | operacional | fechamento precoce — tratar a higienização/apresentação como formalidade dispensável quando "não há pia" ou "o ator já sabe quem eu sou" | fixar os 7 passos das orientações gerais como checklist automático, treinado independente do conteúdo da cabine: cumprimentar/apresentar → lavar as mãos → ler prontuário → exame físico → conferir comandos respondidos → lavar as mãos → despedir-se |
+| executar roteiro sintético de higiene/apresentação | praticar higienização, apresentação e fechamento | sequência | operacional | confundir treino consistente com checklist oficial | usar os 7 passos como mnemônico de treino; pesos, obrigatoriedade e avaliação real são desconhecidos |
 | interpretar imagem/ecg/laboratório | todo exame complementar entregue na cabine tem função na resposta | fato | operacional | não usar um achado fornecido porque "não foi perguntado explicitamente" — o comando geralmente pede a hipótese/conduta e espera que o exame já disponível tenha sido lido e citado como parte da justificativa | treinar o hábito de nomear em voz alta cada exame complementar da cabine antes de fechar qualquer resposta, mesmo que o comando não use a palavra "exame" |
 
 ## Dados de precisão
@@ -73,7 +73,7 @@ Comando · prontuário · exame físico · manequim · resultado disponível · 
 | Distrator | Por que seduz | Movimento que sugere | Por que erra |
 |---|---|---|---|
 | Responder a conduta definitiva quando só foi pedida hipótese | ansiedade de demonstrar domínio | sobre-elaboração | prejudica clareza e aderência ao comando; a pontuação real é desconhecida |
-| Pular a higienização das mãos porque "a cabine não tem pia visível" | parece só formalidade cênica, sem relação com o conteúdo médico avaliado | fechamento precoce — tratar item de checklist fixo como dispensável | a orientação geral lista a higienização como passo obrigatório duas vezes (início e fim), independente da cabine ter pia física — o gesto (mimetizado ou verbalizado) é o que é avaliado |
+| Pular a higienização das mãos porque "a cabine não tem pia visível" | parece só formalidade cênica | fechamento precoce | o material B recomenda treinar higienização; se o gesto é pontuado e com qual peso permanece desconhecido |
 | Ignorar o resultado de exame já impresso na cabine e responder só com o quadro clínico da história | o aluno já "fechou" o diagnóstico mentalmente antes de olhar o exame | fechamento precoce / narrativa acima do discriminador | o material da cabine ("resultado disponível") é colocado ali propositalmente para ser a peça que confirma ou muda a hipótese — não citá-lo é deixar de usar o discriminador que a banca disponibilizou |
 
 ## Conduta

@@ -33,7 +33,7 @@ mudam a dose; SpO2 isolada não escolhe suporte ventilatório.
 
 ## Palavras-âncora
 
-fala/consciência · esforço · SpO2 · SABA · pMDI + espaçador · O2 ≥94% ·
+fala/consciência · esforço · SpO2 · SABA · pMDI + espaçador · O2 alvo 92–95% ·
 corticoide na primeira hora · ipratrópio grave · magnésio não rotineiro.
 
 ## Demanda × movimento
@@ -48,8 +48,9 @@ Sem resposta/justificativa do aluno, o movimento cognitivo é `INDETERMINADO`.
 
 ## Prática clínica atual — GINA 2026, 6–11 anos
 
-- SpO2 <92% prediz maior probabilidade de hospitalização; <90% exige terapia
-  agressiva. Durante a exacerbação, titule O2 para alvo ≥94%.
+- SpO2 integra gravidade. GINA 2026 orienta oxigênio titulado para alvo 92–95%
+  quando indicado; SpO2 <92% sugere O2, mas 92% não é corte absoluto para negar
+  O2 se outros achados caracterizam apresentação grave/ameaçadora.
 - Salbutamol inalatório é a base; pMDI + espaçador é eficiente quando exequível.
 - Corticoide sistêmico deve ser administrado na primeira hora em todas as crises,
   exceto as mais leves. Prednisolona: 1–2 mg/kg/dia, máximo 40 mg/dia, por 3–5
@@ -93,7 +94,7 @@ auditoria e fica `QUARANTINED`; não deve ser ensinada como proibição atual.
 
 | Claim | Valor atual | Fonte/localizador | Status |
 |---|---|---|---|
-| alvo O2, 6–11 anos | ≥94% | GINA 2026, exacerbações 6–11 | CURRENT_VERIFIED |
+| alvo O2, 6–11 anos | 92–95% quando O2 é indicado; não usar 92% como corte absoluto de não tratamento | GINA 2026, Box 9-4 e Box 9-6 | CURRENT_VERIFIED |
 | prednisolona, 6–11 anos | 1–2 mg/kg/d, máx. 40 mg, 3–5 d | GINA 2026, exacerbações 6–11 | CURRENT_VERIFIED |
 | VNI | evidência fraca; sem gatilho por SpO2 isolada | GINA 2026, NIV | CURRENT_VERIFIED |
 | doses em gotas e cortes ≤5 antigos | excluídos de conduta atual até revisão específica | slide A antigo | QUARANTINED |
@@ -135,7 +136,7 @@ auditoria e fica `QUARANTINED`; não deve ser ensinada como proibição atual.
 
 | Frente | Verso | Tipo |
 |---|---|---|
-| Alvo de O2 no GINA 2026, 6–11 anos | ≥94% | alvo |
+| Alvo de O2 no GINA 2026, 6–11 anos | 92–95% quando indicado; decisão integra gravidade clínica | alvo |
 | Corticoide sistêmico na crise | na 1ª hora, exceto nas mais leves | sequência |
 | SpO2 <94% indica VNI? | não; requer avaliação global e resposta | discriminação |
 | Magnésio IV | não rotineiro; considerar após falha inicial em crise grave | sequência |

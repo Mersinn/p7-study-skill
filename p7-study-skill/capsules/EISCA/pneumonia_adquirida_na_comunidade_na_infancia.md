@@ -15,6 +15,13 @@
 - Limitações da fonte: nenhuma relevante — slide nativo, texto legível e completo
 - Verificação nível 1: CONFIRMADO
 
+## Contrato de recuperação
+
+`answer_key_scope: curricular`; `clinical_validity_default: pending`. O slide
+do professor ancora o que cai, mas não prova vigência clínica. Cortes, doses,
+contraindicações e algoritmos só entram em resposta atual com claim `current`
+rastreável ou fonte oficial aberta; fora disso permanecem `QUARANTINED`.
+
 ## Como cai
 
 Item institucionalizado do banco: "qual a FR que classifica taquipneia/
@@ -99,8 +106,8 @@ sem claim `current` rastreável ou fonte oficial aberta.
 |---|---|---|---|
 | "Ausculta normal descarta pneumonia" | reflexo de valorizar o exame físico pulmonar como principal | premissa não checada | em lactentes a semiologia pulmonar pode ser pobre; FR é o sinal mais sensível, não a ausculta |
 | "Somar 2-3 sinais de gravidade para classificar pneumonia grave" | hábito de "quanto mais sinais, mais grave" de outros escores | fechamento precoce/regra mal-aprendida | AIDPI: 1 único sinal já define a classificação de maior gravidade |
-| "Iniciar ceftriaxona em RN de 10 dias com pneumonia grave" | ceftriaxona é cefalosporina de 3ª geração "padrão" na cabeça do aluno | contraindicação ignorada | em RN <28 dias, ceftriaxona desloca bilirrubina das proteínas séricas — risco de kernicterus; usar cefotaxima |
-| "Trocar antibiótico no 2º dia por falta de melhora" | ansiedade por resposta clínica rápida | definitiva antes da inicial | reavaliação de falha terapêutica ambulatorial só é indicada após 72h de tratamento |
+| "Iniciar ceftriaxona em RN segundo a regra do slide" | parece uma regra farmacológica pronta | contraindicação ignorada | a distinção farmacológica do material é curricular `QUARANTINED`; prática atual exige fonte neonatal vigente |
+| "Trocar antibiótico cedo por falta de melhora" | ansiedade por resposta clínica rápida | definitiva antes da inicial | o prazo e a troca do slide são curriculares `QUARANTINED`; reavaliar clinicamente com protocolo vigente |
 
 ## Conduta
 
@@ -122,10 +129,9 @@ sem claim `current` rastreável ou fonte oficial aberta.
 
 ## Mini-casos ativos
 
-1. Lactente de 4 meses, tosse, sem esforço respiratório visível, FR medida em
-   54 irpm, SpO2 96%. Variável decisiva: FR ≥50 irpm na faixa 2m-12m já
-   define taquipneia/critério clínico de pneumonia pela AIDPI, mesmo sem
-   outros sinais.
+1. **Item curricular:** lactente de 4 meses, tosse e FR medida em 54 irpm.
+   Aplicar o corte ensinado no slide somente com `answer_key_scope: curricular`;
+   não tratá-lo como diagnóstico clínico atual sem fonte oficial vigente.
 2. Recém-nascido com suspeita de pneumonia e sinal de gravidade. Variável
    decisiva: reconhecer alto risco e aplicar protocolo neonatal vigente; não
    escolher cefalosporina pela regra curricular isolada.

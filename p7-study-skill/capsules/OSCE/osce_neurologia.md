@@ -73,7 +73,7 @@ Escala de Cincinnati (sorrir/abraçar/falar) · NIHSS · janela de 4h30 · altep
 | Hematoma extradural | aspecto biconvexo na TC; lesão arterial; rapidamente fatal; conduta = cirurgia imediata; pupila fixa e dilatada — a fonte cita "bilateral", mas o ensino padrão (conhecimento geral) associa esse achado à midríase **ipsilateral** por compressão do III par na herniação uncal, com midríase bilateral surgindo apenas em fase mais tardia/pré-terminal | `OSCE .pdf`, ~p.11; correção por conhecimento geral | CORRIGIDO |
 | Hematoma subdural | aspecto côncavo na TC; hemorragia venosa; conduta = cirurgia precoce | `OSCE .pdf`, ~p.11 / `OSCE - NEUROLOGIA.pdf` | CONFIRMADO |
 | Pupilas no coma/TCE | puntiformes = lesão de ponte · mediofixas = lesão de tronco cerebral · anisocóricas = possível herniação uncal · isocóricas e fotorreagentes = etiologia tóxico-metabólica | `OSCE - NEUROLOGIA.pdf` (doc. íntegro) | CONFIRMADO |
-| Medicações de emergência no coma | naloxona = antídoto de opioides · flumazenil = antídoto de benzodiazepínicos | `OSCE .pdf`, ~p.16 | CONFIRMADO |
+| Associação farmacológica curricular no coma | naloxona = antídoto de opioides · flumazenil = antagonista de benzodiazepínicos | `OSCE .pdf`, ~p.16 | QUARANTINED — reconhecer associação não autoriza uso empírico; contraindicações e contexto exigem fonte/protocolo vigente |
 | Meta ventilatória no TCE grave (GCS <8) | intubar; manter PA normal; PO2 ≈ 80 mmHg; PCO2 entre 25-35 mmHg; não deixar reter CO2 (CO2 alto → vasodilata e piora o inchaço; CO2 baixo → vasoconstringe e evita isquemia, mas em excesso também é deletério) | `OSCE .pdf`, ~p.12 | CONFIRMADO |
 
 ## Pegadinhas
@@ -108,7 +108,7 @@ Escala de Cincinnati (sorrir/abraçar/falar) · NIHSS · janela de 4h30 · altep
 1. H.F.C., 67 anos, trazido pela filha com perda de força em hemicorpo esquerdo e dificuldade para falar **há 1 dia**, afebril, dispneico, diabético em uso de metformina. TC de crânio já disponível mostra lesão hipodensa predominante à esquerda. **Pivô:** o "há 1 dia" já ultrapassou a janela de 24h — mesmo com TC confirmando etiologia isquêmica, a conduta correta é conservadora (monitoramento, controle pressórico só se PA >220×120, controle glicêmico, antiplaquetário), não trombólise nem trombectomia.
 2. Paciente com cefaleia holocraniana súbita e intensa, síncope no início do quadro e rigidez de nuca que só apareceu no dia seguinte. TC de crânio sem contraste normal. **Pivô:** TC normal não descarta HSA — a tríade clínica típica exige punção lombar nas primeiras 12h (procurando líquido xantocrômico/sanguinolento) antes de afastar o diagnóstico.
 3. Vítima de queda, GCS 14, sem déficit focal, um episódio de vômito e cefaleia progressiva sem melhora. **Pivô:** esse conjunto já preenche critério de risco moderado (perda de consciência OU cefaleia progressiva sem melhora OU vômitos) — a conduta é TC de crânio + observação hospitalar, não alta com orientação domiciliar como se fosse baixo risco.
-4. Paciente encontrado em coma, sem história disponível, pupilas puntiformes e fotorreagentes. **Pivô:** pupila puntiforme sugere lesão pontina, mas isocórica/fotorreagente também é clássica de etiologia tóxico-metabólica — antes de fechar etiologia, colher sangue para investigar intoxicação e considerar naloxona/flumazenil empíricos conforme o quadro, seguindo a sequência de exame neurológico do coma, não uma hipótese isolada pela pupila.
+4. Paciente encontrado em coma, sem história disponível, pupilas puntiformes e fotorreagentes. **Pivô:** não fechar etiologia por uma pupila isolada; priorizar suporte e investigação dirigida. A associação curricular entre antídotos e toxíndromes não autoriza flumazenil em coma indiferenciado; eventual antídoto depende de toxíndrome, contraindicações e protocolo vigente.
 
 ## Cards mínimos
 
@@ -122,7 +122,7 @@ Escala de Cincinnati (sorrir/abraçar/falar) · NIHSS · janela de 4h30 · altep
 | Conduta na hemorragia intraparenquimatosa com hematoma cerebelar >3cm | Cirurgia de drenagem | limiar |
 | 3 níveis de risco do TCE e a conduta de cada um | Baixo → observação domiciliar; Moderado (perda de consciência/cefaleia progressiva/vômitos/sinal de Battle) → TC + observação; Alto (RNC/déficit focal/lesão penetrante) → TC + internação | sequência |
 | GCS <8: o que fazer com a via aérea? | Intubar | regra |
-| Antídotos usados empiricamente no coma | Naloxona (opioides) e flumazenil (benzodiazepínicos) | fato |
+| O fato de flumazenil antagonizar benzodiazepínicos autoriza uso em coma indiferenciado? | Não. A associação é curricular; indicação e contraindicações exigem contexto toxicológico e protocolo vigente | segurança |
 
 ## Revisão
 

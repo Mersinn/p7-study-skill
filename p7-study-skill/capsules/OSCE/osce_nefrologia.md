@@ -15,6 +15,14 @@
 - Limitações da fonte: a tabela numérica de estágios da DRC por TFG (G1-G5) e a ordem das 4 principais etiologias de DRC no Brasil se perderam na extração de texto do PDF (ficaram só os rótulos, sem os números/ordem associados) — os valores de estágio abaixo vêm de conhecimento geral de nefrologia (KDIGO), rotulados como tal, não da fonte B. A ordem de preferência de acesso venoso para diálise de urgência também ficou cortada na extração.
 - Verificação nível 1: CONFIRMADO_COM_CORREÇÕES
 
+## Contrato de recuperação
+
+`answer_key_scope: curricular`; `clinical_validity_default: pending`. Toda
+definição, corte, janela, indicação e conduta desta cápsula B-only é uma
+resposta-modelo de treino, não prática clínica nem checklist oficial. Para
+prática atual, não recuperar os valores: exigir claim `current` rastreável ou
+fonte oficial aberta.
+
 ## Como cai
 
 Duas estações inteiramente diferentes de raciocínio: (1) **glomerulopatias** — reconhecer a síndrome (nefrótica vs nefrítica) pelo corte quantitativo de proteinúria e demais achados, depois diferenciar a etiologia pelo padrão sorológico/temporal; (2) **DRC/IRA** — aplicar o critério objetivo (KDIGO-like para IRA; TFG/RAC para estadiar DRC) antes de decidir conduta ou encaminhamento. O caso de GNDA nas fontes mostra o padrão típico: quadro clínico compatível com síndrome nefrítica + tempo de latência pós-infecção estreptocócica compatível + confirmação sorológica, só então a conduta (que aqui é so sintomático).
@@ -35,7 +43,7 @@ O pivô é o **corte quantitativo de proteinúria em 24h (3,5 g)** que separa s�
 
 Síndrome nefrótica × nefrítica · proteinúria 24h · complemento C3 · ASLO/anti-DNAse · tempo de latência · biópsia renal (MO/IF/ME) · TFG · RAC (relação albumina/creatinina) · KDIGO.
 
-## Operação × movimento
+## Operação × movimento curricular
 
 | Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
 |---|---|---|---|---|---|
@@ -84,7 +92,10 @@ Síndrome nefrótica × nefrítica · proteinúria 24h · complemento C3 · ASLO
 | Fechar GNDA em criança com edema + urina escura pós-IVAS sem pedir complemento/FAN/anti-DNA | GNDA é a etiologia "mais comum e mais decorada" para esse quadro pediátrico | fechamento precoce | o mesmo quadro clínico serve para nefrite lúpica e nefropatia por IgA — só o painel sorológico completo (C3, FAN, anti-DNA) discrimina as três |
 | Tratar hipercalemia refratária só com medidas clínicas (gluconato de cálcio, insulina-glicose) num paciente que já preenche critério de diálise de urgência | as medidas clínicas de hipercalemia são a resposta mais treinada em prova teórica | definitiva antes da inicial / fechamento precoce | quando a hipercalemia é refratária ou recorrente apesar do tratamento clínico, o critério objetivo de diálise de urgência já está preenchido — a estação pode estar testando se o aluno reconhece que "estabilizar" não substitui "indicar TRS" quando o critério bate |
 
-## Conduta
+## Resposta curricular de treino
+
+As linhas abaixo treinam raciocínio sobre o material; não autorizam conduta
+real nem alegação de critério oficial.
 
 - Inicial: classificar nefrótica × nefrítica pelo corte de proteinúria de 24h; nas suspeitas de IRA, aplicar os 3 critérios KDIGO-like.
 - Definitiva: nomear a etiologia mais provável pelo tempo de latência/gatilho + painel sorológico/complemento, e só então propor conduta (na maioria dos casos primários pediátricos das fontes, é sintomática).
@@ -92,13 +103,15 @@ Síndrome nefrótica × nefrítica · proteinúria 24h · complemento C3 · ASLO
 - Diferencial perigoso: hipercalemia/acidose refratária e síndrome urêmica franca são emergências que não esperam o fechamento diagnóstico completo.
 - O que mudaria a decisão: tempo de latência entre gatilho infeccioso e sintomas (dias vs semanas) muda a etiologia mesmo com apresentação clínica idêntica; presença de achado estrutural ou tempo de evolução >3 meses muda IRA para DRC.
 
-## Mini-casos ativos
+## Mini-casos curriculares ativos
 
 1. Menina, 12 anos, dor abdominal + edema há 7 dias + febre que cedeu, progressão do edema para face há 5 dias, oligúria e urina escura há 3 dias, faringite 2 semanas antes do quadro. **Pivô:** o intervalo de 2 semanas entre a faringite e o início do quadro bate com GNDA (7-21 dias); se o enunciado dissesse "2-3 dias após a faringite", a resposta certa mudaria para nefropatia por IgA mesmo com clínica idêntica.
 2. Menina, 10 anos, edema de MMII, urina escura, PA aumentada, início pós-IVAS. Complemento vem baixo, FAN e anti-DNA negativos. **Pivô:** complemento baixo + FAN/anti-DNA negativos aponta GNDA, não lúpus (que teria FAN+/anti-DNA+) nem IgA (que teria complemento normal) — decida pelo painel completo, não pelo quadro clínico isolado.
 3. Paciente com DM2 e TFG 38. **Pivô de treino:** reconhecer G3b; encaminhamento e periodicidade dependem de albuminúria, evolução, complicações e protocolo vigente. A regra B-only está `QUARANTINED`.
 
-## Cards mínimos
+## Cards curriculares mínimos
+
+`answer_key_scope: curricular`; não usar os valores como prática atual.
 
 | Frente | Verso | Tipo |
 |---|---|---|

@@ -58,7 +58,7 @@ Frequência respiratória por faixa etária · sinais de gravidade (tiragem subc
 | Pneumonia — tratamento por idade | <2 meses: internação obrigatória — <1 semana ampicilina + gentamicina; >1 semana ampicilina + ceftriaxona · ≥2 meses ambulatorial: amoxicilina ou penicilina G procaína, sem melhora em 48h → amoxicilina + clavulanato (ou cefalosporina de 2ª geração) · internação grave: penicilina cristalina ou ampicilina · muito grave: oxacilina + cloranfenicol ou oxacilina + ceftriaxona; sem melhora em 48-72h ou piora: vancomicina + ceftriaxona | `OSCE .pdf`, ~p.85 / `OSCE - PEDIATRIA.pdf` | CONFIRMADO |
 | Asma — critérios diagnósticos no lactente | alto risco de asma: 2 critérios maiores (obrigatoriamente 1 dos 2 primeiros) OU 2 maiores + 2 menores. Maiores: hospitalização por sibilância grave; ≥3 episódios de sibilância em 6 meses; história de asma nos pais; dermatite atópica. Menores: rinorreia não associada a resfriado; sibilância não associada a resfriado; eosinofilia >5%; sexo masculino | `OSCE - PEDIATRIA.pdf` (doc. íntegro) / `FACILITA OSCE (1).pdf`, p.53 | CONFIRMADO |
 | Asma — espirometria | só realizável em crianças ≥6 anos que obedecem comando; VEF1 aumenta >10% pós-broncodilatador confirma diagnóstico; relação VEF1/CVF >0,7 | `OSCE - PEDIATRIA.pdf` / `FACILITA OSCE (1).pdf`, p.53 | CONFIRMADO |
-| Crise asmática 6–11 anos — prática atual | SABA + O2 quando indicado + corticoide sistêmico precoce; ipratrópio em grave. Alvo O2 ≥94%. SpO2 isolada não indica VNI/IOT | GINA 2026, exacerbações 6–11 | CURRENT_VERIFIED |
+| Crise asmática 6–11 anos — prática atual | SABA + O2 quando indicado + corticoide sistêmico precoce; ipratrópio em grave. Quando O2 é indicado, alvo 92–95%; SpO2 <92% sugere O2, mas 92% não é corte absoluto para negar diante de outros critérios de gravidade. SpO2 isolada não indica VNI/IOT | GINA 2026, Box 9-4 e Box 9-6 | CURRENT_VERIFIED |
 | Crise asmática — antibiótico | não é rotina (80% das exacerbações são virais); só na forte suspeita de infecção bacteriana (febre, escarro purulento, consolidação radiográfica) | `FACILITA OSCE (1).pdf`, p.53 | CONFIRMADO |
 | Magnésio na asma | não rotineiro; considerar após falha inicial em grave | GINA 2026 | CURRENT_VERIFIED |
 | Diarreia — definição | ≥3 evacuações amolecidas/líquidas em 24h | `OSCE .pdf`, ~p.100 / `FACILITA OSCE (1).pdf`, p.58 | CONFIRMADO |
@@ -125,7 +125,7 @@ Frequência respiratória por faixa etária · sinais de gravidade (tiragem subc
 | Volume de expansão rápida do plano C em <5 anos | 20 mL/kg de SF a cada 30 min, repetir até hidratar | valor |
 | O aleitamento materno é suspenso no plano B? | Não — só os outros alimentos são suspensos; o leite materno é mantido | regra |
 | 2 critérios maiores de asma no lactente, com quais 2 sendo obrigatórios? | Hospitalização por sibilância grave e ≥3 episódios de sibilância em 6 meses | fato |
-| Sequência da crise asmática | B (broncodilatador+anticolinérgico) → C (corticoide, se resposta inadequada em 1h) → D (oxigênio, alvo SatO2 94-98%) | sequência |
+| Núcleo atual da crise asmática 6–11 anos | broncodilatador, corticoide sistêmico precoce e O2 quando indicado, alvo 92–95%; não usar 92% como corte absoluto de não tratamento | sequência atual |
 | Quando repetir o APGAR além do 5º minuto? | Se <7 no 5º minuto, repetir a cada 5 min | regra |
 | Técnica preferida de massagem cardíaca neonatal com 2 médicos | 2 polegares, proporção 3:1 | sequência |
 

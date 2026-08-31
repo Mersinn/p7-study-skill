@@ -700,7 +700,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 12477,
+      "bytes": 12697,
       "capsule_id": "capsule:eisa_ii:coma_e_rebaixamento_do_nivel_de_consciencia",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -716,7 +716,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "0cab434ff76c63f0ab44a99bcb33001a4a554f4105995bb91189f0bcd1fc6684",
+      "sha256": "06c81ead250b68e430510c34842de768fef1975edefdaaf717a9e1eee5af3b3e",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "Neuro_COMA__3d9a975464"
@@ -1139,7 +1139,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 13178,
+      "bytes": 13173,
       "capsule_id": "capsule:eisa_ii:erisipela",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1155,7 +1155,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "a7233ce950b9cae4859d842b1ccffef11141335485071587e09c6c94168ddda2",
+      "sha256": "ea8bb0b52f735af1aba7fb3f75496b6316528b14048beb9ad86eb240f607624d",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Erisipela",
@@ -2037,7 +2037,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 13564,
+      "bytes": 13811,
       "capsule_id": "capsule:eisa_ii:otites_aguda_cronica_externa",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2053,7 +2053,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "327b7b20d43a9fe1250adf8840886e22f43bd01c6fa5b1714cceba020a5ac69c",
+      "sha256": "0c94512f9d2517f1e1afc07fa1462365ab3d631c12a1203bca9765d048950b14",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Otites (aguda, média crônica e externa)",
@@ -2416,7 +2416,7 @@
       "unit": "UNIT_4"
     },
     {
-      "bytes": 7373,
+      "bytes": 7598,
       "capsule_id": "capsule:eisca:asma_em_pediatria",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -2432,7 +2432,7 @@
       "review_status": "reviewed_l2",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "9e354443012d4a501dbebe3111cfc8072d02e7fffe5ecad2579e9618ef46fca2",
+      "sha256": "05ed40d6aae67f86ca38e12b7584005bd19a20c29571eed1e472da7a7db7a4bc",
       "source_ids": [
         "Asma_em_Pediatria__3def9bfd99"
       ],
@@ -3083,7 +3083,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 11883,
+      "bytes": 12179,
       "capsule_id": "capsule:eisca:pneumonia_adquirida_na_comunidade_na_infancia",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3099,7 +3099,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "3c9f4c01c9da977cad64f9380f12f5397620be3d2105e565118950b404212aec",
+      "sha256": "e932139b9c8b0dc19a530a03848eaaf67c7d0d65663f4e44776ca7ebba472dfa",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Pneumonia adquirida na comunidade na infância",
@@ -3210,7 +3210,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 16948,
+      "bytes": 16517,
       "capsule_id": "capsule:eisca:sepse_e_meningite_neonatal",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3226,7 +3226,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "e0565904a3a18ab712a4ec4bac265d5fa692ec497932cf95d18050ebfaa985dd",
+      "sha256": "ad77ddac7803fb9d646fc3fc47d22777da900b977944d375ae1ecf1746076057",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Sepse neonatal e meningite neonatal",
@@ -3314,7 +3314,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 10230,
+      "bytes": 10211,
       "capsule_id": "capsule:eism:ansioliticos_e_hipnoticos",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3330,7 +3330,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "8b53b7259255fd0976a7bd05c189e51d656254b85123e92f771180b0d7cd98da",
+      "sha256": "748a221ef705345818bcd6ecd6c970bfe7fe191081480abe91dba3c743723080",
       "source_ids": [
         "ANOTAC_O_ES_ansioli_ticos__c32028b863",
         "FAMENE_FARMACOTERAPIA_DA_INSO_NIA_E_ANSIEDADE_2024_2__f4edb4a564",
@@ -3940,7 +3940,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 12275,
+      "bytes": 11796,
       "capsule_id": "capsule:osce:formato_roteiro_osce_p7",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -3956,14 +3956,14 @@
       "review_status": "reviewed_l1",
       "risk": "low",
       "schema_version": "1.0.0",
-      "sha256": "61e088ee1de6d4801e64cfcab64d34cc331a69221b2c59620b38dd579fb3f293",
+      "sha256": "b74e4def25349e5b2f666922faba727e389786f8c332a83fe70115875896441c",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Formato e roteiro geral da estação OSCE do P7",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 14078,
+      "bytes": 13925,
       "capsule_id": "capsule:osce:osce_banco_de_estacoes",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -3979,7 +3979,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "b95f9fdbba50ee48e60f7c370c9d2853896a6de44ccba72d6984dc9f23fa9412",
+      "sha256": "313a0239e921fdfa7d5c9df1becf9be0556bdd289ad1ccb4d21ce4c2c71ab938",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Banco de estações OSCE modeladas com comandos e gabarito",
@@ -4009,7 +4009,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 15342,
+      "bytes": 15963,
       "capsule_id": "capsule:osce:osce_nefrologia",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -4025,14 +4025,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "f397a0f85f8c2ca1c262e605e49d1ab8784627d7e752759c88a3929605e8390a",
+      "sha256": "d1bdf091cde3869ae75e3a4f3a8e29476979be3769fdfa7ee39b073f7f2d6d69",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "OSCE Nefrologia — síndromes glomerulares, glomerulopatias, DRC e injúria renal aguda",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 22770,
+      "bytes": 22818,
       "capsule_id": "capsule:osce:osce_neurologia",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -4048,14 +4048,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "0350632b46297f1d94b26640ef7a59524d958b203998aa14ee6f95ef1c73c30f",
+      "sha256": "4a6fd88e737483ce3a6e367067d91d85b45cbb88bde726e1ae3c7dc0f3c200c2",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "OSCE Neurologia — AVC isquêmico, AVC hemorrágico, AIT, coma e TCE",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 21996,
+      "bytes": 22154,
       "capsule_id": "capsule:osce:osce_pediatria",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -4071,7 +4071,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "e738082a38a9c196d5e5f3dd5c04632088299c366df93af079c467f754fe8c47",
+      "sha256": "6e6ede1922e567d15e2cee45f6bbfbf2c4fe915350bd55788375a7c200a7b61b",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "OSCE Pediatria — pneumonia, asma, diarreia com desidratação, aleitamento materno e assistência ao recém-nascido",

@@ -53,7 +53,7 @@ SRAA; pupilas isocóricas fotorreagentes = tóxico-metabólico; anisocoria preco
 | Herniação uncal | Dilatação pupilar unilateral precoce, deterioração rápida da consciência, compressão do III par (oculomotor) | 2 fontes | CONFIRMADO |
 | Herniação central | Mais crônica que a uncal, rebaixamento do nível de consciência mais precoce, laceração do pedículo hipofisário, compromete artérias cerebrais posteriores | 2 fontes | CONFIRMADO |
 | Herniação tonsilar | Amígdalas cerebelares através do forame magno; risco de compressão bulbar e parada respiratória — por isso não puncionar líquor sem excluir HIC | Neuro_COMA p.9-10 | CONFIRMADO (fonte única, achado clássico de literatura) |
-| Medicações empíricas de emergência no coma | Glicose; naloxona (superdosagem de narcóticos); flumazenil (superdosagem de benzodiazepínicos); tiamina (suspeita de coma alcoólico/desnutrição) | 2 fontes | CONFIRMADO |
+| Lista curricular de fármacos associados ao coma | glicose; naloxona; flumazenil; tiamina | 2 fontes | QUARANTINED — lista histórica não é pacote empírico; cada intervenção depende de indicação, contraindicações e protocolo vigente |
 | Padrão respiratório localizatório | Cheyne-Stokes = hemisférios/diencéfalo; neurogênica central = ponte; apnêustica = porção inferior da ponte; atáxica/Biot = bulbo | 2 fontes | CONFIRMADO |
 | Reflexo córneo-palpebral | Testa a integridade do tronco encefálico; ausência = mau prognóstico | 2 fontes | CONFIRMADO |
 | Teste de apneia (morte encefálica) | Desconectar o respirador; se pCO2 sobe acima de 55 mmHg sem resposta respiratória, confirma lesão de bulbo | Neuro_COMA p.11 | CONFIRMADO (fonte única) |
@@ -91,7 +91,7 @@ SRAA; pupilas isocóricas fotorreagentes = tóxico-metabólico; anisocoria preco
 
 ## Mini-casos ativos
 
-Paciente em coma, sem sinais de localização, pupilas isocóricas e fotorreagentes, glicemia normal, histórico de uso crônico de benzodiazepínico. Variável decisiva: ausência de sinal de localização + pupila normal → etiologia tóxico-metabólica → considerar flumazenil.
+Paciente em coma, sem sinais de localização, pupilas isocóricas e fotorreagentes, glicemia normal, histórico de uso crônico de benzodiazepínico. Variável decisiva: priorizar suporte e investigação toxicológica; uso crônico torna especialmente inseguro inferir flumazenil desta cápsula. Indicação/contraindicações exigem fonte e protocolo vigentes.
 
 Paciente com deterioração rápida da consciência e dilatação pupilar unilateral que apareceu antes de qualquer outro sinal. Variável decisiva: anisocoria precoce e unilateral → herniação **uncal**, não central — buscar lesão expansiva temporal (ex.: hematoma).
 
@@ -108,7 +108,7 @@ tiamina prontamente, antes/concomitante quando possível.</details>
 | Exceções ao padrão pupilar tóxico-metabólico | Encefalopatia anóxica, anticolinérgicos, botulismo, narcóticos | pegadinha |
 | Herniação uncal | Anisocoria unilateral precoce, deterioração rápida, compressão do III par | dado |
 | Herniação central | Mais lenta, rebaixamento de consciência precoce, sem anisocoria inicial | dado |
-| Mnemônico das 4 drogas de emergência no coma | Glicose / Naloxona / Flumazenil / Tiamina | dado |
+| A lista curricular glicose/naloxona/flumazenil/tiamina é um pacote empírico? | Não. É mnemônico histórico `QUARANTINED`; cada intervenção exige indicação, contraindicações e protocolo vigente | segurança |
 | Ordem tiamina x glicose em hipoglicemia | não atrasar glicose; tiamina prontamente | pegadinha |
 | Contraindicação antes de puncionar líquor em comatoso | Excluir HIC por imagem primeiro (risco de herniação tonsilar) | pegadinha |
 | Padrão respiratório de lesão pontina | Respiração neurogênica central (ponte) / apnêustica (ponte inferior) | dado |

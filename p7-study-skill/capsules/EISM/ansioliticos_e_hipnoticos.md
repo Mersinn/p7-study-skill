@@ -116,8 +116,9 @@ tarja preta · agonista 5-HT1A (buspirona) · desmame · delirium tremens
    do fármaco como causa; trocar/desmamar. Variável decisiva: idade + fármaco de meia-vida longa +
    quedas.
 4. Paciente encontrado em rebaixamento de consciência após ingestão de benzodiazepínico + álcool →
-   suporte respiratório prioritário; considerar flumazenil. Variável decisiva: associação com álcool
-   (risco de depressão respiratória grave).
+   suporte respiratório prioritário e avaliação toxicológica. Não inferir flumazenil desta cápsula;
+   indicação e contraindicações exigem contexto e protocolo vigente. Variável decisiva: associação
+   com álcool e risco de depressão respiratória grave.
 
 ## Cards mínimos
 

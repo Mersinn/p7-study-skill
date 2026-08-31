@@ -15,6 +15,13 @@
 - Limitações da fonte: tema=tem_camada_A **false** no cluster — não há slide do professor identificado no dossiê para este tema; as 4 fontes nativas convergem entre si (mesmos números, mesma sequência terapêutica), o que eleva a confiança apesar de serem todas camada B
 - Verificação nível 1: CONFIRMADO
 
+## Contrato de recuperação
+
+`answer_key_scope: curricular`; `clinical_validity_default: pending`. Esta
+cápsula B-only ensina o material da faculdade. Nenhum corte, número, fármaco,
+via, duração, contraindicação ou decisão de internação daqui pode ser usado
+como prática atual sem claim `current` rastreável ou fonte oficial aberta.
+
 ## Como cai
 
 A prova não pergunta "o que é erisipela" — ela descreve uma placa eritematosa em perna com bordas bem definidas e pede diagnóstico diferencial, estratificação e resposta segundo o material. O gabarito curricular confirma esse padrão. Uma segunda questão cobra um limiar de profilaxia; o valor e o regime exatos ficam somente no painel histórico `QUARANTINED`.
@@ -66,10 +73,10 @@ rastreável ou abrir fonte oficial vigente.
 
 ## Pegadinhas
 
-- **"Celulite" é o distrator mais comum e mais sedutor**: a prova descreve placa vermelha em perna e espera que o aluno saiba diferenciar pela borda (erisipela = bem definida, sem área sadia; celulite = difusa, com área sadia no meio) e pelo agente (erisipela = Streptococcus; celulite = geralmente Staphylococcus) — não pela "gravidade" da vermelhidão.
-- **Cultura não é rotina**: mesmo sendo linfangite por Streptococcus na maioria das vezes, não se cultiva de rotina porque o tratamento é o mesmo independente do agente exato — um distrator típico oferece "solicitar cultura" como próximo passo, o que está errado.
-- **Não romper flictenas**: um distrator oferece "drenar a bolha" como conduta ativa — errado, a bolha íntegra é barreira; romper cria nova porta de entrada.
-- **Vancomicina/antibiótico "mais potente"** para erisipela simples é superextrapolação — a prova testa se o aluno escolhe o antibiótico proporcional à gravidade real (beta-lactâmico é suficiente na forma simples), não o mais amplo espectro disponível.
+- **"Celulite" é o distrator curricular mais comum**: a fonte B diferencia os quadros por borda e agente. Use essa formulação para reconhecer o gabarito da aula; diagnóstico diferencial e etiologia em prática atual exigem fonte vigente.
+- **"Solicitar cultura" aparece como distrator curricular**. A cápsula não transforma essa chave B-only em regra atual absoluta; decisão de coleta depende do contexto clínico e de fonte vigente.
+- **"Drenar a flictena" aparece como distrator curricular**. A cautela de não romper pertence ao material da aula e não deve ser universalizada sem avaliação do tipo de lesão e do contexto real.
+- **Vancomicina/antibiótico "mais potente"** é uma superextrapolação no exercício da faculdade. A cápsula não fornece esquema antimicrobiano atual.
 - **Linfedema não é exclusivo de erisipela**: pode ser primário (congênito) ou secundário a outras causas (câncer/pós-mastectomia, filariose). Erisipela é a causa mais citada, mas a prova pode testar se o aluno sabe que existe a segunda causa (neoplasia, especialmente pós-esvaziamento linfonodal).
 
 ## Distratores sedutores
@@ -77,7 +84,7 @@ rastreável ou abrir fonte oficial vigente.
 | Distrator | Por que seduz | Movimento que sugere | Por que erra |
 |---|---|---|---|
 | "Trata-se de celulite" | Placa vermelha e quente parece celulite para quem não fixou o discriminador de borda | narrativa acima do discriminador | Ignora o achado mais específico do enunciado (bordas bem definidas, sem área sadia) |
-| "É indiferente saber se é erisipela ou celulite" | Parece pragmático — "trata infecção de pele com antibiótico" | fechamento precoce | O antibiótico de escolha muda (beta-lactâmico vs. cobertura para Staphylococcus/cefalexina); tratar errado prolonga internação |
+| "É indiferente saber se é erisipela ou celulite" | Parece pragmático — "trata infecção de pele com antibiótico" | fechamento precoce | O material cobra a diferenciação; escolha antimicrobiana atual não é inferida desta fonte B-only |
 | "Solicitar eco-Doppler para definir conduta" | Soa como "investigação completa antes de agir" | sobre-elaboração | Diagnóstico é clínico por inspeção; pedir exame de imagem atrasa o tratamento sem agregar informação |
 | "Estabilizar diabetes, iniciar antibiótico mais potente (vancomicina)" | Paciente diabético "parece" justificar escalonamento | superextrapolação | Erisipela simples não muda de antibiótico por comorbidade não relacionada à gravidade da lesão cutânea |
 | "Drenar a bolha para aliviar" | Intuição cirúrgica comum (drenar coleção) | regra mal-aprendida (generalizar conduta de abscesso para flictena) | Flictena de erisipela não é abscesso — romper cria porta de entrada nova, sem benefício terapêutico |
@@ -86,8 +93,8 @@ rastreável ou abrir fonte oficial vigente.
 
 - Inicial: elevar o membro quando apropriado, cuidado local e avaliação da porta de entrada. Os esquemas de antibiótico/antifúngico, doses, vias e durações desta cápsula são B-only e ficam `QUARANTINED`; não usar como prescrição atual sem fonte vigente e avaliação clínica.
 - Definitiva: selecionar tratamento e necessidade de internação por gravidade, comorbidades e protocolo vigente. Os regimes B-only acima permanecem exclusivamente no painel curricular `QUARANTINED`.
-- Condição da conduta: presença de flictena OU necrose muda a via de simples/ambulatorial para grave/internação — é o único critério que importa, não o tamanho da placa.
-- Diferencial perigoso: celulite (Staphylococcus, bordas difusas, área sadia central, tratada com cefalexina) e TVP (empastamento muscular, tríade de Virchow) — ambas podem mimetizar eritema de perna e mudar completamente a conduta.
+- Condição curricular: o material usa flictena/necrose para aumentar gravidade; não promover esse achado isolado a regra atual de internação.
+- Diferenciais do material: celulite e TVP. Etiologia, investigação e tratamento atuais exigem fonte vigente; não inferir cefalexina ou outro esquema desta cápsula.
 - O que mudaria a decisão: alergia, recorrência e porta de entrada fúngica mudam o planejamento, mas fármaco, dose, duração e limiar do material são curriculares `QUARANTINED`; na prática atual exigem fonte vigente e contexto clínico.
 
 ## Mini-casos ativos
@@ -105,7 +112,7 @@ rastreável ou abrir fonte oficial vigente.
 | Diferença de borda entre erisipela e celulite | Erisipela: bordas bem definidas, sem área sadia. Celulite: bordas difusas, com área sadia no meio | sinal-achado |
 | Segundo o material, qual achado muda a gravidade? | Flictena ou necrose — resposta curricular; decisão atual exige avaliação e protocolo vigente | prioridade curricular |
 | Regimes farmacológicos exatos desta cápsula entram em resposta de prática atual? | Não. São `QUARANTINED` e só podem ser recuperados com `answer_key_scope: curricular` explícito | limite de fonte |
-| Conduta diante de flictena íntegra | Não romper — é barreira contra nova infecção | contraindicacao |
+| Segundo o material, qual a cautela com flictena íntegra? | Não romper; `answer_key_scope: curricular`, não regra atual universal | cautela curricular |
 | Complicação típica da erisipela de repetição | Linfedema, que pode evoluir a elefantíase se não tratado/prevenido | sequencia |
 
 ## Revisão

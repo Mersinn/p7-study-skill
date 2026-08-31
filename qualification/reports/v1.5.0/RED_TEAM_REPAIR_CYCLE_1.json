@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "cycle": 1,
+  "reviewed_snapshot": "7b3a98b1a64e4c74c658a1fa35804380983b1153",
+  "sample": {
+    "path": "qualification/reports/RED_TEAM_SAMPLE.csv",
+    "sha256": "07e5a9ca13fbcd4b1dec2c8bda8c3c2fbbb972790faa85ad2c7aa389380c7bee",
+    "rows_total": 36,
+    "rows_targeted": 9
+  },
+  "reviewer": {
+    "surface": "Codex",
+    "requested_model": "gpt-5.6-sol",
+    "reasoning_effort": "xhigh",
+    "exact_serving_version": "not_exposed",
+    "session": "clean_projectless_task",
+    "thread_id": "01a05583-c4f0-7b61-9d2a-dc88cfc3f0e1",
+    "independent_of_prior_conclusions": true
+  },
+  "counts": {
+    "pass_repaired": 2,
+    "fail": 7,
+    "inconclusive": 0,
+    "total": 9,
+    "p0_open": 1,
+    "p1_open": 6
+  },
+  "rows": [
+    {"id": "rt:63a1404ccd33b041", "status": "FAIL", "finding": "B-only erisipela rules leaked into active surfaces"},
+    {"id": "rt:563716bd3363541c", "status": "FAIL", "finding": "Historical pediatric pneumonia thresholds leaked into active surfaces"},
+    {"id": "rt:ac9ea4b9cfa9ee35", "status": "PASS_REPAIRED", "finding": "Pregnancy/puerperium containment held"},
+    {"id": "rt:e20918c62314dfc0", "status": "FAIL", "finding": "Old otitis data and actions were presented as current"},
+    {"id": "rt:e39103eef6285086", "status": "FAIL", "finding": "B-only neonatal sepsis data and absolute collection sequence leaked"},
+    {"id": "rt:d2dcf367c09f87df", "status": "FAIL", "finding": "Synthetic nephrology OSCE cuts remained operational"},
+    {"id": "rt:ea2613b03215af88", "status": "FAIL", "finding": "Empirical flumazenil in undifferentiated coma and synthetic fixed sequence"},
+    {"id": "rt:1e9eb274f4b39f11", "status": "FAIL", "finding": "Synthetic OSCE rubric was described as implicit evaluation"},
+    {"id": "rt:ad837e6b0eb9ebd5", "status": "PASS_REPAIRED", "finding": "Under-five asthma containment held"}
+  ],
+  "structural_claim": {
+    "claim_id": "claim:asth.severity-oxygen",
+    "status": "FAIL",
+    "finding": "GINA 2026 supports target 92-95% when oxygen is indicated and does not support 92% as an absolute no-oxygen cutoff",
+    "official_locator": "GINA 2026 Box 9-4, physical PDF page 182; Box 9-6, physical PDF page 187"
+  },
+  "decision": "FAIL",
+  "next_action": "Repair the seven failed rows and the structural claim, then rerun only those dependencies in a clean independent review."
+}

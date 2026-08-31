@@ -107,9 +107,13 @@ class V150ContractTests(unittest.TestCase):
         nephro = self.read("capsules/OSCE/osce_nefrologia.md")
         bank = self.read("capsules/OSCE/osce_banco_de_estacoes.md")
         osce = self.read("capsules/OSCE/formato_roteiro_osce_p7.md")
+        sepse = self.read("capsules/EISCA/sepse_e_meningite_neonatal.md")
+        asma = self.read("capsules/EISCA/asma_em_pediatria.md")
+        claims = self.read("registry/clinical_claims.jsonl")
 
-        self.assertIn("answer_key_scope: curricular", erisipela)
-        self.assertIn("answer_key_scope: curricular", pneumonia)
+        for capsule in (erisipela, pneumonia, otites, nephro, sepse):
+            self.assertIn("answer_key_scope: curricular", capsule)
+            self.assertIn("clinical_validity_default: pending", capsule)
         erisipela_operational = erisipela.split("## Dados de precisão", 1)[0]
         pneumonia_operational = pneumonia.split("## Dados de precisão", 1)[0]
         erisipela_active = erisipela.split("## Conduta", 1)[1]
@@ -126,9 +130,32 @@ class V150ContractTests(unittest.TestCase):
         self.assertNotIn("A partir de qual estágio da DRC encaminha", nephro)
         for forbidden in ("Gabarito/checklist", "2-3 min cada", "15 minutos ao todo"):
             self.assertNotIn(forbidden, bank)
+        for forbidden in ("e flumazenil (", "GCS <8 é o corte fixo"):
+            self.assertNotIn(forbidden, bank)
         for forbidden in ("Estações oficiais aplicadas", "7 passos fixos", "regra geral do OSCE"):
             self.assertNotIn(forbidden, osce)
         self.assertIn("não é checklist/pontuação oficial", osce)
+        self.assertNotIn("checklist implícito", osce.lower())
+        self.assertNotIn("é avaliado", osce.lower())
+
+        sepse_current = sepse.split("## Conduta", 1)[1]
+        self.assertNotIn("sempre antes", sepse.lower())
+        for forbidden in ("oxacilina+amicacina", "vancomicina + cefotaxima", "vancomicina + cefepime"):
+            self.assertNotIn(forbidden, sepse_current.lower())
+
+        otites_active = otites.split("## Mini-casos ativos", 1)[1]
+        self.assertNotIn("solicitar vhs", otites_active.lower())
+        self.assertNotIn("indicação de antiviral precoce", otites_active.lower())
+
+        for text in (asma, claims):
+            self.assertIn("92–95%", text)
+            self.assertNotIn("não é recomendado se SpO2", text)
+
+        all_capsules = "\n".join(
+            path.read_text(encoding="utf-8") for path in (ROOT / "capsules").rglob("*.md")
+        ).lower()
+        self.assertNotIn("flumazenil empír", all_capsules)
+        self.assertNotIn("considerar flumazenil", all_capsules)
 
     def test_markdown_line_endings_are_consistent(self):
         mixed = []

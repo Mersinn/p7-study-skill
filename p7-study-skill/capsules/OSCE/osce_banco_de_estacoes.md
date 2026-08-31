@@ -72,7 +72,7 @@ Este tema não é um assunto clínico — é o **formato do dia da prova**: vár
 - **Comando 1:** cite 2 medicações de emergência que podem ser consideradas empiricamente.
 - **Comando 2:** o achado pupilar (isocórica e fotorreagente) sugere que tipo de etiologia?
 - **Comando 3:** GCS 7 exige qual conduta imediata de via aérea?
-- **Resposta-modelo sintética de treino (não oficial):** (1) naloxona (antídoto de opioides) e flumazenil (antídoto de benzodiazepínicos), após colher sangue para investigar intoxicação; (2) etiologia tóxico-metabólica (pupilas isocóricas e fotorreagentes classicamente apontam para essa causa, diferente de anisocoria = herniação uncal, ou puntiforme = lesão de ponte); (3) intubação orotraqueal — GCS <8 é o corte fixo para proteção de via aérea. *Fonte dos dados: `osce_neurologia.md`, tabelas "Pupilas no coma/TCE" e "Medicações de emergência no coma" (`OSCE .pdf`, ~p.14-16).*
+- **Resposta-modelo sintética de treino (não oficial):** a chave B-only que sugeria antídotos empíricos foi removida e fica `QUARANTINED`; flumazenil não pode ser recomendado em coma indiferenciado por esta cápsula. O treino válido é reconhecer que suporte, investigação e eventual antídoto dependem de toxíndrome, história, contraindicações e protocolo vigente; a regra de via aérea do material também não é promovida a corte atual universal.
 
 ## Pivô clínico
 
@@ -112,7 +112,7 @@ Todos os dados clínicos usados nas 6 estações já estão verificados nível 1
 
 ## Conduta
 
-- Inicial: em toda estação, cumprir a sequência fixa do roteiro geral do OSCE do P7 (cumprimentar → lavar as mãos → ler o caso → exame físico/exames disponíveis) antes de responder qualquer comando de conteúdo médico.
+- Inicial de treino: usar o roteiro sintético (cumprimentar → higienizar as mãos → ler o caso → exame/exames disponíveis) para consistência; ele não é sequência oficial obrigatória nem prova pontuação real.
 - Definitiva: responder comando por comando, na ordem, citando a classificação formal antes da conduta e o exame padrão-ouro específico antes de qualquer interpretação de achado.
 - Condição da conduta: cada estação tem seu próprio corte/critério objetivo — não existe "resposta padrão" que sirva para todas; a variável decisiva muda a cada cabine.
 - Erro de treino: comandos que pedem apenas classificação/exame não devem receber conduta completa; o efeito na pontuação real é desconhecido e depende da banca.
