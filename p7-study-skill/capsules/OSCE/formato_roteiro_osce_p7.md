@@ -52,9 +52,9 @@ Comando · prontuário · exame físico · manequim · resultado disponível · 
 
 | Dado | Valor | Fonte (página) | Status |
 |---|---|---|---|
-| Sequência fixa das orientações gerais do OSCE do P7 | cumprimentar/apresentar-se → lavar as mãos → ler prontuário e iniciar atendimento → exame físico + leitura de exames disponíveis → verificar se todos os comandos foram respondidos → lavar as mãos → despedir-se e agradecer | OSCE .pdf, p. 1 (camada B) | CONFIRMADO |
+| Roteiro curricular de treino descrito no material B | cumprimentar/apresentar-se → lavar as mãos → ler prontuário e iniciar atendimento → exame físico + leitura de exames disponíveis → verificar se todos os comandos foram respondidos → lavar as mãos → despedir-se e agradecer | OSCE .pdf, p. 1 (camada B) | CURRICULAR_CONFIRMED — não é checklist/pontuação oficial |
 | Roteiro de exame físico no manequim (achados "colados") | avisar que vai examinar → higienizar as mãos → pedir licença e retirar o pano → varrer cabeça → tronco → MMSS → MMII (inclusive calcanhares) → virar o manequim e checar dorso/região sacral → vestir e cobrir o paciente ao final | FACILITA OSCE (1).pdf, ~p. 1 (camada B) | CONFIRMADO |
-| Estações oficiais aplicadas no OSCE P7 A e B — 2025.1 (5 blocos) | Neurologia: AVCi, AVCh, Coma, Cefaleia, TCE · Urologia: Litíase, HPB, Câncer de próstata, Trauma urinário 1 e 2, Câncer renal · Nefrologia: Doença Renal do Diabetes, DRC, Glomerulopatia primária, Glomerulopatia secundária, IRA · Endocrinologia: Diagnóstico/tratamento do Diabetes, Hipertireoidismo, Nódulos de tireoide, Hiperandrogenismo · Pediatria: Febre Reumática, Assistência ao RN, Diarreia, Aleitamento, Atopias | `assuntos OSCE p7 2025.1` (imagem fotografada, p. 1) — prova aplicada em 14/05/2025 | CONFIRMADO (leitura direta da imagem) |
+| Temas anunciados para o OSCE P7 A e B — 2025.1 (5 blocos; não prova checklist aplicado) | Neurologia: AVCi, AVCh, Coma, Cefaleia, TCE · Urologia: Litíase, HPB, Câncer de próstata, Trauma urinário 1 e 2, Câncer renal · Nefrologia: Doença Renal do Diabetes, DRC, Glomerulopatia primária, Glomerulopatia secundária, IRA · Endocrinologia: Diagnóstico/tratamento do Diabetes, Hipertireoidismo, Nódulos de tireoide, Hiperandrogenismo · Pediatria: Febre Reumática, Assistência ao RN, Diarreia, Aleitamento, Atopias | `assuntos OSCE p7 2025.1` (imagem fotografada, p. 1) | CURRICULAR_CONFIRMED — lista de temas, não rubrica oficial |
 | Tempo por estação / nº total de estações do dia | não informado em nenhuma fonte disponível | — | confirmar no slide/com a coordenação |
 
 ## Pegadinhas
@@ -78,10 +78,10 @@ Comando · prontuário · exame físico · manequim · resultado disponível · 
 
 ## Conduta
 
-- Inicial: cumprimentar + apresentar-se + lavar as mãos + ler o prontuário/caso clínico.
-- Definitiva: examinar (manequim ou paciente-ator, pedindo licença) + interpretar todo exame complementar já disponível + responder cada comando numerado, na ordem, sem pular nenhum.
-- Condição da conduta: sequência fixa, independe da especialidade da cabine.
-- Diferencial perigoso: em estações com carga de saúde mental (mesmo que embutida em outra especialidade), avaliar risco de suicídio é um comando implícito que não pode ser pulado mesmo que o enunciado não use essa palavra — regra geral do OSCE, não específica desta capsula.
+- Inicial de treino: cumprimentar + apresentar-se + lavar as mãos + ler o prontuário/caso clínico.
+- Sequência de treino: examinar (manequim ou paciente-ator, pedindo licença) + interpretar todo exame complementar já disponível + responder cada comando numerado, na ordem, sem pular nenhum.
+- Escopo: é um roteiro sintético de consistência, não checklist, peso ou regra eliminatória oficial.
+- Segurança clínica: em cenário de saúde mental, avaliar risco quando os dados/comando o exigirem; não inventar comando implícito universal da banca.
 - O que mudaria a decisão: se o comando pede explicitamente "oriente o paciente" ou "cite diferenciais", o alvo da resposta muda de "conduta médica" para "explicação em linguagem leiga" ou "lista comparativa" — ler o verbo do comando decide o formato da resposta, não só o conteúdo.
 
 ## Mini-casos ativos
@@ -94,7 +94,7 @@ Comando · prontuário · exame físico · manequim · resultado disponível · 
 
 | Frente | Verso | Tipo |
 |---|---|---|
-| Quais são os 7 passos fixos da estação OSCE do P7, na ordem? | Cumprimentar/apresentar-se → lavar as mãos → ler prontuário → exame físico + exames disponíveis → conferir se todos os comandos foram respondidos → lavar as mãos → despedir-se/agradecer | fato |
+| Quais são os 7 passos do roteiro sintético de treino? | Cumprimentar/apresentar-se → lavar as mãos → ler prontuário → exame físico + exames disponíveis → conferir se todos os comandos foram respondidos → lavar as mãos → despedir-se/agradecer; não é checklist oficial | fato |
 | No manequim, antes de examinar, o que devo fazer? | Avisar o paciente, higienizar as mãos, pedir licença para retirar o pano que cobre o boneco | sequência |
 | Um comando pede só a hipótese diagnóstica — devo já explicar a conduta? | Não — responda apenas o que o comando pediu; guarde a conduta para o comando que a solicitar | regra |
 | Encontrei um achado no manequim que não parece ligado à queixa principal. Cito? | Sim — sempre mencione qualquer achado localizado durante a varredura completa do corpo | regra |
@@ -102,4 +102,4 @@ Comando · prontuário · exame físico · manequim · resultado disponível · 
 ## Revisão
 
 - Revisar quando: antes de qualquer simulação de estação nova, e sempre que praticar uma especialidade diferente pela primeira vez.
-- Critério de parada: quando conseguir executar os 7 passos completos e responder comando por comando, sem pular nenhum e sem antecipar respostas futuras, em 3 estações seguidas de especialidades diferentes.
+- Critério de parada de treino: executar os 7 passos do roteiro sintético e responder comando por comando, sem pular nenhum e sem antecipar respostas futuras, em 3 estações seguidas de especialidades diferentes; não inferir pontuação oficial.

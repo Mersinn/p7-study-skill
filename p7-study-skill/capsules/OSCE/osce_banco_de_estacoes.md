@@ -27,7 +27,7 @@ Este tema não é um assunto clínico — é o **formato do dia da prova**: vár
 - **Comando 1:** classifique o risco deste TCE.
 - **Comando 2:** qual a conduta a partir dessa classificação?
 - **Comando 3:** cite 2 achados de exame físico que, se presentes, mudariam a classificação para alto risco.
-- **Gabarito/checklist:** (1) risco **moderado** — vômito e cefaleia progressiva sem melhora já preenchem o critério, mesmo com GCS 15 e sem déficit focal; (2) TC de crânio + observação hospitalar (não alta domiciliar, não internação direta sem TC); (3) déficit neurológico focal ou lesão penetrante/fratura em afundamento (classificam como alto risco → TC + internação). *Fonte dos dados: `osce_neurologia.md`, tabela "Estratificação de risco do TCE" (`OSCE .pdf`, ~p.9).*
+- **Resposta-modelo sintética de treino (não oficial):** (1) risco **moderado** — vômito e cefaleia progressiva sem melhora já preenchem o critério, mesmo com GCS 15 e sem déficit focal; (2) TC de crânio + observação hospitalar (não alta domiciliar, não internação direta sem TC); (3) déficit neurológico focal ou lesão penetrante/fratura em afundamento (classificam como alto risco → TC + internação). *Fonte dos dados: `osce_neurologia.md`, tabela "Estratificação de risco do TCE" (`OSCE .pdf`, ~p.9).*
 
 ### Estação 2 — Urologia: cólica renal com dúvida de conduta
 
@@ -35,7 +35,7 @@ Este tema não é um assunto clínico — é o **formato do dia da prova**: vár
 - **Comando 1:** qual o exame padrão-ouro para o diagnóstico (já realizado neste caso)?
 - **Comando 2:** este cálculo tem indicação de eliminação espontânea?
 - **Comando 3:** cite a conduta cirúrgica indicada se o paciente tiver contraindicação a litotripsia extracorpórea.
-- **Gabarito/checklist:** (1) TC de crânio sem contraste — **não**, é TC de **abdome/vias urinárias** sem contraste (armadilha de comando: exigir precisão anatômica); (2) não — cálculo de 0,9cm já ultrapassa a faixa de eliminação espontânea confiável (<0,5cm); (3) ureteroscopia (quando há contraindicação à LECO, conforme o algoritmo por tamanho/localização). *Fonte dos dados: `osce_urologia.md`, tabela "Litíase — corte de tamanho para indicação cirúrgica" (`OSCE .pdf`, ~p.20-21).*
+- **Resposta-modelo sintética de treino (não oficial):** (1) TC de crânio sem contraste — **não**, é TC de **abdome/vias urinárias** sem contraste (armadilha de comando: exigir precisão anatômica); (2) não — cálculo de 0,9cm já ultrapassa a faixa de eliminação espontânea confiável (<0,5cm); (3) ureteroscopia (quando há contraindicação à LECO, conforme o algoritmo por tamanho/localização). *Fonte dos dados: `osce_urologia.md`, tabela "Litíase — corte de tamanho para indicação cirúrgica" (`OSCE .pdf`, ~p.20-21).*
 
 ### Estação 3 — Pediatria: assistência ao recém-nascido, 1º minuto de vida
 
@@ -64,7 +64,7 @@ Este tema não é um assunto clínico — é o **formato do dia da prova**: vár
 - **Comando 1:** a intensidade da hematúria é proporcional à gravidade da lesão renal?
 - **Comando 2:** qual o exame de escolha neste paciente (estável)?
 - **Comando 3:** cite 2 critérios que indicariam tratamento cirúrgico em vez de conservador.
-- **Gabarito/checklist:** (1) não — a hematúria não é proporcional à gravidade da lesão, é um erro comum assumir isso; (2) TC de abdome com contraste (padrão-ouro para diagnóstico e estadiamento em paciente estável — não USG FAST, que é reservada a paciente instável); (3) lesão grau IV ou V (atinge via coletora ou rim fraturado/avulsão de hilo), instabilidade hemodinâmica (PAS<90), ou hematoma perirrenal pulsátil/expansivo identificado em laparotomia. *Fonte dos dados: `osce_urologia.md`, tabelas "Trauma renal — classificação" e "Trauma renal — conduta por gravidade" (`OSCE .pdf`, ~p.31).*
+- **Resposta-modelo sintética de treino (não oficial):** (1) não — a hematúria não é proporcional à gravidade da lesão, é um erro comum assumir isso; (2) TC de abdome com contraste (padrão-ouro para diagnóstico e estadiamento em paciente estável — não USG FAST, que é reservada a paciente instável); (3) lesão grau IV ou V (atinge via coletora ou rim fraturado/avulsão de hilo), instabilidade hemodinâmica (PAS<90), ou hematoma perirrenal pulsátil/expansivo identificado em laparotomia. *Fonte dos dados: `osce_urologia.md`, tabelas "Trauma renal — classificação" e "Trauma renal — conduta por gravidade" (`OSCE .pdf`, ~p.31).*
 
 ### Estação 6 — Neurologia: coma de origem indeterminada
 
@@ -72,7 +72,7 @@ Este tema não é um assunto clínico — é o **formato do dia da prova**: vár
 - **Comando 1:** cite 2 medicações de emergência que podem ser consideradas empiricamente.
 - **Comando 2:** o achado pupilar (isocórica e fotorreagente) sugere que tipo de etiologia?
 - **Comando 3:** GCS 7 exige qual conduta imediata de via aérea?
-- **Gabarito/checklist:** (1) naloxona (antídoto de opioides) e flumazenil (antídoto de benzodiazepínicos), após colher sangue para investigar intoxicação; (2) etiologia tóxico-metabólica (pupilas isocóricas e fotorreagentes classicamente apontam para essa causa, diferente de anisocoria = herniação uncal, ou puntiforme = lesão de ponte); (3) intubação orotraqueal — GCS <8 é o corte fixo para proteção de via aérea. *Fonte dos dados: `osce_neurologia.md`, tabelas "Pupilas no coma/TCE" e "Medicações de emergência no coma" (`OSCE .pdf`, ~p.14-16).*
+- **Resposta-modelo sintética de treino (não oficial):** (1) naloxona (antídoto de opioides) e flumazenil (antídoto de benzodiazepínicos), após colher sangue para investigar intoxicação; (2) etiologia tóxico-metabólica (pupilas isocóricas e fotorreagentes classicamente apontam para essa causa, diferente de anisocoria = herniação uncal, ou puntiforme = lesão de ponte); (3) intubação orotraqueal — GCS <8 é o corte fixo para proteção de via aérea. *Fonte dos dados: `osce_neurologia.md`, tabelas "Pupilas no coma/TCE" e "Medicações de emergência no coma" (`OSCE .pdf`, ~p.14-16).*
 
 ## Pivô clínico
 
@@ -120,7 +120,7 @@ Todos os dados clínicos usados nas 6 estações já estão verificados nível 1
 
 ## Mini-casos ativos
 
-As 6 estações do banco acima já cumprem a função de mini-casos ativos desta cápsula — cada uma com pivô, comando e gabarito explícitos.
+As 6 estações modeladas acima já cumprem a função de mini-casos ativos desta cápsula — cada uma com pivô, comando e resposta-modelo sintética, nunca gabarito oficial.
 
 ## Cards mínimos
 
@@ -134,5 +134,5 @@ As 6 estações do banco acima já cumprem a função de mini-casos ativos desta
 
 ## Revisão
 
-- Revisar quando: na semana antes do OSCE, rodando as 6 estações cronometradas (2-3 min cada), sempre comando por comando.
-- Critério de parada: quando conseguir responder as 6 estações completas, sem sobre-elaborar nenhum comando e sem trocar o exame padrão-ouro de nenhuma delas, em menos de 15 minutos ao todo.
+- Revisar quando: na semana antes do OSCE, rodando as 6 estações sempre comando por comando; o tempo real não foi informado.
+- Critério de parada: quando conseguir responder as 6 estações completas, sem sobre-elaborar nenhum comando e sem trocar o exame pedido; não inventar corte de tempo oficial.

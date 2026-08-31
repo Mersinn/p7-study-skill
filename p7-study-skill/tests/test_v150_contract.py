@@ -100,6 +100,36 @@ class V150ContractTests(unittest.TestCase):
             self.assertIn(required, skill)
         self.assertLess(len(skill.encode("utf-8")), 25000)
 
+    def test_quarantined_curriculum_is_not_promoted_by_active_capsule_surfaces(self):
+        erisipela = self.read("capsules/EISA_II/erisipela.md")
+        pneumonia = self.read("capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md")
+        otites = self.read("capsules/EISA_II/otites_aguda_cronica_externa.md")
+        nephro = self.read("capsules/OSCE/osce_nefrologia.md")
+        bank = self.read("capsules/OSCE/osce_banco_de_estacoes.md")
+        osce = self.read("capsules/OSCE/formato_roteiro_osce_p7.md")
+
+        self.assertIn("answer_key_scope: curricular", erisipela)
+        self.assertIn("answer_key_scope: curricular", pneumonia)
+        erisipela_operational = erisipela.split("## Dados de precisão", 1)[0]
+        pneumonia_operational = pneumonia.split("## Dados de precisão", 1)[0]
+        erisipela_active = erisipela.split("## Conduta", 1)[1]
+        pneumonia_active = pneumonia.split("## Conduta", 1)[1]
+        for forbidden in ("benzetacil a cada 21 dias", "profilaxia com penicilina benzatina"):
+            self.assertNotIn(forbidden, erisipela_operational)
+        for forbidden in ("preferir cefotaxima", "falha terapêutica em 72h de amoxicilina"):
+            self.assertNotIn(forbidden, pneumonia_operational)
+        for forbidden in ("1.200.000 U", "5.000.000 U", "benzetacil 21/21"):
+            self.assertNotIn(forbidden, erisipela_active)
+        for forbidden in ("oxacilina + cloranfenicol", "Sempre grave, sempre internar", "Cefotaxima (não ceftriaxona"):
+            self.assertNotIn(forbidden, pneumonia_active)
+        self.assertNotIn("contraindicada na faixa etária", otites.split("## Mini-casos ativos", 1)[1])
+        self.assertNotIn("A partir de qual estágio da DRC encaminha", nephro)
+        for forbidden in ("Gabarito/checklist", "2-3 min cada", "15 minutos ao todo"):
+            self.assertNotIn(forbidden, bank)
+        for forbidden in ("Estações oficiais aplicadas", "7 passos fixos", "regra geral do OSCE"):
+            self.assertNotIn(forbidden, osce)
+        self.assertIn("não é checklist/pontuação oficial", osce)
+
     def test_markdown_line_endings_are_consistent(self):
         mixed = []
         for path in ROOT.rglob("*.md"):

@@ -85,7 +85,7 @@ Sinal de Scheibe · MT abaulada · MT perfurada · otorreia fétida · colesteat
 
 ## Mini-casos ativos
 
-1. Criança de 4 anos com febre, otalgia de início súbito e abaulamento amarelado da MT à otoscopia. **Pivô:** quadro compatível com OMA em fase de exsudação — iniciar amoxicilina, sem indicação de quinolona (contraindicada na faixa etária).
+1. Criança de 4 anos com febre, otalgia de início súbito e abaulamento amarelado da MT à otoscopia. **Pivô:** quadro compatível com OMA; seleção farmacológica exige fonte pediátrica vigente. A contraindicação absoluta de quinolona do seminário antigo permanece `QUARANTINED`.
 2. Homem, 68 anos, diabético mal controlado, otalgia intensa há 5 semanas, otorreia purulenta persistente e tecido de granulação visível no assoalho do CAE, sem resposta a gotas tópicas. **Pivô:** o conjunto diabetes + otalgia desproporcional + tecido de granulação exige suspeitar de otite externa maligna — solicitar VHS e exame de imagem, não apenas trocar a gota tópica.
 3. Adulto jovem com vesículas na concha auricular e no CAE, paralisia facial periférica ipsilateral e queixa de tontura. **Pivô:** reconhecer síndrome de Ramsay Hunt (herpes-zoster ótico) — indicação de antiviral precoce associado ao manejo da paralisia facial, não só corticoide isolado como em Bell.
 

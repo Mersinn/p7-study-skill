@@ -1,5 +1,5 @@
 {
-  "file_count": 242,
+  "file_count": 244,
   "files": [
     {
       "bytes": 1778,
@@ -292,9 +292,9 @@
       "sha256": "50bc2be2d52dc21ff742fda5e8bdac91f258bb09fcfedb6d42dfa455247c8665"
     },
     {
-      "bytes": 13868,
+      "bytes": 13178,
       "path": "capsules/EISA_II/erisipela.md",
-      "sha256": "fbea8025d6df578e09dfefe137157c5b8f51ff0b8754d2816a72181718096d41"
+      "sha256": "a7233ce950b9cae4859d842b1ccffef11141335485071587e09c6c94168ddda2"
     },
     {
       "bytes": 15584,
@@ -462,9 +462,9 @@
       "sha256": "0d51bce6976aa9eb242477a6a765f0d88c718467128b3242cbf11fc516b88c21"
     },
     {
-      "bytes": 13529,
+      "bytes": 13564,
       "path": "capsules/EISA_II/otites_aguda_cronica_externa.md",
-      "sha256": "b5789beb8be8398e9042ad6777b8c8ec872fab8acce83aa711bbee0348fbc13b"
+      "sha256": "327b7b20d43a9fe1250adf8840886e22f43bd01c6fa5b1714cceba020a5ac69c"
     },
     {
       "bytes": 12864,
@@ -672,9 +672,9 @@
       "sha256": "422d0ce596c4d1e46a93cab39c4083da2f4da7fdde1f5cfa7891fc83d8c171f1"
     },
     {
-      "bytes": 11462,
+      "bytes": 11883,
       "path": "capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md",
-      "sha256": "f8695701c85798d9acaaa1a0a75eb7db848aff1081bdb78bd0020cfddc704ce6"
+      "sha256": "3c9f4c01c9da977cad64f9380f12f5397620be3d2105e565118950b404212aec"
     },
     {
       "bytes": 16077,
@@ -832,14 +832,14 @@
       "sha256": "7be03631aae17877fa6ae03615f9a623907b9ffcda23137134087cf1f14e7f93"
     },
     {
-      "bytes": 12241,
+      "bytes": 12275,
       "path": "capsules/OSCE/formato_roteiro_osce_p7.md",
-      "sha256": "a00b3312734470289e3bae96a7b25efd81a2093320d8e3316f9a9bc4de5ba3ad"
+      "sha256": "61e088ee1de6d4801e64cfcab64d34cc331a69221b2c59620b38dd579fb3f293"
     },
     {
-      "bytes": 13929,
+      "bytes": 14078,
       "path": "capsules/OSCE/osce_banco_de_estacoes.md",
-      "sha256": "b7f07a8f194a160504e79bc897f51f96f8e9b077be8b08673378845fb446295d"
+      "sha256": "b95f9fdbba50ee48e60f7c370c9d2853896a6de44ccba72d6984dc9f23fa9412"
     },
     {
       "bytes": 15351,
@@ -847,9 +847,9 @@
       "sha256": "17522b58c2f5bd302843e73420f801d8e8abf974d4e4c195d0de12af7960ef49"
     },
     {
-      "bytes": 15338,
+      "bytes": 15342,
       "path": "capsules/OSCE/osce_nefrologia.md",
-      "sha256": "95084928f0bc1dbc84e4b8d0824283ed632a16e604145654948706720459e033"
+      "sha256": "f397a0f85f8c2ca1c262e605e49d1ab8784627d7e752759c88a3929605e8390a"
     },
     {
       "bytes": 22770,
@@ -1152,6 +1152,11 @@
       "sha256": "6111e1a325a61339d348a130be3b195b1d98caf50340aef84db7f437e711eec8"
     },
     {
+      "bytes": 5188,
+      "path": "scripts/build_distribution.py",
+      "sha256": "9d484dd4c1c8029885989cb63b8809213a777b0c5e5ad2c490f4edc69b1908a6"
+    },
+    {
       "bytes": 19547,
       "path": "scripts/ledger.py",
       "sha256": "a28593230b955f37b754222f78424ea0d89b528c9c72f98c5bdf327ebd1f235c"
@@ -1187,6 +1192,11 @@
       "sha256": "1246fbfc0bcf2e7142a7a19268a5b45420bcf3ec70fb1259a2fb55dcafb2d8ba"
     },
     {
+      "bytes": 1387,
+      "path": "tests/test_distribution.py",
+      "sha256": "357e35d5c47acebf13b0672ad95cecbea3becbbca7ecee06da50cd0e0e0ce900"
+    },
+    {
       "bytes": 15399,
       "path": "tests/test_ledger.py",
       "sha256": "c697905e8c1ea9de86efa4518be852a457f7fbf309b24a0541ccc41dbed637a0"
@@ -1207,12 +1217,12 @@
       "sha256": "43e5f372cec00af7e756b4231dc3f2c473f9897c9e12f0816e4cde725345e230"
     },
     {
-      "bytes": 5444,
+      "bytes": 7546,
       "path": "tests/test_v150_contract.py",
-      "sha256": "3bb217ac6c0e5df89f0ae417c39e5ee6f8e1ccec83a78d3fb373f34e71c154e8"
+      "sha256": "a237fde74e9aef8b7baf714a12e911b5538fa820db9b5708e93d84c70a2b4df5"
     }
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 3040475
+  "total_bytes": 3049105
 }

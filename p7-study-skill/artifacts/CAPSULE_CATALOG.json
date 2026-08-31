@@ -1139,7 +1139,7 @@
       "unit": "UNIT_2"
     },
     {
-      "bytes": 13868,
+      "bytes": 13178,
       "capsule_id": "capsule:eisa_ii:erisipela",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -1155,7 +1155,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "fbea8025d6df578e09dfefe137157c5b8f51ff0b8754d2816a72181718096d41",
+      "sha256": "a7233ce950b9cae4859d842b1ccffef11141335485071587e09c6c94168ddda2",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Erisipela",
@@ -2037,7 +2037,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 13529,
+      "bytes": 13564,
       "capsule_id": "capsule:eisa_ii:otites_aguda_cronica_externa",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -2053,7 +2053,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "b5789beb8be8398e9042ad6777b8c8ec872fab8acce83aa711bbee0348fbc13b",
+      "sha256": "327b7b20d43a9fe1250adf8840886e22f43bd01c6fa5b1714cceba020a5ac69c",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Otites (aguda, média crônica e externa)",
@@ -3083,7 +3083,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 11462,
+      "bytes": 11883,
       "capsule_id": "capsule:eisca:pneumonia_adquirida_na_comunidade_na_infancia",
       "discipline": "EISCA",
       "legacy_metadata": {
@@ -3099,7 +3099,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "f8695701c85798d9acaaa1a0a75eb7db848aff1081bdb78bd0020cfddc704ce6",
+      "sha256": "3c9f4c01c9da977cad64f9380f12f5397620be3d2105e565118950b404212aec",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Pneumonia adquirida na comunidade na infância",
@@ -3940,7 +3940,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 12241,
+      "bytes": 12275,
       "capsule_id": "capsule:osce:formato_roteiro_osce_p7",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -3956,14 +3956,14 @@
       "review_status": "reviewed_l1",
       "risk": "low",
       "schema_version": "1.0.0",
-      "sha256": "a00b3312734470289e3bae96a7b25efd81a2093320d8e3316f9a9bc4de5ba3ad",
+      "sha256": "61e088ee1de6d4801e64cfcab64d34cc331a69221b2c59620b38dd579fb3f293",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Formato e roteiro geral da estação OSCE do P7",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 13929,
+      "bytes": 14078,
       "capsule_id": "capsule:osce:osce_banco_de_estacoes",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -3979,7 +3979,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "b7f07a8f194a160504e79bc897f51f96f8e9b077be8b08673378845fb446295d",
+      "sha256": "b95f9fdbba50ee48e60f7c370c9d2853896a6de44ccba72d6984dc9f23fa9412",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Banco de estações OSCE modeladas com comandos e gabarito",
@@ -4009,7 +4009,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 15338,
+      "bytes": 15342,
       "capsule_id": "capsule:osce:osce_nefrologia",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -4025,7 +4025,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "95084928f0bc1dbc84e4b8d0824283ed632a16e604145654948706720459e033",
+      "sha256": "f397a0f85f8c2ca1c262e605e49d1ab8784627d7e752759c88a3929605e8390a",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "OSCE Nefrologia — síndromes glomerulares, glomerulopatias, DRC e injúria renal aguda",

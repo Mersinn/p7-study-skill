@@ -42,7 +42,7 @@ Síndrome nefrótica × nefrítica · proteinúria 24h · complemento C3 · ASLO
 | aplicar critério | diagnóstico de IRA: ΔCr ≥0,3 mg/dL em 48h OU ↑1,5-1,9x o basal em 7 dias OU débito urinário <0,5 mL/kg/h por ≥6h (basta 1 dos 3) | limiar | operacional | valor errado — checar só um dos três critérios e descartar IRA porque a creatinina "só" subiu 0,2, sem olhar o débito urinário | treino de casos com Cr seriada + débito urinário, forçando checar os 3 critérios por escrito antes de decidir |
 | diferenciar próximos | corte de proteinúria de 24h que separa nefrótica (>3,5g) de nefrítica (<3,5g) | limiar | factual | trocar o corte ou decidir só por "tem proteinúria" sem checar a quantidade | tabela comparativa nefrótica × nefrítica lado a lado (proteinúria, edema, HAS, hematúria, oligúria), revisada como flashcard de par opositivo |
 | interpretar imagem/ecg/laboratório | painel sorológico que diferencia GNDA (C3 baixo, FAN-, anti-DNA-) de nefropatia por IgA (complemento normal, FAN-, anti-DNA-) de nefrite lúpica (C3 baixo, FAN+, anti-DNA+) num quadro clínico idêntico de síndrome nefrítica pós-IVAS | sinal-achado | operacional | fechar a etiologia só pelo quadro clínico (os três quadros se apresentam de forma muito parecida) sem aplicar o painel sorológico completo | treinar o mesmo caso clínico com 3 painéis sorológicos diferentes, decidindo a etiologia só pela combinação FAN/anti-DNA/complemento |
-| aplicar critério | estadiamento da DRC por TFG + regra de encaminhamento (acompanhamento por qualquer médico até o estágio 3A; só a partir do 3B encaminha para nefrologista) | limiar | operacional | generalizar "toda DRC vai para o nefrologista" ou, no outro extremo, só encaminhar no estágio 5 | flashcard fixo do corte 3A/3B como ponto de decisão de encaminhamento |
+| reconhecer limite de fonte | o material B associa encaminhamento ao estágio 3B | limiar | factual | promover corte curricular a regra clínica/OSCE oficial | manter `QUARANTINED`; encaminhamento atual depende de TFG, albuminúria, evolução, complicações e protocolo vigente |
 | priorizar emergência | indicação de diálise de urgência: síndrome urêmica franca, refratariedade/recorrência de hipervolemia, hipercalemia ou acidose metabólica, intoxicação exógena | prioridade | operacional | tratar clinicamente uma emergência dialítica (ex.: hipercalemia refratária) sem reconhecer que o critério objetivo já indica diálise, adiando a decisão | checklist de emergência dialítica (síndrome urêmica / distúrbio refratário / intoxicação) aplicado antes de escolher qualquer conduta conservadora |
 
 ## Dados de precisão
@@ -105,7 +105,7 @@ Síndrome nefrótica × nefrítica · proteinúria 24h · complemento C3 · ASLO
 | Corte de proteinúria de 24h que separa nefrótica de nefrítica | 3,5 g/24h (nefrótica >3,5g, nefrítica <3,5g) | limiar |
 | Tempo de latência GNDA pós-faringite × pós-impetigo | 7-21 dias (faringite) × 15-28 dias (impetigo) | valor |
 | Tempo de latência da nefropatia por IgA | 2-3 dias pós-IVAS, ou durante o próprio quadro infeccioso | valor |
-| A partir de qual estágio da DRC encaminha ao nefrologista? | Estágio 3B | limiar |
+| O estágio 3B isolado é regra atual/oficial de encaminhamento? | Não. É um corte B-only `QUARANTINED`; usar risco, evolução, complicações e protocolo vigente | limite de fonte |
 | 3 critérios diagnósticos de IRA (basta 1) | ΔCr ≥0,3mg/dL/48h · ↑1,5-1,9x basal/7d · débito <0,5mL/kg/h por ≥6h | sequência |
 | GNDA: FAN, anti-DNA e complemento | FAN negativo, anti-DNA negativo, complemento (C3) baixo | sinal-achado |
 
