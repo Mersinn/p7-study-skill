@@ -15,6 +15,13 @@
 - Limitações da fonte: `tem_camada_A: false` — sem slide do professor. As 2 fontes B convergem em quase todo o conteúdo semiológico/localizatório (o núcleo do tema); os intervalos horários do protocolo de morte encefálica só aparecem na fonte Edine Medeiros e são um protocolo (CFM) sujeito a revisão periódica — tratados como pendência, não como fato fechado.
 - Verificação nível 1: CONFIRMADO_COM_CORREÇÕES
 
+## Contrato de recuperação
+
+`answer_key_scope: curricular`; `clinical_validity_default: pending`. A fonte é
+B-only. `CONFIRMADO` abaixo significa transcrição curricular, não vigência
+clínica. Protocolos legais, teste de apneia, cortes e sequências só podem ser
+usados em prática atual após consulta à norma oficial vigente.
+
 ## Como cai
 
 Vinheta de paciente com rebaixamento do nível de consciência pedindo para (a) classificar tóxico-metabólico x estrutural a partir de 2 achados de exame (sinais de localização + pupilas), (b) diferenciar padrão de herniação, ou (c) sequenciar a conduta inicial (o que dar primeiro, e a ordem importa).
@@ -56,8 +63,8 @@ SRAA; pupilas isocóricas fotorreagentes = tóxico-metabólico; anisocoria preco
 | Lista curricular de fármacos associados ao coma | glicose; naloxona; flumazenil; tiamina | 2 fontes | QUARANTINED — lista histórica não é pacote empírico; cada intervenção depende de indicação, contraindicações e protocolo vigente |
 | Padrão respiratório localizatório | Cheyne-Stokes = hemisférios/diencéfalo; neurogênica central = ponte; apnêustica = porção inferior da ponte; atáxica/Biot = bulbo | 2 fontes | CONFIRMADO |
 | Reflexo córneo-palpebral | Testa a integridade do tronco encefálico; ausência = mau prognóstico | 2 fontes | CONFIRMADO |
-| Teste de apneia (morte encefálica) | Desconectar o respirador; se pCO2 sobe acima de 55 mmHg sem resposta respiratória, confirma lesão de bulbo | Neuro_COMA p.11 | CONFIRMADO (fonte única) |
-| Protocolo de morte encefálica | 2 exames neurológicos + 1 exame complementar (Doppler transcraniano, arteriografia ou EEG sem atividade) | Neuro_COMA p.11 | CONFIRMADO (fonte única) |
+| Teste de apneia descrito na aula | Desconexão e corte de pCO2 reproduzidos da fonte B | Neuro_COMA p.11 | QUARANTINED — nunca executar nem validar morte encefálica por esta cápsula; abrir norma oficial vigente |
+| Protocolo de morte encefálica descrito na aula | número de exames e modalidades reproduzidos da fonte B | Neuro_COMA p.11 | QUARANTINED — protocolo legal sujeito a atualização; não usar clinicamente |
 | Intervalo entre os 2 exames neurológicos de ME por faixa etária | >2 anos: 6h; 1-2 anos: 12h; 2 meses-1 ano: 24h; 7 dias-2 meses: 48h | Neuro_COMA p.11 | **confirmar no slide** — fonte única, é protocolo legal (resolução do CFM) sujeito a atualização periódica; não usar este valor como definitivo sem checar a resolução vigente na época da prova |
 
 ## Pegadinhas
@@ -113,7 +120,7 @@ tiamina prontamente, antes/concomitante quando possível.</details>
 | Contraindicação antes de puncionar líquor em comatoso | Excluir HIC por imagem primeiro (risco de herniação tonsilar) | pegadinha |
 | Padrão respiratório de lesão pontina | Respiração neurogênica central (ponte) / apnêustica (ponte inferior) | dado |
 | Padrão respiratório de lesão bulbar | Respiração atáxica (Biot) | dado |
-| Teste que confirma lesão de bulbo em suspeita de ME | Teste de apneia (pCO2 >55 mmHg sem resposta) | dado |
+| Como responder sobre teste de apneia/morte encefálica? | A formulação B-only está `QUARANTINED`; consultar integralmente a norma oficial vigente e protocolo institucional | segurança |
 
 ## Revisão
 

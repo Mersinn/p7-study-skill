@@ -71,7 +71,7 @@ Este tema não é um assunto clínico — é o **formato do dia da prova**: vár
 - **Caso:** paciente encontrado inconsciente na rua, sem testemunha, sem documentos. GCS 7. Pupilas isocóricas e fotorreagentes.
 - **Comando 1:** cite 2 medicações de emergência que podem ser consideradas empiricamente.
 - **Comando 2:** o achado pupilar (isocórica e fotorreagente) sugere que tipo de etiologia?
-- **Comando 3:** GCS 7 exige qual conduta imediata de via aérea?
+- **Comando 3:** quais achados, além do nível de consciência, determinam a necessidade de proteger a via aérea?
 - **Resposta-modelo sintética de treino (não oficial):** a chave B-only que sugeria antídotos empíricos foi removida e fica `QUARANTINED`; flumazenil não pode ser recomendado em coma indiferenciado por esta cápsula. O treino válido é reconhecer que suporte, investigação e eventual antídoto dependem de toxíndrome, história, contraindicações e protocolo vigente; a regra de via aérea do material também não é promovida a corte atual universal.
 
 ## Pivô clínico
@@ -80,7 +80,7 @@ O pivô comum às 6 estações não é o diagnóstico — é a **precisão do co
 
 ## Palavras-âncora
 
-Comando por comando · classificar antes de tratar · exame padrão-ouro específico do órgão certo · "a intensidade do achado não é proporcional à gravidade" · GCS <8 = via aérea · corte fixo antes da conduta.
+Comando por comando · classificar antes de tratar · exame específico do órgão certo · "a intensidade do achado não é proporcional à gravidade" · via aérea avaliada pelo conjunto clínico · nenhum corte B-only como regra universal.
 
 ## Operação × movimento
 
@@ -128,7 +128,7 @@ As 6 estações modeladas acima já cumprem a função de mini-casos ativos dest
 |---|---|---|
 | Antes de responder a conduta, o que classificar primeiro? | O grau/risco/gravidade formal do caso (nunca pular direto para o tratamento) | regra |
 | A intensidade da hematúria é proporcional à gravidade do trauma renal? | Não | fato |
-| GCS de corte para intubação orotraqueal | <8 | limiar |
+| GCS isolado determina automaticamente intubação? | Não. Avaliar proteção de via aérea, ventilação, oxigenação, trajetória clínica e protocolo vigente | segurança |
 | O aspecto do líquido amniótico muda a decisão inicial da reanimação neonatal? | Não — só as 3 perguntas (IG, respira/chora, tônus) decidem | regra |
 | Antibiótico de rotina na crise asmática pediátrica? | Não — só com forte suspeita de infecção bacteriana | regra |
 

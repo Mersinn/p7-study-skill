@@ -207,9 +207,9 @@
       "sha256": "b21a21658790a1ed7f3b6db2a6437800ed7bead307285eed411f750ef613ec93"
     },
     {
-      "bytes": 12697,
+      "bytes": 13159,
       "path": "capsules/EISA_II/coma_e_rebaixamento_do_nivel_de_consciencia.md",
-      "sha256": "06c81ead250b68e430510c34842de768fef1975edefdaaf717a9e1eee5af3b3e"
+      "sha256": "efe424bc4f57fc2d5d0565785cdc29c4942fd227e976a2e2452a55a4fcb5a17b"
     },
     {
       "bytes": 14394,
@@ -717,9 +717,9 @@
       "sha256": "6f6b0baf1417418fefc352f3b5e10d9304ae81eb500fa6bbaf94feff9cbe0d89"
     },
     {
-      "bytes": 10211,
+      "bytes": 10701,
       "path": "capsules/EISM/ansioliticos_e_hipnoticos.md",
-      "sha256": "748a221ef705345818bcd6ecd6c970bfe7fe191081480abe91dba3c743723080"
+      "sha256": "6fa750dbdd17673917ff48aee173d75aeeebd514955b80047090ed96db53fa0e"
     },
     {
       "bytes": 10981,
@@ -837,9 +837,9 @@
       "sha256": "b74e4def25349e5b2f666922faba727e389786f8c332a83fe70115875896441c"
     },
     {
-      "bytes": 13925,
+      "bytes": 14117,
       "path": "capsules/OSCE/osce_banco_de_estacoes.md",
-      "sha256": "313a0239e921fdfa7d5c9df1becf9be0556bdd289ad1ccb4d21ce4c2c71ab938"
+      "sha256": "309aac1c380fae96d0593de2f19e7fb686a1f0ec3723d4d39b4792d55de214a2"
     },
     {
       "bytes": 15351,
@@ -852,14 +852,14 @@
       "sha256": "d1bdf091cde3869ae75e3a4f3a8e29476979be3769fdfa7ee39b073f7f2d6d69"
     },
     {
-      "bytes": 22818,
+      "bytes": 21150,
       "path": "capsules/OSCE/osce_neurologia.md",
-      "sha256": "4a6fd88e737483ce3a6e367067d91d85b45cbb88bde726e1ae3c7dc0f3c200c2"
+      "sha256": "93ebe3ad7e5efd7ca965585e1560305de3a596264f77c098a08af9c6d35e466c"
     },
     {
-      "bytes": 22154,
+      "bytes": 21961,
       "path": "capsules/OSCE/osce_pediatria.md",
-      "sha256": "6e6ede1922e567d15e2cee45f6bbfbf2c4fe915350bd55788375a7c200a7b61b"
+      "sha256": "c586ec453c84414d3bbd666a7da7be1553f54140ac436f28dc65d9a0df160aa5"
     },
     {
       "bytes": 23957,
@@ -1057,9 +1057,9 @@
       "sha256": "e1acd7a4c5e36823c8df3f479e16be71330bd2a7cdf9e3c549eb0f456bcb60b5"
     },
     {
-      "bytes": 50499,
+      "bytes": 50460,
       "path": "registry/clinical_claims.jsonl",
-      "sha256": "1dbcc1fdf5f1acef0dd9914b2f0107ecb604e7c50763fc115e4e6bd6bfa4a6b9"
+      "sha256": "26d3a86644d4009cd28a090268062c40c740ddcd669c6a7d0e22ef4c10bd1050"
     },
     {
       "bytes": 909,
@@ -1217,12 +1217,12 @@
       "sha256": "43e5f372cec00af7e756b4231dc3f2c473f9897c9e12f0816e4cde725345e230"
     },
     {
-      "bytes": 8971,
+      "bytes": 10113,
       "path": "tests/test_v150_contract.py",
-      "sha256": "ffbd544a4a07fd703f46bde174e90378ccae75ac85218a45b3f171f3ce88ef4b"
+      "sha256": "b5e473fd42cff8ee69c4afc7041b1970b7a424f7083c22cfe55420212925d3a4"
     }
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 3051508
+  "total_bytes": 3051894
 }

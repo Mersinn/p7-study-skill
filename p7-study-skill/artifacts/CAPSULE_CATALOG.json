@@ -700,7 +700,7 @@
       "unit": "UNIT_1"
     },
     {
-      "bytes": 12697,
+      "bytes": 13159,
       "capsule_id": "capsule:eisa_ii:coma_e_rebaixamento_do_nivel_de_consciencia",
       "discipline": "EISA_II",
       "legacy_metadata": {
@@ -716,7 +716,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "06c81ead250b68e430510c34842de768fef1975edefdaaf717a9e1eee5af3b3e",
+      "sha256": "efe424bc4f57fc2d5d0565785cdc29c4942fd227e976a2e2452a55a4fcb5a17b",
       "source_ids": [
         "APOSTILA_SA_II_P7___e43cc7bc21",
         "Neuro_COMA__3d9a975464"
@@ -3314,7 +3314,7 @@
       "unit": "UNIT_3"
     },
     {
-      "bytes": 10211,
+      "bytes": 10701,
       "capsule_id": "capsule:eism:ansioliticos_e_hipnoticos",
       "discipline": "EISM",
       "legacy_metadata": {
@@ -3330,7 +3330,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "748a221ef705345818bcd6ecd6c970bfe7fe191081480abe91dba3c743723080",
+      "sha256": "6fa750dbdd17673917ff48aee173d75aeeebd514955b80047090ed96db53fa0e",
       "source_ids": [
         "ANOTAC_O_ES_ansioli_ticos__c32028b863",
         "FAMENE_FARMACOTERAPIA_DA_INSO_NIA_E_ANSIEDADE_2024_2__f4edb4a564",
@@ -3963,7 +3963,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 13925,
+      "bytes": 14117,
       "capsule_id": "capsule:osce:osce_banco_de_estacoes",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -3979,7 +3979,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "313a0239e921fdfa7d5c9df1becf9be0556bdd289ad1ccb4d21ce4c2c71ab938",
+      "sha256": "309aac1c380fae96d0593de2f19e7fb686a1f0ec3723d4d39b4792d55de214a2",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "Banco de estações OSCE modeladas com comandos e gabarito",
@@ -4032,7 +4032,7 @@
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 22818,
+      "bytes": 21150,
       "capsule_id": "capsule:osce:osce_neurologia",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -4048,14 +4048,14 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "4a6fd88e737483ce3a6e367067d91d85b45cbb88bde726e1ae3c7dc0f3c200c2",
+      "sha256": "93ebe3ad7e5efd7ca965585e1560305de3a596264f77c098a08af9c6d35e466c",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "OSCE Neurologia — AVC isquêmico, AVC hemorrágico, AIT, coma e TCE",
       "unit": "UNASSIGNED"
     },
     {
-      "bytes": 22154,
+      "bytes": 21961,
       "capsule_id": "capsule:osce:osce_pediatria",
       "discipline": "OSCE",
       "legacy_metadata": {
@@ -4071,7 +4071,7 @@
       "review_status": "reviewed_l1",
       "risk": "high",
       "schema_version": "1.0.0",
-      "sha256": "6e6ede1922e567d15e2cee45f6bbfbf2c4fe915350bd55788375a7c200a7b61b",
+      "sha256": "c586ec453c84414d3bbd666a7da7be1553f54140ac436f28dc65d9a0df160aa5",
       "source_ids": [],
       "source_resolution": "metadata_only",
       "title": "OSCE Pediatria — pneumonia, asma, diarreia com desidratação, aleitamento materno e assistência ao recém-nascido",

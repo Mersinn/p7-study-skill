@@ -15,6 +15,14 @@
 - Limitações da fonte: nenhuma fonte disponível traz um escore formal de estratificação de risco de AVC pós-AIT (ex. ABCD2) — as fontes só dizem "avaliar risco de desenvolver AVC em 48h", sem detalhar o instrumento; fica como pendência (`confirmar no slide`). `OSCE .pdf` descreve a pupila do hematoma extradural como "midríase bilateral", o que diverge do ensino padrão (pupila fixa e dilatada **ipsilateral** à lesão, por compressão do III par na herniação uncal; midríase bilateral é sinal tardio/pré-terminal de herniação transtentorial bilateral) — tratado abaixo como CORRIGIDO, prevalecendo o conhecimento geral por ser consistente com a fisiopatologia da compressão unilateral do nervo oculomotor e por ser o achado classicamente cobrado. Nenhuma fonte tem camada A (não há slide do professor mapeado para este tema no cluster).
 - Verificação nível 1: CONFIRMADO_COM_CORREÇÕES
 
+## Contrato de recuperação
+
+`answer_key_scope: curricular`; `clinical_validity_default: pending`. As três
+fontes são B-only. Valores, janelas, doses, contraindicações, metas e decisões
+abaixo reproduzem treino curricular de OSCE; não são algoritmo clínico atual.
+Somente claim `current` rastreável ou fonte oficial aberta pode sustentar
+conduta real. Nenhum checklist inferido é tratado como instrumento oficial.
+
 ## Como cai
 
 A cabine de Neurologia do OSCE do P7 combina reconhecimento de síndrome (déficit neurológico súbito → suspeitar de AVC) com um funil de decisão que só se resolve por **imagem**: a mesma apresentação clínica de déficit focal súbito pode ser isquêmica ou hemorrágica, e as fontes são explícitas — "só posso dar o diagnóstico e a conduta por neuroimagem". O caso clínico completo disponível nas fontes (`OSCE .pdf`) treina exatamente esse funil: hipótese ampla ("AVE hemorrágico ou isquêmico") → exame físico (Escala de Cincinnati) → leitura do exame complementar já disponível na cabine (TC de crânio) → só então fechar a etiologia e a conduta. Em TCE e coma, o padrão muda: a operação central é aplicar uma escala objetiva (Glasgow, estratificação de risco do TCE) antes de decidir entre observação, TC ou intervenção.
@@ -25,11 +33,16 @@ A cabine de Neurologia do OSCE do P7 combina reconhecimento de síndrome (défic
 - **Tempo:** não informado nas fontes disponíveis.
 - **Ator/paciente:** caso clínico escrito; o exame físico na cabine de neurologia costuma ser pobre ou já descrito no próprio caso ("na cabine de neurologia, o exame físico pode ser pobre ou já ter sido descrito no caso clínico, mas mesmo assim, veja seu paciente, pelo menos brevemente, sobretudo a região da cabeça" — `FACILITA OSCE (1).pdf`).
 - **Material:** resultado de TC de crânio (com ou sem contraste, conforme o caso) já disponível na cabine quando o comando pedir interpretação de imagem.
-- **Critério do checklist (inferido):** citar a escala/critério correto antes de nomear a etiologia; não afirmar "isquêmico" ou "hemorrágico" só pela clínica sem citar o achado de imagem; checar o tempo de início dos sintomas antes de propor conduta; checar contraindicações antes de indicar trombólise.
+- **Rubrica sintética de treino (não oficial):** praticar escala, imagem, tempo e
+  contraindicações em sequência. Não há checklist aplicado nem pontuação real
+  disponível, e nenhuma decisão clínica é inferida da fonte B-only.
 
 ## Pivô clínico
 
-O pivô é duplo. Primeiro, **isquêmico × hemorrágico não se define pela clínica** — só pela TC de crânio sem contraste (hipodenso e visível só após 24-72h no isquêmico; hiperdenso e imediato no hemorrágico). Segundo, dentro do próprio AVC isquêmico, o pivô é o **tempo desde o início dos sintomas** (janela de 4h30 para trombólise, até 24h para trombectomia com critério radiológico avançado, >24h vira conduta conservadora) — o mesmo quadro clínico muda de conduta completamente conforme esse único dado temporal.
+O pivô curricular é separar síndrome, imagem e tempo antes de responder. As
+janelas e aparências exatas do material ficam no painel histórico abaixo; em
+prática atual, neuroimagem, elegibilidade e tratamento dependem de protocolo
+vigente e avaliação especializada.
 
 ## Palavras-âncora
 
@@ -39,14 +52,21 @@ Escala de Cincinnati (sorrir/abraçar/falar) · NIHSS · janela de 4h30 · altep
 
 | Operação exigida | Variável decisiva | Tipo | Natureza | Movimento provável no erro | Treino que corrige |
 |---|---|---|---|---|---|
-| priorizar emergência / aplicar critério | janela terapêutica do AVCi: ≤4h30 trombólise · 4h30-24h trombectomia (com critério radiológico) · >24h conservador | limiar | operacional | premissa não checada — tratar "início súbito" como sinônimo de "dentro da janela", sem confirmar a hora exata do ictus antes de propor trombólise | treinar casos idênticos variando só o tempo de ictus (3h, 5h, 20h, "acordou com o déficit" = hora desconhecida), forçando escolher a conduta certa a cada variação |
+| priorizar emergência / aplicar critério curricular | o tempo do ictus muda elegibilidade no material | limiar | operacional | tratar "início súbito" como sinônimo de elegibilidade | treinar casos variando o tempo, mas abrir protocolo vigente antes de responder conduta real |
 | diferenciar próximos | isquêmico × hemorrágico só se define por TC (hipodenso × hiperdenso) | sinal-achado | factual | fechamento precoce — nomear a etiologia só pela clínica (afasia, hemiparesia) antes de citar o achado tomográfico disponível na cabine | treinar a resposta-ponte obrigatória "não dá para afirmar isquêmico ou hemorrágico só pela clínica" antes de descrever qualquer achado de imagem |
-| reconhecer contraindicação | contraindicações à trombólise: AVC recente, TCE <3 meses, coagulopatia, PA >185×110 não controlada | contraindicação | operacional | indicar trombólise sem checar a lista de contraindicações, sobretudo a PA (que precisa ser controlada, não vira CI absoluta) | checklist fixo de contraindicações revisado antes de fechar qualquer conduta de AVCi dentro da janela |
+| reconhecer contraindicação curricular | a aula lista contraindicações e meta pressórica | contraindicação | operacional | recuperar lista antiga como protocolo atual | reconhecer o eixo e consultar protocolo vigente; nenhum número B-only é liberado |
 | priorizar emergência | sinais de herniação (pupila anisocórica/fixa, deterioração do nível de consciência) no TCE não esperam a estratificação completa | prioridade | operacional | fechamento precoce inverso — aplicar a régua padrão de "baixo/moderado/alto risco" a um paciente que já mostra sinal de herniação em curso, adiando o acionamento da neurocirurgia | treinar reconhecimento de sinais de herniação como gatilho de contato neurocirúrgico imediato, independente de completar toda a anamnese de estratificação |
-| aplicar critério | estratificação de risco do TCE (baixo/moderado/alto) decide observação domiciliar × TC + observação × TC + internação | limiar/sequência | operacional | pular a estratificação (pedir TC em todo TCE leve) ou, no outro extremo, liberar um paciente de risco moderado/alto sem TC | treinar a tabela de 3 níveis com casos variando 1 achado por vez (ex.: só trocar "vômito ausente" por "vômito presente") |
+| aplicar critério curricular | a aula usa estratificação de TCE para organizar respostas | limiar/sequência | operacional | transformar régua B-only em regra clínica | treinar a classificação como currículo e abrir protocolo vigente para decisão real |
 | interpretar imagem/ecg/laboratório | aspecto do hematoma na TC: biconvexo = extradural · côncavo = subdural | sinal-achado | factual | trocar o par (achar que o aspecto côncavo é extradural) | flashcard de par opositivo aspecto-de-imagem × tipo-de-hematoma, revisado junto com a lateralidade da pupila esperada em cada um |
 
 ## Dados de precisão
+
+### Painel curricular histórico
+
+`answer_key_scope: curricular`. `CONFIRMADO` nesta tabela significa que a
+transcrição foi conferida nas fontes B. Não significa `current`; doses, cortes,
+janelas, metas e condutas ficam `QUARANTINED` para uso clínico até registro
+independente em fonte vigente.
 
 | Dado | Valor | Fonte (página) | Status |
 |---|---|---|---|
@@ -74,7 +94,7 @@ Escala de Cincinnati (sorrir/abraçar/falar) · NIHSS · janela de 4h30 · altep
 | Hematoma subdural | aspecto côncavo na TC; hemorragia venosa; conduta = cirurgia precoce | `OSCE .pdf`, ~p.11 / `OSCE - NEUROLOGIA.pdf` | CONFIRMADO |
 | Pupilas no coma/TCE | puntiformes = lesão de ponte · mediofixas = lesão de tronco cerebral · anisocóricas = possível herniação uncal · isocóricas e fotorreagentes = etiologia tóxico-metabólica | `OSCE - NEUROLOGIA.pdf` (doc. íntegro) | CONFIRMADO |
 | Associação farmacológica curricular no coma | naloxona = antídoto de opioides · flumazenil = antagonista de benzodiazepínicos | `OSCE .pdf`, ~p.16 | QUARANTINED — reconhecer associação não autoriza uso empírico; contraindicações e contexto exigem fonte/protocolo vigente |
-| Meta ventilatória no TCE grave (GCS <8) | intubar; manter PA normal; PO2 ≈ 80 mmHg; PCO2 entre 25-35 mmHg; não deixar reter CO2 (CO2 alto → vasodilata e piora o inchaço; CO2 baixo → vasoconstringe e evita isquemia, mas em excesso também é deletério) | `OSCE .pdf`, ~p.12 | CONFIRMADO |
+| Meta ventilatória curricular no TCE grave | a fonte vincula GCS e metas ventilatórias exatas | `OSCE .pdf`, ~p.12 | QUARANTINED — GCS isolado não é gatilho automático; usar avaliação e protocolo vigente |
 
 ## Pegadinhas
 
@@ -97,31 +117,35 @@ Escala de Cincinnati (sorrir/abraçar/falar) · NIHSS · janela de 4h30 · altep
 
 ## Conduta
 
-- Inicial: Escala de Cincinnati/NIHSS à beira-leito, contato com SAMU e hospital (nunca UPA), TC de crânio sem contraste assim que possível; em TCE, ABCDE do trauma priorizando SatO2/PA antes de fundo de olho e pares cranianos.
-- Definitiva: no AVCi, terapêutica conforme o tempo de ictus (trombólise ≤4h30, trombectomia até 24h com critério radiológico, conservador >24h); no AVCh, suporte + controle pressórico específico por subtipo, com cirurgia reservada a critérios de tamanho/repercussão do hematoma; no TCE, conduta conforme a estratificação de risco (observação × TC × internação) e cirurgia imediata/precoce conforme o tipo de hematoma identificado.
-- Condição da conduta: o tempo de início dos sintomas muda inteiramente a conduta do AVCi mesmo com clínica idêntica; a presença de sinal de herniação (pupila anisocórica, RNC progressivo) muda a prioridade em TCE e AVCh independentemente da estratificação padrão.
-- Diferencial perigoso: hematoma extradural rapidamente fatal exige contato neurocirúrgico imediato; sinais de HIC (cefaleia + vômitos + papiledema + RNC) numa hemorragia intraparenquimatosa não esperam o fechamento diagnóstico completo.
-- O que mudaria a decisão: hora exata do início dos sintomas (dentro ou fora da janela), presença de contraindicação à trombólise, achado de imagem (isquêmico × hemorrágico, aspecto biconvexo × côncavo), e nível de consciência (GCS <8 muda a via aérea).
+- Inicial de treino: reconhecer emergência neurológica, registrar última vez bem,
+  estabilizar e acionar fluxo especializado vigente. A cápsula não prescreve
+  destino, exame, trombólise, trombectomia, meta pressórica ou ventilatória.
+- Definitiva: depende de neuroimagem, etiologia, tempo, contraindicações e
+  protocolo atual; os algoritmos B-only da tabela estão `QUARANTINED`.
+- Via aérea: GCS isolado não determina automaticamente intubação. Integrar
+  proteção de via aérea, ventilação, oxigenação, evolução e protocolo vigente.
+- OSCE: responder em sequência é método sintético de treino, não checklist
+  oficial nem substituto de decisão clínica.
 
 ## Mini-casos ativos
 
-1. H.F.C., 67 anos, trazido pela filha com perda de força em hemicorpo esquerdo e dificuldade para falar **há 1 dia**, afebril, dispneico, diabético em uso de metformina. TC de crânio já disponível mostra lesão hipodensa predominante à esquerda. **Pivô:** o "há 1 dia" já ultrapassou a janela de 24h — mesmo com TC confirmando etiologia isquêmica, a conduta correta é conservadora (monitoramento, controle pressórico só se PA >220×120, controle glicêmico, antiplaquetário), não trombólise nem trombectomia.
-2. Paciente com cefaleia holocraniana súbita e intensa, síncope no início do quadro e rigidez de nuca que só apareceu no dia seguinte. TC de crânio sem contraste normal. **Pivô:** TC normal não descarta HSA — a tríade clínica típica exige punção lombar nas primeiras 12h (procurando líquido xantocrômico/sanguinolento) antes de afastar o diagnóstico.
-3. Vítima de queda, GCS 14, sem déficit focal, um episódio de vômito e cefaleia progressiva sem melhora. **Pivô:** esse conjunto já preenche critério de risco moderado (perda de consciência OU cefaleia progressiva sem melhora OU vômitos) — a conduta é TC de crânio + observação hospitalar, não alta com orientação domiciliar como se fosse baixo risco.
+1. Pessoa com déficit neurológico súbito e horário de início informado. **Pivô de treino:** separar síndrome, tempo e imagem; elegibilidade e tratamento exigem protocolo vigente, sem recuperar janelas/doses B-only.
+2. Pessoa com cefaleia súbita, síncope e rigidez nucal, com exame inicial não conclusivo. **Pivô de treino:** manter emergência no diferencial e escalar avaliação; sequência diagnóstica atual exige fonte vigente.
+3. Pessoa após trauma craniano com sintomas progressivos. **Pivô de treino:** reconhecer sinais de alarme e não liberar por uma escala isolada; exame e destino dependem de protocolo vigente.
 4. Paciente encontrado em coma, sem história disponível, pupilas puntiformes e fotorreagentes. **Pivô:** não fechar etiologia por uma pupila isolada; priorizar suporte e investigação dirigida. A associação curricular entre antídotos e toxíndromes não autoriza flumazenil em coma indiferenciado; eventual antídoto depende de toxíndrome, contraindicações e protocolo vigente.
 
 ## Cards mínimos
 
 | Frente | Verso | Tipo |
 |---|---|---|
-| Janela de trombólise no AVCi e dose da alteplase | Até 4h30 do início dos sintomas; 0,9 mg/kg (máx. 90mg), 10% bolus + 90% em BI por 1h | valor |
+| A cápsula fornece janela/dose atual de trombólise? | Não. Os valores B-only estão `QUARANTINED`; abrir protocolo vigente | segurança |
 | Só a partir de que exame se define isquêmico × hemorrágico? | TC de crânio sem contraste (nunca só pela clínica) | regra |
-| PA que autoriza iniciar trombolítico | <185×110 mmHg (controlar com nitroprussiato antes, se acima) | limiar |
+| A cápsula fornece meta pressórica atual para trombólise? | Não. Abrir protocolo vigente e avaliar contraindicações | segurança |
 | Tríade clássica de HSA | Cefaleia súbita e intensa + síncope + rigidez de nuca | fato |
 | Aspecto do hematoma extradural × subdural na TC | Extradural = biconvexo (lente); Subdural = côncavo | sinal-achado |
-| Conduta na hemorragia intraparenquimatosa com hematoma cerebelar >3cm | Cirurgia de drenagem | limiar |
-| 3 níveis de risco do TCE e a conduta de cada um | Baixo → observação domiciliar; Moderado (perda de consciência/cefaleia progressiva/vômitos/sinal de Battle) → TC + observação; Alto (RNC/déficit focal/lesão penetrante) → TC + internação | sequência |
-| GCS <8: o que fazer com a via aérea? | Intubar | regra |
+| Cortes cirúrgicos B-only entram em resposta clínica atual? | Não. Estão `QUARANTINED` até fonte vigente | segurança |
+| A régua curricular de TCE decide sozinha exame/destino? | Não. É treino curricular; decisão real usa protocolo vigente e conjunto clínico | segurança |
+| GCS isolado determina intubação? | Não. Integrar proteção de via aérea, ventilação, oxigenação, evolução e protocolo | segurança |
 | O fato de flumazenil antagonizar benzodiazepínicos autoriza uso em coma indiferenciado? | Não. A associação é curricular; indicação e contraindicações exigem contexto toxicológico e protocolo vigente | segurança |
 
 ## Revisão

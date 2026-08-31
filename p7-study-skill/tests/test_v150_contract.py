@@ -110,6 +110,10 @@ class V150ContractTests(unittest.TestCase):
         sepse = self.read("capsules/EISCA/sepse_e_meningite_neonatal.md")
         asma = self.read("capsules/EISCA/asma_em_pediatria.md")
         claims = self.read("registry/clinical_claims.jsonl")
+        coma = self.read("capsules/EISA_II/coma_e_rebaixamento_do_nivel_de_consciencia.md")
+        osce_neuro = self.read("capsules/OSCE/osce_neurologia.md")
+        ansioliticos = self.read("capsules/EISM/ansioliticos_e_hipnoticos.md")
+        osce_pediatria = self.read("capsules/OSCE/osce_pediatria.md")
 
         for capsule in (erisipela, pneumonia, otites, nephro, sepse):
             self.assertIn("answer_key_scope: curricular", capsule)
@@ -132,6 +136,8 @@ class V150ContractTests(unittest.TestCase):
             self.assertNotIn(forbidden, bank)
         for forbidden in ("e flumazenil (", "GCS <8 é o corte fixo"):
             self.assertNotIn(forbidden, bank)
+        self.assertNotIn("GCS <8 = via aérea", bank)
+        self.assertNotIn("GCS de corte para intubação", bank)
         for forbidden in ("Estações oficiais aplicadas", "7 passos fixos", "regra geral do OSCE"):
             self.assertNotIn(forbidden, osce)
         self.assertIn("não é checklist/pontuação oficial", osce)
@@ -150,6 +156,18 @@ class V150ContractTests(unittest.TestCase):
         for text in (asma, claims):
             self.assertIn("92–95%", text)
             self.assertNotIn("não é recomendado se SpO2", text)
+        self.assertIn("rodapé impresso 186", claims)
+
+        for capsule in (coma, osce_neuro, ansioliticos, osce_pediatria):
+            self.assertIn("answer_key_scope: curricular", capsule)
+            self.assertIn("clinical_validity_default: pending", capsule)
+        self.assertIn("QUARANTINED — nunca executar", coma)
+        self.assertNotIn("GCS <8: o que fazer", osce_neuro)
+        self.assertNotIn("~25%/semana", ansioliticos)
+        osce_ped_active = osce_pediatria.split("## Conduta", 1)[1]
+        self.assertNotIn("sequência B-C-D", osce_ped_active)
+        self.assertNotIn("30mL/kg em 30min + 70mL/kg", osce_ped_active)
+        self.assertIn("regra antiga de interrupção", osce_pediatria)
 
         all_capsules = "\n".join(
             path.read_text(encoding="utf-8") for path in (ROOT / "capsules").rglob("*.md")

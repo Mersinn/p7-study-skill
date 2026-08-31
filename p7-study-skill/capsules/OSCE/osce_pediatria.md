@@ -15,6 +15,14 @@
 - Limitações da fonte: `OSCE .pdf` traz os cabeçalhos "Plano de tratamento" da diarreia repetidos 4 vezes sem o conteúdo tabular associado (provavelmente uma tabela/imagem que não sobreviveu à extração de texto) — o conteúdo dos planos A/B/C foi reconstruído a partir de `OSCE - PEDIATRIA.pdf` e `FACILITA OSCE (1).pdf`, que trazem o mesmo protocolo por extenso; nenhuma fonte tem camada A (não há slide do professor mapeado para este tema no cluster).
 - Verificação nível 1: CONFIRMADO_COM_CORREÇÕES
 
+## Contrato de recuperação
+
+`answer_key_scope: curricular`; `clinical_validity_default: pending`. As fontes
+de OSCE são B-only. `CONFIRMADO` significa transcrição curricular, não prática
+atual. Apenas linhas `CURRENT_VERIFIED` com claim rastreável podem sustentar
+conduta; todos os demais cortes, volumes, esquemas e sequências ficam
+`QUARANTINED` para uso clínico e não constituem checklist oficial.
+
 ## Como cai
 
 A cabine de Pediatria concentra dois padrões: **protocolos escalonados que não podem pular etapa** (reanimação do RN, planos de reidratação A/B/C) e **aplicação de critério objetivo por idade** (frequência respiratória por faixa etária na pneumonia, dose de antibiótico por peso e idade gestacional). O caso clínico disponível (`OSCE .pdf`) treina o segundo padrão de forma direta: uma criança com sinais clássicos de desidratação grave exige que o candidato classifique formalmente o grau (não só diga "está desidratada") antes de propor a conduta, porque é a classificação que define a fase (rápida × lenta) e o volume da expansão.
@@ -43,12 +51,18 @@ Frequência respiratória por faixa etária · sinais de gravidade (tiragem subc
 |---|---|---|---|---|---|
 | aplicar critério | classificação do grau de desidratação (hidratado / leve / grave) pela contagem de sinais objetivos (estado de alerta, olhos, lágrimas, boca/língua, sede, sinal da prega, pulso, enchimento capilar) | limiar | operacional | fechamento precoce — dizer "criança desidratada" sem nomear o grau formal, ou contar só 1-2 sinais isolados em vez do conjunto | treinar contagem explícita de sinais positivos por categoria (hidratado/leve/grave) antes de classificar, com casos que têm sinais "mistos" de categorias diferentes |
 | aplicar critério / sequenciar conduta | plano de reidratação (A domiciliar / B na unidade / C internação) definido pelo grau de desidratação, não pela vontade do médico | sequência | operacional | pular direto para plano C (hidratação venosa) em criança com desidratação leve, ou manter plano B numa criança já classificada como grave | fixar a régua "grau de desidratação → plano correspondente" e treinar 3 casos que só variam o grau |
-| calcular dose/volume por peso | expansão rápida do plano C: <5 anos 20 mL/kg de SF a cada 30 min (repetir até hidratar); ≥5 anos 30 mL/kg de SF em 30 min + 70 mL/kg de RL em 2h30 | valor | factual | trocar a fórmula por idade (aplicar a fórmula de >5 anos numa criança de 2 anos) ou esquecer de multiplicar pelo peso informado no caso | treinar o cálculo por escrito com 2 pesos diferentes de cada faixa etária antes de decidir o volume final |
-| reconhecer contraindicação / aplicar critério | antibiótico na pneumonia depende da idade: <2 meses = internação obrigatória (ampicilina + gentamicina ou ceftriaxona); ≥2 meses = tratamento ambulatorial (amoxicilina/penicilina procaína), com escalonamento se não houver melhora em 48h | limiar | operacional | prescrever amoxicilina ambulatorial para um lactente <2 meses, ou internar automaticamente uma criança >2 meses sem sinal de gravidade | flashcard de par opositivo "idade <2 meses = interna sempre" × "idade ≥2 meses = ambulatorial salvo sinal de gravidade" |
+| calcular dose/volume por peso | idade e peso mudam o cálculo no material | valor | factual | recuperar fórmula B-only como vigente ou usar faixa etária errada | treinar aritmética curricular, mas abrir protocolo atual antes de uma resposta clínica |
+| reconhecer contraindicação / aplicar critério curricular | idade muda o gabarito de pneumonia na aula | limiar | operacional | promover esquema antigo a prática atual | reconhecer o filtro de idade e consultar protocolo vigente; nenhum antimicrobiano B-only é liberado |
 | priorizar emergência / sequenciar conduta | SBP 2026: respiração/choro + tônus definem vitalidade; IG seleciona algoritmo; VPP se apneia/irregular ou FC<100 após passos iniciais | sequência | operacional | misturar algoritmo antigo e atual | treinar a cápsula clínica SBP 2026 |
-| aplicar critério | frequência respiratória-limiar de taquipneia por faixa etária: <2 meses >60 · 2-11 meses >50 · 12-59 meses >40 · 5-8 anos >35 · >8 anos >20 (irpm) | limiar | factual | usar o valor "genérico" de taquipneia do adulto/escolar para um lactente, subestimando a gravidade | tabela fixa de FR por faixa etária revisada em flashcard, testada com casos que dão só a idade e a FR numérica |
+| aplicar critério curricular | a aula usa limiares de FR por idade | limiar | factual | usar corte antigo como critério clínico isolado | treinar reconhecimento de faixa etária e abrir fonte vigente para uso real |
 
 ## Dados de precisão
+
+### Painel curricular histórico, salvo indicação `CURRENT_VERIFIED`
+
+`answer_key_scope: curricular`. Doses, volumes, cortes, antimicrobianos e
+sequências marcados apenas `CONFIRMADO` permanecem `QUARANTINED` para prática
+atual. O status confirma a transcrição da aula, não vigência clínica.
 
 | Dado | Valor | Fonte (página) | Status |
 |---|---|---|---|
@@ -75,7 +89,7 @@ Frequência respiratória por faixa etária · sinais de gravidade (tiragem subc
 | Reanimação neonatal — VPP | se FC <100 ou ritmo respiratório irregular após os passos iniciais: iniciar VPP com balão autoinflável (ambu) + máscara, "aperta-solta-solta" por 30s; minuto de ouro = iniciar VPP antes do 1º minuto de vida; reavaliar a cada 30s | `FACILITA OSCE (1).pdf`, p.49 | CONFIRMADO |
 | Reanimação neonatal — massagem cardíaca | indicada se FC <60 após VPP correta por 30s; técnica dos 2 polegares (2 médicos) é preferida — maior pico de pressão sistólica, melhor perfusão coronariana, menos cansativa; proporção 3:1 (3 compressões : 1 ventilação), ciclos de 60s antes de reavaliar | `OSCE .pdf`, ~p.89 / `FACILITA OSCE (1).pdf`, p.49 | CONFIRMADO |
 | Reanimação neonatal — droga de escolha | adrenalina (vasoconstrição periférica, aumenta perfusão coronariana/débito cardíaco), via endovenosa por cateter umbilical (via endotraqueal só uma vez, absorção lenta/imprevisível); SF 0,9% como expansor se não houver resposta à adrenalina ou houver sinais de hipovolemia | `FACILITA OSCE (1).pdf`, p.49 | CONFIRMADO |
-| Reanimação neonatal — interrupção das manobras | considerar interrupção após 10 min de assistolia sem resposta | `FACILITA OSCE (1).pdf`, p.49 | CONFIRMADO |
+| Reanimação neonatal — regra antiga de interrupção | considerar interrupção após 10 min de assistolia sem resposta | `FACILITA OSCE (1).pdf`, p.49 | QUARANTINED — não usar; decisão exige diretriz neonatal vigente e contexto individual |
 | Aleitamento materno — 10 passos (versão resumida) | norma escrita e equipe treinada; informar gestantes; ajudar a iniciar amamentação na 1ª meia hora pós-parto; ensinar a amamentar e manter lactação; não dar outro alimento sem indicação médica; alojamento conjunto 24h; livre demanda; não dar bicos/chupetas; encorajar grupos de apoio pós-alta | `FACILITA OSCE (1).pdf`, p.55 | CONFIRMADO |
 | Aleitamento — recomendação de tempo | exclusivo até os 6 meses; complementado até os 2 anos ou mais | `FACILITA OSCE (1).pdf`, p.55 | CONFIRMADO |
 | Aleitamento — mastite | não contraindica a amamentação; tratamento com ibuprofeno e, se quadro significativo, antibiótico (amoxicilina + clavulanato por 10-14 dias) | `FACILITA OSCE (1).pdf`, p.55 | CONFIRMADO |
@@ -83,11 +97,11 @@ Frequência respiratória por faixa etária · sinais de gravidade (tiragem subc
 
 ## Pegadinhas
 
-**Imperdoáveis:**
+**Erros curriculares de treino (não itens oficiais nem regras clínicas atuais):**
 
 - Não classificar formalmente o grau de desidratação (dizer só "está desidratado") antes de propor o plano de reidratação — a estação cobra o grau nomeado, que é o que define o plano.
 - Pular etapa da reanimação neonatal (ex.: ir direto para massagem cardíaca sem ter feito e reavaliado a VPP por 30s).
-- Prescrever antibiótico ambulatorial (amoxicilina) para lactente <2 meses com pneumonia — essa faixa etária é internação obrigatória.
+- Escolher antimicrobiano sem declarar idade, gravidade e fonte vigente; os esquemas B-only não são recuperáveis como prática atual.
 - Suspender o aleitamento materno durante o plano B de reidratação — a fonte é explícita que só os outros alimentos são suspensos, o leite materno é mantido.
 - Não calcular o volume de expansão do plano C pelo peso informado no caso, respondendo só com a fórmula genérica sem aplicar o número.
 
@@ -95,7 +109,7 @@ Frequência respiratória por faixa etária · sinais de gravidade (tiragem subc
 
 | Distrator | Por que seduz | Movimento que sugere | Por que erra |
 |---|---|---|---|
-| "Criança com febre e tosse = pneumonia, iniciar amoxicilina" sem checar a idade | amoxicilina é o antibiótico mais lembrado para pneumonia pediátrica | premissa não checada | em <2 meses a internação é obrigatória com esquema parenteral (ampicilina + gentamicina/ceftriaxona) — amoxicilina ambulatorial só se aplica a partir dos 2 meses |
+| "Criança com febre e tosse = pneumonia, iniciar amoxicilina" sem checar idade/gravidade | amoxicilina é lembrada primeiro | premissa não checada | não fecha diagnóstico nem esquema; a fonte B-only não autoriza prescrição atual |
 | Classificar uma criança com "olhos fundos e prega lenta" como desidratação grave só por esses 2 sinais | são achados que "soam graves" | superextrapolação | esses 2 sinais isolados descrevem desidratação **leve** — desidratação grave exige o conjunto mais extenso (comatoso/letárgico, incapaz de beber, prega >2s, pulso muito débil) |
 | Esperar uma hora de falha do SABA para dar corticoide | reproduz a escada antiga | sequência perdida | no GINA 2026, corticoide é precoce, exceto nas crises mais leves |
 | Suspender toda alimentação, incluindo o peito, durante a terapia de reidratação oral (plano B) | "suspender alimentação" é a instrução mais lembrada do plano B | regra mal-aprendida | a suspensão vale para outros alimentos; o aleitamento materno é mantido porque funciona como líquido reidratante |
@@ -103,31 +117,34 @@ Frequência respiratória por faixa etária · sinais de gravidade (tiragem subc
 ## Conduta
 
 - Inicial: classificar formalmente a gravidade (grau de desidratação, sinais de gravidade respiratória, critérios de asma no lactente) antes de qualquer prescrição; em RN, responder as 3 perguntas de reanimação antes de decidir entre contato pele a pele e passos iniciais.
-- Definitiva: pneumonia por esquema de idade; asma por sequência B-C-D com escalonamento conforme resposta; diarreia por plano A/B/C conforme grau de desidratação, calculando volume pelo peso quando plano C.
+- Definitiva: pneumonia e reidratação exigem protocolo pediátrico vigente; asma
+  6–11 anos segue o núcleo `CURRENT_VERIFIED` (broncodilatador, corticoide
+  sistêmico precoce e O2 quando indicado), sem recuperar a escada antiga.
 - Condição da conduta: idade, peso e gravidade mudam protocolos; em asma 6–11,
   não postergar corticoide até falha de uma hora, exceto crise muito leve.
 - Diferencial perigoso: sinais de gravidade respiratória (tiragem, batimento de asa de nariz, cianose central) e vômitos persistentes/incapacidade de beber (que indicam gastróclise ou plano C) não esperam reavaliação prolongada.
-- O que mudaria a decisão: idade em meses (pneumonia, asma-lactente), peso corporal (volume de expansão/manutenção), grau de desidratação (plano A/B/C), resposta ao broncodilatador na 1ª hora (necessidade de corticoide).
+- O que mudaria a decisão: idade, peso, gravidade, resposta clínica e protocolo
+  vigente. Não postergar automaticamente corticoide até falha em uma hora.
 
 ## Mini-casos ativos
 
-1. J.K.M., 3 anos, 8kg, 2 dias de diarreia líquida (~8 episódios/dia), febre 39°C, náuseas/vômitos; há 24h está "molinha", recusa alimento e água, letárgica, FC 150, PA 90x60, olhos muito fundos, lágrimas ausentes, boca/língua muito secas, sinal da prega muito lento, pulso fraco. **Pivô:** o conjunto de sinais (letargia + incapacidade de beber + prega muito lenta + pulso fraco) fecha desidratação **grave (perfil C)** — a conduta é expansão venosa rápida (SF/RL 30mL/kg em 30min + 70mL/kg em 2h30, considerando o peso de 8kg), não SRO na unidade.
+1. J.K.M., 3 anos, 8kg, com diarreia, letargia, incapacidade de beber, prega muito lenta e pulso fraco. **Pivô curricular:** reconhecer desidratação grave e necessidade de resposta urgente. Volume, solução e velocidade devem vir de protocolo pediátrico vigente; a fórmula antiga não é recuperada desta cápsula.
 2. RN a termo, nasce chorando, bom tônus, mãe sem intercorrências. **Pivô:** respondeu "sim" às 3 perguntas — a conduta é contato pele a pele e clampeamento tardio do cordão, não avaliação de APGAR antes de decidir (o APGAR não entra nessa decisão inicial).
-3. Lactente de 8 meses com 3º episódio de sibilância em 6 meses, hospitalizado por sibilância grave no episódio atual, mãe com asma. **Pivô:** 2 critérios maiores já preenchidos (hospitalização por sibilância grave + ≥3 episódios em 6 meses) fecham critério de alto risco para asma no lactente, mesmo sem espirometria (que não é aplicável nessa idade).
+3. Lactente com sibilância recorrente, internação e história familiar de asma. **Pivô curricular:** reconhecer fatores de risco; a soma e os cortes da aula estão `QUARANTINED` e não fecham diagnóstico atual.
 4. Puérpera com mama direita quente, pesada, dolorosa, sem hiperemia, no 4º dia pós-parto. **Pivô:** esse quadro descreve ingurgitamento mamário fisiológico (apojadura), não mastite — orientar a manter a amamentação e o esvaziamento completo de cada mama, sem suspender o aleitamento.
 
 ## Cards mínimos
 
 | Frente | Verso | Tipo |
 |---|---|---|
-| Idade que obriga internação em toda pneumonia pediátrica | <2 meses | limiar |
-| Plano de reidratação para desidratação grave | Plano C — internação, expansão venosa rápida seguida de manutenção | regra |
-| Volume de expansão rápida do plano C em <5 anos | 20 mL/kg de SF a cada 30 min, repetir até hidratar | valor |
+| A cápsula fornece idade/esquema atual de pneumonia? | Não. Os cortes e antimicrobianos B-only estão `QUARANTINED`; usar protocolo vigente | segurança |
+| Como responder a desidratação grave em prática atual? | Reconhecer emergência e abrir protocolo pediátrico vigente; a fórmula B-only não é liberada | segurança |
+| A cápsula fornece volume atual do plano C? | Não. O cálculo B-only é curricular; confirmar protocolo vigente por idade, peso e contexto | segurança |
 | O aleitamento materno é suspenso no plano B? | Não — só os outros alimentos são suspensos; o leite materno é mantido | regra |
-| 2 critérios maiores de asma no lactente, com quais 2 sendo obrigatórios? | Hospitalização por sibilância grave e ≥3 episódios de sibilância em 6 meses | fato |
+| A soma curricular de critérios fecha asma no lactente hoje? | Não. Está `QUARANTINED`; diagnóstico atual exige avaliação e fonte vigente | segurança |
 | Núcleo atual da crise asmática 6–11 anos | broncodilatador, corticoide sistêmico precoce e O2 quando indicado, alvo 92–95%; não usar 92% como corte absoluto de não tratamento | sequência atual |
-| Quando repetir o APGAR além do 5º minuto? | Se <7 no 5º minuto, repetir a cada 5 min | regra |
-| Técnica preferida de massagem cardíaca neonatal com 2 médicos | 2 polegares, proporção 3:1 | sequência |
+| A regra B-only de repetição do APGAR é protocolo atual? | Não nesta cápsula; confirmar na diretriz neonatal vigente | segurança |
+| Como recuperar técnica/proporção de compressões neonatais? | Usar algoritmo neonatal vigente; não inferir apenas do material B-only | segurança |
 
 ## Revisão
 

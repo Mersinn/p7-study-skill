@@ -15,6 +15,12 @@
 - Limitações da fonte: nenhuma das fontes traz a dose em mg de cada benzodiazepínico individual (alprazolam, diazepam etc.) — só classificação por meia-vida/potência; a tabela de doses citada no blueprint (2ª PROVA DE SM.pdf) está fragmentada por OCR e não foi possível conferir os números
 - Verificação nível 1: CONFIRMADO
 
+## Contrato de recuperação
+
+`answer_key_scope: curricular`; `clinical_validity_default: pending`. A camada
+A′/B sustenta alinhamento com a aula, mas duração, ritmo de desmame, escolha e
+contraindicações para um paciente real exigem fonte clínica vigente e contexto.
+
 ## Como cai
 
 MCQ de 5 alternativas. Evidência de cobrança: indicação de benzodiazepínico em delirium tremens,
@@ -35,8 +41,8 @@ e betabloqueadores só para terapia aguda/curto prazo.
 A decisão central é AGUDO × CRÔNICO. Paciente em crise/ambiente hospitalar → benzodiazepínico
 (curto prazo) ou betabloqueador se predominam sintomas adrenérgicos (taquicardia, palpitação).
 Paciente ambulatorial com ansiedade persistente → ISRS/IRSN como 1ª linha; benzodiazepínico pode
-ser associado só para cobrir o tempo até o antidepressivo fazer efeito, com desmame após ~1 mês
-(nunca como monoterapia crônica). Buspirona NÃO serve para crise aguda (efeito leva 1–2 semanas) e
+ser associado apenas quando houver indicação individual e com plano de retirada contextualizado
+(não como monoterapia crônica automática). Buspirona NÃO serve para crise aguda no material (efeito leva 1–2 semanas) e
 só tem evidência para TAG leve — não para pânico, fobia ou TEPT.
 
 ## Palavras-âncora
@@ -62,9 +68,9 @@ tarja preta · agonista 5-HT1A (buspirona) · desmame · delirium tremens
 | Buspirona — latência de efeito ansiolítico | 1–2 semanas; não indicada para crise aguda | FAMENE (A') + 2 fontes B | CONFIRMADO |
 | Terapia aguda da ansiedade | Benzodiazepínicos e betabloqueadores | FAMENE (A') + B | CONFIRMADO |
 | Terapia crônica da ansiedade (1ª linha) | ISRS/IRSN; depois ligantes α2δ; depois buspirona; BZD só a curto prazo | FAMENE (A') + B | CONFIRMADO |
-| Tempo máximo de uso de BZD associado a antidepressivo | ~1 mês, com desmame gradual | Karen p.2 | CONFIRMADO (1 fonte B; A' não quantifica) |
-| Desmame de BZD — ritmo | Reduzir ~25% por semana, ou mais lento | Jéssyca p.1 | CONFIRMADO (1 fonte B) |
-| Dependência física por BZD — tempo de instalação | A partir de ~2 meses de uso contínuo | Jéssyca p.1 | CONFIRMADO (1 fonte B) |
+| Duração máxima curricular de BZD associado | ~1 mês, com desmame gradual | Karen p.2 | QUARANTINED — B-only; não é teto clínico universal |
+| Ritmo curricular de desmame de BZD | reduzir ~25% por semana, ou mais lento | Jéssyca p.1 | QUARANTINED — B-only; desmame deve ser individualizado |
+| Tempo curricular para dependência física | a partir de ~2 meses de uso contínuo | Jéssyca p.1 | QUARANTINED — B-only; não usar como limiar de segurança |
 | Antagonista dos benzodiazepínicos | Flumazenil | FAMENE + 2 fontes B | CONFIRMADO |
 | BZD de meia-vida longa (flurazepam, quazepam) | Maior risco de queda e fratura em idosos | FAMENE (A') + B | CONFIRMADO |
 | Ligantes α2δ (gabapentina, pregabalina) | Não são 1ª linha; indicados em epilepsia, dor neuropática, fibromialgia e ansiedade (TAG, social, pânico) | FAMENE (A') + B | CONFIRMADO |
@@ -96,8 +102,9 @@ tarja preta · agonista 5-HT1A (buspirona) · desmame · delirium tremens
 
 - Inicial: se ambiente agudo/hospitalar, benzodiazepínico de curto prazo ou betabloqueador (se
   sintomas adrenérgicos predominam).
-- Definitiva: ISRS ou IRSN como 1ª linha para tratamento crônico; benzodiazepínico associado por
-  no máximo ~1 mês, com desmame gradual.
+- Definitiva: no enquadramento da aula, ISRS/IRSN são a base crônica. Duração e
+  desmame de benzodiazepínico devem ser individualizados com fonte clínica
+  vigente; os números B-only estão `QUARANTINED`.
 - Condição da conduta: benzodiazepínico nunca como monoterapia de longo prazo.
 - Diferencial perigoso: intoxicação por BZD associada a álcool ou outro depressor do SNC → risco
   de depressão respiratória grave/morte (diferente da intoxicação isolada por BZD, geralmente
@@ -128,7 +135,7 @@ tarja preta · agonista 5-HT1A (buspirona) · desmame · delirium tremens
 | Terapia aguda × crônica da ansiedade | Aguda: BZD/betabloqueador. Crônica: ISRS/IRSN 1ª linha | discriminador |
 | Buspirona — indicação e limite | Só TAG leve; sem evidência em outros transtornos; não serve para crise aguda | risco |
 | BZD de meia-vida longa em idoso | Maior risco de queda e fratura | risco |
-| Tempo máximo de BZD associado a antidepressivo | ~1 mês, com desmame gradual (~25%/semana) | dado numérico |
+| Existe teto ou ritmo universal de desmame de BZD nesta cápsula? | Não. Os valores da aula estão `QUARANTINED`; individualizar com fonte vigente | segurança |
 
 ## Revisão
 
