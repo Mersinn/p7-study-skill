@@ -1,0 +1,10 @@
+{
+  "started": "2026-09-09T11:45:49.4664744Z",
+  "log": "C:\\Users\\emers\\Documents\\Codex\\2026-09-08\\execute-a-conclus-o-n-o-2\\work\\behavioral\\J02-run1/turn1-events-20260909-084549.log",
+  "exit_code": 0,
+  "path": "C:\\Users\\emers\\Documents\\Codex\\2026-09-08\\execute-a-conclus-o-n-o-2\\work\\behavioral\\J02-run1",
+  "transport": "ephemeral context replay",
+  "seconds": 36.2786246,
+  "context": "prior turns from same run only",
+  "turn": 1
+}

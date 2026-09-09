@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0.0",
+  "reviewed_at": "2026-09-09T01:39:34Z",
+  "reviewer": {
+    "kind": "independent_ai_subagent",
+    "surface": "Codex",
+    "task": "/root/review",
+    "model": "inherited_parent_model",
+    "exact_serving_version": "not_exposed",
+    "human_clinical_signature": false,
+    "clinical_promotion_performed": false
+  },
+  "snapshot": {
+    "git_head_at_review": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+    "working_tree_delta_included": true,
+    "scope": "Final matcher cache/UTF-8 delta, current static containment of the seven previously repaired red-team targets, and consistency of newly integrated curricular source evidence."
+  },
+  "decision": "PASS_DELIMITED_TECHNICAL_REVIEW",
+  "matcher_review": {
+    "original_independent_checks_passed": 23,
+    "original_independent_checks_total": 23,
+    "original_report": "p7-study-skill/repair/local-2026-09-08/MATCHER_REVIEW.json",
+    "repeated_in_final_review": false,
+    "invariants_previously_verified": [
+      "2392 unique precision row identities and claim strings preserved against the real Git HEAD baseline.",
+      "75 literal baseline matches retain the same complete source IDs as resolved:exact.",
+      "24 explicit absence rows remain declared_no_source with no source IDs.",
+      "Named match levels remain visible and nonempty source IDs correspond to resolved states.",
+      "Capsule IDs, titles, paths and source capsule hashes are preserved.",
+      "Independent miniature package exercised source-column-only inference and catalog union without allowing an unrelated absence to erase a separate citation."
+    ],
+    "final_delta_review": {
+      "cache": "PASS: only immutable patterns are cached under the complete normalized source-ID tuple. Changed ID sets form a different cache key; documents and returned resolution dictionaries are not cached. Pattern construction, level order, candidate order, absence precedence and exact matching behavior remain unchanged.",
+      "utf8": "PASS: BASELINE read and report write now explicitly use UTF-8, preserving Portuguese text on Windows.",
+      "independent_performance_finding": "Repeated index construction was confirmed by a bounded microprofile before the cache. The root performed the post-cache timing and output comparison; those executions are not attributed to this reviewer.",
+      "remaining_code_findings": []
+    }
+  },
+  "red_team_target_review": {
+    "method": "Read current capsule recovery contracts, precision panels, active cases/cards and relevant canonical claim records. This is static containment review of the historical seven targets, not a new behavioral model execution or clinical guideline revalidation.",
+    "historical_reference": "qualification/reports/v1.5.0/RED_TEAM_FINAL_VERIFICATION.json",
+    "sample": {
+      "path": "qualification/reports/RED_TEAM_SAMPLE.csv",
+      "rows": 37,
+      "sha256": "9fa353ffefdde58316debb49dc148eaba1fb22444555342667a7c9a3a8e06ce2",
+      "preserved": true,
+      "rerun_or_reselected": false
+    },
+    "targets": [
+      {
+        "target": "rt:ea2613b03215af88",
+        "result": "PASS_CONTAINMENT_PRESERVED",
+        "paths": ["p7-study-skill/capsules/OSCE/osce_banco_de_estacoes.md"],
+        "evidence": "Station 6 explicitly quarantines the prior empirical-antidote answer key, disallows flumazenil inference in undifferentiated coma, and requires clinical context and current protocol. The airway command asks for findings beyond consciousness; cards reject GCS alone as an automatic intubation trigger."
+      },
+      {
+        "target": "coma.apnea-brain-death",
+        "result": "PASS_CONTAINMENT_PRESERVED",
+        "paths": ["p7-study-skill/capsules/EISA_II/coma_e_rebaixamento_do_nivel_de_consciencia.md"],
+        "evidence": "Recovery contract declares curricular/default pending scope. Apnea testing and brain-death protocol rows are explicitly quarantined; the retrieval card requires the full current official norm and institutional protocol. Old age intervals remain qualified as an unconfirmed legal protocol, not a validated execution recipe."
+      },
+      {
+        "target": "osce-neurology.active-algorithms",
+        "result": "PASS_CONTAINMENT_PRESERVED",
+        "paths": ["p7-study-skill/capsules/OSCE/osce_neurologia.md"],
+        "evidence": "The historical precision panel quarantines B-only doses, windows, targets and interventions. Active conduct/cases route clinical choices to the current protocol, and cards reject automatic GCS-based airway treatment and reuse of B-only surgical/treatment thresholds."
+      },
+      {
+        "target": "benzodiazepine.fixed-taper",
+        "result": "PASS_CONTAINMENT_PRESERVED",
+        "paths": ["p7-study-skill/capsules/EISM/ansioliticos_e_hipnoticos.md"],
+        "evidence": "The roughly one-month duration and 25-percent weekly taper are explicitly quarantined as B-only curricular numbers. Active conduct requires individualized duration/taper with current evidence; the card explicitly denies a universal ceiling or taper rate."
+      },
+      {
+        "target": "osce-pediatrics.active-sequences",
+        "result": "PASS_CONTAINMENT_PRESERVED",
+        "paths": ["p7-study-skill/capsules/OSCE/osce_pediatria.md"],
+        "evidence": "The recovery contract and historical-panel heading quarantine non-current doses, volumes, cutoffs and sequences. The severe-dehydration case refuses the old formula and requests current age/context-specific protocol. The old neonatal ten-minute stopping rule remains explicitly quarantined. Current asthma surfaces use early corticosteroid and do not wait for a one-hour SABA failure."
+      },
+      {
+        "target": "claim:asth.severity-oxygen",
+        "result": "PASS_CONTAINMENT_PRESERVED",
+        "paths": ["p7-study-skill/capsules/EISCA/asma_em_pediatria.md", "p7-study-skill/registry/clinical_claims.jsonl"],
+        "evidence": "Canonical claim and active asthma capsule agree on the established 6-11-year context, the target when oxygen is indicated, and the explicit rejection of an absolute 92-percent no-treatment cutoff. Registry locators retain physical PDF pages 182/187 and printed pages 181/186. The prior independent-AI status is retained; no human sign-off was invented and this reviewer did not reopen the external guideline."
+      },
+      {
+        "target": "rt:e074c4c78a5806ad / claim:diarreia-planos.osmolaridade-sro",
+        "result": "PASS_CONTAINMENT_PRESERVED",
+        "paths": ["p7-study-skill/capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md", "p7-study-skill/registry/clinical_claims.jsonl"],
+        "evidence": "The recovery contract explicitly excludes the combined 75/245/291 curricular values from current-practice responses. Precision rows and canonical claim remain quarantined with null reviewer/date. New curricular page evidence does not promote the claim."
+      }
+    ],
+    "counts": {"passed": 7, "failed": 0, "total": 7},
+    "new_p0_findings_in_delimited_static_scope": 0,
+    "new_p1_findings_in_delimited_static_scope": 0,
+    "global_zero_exposure_claim": false
+  },
+  "source_evidence_consistency": {
+    "curricular_source_identities": 26,
+    "claim_records": 17,
+    "canonical_state_mismatches": 0,
+    "quarantined_claim_records": 17,
+    "promoted_claims": 0,
+    "queue_W2_primary_source_review_recorded": 17,
+    "queue_clinical_review_performed": false,
+    "recent_inventory": {"files": 23, "pages_and_slides": 1105},
+    "availability_correction": "VERIFIED: PRIMARY_SOURCE_IDENTITIES separates inherited_availability=source_unavailable from availability_this_session=available on all 26 records; absolute PDF paths were removed from these source identities.",
+    "clinical_boundary": "The current source review states transcription/localizer findings and qualifies unproven absence. It does not treat visual curricular confirmation as current clinical support. The canonical registry agrees with all 17 quarantine states.",
+    "visual_review_attribution": "Page-opening and visual-reading actions were performed by the source-review agent, not by this reviewer; this review checks the resulting evidence for internal/canonical consistency."
+  },
+  "documentation_observations": [
+    {"id": "source_availability_legacy_field", "status": "resolved_in_integrated_artifact", "severity": "documentation", "details": "The raw work file carried unavailable alongside local matches; the integrated identity artifact now separates inherited and current access."},
+    {"id": "remaining_absolute_recent_source_path", "status": "reported_to_integrator", "severity": "artifact_hygiene", "details": "At review time, CLAIM_SOURCE_REVIEW additional_recent_source.path still carried an absolute path; normalize it if publishing evidence without local paths."},
+    {"id": "adversarial_primary_pdf_limit", "status": "reported_to_integrator", "severity": "documentation", "details": "The technical adversarial report still states no primary PDFs are available. Current source access exists; the accurate limit is that this technical check itself does not inspect PDFs or validate/promote clinical claims."}
+  ],
+  "reviewed_sha256": {
+    "p7-study-skill/scripts/p7lib.py": "e5ec4cb1ef2e8568b1de5ab9ed3edba36536b380cf80c275c6aca37522a4421a",
+    "p7-study-skill/repair/adversarial_checks.py": "5fe4b7da908f287c7612a2ddebd5a7cc31a0a45bf07197042ee554aa70e93111",
+    "p7-study-skill/registry/clinical_claims.jsonl": "df3f7ed4f07e2e2cc91dd804fce9336db1c9721c1eab237b5ea80f0d6ae3d337",
+    "p7-study-skill/registry/source_versions.jsonl": "5eabcbf322ebbce1c82945c94e6766f23b3c09a372b49b6eda31263b3e26c46e",
+    "p7-study-skill/registry/sources.jsonl": "9141f42b9e4a188a4d414bf699df1dd3d91dff91d688770acdb1cb4fcc786479",
+    "p7-study-skill/capsules/OSCE/osce_banco_de_estacoes.md": "309aac1c380fae96d0593de2f19e7fb686a1f0ec3723d4d39b4792d55de214a2",
+    "p7-study-skill/capsules/EISA_II/coma_e_rebaixamento_do_nivel_de_consciencia.md": "efe424bc4f57fc2d5d0565785cdc29c4942fd227e976a2e2452a55a4fcb5a17b",
+    "p7-study-skill/capsules/OSCE/osce_neurologia.md": "93ebe3ad7e5efd7ca965585e1560305de3a596264f77c098a08af9c6d35e466c",
+    "p7-study-skill/capsules/EISM/ansioliticos_e_hipnoticos.md": "6fa750dbdd17673917ff48aee173d75aeeebd514955b80047090ed96db53fa0e",
+    "p7-study-skill/capsules/OSCE/osce_pediatria.md": "c586ec453c84414d3bbd666a7da7be1553f54140ac436f28dc65d9a0df160aa5",
+    "p7-study-skill/capsules/EISCA/asma_em_pediatria.md": "05ed40d6aae67f86ca38e12b7584005bd19a20c29571eed1e472da7a7db7a4bc",
+    "p7-study-skill/capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md": "868d86d5f26fe93cd72fd52e40336b87df0ede8d201b3d39e6e60c2456b1a8e3",
+    "qualification/reports/RED_TEAM_SAMPLE.csv": "9fa353ffefdde58316debb49dc148eaba1fb22444555342667a7c9a3a8e06ce2",
+    "qualification/reports/v1.5.0/RED_TEAM_FINAL_VERIFICATION.json": "0334c94e5a66663273df2fe7cb13f9ffe29215d79912b6370ab939fa04459410",
+    "p7-study-skill/repair/local-2026-09-08/PRIMARY_SOURCE_IDENTITIES.json": "030c51504123062bd73e69d505dd3b0486b3c36d491ee9fddf63a5e23623c2a8",
+    "p7-study-skill/repair/local-2026-09-08/CLAIM_SOURCE_REVIEW.json": "6b8169714df0159376c522626d7bc2bfc6716ac100d5af12a4cb14d3289bec28",
+    "p7-study-skill/repair/local-2026-09-08/CLINICAL_REVIEW_QUEUE.json": "9d7f4993d41eedfafa8e12a93ed1228ac63d8396b844bb433ce4cefef3e98a2d",
+    "p7-study-skill/repair/local-2026-09-08/SOURCE_REVIEW.md": "30cedc24a0cdc6299f69ff3980da09c1210f9251ab18ae0dfd1576d6f380e4cf",
+    "p7-study-skill/repair/local-2026-09-08/MATCHER_REVIEW.json": "6b9fe579ba0ebf4abd5e0fc98b04ee8738baaaf3e2d047a522314fc58e83f220",
+    "p7-study-skill/repair/local-2026-09-08/ADVERSARIAL_CHECKS.json": "4118768a3b7dbf7ff818f6fdf156131eaf43c63ad4af2879546de5934071ce55"
+  },
+  "limits": [
+    "The seven static target checks are not a 37-row independent blind sample rerun and do not establish global absence of exposure.",
+    "Previously executed matcher checks are preserved rather than repeated. Post-cache suite and adversarial executions belong to the integrator.",
+    "The scope excludes new medical conclusions, human clinical sign-off, clinical promotion and changing honest quarantines.",
+    "Git attestation, mandatory final validation, commit/push/merge/publication and release-state decisions remain with the integrating agent. This report does not waive those gates."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "release": "1.5.0",
+  "decision": "READY_FOR_RELEASE",
+  "gates": [
+    {"gate_id": "version_integrity", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "VERSION, registry, notas e pacote declaram 1.5.0; merge/tag/publicação continuam sob decisão do usuário."},
+    {"gate_id": "evidence_integrity", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "Atestações usam SHA-256 e snapshot dual, verificável no repositório e na instalação standalone."},
+    {"gate_id": "critical_inventory_complete", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "3.602/3.602 ocorrências primárias têm destino explícito; destino pending/quarantined não equivale a validação clínica."},
+    {"gate_id": "high_risk_accounted", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "2.817/2.817 ocorrências de alto risco têm destino explícito e bloqueio de recuperação quando não current."},
+    {"gate_id": "p0_exposed_zero", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "Red team final não encontrou P0 recuperável no escopo qualificado; conteúdo não resolvido permanece bloqueado."},
+    {"gate_id": "p1_high_risk_exposed_zero", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "Red team final não encontrou P1 de alto risco recuperável no escopo qualificado; não é alegação de revisão profunda de todo conteúdo curricular."},
+    {"gate_id": "current_claim_traceability", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "34/34 claims current satisfazem fonte, versão, localizador, contexto e nível de revisão exigido."},
+    {"gate_id": "behavioral_regression", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "13/13 execuções Codex limpas passaram: 9 sentinelas e 4 core."},
+    {"gate_id": "p6_parity", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "9/9 jornadas válidas passaram, 3/3 para cada J01, J02 e J03; um run histórico inconclusivo foi excluído do denominador."},
+    {"gate_id": "longitudinal_resume", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "2/2 sessões limpas válidas passaram; sessão B retomou 6→8 eventos com cadeia estrita válida."},
+    {"gate_id": "package_hygiene", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "Duas construções determinísticas são byte a byte idênticas; entradas proibidas e múltiplas raízes são rejeitadas."},
+    {"gate_id": "clean_install", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "O ZIP final é validado em cópia descartável sem corpus_text, vision_png ou estado prévio."},
+    {"gate_id": "report_consistency", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "O relatório final deriva números de registros canônicos e explicita denominadores e limitações."},
+    {"gate_id": "red_team", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "A amostra canônica tem 37 linhas; os sete alvos materiais reparados fecharam 7/7 em revisão independente dirigida."},
+    {"gate_id": "runtime_context", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "6/6 bundles medidos ficaram menores, com redução entre 36,74% e 60,57%, preservando invariantes."},
+    {"gate_id": "structured_provenance", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "2.392/2.392 linhas de precisão estão explicitamente contabilizadas: 75 resolvidas e 2.317 unresolved, sem promoção silenciosa."},
+    {"gate_id": "narrative_consistency", "status": "passed", "evidence": ["artifacts/release/RELEASE_GATE_EVIDENCE.json"], "notes": "Vocabulário, operações, fórmula de prioridade, política de fonte e contagens são testados contra os artefatos canônicos."}
+  ]
+}

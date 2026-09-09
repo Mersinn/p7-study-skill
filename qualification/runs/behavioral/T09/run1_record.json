@@ -1,0 +1,21 @@
+{
+  "run_id": "run:T09:1:2026-08-20",
+  "test_id": "T09",
+  "date_time": "2026-08-20 (America/Fortaleza)",
+  "model_surface_version": "Claude Code 2.1.220, claude -p headless",
+  "skill_snapshot_sha": "qualification/v1.0.0-claude (ver git log)",
+  "tool_access": [
+    "default minus Bash,Edit,Write (--disallowedTools)"
+  ],
+  "new_session": true,
+  "prior_history_supplied": false,
+  "session_id": "13ca32dc-3755-4d11-9bd1-7e91fdb68259",
+  "num_turns": 6,
+  "is_error": false,
+  "total_cost_usd": 0.7438279999999999,
+  "prompt_sent": "Resolvi essa questão sozinho, sem consultar nada. Corrige pra mim.  Lactente de 10 meses, história de diarreia há 2 dias. Ao exame: choro sem lágrimas, mucosa oral seca, sinal da prega desaparece lentamente, pulsos cheios, sede aumentada (bebe avidamente quando oferecido líquido), sem alteração de sensório. Qual a classificação e a conduta inicial?  A) Hidratado — Plano A B) Algum grau de desidratação — Plano B C) Desidratação grave — Plano C, expansão venosa imediata D) Desidratação grave — Plano C, mas só após 6h de falha de TRO  Minha resposta: C ",
+  "transcript_file": "run1_transcript.md",
+  "transcript_sha256": "283ad6e391947c58fde500fbcddfe64c3b7871d0c2b5e5b2c2586c2566dcd073",
+  "input_tokens": 8,
+  "output_tokens": 3473
+}

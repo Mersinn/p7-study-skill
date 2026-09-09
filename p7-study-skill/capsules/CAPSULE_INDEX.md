@@ -8,10 +8,13 @@ clínico, dado numérico decisivo, conteúdo visual ou ambiguidade real.
 ## Estados de verificação
 
 - `reviewed_l1` — o gerador releu as páginas-fonte e reconferiu a tabela de
-  dados de precisão. **Utilizável.** Ao citar um número decisivo daqui, diga em
-  uma linha que ele ainda não passou por verificação independente.
-- `reviewed_l2` — um segundo agente releu a fonte **antes** de ver a cápsula e
-  extraiu os dados por conta própria. Número confiável.
+  dados de precisão. Isso confirma apenas a auto-revisão de transcrição; não
+  demonstra vigência clínica nem revisão independente. Claim crítico sem
+  `clinical_validity: current` permanece fora de conduta assertiva.
+- `reviewed_l2` — um revisor identificado releu a fonte **antes** de ver a
+  cápsula e extraiu os dados por conta própria. Isso registra revisão
+  independente, não validação clínica humana; vigência continua sendo um estado
+  separado.
 - `needs_review` — não conferida. Não use número dela sem abrir a fonte.
 
 ## Camada de fonte
@@ -119,11 +122,20 @@ disse — ela ensina o tema e declara a limitação.
 | Tumores do sistema nervoso central | A_DEFINIR | media | medio | B | não | 13 | 0 | `reviewed_l1` | `capsules/EISA_II/tumores_do_sistema_nervoso_central.md` |
 | Urologia Feminina: Infecção Urinária e Incontinência | III_UNIDADE | alta | alto | A+B | sim | 22 | 0 | `reviewed_l1` | `capsules/EISA_II/urologia_feminina_infeccao_urinaria_e_incontinencia.md` |
 
-## EISCA  (36 cápsulas)
+## Reconciliação das duas cápsulas anunciadas
+
+O baseline auditado tinha **156 cápsulas físicas**. A alegação anterior de que as
+duas últimas haviam sido concluídas era falsa: “Semiologia pediátrica” e
+“Aleitamento materno” apareciam apenas parcialmente em cápsulas compostas. A RC
+recuperou ambas como arquivos autônomos, sem apagar as quarentenas clínicas. O
+total físico passa a **158** e EISCA passa de 36 para **38** cápsulas.
+
+## EISCA  (38 cápsulas)
 
 | Tema | Un. | Prior. | Risco | Camada | Visual | Dados | Pend. | Status | Arquivo |
 |---|---|---|---|---|---|---|---|---|---|
 | Adolescência, puberdade e semiologia do adolescente | I_UNIDADE | media | baixo | B | não | 20 | 1 | `reviewed_l1` | `capsules/EISCA/adolescencia_puberdade_e_semiologia_do_adolescente.md` |
+| Aleitamento materno | II_UNIDADE | alta | alto | B+A' | sim | 4 | 1 | `reviewed_l1` | `capsules/EISCA/aleitamento_materno.md` |
 | Anemia ferropriva | IV | alta | alto | A | não | 14 | 0 | `reviewed_l1` | `capsules/EISCA/anemia_ferropriva.md` |
 | Asma em pediatria (incluindo crise asmática e lactente sibilante) | III | alta | alto | A | sim | 43 | 2 | `reviewed_l1` | `capsules/EISCA/asma_em_pediatria.md` |
 | Assistência ao recém-nascido em sala de parto e reanimação neonatal | I | alta | alto | B | não | 19 | 0 | `reviewed_l1` | `capsules/EISCA/assistencia_rn_sala_parto_reanimacao_neonatal.md` |
@@ -155,6 +167,7 @@ disse — ela ensina o tema e declara a limitação.
 | Pneumonia adquirida na comunidade na infância | IV | alta | alto | A | não | 13 | 0 | `reviewed_l1` | `capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md` |
 | Rinofaringite aguda, resfriado comum e gripe (influenza, COVID-19) | II_UNIDADE | alta | alto | A | sim | 17 | 0 | `reviewed_l1` | `capsules/EISCA/rinofaringite_aguda_resfriado_comum_e_gripe.md` |
 | Saúde ocular na infância | II | alta | alto | A+B | sim | 32 | 1 | `reviewed_l1` | `capsules/EISCA/saude_ocular_na_infancia.md` |
+| Semiologia pediátrica | I_UNIDADE | alta | alto | A | sim | 3 | 1 | `reviewed_l1` | `capsules/EISCA/semiologia_pediatrica.md` |
 | Semiologia e classificação do recém-nascido | I_UNIDADE | alta | medio | B | não | 30 | 5 | `reviewed_l1` | `capsules/EISCA/semiologia_e_classificacao_do_recem_nascido.md` |
 | Sepse neonatal e meningite neonatal | A_DEFINIR | alta | alto | B | não | 17 | 1 | `reviewed_l1` | `capsules/EISCA/sepse_e_meningite_neonatal.md` |
 | Tumor de Wilms (nefroblastoma) | II_UNIDADE | media | medio | A+B | sim | 18 | 0 | `reviewed_l1` | `capsules/EISCA/tumor_de_wilms.md` |

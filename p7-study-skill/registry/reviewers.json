@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "reviewers": [
+    {
+      "schema_version": "1.0.0",
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "role": "independent_reviewer_l2",
+      "provider": "OpenAI",
+      "model": "Codex (inherited model)",
+      "exact_serving_version": "not exposed",
+      "human_review": false,
+      "notes": "Revisão por agente independente; não equivale a revisão clínica humana."
+    },
+    {
+      "schema_version": "1.0.0",
+      "reviewer_id": "agent:qualificacao_p7:2026-08-20-claude",
+      "role": "independent_reviewer_l2",
+      "provider": "Anthropic",
+      "model": "Claude Code (Opus 5 no inicio da sessao; usuario trocou para claude-sonnet-5 via /model durante a sessao)",
+      "exact_serving_version": "not exposed",
+      "human_review": false,
+      "notes": "Revisor independente com acesso a WebSearch/WebFetch/execucao de codigo nesta sessao. PDFs escaneados/comprimidos NAO puderam ser lidos via WebFetch (retorna stream binario); corrigido extraindo texto integral localmente com PyMuPDF (biblioteca ja instalada no ambiente) e lendo o texto extraido linha a linha contra os claims da capsula, incluindo leitura adversarial deliberada (buscando divergencia, nao apenas confirmacao) — que encontrou e corrigiu um erro real de transcricao na capsula de diarreia/desidratacao. PDF em si nao e commitado ao pacote (ver rights_note de cada source); apenas locator/pagina e citado. Claims fechados como current exigem locator em fonte PRIMARIA lida nesta sessao — nao apenas resumo de busca web nem artigo secundario. Onde so havia fonte secundaria disponivel, o claim permanece pending, nao current."
+    },
+    {
+      "schema_version": "1.0.0",
+      "reviewer_id": "agent:qualificacao_p7:2026-08-22-codex",
+      "role": "independent_reviewer_l2",
+      "provider": "OpenAI",
+      "model": "Codex (inherited model)",
+      "exact_serving_version": "not exposed",
+      "human_review": false,
+      "notes": "Revalidação focal de sepse neonatal contra SBP 2025 e NICE NG195 atualizado em 13/05/2026, com conflito preservado quando as fontes diferem. Não equivale a revisão clínica humana."
+    },
+    {
+      "schema_version": "1.0.0",
+      "reviewer_id": "agent:codex-clinical:2026-08-27",
+      "role": "self_reviewer_l1",
+      "provider": "OpenAI",
+      "model": "gpt-5.6-sol",
+      "exact_serving_version": "not exposed",
+      "human_review": false,
+      "notes": "Revisão L1 da v1.5.0; fonte GINA 2026 aberta e claim de oxigênio corrigido. Não equivale a revisão independente nem humana."
+    },
+    {
+      "schema_version": "1.0.0",
+      "reviewer_id": "agent:red-team-v150:2026-08-30",
+      "role": "independent_reviewer_l2",
+      "provider": "OpenAI",
+      "model": "gpt-5.6-sol (requested), reasoning xhigh",
+      "exact_serving_version": "not exposed",
+      "human_review": false,
+      "notes": "Revisão independente dirigida no task Codex 01a05583-c4f0-7b61-9d2a-dc88cfc3f0e1. Conferiu visualmente o PDF oficial GINA 2026 e reavaliou as superfícies ativas dos reparos clínicos. Resultado final: 6/6 PASS_REPAIRED, P0=0, P1=0 no escopo dirigido. Não equivale a revisão clínica humana."
+    }
+  ],
+  "generation_runs": [
+    {
+      "run_id": "generation:p7-recovery:2026-08-20",
+      "performed_at": "2026-08-20",
+      "provider": "OpenAI",
+      "model": "Codex (inherited model)",
+      "exact_serving_version": "not exposed",
+      "scope": "recovery and clinical claim registry"
+    }
+  ]
+}

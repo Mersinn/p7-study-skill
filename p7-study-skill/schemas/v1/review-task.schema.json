@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://p7-study.local/schemas/v1/review-task.schema.json",
+  "title": "ReviewTask",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "review_key", "learner_id", "capsule_id", "concept_id", "stage", "status", "due_at", "source_event_id"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "review_key": {"type": "string", "minLength": 1},
+    "learner_id": {"type": "string", "minLength": 1},
+    "capsule_id": {"type": "string", "minLength": 1},
+    "concept_id": {"type": "string", "minLength": 1},
+    "stage": {"type": "integer", "minimum": 0, "maximum": 2},
+    "status": {"enum": ["scheduled", "completed"]},
+    "due_at": {"type": ["string", "null"], "format": "date-time"},
+    "source_event_id": {"type": "string", "minLength": 1}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"status": {"const": "completed"}}},
+      "then": {"properties": {"due_at": {"type": "null"}}},
+      "else": {"properties": {"due_at": {"type": "string", "format": "date-time"}}}
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "run_id": "run:Codex:T15:noncanonical-capitalized:2026-08-24",
+  "test_id": "T15",
+  "surface": "Codex",
+  "executor": "multi_agent_v1__spawn_agent",
+  "agent_id": "01a03422-0d79-7b13-ad30-b6688a439007",
+  "model_surface_version": "Codex subagent default; exact model alias/version not exposed",
+  "skill_snapshot_sha": "1fe3c5c1f6176e1c0ceb77c4f6900e2975bdbade",
+  "fixture_path": "qualification/fixtures/behavioral/adhoc/T13_T14_T15_diagnostico.md",
+  "fixture_sha256": "efecc1b234efb4c65e73776776e7ec60937f260a6217e65d5ca876a00975cc5e",
+  "input_sha256": "0d6465c11c18ddc25da6426777d0dedb463793f7f7ada1dc4839702bb5e89349",
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "prompt_sent": "Acertei, mas não sei por quê — só chutei essa letra.",
+  "raw_file": "run1_raw.md",
+  "raw_sha256": "898ac3e0188b411bc386da804946c5a2e193966e66d303a8dd9b4c2f7aafd03c",
+  "adjudication": "INCONCLUSIVE",
+  "adjudication_basis": "A entrada não preservou a capitalização congelada; não entra no denominador canônico."
+}

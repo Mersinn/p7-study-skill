@@ -1,0 +1,30 @@
+{
+  "run_id": "run:Codex:T24:clean_reexecution:1:2026-08-25",
+  "test_id": "T24",
+  "surface": "Codex",
+  "executor": "multi_agent_v1__spawn_agent",
+  "agent_id": "01a03b93-9256-73a0-9ed8-c489f7b02f59",
+  "model_surface_version": "Codex subagent default; exact model alias/version not exposed by executor API",
+  "runtime_version": "Codex Desktop multi_agent_v1",
+  "skill_snapshot_sha": "ad255ff88789069a4fe564b635655b2d75c3f05d",
+  "skill_file_sha256": "1dafc05d8ef5d8c1e85c9822a85bc41fdc484c083b3c7bb8cb4b04e2f18eb7e7",
+  "fixture_path": "qualification/fixtures/behavioral/adhoc/F-T24-CALIBRATION/calibration_scenario.md",
+  "fixture_sha256": "e131877060ffeae5464d1f563b7cfe9e218dfbe024c159fc7dcc23318cc795c1",
+  "allowed_execution_file": "qualification/fixtures/behavioral/execution_payloads/F-T24_inputs.md",
+  "allowed_execution_file_sha256": "94bb5ce75f73e929cdde65ba3860cdd48ac4ab847819cfecc8b134e6794cb3c9",
+  "input_sha256": "94bb5ce75f73e929cdde65ba3860cdd48ac4ab847819cfecc8b134e6794cb3c9",
+  "allowed_state": {
+    "events_path": "qualification/fixtures/behavioral/adhoc/F-T24-CALIBRATION/.p7-state/events.jsonl",
+    "events_sha256": "3be6b53a450e4ab6305165a26e4451d6300cf8f1cb861907876200b03af429d3",
+    "meta_path": "qualification/fixtures/behavioral/adhoc/F-T24-CALIBRATION/.p7-state/ledger_meta.json",
+    "meta_sha256": "e4c83c3c5ccb8f2a86fddf7cdc92677d4e7d218be908e8a47fe5ed9c73dcd7dc"
+  },
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "skill_delivery": "installed skill plus frozen user input and permitted initial ledger state; expected result withheld",
+  "raw_file": "run1_raw.md",
+  "raw_sha256": "c16db97dd1dc15b399c0455337f5a198469ec145e599ce6616ffe6309856147a",
+  "adjudication": "PASS",
+  "adjudication_basis": "Finite 40-item/25-minute plan; tolerant in-memory ledger projection; valid n=11; Brier 0.3075; bias +0.095455; corrupted records and missing pair excluded and reported; decisive hint excluded; fixture not modified."
+}

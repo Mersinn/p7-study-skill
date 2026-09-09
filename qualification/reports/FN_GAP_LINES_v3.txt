@@ -1,0 +1,277 @@
+====================================================================================================
+capsules/CASOS_CLINICOS/icetericia_e_interpretacao_das_provas_de_funcao_hepatica.md
+  L  47 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  48 [dados de precisao       ] |---|---|---|---|
+  L  49 [dados de precisao       ] | Aminotransferases | elevação indica lesão hepatocelular | CASOS_CL_NICOS_RESUMO p.1 (seção Cirrose) | CONFIRMADO |
+  L  52 [dados de precisao       ] | Bilirrubina direta elevada | sugere colestase | CASOS_CL_NICOS_RESUMO p.1 | CONFIRMADO |
+  L  53 [dados de precisao       ] | Bilirrubina indireta isolada | sugere síndrome de Gilbert ou hemólise | CASOS_CL_NICOS_RESUMO p.1 | CONFIRMADO |
+  L  56 [dados de precisao       ] | Exames de imagem de 1ª linha | USG (rápida, não invasiva, sem contraste, avalia parênquima e rastreia neoplasia); TC; RM; CPRE conforme indicação | CASOS_CL_NICOS_RESUMO p.1 | CO
+  L  76 [conduta                 ] - Inicial: diante de icterícia, separar bilirrubina direta de indireta e solicitar transaminases, albumina e tempo de protrombina para localizar o padrão (colestático x hepatocelul
+  L  77 [conduta                 ] - Definitiva: depende inteiramente da causa identificada pelo padrão laboratorial — não há conduta única para "icterícia"; o próximo passo (imagem de vias biliares, sorologia viral
+  L  80 [conduta                 ] - O que mudaria a decisão: presença de dilatação de vias biliares na USG muda a investigação de "hepatopatia difusa" para "causa obstrutiva mecânica", exigindo exame de imagem mais
+  L  92 [cards minimos           ] | Frente | Verso | Tipo |
+  L  93 [cards minimos           ] |---|---|---|
+  L  94 [cards minimos           ] | Bilirrubina direta elevada sugere | Colestase | dado |
+  L  95 [cards minimos           ] | Bilirrubina indireta isolada sugere | Hemólise ou síndrome de Gilbert | dado |
+  L  98 [cards minimos           ] | Marcador de função hepática crônica (meia-vida longa) | Albumina (28 dias) | dado |
+  L  99 [cards minimos           ] | Marcador de disfunção hepática aguda | Tempo de protrombina prolongado | dado |
+  L 100 [cards minimos           ] | Icterícia indireta isolada + exames normais → investigação invasiva? | Não, geralmente achado benigno (Gilbert) | pegadinha |
+  L 105 [revisao                 ] - Critério de parada: em 3 casos seguidos, separar corretamente o padrão de bilirrubina (direta x indireta), aplicar a razão AST/ALT para sugerir etiologia, e não confundir marcado
+====================================================================================================
+capsules/CASOS_CLINICOS/colite_pseudomembranosa.md
+  L  24 [conceito operacional min] Colite pseudomembranosa é uma colite mediada por **toxinas** (A e B) do *Clostridium difficile*/*Clostridioides difficile*, desencadeada pela disrupção da flora intestinal normal p
+  L  32 [palavras-ancora         ] Colite pseudomembranosa · *Clostridium difficile*/*Clostridioides difficile* · gatilho antibiótico (clindamicina, fluoroquinolona, cefalosporina) · toxina A e B · GDH · pseudomembr
+  L  46 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  47 [dados de precisao       ] |---|---|---|---|
+  L  48 [dados de precisao       ] | Definição e agente etiológico | diarreia causada por toxinas bacterianas; agente = *Clostridium difficile* ou *Clostridioides difficile* | `Abordagem às diarreias.pdf`, p.24 (ima
+  L  49 [dados de precisao       ] | Quadro clínico | diarreia, febre, dor abdominal, colite | `Abordagem às diarreias.pdf`, p.25 (imagem) | CONFIRMADO |
+  L  50 [dados de precisao       ] | Paciente clássico | idoso, uso recente de antibiótico, cirurgia abdominal prévia, uso de sonda nasoenteral (SNE) | `Abordagem às diarreias.pdf`, p.25 (imagem) | CONFIRMADO |
+  L  51 [dados de precisao       ] | Antibióticos classicamente gatilho ("CFC") | clindamicina (principal), fluoroquinolonas e cefalosporinas — qualquer antibiótico pode desencadear o quadro, mas esses três são os c
+  L  53 [dados de precisao       ] | GDH (glutamato desidrogenase) | usado como teste de triagem em algoritmo diagnóstico de 2 etapas (GDH de alta sensibilidade + toxina/NAAT confirmatório de alta especificidade) — 
+  L  94 [cards minimos           ] | Frente | Verso | Tipo |
+  L  95 [cards minimos           ] |---|---|---|
+  L 100 [cards minimos           ] | Achado colonoscópico característico | Pseudomembranas amarelo-esbranquiçadas | sinal-achado |
+  L 101 [cards minimos           ] | Antibióticos classicamente gatilho ("CFC") | Clindamicina (principal), fluoroquinolonas, cefalosporinas | fato |
+====================================================================================================
+capsules/CASOS_CLINICOS/tireoidopatias_hipotireoidismo_nodulo_e_paaf.md
+  L  47 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  48 [dados de precisao       ] |---|---|---|---|
+  L  49 [dados de precisao       ] | Diagnóstico laboratorial do hipotireoidismo | T3 e T4 baixos, TSH alto (mecanismo de retroalimentação do eixo hipotálamo-hipófise) | FACILITA_OSCE p.749-751 | CONFIRMADO |
+  L  51 [dados de precisao       ] | Tratamento do hipotireoidismo | Levotiroxina (T4 sintético), tomada pela manhã em jejum, 30 min antes do café | FACILITA_OSCE p.762-766 | CONFIRMADO |
+  L  53 [dados de precisao       ] | Tratamento do hipertireoidismo | Metimazol (MMI) é 1ª escolha; PTU reservado para 1º trimestre de gestação (menor teratogenicidade) e crise tireotóxica (bloqueia conversão perifé
+  L  54 [dados de precisao       ] | Caso real — hipotireoidismo (Questão 1) | Mulher 52a, edema de MMII, dificuldade para perder peso, constipação, insônia, queda de cabelo, pele ressecada/unhas quebradiças, obesid
+  L  55 [dados de precisao       ] | Caso real — nódulos tireoidianos (Questão 3) | Maria Alice, 32a, 2 nódulos: 0,8cm com microcalcificações (Chammas II) e 0,5cm sem calcificação (Chammas II); TSH 6,5, T4L 0,92, T3
+  L  93 [cards minimos           ] | Frente | Verso | Tipo |
+  L  94 [cards minimos           ] |---|---|---|
+  L  95 [cards minimos           ] | TSH alto + T4L baixo | Hipotireoidismo primário | dado |
+  L  96 [cards minimos           ] | TSH baixo + T4L/T3 altos | Hipertireoidismo | dado |
+  L  98 [cards minimos           ] | Antitireoidiano de 1ª linha (fora de gestação inicial/crise) | Metimazol | dado |
+  L  99 [cards minimos           ] | PTU é indicado quando? | 1º trimestre de gestação ou crise tireotóxica | pegadinha |
+  L 106 [revisao                 ] - Critério de parada: em 3 casos seguidos, identificar corretamente a direção da disfunção (hipo/hiper), decidir tratar ou repetir exame, e aplicar o critério de risco correto para
+====================================================================================================
+capsules/EISA_II/urologia_feminina_infeccao_urinaria_e_incontinencia.md
+  L  47 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  48 [dados de precisao       ] |---|---|---|---|
+  L  51 [dados de precisao       ] | Agente etiológico | E. coli > Klebsiella > Proteus > Pseudomonas (ordem de incidência) | B p.1 | CONFIRMADO |
+  L  61 [dados de precisao       ] | Fator de risco para obstrução infravesical na mulher | Distopia genital (equivalente feminino da HPB masculina) | B p.3 | CONFIRMADO |
+  L  62 [dados de precisao       ] | Fatores associados à incontinência | Diabetes gestacional; polidrâmnio; RN GIG; obesidade; tabagismo (tosse crônica); ectopia ureteral; fístula vesicovaginal | B p.3 | CONFIRMADO
+  L  63 [dados de precisao       ] | Via de parto e incontinência | Via de parto **não** é fator associado — o que determina é o **tempo** do trabalho de parto, não a via (vaginal x cesárea) | B p.3 | CONFIRMADO |
+  L  66 [dados de precisao       ] | Hiperatividade detrusora — prevalência | Presente em 9–55% das mulheres com IU; em 76% daquelas com IU recidivada; fator de risco de insucesso para cirurgia de sling | camada A s
+  L  70 [dados de precisao       ] | Tratamento da IU de esforço | Cirúrgico — slings uretrais (autólogos, ex. aponeurótico; ou heterólogos, ex. TVT/transobturatório), que diminuem o ângulo vésico-uretral e criam me
+  L 110 [cards minimos           ] | Frente | Verso | Tipo |
+  L 111 [cards minimos           ] |---|---|---|
+  L 113 [cards minimos           ] | Uso de quinolona na ITU | Não empírico — exige urocultura com antibiograma | pegadinha |
+  L 117 [cards minimos           ] | Via de parto e incontinência | Não é fator de risco — o fator é o tempo de trabalho de parto | pegadinha |
+  L 118 [cards minimos           ] | ITU recorrente pós-menopausa sem disfunção miccional | Pensar em hipoestrogenismo → estrogênio vaginal | dado |
+  L 121 [cards minimos           ] | Tratamento cirúrgico da IU de esforço | Sling uretral (autólogo ou heterólogo/TVT) | dado |
+  L 126 [revisao                 ] - Critério de parada: acertar em 3 casos seguidos a direção do corte de VLPP e a sequência de tratamento em IU mista, sem inverter nenhum dos dois.
+====================================================================================================
+capsules/EISA_II/anatomia_osso_temporal_e_audicao.md
+  L  28 [pivo clinico            ] O pivô fisiológico é distinguir **qual mecanismo está sendo testado** — hidráulico (razão de área) x alavanca (razão de comprimento de braço ósseo) — porque a prova gosta de trocar
+  L  45 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  46 [dados de precisao       ] |---|---|---|---|
+  L  47 [dados de precisao       ] | Perda de energia sonora ar→líquido sem compensação | ~999/1000 (só 1/1000 chega ao meio líquido) | Fisiologia da Audição, p. 2 | CONFIRMADO |
+  L  48 [dados de precisao       ] | Mecanismo hidráulico — razão de área membrana/platina do estribo | ~17:1 (até 25:1 conforme estudo), gerando ganho ~26 dB | Fisiologia da Audição, p. 2 | CONFIRMADO |
+  L  49 [dados de precisao       ] | Mecanismo de alavanca martelo-bigorna | razão ~2:1, ganho adicional de ~2,5 dB | Fisiologia da Audição, p. 2 | CONFIRMADO |
+  L  50 [dados de precisao       ] | Ganho total do sistema tímpano-ossicular | 22 vezes (27–35 dB); sem ele, perda auditiva de ~30 dB | Fisiologia da Audição, p. 3 | CONFIRMADO |
+  L  51 [dados de precisao       ] | Área vibrátil da membrana timpânica (Békésy) | 55 mm² de um total de 85 mm² | Fisiologia da Audição, p. 2 | CONFIRMADO |
+  L  52 [dados de precisao       ] | Potencial endococlear de repouso | endolinfa +80 µV, perilinfa −60 µV, diferencial ~140 µV, dependente da estria vascular | Fisiologia da Audição, p. 6–7 | CONFIRMADO |
+  L  53 [dados de precisao       ] | Células ciliadas internas (CCI) | ~3.500 células; recebem 90–95% das fibras aferentes (tipo I), 15–20 neurônios tipo I por CCI | Fisiologia da Audição, p. 5, 7 | CONFIRMADO |
+  L  54 [dados de precisao       ] | Células ciliadas externas (CCE) | 12.000–16.000 células; recebem 5–10% das fibras aferentes (tipo II), 1 neurônio tipo II inerva 10 CCE | Fisiologia da Audição, p. 5, 7 | CONFIRM
+  L  55 [dados de precisao       ] | Reflexo estapediano | latência 14–16 ms; atenuação de apenas ~2 dB; não protege contra ruído brusco | Fisiologia da Audição, p. 3 | CONFIRMADO |
+  L  57 [dados de precisao       ] | Bigorna — processos | processo longo mede ~7 mm, processo curto ~5 mm, formando ângulo de ~100° entre si | Anatomia do Osso Temporal, seção 4.3 | CONFIRMADO |
+  L  59 [dados de precisao       ] | Recesso do facial e seio timpânico | dois recessos da superfície mastóidea da cavidade timpânica; ambos são sítios clássicos de retenção de colesteatoma | Anatomia do Osso Tempor
+  L  60 [dados de precisao       ] | Tegmen tympani | lâmina óssea fina que separa a orelha média da fossa cerebral média; pode não estar ossificada em crianças, permitindo passagem direta de infecção para o SNC | A
+  L  61 [dados de precisao       ] | Comprimento exato dos segmentos do nervo facial (labiríntico/timpânico/mastóideo) | não confirmável nesta rodada — trecho da fonte com extração de texto corrompida | Anatomia do 
+  L  80 [conduta                 ] - Não aplicável no sentido clínico tradicional — esta cápsula é de base anatomofisiológica; a "conduta" aqui é interpretativa: reconhecer que alteração do potencial de somação suge
+  L  81 [conduta                 ] - Diferencial perigoso: tegmen tympani não ossificado em criança — complicação intracraniana de OMA/OMC deve ser suspeitada mais precocemente na faixa pediátrica.
+  L  91 [cards minimos           ] | Frente | Verso | Tipo |
+  L  92 [cards minimos           ] |---|---|---|
+  L  93 [cards minimos           ] | Qual mecanismo gera maior ganho de pressão sonora no sistema tímpano-ossicular? | Mecanismo hidráulico (razão de área membrana/platina do estribo, ~26 dB) — maior que o mecanismo
+  L  94 [cards minimos           ] | Onde ficam os sons agudos e os graves na cóclea? | Agudos na espira basal; graves na espira apical | fato |
+  L  95 [cards minimos           ] | O reflexo estapediano protege contra ruído brusco? | Não — tem latência de 14–16 ms e atenuação de só ~2 dB | regra |
+  L  96 [cards minimos           ] | Quais são os dois sítios clássicos de retenção de colesteatoma na parede mastóidea da cavidade timpânica? | Recesso do facial e seio timpânico | fato |
+  L  97 [cards minimos           ] | O que sugere um potencial de somação aumentado na eletrococleografia? | Hidropsia endolinfática (Doença de Ménière) | fato |
+  L 102 [revisao                 ] - Critério de parada: responder corretamente os 5 cards mínimos em 2 rodadas seguidas sem consultar a tabela.
+====================================================================================================
+capsules/EISA_II/trauma_urogenital.md
+  L  32 [palavras-ancora         ] Hematúria não se correlaciona com gravidade; TC de abdome/pelve com contraste (padrão-ouro no trauma renal); cistografia com TC (95%/100%); extra x intraperitoneal (bexiga); sangue
+  L  47 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  48 [dados de precisao       ] |---|---|---|---|
+  L  49 [dados de precisao       ] | Epidemiologia geral do trauma geniturinário | 10% dos traumas; 90% fechados | APOSTILA p.122; AULA_HPB... (não, ver AULA Trauma slide 1) | CONFIRMADO (A+B) |
+  L  50 [dados de precisao       ] | Hematúria como indicador | Presente em 90% dos casos de trauma geniturinário; intensidade **não** se correlaciona com gravidade; ausência **não** exclui trauma renal | APOSTILA p
+  L  51 [dados de precisao       ] | Exame de escolha no trauma renal | TC de abdome/pelve com contraste (padrão-ouro, avalia laceração cortical, sistema coletor, vasos, hematoma perirrenal) | APOSTILA p.123; camada
+  L  54 [dados de precisao       ] | Trauma ureteral — causa mais comum | Iatrogênica (80%): histerectomia 54%, colectomia 14%, cirurgias pélvicas 8%, histeropexia 8%, procedimentos vasculares 6% | APOSTILA p.125; c
+  L  56 [dados de precisao       ] | Trauma vesical — mecanismo e associação | Contuso é o mais comum; cirurgia urológica é a causa iatrogênica mais comum; lesão vesical contusa associada a fratura pélvica em 60–90%
+  L  57 [dados de precisao       ] | Trauma vesical — extra x intraperitoneal | Extraperitoneal é mais comum (50–80% dos casos) e quase sempre associada a fratura pélvica; fator mais decisivo na conduta é saber qual
+  L  58 [dados de precisao       ] | Diagnóstico do trauma vesical | Cistografia (indicada em fratura pélvica + hematúria, ou sangue no meato); cistografia com TC (sensibilidade 95%, especificidade 100%), exame prin
+  L  60 [dados de precisao       ] | Trauma de uretra — proporção posterior x anterior | Uretra posterior corresponde a 70% dos traumas de uretra; associada a fratura pélvica | Trauma_urogenital p.1166–1170 | CONFIR
+  L  61 [dados de precisao       ] | Diagnóstico do trauma de uretra | Uretrocistografia (uretrografia retrógrada) | APOSTILA p.126; Trauma_urogenital p.1204/1445/1470 | CONFIRMADO (2 fontes B) |
+  L  65 [dados de precisao       ] | Fratura de pênis — lesão uretral associada | Ocorre em 20% dos casos; lesão de outros órgãos em 80% dos casos penetrantes | Trauma_urogenital p.1507 | CONFIRMADO (fonte única B) 
+  L 105 [cards minimos           ] | Frente | Verso | Tipo |
+  L 106 [cards minimos           ] |---|---|---|
+  L 107 [cards minimos           ] | Hematúria e gravidade do trauma renal | Não se correlacionam; ausência não exclui lesão | pegadinha |
+  L 108 [cards minimos           ] | Exame de escolha no trauma renal | TC de abdome/pelve com contraste | dado |
+  L 109 [cards minimos           ] | Causa mais comum de trauma ureteral | Iatrogênica (80%) — histerectomia é a principal | dado |
+  L 111 [cards minimos           ] | Tipo mais comum de trauma vesical | Extraperitoneal (50–80%), tratamento conservador | dado |
+  L 112 [cards minimos           ] | Exame de escolha no trauma vesical | Cistografia com TC (sens. 95% / espec. 100%) | dado |
+  L 113 [cards minimos           ] | Sangue no meato uretral | Contraindica sondagem cega — investigar com uretrocistografia | pegadinha |
+  L 114 [cards minimos           ] | Proporção do trauma de uretra posterior | 70% dos traumas de uretra | dado |
+  L 115 [cards minimos           ] | Tratamento agudo x definitivo da uretra posterior | Cistostomia (aguda) → uretroplastia (tardia, 3 meses) | dado |
+  L 116 [cards minimos           ] | Quadro clássico de fratura de pênis | Estalido + dor + detumescência imediata + edema/equimose | dado |
+====================================================================================================
+capsules/EISCA/aleitamento_materno.md
+  L  31 [conceito operacional min] do aleitamento por 2 anos ou mais.
+  L  41 [palavras-ancora         ] primeira hora · exclusivo 6 meses · 2 anos ou mais · livre demanda · pega profunda
+  L  55 [pratica clinica atual — ] continuar até 2 anos ou mais.
+  L  59 [pratica clinica atual — ] nacional. Consumo regular de álcool e drogas ilícitas exige avaliação e pode
+  L  60 [pratica clinica atual — ] requerer interrupção conforme orientação oficial.
+  L  63 [pratica clinica atual — ] prematuridade; muitas terapias são compatíveis e suspensão desnecessária causa dano.
+  L  74 [dados de precisao       ] | Claim | Fonte/localizador | Status |
+  L  75 [dados de precisao       ] |---|---|---|
+  L  79 [dados de precisao       ] | Dez Passos | OMS/UNICEF, versão vigente | CURRENT_VERIFIED |
+  L  91 [conduta e guardrails    ] - Observe mamada e sinais de ingestão; corrija técnica e assegure seguimento.
+  L  92 [conduta e guardrails    ] - Sinais de desidratação, hipoglicemia, perda ponderal excessiva ou doença exigem
+  L 111 [cards minimos           ] | Frente | Verso | Tipo |
+  L 112 [cards minimos           ] |---|---|---|
+  L 127 [revisao                 ] de medicamentos recebe promoção automática a prática atual.
+====================================================================================================
+capsules/EISCA/infeccao_do_trato_urinario_na_infancia.md
+  L  47 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  48 [dados de precisao       ] |---|---|---|---|
+  L  49 [dados de precisao       ] | Conceito | multiplicação de um único germe patogênico em qualquer segmento do trato urinário, identificado por urocultura coletada por método confiável | slide p.002 | CONFIRMADO
+  L  52 [dados de precisao       ] | Etiopatogenia — via | infecções ocorrem por via ascendente (bactérias do cólon colonizam períneo → uretra → vias urinárias); bactérias sob o prepúcio (Proteus) ascendem; fímbrias
+  L  53 [dados de precisao       ] | Etiologia | E. coli (80–90%); outros Gram-negativos: Klebsiella (importante em neonatos), Proteus, Enterobacter, Citrobacter; Gram-positivos: S. saprophyticus (adolescentes), S. 
+  L  55 [dados de precisao       ] | Quadro clínico — localização | cistite: disúria, polaciúria, desconforto suprapúbico, incontinência urinária, urina fétida, hematúria (sinais/sintomas locais); pielonefrite: febr
+  L  58 [dados de precisao       ] | Quadro clínico pré-escolar/escolar | febre e sintomas urinários: mal-estar, anorexia, dor suprapúbica, disúria, polaciúria, hematúria, urina fétida; calafrio e dor abdominal em f
+  L  61 [dados de precisao       ] | Diagnóstico — exames complementares | EAS, esfregaço com Gram, urocultura, exames de imagem, hemograma | slide p.016 | CONFIRMADO |
+  L  68 [dados de precisao       ] | USG renal e vias urinárias | realizar em TODOS que tiveram ITU, para confirmar/detectar malformação; USG normal NÃO exclui alteração; avalia tamanho renal, espessura/parênquima, 
+  L  71 [dados de precisao       ] | Cintilografia com DTPA (dinâmica) | sofre filtração/excreção renal; avalia se o sistema excretor urinário está pérvio; indicada para casos de ITU com hidronefrose | slide p.031 |
+  L 115 [cards minimos           ] | Frente | Verso | Tipo |
+  L 116 [cards minimos           ] |---|---|---|
+  L 118 [cards minimos           ] | Urocultura por cateterismo vesical — corte | 1.000–50.000 UFC/mL | valor |
+  L 119 [cards minimos           ] | Urocultura por punção suprapúbica — corte | qualquer crescimento bacteriano | valor |
+  L 122 [cards minimos           ] | Sequência de investigação por imagem pós-ITU | USG (todos) → se alterado/recorrente, considerar UCM → DMSA se pielonefrite/RVU → profilaxia só se RVU | conceito |
+  L 123 [cards minimos           ] | DMSA — indicação e padrão | padrão-ouro para cicatriz renal; indicado mesmo com USG normal se quadro de pielonefrite | conceito |
+====================================================================================================
+capsules/EISCA/rinofaringite_aguda_resfriado_comum_e_gripe.md
+  L  47 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  48 [dados de precisao       ] |---|---|---|---|
+  L  49 [dados de precisao       ] | Definição de IVAS | infecções que atingem principalmente as estruturas das vias aéreas acima da laringe | slide p.002 | CONFIRMADO |
+  L  50 [dados de precisao       ] | Espectro do bloco "rinofaringite" no slide | rinofaringite (resfriado comum/gripe); distinto de faringite (faringoamigdalite) e de obstrução alta (epiglotite/laringite), tratados
+  L  51 [dados de precisao       ] | Manifestações da rinofaringite aguda | rinorreia (coriza serosa/hialina); espirros, obstrução nasal, tosse, lacrimejamento; febre baixa, abatimento discreto, redução do apetite; 
+  L  52 [dados de precisao       ] | Agentes etiológicos | rinovírus, coronavírus, influenza, VSR, parainfluenza, coxsackie, adenovírus, entre outros | slide p.007 | CONFIRMADO |
+  L  53 [dados de precisao       ] | Vírus influenza — tipos | Myxovírus influenzae; 3 tipos principais em humanos: Influenza A, B, C (+ Influenza D, restrito a gado/suínos); subtipos por Hemaglutinina (H) e Neurami
+  L  54 [dados de precisao       ] | Coronavírus — tipos | 7 tipos descritos no slide: SARS-CoV-2 (novo coronavírus), NL63 (2004), OC43, 229E, HKU1 (2005), SARS-CoV (síndrome respiratória aguda grave), MERS-CoV (sín
+  L  55 [dados de precisao       ] | Síndrome gripal — quadro | febre (37,9–39°C); calafrios, mal-estar, cefaleia, mialgia, dor de garganta, artralgia, prostração, rinorreia, tosse seca; rouquidão, linfadenopatia ce
+  L  56 [dados de precisao       ] | Exame físico da rinofaringite | congestão de mucosa nasal e faringe, hiperemia de membrana timpânica, congestão de conjuntivas, lacrimejamento, lesões vesículo-ulcerosas ocasiona
+  L  58 [dados de precisao       ] | Diagnóstico | essencialmente clínico; exames complementares desnecessários; diferencial com sarampo/coqueluche; IVAS de repetição sugere alergia | slide p.017 | CONFIRMADO |
+  L  59 [dados de precisao       ] | Tratamento — geral | repouso, hidratação, umidificação do ambiente, dieta conforme aceitação | slide p.017 | CONFIRMADO |
+  L  60 [dados de precisao       ] | Tratamento — higiene nasal | solução salina isotônica (soro fisiológico, Rinosoro/Sorine infantil); rinosoro 3% hipertônico (uso questionado no slide); inalação com SF 0,9% tem s
+  L  63 [dados de precisao       ] | Tratamento — antitussígeno e antibiótico | antitussígeno desaconselhável; anti-histamínico e mel/própolis citados como opções; antibiótico NÃO indicado | slide p.019 | CONFIRMADO
+  L 101 [cards minimos           ] | Frente | Verso | Tipo |
+  L 102 [cards minimos           ] |---|---|---|
+  L 105 [cards minimos           ] | Antibiótico em rinofaringite viral não complicada | não indicado | conduta |
+  L 107 [cards minimos           ] | Resfriado comum vs síndrome gripal | resfriado = leve, predomina rinorreia; síndrome gripal = mais sistêmica (febre 37,9–39°, calafrio, mialgia, prostração) | conceito |
+  L 108 [cards minimos           ] | IVAS de repetição | pensar em alergia | pegadinha |
+  L 112 [revisao                 ] - Revisar quando: junto com "Obstrução de via aérea alta (laringite × epiglotite)" e "Otite média aguda e rinossinusite" — mesmo deck-fonte, temas vizinhos de IVAS.
+====================================================================================================
+capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md
+  L  34 [conceito operacional min] de tiamina em pessoa de risco; trate tiamina prontamente, sem transformar isso em
+  L  35 [conceito operacional min] motivo para atrasar correção de hipoglicemia.
+  L  39 [pivo clinico            ] Na hipoglicemia verdadeira, **não atrase glicose**. Administre tiamina antes ou
+  L  40 [pivo clinico            ] concomitantemente quando viável, mas a ordem não pode prolongar neuroglicopenia.
+  L  46 [palavras-ancora         ] CIWA-Ar; tríade de Wernicke (confusão + nistagmo + ataxia); Korsakoff (confabulação, geralmente irreversível); microzoopsias/alucinações filamentares; diazepam padrão-ouro.
+  L  59 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  60 [dados de precisao       ] |---|---|---|---|
+  L  62 [dados de precisao       ] | Ordem glicose/tiamina | podem ser dadas em qualquer ordem ou concomitantemente; glicose não deve ser atrasada na hipoglicemia | ASAM 2020, Recomendação V.7 | CURRENT_VERIFIED |
+  L  64 [dados de precisao       ] | Início da SAA | poucas horas; slide especifica “a partir de 6h” | fontes curriculares | CURRICULAR_CHECKED; CURRENT_PENDING |
+  L  67 [dados de precisao       ] | SAA leve-moderada | 90% dos dependentes; 10% grave, metade destes evolui para Delirium Tremens | Psiquiatria_DEPENDE_NCIA p.4 | CONFIRMADO |
+  L  70 [dados de precisao       ] | Mortalidade do DT | 5–10% se tratado; até 25% se não tratado | 3 fontes NATIVA + visual p.3 | CONFIRMADO |
+  L  71 [dados de precisao       ] | Tríade de Wernicke | confusão mental + nistagmo + ataxia | Psiquiatria_DEPENDE_NCIA p.4; A_lcool_e_Outras_Drogas p.5 | CONFIRMADO |
+  L  74 [dados de precisao       ] | Diazepam/lorazepam — esquemas do slide | doses/intervalos antigos | fontes curriculares | CURRENT_PENDING; excluídos da prescrição atual |
+  L  97 [conduta                 ] - Inicial: reconhecer síndrome, medir glicemia e tratar hipoglicemia sem atraso;
+  L  98 [conduta                 ] tiamina parenteral antes/concomitante quando possível.
+  L 119 [cards minimos           ] | Frente | Verso | Tipo |
+  L 120 [cards minimos           ] |---|---|---|
+  L 121 [cards minimos           ] | Ordem tiamina x glicose na hipoglicemia | não atrasar glicose; tiamina antes/concomitante quando viável | pegadinha |
+  L 122 [cards minimos           ] | Tríade de Wernicke | Confusão mental + nistagmo + ataxia | dado |
+  L 125 [cards minimos           ] | Mortalidade do Delirium Tremens não tratado | Até 25% | dado |
+  L 127 [cards minimos           ] | Wernicke não tratada evolui para | Korsakoff (confabulação, geralmente irreversível) | dado |
+  L 132 [revisao                 ] - Critério de parada: diferenciar profilaxia de Wernicke suspeita e não atrasar
+  L 133 [revisao                 ] glicose em três vinhetas.
+  L 137 [fonte de vigencia clinic] - ASAM. *Clinical Practice Guideline on Alcohol Withdrawal Management*,
+  L 138 [fonte de vigencia clinic] Recomendação V.7: https://www.asam.org/docs/default-source/quality-science/the_asam_clinical_practice_guideline_on-alcohol-1.pdf
+  L 139 [fonte de vigencia clinic] - Ministério da Saúde. Linha de Cuidado — manejo inicial: https://linhasdecuidado.saude.gov.br/portal/transtornos-por-uso-de-alcool-no-adulto/servico-de-atendimento-movel/manejo-in
+====================================================================================================
+capsules/EISM/depressao.md
+  L  27 [conceito operacional min] Depressão = humor patológico (deprimido e/ou anedonia) + alterações comportamentais +
+  L  28 [conceito operacional min] alterações cognitivas + sintomas vegetativos, com sofrimento clinicamente significativo e
+  L  31 [conceito operacional min] serotonina (mais importante) > noradrenalina > dopamina, e desregulação do eixo HHA (cortisol).
+  L  35 [pivo clinico            ] Diante de todo paciente com quadro depressivo, a pergunta obrigatória é "ele já teve um episódio
+  L  38 [pivo clinico            ] bipolaridade dentro de um episódio depressivo: manifestações atípicas (hipersonia, hiperfagia),
+  L  39 [pivo clinico            ] sintomas psicóticos, início no pós-parto, labilidade de humor.
+  L  43 [palavras-ancora         ] anedonia · humor patológico · insônia terminal · manifestações atípicas · manifestações
+  L  44 [palavras-ancora         ] psicóticas · manifestações melancólicas · virada maníaca · ideação suicida · blues puerperal ·
+  L  45 [palavras-ancora         ] psicose puerperal · eixo hipotálamo-hipófise-adrenal · síndrome da deficiência serotoninérgica
+  L  58 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  59 [dados de precisao       ] |---|---|---|---|
+  L  60 [dados de precisao       ] | Critério obrigatório DSM | Humor deprimido e/ou anedonia — pelo menos 1 dos 2 | Mariah_Carvalho p.~9; Depressa_o_e_antidepressivos_I_unidade p.1 | CONFIRMADO (2 fontes) |
+  L  62 [dados de precisao       ] | Tempo mínimo dos sintomas | 2 semanas (14 dias) | idem | CONFIRMADO |
+  L  64 [dados de precisao       ] | Depressão pós-parto — início / prevalência / risco se TDM prévio | até 4 sem. pós-parto / 10–15% das mães / 25–50% de risco | Depressa_o__b18d58c2a5 p.6; DEPRESSA_O_1 p.6 | CONFI
+  L  67 [dados de precisao       ] | Ideação suicida na depressão | 60% têm ideação; 10–15% cometem suicídio | Depressa_o__b18d58c2a5 p.5; DEPRESSA_O_1 p.5 | CONFIRMADO |
+  L  72 [dados de precisao       ] Nota: doses completas de cada ISRS/ISRSN/ADT pertencem à cápsula "Antidepressivos"; aqui só o
+  L  73 [dados de precisao       ] que muda a decisão no diagnóstico e no puerpério.
+  L 100 [conduta                 ] - Definitiva: antidepressivo (ISRS de 1ª linha na maioria dos casos) por no mínimo 1 ano, com
+  L 101 [conduta                 ] psicoterapia associada; ECT reservado para depressão grave/refratária, com sintomas psicóticos,
+  L 104 [conduta                 ] na presença de sintomas psicóticos, associar antipsicótico ao antidepressivo (nunca tratar só
+  L 105 [conduta                 ] com antidepressivo).
+  L 106 [conduta                 ] - Diferencial perigoso: depressão bipolar tratada como unipolar → virada maníaca com
+  L 107 [conduta                 ] antidepressivo isolado.
+  L 108 [conduta                 ] - O que mudaria a decisão: histórico de episódio de mania/hipomania (mesmo remoto) muda toda a
+  L 123 [cards minimos           ] | Frente | Verso | Tipo |
+  L 124 [cards minimos           ] |---|---|---|
+  L 127 [cards minimos           ] | Por que não dar antidepressivo isolado em bipolar | Risco de virada maníaca | risco |
+  L 129 [cards minimos           ] | Insônia terminal x insônia inicial | Terminal (despertar precoce) = mais típica de depressão; inicial = mais típica de ansiedade | discriminador |
+  L 134 [revisao                 ] antidepressivo.
+  L 135 [revisao                 ] - Critério de parada: quando conseguir, sem consultar a tabela, citar de cabeça os critérios DSM
+  L 136 [revisao                 ] (5/9, 2 semanas) e diferenciar blues × DPP × psicose puerperal por tempo e gravidade.
+====================================================================================================
+capsules/EISM/tdah.md
+  L  29 [conceito operacional min] TDAH é transtorno do neurodesenvolvimento com desatenção e/ou hiperatividade-impulsividade, de
+  L  30 [conceito operacional min] início na infância, persistindo em mais de um ambiente, com forte componente genético (76% de
+  L  31 [conceito operacional min] herdabilidade, envolvendo DAT1, DRD4, DRD5, 5HTT, HTR1B, SNAP25). O diagnóstico geralmente não é
+  L  32 [conceito operacional min] dado antes dos 7 anos, porque a atenção ainda está em desenvolvimento normal nessa faixa.
+  L  36 [pivo clinico            ] Diante de qualquer vinheta sugestiva de TDAH, a primeira pergunta é "isso acontece em mais de um
+  L  37 [pivo clinico            ] ambiente (casa, escola, trabalho)?" — se ocorre só em um lugar, não fecha diagnóstico, mesmo que os
+  L  38 [pivo clinico            ] sintomas de desatenção sejam clássicos. A segunda checagem obrigatória é comorbidade: TOD (opositor,
+  L  39 [pivo clinico            ] sem violação grave de normas/lei) × Transtorno de Conduta (violação de normas sociais/legais,
+  L  40 [pivo clinico            ] crueldade, destruição) — 50% das crianças com TDAH têm um dos dois.
+  L  44 [palavras-ancora         ] desatenção × hiperatividade × impulsividade · múltiplos ambientes · TOD × transtorno de conduta ·
+  L  45 [palavras-ancora         ] psicoestimulante · metilfenidato × lisdexanfetamina · Síndrome de Tourette (comorbidade) ·
+  L  46 [palavras-ancora         ] procrastinação (achado em adolescentes/adultos)
+  L  58 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  59 [dados de precisao       ] |---|---|---|---|
+  L  60 [dados de precisao       ] | Prevalência em crianças/adolescentes | 5,29% | Transtorno_Deficit_de_Atenc_a_o p.1; Mariah_Carvalho p.84 | CONFIRMADO (2 fontes) |
+  L  61 [dados de precisao       ] | Prevalência em adultos | 2,5% | mesmas 2 fontes | CONFIRMADO (2 fontes) |
+  L  62 [dados de precisao       ] | Persistência até a vida adulta (diagnóstico pleno / remissão parcial incluída) | 15% / 40-60% | Transtorno_Deficit_de_Atenc_a_o p.1 | CONFIRMADO |
+  L  63 [dados de precisao       ] | Herdabilidade | 76% das características | Transtorno_Deficit_de_Atenc_a_o p.1; Mariah_Carvalho p.84 | CONFIRMADO (2 fontes) |
+  L  64 [dados de precisao       ] | Idade a partir da qual se diagnostica (nesta fonte) | 7 anos | Mariah_Carvalho p.84 | CONFIRMADO — presente só nesta fonte; distinto do critério retrospectivo do DSM-5 ("sintomas
+  L  65 [dados de precisao       ] | Comorbidade com TOD/Transtorno de Conduta | 50% das crianças com TDAH | Transtorno_Deficit_de_Atenc_a_o p.1; Mariah_Carvalho p.85 | CONFIRMADO (2 fontes) |
+  L  66 [dados de precisao       ] | Comorbidade ansiedade / depressão | 30% ansiedade; 10-20% depressão | mesmas 2 fontes | CONFIRMADO |
+  L  69 [dados de precisao       ] | Duração de efeito — Concerta (metilfenidato OROS) | liberação imediata + 9h por controle osmótico; efeito total ~12h | Mariah_Carvalho p.87 | CONFIRMADO |
+  L  94 [conduta                 ] rastrear comorbidades (TOD, Transtorno de Conduta, ansiedade, depressão, Tourette).
+  L  95 [conduta                 ] - Definitiva: psicoeducação + TCC + farmacoterapia com psicoestimulante (metilfenidato ou
+  L  96 [conduta                 ] lisdexanfetamina) quando indicado.
+  L  99 [conduta                 ] - Diferencial perigoso: psicoestimulante em paciente com tique não controlado ou risco
+  L 100 [conduta                 ] cardiovascular/arritmia/AVC — pode exacerbar tiques ou precipitar eventos graves.
+  L 101 [conduta                 ] - O que mudaria a decisão: sintomas restritos a um único ambiente (descarta TDAH); presença de
+  L 102 [conduta                 ] tique/cardiopatia de base (muda a escolha/cautela farmacológica).
+  L 116 [cards minimos           ] | Frente | Verso | Tipo |
+  L 117 [cards minimos           ] |---|---|---|
+  L 118 [cards minimos           ] | Critério de ambiente para TDAH | Prejuízo em mais de um ambiente (não fecha se ocorre só em um) | dado crítico |
+  L 119 [cards minimos           ] | TOD × Transtorno de Conduta | TOD = opositor/desafiador sem violar leis; TC = violação grave de normas, crueldade, destruição | discriminador |
+  L 122 [cards minimos           ] | Herdabilidade do TDAH | 76% | dado numérico |
+  L 127 [revisao                 ] mais cobrado do blueprint EISM.
+  L 128 [revisao                 ] - Critério de parada: quando conseguir aplicar de cabeça o critério "mais de um ambiente" e
+  L 129 [revisao                 ] diferenciar TOD × Transtorno de Conduta em qualquer vinheta.

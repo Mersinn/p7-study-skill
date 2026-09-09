@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0.0",
+  "release": "1.5.1",
+  "decision": "READY_FOR_RELEASE",
+  "gates": [
+    {
+      "gate_id": "version_integrity",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "Final 1.5.1 version, registry and release notes agree."
+    },
+    {
+      "gate_id": "evidence_integrity",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "Aggregate artifact records hashes and scope; it does not turn static evidence into clinical approval."
+    },
+    {
+      "gate_id": "critical_inventory_complete",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "3,602/3,602 canonical occurrences remain accounted for; disposition is not clinical approval."
+    },
+    {
+      "gate_id": "high_risk_accounted",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "2,817/2,817 high-risk occurrences remain accounted for; quarantines and conflicts remain contained."
+    },
+    {
+      "gate_id": "p0_exposed_zero",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "Directed seven-target containment review and current safety regression found zero new P0 findings in the delimited qualification scope; no global zero-exposure claim."
+    },
+    {
+      "gate_id": "p1_high_risk_exposed_zero",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "Directed seven-target containment review and current safety regression found zero new P1 findings in the delimited qualification scope; no global zero-exposure claim."
+    },
+    {
+      "gate_id": "current_claim_traceability",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "34 current claims remain structurally traceable; this is not a new human clinical signature."
+    },
+    {
+      "gate_id": "behavioral_regression",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "13/13 counted V1.5 safety runs passed on the current gpt-6-astra medium execution; S06 remains coverage-only and excluded from the denominator."
+    },
+    {
+      "gate_id": "p6_parity",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "9/9 scripted journey passes are carried forward under unchanged tutor/content dependencies; J02 was completed and adjudicated again, while historical J01/J03 remain explicitly historical."
+    },
+    {
+      "gate_id": "longitudinal_resume",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "2/2 longitudinal sessions remain valid under the unchanged ledger/schema/fixture contract; current A6 and B8 ledgers were revalidated. This is a carry-forward, not a new model run."
+    },
+    {
+      "gate_id": "package_hygiene",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "Deterministic package construction and byte-identical build checks passed."
+    },
+    {
+      "gate_id": "clean_install",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "Standalone runtime installation and structural checks passed with the qualification scope recorded here."
+    },
+    {
+      "gate_id": "report_consistency",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "Final artifact distinguishes fresh runs, carry-forward evidence, static review and limitations."
+    },
+    {
+      "gate_id": "red_team",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "Seven historical red-team targets pass the current directed static containment recheck; this is not a global clinical guideline review."
+    },
+    {
+      "gate_id": "runtime_context",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "Six runtime bundles remain within the measured context budget."
+    },
+    {
+      "gate_id": "structured_provenance",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "2,392/2,392 provenance rows are accounted for, with unresolved and ambiguous rows retained explicitly."
+    },
+    {
+      "gate_id": "narrative_consistency",
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "The 55-test contract suite and report cross-checks pass."
+    }
+  ]
+}

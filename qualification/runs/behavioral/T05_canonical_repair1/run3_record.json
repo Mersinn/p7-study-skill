@@ -1,0 +1,21 @@
+{
+  "run_id": "run:T05:3:2026-08-20",
+  "test_id": "T05",
+  "date_time": "2026-08-20 (America/Fortaleza)",
+  "model_surface_version": "Claude Code 2.1.220, claude -p headless",
+  "skill_snapshot_sha": "qualification/v1.0.0-claude (ver git log)",
+  "tool_access": [
+    "default minus Bash,Edit,Write (--disallowedTools)"
+  ],
+  "new_session": true,
+  "prior_history_supplied": false,
+  "session_id": "808fef4b-ac3c-4703-b97a-3555b1d1aac0",
+  "num_turns": 19,
+  "is_error": false,
+  "total_cost_usd": 1.023104,
+  "prompt_sent": "Estudar tema: asma em pediatria — crise aguda. Quero aprender ativamente. [SKILL.md reparo 1: portao estrutural + pivo como pergunta aberta]",
+  "transcript_file": "run3_transcript.md",
+  "transcript_sha256": "633207ac16d1a0810b5e5349189268c52e2fb3be8806877eb357f2041fc78dfc",
+  "input_tokens": 1675,
+  "output_tokens": 6569
+}

@@ -1,0 +1,21 @@
+{
+  "run_id": "run:T05:2:2026-08-20",
+  "test_id": "T05",
+  "date_time": "2026-08-20 (America/Fortaleza)",
+  "model_surface_version": "Claude Code 2.1.220, claude -p headless",
+  "skill_snapshot_sha": "qualification/v1.0.0-claude (ver git log)",
+  "tool_access": [
+    "default minus Bash,Edit,Write (--disallowedTools)"
+  ],
+  "new_session": true,
+  "prior_history_supplied": false,
+  "session_id": "e40ae848-243d-4b27-ac31-aeb8b0e04611",
+  "num_turns": 7,
+  "is_error": false,
+  "total_cost_usd": 0.884389,
+  "prompt_sent": "Quero estudar asma na infância agora — a parte de crise aguda.",
+  "transcript_file": "run2_transcript.md",
+  "transcript_sha256": "b85d3bee2b13cd3ca6d893bb62ea4f8d3bede8016847c3cbefc6b82a11480d14",
+  "input_tokens": 10,
+  "output_tokens": 5894
+}

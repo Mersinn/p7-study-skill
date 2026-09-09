@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "p7/v1.5.0/claim-occurrence.schema.json",
+  "title": "ClaimOccurrence",
+  "type": "object",
+  "required": ["schema_version", "record_type", "detection_id", "capsule", "locator", "text", "category", "tier", "risk", "entry_reason"],
+  "properties": {
+    "schema_version": {"const": "1.5.0-inventory.1"},
+    "record_type": {"const": "ClaimOccurrence"},
+    "detection_id": {"type": "string", "minLength": 1},
+    "capsule": {"type": "object", "required": ["capsule_id", "path"]},
+    "locator": {"type": "object", "required": ["line_no", "section", "source"]},
+    "text": {"type": "string", "minLength": 1},
+    "category": {"type": "string", "minLength": 1},
+    "tier": {"type": "string", "minLength": 1},
+    "risk": {"type": "string", "minLength": 1},
+    "entry_reason": {"const": "frozen_detector_primary_denominator"}
+  },
+  "additionalProperties": true
+}

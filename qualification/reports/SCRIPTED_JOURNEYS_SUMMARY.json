@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "surface": "Codex",
+  "runs_total": 10,
+  "runs_by_adjudication": {
+    "INCONCLUSIVE": 1,
+    "PASS": 9
+  },
+  "runs_by_journey": {
+    "J01": {
+      "PASS": 3
+    },
+    "J02": {
+      "PASS": 3
+    },
+    "J03": {
+      "INCONCLUSIVE": 1,
+      "PASS": 3
+    }
+  },
+  "journey_gate_rule": "each journey PASS 3/3 in clean sessions",
+  "dependency_hashes": {
+    "qualification/records/journey_adjudications.jsonl": "fd4e5846e9a8579cf1cfe8e2fa83f1e706492566653b6313945de8305ee66cde",
+    "qualification/tools/build_journey_records.py": "131d1a772a9509eafbb1872bfcf5ba2e40fde48a480dfbf64056e83cca7e858f",
+    "qualification/fixtures/journeys/J01_personalization.json": "a03cd04f6d41ee328636958441b1daf0d52c7de2cc93d26068a20fbfabe22f29",
+    "qualification/fixtures/journeys/J02_document_active.json": "a59fd31dc83d33f58feeffd24991ab6774c35e8c040fdc1f195bdb66b063fac7",
+    "qualification/fixtures/journeys/J03_discursive_simulation_memory.json": "de4cb1ea6d24ef840ed60bc38ab1a2c59597b588f2202fd5f92f83a67243ffec"
+  }
+}

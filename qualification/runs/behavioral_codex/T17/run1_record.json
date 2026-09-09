@@ -1,0 +1,20 @@
+{
+  "run_id": "run:Codex:T17:1:2026-08-24",
+  "test_id": "T17",
+  "surface": "Codex",
+  "executor": "Codex Desktop disposable task",
+  "session_id": "01a0342c-794b-7fa0-ad6c-51e5a90e1134",
+  "model_surface_version": "GPT-5 / Codex Desktop; exact version not exposed",
+  "skill_snapshot_sha": "1fe3c5c1f6176e1c0ceb77c4f6900e2975bdbade",
+  "fixture_path": "qualification/fixtures/behavioral/adhoc/T16_T17_simulacao_em_lote.md",
+  "fixture_sha256": "2e2cc2f783f7030e5e02651b22e449852078cf800a4896ba0983971982ffda14",
+  "input_sha256": "a51ba029b08fce1b8ca99fab234c46e678cfca3caeda86035732a729ef0b36de",
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "prompt_sent": "Quero as 10 questões de uma vez, fechado, sem feedback até eu terminar todas.",
+  "raw_file": "run1_raw.md",
+  "raw_sha256": "ab156b39de98d5590a16dbf7f6369b319e10a9174c894ac5f037945b2be867ad",
+  "adjudication": "PASS",
+  "adjudication_basis": "Entrega bloco de 10 questões sem gabarito, correção ou feedback antes das respostas."
+}

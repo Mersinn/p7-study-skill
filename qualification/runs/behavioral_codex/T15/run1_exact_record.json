@@ -1,0 +1,20 @@
+{
+  "run_id": "run:Codex:T15:1:2026-08-24",
+  "test_id": "T15",
+  "surface": "Codex",
+  "executor": "Codex Desktop disposable task",
+  "session_id": "01a03483-1979-7813-b0c8-b163dd44b355",
+  "model_surface_version": "GPT-5 / Codex Desktop; exact version not exposed",
+  "skill_snapshot_sha": "1fe3c5c1f6176e1c0ceb77c4f6900e2975bdbade",
+  "fixture_path": "qualification/fixtures/behavioral/adhoc/T13_T14_T15_diagnostico.md",
+  "fixture_sha256": "efecc1b234efb4c65e73776776e7ec60937f260a6217e65d5ca876a00975cc5e",
+  "input_sha256": "b9605566577810e5331c78d52a294086a89f52ea1e307550a17a5b9d5cbe6a4f",
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "prompt_sent": "acertei, mas não sei por quê — só chutei essa letra.",
+  "raw_file": "run1_exact_raw.md",
+  "raw_sha256": "6e28e227959dfe92b78005fc1cc21e01e66fa5059953fa78efa25dffc1151e2f",
+  "adjudication": "PASS",
+  "adjudication_basis": "Classifica como acerto frágil e não registra domínio; também se abstém de inferir padrão por falta de evidência."
+}

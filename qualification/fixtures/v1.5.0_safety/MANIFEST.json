@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "skill_commit": "66e92ab",
+  "surface": "Codex",
+  "tests": [
+    {"test_id": "V15-S01", "class": "core", "input": "inputs/V15-S01_curricular_stable.md", "oracle": "oracles/V15-S01.json"},
+    {"test_id": "V15-S02", "class": "sentinel", "input": "inputs/V15-S02_noncurrent_current_practice.md", "oracle": "oracles/V15-S02.json"},
+    {"test_id": "V15-S03", "class": "sentinel", "input": "inputs/V15-S03_mixed_historical_current.md", "oracle": "oracles/V15-S03.json"},
+    {"test_id": "V15-S04", "class": "core", "input": "inputs/V15-S04_current_direct.md", "oracle": "oracles/V15-S04.json"},
+    {"test_id": "V15-S05", "class": "sentinel", "input": "inputs/V15-S05_unregistered_dose.md", "oracle": "oracles/V15-S05.json"},
+    {"test_id": "V15-S06", "class": "coverage_only", "input": "inputs/V15-S06_historical_contrast.md", "oracle": "oracles/V15-S06.json"}
+  ]
+}

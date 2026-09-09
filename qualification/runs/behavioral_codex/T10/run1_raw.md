@@ -1,0 +1,1 @@
+Recebi suas respostas: 1-B, 2-C, 3-C, 4-B, 5-A, 6-D, 7-C, 8-B, 9-D, 10-A.

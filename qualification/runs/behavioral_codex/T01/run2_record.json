@@ -1,0 +1,23 @@
+{
+  "run_id": "run:Codex:T01:historical_exploratory:2:2026-08-24",
+  "test_id": "T01",
+  "surface": "Codex",
+  "executor": "historical exploratory Codex session",
+  "agent_id": "not captured in raw",
+  "model_surface_version": "Codex; exact model alias/version not captured",
+  "runtime_version": "Codex Desktop; exact runtime not captured",
+  "skill_snapshot_sha": "f904d763cf3e350b4b79e0b580530da49fe3ef6f",
+  "fixture_path": "qualification/fixtures/behavioral/F-CAL/scope.md",
+  "fixture_sha256": "088a226106b9e6a3115e3abdeb64a7e22b330666917c61ea6b8d3095eb075c62",
+  "input_sha256": "f8da0a62a3e15ea68b4adaa0d520c2e64f8f64d109f6448e6478436b15abc5c9",
+  "new_session": null,
+  "history_inherited": null,
+  "prior_history_supplied": null,
+  "session_isolation_verified": false,
+  "skill_delivery": "historical exploratory raw preserved; clean-session metadata unavailable",
+  "raw_file": "run2_raw.md",
+  "raw_sha256": "642f76964b2141ce297d6328e01a0d9ff58f4dd35f21c31f06b6bc72b9fad421",
+  "adjudication": "FAIL",
+  "denominator": "historical_exploratory_not_counted",
+  "adjudication_basis": "Plano genérico: substitui o recorte real por perguntas abertas e pede o material ao aluno; não prova a cobertura da unidade."
+}

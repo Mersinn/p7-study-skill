@@ -27,7 +27,7 @@ Este tema não é um assunto clínico — é o **formato do dia da prova**: vár
 - **Comando 1:** classifique o risco deste TCE.
 - **Comando 2:** qual a conduta a partir dessa classificação?
 - **Comando 3:** cite 2 achados de exame físico que, se presentes, mudariam a classificação para alto risco.
-- **Gabarito/checklist:** (1) risco **moderado** — vômito e cefaleia progressiva sem melhora já preenchem o critério, mesmo com GCS 15 e sem déficit focal; (2) TC de crânio + observação hospitalar (não alta domiciliar, não internação direta sem TC); (3) déficit neurológico focal ou lesão penetrante/fratura em afundamento (classificam como alto risco → TC + internação). *Fonte dos dados: `osce_neurologia.md`, tabela "Estratificação de risco do TCE" (`OSCE .pdf`, ~p.9).*
+- **Resposta-modelo sintética de treino (não oficial):** (1) risco **moderado** — vômito e cefaleia progressiva sem melhora já preenchem o critério, mesmo com GCS 15 e sem déficit focal; (2) TC de crânio + observação hospitalar (não alta domiciliar, não internação direta sem TC); (3) déficit neurológico focal ou lesão penetrante/fratura em afundamento (classificam como alto risco → TC + internação). *Fonte dos dados: `osce_neurologia.md`, tabela "Estratificação de risco do TCE" (`OSCE .pdf`, ~p.9).*
 
 ### Estação 2 — Urologia: cólica renal com dúvida de conduta
 
@@ -35,7 +35,7 @@ Este tema não é um assunto clínico — é o **formato do dia da prova**: vár
 - **Comando 1:** qual o exame padrão-ouro para o diagnóstico (já realizado neste caso)?
 - **Comando 2:** este cálculo tem indicação de eliminação espontânea?
 - **Comando 3:** cite a conduta cirúrgica indicada se o paciente tiver contraindicação a litotripsia extracorpórea.
-- **Gabarito/checklist:** (1) TC de crânio sem contraste — **não**, é TC de **abdome/vias urinárias** sem contraste (armadilha de comando: exigir precisão anatômica); (2) não — cálculo de 0,9cm já ultrapassa a faixa de eliminação espontânea confiável (<0,5cm); (3) ureteroscopia (quando há contraindicação à LECO, conforme o algoritmo por tamanho/localização). *Fonte dos dados: `osce_urologia.md`, tabela "Litíase — corte de tamanho para indicação cirúrgica" (`OSCE .pdf`, ~p.20-21).*
+- **Resposta-modelo sintética de treino (não oficial):** (1) TC de crânio sem contraste — **não**, é TC de **abdome/vias urinárias** sem contraste (armadilha de comando: exigir precisão anatômica); (2) não — cálculo de 0,9cm já ultrapassa a faixa de eliminação espontânea confiável (<0,5cm); (3) ureteroscopia (quando há contraindicação à LECO, conforme o algoritmo por tamanho/localização). *Fonte dos dados: `osce_urologia.md`, tabela "Litíase — corte de tamanho para indicação cirúrgica" (`OSCE .pdf`, ~p.20-21).*
 
 ### Estação 3 — Pediatria: assistência ao recém-nascido, 1º minuto de vida
 
@@ -43,7 +43,9 @@ Este tema não é um assunto clínico — é o **formato do dia da prova**: vár
 - **Comando 1:** o aspecto do líquido meconial muda a conduta inicial?
 - **Comando 2:** qual a conduta imediata?
 - **Comando 3:** quando o APGAR deve ser calculado?
-- **Gabarito/checklist:** (1) não — a fonte é explícita que o aspecto do líquido não importa na decisão inicial, só as 3 perguntas (IG>34sem? respira/chora? bom tônus?) importam; (2) contato pele a pele com a mãe + clampeamento tardio do cordão + incentivo à amamentação na 1ª hora; (3) no 1º e no 5º minuto de vida (repetir a cada 5min se <7 no 5º) — **nunca** antes da decisão inicial, pois demora a calcular. *Fonte dos dados: `osce_pediatria.md`, tabelas "Reanimação neonatal — 3 perguntas iniciais" e "APGAR" (`FACILITA OSCE (1).pdf`, p.49).*
+- **Gabarito sintético de treino:** (1) IG seleciona o algoritmo; vitalidade usa
+  respiração/choro + tônus; (2) se boa vitalidade, rotina/pele a pele e clampeamento
+  oportuno; (3) APGAR no 1º/5º minuto não decide nem atrasa VPP. *Overlay SBP 2026.*
 
 ### Estação 4 — Pediatria: crise asmática, sequenciamento de conduta
 
@@ -51,7 +53,10 @@ Este tema não é um assunto clínico — é o **formato do dia da prova**: vár
 - **Comando 1:** qual a 1ª linha de tratamento farmacológico?
 - **Comando 2:** se não houver resposta adequada na 1ª hora, qual o próximo passo?
 - **Comando 3:** este paciente tem indicação de antibiótico de rotina?
-- **Gabarito/checklist:** (1) broncodilatador (beta-2 de curta ação, salbutamol/fenoterol) + anticolinérgico (brometo de ipratrópio), nebulização a cada 20min por até 1h; (2) corticoide sistêmico (prednisona VO ou metilprednisolona EV) — **não** pular direto para ele sem antes ter tentado o broncodilatador; SatO2 92% (<94%) mas consciente → considerar VNI, não IOT direta; (3) não — 80% das exacerbações são virais; antibiótico só com forte suspeita bacteriana (febre, escarro purulento, consolidação radiográfica). *Fonte dos dados: `osce_pediatria.md`, tabela "Crise asmática — manejo (mnemônico B-C-D)" (`OSCE - PEDIATRIA.pdf` / `FACILITA OSCE (1).pdf`, p.53).*
+- **Gabarito sintético de treino:** (1) SABA + O2 titulado + corticoide sistêmico
+  precoce; adicionar ipratrópio pela gravidade; (2) SpO2 92% exige tratamento e
+  reavaliação, não VNI automática; (3) antibiótico não é rotina sem evidência
+  bacteriana. *Overlay GINA 2026, crianças 6–11 anos.*
 
 ### Estação 5 — Urologia: trauma abdominal com suspeita de lesão renal
 
@@ -59,15 +64,15 @@ Este tema não é um assunto clínico — é o **formato do dia da prova**: vár
 - **Comando 1:** a intensidade da hematúria é proporcional à gravidade da lesão renal?
 - **Comando 2:** qual o exame de escolha neste paciente (estável)?
 - **Comando 3:** cite 2 critérios que indicariam tratamento cirúrgico em vez de conservador.
-- **Gabarito/checklist:** (1) não — a hematúria não é proporcional à gravidade da lesão, é um erro comum assumir isso; (2) TC de abdome com contraste (padrão-ouro para diagnóstico e estadiamento em paciente estável — não USG FAST, que é reservada a paciente instável); (3) lesão grau IV ou V (atinge via coletora ou rim fraturado/avulsão de hilo), instabilidade hemodinâmica (PAS<90), ou hematoma perirrenal pulsátil/expansivo identificado em laparotomia. *Fonte dos dados: `osce_urologia.md`, tabelas "Trauma renal — classificação" e "Trauma renal — conduta por gravidade" (`OSCE .pdf`, ~p.31).*
+- **Resposta-modelo sintética de treino (não oficial):** (1) não — a hematúria não é proporcional à gravidade da lesão, é um erro comum assumir isso; (2) TC de abdome com contraste (padrão-ouro para diagnóstico e estadiamento em paciente estável — não USG FAST, que é reservada a paciente instável); (3) lesão grau IV ou V (atinge via coletora ou rim fraturado/avulsão de hilo), instabilidade hemodinâmica (PAS<90), ou hematoma perirrenal pulsátil/expansivo identificado em laparotomia. *Fonte dos dados: `osce_urologia.md`, tabelas "Trauma renal — classificação" e "Trauma renal — conduta por gravidade" (`OSCE .pdf`, ~p.31).*
 
 ### Estação 6 — Neurologia: coma de origem indeterminada
 
 - **Caso:** paciente encontrado inconsciente na rua, sem testemunha, sem documentos. GCS 7. Pupilas isocóricas e fotorreagentes.
 - **Comando 1:** cite 2 medicações de emergência que podem ser consideradas empiricamente.
 - **Comando 2:** o achado pupilar (isocórica e fotorreagente) sugere que tipo de etiologia?
-- **Comando 3:** GCS 7 exige qual conduta imediata de via aérea?
-- **Gabarito/checklist:** (1) naloxona (antídoto de opioides) e flumazenil (antídoto de benzodiazepínicos), após colher sangue para investigar intoxicação; (2) etiologia tóxico-metabólica (pupilas isocóricas e fotorreagentes classicamente apontam para essa causa, diferente de anisocoria = herniação uncal, ou puntiforme = lesão de ponte); (3) intubação orotraqueal — GCS <8 é o corte fixo para proteção de via aérea. *Fonte dos dados: `osce_neurologia.md`, tabelas "Pupilas no coma/TCE" e "Medicações de emergência no coma" (`OSCE .pdf`, ~p.14-16).*
+- **Comando 3:** quais achados, além do nível de consciência, determinam a necessidade de proteger a via aérea?
+- **Resposta-modelo sintética de treino (não oficial):** a chave B-only que sugeria antídotos empíricos foi removida e fica `QUARANTINED`; flumazenil não pode ser recomendado em coma indiferenciado por esta cápsula. O treino válido é reconhecer que suporte, investigação e eventual antídoto dependem de toxíndrome, história, contraindicações e protocolo vigente; a regra de via aérea do material também não é promovida a corte atual universal.
 
 ## Pivô clínico
 
@@ -75,7 +80,7 @@ O pivô comum às 6 estações não é o diagnóstico — é a **precisão do co
 
 ## Palavras-âncora
 
-Comando por comando · classificar antes de tratar · exame padrão-ouro específico do órgão certo · "a intensidade do achado não é proporcional à gravidade" · GCS <8 = via aérea · corte fixo antes da conduta.
+Comando por comando · classificar antes de tratar · exame específico do órgão certo · "a intensidade do achado não é proporcional à gravidade" · via aérea avaliada pelo conjunto clínico · nenhum corte B-only como regra universal.
 
 ## Operação × movimento
 
@@ -91,7 +96,7 @@ Todos os dados clínicos usados nas 6 estações já estão verificados nível 1
 
 ## Pegadinhas
 
-**Imperdoáveis (aplicam-se a qualquer estação do banco, não só às 6 modeladas aqui):**
+**Erros de treino de alto impacto nas estações modeladas (não são regras oficiais nem generalizáveis à banca):**
 
 - Responder um comando futuro dentro da resposta de um comando anterior (sobre-elaboração).
 - Nomear um exame padrão-ouro genérico ("exame de imagem") em vez do exame específico do órgão pedido.
@@ -107,15 +112,15 @@ Todos os dados clínicos usados nas 6 estações já estão verificados nível 1
 
 ## Conduta
 
-- Inicial: em toda estação, cumprir a sequência fixa do roteiro geral do OSCE do P7 (cumprimentar → lavar as mãos → ler o caso → exame físico/exames disponíveis) antes de responder qualquer comando de conteúdo médico.
+- Inicial de treino: usar o roteiro sintético (cumprimentar → higienizar as mãos → ler o caso → exame/exames disponíveis) para consistência; ele não é sequência oficial obrigatória nem prova pontuação real.
 - Definitiva: responder comando por comando, na ordem, citando a classificação formal antes da conduta e o exame padrão-ouro específico antes de qualquer interpretação de achado.
 - Condição da conduta: cada estação tem seu próprio corte/critério objetivo — não existe "resposta padrão" que sirva para todas; a variável decisiva muda a cada cabine.
-- Diferencial perigoso: comandos que pedem apenas classificação/exame não devem ser respondidos com a conduta terapêutica completa — isso é pontuado como erro de execução, não como conhecimento extra.
+- Erro de treino: comandos que pedem apenas classificação/exame não devem receber conduta completa; o efeito na pontuação real é desconhecido e depende da banca.
 - O que mudaria a decisão: o verbo do comando (classifique / cite / qual a conduta / qual o exame) decide o formato exato da resposta esperada.
 
 ## Mini-casos ativos
 
-As 6 estações do banco acima já cumprem a função de mini-casos ativos desta cápsula — cada uma com pivô, comando e gabarito explícitos.
+As 6 estações modeladas acima já cumprem a função de mini-casos ativos desta cápsula — cada uma com pivô, comando e resposta-modelo sintética, nunca gabarito oficial.
 
 ## Cards mínimos
 
@@ -123,11 +128,11 @@ As 6 estações do banco acima já cumprem a função de mini-casos ativos desta
 |---|---|---|
 | Antes de responder a conduta, o que classificar primeiro? | O grau/risco/gravidade formal do caso (nunca pular direto para o tratamento) | regra |
 | A intensidade da hematúria é proporcional à gravidade do trauma renal? | Não | fato |
-| GCS de corte para intubação orotraqueal | <8 | limiar |
+| GCS isolado determina automaticamente intubação? | Não. Avaliar proteção de via aérea, ventilação, oxigenação, trajetória clínica e protocolo vigente | segurança |
 | O aspecto do líquido amniótico muda a decisão inicial da reanimação neonatal? | Não — só as 3 perguntas (IG, respira/chora, tônus) decidem | regra |
 | Antibiótico de rotina na crise asmática pediátrica? | Não — só com forte suspeita de infecção bacteriana | regra |
 
 ## Revisão
 
-- Revisar quando: na semana antes do OSCE, rodando as 6 estações cronometradas (2-3 min cada), sempre comando por comando.
-- Critério de parada: quando conseguir responder as 6 estações completas, sem sobre-elaborar nenhum comando e sem trocar o exame padrão-ouro de nenhuma delas, em menos de 15 minutos ao todo.
+- Revisar quando: na semana antes do OSCE, rodando as 6 estações sempre comando por comando; o tempo real não foi informado.
+- Critério de parada: quando conseguir responder as 6 estações completas, sem sobre-elaborar nenhum comando e sem trocar o exame pedido; não inventar corte de tempo oficial.

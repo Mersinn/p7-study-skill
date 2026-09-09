@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0.0",
+  "release": "1.5.1",
+  "decision": "READY_FOR_RELEASE",
+  "measured_at": "2026-09-09T19:16:54.994303+00:00",
+  "measured_git_commit": "b4d4713d22f9e6efe2eb2880193067da72267f74",
+  "evidence_kind": "final_qualification_aggregate",
+  "gates": {
+    "version_integrity": {
+      "status": "passed",
+      "numerator": 1,
+      "denominator": 1,
+      "components": {
+        "consistent": 1
+      },
+      "scope": "Final 1.5.1 version, registry and release notes agree."
+    },
+    "evidence_integrity": {
+      "status": "passed",
+      "numerator": 1,
+      "denominator": 1,
+      "components": {
+        "artifact_valid": 1
+      },
+      "scope": "Aggregate artifact records hashes and scope; it does not turn static evidence into clinical approval."
+    },
+    "critical_inventory_complete": {
+      "status": "passed",
+      "numerator": 3602,
+      "denominator": 3602,
+      "components": {
+        "accounted": 3602
+      },
+      "scope": "3,602/3,602 canonical occurrences remain accounted for; disposition is not clinical approval."
+    },
+    "high_risk_accounted": {
+      "status": "passed",
+      "numerator": 2817,
+      "denominator": 2817,
+      "components": {
+        "accounted": 2817
+      },
+      "scope": "2,817/2,817 high-risk occurrences remain accounted for; quarantines and conflicts remain contained."
+    },
+    "p0_exposed_zero": {
+      "status": "passed",
+      "numerator": 1,
+      "denominator": 1,
+      "components": {
+        "guard_pass": 1
+      },
+      "scope": "Directed seven-target containment review and current safety regression found zero new P0 findings in the delimited qualification scope; no global zero-exposure claim."
+    },
+    "p1_high_risk_exposed_zero": {
+      "status": "passed",
+      "numerator": 1,
+      "denominator": 1,
+      "components": {
+        "guard_pass": 1
+      },
+      "scope": "Directed seven-target containment review and current safety regression found zero new P1 findings in the delimited qualification scope; no global zero-exposure claim."
+    },
+    "current_claim_traceability": {
+      "status": "passed",
+      "numerator": 34,
+      "denominator": 34,
+      "components": {
+        "traceable": 34
+      },
+      "scope": "34 current claims remain structurally traceable; this is not a new human clinical signature."
+    },
+    "behavioral_regression": {
+      "status": "passed",
+      "numerator": 13,
+      "denominator": 13,
+      "components": {
+        "sentinels_pass": 9,
+        "core_pass": 4
+      },
+      "scope": "13/13 counted V1.5 safety runs passed on the current gpt-6-astra medium execution; S06 remains coverage-only and excluded from the denominator."
+    },
+    "p6_parity": {
+      "status": "passed",
+      "numerator": 9,
+      "denominator": 9,
+      "components": {
+        "j01_pass": 3,
+        "j02_pass": 3,
+        "j03_pass": 3
+      },
+      "scope": "9/9 scripted journey passes are carried forward under unchanged tutor/content dependencies; J02 was completed and adjudicated again, while historical J01/J03 remain explicitly historical."
+    },
+    "longitudinal_resume": {
+      "status": "passed",
+      "numerator": 2,
+      "denominator": 2,
+      "components": {
+        "session_a_pass": 1,
+        "session_b_pass": 1
+      },
+      "scope": "2/2 longitudinal sessions remain valid under the unchanged ledger/schema/fixture contract; current A6 and B8 ledgers were revalidated. This is a carry-forward, not a new model run."
+    },
+    "package_hygiene": {
+      "status": "passed",
+      "numerator": 2,
+      "denominator": 2,
+      "components": {
+        "identical_builds": 2
+      },
+      "scope": "Deterministic package construction and byte-identical build checks passed."
+    },
+    "clean_install": {
+      "status": "passed",
+      "numerator": 1,
+      "denominator": 1,
+      "components": {
+        "standalone_pass": 1
+      },
+      "scope": "Standalone runtime installation and structural checks passed with the qualification scope recorded here."
+    },
+    "report_consistency": {
+      "status": "passed",
+      "numerator": 1,
+      "denominator": 1,
+      "components": {
+        "consistent": 1
+      },
+      "scope": "Final artifact distinguishes fresh runs, carry-forward evidence, static review and limitations."
+    },
+    "red_team": {
+      "status": "passed",
+      "numerator": 7,
+      "denominator": 7,
+      "components": {
+        "containment_pass": 7
+      },
+      "scope": "Seven historical red-team targets pass the current directed static containment recheck; this is not a global clinical guideline review."
+    },
+    "runtime_context": {
+      "status": "passed",
+      "numerator": 6,
+      "denominator": 6,
+      "components": {
+        "reduced": 6
+      },
+      "scope": "Six runtime bundles remain within the measured context budget."
+    },
+    "structured_provenance": {
+      "status": "passed",
+      "numerator": 2392,
+      "denominator": 2392,
+      "components": {
+        "accounted": 2392
+      },
+      "scope": "2,392/2,392 provenance rows are accounted for, with unresolved and ambiguous rows retained explicitly."
+    },
+    "narrative_consistency": {
+      "status": "passed",
+      "numerator": 1,
+      "denominator": 1,
+      "components": {
+        "contract_pass": 1
+      },
+      "scope": "The 55-test contract suite and report cross-checks pass."
+    }
+  },
+  "provenance": [
+    {
+      "path": "qualification/runs/v1.5.1/safety-adjudication.json",
+      "sha256": "9e466454a56e933cecde2ae08f6854f7f566731295ea6590437906f0073b37a9"
+    },
+    {
+      "path": "qualification/runs/v1.5.1/j02-final-adjudication.json",
+      "sha256": "9169d7b226d049712e2d1c951b16a2917ebec950ca7fd0a699bda51a6dff7fde"
+    },
+    {
+      "path": "qualification/runs/v1.5.1/carry-forward-review.json",
+      "sha256": "6897f11b06791d7965fd411981d079858aa066cee671d2434c0aaa276a11490a"
+    },
+    {
+      "path": "p7-study-skill/repair/local-2026-09-08/FINAL_REVIEW.json",
+      "sha256": "e74a362d243c527d0e7ada319dc72673712265e61bbe94cce112d1bdd222e452"
+    },
+    {
+      "path": "qualification/reports/v1.5.0/RED_TEAM_FINAL_VERIFICATION.json",
+      "sha256": "0334c94e5a66663273df2fe7cb13f9ffe29215d79912b6370ab939fa04459410"
+    },
+    {
+      "path": "qualification/reports/SCRIPTED_JOURNEYS_SUMMARY.json",
+      "sha256": "963c1a67ec635fa8ac78fa06d10ffc766db716319f80a126675045c1c5e9d103"
+    },
+    {
+      "path": "qualification/reports/LONGITUDINAL_E2E_REPORT.md",
+      "sha256": "75d3e7f4b85255cf81d3efef2ab284f266a87fc8ad49c5c1cb96cbc56c725f0e"
+    }
+  ],
+  "limitations": [
+    "Educational skill release; no human clinical signature or clinical promotion was performed.",
+    "P0/P1 and red-team claims are limited to seven directed containment targets and do not assert global zero exposure.",
+    "J01/J03 and longitudinal A/B are carried forward under the documented unchanged-dependency contract; J02 and V1.5 safety runs were adjudicated from current saved executions.",
+    "The four prior quota-interrupted J02/J03/longitudinal attempts remain preserved and are not counted as failures.",
+    "Quarantined, pending and conflict clinical dispositions remain unchanged."
+  ]
+}

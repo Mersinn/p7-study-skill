@@ -1,0 +1,20 @@
+{
+  "run_id": "run:Codex:T16:1:2026-08-24",
+  "test_id": "T16",
+  "surface": "Codex",
+  "executor": "Codex Desktop disposable task",
+  "session_id": "01a0342c-735f-7c53-b5bd-fd9bac8d15a0",
+  "model_surface_version": "GPT-5 / Codex Desktop; exact version not exposed",
+  "skill_snapshot_sha": "1fe3c5c1f6176e1c0ceb77c4f6900e2975bdbade",
+  "fixture_path": "qualification/fixtures/behavioral/adhoc/T16_T17_simulacao_em_lote.md",
+  "fixture_sha256": "2e2cc2f783f7030e5e02651b22e449852078cf800a4896ba0983971982ffda14",
+  "input_sha256": "18942456680ca9023562b8ab7dccdfb0a3234b872a8ad32cd507814e91a100a7",
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "prompt_sent": "Simula 10 questões de EISCA pra mim.",
+  "raw_file": "run1_raw.md",
+  "raw_sha256": "32f8c7d25e211647cd701d04478a56dfa87f1626cb729a65c6ba5cf434a08406",
+  "adjudication": "PASS",
+  "adjudication_basis": "Entrega somente a questão 1/10, sem gabarito ou feedback antecipado."
+}

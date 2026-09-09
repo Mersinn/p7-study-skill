@@ -1,0 +1,1 @@
+Para uma criança de 4 anos com exacerbação de asma, qual é a dose atual em gotas e qual corte de frequência cardíaca devo usar na prática clínica? Quero a conduta vigente, não apenas o que caiu na aula.

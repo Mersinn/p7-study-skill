@@ -1,0 +1,491 @@
+====================================================================================================
+capsules/CASOS_CLINICOS/abordagem_a_dispneia.md
+  L  24 [conceito operacional min] Dispneia é sintoma, não diagnóstico — o primeiro corte é temporal (aguda: minutos a poucos dias; crônica: semanas a meses) e o segundo é mecanístico (obstrução de via aérea alta/ba
+  L  32 [palavras-ancora         ] Ortopneia; dispneia paroxística noturna; sibilos (asma/DPOC) x estridor (obstrução extratorácica de via aérea) x crepitação (IC esquerda/doença intersticial/pneumonia); turgência j
+  L  47 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  48 [dados de precisao       ] |---|---|---|---|
+  L  49 [dados de precisao       ] | Causas de dispneia aguda | asma brônquica; inalação de corpo estranho; pneumotórax; embolia pulmonar; isquemia/IAM; ICC descompensada; TAG (crise de ansiedade); paralisia diafrag
+  L  50 [dados de precisao       ] | Causas de dispneia crônica | doença pulmonar intersticial; doença pulmonar obstrutiva; derrame pleural; doença pulmonar restritiva; ICC; hipertensão pulmonar; angina; anemia; des
+  L  52 [dados de precisao       ] | Interpretação de achados de ausculta | sibilos: asma/DPOC; estridor: obstrução extratorácica de vias respiratórias; crepitação: IC esquerda, doença pulmonar intersticial, ou pneu
+  L  53 [dados de precisao       ] | Achados de exame físico direcionadores | turgência jugular e edema pré-sacral/de MMII sugerem IC; bulhas extras/abafadas/sopros; palidez conjuntival (anemia); linfadenopatia cerv
+  L  54 [dados de precisao       ] | Fatores de risco a investigar na HDA | imobilização/cirurgia recente, viagem longa, câncer, história pessoal/familiar de coagulopatia, gestação, ACO, dor em panturrilha, edema de
+  L  74 [conduta                 ] - Inicial: avaliar gravidade (nível de consciência, trabalho respiratório, oximetria), oxigenoterapia se necessário, e direcionar a investigação (RX de tórax, ECG, gasometria) pela
+  L  75 [conduta                 ] - Definitiva: tratar a causa de base identificada — broncodilatador/corticoide em obstrutivo, diurético/vasodilatador em IC descompensada, anticoagulação/trombólise em TEP conforme
+  L  76 [conduta                 ] - Condição da conduta: todo paciente com dispneia e fator de risco cardiovascular relevante deve receber ECG, independentemente de qual hipótese estiver sendo perseguida primeiro.
+  L  77 [conduta                 ] - Diferencial perigoso: TEP, pneumotórax hipertensivo, edema agudo de pulmão e obstrução de via aérea superior — todos podem se apresentar como "só dispneia" sem sinais floridos no
+  L  78 [conduta                 ] - O que mudaria a decisão: presença de dor pleurítica + fator de risco para TVP eleva a suspeita de TEP e muda o exame de escolha para angioTC; sinais de choque com desvio de traqu
+  L  90 [cards minimos           ] | Frente | Verso | Tipo |
+  L  91 [cards minimos           ] |---|---|---|
+  L  92 [cards minimos           ] | Crepitação bibasal + febre + tosse produtiva | Sugere pneumonia (infeccioso) | dado |
+  L  93 [cards minimos           ] | Crepitação bibasal + ortopneia + edema de MMII | Sugere IC esquerda descompensada | pegadinha |
+  L  95 [cards minimos           ] | Estridor x sibilo | Estridor = obstrução alta; sibilo = obstrução baixa | dado |
+  L  96 [cards minimos           ] | Tríade de suspeita de TEP | Dispneia súbita + dor pleurítica + fator de risco para TVP | dado |
+  L  97 [cards minimos           ] | Exame que não pode faltar em dispneia + fator de risco CV | ECG, independentemente da hipótese inicial | sequência |
+  L 102 [revisao                 ] - Critério de parada: em 3 vinhetas seguidas, identificar corretamente o mecanismo (obstrutivo/restritivo/cardíaco/vascular) e citar o exame inicial correto sem pular o ECG em paci
+====================================================================================================
+capsules/CASOS_CLINICOS/doenca_inflamatoria_intestinal_crohn_versus_retocolite_ulcerativa.md
+  L  24 [conceito operacional min] DII é o guarda-chuva de duas doenças com fisiopatologia e comportamento diferentes que compartilham sintomas de diarreia inflamatória (sangue/muco, dor, febre, perda de peso). O di
+  L  28 [pivo clinico            ] A pergunta que decide o caso é "a lesão é contínua/ascendente e restrita ao cólon, ou salteada e pode estar em qualquer lugar do TGI?" — se há fístula, estenose ou acometimento tra
+  L  47 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  48 [dados de precisao       ] |---|---|---|---|
+  L  49 [dados de precisao       ] | Definição de DII | doenças com caráter inflamatório: sangue e/ou muco nas fezes, podendo haver febre, perda de peso e dor abdominal | Abordagem às diarreias, linha 108-111 | CONF
+  L  50 [dados de precisao       ] | Epidemiologia | até 20% dos casos ficam como colite indeterminada; pico bimodal: 15-40 anos (1º pico) e 50-80 anos (2º pico); fator genético importante | Abordagem às diarreias, 
+  L  51 [dados de precisao       ] | RCU — características | doença colônica (reto e sigmoide de início), padrão contínuo e ascendente, restrita à mucosa (não causa estenose/fístula), megacólon tóxico como complicaç
+  L  52 [dados de precisao       ] | DC — características | qualquer parte do TGI (boca ao ânus), mais comum em íleo terminal, padrão salteado, acometimento transmural (causa fístulas e estenoses), histologia com gr
+  L  53 [dados de precisao       ] | Manifestações extraintestinais relacionadas à atividade da doença | episclerite; eritema nodoso | Abordagem às diarreias, linha 140-143 | CONFIRMADO |
+  L  54 [dados de precisao       ] | Manifestações extraintestinais sem relação com atividade | pioderma gangrenoso; colangite esclerosante primária; espondilite anquilosante/artralgias; uveíte | Abordagem às diarre
+  L  56 [dados de precisao       ] | Tratamento medicamentoso | 5-ASA (sulfassalazina, mesalazina); corticosteroides (prednisona, budesonida); tiopurinas (azatioprina); imunobiológicos (vedolizumabe, infliximabe) | 
+  L  57 [dados de precisao       ] | Indicação cirúrgica na RCU | refratária ao tratamento medicamentoso, câncer colorretal, megacólon tóxico | Abordagem às diarreias, linha 168-169 | CONFIRMADO |
+  L  58 [dados de precisao       ] | Indicação cirúrgica na DC | complicações: fístulas, abscessos, estenose, câncer | Abordagem às diarreias, linha 170 | CONFIRMADO |
+  L  79 [conduta                 ] - Definitiva: 5-ASA e/ou corticosteroide para indução de remissão; tiopurina ou imunobiológico para manutenção/casos moderados-graves; cirurgia reservada às indicações específicas 
+  L  80 [conduta                 ] - Condição da conduta: presença de acometimento transmural (fístula/estenose) ou padrão salteado fora do cólon direciona para DC; padrão contínuo restrito ao cólon a partir do reto
+  L  82 [conduta                 ] - O que mudaria a decisão: aparecimento de fístula ou estenose em paciente previamente rotulado como RCU deve reabrir a hipótese diagnóstica para DC (ou colite indeterminada), não 
+  L  94 [cards minimos           ] | Frente | Verso | Tipo |
+  L  95 [cards minimos           ] |---|---|---|
+  L  96 [cards minimos           ] | Padrão de acometimento da RCU | Contínuo e ascendente, restrito ao cólon (reto/sigmoide de início) | dado |
+  L  97 [cards minimos           ] | Padrão de acometimento da DC | Salteado, qualquer parte do TGI (mais comum íleo terminal) | dado |
+  L  98 [cards minimos           ] | Complicação exclusiva de DC (não ocorre em RCU) | Fístula e estenose (acometimento transmural) | pegadinha |
+  L  99 [cards minimos           ] | Complicação clássica de RCU | Megacólon tóxico | dado |
+  L 100 [cards minimos           ] | Anticorpo associado a DC | ASCA | dado |
+  L 101 [cards minimos           ] | Anticorpo associado a RCU | p-ANCA | dado |
+  L 102 [cards minimos           ] | Manifestações extraintestinais SEM relação com atividade da doença | Pioderma gangrenoso e colangite esclerosante primária | pegadinha |
+  L 107 [revisao                 ] - Critério de parada: em 3 casos seguidos, classificar corretamente DC x RCU pelo padrão anatômico (não pelo sintoma) e nomear a indicação cirúrgica específica de cada uma sem troc
+====================================================================================================
+capsules/CASOS_CLINICOS/hemorragia_subaracnoide_hipertensao_intracraniana.md
+  L  28 [pivo clinico            ] O pivô diagnóstico da HSA é sequencial e não pode ser abreviado: TC de crânio sem contraste primeiro; se normal e a suspeita persiste, punção lombar (xantocromia/hemácias no líquor
+  L  46 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  47 [dados de precisao       ] |---|---|---|---|
+  L  49 [dados de precisao       ] | Composição do compartimento craniano | 80% encéfalo / 10% LCR / 10% sangue | Cópia faculdade l.201 | CONFIRMADO |
+  L  50 [dados de precisao       ] | Causas de HIC | tumores/abscessos, edema cerebral, aumento de produção/redução de absorção do LCR, redução do retorno venoso | Cópia faculdade l.202-206 | CONFIRMADO |
+  L  51 [dados de precisao       ] | Tríade de Cushing | hipertensão + bradicardia + depressão respiratória | Cópia faculdade l.217 | CONFIRMADO |
+  L  52 [dados de precisao       ] | Apresentação clássica de HSA | cefaleia thunderclap ("pior dor da vida"), síncope, vômito "em jato", rigidez de nuca, ausência de febre, rebaixamento do nível de consciência | FA
+  L  54 [dados de precisao       ] | Sequência diagnóstica de HSA | TC sem contraste → se normal, LCR (xantocrômico/eritrocrômico) → arteriografia (angioTC/angioRM) para localizar aneurisma | FACILITA_OSCE l.176-228
+  L  58 [dados de precisao       ] | Tratamento do vasoespasmo | hipertensão induzida; nimodipino como neuroproteção; acompanhamento por doppler transcraniano | FACILITA_OSCE l.218, 494; OSCE_NEUROLOGIA l.427-430 | 
+  L  59 [dados de precisao       ] | Complicação — hidrocefalia | bloqueio de drenagem liquórica por coágulo; tratamento com derivação ventricular externa (DVE) | FACILITA_OSCE l.495-499; OSCE_NEUROLOGIA l.466-467 |
+  L  65 [dados de precisao       ] | Diferenciação etiológica AVCh | HAS mal controlada + má aderência → ruptura de microaneurisma (hemorragia intraparenquimatosa); idoso normotenso ± Alzheimer → angiopatia amiloide
+  L  86 [conduta                 ] - Inicial: em cefaleia thunderclap ou déficit neurológico súbito — TC de crânio sem contraste; estabilizar sinais vitais; se sinais de herniação/Cushing, medidas de neuroproteção i
+  L  89 [conduta                 ] - Diferencial perigoso: hemorragia intraparenquimatosa (efeito de massa, déficit focal desde o início, sem o intervalo lúcido da HSA), meningite (rigidez de nuca mais tardia, febre
+  L  90 [conduta                 ] - O que mudaria a decisão: dia de evolução desde o sangramento muda entre vigiar ressangramento, tratar vasoespasmo ou tratar hidrocefalia; TC normal não muda a decisão de investig
+  L 102 [cards minimos           ] | Frente | Verso | Tipo |
+  L 103 [cards minimos           ] |---|---|---|
+  L 105 [cards minimos           ] | Complicação de HSA na 1ª semana | ressangramento (~20%) | dado |
+  L 106 [cards minimos           ] | Complicação de HSA do 3º ao 14º dia | vasoespasmo (tratar com hipertensão induzida + nimodipino) | pegadinha |
+  L 110 [cards minimos           ] | Tríade de Cushing | hipertensão + bradicardia + depressão respiratória | dado |
+  L 116 [revisao                 ] - Critério de parada: resolver 5 casos aplicando a sequência TC→LCR→arteriografia sem pular etapa, e 3 casos variando o dia pós-HSA (dia 2, dia 8, dia 16) decidindo corretamente qu
+====================================================================================================
+capsules/CASOS_CLINICOS/cirrose_hepatica_ascite_pbe.md
+  L  46 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  47 [dados de precisao       ] |---|---|---|---|
+  L  54 [dados de precisao       ] | Tratamento da PBE | cefalosporina de 3ª geração (ceftriaxona) ou amoxicilina+clavulanato | Casos_Clinicos_P7_1 p.18 | CONFIRMADO |
+  L  57 [dados de precisao       ] | Local de escolha da paracentese | quadrante inferior esquerdo (QIE) — menor risco por sigmoide mais móvel que ceco | Casos_Clinicos_P7_1 p.18 | CONFIRMADO |
+  L  82 [conduta                 ] - Inicial: paracentese diagnóstica em toda ascite de início recente (ambulatorial ou internado) — contagem celular, diferencial, proteína total e albumina do líquido, calcular GASA
+  L  85 [conduta                 ] - Diferencial perigoso: peritonite bacteriana secundária (cultura polimicrobiana, sinais de abdome cirúrgico) — não responde a só antibiótico, precisa de investigação de foco perfu
+  L  86 [conduta                 ] - O que mudaria a decisão: GASA muda a hipótese etiológica inteira (porta x peritoneal); PMN absoluto (não %PMN nem leucócitos totais) muda entre observar e tratar; cultura mono x 
+  L  98 [cards minimos           ] | Frente | Verso | Tipo |
+  L  99 [cards minimos           ] |---|---|---|
+  L 105 [cards minimos           ] | Tratamento empírico da PBE | ceftriaxona (3ª geração) ou amoxicilina+clavulanato | dado |
+  L 106 [cards minimos           ] | Local preferido de paracentese | quadrante inferior esquerdo | dado |
+  L 113 [revisao                 ] - Critério de parada: resolver 5 casos-par variando GASA e proteína do líquido, mais 3 casos variando PMN absoluto e cultura, sem confundir os limiares.
+====================================================================================================
+capsules/EISA_II/esclerose_multipla_e_doencas_desmielinizantes.md
+  L  28 [pivo clinico            ] O achado que separa EM de Neuromielite Óptica (Devic) na RM medular é o COMPRIMENTO da lesão: EM tipicamente lesões curtas e multifocais; NMO exige extensão por 3 ou mais segmentos
+  L  32 [palavras-ancora         ] Critérios de McDonald 2010 (PCDT-BR: cenários A-D); disseminação no espaço x no tempo; critérios de Barkhoff; bandas oligoclonais; Critérios de Wingerchuk 2006 (NMO); anti-AQP4/NMO
+  L  48 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  49 [dados de precisao       ] |---|---|---|---|
+  L  52 [dados de precisao       ] | Duração mínima de um surto | 24 horas (sintomas mais curtos provavelmente não representam lesão nova) | APOSTILA p.69-70 | CONFIRMADO |
+  L  56 [dados de precisao       ] | Anticorpo anti-AQP4 (NMO-IgG) — desempenho | 91% especificidade, 73% sensibilidade | DOENC_AS_DESMIELINIZANTES pptx (texto nativo) | CONFIRMADO |
+  L  58 [dados de precisao       ] | ADEM — conceito e epidemiologia | Doença inflamatória difusa do SNC, MONOFÁSICA, geralmente pós-infecção ou pós-vacinação; idade média 7 anos em crianças (3% dos casos em adultos
+  L  60 [dados de precisao       ] | ADEM x EM na RM (discriminador evolutivo) | ADEM: lesões indistinguíveis de EM numa RM isolada, mas tendem à resolução quase completa em exames seriados. EM: aumento progressivo 
+  L  82 [conduta                 ] - Inicial: história clínica detalhada de surtos + RM de crânio com contraste + LCR (bandas oligoclonais) + potenciais evocados; aplicar os critérios PCDT/McDonald conforme o cenári
+  L  85 [conduta                 ] - Diferencial perigoso: NMO/Devic é mais incapacitante que EM e responde pior às terapias modificadoras de EM — não tratar Devic com o esquema padrão de EM sem confirmar/excluir an
+  L  98 [cards minimos           ] | Frente | Verso | Tipo |
+  L  99 [cards minimos           ] |---|---|---|
+  L 100 [cards minimos           ] | Cenário PCDT mais exigente | D — 1 surto + 1 lesão (precisa disseminação no espaço E no tempo) | dado |
+  L 103 [cards minimos           ] | Critérios absolutos de Wingerchuk (NMO) | Neurite óptica + mielite aguda (ambos obrigatórios) | dado |
+  L 104 [cards minimos           ] | ADEM é monofásica ou recorrente? | Monofásica por definição | pegadinha |
+  L 106 [cards minimos           ] | Fenótipo de EM com opção terapêutica restrita a ocrelizumabe | EM primariamente progressiva (EMPP) | dado |
+  L 107 [cards minimos           ] | Duração mínima para caracterizar um surto | 24 horas | dado |
+  L 112 [revisao                 ] - Critério de parada: aplicar corretamente o cenário PCDT (A-D) a 4 vinhetas variando número de surtos/lesões, e diferenciar EM x NMO x ADEM em 3 casos seguidos usando extensão med
+====================================================================================================
+capsules/EISA_II/has_nefrogena_renovascular.md
+  L  28 [pivo clinico            ] O exame inicial na suspeita de HARV é sempre não invasivo (US Doppler renal, angio-RNM ou TC espiral conforme a TFG) — a arteriografia renal convencional é padrão-ouro, mas **não d
+  L  47 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  48 [dados de precisao       ] |---|---|---|---|
+  L  49 [dados de precisao       ] | Prevalência estimada de HA secundária | 10–20% dos hipertensos | DBHA_2020 p.607 | CONFIRMADO |
+  L  51 [dados de precisao       ] | Etiologia por perfil | Jovens (principalmente mulheres): displasia fibromuscular; idosos: aterosclerose (associada a doença aterosclerótica periférica/coronariana) | DBHA_2020 p.
+  L  54 [dados de precisao       ] | Exame de rastreio recomendado | US com Doppler renal (GR I, NE B) — sensibilidade 75%, especificidade 90%, mas observador-dependente | DBHA_2020 p.607 | CONFIRMADO |
+  L  55 [dados de precisao       ] | Padrão-ouro | Arteriografia renal convencional (GR I, NE A) — invasiva, NÃO deve ser procedimento inicial (GR I, NE B) | DBHA_2020 p.607/613 | CONFIRMADO |
+  L  57 [dados de precisao       ] | Eficácia comparada tratamento farmacológico x revascularização | Equivalentes em controle de PA e mortalidade CV (RCTs + metanálise) | DBHA_2020 p.607 | CONFIRMADO |
+  L  58 [dados de precisao       ] | Indicação de revascularização | DFM: sempre indicada; aterosclerótica: só se refratária ao tratamento, perda progressiva de função renal ou descompensação clínica cardiológica (E
+  L  59 [dados de precisao       ] | Displasia fibromuscular — perfil | 80–90% mulheres; Doppler renal é o exame de rastreio preconizado | DBHA_2020 p.607 | CONFIRMADO |
+  L  61 [dados de precisao       ] | Seguimento pós-angioplastia em DFM | Doppler renal em 30 dias, depois a cada 6 meses nos primeiros 2 anos, depois anual (rastreio de reestenose) | DBHA_2020 p.607 | CONFIRMADO |
+  L  65 [dados de precisao       ] | Coarctação de aorta — exames | Ecocardiograma = rastreio principal; RNM = padrão-ouro para avaliação e seguimento pós-intervenção | DBHA_2020 p.607 | CONFIRMADO |
+  L  87 [conduta                 ] - Definitiva: revascularização (angioplastia ± stent) na DFM; na aterosclerótica, revascularização reservada a refratariedade terapêutica, perda progressiva de função renal ou desc
+  L  89 [conduta                 ] - Diferencial perigoso: coarctação de aorta em adulto jovem com HA resistente — pulsos de MMII e diferença pressórica MMSS x MMII são o achado que não pode ser pulado no exame físi
+  L  90 [conduta                 ] - O que mudaria a decisão: confirmação de DFM muda a conduta para angioplastia quase sempre indicada; confirmação de aterosclerose sem refratariedade mantém tratamento farmacológic
+  L 104 [cards minimos           ] | Frente | Verso | Tipo |
+  L 105 [cards minimos           ] |---|---|---|
+  L 106 [cards minimos           ] | Exame inicial na suspeita de HARV | US Doppler renal (ou angio-RNM/TC conforme TFG) — não a arteriografia | sequência |
+  L 107 [cards minimos           ] | Padrão-ouro para diagnóstico de HARV | Arteriografia renal convencional — não deve ser o exame inicial | pegadinha |
+  L 109 [cards minimos           ] | Etiologia de HARV em jovem, mulher | Displasia fibromuscular | dado |
+  L 110 [cards minimos           ] | Etiologia de HARV em idoso | Aterosclerose | dado |
+  L 111 [cards minimos           ] | Indicação de revascularização na DFM | Quase sempre (angioplastia isolada) | dado |
+  L 112 [cards minimos           ] | Indicação de revascularização na aterosclerótica | Só com refratariedade, perda progressiva de função renal ou descompensação cardíaca | pegadinha |
+  L 113 [cards minimos           ] | Tratamento farmacológico x revascularização (desfecho) | Equivalentes em controle de PA e mortalidade CV | dado |
+  L 119 [revisao                 ] - Critério de parada: acertar em 3 casos seguidos a sequência correta de exames (rastreio não invasivo → confirmação) e a indicação de revascularização por etiologia, sem usar a ar
+====================================================================================================
+capsules/EISA_II/diabetes_mellitus_conceito_classificacao_diagnostico.md
+  L  47 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  48 [dados de precisao       ] |---|---|---|---|
+  L  50 [dados de precisao       ] | HbA1c pré-diabetes | 5,7% – 6,4% | Dm conceito FAMENE 2019 p.23; Diabetes(5) p.14 | CONFIRMADO |
+  L  56 [dados de precisao       ] | Regra de confirmação | sem hiperglicemia comprovada, repetir o teste — EXCETO no TOTG e na hiperglicemia comprovada | Dm conceito FAMENE 2019 p.22 | CONFIRMADO |
+  L  59 [dados de precisao       ] | Rastreio a cada | 3 anos (anual se ganho de peso, mudança de fator de risco, pré-DM ou HIV) | Diabetes(5) p.19 | CONFIRMADO |
+  L  60 [dados de precisao       ] | DM1: frequência | 5–10% dos casos | Dm conceito 2019 p.16; Diabetes(5) p.23 | CONFIRMADO |
+  L  61 [dados de precisao       ] | DM2: frequência | 90–95% dos casos | Dm conceito 2019 p.16; Diabetes(5) p.24 | CONFIRMADO |
+  L  65 [dados de precisao       ] | MODY2 (GCK) | 20–60% dos MODY; hiperglicemia leve assintomática; tratamento = dieta (não precisa fármaco) | Diabetes(5) p.32 | CONFIRMADO |
+  L  88 [conduta                 ] - Definitiva: classificar o tipo (DM1/DM2/gestacional/outros específicos) com base em perfil clínico; solicitar peptídeo-C e autoanticorpos apenas em apresentação atípica.
+  L  90 [conduta                 ] - Diferencial perigoso: LADA mal classificado como DM2 típico atrasa insulinização em paciente com destruição autoimune em curso.
+  L 102 [cards minimos           ] | Frente | Verso | Tipo |
+  L 103 [cards minimos           ] |---|---|---|
+  L 104 [cards minimos           ] | Critério que dispensa confirmação por 2º teste | TOTG alterado e hiperglicemia comprovada (sintomas + glicemia alta) | conceito |
+  L 108 [cards minimos           ] | MODY2 (GCK) — tratamento | Dieta (é o subtipo mais brando e mais frequente) | conceito |
+  L 114 [revisao                 ] - Critério de parada: acertar os 4 mini-casos sem consultar a tabela de dados de precisão.
+====================================================================================================
+capsules/EISA_II/doencas_da_orelha_externa.md
+  L  24 [conceito operacional min] **Flora normal do CAE** é protetora (S. epidermidis, Corynebacterium); Pseudomonas aeruginosa não é encontrada em CAE normal — sua presença já é patológica. **Otite externa maligna
+  L  32 [palavras-ancora         ] Cintilografia com gálio · critério absoluto x sugestivo · exostose · osteoma · corpo estranho vivo/cáustico · oto-hematoma · pericôndrio · colesteatoma de CAE · flora normal do CAE
+  L  44 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  45 [dados de precisao       ] |---|---|---|---|
+  L  46 [dados de precisao       ] | Flora normal do CAE | S. epidermidis 87%, Corynebacterium sp 81%, S. aureus 12%; Pseudomonas aeruginosa 0% em CAE normal | Doenças da Orelha Externa, p. 3 | CONFIRMADO |
+  L  47 [dados de precisao       ] | OE maligna — critério diagnóstico absoluto | cintilografia com tecnécio e/ou gálio positivas | Doenças da Orelha Externa, p. 12 | CONFIRMADO |
+  L  48 [dados de precisao       ] | OE maligna — critérios sugestivos | tecido de granulação no assoalho do CAE; cultura positiva para P. aeruginosa; DM ou imunodeficiência; otalgia grave | Doenças da Orelha Extern
+  L  50 [dados de precisao       ] | Exostose — epidemiologia | 4 homens : 1 mulher; não ocorre em negros e chineses; geralmente múltipla e bilateral | Doenças da Orelha Externa, p. 21 | CONFIRMADO |
+  L  51 [dados de precisao       ] | Osteoma | massa óssea única, unilateral, pedunculada, na junção da sutura tímpano-mastóidea ou tímpano-escamosa | Doenças da Orelha Externa, p. 21 | CONFIRMADO |
+  L  52 [dados de precisao       ] | Colesteatoma de CAE | unilateral, idiopático, audição normal, mais frequente em idosos, MT normal com erosão circunscrita na parede inferior do CAE | Doenças da Orelha Externa, p
+  L  53 [dados de precisao       ] | Oto-hematoma | coleção sanguínea entre pericôndrio e cartilagem, mais comum no terço superior do pavilhão; tratamento = incisão e drenagem sem suturar os retalhos + curativo comp
+  L  76 [conduta                 ] - Definitiva: OE maligna — tratamento sistêmico prolongado antipseudomonas guiado por cintilografia seriada (ver cápsula "Otites"); exostose/osteoma sintomáticos — cirurgia quando 
+  L  77 [conduta                 ] - Condição da conduta: em suspeita de perfuração de MT, nunca realizar lavagem para remoção de corpo estranho.
+  L  79 [conduta                 ] - O que mudaria a decisão: tipo de material do corpo estranho (duro x hidrófilo x vivo x cáustico) muda completamente a técnica de remoção; presença de critério absoluto (cintilogr
+  L  89 [cards minimos           ] | Frente | Verso | Tipo |
+  L  90 [cards minimos           ] |---|---|---|
+  L  91 [cards minimos           ] | Qual é o critério diagnóstico ABSOLUTO de otite externa maligna? | Cintilografia com tecnécio e/ou gálio positiva | fato |
+  L  92 [cards minimos           ] | Quais são os critérios apenas SUGESTIVOS de OE maligna? | Tecido de granulação no CAE, cultura positiva para P. aeruginosa, DM/imunodeficiência, otalgia grave | fato |
+  L  93 [cards minimos           ] | Exostose é múltipla/bilateral ou única/pediculada? | Múltipla e bilateral (ligada a esporte aquático) — diferente do osteoma, que é único e pediculado | fato |
+  L  94 [cards minimos           ] | Posso usar pinça para remover corpo estranho duro e pontiagudo do CAE? | Não — risco de empurrar mais fundo e lesar o conduto; usar lavagem | regra |
+  L 100 [revisao                 ] - Critério de parada: diferenciar exostose de osteoma e aplicar corretamente os critérios absoluto/sugestivo de OE maligna em 3 casos seguidos sem consultar a tabela.
+====================================================================================================
+capsules/EISCA/parasitoses_intestinais.md
+  L  29 [conceito operacional min] Parasitoses intestinais são majoritariamente oligossintomáticas/
+  L  30 [conceito operacional min] assintomáticas; a Ascaridíase é a parasitose mais prevalente do mundo (2ª
+  L  31 [conceito operacional min] doença mais comum do planeta, atrás só da cárie dentária). Tratamento pode
+  L  32 [conceito operacional min] ser empírico e periódico (a cada 4-6-12 meses, conforme região) em países em
+  L  33 [conceito operacional min] desenvolvimento, sem necessidade de coproparasitológico prévio, exceto em
+  L  34 [conceito operacional min] menores de 1 ano.
+  L  38 [pivo clinico            ] O pivô mais cobrado é a **manifestação peculiar que identifica o parasita
+  L  39 [pivo clinico            ] específico** dentro de um quadro geral inespecífico — cada helmintíase tem um
+  L  40 [pivo clinico            ] "cartão de visita" clínico: Ascaris → suboclusão/oclusão intestinal;
+  L  41 [pivo clinico            ] Ancilostomídeos → principal causa de anemia ferropriva por hematofagismo;
+  L  42 [pivo clinico            ] Enterobius → vaginite/cervicite por migração; Trichuris → anemia ferropriva +
+  L  44 [pivo clinico            ] em imunodeprimidos; Taenia solium → neurocisticercose (crise convulsiva,
+  L  45 [pivo clinico            ] hipertensão intracraniana); Giardia → esteatorreia + má absorção de
+  L  46 [pivo clinico            ] lipossolúveis + deficiência de dissacaridase (lactase). Segundo pivô: em
+  L  47 [pivo clinico            ] menores de 1 ano NÃO se indica terapia empírica — só tratamento específico em
+  L  48 [pivo clinico            ] casos confirmados.
+  L  52 [palavras-ancora         ] Ascaridíase = 2ª doença mais comum do mundo; Ancilostomídeo = anemia
+  L  54 [palavras-ancora         ] vaginite; Taenia solium = neurocisticercose; Giardia = esteatorreia;
+  L  69 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  70 [dados de precisao       ] |---|---|---|---|
+  L  71 [dados de precisao       ] | Posição da ascaridíase entre as doenças mais comuns do planeta | 2ª (atrás da cárie dentária), 807-1221 milhões de casos | Parasitose intestinal - Tratado SBP, Epidemiologia | CO
+  L 108 [conduta                 ] - Inicial: reconhecer o achado peculiar (Tabela 3 de manifestações
+  L 109 [conduta                 ] específicas) e, se disponível, dirigir o coproparasitológico para o método
+  L 110 [conduta                 ] mais sensível ao parasita suspeito (Graham para Enterobius, Baermann-Moraes
+  L 111 [conduta                 ] para Strongyloides, Kato-Katz para ovos de helmintos).
+  L 112 [conduta                 ] - Definitiva: tratamento antiparasitário específico ou empírico polivalente
+  L 113 [conduta                 ] (albendazol por 5 dias cobre a maioria dos helmintos + Giardia) conforme
+  L 114 [conduta                 ] idade; controle de cura com coproparasitológico em 15-30 dias nos casos
+  L 115 [conduta                 ] tratados por exame positivo.
+  L 117 [conduta                 ] restringe as opções; encefalopatas/hepatopatas evitam albendazol.
+  L 118 [conduta                 ] - Diferencial perigoso: neurocisticercose por Taenia solium (crise
+  L 119 [conduta                 ] convulsiva, HIC, distúrbios psíquicos) e hiperinfestação por Strongyloides
+  L 120 [conduta                 ] em imunodeprimidos — ambas podem ter apresentação grave fora do quadro
+  L 121 [conduta                 ] digestivo clássico.
+  L 122 [conduta                 ] - O que mudaria a decisão: imunodepressão/HIV+ muda o risco de
+  L 123 [conduta                 ] hiperinfestação por Strongyloides e amplia a lista de protozoários
+  L 124 [conduta                 ] emergentes a considerar (Cryptosporidium, Cystoisospora).
+  L 142 [cards minimos           ] | Frente | Verso | Tipo |
+  L 143 [cards minimos           ] |---|---|---|
+  L 145 [cards minimos           ] | Manifestação peculiar de Enterobius vermicularis | Migração para genitália feminina → vaginite/cervicite | par |
+  L 146 [cards minimos           ] | Manifestação peculiar de Taenia solium | Neurocisticercose: crise convulsiva, HIC, distúrbios psíquicos | par |
+  L 152 [revisao                 ] - Revisar quando: junto com anemia ferropriva (ancilostomíase/tricuríase
+  L 153 [revisao                 ] como causa secundária) e com convulsão febril/crise convulsiva (Taenia
+  L 154 [revisao                 ] solium como diferencial).
+  L 155 [revisao                 ] - Critério de parada: associar corretamente 5 parasitas aos seus achados
+  L 156 [revisao                 ] peculiares e escolher a duração certa do albendazol conforme o agente, sem
+  L 157 [revisao                 ] consultar a tabela.
+====================================================================================================
+capsules/EISCA/anemia_ferropriva.md
+  L  46 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  47 [dados de precisao       ] |---|---|---|---|
+  L  58 [dados de precisao       ] | Monitorização em tratamento | hemograma a cada 30-60 dias; ferritina em 30 e 90 dias | Consenso Anemia Ferropriva SBP, p.7 | CONFIRMADO |
+  L  59 [dados de precisao       ] | Reticulócitos — valor de referência | relativo 0,5-2%; absoluto 25.000-85.000/mm³ | Consenso Anemia Ferropriva SBP, p.4 | CONFIRMADO |
+  L  83 [conduta                 ] - Condição da conduta: reposição parenteral reservada para casos excepcionais — anemia grave com falha do tratamento oral, perdas sanguíneas contínuas, doença inflamatória intestin
+  L  95 [cards minimos           ] | Frente | Verso | Tipo |
+  L  96 [cards minimos           ] |---|---|---|
+  L 101 [cards minimos           ] | Forma de ferro mais absorvível | Ferro ferroso (Fe2+), depende de acidez gástrica | Pegadinha |
+====================================================================================================
+capsules/EISCA/humanizacao_em_uti_neonatal.md
+  L  24 [conceito operacional min] Humanização na UTI neonatal é um modelo de cuidado que vai além do tratamento da doença do RN, envolvendo: assistência multiprofissional integral, extensão do cuidado à família (nã
+  L  44 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  45 [dados de precisao       ] |---|---|---|---|
+  L  46 [dados de precisao       ] | Sucesso na extubação | RN permanece mais de 72h sem necessidade de retorno ao suporte ventilatório invasivo | p.2 | CONFIRMADO |
+  L  47 [dados de precisao       ] | Falha na extubação | RN retorna à ventilação mecânica (reintubação) em menos de 72h, por qualquer motivo | p.2 | CONFIRMADO |
+  L  48 [dados de precisao       ] | Extubação Acidental (EA) | ocorre em decorrência do manuseio da equipe | p.2 | CONFIRMADO |
+  L  49 [dados de precisao       ] | Extubação Não Planejada (ENP) | retirada da cânula em decorrência da própria ação do RN (agitação) | p.2 | CONFIRMADO |
+  L  50 [dados de precisao       ] | Complicações associadas à VPM prolongada | displasia broncopulmonar; hemorragia periventricular | p.1 | CONFIRMADO |
+  L  52 [dados de precisao       ] | Equipe multiprofissional da UTIN | técnico de enfermagem, fisioterapeuta, farmacêutico, fonoaudiólogo, psicólogo, nutricionista, assistente social, médico, enfermeiro | p.1 | CON
+  L  53 [dados de precisao       ] | Medidas de promoção de conforto | reduzir ruído e luz; atenção ao posicionamento; tratamentos menos estressantes; reduzir manipulação (toque mínimo); preservar temperatura ambien
+  L  54 [dados de precisao       ] | Boas práticas de humanização citadas | participação dos pais no cuidado; incentivo ao aleitamento materno; uso de sacarose em procedimentos dolorosos; cuidado com integridade de 
+  L  55 [dados de precisao       ] | Níveis de acreditação hospitalar citados | segurança do paciente nível 1; segurança do paciente nível 2; gestão de excelência nível 3 | p.3 | CONFIRMADO |
+  L  72 [conduta                 ] - Inicial: aplicar medidas de promoção de conforto de rotina (redução de ruído/luz, manipulação mínima, controle de dor com sacarose em procedimentos) independentemente da gravidad
+  L  73 [conduta                 ] - Definitiva: estruturar cuidado multiprofissional com participação ativa da família (visitas, incentivo ao aleitamento, acesso ao RN) como parte do protocolo assistencial, não com
+  L  76 [conduta                 ] - O que mudaria a decisão: presença de fatores de risco para falha de extubação pode justificar abordagem mais cautelosa/gradual antes da retirada do suporte ventilatório.
+  L  86 [cards minimos           ] | Frente | Verso | Tipo |
+  L  87 [cards minimos           ] |---|---|---|
+  L  89 [cards minimos           ] | EA x ENP | EA = manuseio da equipe; ENP = ação do próprio RN | pegadinha |
+  L  90 [cards minimos           ] | Cuidado integral x ampliado | integral = paciente como um todo; ampliado = extensão à família | pegadinha |
+  L  92 [cards minimos           ] | Medidas de promoção de conforto na UTIN | reduzir ruído/luz; manipulação mínima; sacarose para dor; controle de temperatura | dado |
+====================================================================================================
+capsules/EISCA/assistencia_rn_sala_parto_reanimacao_neonatal.md
+  L  23 [conceito operacional min] Ao nascimento, avalie **respiração/choro** e **tônus flexor**. “Ser a termo” não é
+  L  24 [conceito operacional min] uma terceira pergunta de boa vitalidade na Diretriz SBP 2026. Idade gestacional
+  L  25 [conceito operacional min] define qual algoritmo e qual preparo usar, mas prematuridade isolada não significa
+  L  26 [conceito operacional min] ausência de vitalidade.
+  L  30 [pivo clinico            ] Respira/chora e tem tônus flexor? Se não, os passos iniciais produziram ventilação
+  L  32 [pivo clinico            ] drogas.
+  L  52 [pratica clinica atual — ] | Momento | Decisão/ação |
+  L  53 [pratica clinica atual — ] |---|---|
+  L  55 [pratica clinica atual — ] | Sem boa vitalidade | estímulo tátil por cerca de 15 s antes do clampeamento; se persistirem apneia/respiração irregular ou flacidez, clampear e levar ao berço aquecido |
+  L  56 [pratica clinica atual — ] | Passos iniciais | calor, posicionar via aérea, secar e estimular; completar em até 30 s; não aspirar de rotina, inclusive no mecônio, salvo obstrução |
+  L  59 [pratica clinica atual — ] | VPP | 30–60 ventilações/min; com peça T, pressão inicial usual 20–30 cmH2O e PEEP 5 cmH2O, ajustando à expansão/FC |
+  L  66 [pratica clinica atual — ] concentração/volume.
+  L  70 [pratica clinica atual — ] térmico dependem da idade gestacional e devem ser titulados às metas pré-ductais.
+  L  90 [dados de precisao       ] | Claim | Valor atual | Fonte/localizador | Status |
+  L  91 [dados de precisao       ] |---|---|---|---|
+  L  95 [dados de precisao       ] | VPP 40–60/min | material antigo | anotação baseada em SBP 2016 | HISTORICAL_ONLY |
+  L 107 [conduta e guardrails    ] - Inicial: preparar por IG, avaliar vitalidade, passos iniciais e VPP no minuto de
+  L 108 [conduta e guardrails    ] ouro quando indicada.
+  L 109 [conduta e guardrails    ] - Definitiva: corrigir ventilação; depois compressões/via alternativa/adrenalina
+  L 110 [conduta e guardrails    ] conforme FC e tempo.
+  L 112 [conduta e guardrails    ] dupla checagem.
+  L 130 [cards minimos           ] | Frente | Verso | Tipo |
+  L 131 [cards minimos           ] |---|---|---|
+  L 132 [cards minimos           ] | Boa vitalidade na SBP 2026 | respiração/choro + tônus flexor | critério |
+  L 134 [cards minimos           ] | Frequência VPP | 30–60/min | valor |
+  L 144 [revisao                 ] - Revisar a cada atualização do PRN/SBP.
+  L 146 [revisao                 ] pular correção da ventilação e sem misturar algoritmo de prematuro.
+====================================================================================================
+capsules/EISM/transtornos_alimentares.md
+  L  27 [conceito operacional min] Anorexia nervosa = restrição alimentar autoinduzida por medo mórbido de engordar + distorção da
+  L  28 [conceito operacional min] imagem corporal + peso significativamente baixo (o paciente QUER emagrecer). Bulimia nervosa =
+  L  29 [conceito operacional min] compulsão alimentar recorrente + comportamento compensatório inadequado (purgação/jejum/exercício)
+  L  31 [conceito operacional min] normal. TCAP = compulsão alimentar recorrente SEM comportamento compensatório — este é o
+  L  32 [conceito operacional min] diferencial-chave com a bulimia.
+  L  36 [pivo clinico            ] Duas perguntas separam os três transtornos: (1) o paciente quer emagrecer (anorexia) ou só não quer
+  L  39 [pivo clinico            ] a aumentado (90-110% do IMC). Em toda vinheta com transtorno alimentar grave, checar ativamente os
+  L  40 [pivo clinico            ] critérios de internação — é a decisão mais testada.
+  L  44 [palavras-ancora         ] tirania da magreza · distorção da imagem corporal · restritivo × purgativo · comportamento
+  L  45 [palavras-ancora         ] compensatório · amenorreia (achado clínico, não é mais critério DSM-5) · síndrome de realimentação
+  L  46 [palavras-ancora         ] (conhecimento geral) · comorbidade com TP borderline
+  L  58 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  59 [dados de precisao       ] |---|---|---|---|
+  L  60 [dados de precisao       ] | Prevalência anorexia nervosa | 0,5-1% | Transtornos_alimentares_III_unidade p.1; SM_Psiquiatria p.1; 9_Transtornos_alimentares p.1 | CONFIRMADO (3 fontes) |
+  L  61 [dados de precisao       ] | Prevalência bulimia nervosa | 1-5% | mesmas 3 fontes | CONFIRMADO (3 fontes) |
+  L  62 [dados de precisao       ] | Mortalidade da anorexia (não recuperação) | ~20% | Transtornos_alimentares_III_unidade p.1; 9_Transtornos_alimentares p.1 | CONFIRMADO |
+  L  68 [dados de precisao       ] | Síndrome de realimentação — mecanismo | hipofosfatemia é o achado classicamente descrito (conhecimento geral) | anotação manuscrita do ALUNO no slide p.16 é ilegível/não confiáve
+  L  93 [conduta                 ] - Inicial: identificar o subtipo (restritivo × purgativo) e checar ativamente os 8 critérios de
+  L  94 [conduta                 ] internação (peso, distúrbio hidroeletrolítico, arritmia/bradicardia grave, HDA, ideação suicida,
+  L  95 [conduta                 ] falha ambulatorial, ambiente familiar).
+  L  96 [conduta                 ] - Definitiva: equipe multidisciplinar (psiquiatra + nutricionista + psicólogo/TCC); suporte
+  L  99 [conduta                 ] - Condição da conduta: internação é obrigatória se qualquer um dos 8 critérios estiver presente —
+  L 100 [conduta                 ] não é decisão discricionária.
+  L 101 [conduta                 ] - Diferencial perigoso: reintrodução calórica agressiva em paciente gravemente desnutrida internada
+  L 102 [conduta                 ] → risco de síndrome de realimentação (distúrbio hidroeletrolítico agudo); a reintrodução deve ser
+  L 103 [conduta                 ] gradual.
+  L 104 [conduta                 ] - O que mudaria a decisão: presença de qualquer critério de internação muda a conduta de
+  L 106 [conduta                 ] qualquer manejo nutricional.
+  L 125 [cards minimos           ] | Frente | Verso | Tipo |
+  L 126 [cards minimos           ] |---|---|---|
+  L 127 [cards minimos           ] | Anorexia × Bulimia — intenção | Anorexia: quer emagrecer; Bulimia: não quer engordar (já comeu compulsivamente) | discriminador |
+  L 131 [cards minimos           ] | Risco da reintrodução calórica agressiva | Síndrome de realimentação | risco |
+  L 138 [revisao                 ] - Critério de parada: quando conseguir, sem consultar a tabela, citar os critérios de internação e
+  L 139 [revisao                 ] diferenciar AN × BN × TCAP pelos três eixos (intenção, comportamento compensatório, peso).
+====================================================================================================
+capsules/EISM/delirium.md
+  L  24 [conceito operacional min] Delirium = síndrome clínica de início AGUDO (horas a poucos dias), com rebaixamento/flutuação do nível de consciência + alteração da atenção + mudança da cognição, de causa orgânic
+  L  28 [pivo clinico            ] Em idoso com alteração aguda de comportamento, delirium é a hipótese até prova em contrário — a conduta é procurar e tratar a causa orgânica subjacente, não sedar/conter como prime
+  L  32 [palavras-ancora         ] CAM (Confusion Assessment Method); flutuação; consciência qualitativamente rebaixada; sundowning; hipoativo/hiperativo/misto; F05; delirium ≠ delírio.
+  L  45 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  46 [dados de precisao       ] |---|---|---|---|
+  L  47 [dados de precisao       ] | CID-10 | F05 = delirium não induzido por álcool/substâncias; F00 = demência no Alzheimer | Transtornos_Org_nicos p.1; Psiquiatria_TRANSTORNOS... p.1 | CONFIRMADO |
+  L  48 [dados de precisao       ] | Critérios CAM | 1) início agudo/curso flutuante + 2) distúrbio da atenção + (3) pensamento desorganizado OU 4) alteração do nível de consciência) — regra "1 + 2 + (3 ou 4)" | Del
+  L  49 [dados de precisao       ] | Início | agudo, de horas a poucos dias (3 de 4 fontes); 1 fonte registra "dias a semanas" | 4 fontes NATIVA | CONFIRMADO_COM_CORREÇÕES — usar "horas a poucos dias" como valor con
+  L  50 [dados de precisao       ] | Prognóstico | 50% melhoram com tratamento da causa; 25% mortalidade; 25% evoluem com sinais precoces de demência | Psiquiatria_TRANSTORNOS p.2; Mariah_Carvalho; Del_rium_e_dem_nc
+  L  54 [dados de precisao       ] | Gatilho iatrogênico citado | Fluoxetina em idoso pode causar delirium por hiponatremia (nota "atenção residência" no material) | Transtornos_Org_nicos p.2 | CONFIRMADO |
+  L  73 [conduta                 ] - Inicial: identificar e tratar a causa orgânica subjacente (revisar medicações potencialmente iatrogênicas, exames — glicemia, eletrólitos, sinais de infecção, hipóxia); supervisã
+  L  77 [conduta                 ] - O que mudaria a decisão: causa identificada muda o tratamento (repor eletrólito, tratar ITU); etiologia = abstinência alcoólica troca o esquema de haloperidol isolado por esquema
+  L  89 [cards minimos           ] | Frente | Verso | Tipo |
+  L  90 [cards minimos           ] |---|---|---|
+  L  91 [cards minimos           ] | Delirium x Delírio | Delirium = consciência flutuante; Delírio = transtorno do pensamento | conceito |
+  L  94 [cards minimos           ] | Subtipo de pior prognóstico | Hipoativo | dado |
+  L  95 [cards minimos           ] | Prognóstico geral | 50% melhoram / 25% morrem / 25% evoluem para demência | dado |
+  L  96 [cards minimos           ] | CID-10 do delirium não induzido por substância | F05 | dado |
+  L 101 [revisao                 ] - Critério de parada: distinguir corretamente delirium x demência x quadro psiquiátrico primário em 3 vinhetas seguidas, e nunca indicar BZD fora do contexto de abstinência alcoóli
+====================================================================================================
+capsules/EISM/farmacoterapia_da_insonia.md
+  L  28 [conceito operacional min] Insônia primária (sem causa identificável) × secundária (dor, prurido, dispneia, depressão,
+  L  29 [conceito operacional min] esquizofrenia, ansiedade, uso de xantinas — tratar a causa de base primeiro). Terapia não
+  L  30 [conceito operacional min] farmacológica (higiene do sono) é sempre a 1ª linha; a literatura atual trata o medicamento como
+  L  31 [conceito operacional min] última alternativa. A escolha do hipnótico depende de 3 critérios: início de ação, duração de
+  L  32 [conceito operacional min] ação e efeitos indesejáveis — cada um mapeado ao tipo de queixa do paciente.
+  L  36 [pivo clinico            ] A variável decisiva é qual fase do sono está comprometida: dificuldade para INICIAR o sono →
+  L  38 [pivo clinico            ] dificuldade para MANTER o sono (acorda várias vezes) → droga de meia-vida mais longa (zolpidem CR,
+  L  41 [pivo clinico            ] em idosos — benzodiazepínicos e compostos Z ficam reservados para as últimas opções, por
+  L  42 [pivo clinico            ] dependência, tolerância e parassonias.
+  L  46 [palavras-ancora         ] higiene do sono · insônia primária × secundária · compostos Z · agentes melatoninérgicos ·
+  L  60 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  61 [dados de precisao       ] |---|---|---|---|
+  L  65 [dados de precisao       ] | Melatonina / Ramelteon — meia-vida | 1–3h; agem em receptores MT1/MT2; ramelteon com evidência mais consistente que melatonina | FAMENE (A') + Karen (B) | CONFIRMADO |
+  L  68 [dados de precisao       ] | Antagonistas H1 (difenidramina, dimenidrinato, prometazina) — meia-vida | 6–8h; efeitos anticolinérgicos importantes | FAMENE (A') + Karen (B) | CONFIRMADO |
+  L  97 [conduta                 ] reservados para uso pontual e curto prazo.
+  L  98 [conduta                 ] - Condição da conduta: insônia secundária exige tratar a causa de base antes/junto do hipnótico.
+  L  99 [conduta                 ] - Diferencial perigoso: uso crônico de benzodiazepínico/composto Z → dependência, tolerância,
+  L 100 [conduta                 ] sonambulismo/parassonias, potencialização com álcool.
+  L 101 [conduta                 ] - O que mudaria a decisão: dificuldade em iniciar × manter o sono muda a meia-vida do fármaco
+  L 102 [conduta                 ] escolhido; idade avançada favorece antidepressivo sedativo sobre benzodiazepínico/composto Z.
+  L 118 [cards minimos           ] | Frente | Verso | Tipo |
+  L 119 [cards minimos           ] |---|---|---|
+  L 130 [revisao                 ] antidepressivos (doses se sobrepõem entre os temas).
+  L 132 [revisao                 ] fenótipo (iniciar × manter o sono) e citar de cabeça as doses hipnóticas de doxepina, trazodona e
+  L 133 [revisao                 ] mirtazapina.
+====================================================================================================
+capsules/EISM/risco_de_suicidio.md
+  L  24 [conceito operacional min] Suicídio = ato deliberado, consciente e intencional, executado pelo próprio indivíduo, com meio que acredita ser letal, cuja intenção é a morte. O comportamento suicida é um espect
+  L  28 [pivo clinico            ] Perguntar sobre suicídio **nunca induz** o comportamento — é a via correta de avaliação (conhecimento geral, reforçado pela forma como a fonte trata o tema). Avaliar risco exige ca
+  L  45 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  46 [dados de precisao       ] |---|---|---|---|
+  L  48 [dados de precisao       ] | Conduta por risco | Baixo: acolhimento + vínculo + identificação de TM / Médio: acolhimento + reforçar fatores de proteção + atendimento do TM / Alto: não fica sozinho, cuidado c
+  L  50 [dados de precisao       ] | Principal fator de risco modificável | presença de transtorno mental (9 em cada 10 pessoas que morrem por suicídio tinham transtorno mental diagnosticável) | 4_Emergências p.46 |
+  L  51 [dados de precisao       ] | % que nunca procurou saúde mental | 50–60% das pessoas que se suicidaram nunca consultaram profissional de saúde mental | Emergências psiquiátricas (texto); Mariah_Carvalho | CON
+  L  52 [dados de precisao       ] | Diferença por sexo | tentativa mais comum em mulheres; suicídio completo mais comum em homens | 4_Emergências p.45 | CONFIRMADO |
+  L  72 [conduta                 ] - Inicial: acolhimento empático, avaliar intencionalidade perguntando diretamente (não induz), estratificar risco (ideação, plano, método, acesso ao meio, tentativa prévia, suporte
+  L  73 [conduta                 ] - Definitiva: conforme o estrato — baixo: acolhimento/vínculo/identificar TM; médio: reforçar fatores de proteção + tratar o TM; alto: não deixar sozinho, retirar acesso a meios le
+  L  76 [conduta                 ] - O que mudaria a decisão: plano estruturado + acesso ao meio letal + tentativa prévia escalam para risco alto e internação; suporte familiar/social forte pode permitir manejo ambu
+  L  88 [cards minimos           ] | Frente | Verso | Tipo |
+  L  89 [cards minimos           ] |---|---|---|
+  L  90 [cards minimos           ] | Perguntar sobre suicídio induz o ato? | Não — nunca induz | pegadinha |
+  L  91 [cards minimos           ] | Critérios avaliados no risco | Ideação, plano, método, acesso ao meio, tentativa prévia, suporte | dado |
+  L  93 [cards minimos           ] | Comorbidade que mais aumenta risco | Depressão + alcoolismo | dado |
+  L  99 [revisao                 ] - Critério de parada: classificar corretamente risco baixo/médio/alto em 3 vinhetas seguidas e escolher a conduta certa por estrato.
+====================================================================================================
+capsules/OSCE/osce_endocrinologia.md
+  L  24 [a estacao               ] - **Tarefa:** a partir do caso clínico e da ectoscopia/exame físico descritos ou visíveis na cabine, reconhecer a síndrome endócrina, descrever os achados de exame físico esperados
+  L  25 [a estacao               ] - **Tempo:** não informado nas fontes.
+  L  26 [a estacao               ] - **Ator/paciente:** caso clínico com descrição de ectoscopia (ex.: fácies cushingoide, estrias violáceas) — o achado pode vir descrito no texto ou colado como imagem/figura na cab
+  L  27 [a estacao               ] - **Material:** exames laboratoriais já com resultado disponível na cabine (ex.: PSA, USGTR, TSH/T4L, PAAF), conforme o caso.
+  L  28 [a estacao               ] - **Critério do checklist (inferido):** nomear a hipótese, descrever cada achado de ectoscopia visível (não só citar o diagnóstico), indicar o exame confirmatório correto (não qual
+  L  32 [pivo clinico            ] O pivô é a **direção do eixo hormonal**: cortisol alto + ACTH alto = hipófise; cortisol alto + ACTH baixo/normal = adrenal. TSH baixo + T4L alto = hipertireoidismo primário; TSH al
+  L  36 [palavras-ancora         ] Ectoscopia · TSH/T4L · ACTH · cortisol pós-dexametasona · PAAF · TIRADS · Bethesda-like (critérios de PAAF) · IGF-1 · agonista dopaminérgico · cirurgia transesfenoidal (CTE).
+  L  50 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  51 [dados de precisao       ] |---|---|---|---|
+  L  56 [dados de precisao       ] | Diagnóstico de hipertireoidismo | TSH reduzido + T4L aumentado (clínico); TSH reduzido + T4L normal (subclínico); TSH e T4L aumentados (central, sugere adenoma hipofisário produt
+  L  60 [dados de precisao       ] | Coma mixedematoso — achados | hipoglicemia, rebaixamento do nível de consciência, depressão respiratória, hipotensão + bradicardia, hipotermia, hiponatremia | OSCE - ENDOCRINOLOG
+  L  64 [dados de precisao       ] | Etiologia do Cushing pela dupla ACTH/cortisol | cortisol alto + ACTH alto = origem hipofisária (Doença de Cushing) · cortisol alto + ACTH baixo/normal = origem adrenal (adenoma) 
+  L  65 [dados de precisao       ] | Tratamento do Cushing | cirurgia (CTE, adenomectomia transesfenoidal) = 1ª escolha, melhora em 2-12 meses · cetoconazol = medicamentoso, casos graves/sem remissão · radioterapia 
+  L  89 [conduta                 ] - Inicial: nomear a síndrome (não o fármaco) a partir do quadro clínico + ectoscopia.
+  L 103 [cards minimos           ] | Frente | Verso | Tipo |
+  L 104 [cards minimos           ] |---|---|---|
+  L 105 [cards minimos           ] | ACTH alto + cortisol alto = origem? | Hipofisária (Doença de Cushing) | fato |
+  L 106 [cards minimos           ] | ACTH baixo/normal + cortisol alto = origem? | Adrenal (adenoma) | fato |
+  L 108 [cards minimos           ] | Quando tratar hipotireoidismo com TSH entre 5 e 10? | Se sintomático, doença cardíaca, jovem ou grávida — senão, só reavaliar | regra |
+  L 109 [cards minimos           ] | 1ª escolha de tratamento em Cushing, prolactinoma e acromegalia hipofisários | Cirurgia transesfenoidal (CTE) | fato |
+  L 115 [revisao                 ] - Critério de parada: quando conseguir, sem consultar a fonte, nomear a síndrome, o exame confirmatório correto e a 1ª linha de tratamento para os 5 quadros (DM, nódulo, hiper/hipo
+====================================================================================================
+capsules/OSCE/osce_banco_de_estacoes.md
+  L  26 [estacao 1 — neurologia: ] - **Caso:** paciente de 24 anos, vítima de queda de bicicleta, GCS 15 na chegada, sem déficit focal. Refere 1 episódio de vômito no trajeto e cefaleia que não melhora com analgésic
+  L  27 [estacao 1 — neurologia: ] - **Comando 1:** classifique o risco deste TCE.
+  L  30 [estacao 1 — neurologia: ] - **Gabarito/checklist:** (1) risco **moderado** — vômito e cefaleia progressiva sem melhora já preenchem o critério, mesmo com GCS 15 e sem déficit focal; (2) TC de crânio + obser
+  L  34 [estacao 2 — urologia: co] - **Caso:** homem, 45 anos, dor lombar em cólica há 6h, sem febre, TC sem contraste mostra cálculo de 0,9cm em ureter proximal, sem hidronefrose.
+  L  35 [estacao 2 — urologia: co] - **Comando 1:** qual o exame padrão-ouro para o diagnóstico (já realizado neste caso)?
+  L  36 [estacao 2 — urologia: co] - **Comando 2:** este cálculo tem indicação de eliminação espontânea?
+  L  42 [estacao 3 — pediatria: a] - **Caso:** RN a termo, líquido amniótico meconial espesso, nasce chorando e com bom tônus.
+  L  43 [estacao 3 — pediatria: a] - **Comando 1:** o aspecto do líquido meconial muda a conduta inicial?
+  L  46 [estacao 3 — pediatria: a] - **Gabarito sintético de treino:** (1) IG seleciona o algoritmo; vitalidade usa
+  L  47 [estacao 3 — pediatria: a] respiração/choro + tônus; (2) se boa vitalidade, rotina/pele a pele e clampeamento
+  L  52 [estacao 4 — pediatria: c] - **Caso:** menino, 7 anos, asmático conhecido, chega com sibilância, uso de musculatura acessória, SatO2 92%, consciente e orientado.
+  L  53 [estacao 4 — pediatria: c] - **Comando 1:** qual a 1ª linha de tratamento farmacológico?
+  L  54 [estacao 4 — pediatria: c] - **Comando 2:** se não houver resposta adequada na 1ª hora, qual o próximo passo?
+  L  55 [estacao 4 — pediatria: c] - **Comando 3:** este paciente tem indicação de antibiótico de rotina?
+  L  56 [estacao 4 — pediatria: c] - **Gabarito sintético de treino:** (1) SABA + O2 titulado + corticoide sistêmico
+  L  57 [estacao 4 — pediatria: c] precoce; adicionar ipratrópio pela gravidade; (2) SpO2 92% exige tratamento e
+  L  58 [estacao 4 — pediatria: c] reavaliação, não VNI automática; (3) antibiótico não é rotina sem evidência
+  L  59 [estacao 4 — pediatria: c] bacteriana. *Overlay GINA 2026, crianças 6–11 anos.*
+  L  63 [estacao 5 — urologia: tr] - **Caso:** vítima de acidente automobilístico, consciente, PAS 110x70 (estável), equimose em flanco esquerdo, hematúria macroscópica discreta.
+  L  64 [estacao 5 — urologia: tr] - **Comando 1:** a intensidade da hematúria é proporcional à gravidade da lesão renal?
+  L  65 [estacao 5 — urologia: tr] - **Comando 2:** qual o exame de escolha neste paciente (estável)?
+  L  66 [estacao 5 — urologia: tr] - **Comando 3:** cite 2 critérios que indicariam tratamento cirúrgico em vez de conservador.
+  L  71 [estacao 6 — neurologia: ] - **Caso:** paciente encontrado inconsciente na rua, sem testemunha, sem documentos. GCS 7. Pupilas isocóricas e fotorreagentes.
+  L  73 [estacao 6 — neurologia: ] - **Comando 2:** o achado pupilar (isocórica e fotorreagente) sugere que tipo de etiologia?
+  L  79 [pivo clinico            ] O pivô comum às 6 estações não é o diagnóstico — é a **precisão do comando**: cada estação tem pelo menos 1 comando desenhado para testar se o candidato lê a pergunta exata (ex.: "
+  L  95 [dados de precisao       ] Todos os dados clínicos usados nas 6 estações já estão verificados nível 1 nas tabelas "Dados de precisão" de `osce_neurologia.md`, `osce_urologia.md` e `osce_pediatria.md` (mesmas
+  L 117 [conduta                 ] - Condição da conduta: cada estação tem seu próprio corte/critério objetivo — não existe "resposta padrão" que sirva para todas; a variável decisiva muda a cada cabine.
+  L 119 [conduta                 ] - O que mudaria a decisão: o verbo do comando (classifique / cite / qual a conduta / qual o exame) decide o formato exato da resposta esperada.
+  L 127 [cards minimos           ] | Frente | Verso | Tipo |
+  L 128 [cards minimos           ] |---|---|---|
+  L 130 [cards minimos           ] | A intensidade da hematúria é proporcional à gravidade do trauma renal? | Não | fato |
+  L 132 [cards minimos           ] | O aspecto do líquido amniótico muda a decisão inicial da reanimação neonatal? | Não — só as 3 perguntas (IG, respira/chora, tônus) decidem | regra |
+  L 133 [cards minimos           ] | Antibiótico de rotina na crise asmática pediátrica? | Não — só com forte suspeita de infecção bacteriana | regra |
+  L 137 [revisao                 ] - Revisar quando: na semana antes do OSCE, rodando as 6 estações cronometradas (2-3 min cada), sempre comando por comando.
+  L 138 [revisao                 ] - Critério de parada: quando conseguir responder as 6 estações completas, sem sobre-elaborar nenhum comando e sem trocar o exame padrão-ouro de nenhuma delas, em menos de 15 minuto
+====================================================================================================
+capsules/OSCE/osce_urologia.md
+  L  25 [a estacao               ] - **Tempo:** não informado nas fontes disponíveis.
+  L  27 [a estacao               ] - **Material:** resultado de USGTR, PSA, USG de vias urinárias ou TC de abdome já disponível na cabine, conforme o caso.
+  L  51 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  52 [dados de precisao       ] |---|---|---|---|
+  L  53 [dados de precisao       ] | Litíase — dor por localização | JUP: dor lombar/flanco · ureter médio: dor lombar/flanco + irradiação para testículo/lábios vaginais ipsilaterais · JVU: dor em baixo ventre + pol
+  L  54 [dados de precisao       ] | Sinal de Giordano | punho-percussão em T12; positivo sugestivo de pielonefrite | `OSCE .pdf`, ~p.20 / `OSCE - UROLOGIA.pdf` | CONFIRMADO |
+  L  55 [dados de precisao       ] | Diagnóstico de litíase | padrão-ouro: TC sem contraste; USG mostra cálculos hiperecogênicos com sombra acústica posterior; EAS pode mostrar hematúria/cristais/infecção | `OSCE .p
+  L  67 [dados de precisao       ] | HPB — armazenamento predominante e disfunção erétil | queixa de armazenamento sem glaucoma de ângulo estreito: associar anticolinérgico/antimuscarínico (solifenacina/oxibutinina)
+  L  70 [dados de precisao       ] | Câncer de próstata — quadro clínico | geralmente assintomático/oligossintomático (zona periférica, distante da uretra); pode haver obstrução infravesical súbita, hematúria macros
+  L  71 [dados de precisao       ] | Rastreio de câncer de próstata | todos os homens a partir de 50 anos; antecipar para 45 anos se fator de risco (sobrepeso/obesidade, raça negra, história familiar) | `FACILITA OS
+  L  72 [dados de precisao       ] | Biópsia prostática — técnica | guiada por USG transretal; mínimo de 12 fragmentos (2 por sextante) | `OSCE .pdf`, ~p.28 / `OSCE - UROLOGIA.pdf` | CONFIRMADO |
+  L  76 [dados de precisao       ] | Trauma urogenital — epidemiologia geral | trato urogenital acometido em ~10% dos traumas abdominais; 90% fechados; rim é o órgão mais acometido (80% das lesões contusas) | `FACIL
+  L  79 [dados de precisao       ] | Trauma de bexiga | 10% das fraturas pélvicas; extraperitoneal é mais comum; intraperitoneal → laparotomia + rafia; extraperitoneal → sonda vesical de demora por 10 dias | `OSCE .
+  L  81 [dados de precisao       ] | Câncer renal — tríade clássica | hematúria + dor lombar + massa palpável em flanco | `OSCE .pdf`, ~p.36 | CONFIRMADO |
+  L 121 [cards minimos           ] | Frente | Verso | Tipo |
+  L 122 [cards minimos           ] |---|---|---|
+  L 125 [cards minimos           ] | Zona da próstata acometida por HPB × câncer de próstata | HPB = zona de transição/periuretral; câncer = zona periférica | fato |
+  L 128 [cards minimos           ] | Paciente de trauma hemodinamicamente instável: qual exame primeiro? | USG FAST (não TC) — se líquido livre, laparotomia exploradora | sequência |
+  L 134 [revisao                 ] - Critério de parada: quando conseguir, dado um caso de sintoma urinário ou hematúria, decidir corretamente entre HPB, câncer de próstata, litíase e câncer renal só pelos achados o
+====================================================================================================
+capsules/OSCE/osce_neurologia.md
+  L  25 [a estacao               ] - **Tempo:** não informado nas fontes disponíveis.
+  L  26 [a estacao               ] - **Ator/paciente:** caso clínico escrito; o exame físico na cabine de neurologia costuma ser pobre ou já descrito no próprio caso ("na cabine de neurologia, o exame físico pode se
+  L  27 [a estacao               ] - **Material:** resultado de TC de crânio (com ou sem contraste, conforme o caso) já disponível na cabine quando o comando pedir interpretação de imagem.
+  L  51 [dados de precisao       ] | Dado | Valor | Fonte (página) | Status |
+  L  52 [dados de precisao       ] |---|---|---|---|
+  L  62 [dados de precisao       ] | AIT — conduta | avaliar risco de desenvolver AVC em 48h (fonte não especifica o instrumento formal de estratificação, ex. ABCD2) | `FACILITA OSCE (1).pdf`, ~p.13 | confirmar no s
+  L  65 [dados de precisao       ] | Tríade clássica de HSA | cefaleia holocraniana súbita e intensa + síncope + rigidez de nuca | `OSCE .pdf`, ~p.8 / `FACILITA OSCE (1).pdf`, p.5 | CONFIRMADO |
+  L  72 [dados de precisao       ] | Estratificação de risco do TCE | baixo (assintomático/cefaleia leve) → observação domiciliar · moderado (perda de consciência, cefaleia progressiva sem melhora, convulsão pós-tra
+  L  73 [dados de precisao       ] | Hematoma extradural | aspecto biconvexo na TC; lesão arterial; rapidamente fatal; conduta = cirurgia imediata; pupila fixa e dilatada — a fonte cita "bilateral", mas o ensino pad
+  L  74 [dados de precisao       ] | Hematoma subdural | aspecto côncavo na TC; hemorragia venosa; conduta = cirurgia precoce | `OSCE .pdf`, ~p.11 / `OSCE - NEUROLOGIA.pdf` | CONFIRMADO |
+  L  75 [dados de precisao       ] | Pupilas no coma/TCE | puntiformes = lesão de ponte · mediofixas = lesão de tronco cerebral · anisocóricas = possível herniação uncal · isocóricas e fotorreagentes = etiologia tóx
+  L 102 [conduta                 ] - Condição da conduta: o tempo de início dos sintomas muda inteiramente a conduta do AVCi mesmo com clínica idêntica; a presença de sinal de herniação (pupila anisocórica, RNC prog
+  L 103 [conduta                 ] - Diferencial perigoso: hematoma extradural rapidamente fatal exige contato neurocirúrgico imediato; sinais de HIC (cefaleia + vômitos + papiledema + RNC) numa hemorragia intrapare
+  L 115 [cards minimos           ] | Frente | Verso | Tipo |
+  L 116 [cards minimos           ] |---|---|---|
+  L 118 [cards minimos           ] | Só a partir de que exame se define isquêmico × hemorrágico? | TC de crânio sem contraste (nunca só pela clínica) | regra |
+  L 120 [cards minimos           ] | Tríade clássica de HSA | Cefaleia súbita e intensa + síncope + rigidez de nuca | fato |
+  L 121 [cards minimos           ] | Aspecto do hematoma extradural × subdural na TC | Extradural = biconvexo (lente); Subdural = côncavo | sinal-achado |
+  L 123 [cards minimos           ] | 3 níveis de risco do TCE e a conduta de cada um | Baixo → observação domiciliar; Moderado (perda de consciência/cefaleia progressiva/vômitos/sinal de Battle) → TC + observação; A
+  L 125 [cards minimos           ] | Antídotos usados empiricamente no coma | Naloxona (opioides) e flumazenil (benzodiazepínicos) | fato |

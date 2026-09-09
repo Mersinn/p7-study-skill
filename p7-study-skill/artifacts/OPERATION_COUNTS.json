@@ -1,0 +1,94 @@
+{
+  "operations": [
+    {
+      "count": 42,
+      "observed_labels": [
+        "aplicar critério"
+      ],
+      "operation_id": "apply_criterion"
+    },
+    {
+      "count": 21,
+      "observed_labels": [
+        "conduta definitiva"
+      ],
+      "operation_id": "conduta_definitiva"
+    },
+    {
+      "count": 17,
+      "observed_labels": [
+        "diferenciar proximos",
+        "diferenciar próximos"
+      ],
+      "operation_id": "differentiate_close_alternatives"
+    },
+    {
+      "count": 16,
+      "observed_labels": [
+        "conduta inicial"
+      ],
+      "operation_id": "conduta_inicial"
+    },
+    {
+      "count": 13,
+      "observed_labels": [
+        "reconhecer diagnóstico"
+      ],
+      "operation_id": "reconhecer_diagnostico"
+    },
+    {
+      "count": 10,
+      "observed_labels": [
+        "comparar função"
+      ],
+      "operation_id": "comparar_funcao"
+    },
+    {
+      "count": 10,
+      "observed_labels": [
+        "interpretar imagem/ecg/l"
+      ],
+      "operation_id": "interpretar_imagem_ecg_l"
+    },
+    {
+      "count": 7,
+      "observed_labels": [
+        "melhor exame"
+      ],
+      "operation_id": "melhor_exame"
+    },
+    {
+      "count": 5,
+      "observed_labels": [
+        "identificar complicacao",
+        "identificar complicação"
+      ],
+      "operation_id": "identificar_complicacao"
+    },
+    {
+      "count": 5,
+      "observed_labels": [
+        "reconhecer contraindicac",
+        "reconhecer contraindicaç"
+      ],
+      "operation_id": "reconhecer_contraindicac"
+    },
+    {
+      "count": 4,
+      "observed_labels": [
+        "priorizar emergência"
+      ],
+      "operation_id": "priorizar_emergencia"
+    },
+    {
+      "count": 2,
+      "observed_labels": [
+        "exame inicial"
+      ],
+      "operation_id": "exame_inicial"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "source": "p7_source_pack/00_MAPA_OPERACAO_MOVIMENTO.md#banco-de-itens-dissecados",
+  "taxonomy_rows": 152
+}

@@ -3,7 +3,24 @@
 Como decidir em que fonte confiar, quanto confiar, e o que dizer quando a fonte
 não sustenta a afirmação.
 
-## 1. A regra que governa tudo
+## 1. As duas perguntas que governam tudo
+
+Cada afirmação deve responder separadamente:
+
+1. **Alinhamento curricular:** isto consta no material/prova do P7?
+2. **Vigência clínica:** isto continua correto para cuidado clínico na data da revisão?
+
+`CONFIRMADO` significa apenas **transcrição/alinhamento curricular conferido**. Não
+significa que uma dose, janela, contraindicação ou algoritmo antigo permanece
+clinicamente vigente. Para conduta, use os estados canônicos de
+`states.clinical_validity` — `current`, `pending`, `historical_only`, `conflict`,
+`quarantined` — e registre o claim crítico no registry canônico
+`registry/clinical_claims.jsonl` (view: `artifacts/CLINICAL_CLAIMS.csv`).
+
+Não existe `references/CLINICAL_CLAIM_REGISTRY.csv` e o validador do pacote trata
+sua presença como erro (`SECOND_MANUAL_REGISTRY`): um segundo registry manual
+seria uma segunda verdade. Claim crítico **ausente** do registry vale como
+`pending`, não como vigente — ver `MEDICAL_SAFETY_LAYER.md` §3.1.
 
 > Nunca afirme que algo "está no material" sem poder apontar o `source_id`.
 
@@ -17,12 +34,16 @@ Fingir cobertura é a única falha inaceitável desta skill.
 
 ## 2. As camadas de autoridade do acervo P7
 
-O acervo P7 tem 423 fontes indexadas. Elas **não** têm o mesmo peso.
+O universo operacional de fontes é derivado de
+`p7_source_pack/00_SOURCE_MANIFEST.csv` e publicado em
+`artifacts/METRICS.json` como `manifest_rows` e `unique_ids`. Não use contagem
+histórica de arquivos brutos como sinônimo desses universos. As fontes **não**
+têm o mesmo peso.
 
 | Camada | O que é | Autoridade |
 |---|---|---|
-| **A** | slide da aula do professor | **máxima** — é o que foi ensinado e é o que cai |
-| **A′** | artigo, diretriz e referência bibliográfica indicada (Riella, Jones/AHA, DBHA, tratados, guias de bolso) | **alta** — é a fonte que o professor cita e o gabarito segue |
+| **A** | slide da aula do professor | máxima para alinhamento curricular; não é autoridade de vigência clínica |
+| **A′** | artigo, diretriz e referência bibliográfica indicada ou fonte oficial atual auditada | alta quando versão, data, população e localizador são verificáveis |
 | **B** | apostila e resumos de turma (APOSTILA SA II, RESUmed, Resumos/) | média |
 | **C** | prova antiga e devolutiva | evidência de **cobrança**, nunca autoridade médica |
 
@@ -30,24 +51,34 @@ Consequências operacionais:
 
 - Camada B é **esqueleto**, não veredito. Onde existir A ou A′ para o tema, ela
   confirma e corrige a B.
-- Divergência A × B → prevalece **A**. Divergência A × A′ → declare as duas e diga
-  qual o professor segue, se souber; a diretriz vence em ponto de conduta, o slide
-  vence em "o que cai".
+- Divergência A × B → prevalece **A** somente para "o que foi ensinado".
+- Divergência A × fonte clínica oficial atual → preserve A em painel explícito
+  `Para a prova/material histórico`; use a fonte clínica atual em `Prática clínica
+  atual`. Nunca funda os dois valores numa resposta única.
+- Para vigência clínica, prefira fonte regulatória/nacional ou diretriz oficial
+  atual e aplicável à população; depois evidência primária; depois protocolo local.
+  Material curricular antigo não desempata conduta.
 - Anotação manuscrita é do **aluno**, não do professor. Se for usada, rotule.
 - Camada C nunca vira autoridade médica. Responde "como cai", não "o que é verdade".
 
 ## 2.1 Slides fotografados — método, não lamento
 
-99 das 423 fontes não têm camada de texto. A maioria são **slides do professor
-fotografados da tela do projetor** em sala.
+Parte das fontes não tem camada de texto. A disponibilidade vigente de
+`corpus_text` e `vision_png` é publicada em `artifacts/METRICS.json`; não infira
+presença pelo tipo da fonte. Muitas são **slides do professor fotografados da
+tela do projetor** em sala.
 
 Isso **não** os torna ilegíveis nem de segunda classe. Eles são densos e são
 cruciais — continuam sendo camada A. Significa apenas que o acesso a eles é por
 **leitura visual da página renderizada**, não por extração de texto.
 
-Como trabalhar com eles:
+Como trabalhar com eles quando `vision_png` estiver realmente disponível:
 
-- as páginas estão pré-renderizadas em `vision_png/<source_id>/pNNN.png`;
+- antes de abrir qualquer página, confirme que `vision_png/<source_id>/` existe;
+- se a camada ou o diretório do `source_id` faltar, use imediatamente
+  `metadata_only_do_not_claim_inspection`, sem tentar caminho inexistente e sem
+  alegar inspeção visual;
+- quando disponível, as páginas ficam em `vision_png/<source_id>/pNNN.png`;
 - leia a página como imagem e transcreva o que está escrito, com fidelidade a
   números, unidades, critérios e tabelas;
 - descreva em palavras o que é visual (fluxograma, algoritmo, esquema, imagem
@@ -69,8 +100,9 @@ Todo `source_id` carrega um `tipo_fonte`:
 - `MISTA` — texto parcial; parte do conteúdo só existe em imagem.
 - `ESCANEADA` — sem camada de texto útil; o `.txt` vem vazio ou com lixo.
 
-Para `MISTA` e `ESCANEADA`, o conteúdo real só é acessível por **visão** sobre
-`vision_png/<source_id>/pNNN.png`.
+Para `MISTA` e `ESCANEADA`, o conteúdo real só é acessível por **visão** quando
+`vision_png/<source_id>/pNNN.png` existir. Na ausência da camada, preserve apenas
+metadados e marque a obtenção da fonte como pendência.
 
 Regra dura: **nunca descreva o conteúdo de uma fonte ESCANEADA a partir do `.txt`.**
 Aquele texto é catálogo grosso — serve para saber que o arquivo existe e talvez de
@@ -129,3 +161,21 @@ Não interrompa o estudo por fonte fraca. Interrompa a **afirmação de precisã
 - contar duplicata como evidência independente;
 - promover `forca_fonte` para deixar o mapa bonito;
 - citar `source_id` que não existe no manifesto.
+- usar `CONFIRMADO` como sinônimo de "clinicamente atual";
+- apresentar como oficial uma rubrica OSCE, peso, item "imperdoável" ou gabarito
+  reconstruído pelo gerador sem checklist aplicado e localizador verificável;
+- importar recomendação de outra jurisdição sem nomear a jurisdição e conferir
+  sua aplicabilidade local.
+
+## 9. Contrato mínimo para claim clínico crítico
+
+Dose, concentração, corte, janela, contraindicação, emergência, sequência
+terapêutica e algoritmo dependente de diretriz exigem: `claim_id`, população,
+contexto, fonte, versão/data, localizador, status de vigência, revisor e estado da
+revisão independente. Fonte externa oficial é permitida e necessária quando o
+acervo não sustenta vigência; ela deve ser citada como **overlay clínico**, nunca
+como se fizesse parte do material do professor.
+
+Sem esses campos, a cápsula pode ensinar o dado como histórico/curricular, mas
+deve marcar a conduta `CURRENT_PENDING` ou `QUARANTINED` e abster-se de aplicá-la
+a um caso real.

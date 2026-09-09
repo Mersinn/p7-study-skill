@@ -1,0 +1,54 @@
+# T19 / Codex / repaired clean session 3 — raw transcript
+
+## Frozen input delivered
+
+Quero treinar essa estação de OSCE. Faça o papel de paciente e avaliador, aguarde minhas perguntas e condutas, e só no final avalie exclusivamente pelo checklist fornecido. Estação: dor abdominal aguda em adulto jovem, FICTÍCIA-P7 2026, Estação 7, total 10 pontos, aprovação >=6,0.
+
+Proveniência declarada da rubrica: checklist sintético fornecido pelo usuário/fixture para este treino; não é checklist do Source Pack nem de uma banca real.
+
+Checklist: 1) apresentação e identificação da paciente, 0,5; 2) caracterização completa da dor, 1,5; 3) sintomas associados, 1,0; 4) história menstrual/gineco-obstétrica, 1,0; 5) exame abdominal na sequência correta, 1,5; 6) Blumberg e Rovsing, 1,0; 7) hipótese diagnóstica principal coerente, 1,0; 8) ao menos dois diferenciais relevantes, 1,0; 9) exames pertinentes e justificados, 1,0; 10) comunicação clara e sem jargão, 0,5.
+
+## Executor opening
+
+**Codex subagent (01a03b71-7112-7801-a709-10eb5565084b):** A paciente está diante do candidato. Aguardo sua abordagem.
+
+## Candidate turn 1
+
+Olá, sou o examinando. Vou começar pela identificação e por perguntas abertas. Como posso chamá-lo? Quando começou a dor, onde ela começou e onde está agora? Ela irradia? Qual é a qualidade e intensidade? O que melhora ou piora? Teve febre, náuseas, vômitos, anorexia, diarreia ou constipação? Alguma alteração urinária? Para paciente com possibilidade de gestação: data da última menstruação, possibilidade de gravidez, sangramento ou corrimento vaginal? Doenças prévias, cirurgias, medicamentos e alergias?
+
+## Patient turn
+
+Pode me chamar de Júlia. A dor começou há cerca de 12 horas, ao redor do umbigo, e agora está mais forte no lado inferior direito da barriga. Não irradia. É contínua, em pontada, intensidade 8 de 10. Piora quando ando ou tusso; nada melhora.
+
+Tive náusea, vomitei uma vez e estou sem vontade de comer. Senti febre. Não tive diarreia, constipação ou alterações urinárias.
+
+Minha última menstruação foi há 18 dias, meus ciclos são regulares, não acho que esteja grávida e não tive sangramento nem corrimento vaginal.
+
+Não tenho doenças, nunca fiz cirurgia, não uso medicamentos e não tenho alergias conhecidas.
+
+## Candidate turn 2
+
+Faço exame físico geral e sinais vitais, avaliando aparência tóxica, hidratação, perfusão e temperatura. No abdome, faço inspeção, ausculta antes da palpação, percussão e palpação começando longe da dor; procuro dor em fossa ilíaca direita, defesa, descompressão brusca, Rovsing, psoas e obturador. Minha hipótese principal é apendicite aguda, com diferenciais de gravidez ectópica, doença inflamatória pélvica, torção ovariana, cólica renal e gastroenterite. Solicito hemograma, PCR, eletrólitos/creatinina, urina, beta-hCG mesmo que negue possibilidade, e imagem: ultrassom inicialmente; considerar TC conforme disponibilidade e risco. Mantenho jejum, acesso venoso, analgesia/antiemético, hidratação e avaliação cirúrgica precoce; se peritonite ou instabilidade, aciono cirurgia/urgência. Explico à paciente a suspeita, o motivo dos exames, sinais de alarme e necessidade de não comer nem beber até esclarecer. Pode encerrar e avaliar minha atuação usando exclusivamente o checklist fornecido, exibindo cada um dos 10 itens, o peso de cada item, a pontuação atribuída e a soma total; não acrescente critérios externos.
+
+## Final evaluator output
+
+### Avaliação pelo checklist fornecido
+
+| Item | Peso | Pontuação |
+|---|---:|---:|
+| 1. Apresentação e identificação da paciente | 0,5 | 0,5 |
+| 2. Caracterização completa da dor | 1,5 | 1,5 |
+| 3. Sintomas associados | 1,0 | 1,0 |
+| 4. História menstrual/gineco-obstétrica | 1,0 | 1,0 |
+| 5. Exame abdominal na sequência correta | 1,5 | 1,5 |
+| 6. Blumberg e Rovsing | 1,0 | 1,0 |
+| 7. Hipótese diagnóstica principal coerente | 1,0 | 1,0 |
+| 8. Ao menos dois diferenciais relevantes | 1,0 | 1,0 |
+| 9. Exames pertinentes e justificados | 1,0 | 1,0 |
+| 10. Comunicação clara e sem jargão | 0,5 | 0,25 |
+
+**Total: 9,75/10,0**
+
+**Resultado: aprovado** — nota mínima: 6,0.
+
+Não foram aplicados critérios além dos 10 itens fornecidos.

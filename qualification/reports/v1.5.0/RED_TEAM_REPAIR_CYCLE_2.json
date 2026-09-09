@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "cycle": 2,
+  "reviewed_snapshot": "14dba38f9804f12b8a1bae90f51815d6e00c46f5",
+  "reviewer": {
+    "surface": "Codex",
+    "requested_model": "gpt-5.6-sol",
+    "reasoning_effort": "xhigh",
+    "exact_serving_version": "not_exposed",
+    "session": "independent_projectless_task",
+    "thread_id": "01a05583-c4f0-7b61-9d2a-dc88cfc3f0e1"
+  },
+  "original_targets": {
+    "pass_repaired": [
+      "rt:63a1404ccd33b041",
+      "rt:563716bd3363541c",
+      "rt:e20918c62314dfc0",
+      "rt:e39103eef6285086",
+      "rt:d2dcf367c09f87df",
+      "rt:1e9eb274f4b39f11"
+    ],
+    "fail": ["rt:ea2613b03215af88"]
+  },
+  "structural_claim": {
+    "claim_id": "claim:asth.severity-oxygen",
+    "statement": "PASS_REPAIRED",
+    "locator": "FAIL",
+    "finding": "Box 9-6 is on physical PDF page 187 with printed footer 186, not 185."
+  },
+  "recurrence_review": [
+    {"target": "coma_e_rebaixamento_do_nivel_de_consciencia.md", "specific_fix": "PASS_REPAIRED", "result": "FAIL", "finding": "B-only apnea-test and brain-death protocol remained active."},
+    {"target": "osce_neurologia.md", "specific_fix": "PASS_REPAIRED", "result": "FAIL", "finding": "B-only acute neurology algorithms and automatic GCS airway rule remained active."},
+    {"target": "ansioliticos_e_hipnoticos.md", "specific_fix": "PASS_REPAIRED", "result": "FAIL", "finding": "B-only fixed benzodiazepine duration and taper remained active."},
+    {"target": "osce_pediatria.md", "specific_fix": "INCONCLUSIVE", "result": "FAIL", "finding": "Old asthma sequence, wrong age-specific fluid formula and obsolete neonatal stopping rule remained active."}
+  ],
+  "remaining": {
+    "p0": 3,
+    "p1": 5
+  },
+  "decision": "FAIL",
+  "repair_commit": "pending",
+  "next_action": "Apply the second and final repair cycle, then run a targeted independent verification only on these dependencies."
+}

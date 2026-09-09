@@ -1,0 +1,188 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://p7-study.local/schemas/v1/learner-event.schema.json",
+  "title": "LearnerEvent",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "event_id", "learner_id", "occurred_at", "event_type", "interaction_id", "payload", "previous_hash", "record_hash"],
+  "$defs": {
+    "event_id": {"type": "string", "pattern": "^event:[a-z0-9._:-]+$"},
+    "operation_id": {
+      "enum": [
+        "OP_RECOGNIZE_DIAGNOSIS",
+        "OP_INITIAL_MANAGEMENT",
+        "OP_DEFINITIVE_MANAGEMENT",
+        "OP_INITIAL_EXAM",
+        "OP_BEST_EXAM",
+        "OP_DIFFERENTIATE",
+        "OP_IDENTIFY_COMPLICATION",
+        "OP_APPLY_CRITERION",
+        "OP_PRIORITIZE_EMERGENCY",
+        "OP_INTERPRET_IMAGE_ECG_LABS",
+        "OP_RECOGNIZE_CONTRAINDICATION",
+        "OP_COMPARE_FUNCTION"
+      ]
+    },
+    "inference_scope": {
+      "enum": ["curricular_performance", "clinical_current_practice", "reasoning_operation", "none"]
+    },
+    "observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "initial_answer": {"type": ["string", "null"]},
+        "final_answer": {"type": ["string", "null"]},
+        "changed_answer": {"type": ["boolean", "null"]},
+        "raw_justification": {"type": ["string", "null"]},
+        "learner_confidence_before_feedback": {"enum": [0, 25, 50, 75, 100, null]},
+        "answer_correct": {"type": ["boolean", "null"]},
+        "hint_exposure": {"enum": ["none", "non_decisive", "decisive", "unknown"]},
+        "metacognitive_validity": {
+          "enum": ["full_validity", "partial_validity", "minimal_validity", "zero_cognitive_validity", "conflicting_markers", "insufficient_evidence", "technical_session"]
+        },
+        "transfer": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["is_transfer", "independent", "contamination_reasons"],
+          "properties": {
+            "is_transfer": {"type": "boolean"},
+            "independent": {"type": "boolean"},
+            "contamination_reasons": {
+              "type": "array",
+              "items": {"enum": ["content_gap", "guess", "decisive_hint", "invalid_item", "feedback_leakage", "other"]},
+              "uniqueItems": true
+            }
+          },
+          "allOf": [
+            {
+              "if": {"required": ["independent"], "properties": {"independent": {"const": true}}},
+              "then": {"properties": {"contamination_reasons": {"maxItems": 0}}}
+            }
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {"required": ["changed_answer"], "properties": {"changed_answer": {"const": true}}},
+          "then": {
+            "required": ["initial_answer", "final_answer"],
+            "properties": {
+              "initial_answer": {"type": "string", "minLength": 1},
+              "final_answer": {"type": "string", "minLength": 1}
+            }
+          }
+        }
+      ]
+    }
+  },
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "event_id": {"$ref": "#/$defs/event_id"},
+    "learner_id": {"type": "string", "minLength": 1},
+    "occurred_at": {"type": "string", "format": "date-time"},
+    "event_type": {"enum": ["confidence_recorded", "answer_submitted", "feedback_shown", "review_completed", "note_recorded", "transfer_observed", "correction_recorded"]},
+    "interaction_id": {"type": "string", "minLength": 1},
+    "capsule_id": {"type": ["string", "null"]},
+    "concept_id": {"type": ["string", "null"]},
+    "assessment_evidence_id": {"type": ["string", "null"], "pattern": "^assessment:[a-z0-9._:-]+$"},
+    "operation_id": {
+      "anyOf": [
+        {"$ref": "#/$defs/operation_id"},
+        {"type": "null"}
+      ]
+    },
+    "inference_scope": {"$ref": "#/$defs/inference_scope"},
+    "observation": {
+      "anyOf": [
+        {"$ref": "#/$defs/observation"},
+        {"type": "null"}
+      ],
+      "description": "Observed learner production only; inferred movement belongs in learner-hypothesis."
+    },
+    "parent_event_id": {"anyOf": [{"$ref": "#/$defs/event_id"}, {"type": "null"}]},
+    "supersedes_event_id": {"anyOf": [{"$ref": "#/$defs/event_id"}, {"type": "null"}]},
+    "review_task_id": {"type": ["string", "null"]},
+    "payload": {
+      "type": "object",
+      "description": "Legacy/open event payload retained for append-only ledger compatibility. New observed fields should use observation."
+    },
+    "previous_hash": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+    "record_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "allOf": [
+    {
+      "if": {"required": ["previous_hash"], "properties": {"previous_hash": {"type": "null"}}},
+      "then": {"properties": {"parent_event_id": {"type": "null"}}},
+      "else": {
+        "required": ["parent_event_id"],
+        "properties": {"parent_event_id": {"$ref": "#/$defs/event_id"}}
+      }
+    },
+    {
+      "if": {
+        "required": ["event_type", "observation"],
+        "properties": {
+          "event_type": {"const": "answer_submitted"},
+          "observation": {"type": "object"}
+        }
+      },
+      "then": {
+        "properties": {
+          "observation": {
+            "required": ["final_answer"],
+            "properties": {"final_answer": {"type": "string", "minLength": 1}}
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "required": ["event_type", "observation"],
+        "properties": {
+          "event_type": {"const": "confidence_recorded"},
+          "observation": {"type": "object"}
+        }
+      },
+      "then": {
+        "properties": {
+          "observation": {
+            "required": ["learner_confidence_before_feedback"],
+            "properties": {"learner_confidence_before_feedback": {"enum": [0, 25, 50, 75, 100]}}
+          }
+        }
+      }
+    },
+    {
+      "if": {"required": ["event_type"], "properties": {"event_type": {"const": "transfer_observed"}}},
+      "then": {
+        "required": ["assessment_evidence_id", "operation_id", "review_task_id", "observation"],
+        "properties": {
+          "assessment_evidence_id": {"type": "string"},
+          "operation_id": {"$ref": "#/$defs/operation_id"},
+          "review_task_id": {"type": "string", "minLength": 1},
+          "observation": {
+            "type": "object",
+            "required": ["transfer"],
+            "properties": {
+              "transfer": {
+                "type": "object",
+                "properties": {"is_transfer": {"const": true}}
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {"required": ["event_type"], "properties": {"event_type": {"const": "correction_recorded"}}},
+      "then": {
+        "required": ["parent_event_id", "supersedes_event_id"],
+        "properties": {
+          "parent_event_id": {"$ref": "#/$defs/event_id"},
+          "supersedes_event_id": {"$ref": "#/$defs/event_id"},
+          "previous_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+        }
+      }
+    }
+  ]
+}

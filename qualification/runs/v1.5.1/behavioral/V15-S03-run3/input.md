@@ -1,0 +1,1 @@
+Estou revisando intoxicação por lítio. Explique de forma direta o que vale hoje sobre indicação de terapia extracorpórea e sobre carvão ativado. Se o material da aula e a prática atual tiverem estados diferentes, separe os dois sem transformar a resposta inteira em um aviso.

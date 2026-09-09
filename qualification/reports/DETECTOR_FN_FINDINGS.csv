@@ -1,0 +1,15 @@
+capsule_path,line_no,claim_missed,root_cause,fixed_in_v1_2
+capsules/CASOS_CLINICOS/cirrose_hepatica_ascite_pbe.md,54,"Tratamento da PBE: ceftriaxona ou amoxicilina+clavulanato",sem numero/unidade na linha (nome de droga sem dose),True
+capsules/CASOS_CLINICOS/cirrose_hepatica_ascite_pbe.md,105,"Tratamento empirico da PBE: ceftriaxona ou amoxicilina+clavulanato",duplicata do acima,True
+capsules/EISA_II/esclerose_multipla_e_doencas_desmielinizantes.md,52,"Duracao minima de um surto: 24 horas",frase tabular sem padrao de janela reconhecido,True
+capsules/EISA_II/esclerose_multipla_e_doencas_desmielinizantes.md,107,"Duracao minima para caracterizar um surto: 24 horas",duplicata do acima,True
+capsules/EISA_II/diabetes_mellitus_conceito_classificacao_diagnostico.md,56,"Regra de confirmacao diagnostica: repetir teste exceto TOTG/hiperglicemia comprovada",sem termo-gatilho reconhecido,parcial (revisado; nao adicionado termo especifico)
+capsules/EISA_II/doencas_da_orelha_externa.md,77,"Nunca realizar lavagem em suspeita de perfuracao de MT",verbo 'realizar' fora da lista de contraindicacao,True
+capsules/EISA_II/doencas_da_orelha_externa.md,94,"Nao usar pinca para corpo estranho duro/pontiagudo do CAE",resposta 'Nao' isolada sem verbo-gatilho na mesma linha,parcial (nao adicionado)
+capsules/EISCA/parasitoses_intestinais.md,117,"Encefalopatas/hepatopatas evitam albendazol",forma verbal conjugada (evitam) fora do regex 'evitar',True
+capsules/EISCA/assistencia_rn_sala_parto_reanimacao_neonatal.md,59,"VPP: pressao inicial 20-30 cmH2O e PEEP 5 cmH2O",unidade cmH2O ausente do vocabulario,True
+capsules/EISM/transtornos_alimentares.md,99,"Internacao e obrigatoria se qualquer um dos 8 criterios estiver presente",frase partida por quebra de linha markdown (critérios de\ninternação) + categoria internacao_alta nao era critica,True (join de janela + categoria promovida)
+capsules/OSCE/osce_urologia.md,71,"Rastreio de cancer de prostata a partir de 50 anos (45 com fator de risco)",frase de corte por idade sem padrao 'a partir de N anos',True
+capsules/OSCE/osce_urologia.md,79,"Trauma de bexiga extraperitoneal: sonda vesical de demora por 10 dias",padrao de duracao 'por N dias' ausente,True
+capsules/OSCE/osce_neurologia.md,62,"AIT: avaliar risco de AVC em 48h",padrao 'em N h' ausente,True
+capsules/OSCE/osce_neurologia.md,73,"Hematoma extradural e rapidamente fatal, cirurgia imediata",sinonimo 'rapidamente fatal' ausente da lista de emergencia,True

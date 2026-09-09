@@ -1,0 +1,21 @@
+{
+  "run_id": "run:Codex:T22:1:2026-08-24",
+  "test_id": "T22",
+  "surface": "Codex",
+  "executor": "Codex Desktop disposable task",
+  "session_id": "01a0342c-868f-7e82-bb56-88bad4949eb4",
+  "model_surface_version": "GPT-5 / Codex Desktop; exact version not exposed",
+  "skill_snapshot_sha": "1fe3c5c1f6176e1c0ceb77c4f6900e2975bdbade",
+  "fixture_path": "qualification/fixtures/behavioral/F-LEDGER/ledger_scenario.md",
+  "fixture_sha256": "62a435b691b7d9b515174cf1ff5f20eee06196e0d705e838e6c342b2ac8ebaf5",
+  "fixture_state_sha256": "b3b49c3fe597190b6b521006fc89744c31499dbc47c22e159f89d705bbd6032c",
+  "input_sha256": "fb7e5b100b079e1066ccc0cb96aebf79757e2f356d28e528f7aa07463e2b45e6",
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "prompt_sent": "Voltei para revisar. O que está pendente pra mim hoje?",
+  "raw_file": "run1_raw.md",
+  "raw_sha256": "012f42dbb13c9d3ea1cfe752f933879925baf7ea3571f906c611b739d97e0a4e",
+  "adjudication": "INCONCLUSIVE",
+  "adjudication_basis": "O ledger foi carregado, mas a fixture exige relógio depois de 2026-08-27; a sessão Codex rodou em 2026-08-24 e corretamente viu a tarefa como futura. Não se pode adjudicar retomada vencida nem confirmar novo evento."
+}

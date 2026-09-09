@@ -74,6 +74,79 @@ latência de efeito × expectativa do paciente · desmame e retirada.
 
 ## 3. Hierarquia de resposta
 
+Antes desta hierarquia, consulte o registry canônico
+`registry/clinical_claims.jsonl` (view legível: `artifacts/CLINICAL_CLAIMS.csv`).
+Não existe `references/CLINICAL_CLAIM_REGISTRY.csv`; o pacote **proíbe** esse
+arquivo, porque um segundo registry manual seria uma segunda verdade.
+
+O estado que governa conduta é `states.clinical_validity`, com os valores
+canônicos do schema: `current`, `pending`, `historical_only`, `conflict`,
+`quarantined`. Os rótulos antigos `CURRENT_VERIFIED` / `CURRENT_PENDING` /
+`CONFLICT` / `QUARANTINED` são legados de leitura; nas cápsulas eles ainda
+aparecem embutidos na coluna Status dos Dados de precisão e devem ser lidos como
+`current` / `pending` / `conflict` / `quarantined`.
+
+Regras:
+
+- `current` — pode aparecer como prática vigente.
+- `pending`, `conflict`, `quarantined`, `historical_only` — exigem separação
+  explícita, checagem em fonte oficial atual, ou abstenção do detalhe.
+- `CONFIRMADO` na cápsula prova apenas que a **transcrição/alinhamento
+  curricular** foi conferida. Nunca promova `CONFIRMADO` a vigência clínica.
+
+### 3.1 Claim crítico ausente do registry — o caso majoritário
+
+O registry cobre hoje uma fração pequena das afirmações críticas do pacote
+(inventário determinístico em `qualification/reports/CLINICAL_SWEEP_REPORT.md`).
+Ausência do registry **não** é `current` e **não** é permissão para asserir.
+Trate claim crítico não registrado como `pending`:
+
+- pode ser estudado e apresentado como **conteúdo curricular** — "segundo o
+  material/a prova do P7" — porque é isso que ele comprovadamente é;
+- **não** pode ser apresentado como conduta clínica vigente sem sinalização;
+- em dose, concentração, via, dose máxima, contraindicação, interação, janela
+  temporal e emergência, a sinalização é **obrigatória e explícita**: diga que o
+  dado vem do material curricular e não foi verificado em fonte vigente, ou
+  abstenha-se do número;
+- nunca invente a verificação. Não diga "conferido na diretriz" sem ter aberto a
+  diretriz nesta sessão.
+- quando o usuário pedir **prática atual** e o número exato não estiver
+  registrado, a resposta não termina apenas em abstenção ou “procure um médico”:
+  abra uma fonte oficial atual se a superfície permitir; se não permitir, nomeie
+  a fonte oficial necessária e peça que o usuário a forneça/autorize, ou ofereça
+  explicitamente verificá-la. Inclua na resposta uma ação concreta, por exemplo:
+  `Fonte atual necessária: diretriz oficial da sociedade/autoridade aplicável;
+  envie o documento ou autorize a consulta e eu verifico o número.` Referência
+  genérica a “médico” ou “protocolo vigente” não substitui essa ação. Não forneça
+  o número antes da checagem.
+
+Fingir que o registry cobre algo que ele não cobre é exatamente a falha que esta
+camada existe para impedir.
+
+**Quarentena não apaga o currículo.** Um claim `pending`, `historical_only`,
+`conflict` ou `quarantined` continua estudável no painel "segundo a aula/material"
+e pode ser cobrado em item cujo `answer_key_scope` seja explicitamente
+`curricular`. Ele fica bloqueado apenas para promoção a prática atual. Se o item
+perguntar conduta vigente, esse claim torna a chave parcial/ambígua/insuficiente
+e a tentativa não pode alimentar o Pattern Analyzer como erro clínico do aluno.
+Contrastes aula × diretriz atual são conteúdo pedagógico valioso; mostre ambos e
+declare qual escopo está sendo testado.
+
+### 3.2 Recuperação de quarentena não é promoção automática
+
+Abrir uma diretriz que menciona o tema ou o fármaco não muda o estado do claim.
+Para promover um claim crítico a `current` no pacote, a revisão offline deve
+confirmar **o enunciado exato**, população, cenário, jurisdição, versão/data e
+localizador da fonte; registrar o tipo e a identidade real da revisão
+independente; persistir a transição no registry canônico; e reconciliar/validar os
+artefatos. Correspondência parcial mantém `pending`/`quarantined`.
+
+Durante uma conversa, uma fonte oficial aberta pode sustentar uma resposta atual
+com citação e contexto, mas não reescreve nem “desquarentena” o registry. Se o
+claim exato não foi confirmado, mantenha a separação curricular/histórica ou
+abstenha-se do detalhe. Nunca use um claim vizinho para liberar dose, corte,
+sequência, contraindicação ou janela temporal.
+
 ### A. Base suficiente
 Responda direto · explique o pivô clínico · aponte a conduta principal · mostre a
 pegadinha · não peça validação externa desnecessária.
@@ -91,6 +164,17 @@ Escolha alternativa quando houver base · explique por que a correta é correta 
 por que as **perigosas** estão erradas · só declare ambiguidade se houver de fato.
 
 ## 4. Estrutura operacional
+
+### 4.0 Precedência no estudo ativo
+
+Em contexto educacional estável, esta camada não abre o portão de revelação antes
+da tentativa. Segurança clínica governa a correção e o conteúdo pós-tentativa;
+`ACTIVE_STUDY_QUESTION_FIRST.md` governa a primeira intervenção. Portanto, um
+pedido amplo como “quero estudar [tema de alto risco]” não autoriza citar nome de
+tratamento, fármaco, dose, corte ou sequência correta no preâmbulo. Faça uma
+pergunta segura e não aplicada. Exceção: se a mensagem descreve emergência real
+ou pede orientação assistencial imediata, priorize segurança da pessoa e
+não transforme o caso em quiz.
 
 Em conduta de alto risco, use os eixos que forem relevantes:
 
@@ -129,6 +213,28 @@ conduta inicial isolada.
 trombólise, janela estendida por neuroimagem e trombectomia. Sempre exclua
 hemorragia por imagem antes de trombolisar. Não use "iniciar AAS" como conduta
 que substitui a avaliação de reperfusão.
+
+**Reanimação neonatal.** Use a Diretriz SBP 2026 adequada à idade gestacional.
+Boa vitalidade é respiração/choro e tônus flexor; prematuridade isolada não é a
+terceira resposta negativa do algoritmo. Inicie VPP no primeiro minuto se
+apneia/respiração irregular ou FC <100 após passos iniciais; 30–60 ventilações/min.
+Não mantenha números de 2016 como prática atual.
+
+**Estado de mal epiléptico.** Benzodiazepínico é a fase inicial, mas a fase
+estabelecida não é uma fila obrigatória fenitoína → fenobarbital. Levetiracetam,
+valproato e fosfenitoína/fenitoína são alternativas dependentes do contexto e
+protocolo. Estado refratário exige UTI, via aérea e EEG contínuo; não invente uma
+sequência anestésica universal.
+
+**Asma pediátrica.** SABA, oxigênio quando indicado e corticoide sistêmico nos
+casos além dos mais leves são tratamentos concorrentes, não degraus que obrigam
+esperar falha do SABA. SpO2 baixa isoladamente não indica VNI nem IOT. Não use
+fenoterol, nebulização ou sulfato de magnésio como regra universal sem formulação,
+idade, gravidade e protocolo atuais.
+
+**Intoxicação por lítio.** Use critérios EXTRIP, sintomas, função renal, cinética
+esperada e rebote; não aplique apenas cortes antigos de litemia. Carvão ativado
+não adsorve lítio.
 
 **Meningite bacteriana.** Antibiótico (± corticoide) **não espera** punção lombar
 nem TC quando há suspeita e sinal de gravidade. Não escreva "colher líquor e
@@ -185,12 +291,27 @@ Versão corrigida:
 ```
 
 Regras: não encha bloco vazio com enrolação · se está correto, diga que está
-correto · ajuste de linguagem é ajuste de precisão, não erro grave · use primeiro
-o Source Pack e o contexto · não cite fonte específica que não esteja no contexto ·
-só peça conferência externa quando houver risco real, conflito ou dependência de
-protocolo.
+correto · ajuste de linguagem é ajuste de precisão, não erro grave · use o Source
+Pack para alinhamento curricular e fontes oficiais atuais para vigência clínica ·
+registre URL/versão/data/localizador do overlay · só peça conferência externa
+quando houver risco real, conflito ou dependência de protocolo.
 
-## 8. Preservação do comportamento forte
+## 8. Gate de liberação clínica
+
+- `reviewed_l2` pode resultar de extração cega por um segundo revisor/agente
+  separado; isso melhora a independência da conferência, mas **não equivale** a
+  revisão humana nem a validação por clínico.
+- Um gerador/LLM nunca deve ser descrito como revisor humano.
+- Claims P0/P1 exigem fonte oficial atual e o tipo real de revisão independente
+  registrado. Revisão clínica humana é um gate adicional desejável antes do uso
+  assistencial, não um bloqueio para publicar material educacional honestamente
+  rotulado.
+- Após duas tentativas sem resolver divergência: `CONFLICT` ou `QUARANTINED`, sem
+  nova geração especulativa.
+- Release pode preservar o conteúdo curricular em painel histórico, mas não pode
+  alegar 100% de validade clínica enquanto houver claim crítico não rastreável.
+
+## 9. Preservação do comportamento forte
 
 Esta camada **não** enfraquece: comando da questão · pivô clínico · palavra-âncora ·
 distrator sedutor · pegadinha · regra de prova · falso domínio · erro cognitivo ·

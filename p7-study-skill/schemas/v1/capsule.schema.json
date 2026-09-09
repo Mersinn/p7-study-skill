@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://p7-study.local/schemas/v1/capsule.schema.json",
+  "title": "Capsule",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "capsule_id", "path", "title", "discipline", "unit", "priority", "risk", "states"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "capsule_id": {"type": "string", "pattern": "^capsule:[a-z0-9_]+:[a-z0-9_]+$"},
+    "path": {"type": "string", "pattern": "^capsules/.+\\.md$"},
+    "title": {"type": "string", "minLength": 1},
+    "discipline": {"enum": ["EISA_II", "EISCA", "EISM", "CASOS_CLINICOS", "OSCE", "CROSS_CURRICULAR"]},
+    "unit": {"enum": ["UNIT_1", "UNIT_2", "UNIT_3", "UNIT_4", "UNASSIGNED"]},
+    "priority": {"enum": ["high", "medium", "low", "unscored"]},
+    "priority_assessment_id": {"type": ["string", "null"]},
+    "risk": {"enum": ["high", "medium", "low"]},
+    "aliases": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "source_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "states": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["transcription", "curricular_alignment", "clinical_validity", "self_review_l1", "independent_review"],
+      "properties": {
+        "transcription": {"enum": ["pending", "confirmed", "conflict", "quarantined"]},
+        "curricular_alignment": {"enum": ["pending", "confirmed", "conflict", "quarantined"]},
+        "clinical_validity": {"enum": ["pending", "current", "historical_only", "conflict", "quarantined"]},
+        "self_review_l1": {"enum": ["pending", "completed"]},
+        "independent_review": {"enum": ["not_reviewed", "reviewed_l2"]}
+      }
+    }
+  }
+}

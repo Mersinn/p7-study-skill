@@ -1,0 +1,71 @@
+{
+  "canonical_evidence_registry": {
+    "claims_by_validity": {
+      "conflict": 1,
+      "current": 34,
+      "quarantined": 17
+    },
+    "clinical_claims": 52,
+    "source_versions": 26,
+    "sources": 26
+  },
+  "capsules": {
+    "baseline_before_recovery": 156,
+    "by_discipline": {
+      "CASOS_CLINICOS": 15,
+      "EISA_II": 74,
+      "EISCA": 38,
+      "EISM": 24,
+      "OSCE": 7
+    },
+    "by_review_status": {
+      "reviewed_l1": 150,
+      "reviewed_l2": 8
+    },
+    "by_risk": {
+      "high": 105,
+      "low": 10,
+      "medium": 43
+    },
+    "bytes": 2164567,
+    "net_recovered_since_baseline": 2,
+    "source_count_policy": "any named match level identifies a referenced document only; levels are not evidence of equivalent reliability or clinical support",
+    "source_reference_levels": {
+      "resolved:exact": 130,
+      "resolved:folded": 1,
+      "resolved:placeholder": 2,
+      "resolved:stem": 42,
+      "unresolved_source_reference": 26
+    },
+    "total": 158,
+    "without_resolved_source_id": 26
+  },
+  "operation_taxonomy": {
+    "canonical_operations": 12,
+    "taxonomy_rows": 152
+  },
+  "precision_provenance": {
+    "ambiguous": 33,
+    "declared_no_source": 24,
+    "resolved:exact": 75,
+    "resolved:placeholder": 5,
+    "resolved:stem": 245,
+    "unresolved_source_reference": 2010
+  },
+  "precision_rows": 2392,
+  "runtime_source_availability": {
+    "corpus_text": {
+      "availability": "absent",
+      "behavior": "metadata_only_do_not_claim_inspection"
+    },
+    "vision_png": {
+      "availability": "absent",
+      "behavior": "metadata_only_do_not_claim_inspection"
+    }
+  },
+  "schema_version": "1.0.0",
+  "sources": {
+    "manifest_rows": 354,
+    "unique_ids": 354
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "run:Codex:T20:repair_materialized:3:2026-08-25",
+  "test_id": "T20",
+  "surface": "Codex",
+  "executor": "multi_agent_v1__spawn_agent",
+  "agent_id": "01a03920-1917-7dd3-b916-76a7e7452b25",
+  "model_surface_version": "Codex subagent default; exact model alias/version not exposed by executor API",
+  "runtime_version": "Codex Desktop multi_agent_v1",
+  "skill_snapshot_sha": "434c51b8b892790f10b04624eee02a22ef4f6fce",
+  "fixture_path": "qualification/fixtures/behavioral/F-DERIVED-OSCE/station.md",
+  "fixture_sha256": "d0d8e88c5a7c23ee01daf5feaa67ca98b563aedbd723a4818d0068a3d002736f",
+  "allowed_execution_file": "qualification/fixtures/behavioral/execution_payloads/F-DERIVED-OSCE_items.md",
+  "allowed_execution_file_sha256": "f5860c593c46ec5a8f5c2f14ee4916510c1887cb8898420322f26defd97740c4",
+  "input_sha256": "c6e678909988863876c03e6874fcc2e00abbeea8aa645cb5e3832bc1b3789ef4",
+  "new_session": true,
+  "history_inherited": false,
+  "prior_history_supplied": false,
+  "skill_delivery": "installed skill plus effective OSCE reference; allowed payload contained station and learner response only, without rubric/adjudication",
+  "raw_file": "run3_raw.md",
+  "raw_sha256": "702a0f650ad2599af8967767904da8c1dcdac0fcd98db8f52d9452fd63ca4327",
+  "adjudication": "PASS",
+  "adjudication_basis": "Refused a numeric grade for a derived rubric, classified all three commands as cumpriu/parcial, and did not invent official weights or a safety-zero rule."
+}

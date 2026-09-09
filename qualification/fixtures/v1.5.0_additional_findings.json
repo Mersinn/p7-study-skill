@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "snapshot": "6fc906fdc2522c340a8d4f4c67a942f5c62433bb",
+  "findings": [
+    {"test_id": "V15-N01", "finding": "source_count_universes_423_vs_354", "observed": {"narrative": 423, "manifest_rows": 354, "unique_ids": 354}, "status": "repaired", "regression_test": "test_narrative_source_counts_use_named_canonical_universes"},
+    {"test_id": "V15-N02", "finding": "operation_count_33_vs_42", "observed": {"skill": 33, "operation_map": 42}, "status": "repaired", "regression_test": "test_operation_counts_are_derived_from_canonical_ids"},
+    {"test_id": "V15-N03", "finding": "vision_png_assumed_present", "observed": {"directory_present": false}, "status": "repaired", "regression_test": "test_vision_layer_is_checked_before_use"},
+    {"test_id": "V15-N04", "finding": "priority_formula_narrative_diverges", "observed": {"formula_version": "study-priority-v1"}, "status": "repaired", "regression_test": "test_priority_narrative_matches_versioned_formula"},
+    {"test_id": "V15-N05", "finding": "operation_aliases_fragment_counts", "observed": {"variants": ["diferenciar próximos", "diferenciar proximos"]}, "status": "repaired", "regression_test": "test_operation_aliases_resolve_to_one_canonical_id"},
+    {"test_id": "V15-N06", "finding": "precision_rows_missing_structured_source_ids", "observed": {"missing": 2317, "denominator": 2392}, "status": "repaired", "regression_test": "test_precision_rows_have_source_ids_or_explicit_unresolved_state"},
+    {"test_id": "V15-N07", "finding": "always_loaded_runtime_is_repetitive", "observed": {"skill_lines": 736, "skill_bytes": 37327}, "status": "open", "regression_test": "test_runtime_bundle_reduction_preserves_behavior"},
+    {"test_id": "V15-N08", "finding": "active_study_contracts_in_english", "observed": {"files": 2}, "status": "repaired", "regression_test": "test_active_study_contracts_are_portuguese_and_semantically_complete"},
+    {"test_id": "V15-N09", "finding": "critical_urgency_not_integrated_with_question_first", "observed": {"integration_test_present": false}, "status": "repaired", "regression_test": "test_critical_urgency_respects_explicit_fast_path_and_active_recall"},
+    {"test_id": "V15-N10", "finding": "mixed_markdown_line_endings", "observed": {"files": 31}, "status": "repaired", "regression_test": "test_markdown_line_endings_are_consistent"}
+  ]
+}

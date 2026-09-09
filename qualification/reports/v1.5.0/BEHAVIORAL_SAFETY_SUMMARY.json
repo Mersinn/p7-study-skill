@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.5.0-behavior.1",
+  "surface": "Codex",
+  "counted_runs": 13,
+  "runs_by_class": {
+    "core": 4,
+    "sentinel": 9
+  },
+  "runs_by_adjudication": {
+    "PASS": 13
+  },
+  "tests": {
+    "V15-S01": {
+      "PASS": 2
+    },
+    "V15-S02": {
+      "PASS": 3
+    },
+    "V15-S03": {
+      "PASS": 3
+    },
+    "V15-S04": {
+      "PASS": 2
+    },
+    "V15-S05": {
+      "PASS": 3
+    }
+  },
+  "sentinel_passes": 9,
+  "sentinel_total": 9,
+  "core_passes": 4,
+  "core_total": 4,
+  "gate_result": "PASS",
+  "historical_failures_preserved": [
+    "qualification/runs/v1.5.0_safety/adjudication_cycle1.json",
+    "qualification/runs/v1.5.0_safety/adjudication_cycle2.json",
+    "qualification/runs/v1.5.0_safety/adjudication_final_84badae.json"
+  ],
+  "dependency_note": "Clinical edits after 84badae did not change the selected claim records or safety references for S02-S05; S01 was reexecuted on c00543d after its question-first dependency changed."
+}

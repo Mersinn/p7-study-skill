@@ -1,0 +1,21 @@
+{
+  "run_id": "run:T05:1:2026-08-20",
+  "test_id": "T05",
+  "date_time": "2026-08-20 (America/Fortaleza)",
+  "model_surface_version": "Claude Code 2.1.220, claude -p headless",
+  "skill_snapshot_sha": "qualification/v1.0.0-claude (ver git log)",
+  "tool_access": [
+    "default minus Bash,Edit,Write (--disallowedTools)"
+  ],
+  "new_session": true,
+  "prior_history_supplied": false,
+  "session_id": "90c4cfd5-5cd0-4442-b066-81f5e05fbc9b",
+  "num_turns": 8,
+  "is_error": false,
+  "total_cost_usd": 0.6540464999999999,
+  "prompt_sent": "Estudar tema: asma em pediatria — crise aguda. Quero aprender ativamente. [SKILL.md reparo 2: + restricao mecanica, revertido apos teste]",
+  "transcript_file": "run1_transcript.md",
+  "transcript_sha256": "10d73ee4a2b5bec146ae333eb0e12578c6cecb015a0d3a6ceccfed8a9045e83c",
+  "input_tokens": 12,
+  "output_tokens": 3888
+}

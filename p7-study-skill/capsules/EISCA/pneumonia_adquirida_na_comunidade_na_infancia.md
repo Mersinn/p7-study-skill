@@ -15,6 +15,13 @@
 - Limitações da fonte: nenhuma relevante — slide nativo, texto legível e completo
 - Verificação nível 1: CONFIRMADO
 
+## Contrato de recuperação
+
+`answer_key_scope: curricular`; `clinical_validity_default: pending`. O slide
+do professor ancora o que cai, mas não prova vigência clínica. Cortes, doses,
+contraindicações e algoritmos só entram em resposta atual com claim `current`
+rastreável ou fonte oficial aberta; fora disso permanecem `QUARANTINED`.
+
 ## Como cai
 
 Item institucionalizado do banco: "qual a FR que classifica taquipneia/
@@ -36,14 +43,15 @@ respiratório; radiografia não é obrigatória para diagnóstico ambulatorial.
 O pivô é a FR ajustada por idade como sinal MAIS sensível e mais cobrado —
 não a ausculta (que pode ser normal ou inespecífica em lactentes). Um único
 sinal de gravidade (não a soma) já define a classificação mais grave
-(AIDPI/OMS: basta 1 sinal para "pneumonia grave"). Outro pivô: em <2 meses,
-QUALQUER pneumonia é considerada grave e exige internação — não existe
-"pneumonia leve ambulatorial" nessa faixa etária.
+(AIDPI/OMS: basta 1 sinal para "pneumonia grave"). O material também ensina
+uma regra absoluta para menores de 2 meses. Essa regra fica `QUARANTINED`:
+idade pequena eleva risco, mas não substitui avaliação e protocolo pediátrico
+vigente.
 
 ## Palavras-âncora
 
 FR por idade (<2m ≥60; 2m-1a ≥50; >1a ≥40); "basta 1 sinal"; SpO2 <92%;
-amoxicilina 1ª escolha; <2 meses = sempre grave; kernicterus/ceftriaxona em RN.
+esquemas e cortes etários do material = `QUARANTINED`; confirmar em fonte vigente.
 
 ## Operação × movimento
 
@@ -51,27 +59,34 @@ amoxicilina 1ª escolha; <2 meses = sempre grave; kernicterus/ceftriaxona em RN.
 |---|---|---|---|---|---|
 | aplicar critério | limiares de FR por faixa etária definem taquipneia/pneumonia: <2m ≥60 irpm; 2m-12m ≥50 irpm; >12m ≥40 irpm | limiar | factual | valor errado (trocar os cortes entre faixas etárias ou confundir com FR "normal") | card de tabela idade→FR, treinado com 5 casos variando só a idade em meses |
 | priorizar emergência | basta 1 sinal de gravidade para classificar como "pneumonia grave/doença muito grave" (AIDPI) | prioridade | operacional | fechamento precoce (somar sinais/exigir múltiplos critérios antes de classificar grave) | treino de 5 vinhetas com 1 único sinal de alarme isolado, forçando classificar pela maior gravidade presente |
-| conduta inicial | <2 meses = toda pneumonia é considerada grave, indicação de internação | limiar | operacional | superextrapolação (tratar lactente <2m ambulatorialmente por "quadro leve") | checklist fixo: idade <2 meses + diagnóstico de pneumonia → internar sempre, sem exceção clínica |
-| reconhecer contraindicação | ceftriaxona evitada em RN <28 dias (desloca bilirrubina, risco de kernicterus) — preferir cefotaxima | contraindicacao | factual | regra mal-aprendida (usar ceftriaxona como cefalosporina de 3ª geração "padrão" em qualquer neonato) | par opostos cefotaxima (preferida em RN) x ceftriaxona (evitar em RN <28d) |
-| conduta definitiva | falha terapêutica em 72h de amoxicilina → trocar por amoxicilina-clavulanato ou cefalosporina 2ª/3ª geração (<5a) | sequencia | operacional | definitiva antes da inicial (trocar antibiótico antes de completar o prazo de reavaliação) | treino de sequenciamento: iniciar amoxicilina → reavaliar em 72h → só então trocar se sem melhora |
+| reconhecer regra curricular sem promovê-la | material ensina "<2 meses = toda pneumonia grave/internar" | limiar | factual | transformar regra B-only em decisão atual absoluta | `answer_key_scope: curricular`; para prática atual, aplicar avaliação e protocolo pediátrico vigente |
+| reconhecer contraindicação curricular | o slide diferencia cefotaxima e ceftriaxona no neonato | contraindicacao | factual | promover regra farmacológica do slide a prática atual | manter no painel `QUARANTINED`; consultar fonte neonatal vigente |
+| reconhecer sequência curricular | o slide oferece prazo e troca antimicrobiana específicos | sequencia | factual | transformar algoritmo histórico em prática atual | treinar somente com `answer_key_scope: curricular`; para prática, reavaliar com fonte vigente |
 
 ## Dados de precisão
+
+### Painel curricular histórico
+
+`answer_key_scope: curricular`. Cortes e esquemas abaixo reproduzem o slide da
+faculdade. `CONFIRMADO` aqui significa alinhamento curricular, não vigência
+clínica. Em prática atual, não recuperar número, combinação ou regra absoluta
+sem claim `current` rastreável ou fonte oficial aberta.
 
 | Dado | Valor | Fonte (página) | Status |
 |---|---|---|---|
 | % das IRA que evoluem para pneumonia | 2-3% | PNEUMONIA COMUNITÁRIA.pdf, Introdução | CONFIRMADO |
-| FR de taquipneia — <2 meses | ≥60 irpm | PNEUMONIA COMUNITÁRIA.pdf, Diagnóstico clínico | CONFIRMADO |
-| FR de taquipneia — 2 a 12 meses | ≥50 irpm | PNEUMONIA COMUNITÁRIA.pdf, Diagnóstico clínico | CONFIRMADO |
-| FR de taquipneia — >12 meses | ≥40 irpm | PNEUMONIA COMUNITÁRIA.pdf, Diagnóstico clínico | CONFIRMADO |
-| Critério de internação por hipoxemia — <2 meses | SpO2 <92%, FR ≥70 irpm, cianose, apneia, gemido, incapacidade de se alimentar | PNEUMONIA COMUNITÁRIA.pdf, Classificação por faixa etária | CONFIRMADO |
-| Critério de internação por hipoxemia — 2m a 5a | SpO2 <92%, FR ≥50 irpm, cianose, gemido, sinais de desidratação | PNEUMONIA COMUNITÁRIA.pdf, Classificação por faixa etária | CONFIRMADO |
-| Indicação de UTI | SpO2 <92% com FiO2 >60%, hipotensão, falência respiratória, apneia recorrente | PNEUMONIA COMUNITÁRIA.pdf, Indicações de UTI | CONFIRMADO |
-| Antibiótico ambulatorial de 1ª escolha | amoxicilina 50 mg/kg/dia em 3 doses (ou 90 mg/kg/dia em 2 doses) | PNEUMONIA COMUNITÁRIA.pdf, Tratamento ambulatorial | CONFIRMADO |
-| Prazo para reavaliar falha terapêutica ambulatorial | febre persistente ou piora após 72h | PNEUMONIA COMUNITÁRIA.pdf, Tratamento ambulatorial | CONFIRMADO |
-| Esquema hospitalar <2 meses | penicilina cristalina/ampicilina + amicacina/gentamicina, ou ampicilina + cefalosporina de 3ª geração | PNEUMONIA COMUNITÁRIA.pdf, Tratamento medicamentoso | CONFIRMADO |
-| RN <28 dias — cefalosporina preferida | cefotaxima (não ceftriaxona, risco de deslocar bilirrubina/kernicterus) | PNEUMONIA COMUNITÁRIA.pdf, Tratamento medicamentoso | CONFIRMADO |
-| Esquema hospitalar >2 meses, casos muito graves | oxacilina + cloranfenicol ou ceftriaxona (cobertura p/ S. aureus/H. influenzae) | PNEUMONIA COMUNITÁRIA.pdf, Tratamento medicamentoso | CONFIRMADO |
-| SpO2 alvo com O2 suplementar hospitalar | manter entre 92% e 94%; suspender quando estável >92% em ar ambiente | PNEUMONIA COMUNITÁRIA.pdf, Conduta no hospital | CONFIRMADO |
+| FR de taquipneia — <2 meses | ≥60 irpm | PNEUMONIA COMUNITÁRIA.pdf, Diagnóstico clínico | QUARANTINED — alinhamento curricular; vigência não verificada |
+| FR de taquipneia — 2 a 12 meses | ≥50 irpm | PNEUMONIA COMUNITÁRIA.pdf, Diagnóstico clínico | QUARANTINED — alinhamento curricular; vigência não verificada |
+| FR de taquipneia — >12 meses | ≥40 irpm | PNEUMONIA COMUNITÁRIA.pdf, Diagnóstico clínico | QUARANTINED — alinhamento curricular; vigência não verificada |
+| Critério de internação por hipoxemia — <2 meses | SpO2 <92%, FR ≥70 irpm, cianose, apneia, gemido, incapacidade de se alimentar | PNEUMONIA COMUNITÁRIA.pdf, Classificação por faixa etária | QUARANTINED — alinhamento curricular; vigência não verificada |
+| Critério de internação por hipoxemia — 2m a 5a | SpO2 <92%, FR ≥50 irpm, cianose, gemido, sinais de desidratação | PNEUMONIA COMUNITÁRIA.pdf, Classificação por faixa etária | QUARANTINED — alinhamento curricular; vigência não verificada |
+| Indicação de UTI | SpO2 <92% com FiO2 >60%, hipotensão, falência respiratória, apneia recorrente | PNEUMONIA COMUNITÁRIA.pdf, Indicações de UTI | QUARANTINED — alinhamento curricular; vigência não verificada |
+| Regime ambulatorial ensinado no material | amoxicilina 50 mg/kg/dia em 3 doses (ou 90 mg/kg/dia em 2 doses) | PNEUMONIA COMUNITÁRIA.pdf, Tratamento ambulatorial | QUARANTINED — confirmação curricular; vigência/dose não verificadas |
+| Prazo para reavaliar falha terapêutica ambulatorial | febre persistente ou piora após 72h | PNEUMONIA COMUNITÁRIA.pdf, Tratamento ambulatorial | QUARANTINED — alinhamento curricular; vigência não verificada |
+| Esquema hospitalar <2 meses | penicilina cristalina/ampicilina + amicacina/gentamicina, ou ampicilina + cefalosporina de 3ª geração | PNEUMONIA COMUNITÁRIA.pdf, Tratamento medicamentoso | QUARANTINED — alinhamento curricular; vigência não verificada |
+| RN <28 dias — cefalosporina preferida | cefotaxima (não ceftriaxona, risco de deslocar bilirrubina/kernicterus) | PNEUMONIA COMUNITÁRIA.pdf, Tratamento medicamentoso | QUARANTINED — alinhamento curricular; vigência não verificada |
+| Esquema hospitalar >2 meses, casos muito graves | oxacilina + cloranfenicol ou ceftriaxona (cobertura p/ S. aureus/H. influenzae) | PNEUMONIA COMUNITÁRIA.pdf, Tratamento medicamentoso | QUARANTINED — alinhamento curricular; vigência não verificada |
+| SpO2 alvo com O2 suplementar hospitalar | manter entre 92% e 94%; suspender quando estável >92% em ar ambiente | PNEUMONIA COMUNITÁRIA.pdf, Conduta no hospital | QUARANTINED — alinhamento curricular; vigência não verificada |
 
 ## Pegadinhas
 
@@ -91,53 +106,47 @@ amoxicilina 1ª escolha; <2 meses = sempre grave; kernicterus/ceftriaxona em RN.
 |---|---|---|---|
 | "Ausculta normal descarta pneumonia" | reflexo de valorizar o exame físico pulmonar como principal | premissa não checada | em lactentes a semiologia pulmonar pode ser pobre; FR é o sinal mais sensível, não a ausculta |
 | "Somar 2-3 sinais de gravidade para classificar pneumonia grave" | hábito de "quanto mais sinais, mais grave" de outros escores | fechamento precoce/regra mal-aprendida | AIDPI: 1 único sinal já define a classificação de maior gravidade |
-| "Iniciar ceftriaxona em RN de 10 dias com pneumonia grave" | ceftriaxona é cefalosporina de 3ª geração "padrão" na cabeça do aluno | contraindicação ignorada | em RN <28 dias, ceftriaxona desloca bilirrubina das proteínas séricas — risco de kernicterus; usar cefotaxima |
-| "Trocar antibiótico no 2º dia por falta de melhora" | ansiedade por resposta clínica rápida | definitiva antes da inicial | reavaliação de falha terapêutica ambulatorial só é indicada após 72h de tratamento |
+| "Iniciar ceftriaxona em RN segundo a regra do slide" | parece uma regra farmacológica pronta | contraindicação ignorada | a distinção farmacológica do material é curricular `QUARANTINED`; prática atual exige fonte neonatal vigente |
+| "Trocar antibiótico cedo por falta de melhora" | ansiedade por resposta clínica rápida | definitiva antes da inicial | o prazo e a troca do slide são curriculares `QUARANTINED`; reavaliar clinicamente com protocolo vigente |
 
 ## Conduta
 
-- Inicial: classificar gravidade pela FR e sinais AIDPI/OMS (1 sinal define a
-  classificação mais grave); amoxicilina 50 mg/kg/dia (3x) ou 90 mg/kg/dia
-  (2x) para tratamento ambulatorial em >2 meses sem sinais de gravidade.
-- Definitiva: se falha em 72h sem complicação → trocar para amoxicilina-
-  clavulanato ou cefalosporina 2ª/3ª geração (<5 anos) ou claritromicina/
-  amoxicilina-clavulanato/cefalosporina (>5 anos). Hospitalar: <2 meses,
-  penicilina cristalina/ampicilina + aminoglicosídeo, ou ampicilina +
-  cefotaxima (preferir a ceftriaxona em RN <28d); casos muito graves >2 meses,
-  oxacilina + cloranfenicol ou cefalosporina de 3ª geração.
-- Condição da conduta: <2 meses = sempre grave = sempre internar,
-  independentemente da intensidade aparente do quadro.
+- Inicial: classificar gravidade pela FR, oxigenação, esforço, capacidade de
+  alimentação e sinais de perigo. Os esquemas/doses do material ficam em painel
+  curricular `QUARANTINED`; não prescrever como prática atual sem fonte pediátrica
+  vigente e contexto de idade, gravidade, resistência e protocolo local.
+- Definitiva curricular: esquemas de troca, combinação e duração permanecem
+  somente no painel histórico `QUARANTINED`. Não os repetir como algoritmo de
+  prática atual sem overlay pediátrico vigente.
+- Condição da conduta: idade pequena aumenta risco, mas internação depende da
+  avaliação clínica e do protocolo pediátrico vigente; não usar regra absoluta B-only.
 - Diferencial perigoso: derrame pleural, pneumatocele, abscesso — sinais
   radiológicos de complicação que indicam internação obrigatória mesmo sem
   outros critérios clínicos de gravidade.
-- O que mudaria a decisão: aparecimento de qualquer sinal isolado de
-  gravidade (SpO2 <92%, FR acima do limiar, gemido, cianose, incapacidade de
-  se alimentar, sinais de desidratação) já reclassifica o caso para
-  internação, mesmo que os demais parâmetros estejam normais.
+- O que mudaria a decisão: piora de oxigenação, esforço, alimentação, hidratação
+  ou estado geral aumenta urgência. Cortes exatos do slide ficam no painel
+  curricular e não são promovidos a decisão atual sem fonte vigente.
 
 ## Mini-casos ativos
 
-1. Lactente de 4 meses, tosse, sem esforço respiratório visível, FR medida em
-   54 irpm, SpO2 96%. Variável decisiva: FR ≥50 irpm na faixa 2m-12m já
-   define taquipneia/critério clínico de pneumonia pela AIDPI, mesmo sem
-   outros sinais.
-2. RN de 15 dias, pneumonia grave, indicação de internação. Variável
-   decisiva: idade <28 dias → preferir cefotaxima a ceftriaxona pelo risco de
-   kernicterus.
-3. Criança de 3 anos em amoxicilina há 4 dias, ainda febril, sem sinais
-   radiológicos de complicação. Variável decisiva: falha após 72h sem
-   complicação → trocar para amoxicilina-clavulanato ou cefalosporina de
-   2ª/3ª geração, não repetir amoxicilina nem aguardar mais.
+1. **Item curricular:** lactente de 4 meses, tosse e FR medida em 54 irpm.
+   Aplicar o corte ensinado no slide somente com `answer_key_scope: curricular`;
+   não tratá-lo como diagnóstico clínico atual sem fonte oficial vigente.
+2. Recém-nascido com suspeita de pneumonia e sinal de gravidade. Variável
+   decisiva: reconhecer alto risco e aplicar protocolo neonatal vigente; não
+   escolher cefalosporina pela regra curricular isolada.
+3. Criança em tratamento, ainda febril. Variável decisiva: reavaliar gravidade,
+   adesão, complicação e diagnóstico antes de trocar antimicrobiano; o algoritmo
+   temporal/farmacológico do slide é `QUARANTINED`.
 
 ## Cards mínimos
 
 | Frente | Verso | Tipo |
 |---|---|---|
-| FR de taquipneia por idade | <2m ≥60; 2m-12m ≥50; >12m ≥40 irpm | limiar |
-| Quantos sinais de gravidade AIDPI bastam para "pneumonia grave"? | 1 único sinal já classifica pela gravidade maior | limiar |
-| <2 meses com pneumonia — conduta? | Sempre grave, sempre internar | conduta |
-| RN <28 dias — cefalosporina de escolha | Cefotaxima (não ceftriaxona, risco de kernicterus) | contraindicação |
-| Prazo para reavaliar falha de amoxicilina ambulatorial | 72 horas | limiar |
+| Segundo o slide, quais os cortes de FR por idade? | <2m ≥60; 2m-12m ≥50; >12m ≥40 irpm — `answer_key_scope: curricular` | limiar curricular |
+| Segundo o slide, quantos sinais de gravidade bastam? | 1 sinal — resposta curricular; vigência clínica depende de fonte atual | limiar curricular |
+| A regra "<2 meses = sempre internar" pode ser aplicada como prática atual? | Não; é curricular `QUARANTINED`. Aplicar avaliação e protocolo vigente | limite de fonte |
+| Esquemas, contraindicações e prazo de troca do slide entram em prática atual? | Não sem claim `current` rastreável ou fonte oficial aberta | limite de fonte |
 
 ## Revisão
 

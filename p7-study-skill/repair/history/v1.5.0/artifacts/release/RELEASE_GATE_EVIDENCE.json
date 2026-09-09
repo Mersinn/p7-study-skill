@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "release": "1.5.0",
+  "generated_at": "2026-08-30T00:00:00-03:00",
+  "decision_contract": {"mechanical": "READY_FOR_RELEASE", "product": "READY_FOR_USER_REVIEW", "merge_tag_publish_authorized": false},
+  "surfaces": {
+    "Codex": {"status": "qualified", "behavioral_pass": 13, "behavioral_total": 13},
+    "Claude": {"status": "not_evaluated", "reason": "OAuth compatibility pending; excluded from Codex denominator"}
+  },
+  "metrics": {
+    "repository_tests": {"pass": 54, "total": 54},
+    "capsules": {"reconciled": 158, "total": 158},
+    "behavioral_codex": {"pass": 13, "total": 13, "sentinels": "9/9", "core": "4/4"},
+    "journeys_valid": {"pass": 9, "total": 9, "historical_inconclusive_excluded": 1},
+    "longitudinal_valid_clean_sessions": {"pass": 2, "total": 2, "session_b_events_before": 6, "session_b_events_after": 8},
+    "clinical_registry": {"current": 34, "quarantined": 17, "conflict": 1, "total": 52},
+    "current_claim_traceability": {"pass": 34, "total": 34},
+    "primary_occurrences_accounted": {"accounted": 3602, "total": 3602},
+    "high_risk_occurrences_accounted": {"accounted": 2817, "total": 2817},
+    "precision_rows": {"resolved": 75, "explicit_unresolved": 2317, "total": 2392},
+    "red_team_sample": {"rows": 37, "current": 10, "quarantined": 17, "conflict": 1, "historical": 3, "unregistered_pending": 6},
+    "red_team_material_repairs": {"pass": 7, "total": 7, "p0_open": 0, "p1_open": 0},
+    "runtime_bundles_reduced": {"pass": 6, "total": 6, "minimum_reduction_percent": 36.74, "maximum_reduction_percent": 60.57},
+    "release_gates": {"pass": 17, "total": 17}
+  },
+  "evidence_sources": [
+    "registry/release_gates.json",
+    "artifacts/METRICS.json",
+    "artifacts/CLINICAL_CLAIMS.csv",
+    "artifacts/PRECISION_ROWS.csv",
+    "qualification/reports/RED_TEAM_SAMPLE_SUMMARY.json",
+    "qualification/reports/v1.5.0/CURRENT_CLAIM_TRACEABILITY.json",
+    "qualification/reports/v1.5.0/INVENTORY_CLUSTERING_SUMMARY.json",
+    "qualification/reports/v1.5.0/RED_TEAM_FINAL_VERIFICATION.json",
+    "qualification/reports/RUNTIME_CONTEXT_v1.5.0.json"
+  ],
+  "limitations": [
+    "Inventory accounting is structural disposition, not deep clinical adjudication of every curricular statement.",
+    "Pending, quarantined and conflict content remains study-visible only under explicit labels and is blocked from current-practice retrieval.",
+    "Claude compatibility is not evaluated and is not included in the Codex denominator.",
+    "READY_FOR_RELEASE is a mechanical gate state; merge, tag and publication require the user's decision."
+  ]
+}

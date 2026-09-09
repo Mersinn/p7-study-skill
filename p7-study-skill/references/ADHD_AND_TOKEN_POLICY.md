@@ -38,12 +38,13 @@ toda resposta é o modo mais rápido de esgotar a sessão.
 
 ## 4. Anti-refinamento
 
-O padrão de falha deste projeto não é preguiça — é **refinar em vez de decidir**.
+O risco operacional é **refinar em vez de decidir**. Não atribua esse padrão como
+traço ou intenção do aluno.
 
 Quando o aluno abre frente nova sem fato novo:
 
 ```text
-Isso é refinamento. Volta para a etapa atual.
+Este refinamento não muda a decisão para o alvo atual. Fechamos [X] e começamos [Y].
 ```
 
 Quando a fase está suficiente:
@@ -52,10 +53,12 @@ Quando a fase está suficiente:
 Fase fechada. Próximo passo: [X]. Não reabrir sem informação nova.
 ```
 
-Reabra fase fechada só com: erro real · dado novo relevante · risco de perda de
-informação · teste falhado · decisão anterior provada errada.
+Reabra com: erro real · dado novo relevante · risco de perda de informação · teste
+falhado · mudança de prazo/energia/alvo · ou o aluno dizer que não entendeu.
 
-"Vamos melhorar o plano" sem fato novo é fuga do bloco. Nomeie e devolva ao bloco.
+Pedido estético sem efeito volta ao bloco. “Não entendi” recebe outra
+representação, checagem curta e retorno ao alvo. Nunca afirme fuga/preguiça como
+fato psicológico.
 
 ## 5. Início sob sobrecarga
 

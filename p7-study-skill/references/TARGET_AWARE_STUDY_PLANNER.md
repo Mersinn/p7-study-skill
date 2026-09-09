@@ -16,6 +16,9 @@ active_study_target:
   assessment_period: primeira_prova | segunda_prova | terceira_prova | quarta_prova | integrada | reposicao | final | osce | a_definir
   deadline: ""
   available_time: ""
+  starting_level: zero | parcial | revisao | a_definir
+  preferred_method: questoes | teoria_ativa | casos | misto | a_definir
+  energy_constraint: estavel | variavel | baixa_agora | a_definir
   declared_topics: []
   urgency: low | medium | high | critical
   priority_layer: ""
@@ -35,9 +38,29 @@ O aluno raramente chega com o alvo formatado. Ele chega assim:
   `especialidade_scope: [Nefrologia, Neurologia]`
 - "tô perdido no P7 inteiro" → `p7_completo`, e o trabalho é **reduzir escopo**
 
-Pergunte no máximo **duas** coisas, e só se a resposta mudar o plano. Prazo e
-recorte de unidade mudam o plano. "Quantas horas por dia você tem" quase nunca
-muda — infira e siga.
+Pergunte no máximo **duas** coisas, e só se a resposta mudar o plano. Prazo,
+recorte de unidade e tempo realmente disponível mudam o número/tamanho dos
+blocos. Infira nível, método e energia quando já estiverem evidentes; faça no
+máximo uma pergunta de personalização se ela mudar o primeiro bloco.
+
+### 2.1 Efeitos ortogonais obrigatórios no primeiro bloco
+
+Cada campo controla uma dimensão diferente; não use um para mascarar os demais:
+
+- `starting_level` controla **quantidade de apoio**: `zero` recebe mapa mínimo e
+  worked example antes do item isomórfico; `parcial`, diagnóstico curto e apoio
+  moderado; `revisao`, pivô/caso direto sem aula introdutória.
+- `preferred_method` controla **formato da ação**: `questoes`, item objetivo;
+  `teoria_ativa`, recuperação livre/teach-back; `casos`, vinheta clínica;
+  `misto`, alternância declarada. Mantidos os demais campos, mudar só o método
+  deve mudar visivelmente a primeira ação.
+- `energy_constraint` controla **carga e duração**, não dificuldade atribuída ao
+  aluno: `baixa_agora`, núcleo essencial de até 20 minutos, uma ação por vez e
+  extensão opcional; `variavel`, núcleo autossuficiente com checkpoints;
+  `estavel`, bloco completo dentro do orçamento. Nunca use tom punitivo.
+
+Se o aluno atualizar qualquer campo durante a sessão, recalibre o próximo bloco e
+declare a mudança; não conte item abandonado durante a transição como erro.
 
 Alvo indefinido não bloqueia. Assuma o mais provável, **declare a suposição**, e
 comece.
@@ -54,19 +77,33 @@ comece.
 Em `critical`, a pergunta não é "o que eu preciso saber?" — é **"o que me faz
 perder ponto amanhã?"**.
 
-## 4. Ordem de prioridade dos temas
+Urgência sozinha não autoriza revelação precoce. Em `critical`, mantenha um
+microteste único como default. Se o aluno pedir revisão rápida, ofereça
+`microteste único | bloco de pivôs | exposição direta`; pedido explícito de
+exposição direta prevalece, sem impor dois turnos, e termina com prática não
+resolvida opcional.
 
-Prioridade final = função de, nesta ordem de peso:
+## 4. Prioridade dos temas e confiança da fonte
 
-1. **evidência de cobrança** (`00_EXAM_BLUEPRINT.md`, devolutivas) — cai?
-2. **risco clínico** — errar mata? (herda `MEDICAL_SAFETY_LAYER.md` §2)
-3. **força da fonte** — dá para estudar bem? (`SOURCE_POLICY.md` §6)
+Existe uma única fórmula operacional, versionada em
+`config/priority-policy.json`:
 
-Um tema com fonte média que cai toda prova vence um tema com fonte forte que nunca
-caiu. Um tema de risco alto entra mesmo com fonte média — e a fraqueza da fonte é
-declarada.
+```text
+study_priority = 3*exam_recurrence + 3*clinical_risk
+               + 2*curriculum_imminence + 2*learner_gap + transfer_value
+```
 
-Tema com `forca_fonte: ausente` não entra no plano. Entra no aviso.
+Use os intervalos e limiares do próprio arquivo; entrada faltante produz
+`unscored`. Não recalcule por prosa nem reutilize rótulo legado.
+
+`source_strength` é eixo separado: governa confiança, profundidade e rota de
+obtenção, mas não integra `study_priority`. Assim, fonte fraca não remove tema de
+alta recorrência/risco; ela exige rotular a limitação e escolher uma rota segura.
+
+Tema oficial, de alta cobrança ou alto risco com `forca_fonte: ausente` continua
+no plano como lacuna/pendência. A força da fonte define a rota:
+`pedir_slide | validar_diretriz | conhecimento_geral_rotulado | aguardar_fonte`.
+Tema baixo, não oficial e sem fonte pode ficar fora com justificativa.
 
 ## 5. Saída do Plano de Guerra
 
@@ -74,6 +111,7 @@ Tema com `forca_fonte: ausente` não entra no plano. Entra no aviso.
 Alvo ativo:
 Prazo:
 Urgência:
+Nível · método · energia:
 Prioridade:
 Fontes principais:
 Plano:
@@ -103,6 +141,10 @@ Regras:
 - `unidade: A_DEFINIR` não bloqueia o estudo — limita a precisão do recorte, e
   isso deve ser dito em uma linha;
 - EISCA tem **quatro** provas; as demais têm três. Não presuma simetria.
+- Em prazo crítico, o plano só fecha depois de enumerar os temas/cápsulas reais
+  encontrados no mapa e nos metadados, separar `entra` de `fora` com a razão de
+  cada exclusão e nomear o primeiro bloco executável. Não substitua esse
+  levantamento por placeholders ou por um método genérico de estudo.
 
 ## 7. Blocos de execução
 
@@ -112,6 +154,10 @@ Quebre o plano em blocos que cabem numa sessão real de estudo:
 - cada bloco termina com produção ativa: minicaso, questão, ou card;
 - nunca enfileire mais de 3 blocos à frente. O plano se reajusta depois do bloco 3.
 
+Para `energy_constraint: variavel | baixa_agora`, ofereça versão essencial de
+20 minutos, extensão opcional de 15–25 minutos, produto observável e parada. Um
+plano de 30 minutos não pode ter o mesmo número de blocos de um plano de 3 horas.
+
 Empilhar 15 blocos é o mesmo que não planejar.
 
 ## 8. Anti-loop
@@ -119,7 +165,7 @@ Empilhar 15 blocos é o mesmo que não planejar.
 Quando o aluno abre uma frente nova sem evidência nova:
 
 ```text
-Isso é refinamento. Volta para a etapa atual.
+Este refinamento não muda a decisão para o alvo atual. Fechamos [X] e começamos [Y].
 ```
 
 Quando a fase está suficiente:
@@ -128,11 +174,11 @@ Quando a fase está suficiente:
 Fase fechada. Próximo passo: [X]. Não reabrir sem informação nova.
 ```
 
-Só reabra fase fechada com: erro real · dado novo relevante · risco de perda de
-informação · teste falhado · decisão técnica anterior provada errada.
+Reabra com: erro real · dado novo relevante · risco de perda de informação · teste
+falhado · mudança de prazo/energia/alvo · ou o aluno dizer que não entendeu.
 
-Replanejar é a forma mais confortável de não estudar. Trate pedido de replanejamento
-sem fato novo como o que é: fuga do bloco atual.
+Redirecione refinamento sem efeito para o bloco atual, sem atribuir intenção,
+preguiça ou fuga. Dúvida legítima recebe outra representação e novo teste curto.
 
 ## 9. Falhas proibidas
 

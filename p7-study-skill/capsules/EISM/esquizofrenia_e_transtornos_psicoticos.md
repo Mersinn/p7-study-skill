@@ -8,6 +8,11 @@
 - Prioridade: alta
 - Risco clínico: alto
 - Status: reviewed_l1
+- Transcription: confirmed
+- Curricular alignment: confirmed
+- Clinical validity: pending (indicação/monitorização de clozapina requer overlay jurisdicional)
+- Independent review: reviewed_l1
+- Reviewer ID: `agent:clinica_reparos:2026-08-20`
 - Camada de fonte usada: B (5 apostilas nativas de colegas, altamente convergentes; sem slide de aula localizado para este tema específico)
 - fonte_visual: não
 - Fontes usadas: Esquizofrenia__5d54b28c4d, Esquizofrenia_II_unidade__41783f009c, Esquizofrenia_pdf__bc5e01ca56, Psiquiatria_ESQUIZOFRENIA_pdf__50f75805f1 (contém critérios DSM-5 detalhados e histórico Kraepelin/Bleuler/Schneider)
@@ -70,7 +75,7 @@ distonia aguda · síndrome parkinsonoide · acatisia
 | Risco herança — gêmeo MZ / DZ | 40–50% / 10–15% | Esquizofrenia__5d54b28c4d p.2; Esquizofrenia_II_unidade p.3 | CONFIRMADO (2 fontes) |
 | Herdabilidade geral | ~80% | mesmas 2 fontes | CONFIRMADO |
 | Idade de início — homens / mulheres | 10–25 anos / 25–35 anos | Esquizofrenia__5d54b28c4d p.1 | CONFIRMADO |
-| Clozapina — indicação | refratariedade após falha de ≥2 antipsicóticos distintos em dose/tempo adequados | Esquizofrenia_II_unidade p.9 | confirmar no slide — só 1 fonte especifica "2 antipsicóticos" |
+| Clozapina — indicação | falha de ≥2 antipsicóticos consta em uma fonte B | Esquizofrenia_II_unidade p.9 | CURRENT_PENDING — não promover sem diretriz atual aplicável |
 
 Nota: doses de haloperidol/risperidona/olanzapina pertencem à cápsula "Antipsicóticos, SEP e SNM".
 
@@ -98,13 +103,16 @@ Nota: doses de haloperidol/risperidona/olanzapina pertencem à cápsula "Antipsi
 - Definitiva: antipsicótico atípico como 1ª linha na maioria dos serviços atuais (cobre positivo
   e parcialmente negativo, menos efeito extrapiramidal); monoterapia; associar intervenção
   psicossocial (terapia ocupacional, reabilitação).
-- Condição da conduta: refratariedade (falha de ≥2 antipsicóticos em dose e tempo adequados) muda
-  a conduta para clozapina, com monitorização hematológica obrigatória (risco de agranulocitose).
+- Condição da conduta: suspeita de refratariedade exige confirmar adesão, dose,
+  duração, diagnóstico e tentativas antes de considerar clozapina. Indicação,
+  monitorização de ANC, interrupção e rechallenge seguem diretriz/bula da
+  jurisdição; o cronograma FDA 2025 é EUA e a regra brasileira está quarantined.
 - Diferencial perigoso: tratar catatonia com antipsicótico típico isolado sem considerar
   benzodiazepínico — risco de mascarar/precipitar síndrome neuroléptica maligna.
 - O que mudaria a decisão: idade de início atípica (muito tardia) redireciona a investigação para
   causa orgânica; predomínio de sintomas negativos desde o início muda a escolha para atípico;
-  refratariedade after 2 tentativas adequadas indica clozapina.
+  aparente refratariedade exige auditoria das tentativas; não iniciar clozapina a
+  partir desta cápsula sem protocolo atual.
 
 ## Mini-casos ativos
 
@@ -124,7 +132,11 @@ Nota: doses de haloperidol/risperidona/olanzapina pertencem à cápsula "Antipsi
 | Via associada a sintomas positivos | Mesolímbica (excesso de dopamina) | discriminador |
 | Via associada a sintomas negativos | Mesocortical (falta de dopamina) | discriminador |
 | Por que antipsicótico típico não trata sintoma negativo | Bloqueia D2 só na via mesolímbica, não repõe dopamina na mesocortical | conceito |
-| Quando indicar clozapina | Refratariedade após falha de ≥2 antipsicóticos em dose/tempo adequados | risco/conduta |
+| Clozapina | confirmar refratariedade e usar protocolo jurisdicional atual de ANC/rechallenge | risco/conduta |
+
+Overlay de segurança: ver `antipsicoticos_sep_e_snm.md`. O FDA retirou o REMS em
+13/06/2025, mas manteve recomendações de ANC; isso não define automaticamente a
+prática brasileira.
 
 ## Revisão
 

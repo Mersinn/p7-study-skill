@@ -1,0 +1,640 @@
+{
+  "schema_version": "1.0.0",
+  "release": "1.5.1",
+  "reported_decision": "READY_FOR_RELEASE",
+  "evidence": [
+    {
+      "gate_id": "version_integrity",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "consistent": 1
+        }
+      },
+      "limitations": [
+        "Final 1.5.1 version, registry and release notes agree.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "evidence_integrity",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "artifact_valid": 1
+        }
+      },
+      "limitations": [
+        "Aggregate artifact records hashes and scope; it does not turn static evidence into clinical approval.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "critical_inventory_complete",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 3602,
+        "denominator": 3602,
+        "components": {
+          "accounted": 3602
+        }
+      },
+      "limitations": [
+        "3,602/3,602 canonical occurrences remain accounted for; disposition is not clinical approval.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "high_risk_accounted",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 2817,
+        "denominator": 2817,
+        "components": {
+          "accounted": 2817
+        }
+      },
+      "limitations": [
+        "2,817/2,817 high-risk occurrences remain accounted for; quarantines and conflicts remain contained.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "p0_exposed_zero",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "guard_pass": 1
+        }
+      },
+      "limitations": [
+        "Directed seven-target containment review and current safety regression found zero new P0 findings in the delimited qualification scope; no global zero-exposure claim.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "p1_high_risk_exposed_zero",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "guard_pass": 1
+        }
+      },
+      "limitations": [
+        "Directed seven-target containment review and current safety regression found zero new P1 findings in the delimited qualification scope; no global zero-exposure claim.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "current_claim_traceability",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 34,
+        "denominator": 34,
+        "components": {
+          "traceable": 34
+        }
+      },
+      "limitations": [
+        "34 current claims remain structurally traceable; this is not a new human clinical signature.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "behavioral_regression",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 13,
+        "denominator": 13,
+        "components": {
+          "sentinels_pass": 9,
+          "core_pass": 4
+        }
+      },
+      "limitations": [
+        "13/13 counted V1.5 safety runs passed on the current gpt-6-astra medium execution; S06 remains coverage-only and excluded from the denominator.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "p6_parity",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 9,
+        "denominator": 9,
+        "components": {
+          "j01_pass": 3,
+          "j02_pass": 3,
+          "j03_pass": 3
+        }
+      },
+      "limitations": [
+        "9/9 scripted journey passes are carried forward under unchanged tutor/content dependencies; J02 was completed and adjudicated again, while historical J01/J03 remain explicitly historical.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "longitudinal_resume",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 2,
+        "denominator": 2,
+        "components": {
+          "session_a_pass": 1,
+          "session_b_pass": 1
+        }
+      },
+      "limitations": [
+        "2/2 longitudinal sessions remain valid under the unchanged ledger/schema/fixture contract; current A6 and B8 ledgers were revalidated. This is a carry-forward, not a new model run.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "package_hygiene",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 2,
+        "denominator": 2,
+        "components": {
+          "identical_builds": 2
+        }
+      },
+      "limitations": [
+        "Deterministic package construction and byte-identical build checks passed.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "clean_install",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "standalone_pass": 1
+        }
+      },
+      "limitations": [
+        "Standalone runtime installation and structural checks passed with the qualification scope recorded here.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "report_consistency",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "consistent": 1
+        }
+      },
+      "limitations": [
+        "Final artifact distinguishes fresh runs, carry-forward evidence, static review and limitations.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "red_team",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 7,
+        "denominator": 7,
+        "components": {
+          "containment_pass": 7
+        }
+      },
+      "limitations": [
+        "Seven historical red-team targets pass the current directed static containment recheck; this is not a global clinical guideline review.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "runtime_context",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 6,
+        "denominator": 6,
+        "components": {
+          "reduced": 6
+        }
+      },
+      "limitations": [
+        "Six runtime bundles remain within the measured context budget.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "structured_provenance",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 2392,
+        "denominator": 2392,
+        "components": {
+          "accounted": 2392
+        }
+      },
+      "limitations": [
+        "2,392/2,392 provenance rows are accounted for, with unresolved and ambiguous rows retained explicitly.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    },
+    {
+      "gate_id": "narrative_consistency",
+      "artifact": {
+        "path": "artifacts/RELEASE_GATE_EVIDENCE.json",
+        "sha256": "50d888ad90f29443aae0247dbb8446d911f1fbcb26998c24bd6d57156ffe9c0c"
+      },
+      "snapshot": {
+        "mode": "dual",
+        "git_commit": "9c923e72c5ac16dd22539fba4ee6ec0af6d84064",
+        "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
+        "package_manifest_sha256": "12bdad38f877795a95a112a549c4d107abac0612be67e19fb7bc33dfb6503735"
+      },
+      "scope": {
+        "included_paths": [
+          "artifacts/RELEASE_GATE_EVIDENCE.json"
+        ],
+        "excluded_paths": []
+      },
+      "adjudication": {
+        "adjudicator": "agent:/root:p7-final-release-integrator",
+        "adjudicated_at": "2026-09-09T19:27:49.330197+00:00",
+        "outcome": "passed"
+      },
+      "quantitative": true,
+      "metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "contract_pass": 1
+        }
+      },
+      "limitations": [
+        "The 55-test contract suite and report cross-checks pass.",
+        "Educational release; no human clinical signature or global zero-exposure claim.",
+        "Quarantined, pending and conflict clinical dispositions remain unchanged."
+      ]
+    }
+  ]
+}

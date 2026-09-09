@@ -1,0 +1,56 @@
+{
+  "candidate_clustering": {
+    "candidate_clusters": 3536,
+    "candidate_occurrences": 3536,
+    "clusters_with_multiple_occurrences": 0,
+    "negative_merge_sample_count": 24,
+    "policy": "exact_normalized_text_and_sensitive_signature"
+  },
+  "canonical_targets": {
+    "candidate_pending_claims": 3536,
+    "candidate_pending_claims_with_high_risk_occurrence": 2751,
+    "registry_references": 52,
+    "total": 3588
+  },
+  "coverage": {
+    "high_risk_occurrences_accounted": 2817,
+    "high_risk_occurrences_total": 2817,
+    "high_risk_occurrences_unaccounted": 0,
+    "primary_occurrences_accounted": 3602,
+    "primary_occurrences_total": 3602,
+    "primary_occurrences_unaccounted": 0
+  },
+  "dispositions": {
+    "anonymous_unregistered_pending": 0,
+    "by_risk": {
+      "high": {
+        "candidate_claim_pending": 2751,
+        "canonical_claim": 66
+      },
+      "low": {
+        "candidate_claim_pending": 67
+      },
+      "medium": {
+        "candidate_claim_pending": 718
+      }
+    },
+    "by_type": {
+      "candidate_claim_pending": 3536,
+      "canonical_claim": 66
+    }
+  },
+  "input": {
+    "claims_registry_sha256": "df3f7ed4f07e2e2cc91dd804fce9336db1c9721c1eab237b5ea80f0d6ae3d337",
+    "detections_sha256": "90eb93d1dd3af6ce02cb31a60a7aee884eff95a6cd2b0f06dfe4210ffe60fd14",
+    "detector_schema_version": "critical-claim-scan/1.4.0"
+  },
+  "limitations": [
+    "This inventory does not adjudicate clinical correctness, currentness, source quality, or harm tier.",
+    "A unique inherited detector link is preserved as a registry reference, not revalidated as material clinical equivalence.",
+    "Ambiguous detector links (two or more registry IDs) are deliberately routed to named pending candidates rather than arbitrarily choosing a claim.",
+    "Exact-text clustering intentionally produces false splits for paraphrases, formatting variants, and semantically equivalent statements; clinical adjudication may merge them later with evidence.",
+    "Pending candidates are blocked from current-practice promotion until a separate adjudication workstream supplies evidence."
+  ],
+  "purpose": "structural_inventory_and_conservative_candidate_clustering_only",
+  "schema_version": "1.5.0-inventory.1"
+}

@@ -1,0 +1,544 @@
+{
+  "summary": {
+    "schema_version": "1.5.0-traceability.1",
+    "claims_total": 52,
+    "claims_by_clinical_validity": {
+      "conflict": 1,
+      "current": 34,
+      "quarantined": 17
+    },
+    "current_claims": 34,
+    "current_claims_by_criticality": {
+      "high": 33,
+      "medium": 1
+    },
+    "current_traceable": 34,
+    "current_untraceable": 0,
+    "gate_result": "PASS",
+    "limitations": [
+      "This deterministic audit verifies traceability fields and reviewer independence, not medical truth by itself.",
+      "Clinical support is challenged separately by the blind red team against the exact proposition and locator.",
+      "metadata_only means the external source is not redistributed; accessed_at records that it was opened."
+    ]
+  },
+  "records": [
+    {
+      "claim_id": "claim:nr.good-vitality",
+      "criticality": "high",
+      "claim_type": "other",
+      "source_version_ids": [
+        "source-version:sbp.prn.rn34.2026-06-12"
+      ],
+      "locators": [
+        "algoritmo inicial"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:nr.vpp",
+      "criticality": "high",
+      "claim_type": "treatment_sequence",
+      "source_version_ids": [
+        "source-version:sbp.prn.rn34.2026-06-12"
+      ],
+      "locators": [
+        "VPP"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:nr.oxygen",
+      "criticality": "high",
+      "claim_type": "concentration",
+      "source_version_ids": [
+        "source-version:sbp.prn.rn34.2026-06-12"
+      ],
+      "locators": [
+        "oxigênio na VPP"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:nr.compressions-epinephrine",
+      "criticality": "high",
+      "claim_type": "treatment_sequence",
+      "source_version_ids": [
+        "source-version:sbp.prn.rn34.2026-06-12"
+      ],
+      "locators": [
+        "compressões e adrenalina"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:se.threshold",
+      "criticality": "high",
+      "claim_type": "threshold",
+      "source_version_ids": [
+        "source-version:ilae.status-pocket.2026"
+      ],
+      "locators": [
+        "Early SE"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:se.benzodiazepine",
+      "criticality": "high",
+      "claim_type": "dose",
+      "source_version_ids": [
+        "source-version:ilae.status-pocket.2026"
+      ],
+      "locators": [
+        "Early SE"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:se.second-line",
+      "criticality": "high",
+      "claim_type": "treatment_sequence",
+      "source_version_ids": [
+        "source-version:ilae.status-pocket.2026"
+      ],
+      "locators": [
+        "Established SE"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:se.fosphenytoin-ilae",
+      "criticality": "high",
+      "claim_type": "dose",
+      "source_version_ids": [
+        "source-version:ilae.status-pocket.2026"
+      ],
+      "locators": [
+        "Established SE"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:se.fosphenytoin-esett",
+      "criticality": "high",
+      "claim_type": "dose",
+      "source_version_ids": [
+        "source-version:esett.2019"
+      ],
+      "locators": [
+        "Methods"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:se.refractory",
+      "criticality": "high",
+      "claim_type": "emergency",
+      "source_version_ids": [
+        "source-version:ilae.status-pocket.2026"
+      ],
+      "locators": [
+        "Refractory SE"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:asth.severity-oxygen",
+      "criticality": "high",
+      "claim_type": "threshold",
+      "source_version_ids": [
+        "source-version:gina.strategy.2026"
+      ],
+      "locators": [
+        "Box 9-4, PDF físico p.182 (rodapé impresso 181); Box 9-6, PDF físico p.187 (rodapé impresso 186)"
+      ],
+      "reviewer_id": "agent:red-team-v150:2026-08-30",
+      "reviewed_at": "2026-08-30T23:45:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:asth.initial-concurrent",
+      "criticality": "high",
+      "claim_type": "treatment_sequence",
+      "source_version_ids": [
+        "source-version:gina.strategy.2026"
+      ],
+      "locators": [
+        "Exacerbations 6–11"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:asth.ocs-dose",
+      "criticality": "high",
+      "claim_type": "dose",
+      "source_version_ids": [
+        "source-version:gina.strategy.2026"
+      ],
+      "locators": [
+        "OCS 6–11"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:asth.niv",
+      "criticality": "high",
+      "claim_type": "contraindication",
+      "source_version_ids": [
+        "source-version:gina.strategy.2026"
+      ],
+      "locators": [
+        "NIV"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:asth.magnesium",
+      "criticality": "high",
+      "claim_type": "treatment_sequence",
+      "source_version_ids": [
+        "source-version:gina.strategy.2026"
+      ],
+      "locators": [
+        "Magnesium"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:ais.definition",
+      "criticality": "high",
+      "claim_type": "other",
+      "source_version_ids": [
+        "source-version:aha-asa.ais.2026-01-26"
+      ],
+      "locators": [
+        "definitions"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:ais.ivt-window",
+      "criticality": "high",
+      "claim_type": "time_window",
+      "source_version_ids": [
+        "source-version:aha-asa.ais.2026-01-26"
+      ],
+      "locators": [
+        "Top Things 2"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:ais.disabling",
+      "criticality": "high",
+      "claim_type": "threshold",
+      "source_version_ids": [
+        "source-version:aha-asa.ais.2026-01-26"
+      ],
+      "locators": [
+        "Top Things 2–3"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:ais.unknown-onset",
+      "criticality": "high",
+      "claim_type": "time_window",
+      "source_version_ids": [
+        "source-version:aha-asa.ais.2026-01-26"
+      ],
+      "locators": [
+        "Top Things 2"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:ais.evt",
+      "criticality": "high",
+      "claim_type": "time_window",
+      "source_version_ids": [
+        "source-version:aha-asa.ais.2026-01-26"
+      ],
+      "locators": [
+        "Top Things 4–6"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:li.ectr-suggested",
+      "criticality": "high",
+      "claim_type": "threshold",
+      "source_version_ids": [
+        "source-version:extrip.lithium.2015"
+      ],
+      "locators": [
+        "Table 7"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:li.stop-rebound",
+      "criticality": "high",
+      "claim_type": "treatment_sequence",
+      "source_version_ids": [
+        "source-version:extrip.lithium.2015"
+      ],
+      "locators": [
+        "Table 7"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:vac.hpv",
+      "criticality": "high",
+      "claim_type": "time_window",
+      "source_version_ids": [
+        "source-version:ms.cnv.2026"
+      ],
+      "locators": [
+        "pp.45–46"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:vac.meningococcal",
+      "criticality": "high",
+      "claim_type": "treatment_sequence",
+      "source_version_ids": [
+        "source-version:ms.cnv.2026"
+      ],
+      "locators": [
+        "pp.22–23"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:vac.pneumococcal",
+      "criticality": "high",
+      "claim_type": "guideline_dependent",
+      "source_version_ids": [
+        "source-version:ms.cnv.2026"
+      ],
+      "locators": [
+        "pp.17–21"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:vac.dengue",
+      "criticality": "high",
+      "claim_type": "time_window",
+      "source_version_ids": [
+        "source-version:ms.cnv.2026"
+      ],
+      "locators": [
+        "pp.48–49"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:bf.duration",
+      "criticality": "high",
+      "claim_type": "guideline_dependent",
+      "source_version_ids": [
+        "source-version:who.iycf.2026-08-04"
+      ],
+      "locators": [
+        "Recommendations"
+      ],
+      "reviewer_id": "agent:clinica_reparos:2026-08-20",
+      "reviewed_at": "2026-08-20T12:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:diarreia-planos.definicao-e-duracao",
+      "criticality": "medium",
+      "claim_type": "threshold",
+      "source_version_ids": [
+        "source-version:sbp.diarreia-aguda-infecciosa.2022-2024"
+      ],
+      "locators": [
+        "secao 'Definicoes', p.2 do PDF (paginacao interna do documento) - cita OMS e definicao do MS"
+      ],
+      "reviewer_id": "agent:qualificacao_p7:2026-08-20-claude",
+      "reviewed_at": "2026-08-20T00:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:diarreia-planos.classificacao-por-contagem-sinais",
+      "criticality": "high",
+      "claim_type": "threshold",
+      "source_version_ids": [
+        "source-version:sbp.diarreia-aguda-infecciosa.2022-2024"
+      ],
+      "locators": [
+        "Quadro 2 'Manifestacoes clinicas e decisao do tipo de tratamento', p.4 do PDF"
+      ],
+      "reviewer_id": "agent:qualificacao_p7:2026-08-20-claude",
+      "reviewed_at": "2026-08-20T00:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:diarreia-planos.plano-b-volume-e-falha-6h",
+      "criticality": "high",
+      "claim_type": "treatment_sequence",
+      "source_version_ids": [
+        "source-version:sbp.diarreia-aguda-infecciosa.2022-2024",
+        "source-version:rio-saude.protocolo-dda.2025-09"
+      ],
+      "locators": [
+        "texto corrido pos-Quadro 5, p.7 do PDF",
+        "secao Plano B, p.19-20 do PDF (linhas ~735-740 do texto extraido)"
+      ],
+      "reviewer_id": "agent:qualificacao_p7:2026-08-20-claude",
+      "reviewed_at": "2026-08-20T00:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:diarreia-planos.plano-c-expansao-por-idade",
+      "criticality": "high",
+      "claim_type": "dose",
+      "source_version_ids": [
+        "source-version:sbp.diarreia-aguda-infecciosa.2022-2024"
+      ],
+      "locators": [
+        "Quadro 6 'Volume a ser administrado nos pacientes do Plano C', p.8 do PDF, citando BRASIL/MS/SVSA 'Manejo do paciente com diarreia', 2023"
+      ],
+      "reviewer_id": "agent:qualificacao_p7:2026-08-20-claude",
+      "reviewed_at": "2026-08-20T00:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:diarreia-planos.zinco-dose-idade",
+      "criticality": "high",
+      "claim_type": "dose",
+      "source_version_ids": [
+        "source-version:sbp.diarreia-aguda-infecciosa.2022-2024"
+      ],
+      "locators": [
+        "texto corrido, p.5 do PDF, secao Plano A"
+      ],
+      "reviewer_id": "agent:qualificacao_p7:2026-08-20-claude",
+      "reviewed_at": "2026-08-20T00:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:diarreia-planos.ondansetrona-dose-idade",
+      "criticality": "high",
+      "claim_type": "dose",
+      "source_version_ids": [
+        "source-version:sbp.diarreia-aguda-infecciosa.2022-2024",
+        "source-version:rio-saude.protocolo-dda.2025-09"
+      ],
+      "locators": [
+        "Quadro 5, p.7",
+        "Plano B, p.19"
+      ],
+      "reviewer_id": "agent:qualificacao_p7:2026-08-20-claude",
+      "reviewed_at": "2026-08-20T00:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    },
+    {
+      "claim_id": "claim:sepse-neonatal.esquema-empirico-precoce",
+      "criticality": "high",
+      "claim_type": "treatment_sequence",
+      "source_version_ids": [
+        "source-version:sprs.boletim.sepse-neonatal.2012-v1n1",
+        "source-version:sbp.diretrizes-antibioticos-neonatal.2025",
+        "source-version:nice.ng195.neonatal-infection.2026-05-13"
+      ],
+      "locators": [
+        "secao Manejo/Antibioticoterapia, p.5: ampicilina e gentamicina na sepse precoce",
+        "PDF p.5, tratamento empirico: ampicilina ou penicilina cristalina + amicacina ou gentamicina",
+        "NG195, antibiotics for early-onset neonatal infection: benzilpenicilina + gentamicina como primeira escolha no protocolo NICE"
+      ],
+      "reviewer_id": "agent:qualificacao_p7:2026-08-22-codex",
+      "reviewed_at": "2026-08-22T00:00:00-03:00",
+      "traceability_status": "pass",
+      "failures": []
+    }
+  ]
+}

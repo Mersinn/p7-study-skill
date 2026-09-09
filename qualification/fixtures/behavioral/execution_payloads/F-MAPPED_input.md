@@ -1,0 +1,13 @@
+# T09 executor payload — item and learner turn only
+
+Lactente de 10 meses, história de diarreia há 2 dias. Ao exame: choro sem
+lágrimas, mucosa oral seca, sinal da prega desaparece lentamente, pulsos
+cheios, sede aumentada, sem alteração de sensório. Qual a classificação e a
+conduta inicial?
+
+A) Hidratado — Plano A
+B) Algum grau de desidratação — Plano B
+C) Desidratação grave — Plano C, expansão venosa imediata
+D) Desidratação grave — Plano C, mas só após 6h de falha de TRO
+
+Tentativa do aluno no turno seguinte: `C`.

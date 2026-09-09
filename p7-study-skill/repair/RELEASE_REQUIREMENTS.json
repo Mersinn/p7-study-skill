@@ -1,0 +1,329 @@
+{
+  "audited_at": "2026-09-06T18:45:10.942839+00:00",
+  "auditor_id": "agent:/root/release_auditor",
+  "measured_git_commit": null,
+  "documented_source_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48",
+  "baseline_measured_at": "2026-09-06T18:40:02.739134+00:00",
+  "scope": "read-only release feasibility; production gates and attestations not modified",
+  "baseline_tests": {
+    "discovered": 54,
+    "passed": 53,
+    "skipped": 1,
+    "failed": 0
+  },
+  "gate_universe": 17,
+  "locally_recheckable_gates": 8,
+  "historical_only_without_original_qualification": 9,
+  "gates": [
+    {
+      "gate_id": "version_integrity",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": true,
+      "procedure": "Conferir VERSION, registry e notas do candidato; não alterar o histórico v1.5.0.",
+      "limitation": "Um candidato rc pode ter integridade de versão sem READY_FOR_RELEASE."
+    },
+    {
+      "gate_id": "evidence_integrity",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": true,
+      "procedure": "Importar validate_gate_evidence e executar validator standalone depois de congelar todos os substantivos e reconciliar.",
+      "limitation": "Valida formato, hashes e coerência; não executa os testes alegados nos registros."
+    },
+    {
+      "gate_id": "critical_inventory_complete",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 3602,
+        "denominator": 3602,
+        "components": {
+          "accounted": 3602,
+          "unaccounted": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": false,
+      "missing_evidence": "3602 ocorrências com mapping individual; qualification/reports/v1.5.0/INVENTORY_CLUSTERING_SUMMARY.json e inventário subjacente",
+      "limitation": "Hash idêntico das cápsulas e registry indica preservação dos materiais; não reexecuta a contabilidade 3602/3602."
+    },
+    {
+      "gate_id": "high_risk_accounted",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 2817,
+        "denominator": 2817,
+        "components": {
+          "accounted": 2817,
+          "unaccounted": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": false,
+      "missing_evidence": "2817 ocorrências high-risk com mapping individual e disposição; inventário/fixture de recuperação",
+      "limitation": "Não reconstruir denominador por regex nova; isso mudaria o universo do gate."
+    },
+    {
+      "gate_id": "p0_exposed_zero",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "guard_pass": 1,
+          "guard_fail": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": false,
+      "missing_evidence": "Casos e adjudicação do red team que desafiam recuperação clínica, com outputs brutos",
+      "limitation": "Testes textuais de bloqueio são controles locais adicionais; não substituem qualificação de recuperação."
+    },
+    {
+      "gate_id": "p1_high_risk_exposed_zero",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "guard_pass": 1,
+          "guard_fail": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": false,
+      "missing_evidence": "Casos e adjudicação do red team high-risk com outputs brutos",
+      "limitation": "Ausência de alteração de cápsula não é nova prova comportamental de zero exposição."
+    },
+    {
+      "gate_id": "current_claim_traceability",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 34,
+        "denominator": 34,
+        "components": {
+          "traceable": 34,
+          "untraceable": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": true,
+      "procedure": "Verificar 34 claims current, suas FKs, evidence/locator/population/curricular_context/reviewed_at/reviewer_id e states; comparar bytes clínicos ao baseline.",
+      "limitation": "Rastreabilidade estrutural; não revalidação humana/clínica dos 34 enunciados."
+    },
+    {
+      "gate_id": "behavioral_regression",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 13,
+        "denominator": 13,
+        "components": {
+          "sentinels_pass": 9,
+          "core_pass": 4,
+          "fail": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": false,
+      "missing_evidence": "MANIFEST original 24 casos, payloads/oráculos separados e harness dos 13 runs Codex (9 sentinelas + 4 core)",
+      "limitation": "O manifesto original não vem no ZIP. Novos prompts não são rerun dos 13/13."
+    },
+    {
+      "gate_id": "p6_parity",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 9,
+        "denominator": 9,
+        "components": {
+          "j01_pass": 3,
+          "j02_pass": 3,
+          "j03_pass": 3,
+          "fail": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": false,
+      "missing_evidence": "Jornadas J01/J02/J03, três sessões válidas cada, baseline P6 e critérios originais",
+      "limitation": "9/9 permanece histórico; preservar informação do 1 run histórico inconclusivo excluído."
+    },
+    {
+      "gate_id": "longitudinal_resume",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 2,
+        "denominator": 2,
+        "components": {
+          "session_a_pass": 1,
+          "session_b_pass": 1,
+          "fail": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": false,
+      "missing_evidence": "Jornadas em duas sessões limpas e estados/ledgers originais para retomada 6→8",
+      "limitation": "Testes unitários ledger não equivalem às duas sessões do gate."
+    },
+    {
+      "gate_id": "package_hygiene",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 2,
+        "denominator": 2,
+        "components": {
+          "identical_builds": 2,
+          "different_builds": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": true,
+      "procedure": "Executar build_distribution.py --verify-reproducible; comparar dois ZIPs e auditar entradas.",
+      "limitation": "Preservar denominador 2 builds, sem incluir saída dentro da raiz do pacote."
+    },
+    {
+      "gate_id": "clean_install",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "standalone_pass": 1,
+          "standalone_fail": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": true,
+      "procedure": "Extrair ZIP novo em diretório temporário; rodar reconcile --check e validate --json com --evidence-mode standalone.",
+      "limitation": "Instalação estrutural pode funcionar em candidato HOLD; release gate precisa continuar bloqueado se gates abertos."
+    },
+    {
+      "gate_id": "report_consistency",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "consistent": 1,
+          "contradictory": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": true,
+      "procedure": "Cruzar relatório atual e delta com CSVs/counters canônicos e registrar cada número como novo ou herdado.",
+      "limitation": "Não reutilizar 54/54 ou 17/17 herdados como medições novas."
+    },
+    {
+      "gate_id": "red_team",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 7,
+        "denominator": 7,
+        "components": {
+          "pass_repaired": 7,
+          "fail": 0,
+          "inconclusive": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": false,
+      "missing_evidence": "Amostra canônica de 37 linhas e sete alvos reparados: relatório, fixtures, adjudicação",
+      "limitation": "O red team do matcher é novo escopo. Não reusar 7/7 como resultado desse escopo."
+    },
+    {
+      "gate_id": "runtime_context",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 6,
+        "denominator": 6,
+        "components": {
+          "reduced": 6,
+          "not_reduced": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": false,
+      "missing_evidence": "Definição dos seis bundles e medidas v1.4/v1.5 em RUNTIME_CONTEXT_v1.5.0.json",
+      "limitation": "Bytes md preservados provam ausência de alteração local; não reproduzem redução 36,74%–60,57%."
+    },
+    {
+      "gate_id": "structured_provenance",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 2392,
+        "denominator": 2392,
+        "components": {
+          "resolved": 75,
+          "explicit_unresolved": 2317
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": true,
+      "procedure": "Recalcular 2392 linhas, IDs estáveis, níveis, ausência declarada, ambiguidades e preservação dos 75 vínculos existentes; amostra independente.",
+      "limitation": "2392/2392 contabilizadas não equivale a 2392 fontes resolvidas; matching não comprova conteúdo de PDF."
+    },
+    {
+      "gate_id": "narrative_consistency",
+      "baseline_status": "passed",
+      "baseline_taxonomy": "DOCUMENTADO",
+      "baseline_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "contract_pass": 1,
+          "contract_fail": 0
+        }
+      },
+      "fresh_run_status": "not_run_by_this_auditor",
+      "fresh_run_possible_with_supplied_package": true,
+      "procedure": "Rodar testes de contratos/narrativa e auditar consumidores/contagens atualizadas.",
+      "limitation": "O teste de proveniência terá adaptação autorizada: relatar sua mudança e executar novos casos adversariais separadamente."
+    }
+  ],
+  "release_recommendation": "HOLD: engineering repair can be delivered as reviewable candidate; no honest 17/17 fresh reexecution or 54/54 with supplied inputs",
+  "missing_test": {
+    "test_name": "test_behavioral_manifest_separates_executor_payload_from_oracle",
+    "expected_path": "../qualification/fixtures/behavioral/MANIFEST.json",
+    "fixture_contract": {
+      "schema_version": "1.1.0",
+      "tests": 24,
+      "required_fields": [
+        "adjudication_spec_files",
+        "executor_payload_files"
+      ],
+      "separation": "path sets must not overlap"
+    },
+    "reconstruction": "Do not fabricate fixture to make existing test pass. Obtain original source/qualification checkout. Independent new fixtures must be labelled new and cannot replace original gate results."
+  },
+  "stop_rule": "If any gate status worsens, record and stop phase advancement. Do not change validators, denominators or attestations to green it."
+}
