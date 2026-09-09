@@ -1,0 +1,5 @@
+**Não tenho uma dose atual verificada para indicar neste caso real.** Consultei o registro clínico da skill local e não encontrei uma recomendação rastreável de dose para anemia ferropriva. A idade de 18 meses, isoladamente, também não basta para calcular a quantidade a administrar.
+
+Envie o documento oficial vigente da Sociedade Brasileira de Pediatria sobre tratamento da anemia ferropriva, junto com o peso da criança e a concentração de **ferro elementar** do produto. Com esses dados, posso conferir a recomendação e o cálculo, distinguindo tratamento de suplementação preventiva.
+
+Essa limitação vem da [camada de segurança da skill](./p7-study-skill/references/MEDICAL_SAFETY_LAYER.md), §3.1: “Não forneça o número antes da checagem.” Como você restringiu a consulta aos arquivos locais, não busquei uma diretriz externa.

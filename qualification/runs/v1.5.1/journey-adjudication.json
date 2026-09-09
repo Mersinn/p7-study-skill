@@ -1,0 +1,217 @@
+{
+  "spec_file": "qualification/fixtures/journeys/HIDDEN_ADJUDICATION.md",
+  "adjudicator": "independent-agent-adjudicate",
+  "records": [
+    {
+      "expected_turns": 3,
+      "checks": {
+        "energy_constraint": "PASS",
+        "useful_feedback": "PASS",
+        "time_budget": "PASS",
+        "preferred_method": "PASS",
+        "profile_update": "PASS",
+        "starting_level": "PASS",
+        "concrete_action": "PASS",
+        "no_premature_answer": "PASS"
+      },
+      "transcript_sha256": "69e706e8ae35f4103d0d508a285004449f57e4fa800b298f0ee647137e087e1b",
+      "observed_turns": 3,
+      "run": "J01-run1",
+      "complete": true,
+      "adjudication": "PASS",
+      "rationale": "Respeita nível inicial, questões e energia baixa; plano de 35 minutos com núcleo reduzido; começa item sem gabarito; após não sei ensina e reaplica; terceiro turno atualiza perfil e mantém teto sem inventar tempo restante.",
+      "evidence": [
+        {
+          "response_sha256": "5f621f283bb1ab018772d9b0b69c1cfa6b90945e5cd86b3e5319772272cdb93a",
+          "matching_log": "qualification/runs/v1.5.1/behavioral/J01-run1/turn1-events-20260908-223920.log",
+          "inference_confirmed": true,
+          "turn": 1
+        },
+        {
+          "response_sha256": "9a81ac24fc09f230bd8b27a5876119278f1ba7d56df164027521f4e99981a860",
+          "matching_log": "qualification/runs/v1.5.1/behavioral/J01-run1/turn2-events-20260908-224036.log",
+          "inference_confirmed": true,
+          "turn": 2
+        },
+        {
+          "response_sha256": "e0ded38281063d1c371c653f91c0ad53dd522c7c09e13007b0ed36cc64a02a5a",
+          "matching_log": "qualification/runs/v1.5.1/behavioral/J01-run1/turn3-events-20260909-084117.log",
+          "inference_confirmed": true,
+          "turn": 3
+        }
+      ]
+    },
+    {
+      "expected_turns": 3,
+      "checks": {
+        "energy_constraint": "PASS",
+        "useful_feedback": "PASS",
+        "time_budget": "PASS",
+        "preferred_method": "PASS",
+        "profile_update": "PASS",
+        "starting_level": "PASS",
+        "concrete_action": "PASS",
+        "no_premature_answer": "PASS"
+      },
+      "transcript_sha256": "bbd07cd1a2619c1484e291188b0538c9b4ef95626b8156996c6bf3933837483e",
+      "observed_turns": 3,
+      "run": "J01-run2",
+      "complete": true,
+      "adjudication": "PASS",
+      "rationale": "Respeita nível inicial, questões e energia baixa; plano de 35 minutos com núcleo reduzido; começa item sem gabarito; após não sei ensina e reaplica; terceiro turno atualiza perfil e mantém teto sem inventar tempo restante.",
+      "evidence": [
+        {
+          "response_sha256": "e574c8468e81b10ae47949b1e26c2d549a6d3b9ce44289a030979ad6f71e7b54",
+          "matching_log": "qualification/runs/v1.5.1/behavioral/J01-run2/turn1-events-20260909-084151.log",
+          "inference_confirmed": true,
+          "turn": 1
+        },
+        {
+          "response_sha256": "8cdd3350f7a0f5ba9e656233d4b7c74e034d86dc6b9b587819433e5f86be3fc5",
+          "matching_log": "qualification/runs/v1.5.1/behavioral/J01-run2/turn2-events-20260909-084246.log",
+          "inference_confirmed": true,
+          "turn": 2
+        },
+        {
+          "response_sha256": "cac3b71911c595b3177b269401d10bd780649c3e21d13c1864a7b5f479875891",
+          "matching_log": "qualification/runs/v1.5.1/behavioral/J01-run2/turn3-events-20260909-084321.log",
+          "inference_confirmed": true,
+          "turn": 3
+        }
+      ]
+    },
+    {
+      "expected_turns": 3,
+      "checks": {
+        "energy_constraint": "PASS",
+        "useful_feedback": "PASS",
+        "time_budget": "PASS",
+        "preferred_method": "PASS",
+        "profile_update": "PASS",
+        "starting_level": "PASS",
+        "concrete_action": "PASS",
+        "no_premature_answer": "PASS"
+      },
+      "transcript_sha256": "9b1d2342b4f829d2e8f1da29c2e78376e9d75f1cf0c9865a8045b1d391d7cdb3",
+      "observed_turns": 3,
+      "run": "J01-run3",
+      "complete": true,
+      "adjudication": "PASS",
+      "rationale": "Respeita nível inicial, questões e energia baixa; plano de 35 minutos com núcleo reduzido; começa item sem gabarito; após não sei ensina e reaplica; terceiro turno atualiza perfil e mantém teto sem inventar tempo restante.",
+      "evidence": [
+        {
+          "response_sha256": "b96d617fc3a9c0dfde2aea21ccfc3558f0adc1144e2cc9eb319b5949686bd156",
+          "matching_log": "qualification/runs/v1.5.1/behavioral/J01-run3/turn1-events-20260909-084351.log",
+          "inference_confirmed": true,
+          "turn": 1
+        },
+        {
+          "response_sha256": "193fe1dce258ef326bc516be3c743d43657182f1e14a49ff27b17a2943a96982",
+          "matching_log": "qualification/runs/v1.5.1/behavioral/J01-run3/turn2-events-20260909-084445.log",
+          "inference_confirmed": true,
+          "turn": 2
+        },
+        {
+          "response_sha256": "8da8cd13a14662a11315aeab5caa53b4f3520dcffdab1a3df1661c1d14d7f80c",
+          "matching_log": "qualification/runs/v1.5.1/behavioral/J01-run3/turn3-events-20260909-084519.log",
+          "inference_confirmed": true,
+          "turn": 3
+        }
+      ]
+    },
+    {
+      "expected_turns": 3,
+      "checks": {
+        "completion": "PENDING"
+      },
+      "transcript_sha256": "911e3945f1ef1ca17340bc3f25694fe5aaff605affb205c2be75cb8d794e9664",
+      "observed_turns": 2,
+      "run": "J02-run1",
+      "complete": false,
+      "adjudication": "INCONCLUSIVE",
+      "rationale": "Transcrito atual incompleto ou ausente no momento da revisão; não contado como falha comportamental. Necessária revisão quando todos os turnos estiverem disponíveis.",
+      "evidence": [
+        {
+          "response_sha256": "3e83648a03681d71e14be70a11ac2af853f5676216bd2b47b89ba227d4eabce8",
+          "matching_log": "qualification/runs/v1.5.1/behavioral/J02-run1/turn1-events-20260909-084549.log",
+          "inference_confirmed": true,
+          "turn": 1
+        },
+        {
+          "response_sha256": "51d5c7145ac6d77e17ed374f432a10ca85cc08009ce02ad1bc58cd35bb683c41",
+          "matching_log": "qualification/runs/v1.5.1/behavioral/J02-run1/turn2-events-20260909-084625.log",
+          "inference_confirmed": true,
+          "turn": 2
+        }
+      ]
+    },
+    {
+      "expected_turns": 3,
+      "checks": {
+        "completion": "PENDING"
+      },
+      "transcript_sha256": null,
+      "observed_turns": 0,
+      "run": "J02-run2",
+      "complete": false,
+      "adjudication": "INCONCLUSIVE",
+      "rationale": "Transcrito atual incompleto ou ausente no momento da revisão; não contado como falha comportamental. Necessária revisão quando todos os turnos estiverem disponíveis.",
+      "evidence": []
+    },
+    {
+      "expected_turns": 3,
+      "checks": {
+        "completion": "PENDING"
+      },
+      "transcript_sha256": null,
+      "observed_turns": 0,
+      "run": "J02-run3",
+      "complete": false,
+      "adjudication": "INCONCLUSIVE",
+      "rationale": "Transcrito atual incompleto ou ausente no momento da revisão; não contado como falha comportamental. Necessária revisão quando todos os turnos estiverem disponíveis.",
+      "evidence": []
+    },
+    {
+      "expected_turns": 4,
+      "checks": {
+        "completion": "PENDING"
+      },
+      "transcript_sha256": null,
+      "observed_turns": 0,
+      "run": "J03-run1",
+      "complete": false,
+      "adjudication": "INCONCLUSIVE",
+      "rationale": "Transcrito atual incompleto ou ausente no momento da revisão; não contado como falha comportamental. Necessária revisão quando todos os turnos estiverem disponíveis.",
+      "evidence": []
+    },
+    {
+      "expected_turns": 4,
+      "checks": {
+        "completion": "PENDING"
+      },
+      "transcript_sha256": null,
+      "observed_turns": 0,
+      "run": "J03-run2",
+      "complete": false,
+      "adjudication": "INCONCLUSIVE",
+      "rationale": "Transcrito atual incompleto ou ausente no momento da revisão; não contado como falha comportamental. Necessária revisão quando todos os turnos estiverem disponíveis.",
+      "evidence": []
+    },
+    {
+      "expected_turns": 4,
+      "checks": {
+        "completion": "PENDING"
+      },
+      "transcript_sha256": null,
+      "observed_turns": 0,
+      "run": "J03-run3",
+      "complete": false,
+      "adjudication": "INCONCLUSIVE",
+      "rationale": "Transcrito atual incompleto ou ausente no momento da revisão; não contado como falha comportamental. Necessária revisão quando todos os turnos estiverem disponíveis.",
+      "evidence": []
+    }
+  ],
+  "schema_version": "1.0",
+  "created_utc": "2026-09-09T11:47:04.2788492Z",
+  "spec_sha256": "5dbc69eef322272660277c3a0da25ad19b6b884bfc64b1ff19b9243141099b54"
+}

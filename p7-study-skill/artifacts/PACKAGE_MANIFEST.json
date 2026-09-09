@@ -1,5 +1,5 @@
 {
-  "file_count": 288,
+  "file_count": 289,
   "files": [
     {
       "bytes": 1778,
@@ -27,9 +27,9 @@
       "sha256": "804f285e50c13fc339d99581c988883577f6c87bf27619e30b9a82ac8f223680"
     },
     {
-      "bytes": 6789,
+      "bytes": 6790,
       "path": "README_INSTALL.md",
-      "sha256": "e115cd0c332f808c9773ac844e7c75125fd5f0496c8e0deece7a5c3d71d1793f"
+      "sha256": "0a686a77d9f2ec5cebe0822283165d34c464ff360b60063f0cc863ca9687c077"
     },
     {
       "bytes": 1937,
@@ -42,9 +42,9 @@
       "sha256": "038afd09daceb22733190cea1042615bc2182e9c2681407ddfdb6918e9203b23"
     },
     {
-      "bytes": 1359,
-      "path": "RELEASE_NOTES_v1.5.1-rc.1.md",
-      "sha256": "852826bbd34903a5954a6c4b38a94aa11b57b6dbdf3f41d06c6b2793e9222b8f"
+      "bytes": 1049,
+      "path": "RELEASE_NOTES_v1.5.1.md",
+      "sha256": "c9fc078beaacd126fd25b91ceda261e9fea06265b312d64864edbfcbd5bb9f3a"
     },
     {
       "bytes": 11529,
@@ -52,9 +52,9 @@
       "sha256": "265ff379e8d8fc71f880e82a731809ac63f1d0bbbad8bd4f497000b182365a6b"
     },
     {
-      "bytes": 11,
+      "bytes": 6,
       "path": "VERSION",
-      "sha256": "b45deed4fd36be4eea031ddb8b1607746dbb5c3afef85f827c8b7ba73c3e728d"
+      "sha256": "dfe7d71b3f428eb73ed853f8fded65e2986896e21d69f45ebf06bb623b450e14"
     },
     {
       "bytes": 272,
@@ -1072,9 +1072,9 @@
       "sha256": "f8ea259898daaeabfac5cd3a9f9d792b40423af993caa649dedac43cab9d112d"
     },
     {
-      "bytes": 4546,
+      "bytes": 4940,
       "path": "registry/release_gates.json",
-      "sha256": "eecb6cdf65bd355288a0eb73a65f1ff486a8e9798841075d4ed4d02da82f003b"
+      "sha256": "bf4c1740a1cb928ee0807bb8108c6efb5616173006d855ce8c4fb4ed035a83d3"
     },
     {
       "bytes": 3503,
@@ -1240,6 +1240,11 @@
       "bytes": 4264,
       "path": "repair/history/v1.5.0/registry/release_gates.json",
       "sha256": "6faccb172a5e72bc5b72050eb443f3ac056cf957744d06a3116ddf78f9182570"
+    },
+    {
+      "bytes": 1359,
+      "path": "repair/history/v1.5.1/RELEASE_NOTES_v1.5.1-rc.1.md",
+      "sha256": "852826bbd34903a5954a6c4b38a94aa11b57b6dbdf3f41d06c6b2793e9222b8f"
     },
     {
       "bytes": 14518,
@@ -1444,5 +1449,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 6634420
+  "total_bytes": 6635859
 }

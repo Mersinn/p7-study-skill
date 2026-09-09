@@ -2,7 +2,7 @@
 
 Skill privada de estudo do P7 (sétimo período, ciclo clínico — FAMENE).
 
-> **Estado atual: `1.5.1-rc.1` / HOLD.** Reparo de proveniência integrado ao histórico original, com cache e compatibilidade UTF-8 no Windows. Os testes locais passam; a requalificação comportamental está em conclusão. Fontes curriculares foram lidas localmente, mas seus PDFs não são redistribuídos. As 17 quarentenas e o conflito permanecem preservados. Resultados atuais e fila clínica: `repair/local-2026-09-08/`. Não tratar o candidato como release final.
+> **Estado atual: `1.5.1` / READY_FOR_RELEASE.** O reparo de proveniência está integrado ao histórico original, com cache e compatibilidade UTF-8 no Windows. A suíte de 55 testes passa; a qualificação final combina execuções atuais, evidência histórica preservada por dependência invariante e revisão estática dirigida. Fontes curriculares foram lidas localmente, mas seus PDFs não são redistribuídos. As 17 quarentenas e o conflito permanecem preservados.
 
 
 Sucede a `p6-study-skill` v2.1.0, herdando a arquitetura e recuperando

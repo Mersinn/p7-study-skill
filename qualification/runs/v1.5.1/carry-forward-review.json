@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0.0",
+  "reviewer": "independent Codex subagent carry_forward_review; model serving revision not exposed",
+  "review_kind": "read_only_dependency_and_historical_evidence_review",
+  "baseline": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+  "candidate": "b4d4713d22f9e6efe2eb2880193067da72267f74",
+  "checked_dependencies": [
+    "p7-study-skill/SKILL.md",
+    "p7-study-skill/references",
+    "p7-study-skill/schemas",
+    "p7-study-skill/config",
+    "p7-study-skill/capsules",
+    "p7-study-skill/p7_source_pack",
+    "p7-study-skill/scripts/ledger.py",
+    "p7-study-skill/scripts/priority.py"
+  ],
+  "dependency_git_diff": [],
+  "p7lib_runtime_dependency_ast_unchanged": {
+    "SCHEMA_VERSION": true,
+    "canonical_json": true,
+    "sha256_bytes": true,
+    "PACKAGE_ROOT": true,
+    "calculate_priority": true,
+    "load_json": true
+  },
+  "hash_checks": [
+    {
+      "path": "qualification/records/journey_adjudications.jsonl",
+      "expected": "fd4e5846e9a8579cf1cfe8e2fa83f1e706492566653b6313945de8305ee66cde",
+      "actual": "fd4e5846e9a8579cf1cfe8e2fa83f1e706492566653b6313945de8305ee66cde",
+      "match": true
+    },
+    {
+      "path": "qualification/tools/build_journey_records.py",
+      "expected": "131d1a772a9509eafbb1872bfcf5ba2e40fde48a480dfbf64056e83cca7e858f",
+      "actual": "131d1a772a9509eafbb1872bfcf5ba2e40fde48a480dfbf64056e83cca7e858f",
+      "match": true
+    },
+    {
+      "path": "qualification/fixtures/journeys/J01_personalization.json",
+      "expected": "a03cd04f6d41ee328636958441b1daf0d52c7de2cc93d26068a20fbfabe22f29",
+      "actual": "a03cd04f6d41ee328636958441b1daf0d52c7de2cc93d26068a20fbfabe22f29",
+      "match": true
+    },
+    {
+      "path": "qualification/fixtures/journeys/J02_document_active.json",
+      "expected": "a59fd31dc83d33f58feeffd24991ab6774c35e8c040fdc1f195bdb66b063fac7",
+      "actual": "a59fd31dc83d33f58feeffd24991ab6774c35e8c040fdc1f195bdb66b063fac7",
+      "match": true
+    },
+    {
+      "path": "qualification/fixtures/journeys/J03_discursive_simulation_memory.json",
+      "expected": "de4cb1ea6d24ef840ed60bc38ab1a2c59597b588f2202fd5f92f83a67243ffec",
+      "actual": "de4cb1ea6d24ef840ed60bc38ab1a2c59597b588f2202fd5f92f83a67243ffec",
+      "match": true
+    },
+    {
+      "path": "qualification/runs/journeys_codex/J03/run1_raw.md",
+      "expected": "a962b9255fd5978106dcd74444f7d129e46e60d2ed5adbb5edeff7e032beb6d6",
+      "actual": "a962b9255fd5978106dcd74444f7d129e46e60d2ed5adbb5edeff7e032beb6d6",
+      "match": true
+    },
+    {
+      "path": "qualification/fixtures/journeys/J03_discursive_simulation_memory.json",
+      "expected": "de4cb1ea6d24ef840ed60bc38ab1a2c59597b588f2202fd5f92f83a67243ffec",
+      "actual": "de4cb1ea6d24ef840ed60bc38ab1a2c59597b588f2202fd5f92f83a67243ffec",
+      "match": true
+    },
+    {
+      "path": "qualification/runs/journeys_codex/J03/run2_raw.md",
+      "expected": "e8365d6fef0ccbf5a9ef808762ef0dda4b4a59dae2fb5d6d3b8d0723801fefc1",
+      "actual": "e8365d6fef0ccbf5a9ef808762ef0dda4b4a59dae2fb5d6d3b8d0723801fefc1",
+      "match": true
+    },
+    {
+      "path": "qualification/fixtures/journeys/J03_discursive_simulation_memory.json",
+      "expected": "de4cb1ea6d24ef840ed60bc38ab1a2c59597b588f2202fd5f92f83a67243ffec",
+      "actual": "de4cb1ea6d24ef840ed60bc38ab1a2c59597b588f2202fd5f92f83a67243ffec",
+      "match": true
+    },
+    {
+      "path": "qualification/runs/journeys_codex/J03/run3_raw.md",
+      "expected": "871edcbb4e6d437b7463e47ae67e327ade9696c33577f00cb89c8d9ce54713d7",
+      "actual": "871edcbb4e6d437b7463e47ae67e327ade9696c33577f00cb89c8d9ce54713d7",
+      "match": true
+    },
+    {
+      "path": "qualification/fixtures/journeys/J03_discursive_simulation_memory.json",
+      "expected": "de4cb1ea6d24ef840ed60bc38ab1a2c59597b588f2202fd5f92f83a67243ffec",
+      "actual": "de4cb1ea6d24ef840ed60bc38ab1a2c59597b588f2202fd5f92f83a67243ffec",
+      "match": true
+    },
+    {
+      "path": "qualification/runs/journeys_codex/J03/run4_raw.md",
+      "expected": "3e06e88d991347462d01dcf2fda1813333fe54f63c333369b34e718f9d6e7106",
+      "actual": "3e06e88d991347462d01dcf2fda1813333fe54f63c333369b34e718f9d6e7106",
+      "match": true
+    },
+    {
+      "path": "qualification/fixtures/journeys/J03_discursive_simulation_memory.json",
+      "expected": "de4cb1ea6d24ef840ed60bc38ab1a2c59597b588f2202fd5f92f83a67243ffec",
+      "actual": "de4cb1ea6d24ef840ed60bc38ab1a2c59597b588f2202fd5f92f83a67243ffec",
+      "match": true
+    },
+    {
+      "path": "qualification\\runs\\behavioral_codex\\T22_surface\\clean_sessions\\sessionA_raw.md",
+      "expected": "ac9ccb8471366d4615d3eb502f8f96a7ca5b6cb9f86c5419ff6c3ec1ce905dac",
+      "actual": "ac9ccb8471366d4615d3eb502f8f96a7ca5b6cb9f86c5419ff6c3ec1ce905dac",
+      "match": true
+    },
+    {
+      "path": "qualification/headless_test_env/codex_longitudinal_20260825/sessionA/.p7-state/events.jsonl",
+      "expected": "9ff3b4b6f93c747851ae7d8afc06c082bfa6e48291dbb88bbf018af7818d3fd1",
+      "actual": "9ff3b4b6f93c747851ae7d8afc06c082bfa6e48291dbb88bbf018af7818d3fd1",
+      "match": true
+    },
+    {
+      "path": "qualification/runs/longitudinal_codex/F-LEDGER-B/sessionB_raw.md",
+      "expected": "fee2be71b5f0913f341887e73852426865d006c7dc4690a0f4ddf9619c31c728",
+      "actual": "fee2be71b5f0913f341887e73852426865d006c7dc4690a0f4ddf9619c31c728",
+      "match": true
+    },
+    {
+      "path": "qualification/fixtures/longitudinal/F-LEDGER-B/.p7-state/events.jsonl",
+      "expected": "4726ea3931f109d244150518e38257596fb2d2a541936e856a6131f7a6848721",
+      "actual": "4726ea3931f109d244150518e38257596fb2d2a541936e856a6131f7a6848721",
+      "match": true
+    }
+  ],
+  "all_hash_checks_match": true,
+  "longitudinal": {
+    "recommendation": "Carry forward the already accepted v1.5.0 limited longitudinal evidence, explicitly historical, as regression evidence for this repair; do not call it a fresh model execution.",
+    "historical_scope": "A and B final: read previous state, active recovery, confidence/result append, valid hash chain, 4 to 6 and 6 to 8 events. B2 read-only INCONCLUSIVE remains preserved.",
+    "state_validation_now": [
+      "Current ledger.py validate: valid ledger: 6 events for A",
+      "Current ledger.py validate: valid ledger: 8 events for B"
+    ],
+    "precedent": "GATE_MIGRATIONS 2026-08-27 explicitly carried longitudinal PASS for unchanged ledger, schemas and fixture. Accepted release/v1.5.0 to current repair has unchanged runtime contract dependencies.",
+    "limitation": "From original execution 0d5073cf to accepted v1.5.0, LEARNER_STATE_PROTOCOL and learner-event schema did change. Thus dependency equivalence is proved against accepted release/v1.5.0, not every byte of the original execution environment. Current command validates legacy ledger chain, not every new schema obligation or all learner analysis behaviors."
+  },
+  "J03": {
+    "recommendation": "Preserve historical adjudications unchanged, but do not treat the available shortened raws as new independent proof of the complete accessible-handoff blocker. Root must decide whether preexisting accepted historical evidence suffices under the contract; missing actual handoff artifact/content is a concrete evidence limitation.",
+    "historical_denominator": {
+      "PASS": 3,
+      "INCONCLUSIVE": 1
+    },
+    "raw_review": [
+      "run2 keeps candidate N=1, one question in turn2 and correction in turn3; turn4 claims a created handoff with no path/content in raw.",
+      "run3 keeps candidate N=1, one question in turn2 and correction in turn3; turn4 says a transportable block was supplied but actual block is not reproduced.",
+      "run4 uses third-person descriptions of correction and next question; turn4 claims accessible ledger without a path/content in raw."
+    ],
+    "scope_limitation": "These are recorded historical P7 executions on gpt-5.6-terra, not P6 baseline execution and not fresh Astra or Claude qualification. Original execution 495c07e to release/v1.5.0 changed SKILL and several behavioral references; current repair itself did not change them.",
+    "re_adjudication": "Not performed as fresh PASS because evidence can demonstrate ordering/N=1 but cannot independently demonstrate the actual transportable artifact from supplied raw files."
+  },
+  "mutations": "Only this new review JSON in task workspace; no skill, gate, historical file or repository mutations."
+}

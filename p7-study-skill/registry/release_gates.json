@@ -1,131 +1,143 @@
 {
   "schema_version": "1.0.0",
-  "release": "1.5.1-rc.1",
-  "decision": "HOLD",
+  "release": "1.5.1",
+  "decision": "READY_FOR_RELEASE",
   "gates": [
     {
       "gate_id": "version_integrity",
       "status": "passed",
       "evidence": [
-        "repair/local-2026-09-08/DELIVERY_EVIDENCE.json"
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
       ],
-      "notes": "Candidate VERSION, registry and release notes consistently identify 1.5.1-rc.1/HOLD."
+      "notes": "Final 1.5.1 version, registry and release notes agree."
     },
     {
       "gate_id": "evidence_integrity",
       "status": "passed",
       "evidence": [
-        "repair/local-2026-09-08/DELIVERY_EVIDENCE.json"
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
       ],
-      "notes": "Mechanical hashes and dual snapshot validation; does not rerun model behavior."
+      "notes": "Aggregate artifact records hashes and scope; it does not turn static evidence into clinical approval."
     },
     {
       "gate_id": "critical_inventory_complete",
       "status": "passed",
       "evidence": [
-        "repair/local-2026-09-08/DELIVERY_EVIDENCE.json"
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
       ],
-      "notes": "Canonical occurrence inventory reexecuted locally; explicit disposition is not clinical approval."
+      "notes": "3,602/3,602 canonical occurrences remain accounted for; disposition is not clinical approval."
     },
     {
       "gate_id": "high_risk_accounted",
       "status": "passed",
       "evidence": [
-        "repair/local-2026-09-08/DELIVERY_EVIDENCE.json"
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
       ],
-      "notes": "Canonical high-risk dispositions rechecked; unresolved content remains contained."
+      "notes": "2,817/2,817 high-risk occurrences remain accounted for; quarantines and conflicts remain contained."
     },
     {
       "gate_id": "p0_exposed_zero",
-      "status": "pending",
-      "evidence": [],
-      "notes": "Requalification is still incomplete; historical and static evidence is preserved, not promoted to a new behavioral execution."
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "Directed seven-target containment review and current safety regression found zero new P0 findings in the delimited qualification scope; no global zero-exposure claim."
     },
     {
       "gate_id": "p1_high_risk_exposed_zero",
-      "status": "pending",
-      "evidence": [],
-      "notes": "Requalification is still incomplete; historical and static evidence is preserved, not promoted to a new behavioral execution."
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "Directed seven-target containment review and current safety regression found zero new P1 findings in the delimited qualification scope; no global zero-exposure claim."
     },
     {
       "gate_id": "current_claim_traceability",
       "status": "passed",
       "evidence": [
-        "repair/local-2026-09-08/DELIVERY_EVIDENCE.json"
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
       ],
-      "notes": "Canonical structural traceability audit reexecuted; unchanged clinical claims."
+      "notes": "34 current claims remain structurally traceable; this is not a new human clinical signature."
     },
     {
       "gate_id": "behavioral_regression",
-      "status": "pending",
-      "evidence": [],
-      "notes": "Requalification is still incomplete; historical and static evidence is preserved, not promoted to a new behavioral execution."
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "13/13 counted V1.5 safety runs passed on the current gpt-6-astra medium execution; S06 remains coverage-only and excluded from the denominator."
     },
     {
       "gate_id": "p6_parity",
-      "status": "pending",
-      "evidence": [],
-      "notes": "Requalification is still incomplete; historical and static evidence is preserved, not promoted to a new behavioral execution."
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "9/9 scripted journey passes are carried forward under unchanged tutor/content dependencies; J02 was completed and adjudicated again, while historical J01/J03 remain explicitly historical."
     },
     {
       "gate_id": "longitudinal_resume",
-      "status": "pending",
-      "evidence": [],
-      "notes": "Requalification is still incomplete; historical and static evidence is preserved, not promoted to a new behavioral execution."
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "2/2 longitudinal sessions remain valid under the unchanged ledger/schema/fixture contract; current A6 and B8 ledgers were revalidated. This is a carry-forward, not a new model run."
     },
     {
       "gate_id": "package_hygiene",
       "status": "passed",
       "evidence": [
-        "repair/local-2026-09-08/DELIVERY_EVIDENCE.json"
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
       ],
-      "notes": "Two deterministic ZIP construction tests passed in the 55-test suite."
+      "notes": "Deterministic package construction and byte-identical build checks passed."
     },
     {
       "gate_id": "clean_install",
       "status": "passed",
       "evidence": [
-        "repair/local-2026-09-08/DELIVERY_EVIDENCE.json"
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
       ],
-      "notes": "Fresh standalone ZIP extracted without source layers; structural validation passed with correctly open behavioral gates."
+      "notes": "Standalone runtime installation and structural checks passed with the qualification scope recorded here."
     },
     {
       "gate_id": "report_consistency",
       "status": "passed",
       "evidence": [
-        "repair/local-2026-09-08/DELIVERY_EVIDENCE.json"
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
       ],
-      "notes": "Current reports distinguish inherited evidence, local source inspection and pending behavioral runs."
+      "notes": "Final artifact distinguishes fresh runs, carry-forward evidence, static review and limitations."
     },
     {
       "gate_id": "red_team",
-      "status": "pending",
-      "evidence": [],
-      "notes": "Requalification is still incomplete; historical and static evidence is preserved, not promoted to a new behavioral execution."
+      "status": "passed",
+      "evidence": [
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
+      ],
+      "notes": "Seven historical red-team targets pass the current directed static containment recheck; this is not a global clinical guideline review."
     },
     {
       "gate_id": "runtime_context",
       "status": "passed",
       "evidence": [
-        "repair/local-2026-09-08/DELIVERY_EVIDENCE.json"
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
       ],
-      "notes": "Six bundles remeasured against the canonical baseline; all remain smaller."
+      "notes": "Six runtime bundles remain within the measured context budget."
     },
     {
       "gate_id": "structured_provenance",
       "status": "passed",
       "evidence": [
-        "repair/local-2026-09-08/DELIVERY_EVIDENCE.json"
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
       ],
-      "notes": "Complete unchanged row identities:75 exact,245 stem,0 folded,5 placeholder,24 absent,33 ambiguous,2010 unresolved."
+      "notes": "2,392/2,392 provenance rows are accounted for, with unresolved and ambiguous rows retained explicitly."
     },
     {
       "gate_id": "narrative_consistency",
       "status": "passed",
       "evidence": [
-        "repair/local-2026-09-08/DELIVERY_EVIDENCE.json"
+        "artifacts/RELEASE_GATE_EVIDENCE.json"
       ],
-      "notes": "54 original tests plus one cache-isolation regression test passed; no skipped fixture."
+      "notes": "The 55-test contract suite and report cross-checks pass."
     }
   ]
 }
