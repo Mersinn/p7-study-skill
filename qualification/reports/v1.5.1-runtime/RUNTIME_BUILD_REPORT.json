@@ -1,0 +1,1611 @@
+{
+  "result": "PASS",
+  "runtime_entries": 207,
+  "engineering_entries": 297,
+  "runtime_zip_sha256": "72cce1abb138a2849a09afab5d104b60589ce1bbe2f0996696c8aedd300d908c",
+  "engineering_zip_sha256": "0d021f9d3341d1aa2ce2e6381c20458a124a1bad96016a882b2c86d6920d0fa1",
+  "deterministic_runtime": true,
+  "capsule_hashes": {
+    "capsules/CAPSULE_INDEX.md": "e83ac545515741f4738a3b92598064c0c4976f1ee1ac16d11bf9a6b3dcfff8e5",
+    "capsules/CASOS_CLINICOS/abordagem_a_dispneia.md": "0ccae36f973a4096788fc54cb231ae07d9b27e97435ab07f2c7faa75480f934b",
+    "capsules/CASOS_CLINICOS/abordagem_diarreia_aguda_cronica.md": "a0dc3910373a2f9d7c81abfb3677e9ca7c82e5523968ede426bb2666ef240fb6",
+    "capsules/CASOS_CLINICOS/cefaleias_classificacao_sinais_alarme.md": "1df243c1fd0a81988c2fcac4e034bcd8102ae82337516c061a762a927c5b4283",
+    "capsules/CASOS_CLINICOS/cirrose_hepatica_ascite_pbe.md": "232b139103c66a6edce05f1de164eb17090635d031e7fcf99c79bf3fdd15a996",
+    "capsules/CASOS_CLINICOS/colite_pseudomembranosa.md": "f1e48171b42a5b37631f7e16fd5a639cbf7e4031a29afc1b055e77e7d0efb4c5",
+    "capsules/CASOS_CLINICOS/doenca_celiaca.md": "aef15f67f71a1948ff8bc6bc61b0afe223caf695ec3e563abe85442062e7e39b",
+    "capsules/CASOS_CLINICOS/doenca_inflamatoria_intestinal_crohn_versus_retocolite_ulcerativa.md": "ca5b02d93dca2f59c384efbb9d4595ded221450e61892d021a0b97a8ba6342c4",
+    "capsules/CASOS_CLINICOS/formato_avaliacao_discussao_casos_clinicos.md": "56d8f512ab71134303b7d120e7689e9ccac8d67028d83842413dce3d52b83d53",
+    "capsules/CASOS_CLINICOS/fraqueza_muscular_miastenia_polimiosite.md": "e27bff442e8ee310888727341c73247689ba940470f887e99b4b10b6b97871c9",
+    "capsules/CASOS_CLINICOS/ganho_de_peso_obesidade_e_sindrome_metabolica.md": "8ef8114fff9051c8f4c926713e853f823ecd9011c9a3924dfe2f9629ff32fca7",
+    "capsules/CASOS_CLINICOS/hemorragia_subaracnoide_hipertensao_intracraniana.md": "fa5a0d0ab1c9302afc4f3157ca2c6f27751d999eaee92ae09f67dde84172d2af",
+    "capsules/CASOS_CLINICOS/icetericia_e_interpretacao_das_provas_de_funcao_hepatica.md": "16309691d837988c1bb75ce2e4bf30952beff87f1e3dea3cc1853a0e37b085b9",
+    "capsules/CASOS_CLINICOS/sindrome_do_intestino_irritavel.md": "d081daffe9b8d58f7f0cb4faf7c37932d8b59eaf6034457fedaf6c7069931d68",
+    "capsules/CASOS_CLINICOS/tireoidopatias_hipotireoidismo_nodulo_e_paaf.md": "9ec7c86c371451794510b31f830029e99bd2c95341e10578cb17d7a23eade2ff",
+    "capsules/CASOS_CLINICOS/tontura_vertigem_vppb_dix_hallpike.md": "65bd94b12c793e388974a7e3073dcc2cca9902a0a728e40501277ba759258b9c",
+    "capsules/EISA_II/anatomia_osso_temporal_e_audicao.md": "3a2b79c231703927ed7d998ec507f9530d58667a3ee5be5098a1adbbf38c9011",
+    "capsules/EISA_II/anticonvulsivantes_gestacao.md": "7242c232f14b8927051e6cd9f03dca4dcc56a8775efae3120e0d81866cc838a2",
+    "capsules/EISA_II/avaliacao_laboratorial_em_nefrologia.md": "03ec1c6c7efc0fb8809d0e75f4e86d76b339851fc0b5f2a2868b4a9172ab7855",
+    "capsules/EISA_II/avaliacao_por_imagem_em_nefrologia.md": "e91235549056abb883bc98b00ef5e3198bcb8a559f1e8b8e3e85be353069bf99",
+    "capsules/EISA_II/avc_hemorragico.md": "eaf0753b6c4e9132f3b9522864f485b99ef8eb700425df97d609e214e68b98af",
+    "capsules/EISA_II/avc_isquemico_investigacao_etiologica_e_prevencao_secundaria.md": "cc9f0668c124135b664b4d628e44c1c7448e5a32c363321a4337994312061974",
+    "capsules/EISA_II/avc_isquemico_urgencia_trombolise_e_trombectomia.md": "622e7f9f15400cdbf01f0ec7016555a060ef4034566ffe7b7a12fdf6e27b1fd1",
+    "capsules/EISA_II/bexiga_neurogenica.md": "641420cb78db44f3cb732a79f243aa9d7f983b9628b4d9b42e3f27089778ffe9",
+    "capsules/EISA_II/cancer_de_prostata.md": "52efaa64c5b1a43143dd73b21bce55b46a9edcc28b257e0407aa618f723b9de2",
+    "capsules/EISA_II/cancer_de_testiculo.md": "bdceddab267545951481f409b017bce1e8a6c5339ee1fa3c10473f38dfaa8dbe",
+    "capsules/EISA_II/cefaleias_primarias_e_secundarias.md": "d8e59bcdec37c81ad4a108c73d72b8319103cd87c684bd413b9b87dd3b1ecdc9",
+    "capsules/EISA_II/coma_e_rebaixamento_do_nivel_de_consciencia.md": "efe424bc4f57fc2d5d0565785cdc29c4942fd227e976a2e2452a55a4fcb5a17b",
+    "capsules/EISA_II/como_e_quando_encaminhar_para_o_nefrologista.md": "1f5a15f7b4e14957c21df13d44243edd2868043dcc3a72d050cd4083cb4adfd6",
+    "capsules/EISA_II/demencias.md": "1a0e1629f42194ad2c58d4e2957070ccaa546c602f8a242c7da6e3850aac1c1d",
+    "capsules/EISA_II/diabetes_complicacoes_agudas_cronicas.md": "b6b7a8ebdf63dad9462484b6c25d0a14faf68fabe3f2366c0f7969ec7957a890",
+    "capsules/EISA_II/diabetes_mellitus_conceito_classificacao_diagnostico.md": "ab841f49e8eb6c476b04123ca455359cd8921b3ad8ac270894d3a3477ffd8d87",
+    "capsules/EISA_II/diabetes_mellitus_gestacional.md": "8681a980e49595c2e41813f693e7887abe1bba9b22ff33ef9ac525766f1ebd50",
+    "capsules/EISA_II/diabetes_metas_tratamento_terapia_nao_insulinica.md": "4050f5216bb37fc9f368ac8092a0d5ea9833735707b4a4968b2629fde6d69b15",
+    "capsules/EISA_II/diagnostico_sindromico_em_nefrologia.md": "4a12e777c49da5335db88682ea336d65faff3bf69085da55a6ead3373ff3c649",
+    "capsules/EISA_II/disturbios_do_movimento.md": "e3ad30bbcb5d3db4db43e5a61621b57966ac33449fe9e2e021d56bd2e07bc104",
+    "capsules/EISA_II/doenca_renal_cronica_drc.md": "6d4df3d76f43054d483cd3b67aca29ad6e0f1448b992cd5816c254d2332db35b",
+    "capsules/EISA_II/doenca_renal_na_gestacao.md": "53d5a5d7d9085338164c083ff3a990d7145ae059e2a1dafd813b7a7ee71b5ec0",
+    "capsules/EISA_II/doencas_cisticas_renais.md": "e89c1847cf20217b5288d26823f5b311db0ac3e99e8465425a3f195ab8b57d9a",
+    "capsules/EISA_II/doencas_da_orelha_externa.md": "5abe1ac0b3d7cd362f780a8d284c3a0aade2aa501711218678f05ef30c9b4e75",
+    "capsules/EISA_II/doencas_neuromusculares.md": "2540782689d712170c22a358ba18686319fab6814881460d89f812fe44fb4103",
+    "capsules/EISA_II/doencas_oculares_em_endocrinologia_oftalmopatia_de_graves_e_retinopatia_diabetica.md": "776f407d2ba1f79a886a2616db1bb311f3c30953474fe52f0f9fd55fdeae4e61",
+    "capsules/EISA_II/doencas_paratireoides_hiperparatireoidismo_osteoporose.md": "3d3ecebb8c1d52dde629a1788c54d26654c1bb4134f738e6aa818f292767fa66",
+    "capsules/EISA_II/epilepsia_e_crises_epilepticas.md": "37e146bd3cde750a1e64a80ad559e898561e380f50045bd89ad8a3d833567bc3",
+    "capsules/EISA_II/erisipela.md": "ea8bb0b52f735af1aba7fb3f75496b6316528b14048beb9ad86eb240f607624d",
+    "capsules/EISA_II/esclerose_multipla_e_doencas_desmielinizantes.md": "a02bbadb0f33b6e70d4c2ad7538baa1b1b73ed04a30ac398c087c37cad6a128a",
+    "capsules/EISA_II/estado_de_mal_epileptico_sequencia_doses.md": "9c2a76d2a1bc8fa3da579fd1eff4b0a2789587a3b27ec27ba789fdadc7ec5461",
+    "capsules/EISA_II/farmacologia_dislipidemias.md": "e45074cadb663b2019e6c2029702e2c0397050470213019ec07317e9ee9c9d29",
+    "capsules/EISA_II/farmacoterapia_convulsoes_mecanismo_escolha.md": "7ce5090e86999c72b79024b92f1cfd12f1dd4813aaeebd0b0e5cd27103eceeeb",
+    "capsules/EISA_II/farmacoterapia_diabetes_i_nao_secretagogos.md": "d93d5ecb1e5c0072ec478befe4728b576c187f5dd1b25c36078de51467df1439",
+    "capsules/EISA_II/farmacoterapia_diabetes_ii_secretagogos.md": "4946211cf92fefd33d5e0379e4a91a148905e984cd3bec132e3299908777cf96",
+    "capsules/EISA_II/glaucoma_e_catarata.md": "52ed9a1b02803a12167bf44e09e58e3010ed1b9d266b99e6e73063ce0902c5a1",
+    "capsules/EISA_II/glomerulopatias_primarias.md": "be3fec9800417327f3f49104367a0e4bebf0dd932a01a567e384d727e09c39c7",
+    "capsules/EISA_II/glomerulopatias_secundarias.md": "c9b8a589b2f2cc41fcf910c206ed62be795e9bdd6c924c2def77600a37e2f381",
+    "capsules/EISA_II/has_nefrogena_renovascular.md": "a7bbe10605ef137414cedfa96968d66acbe629ce93605ea0b52f148e254939d2",
+    "capsules/EISA_II/hiperaldosteronismo_primario_feocromocitoma.md": "da8f65fae7281e54f72d04940312bab018a7460ab4b3b40b1183314121e3e134",
+    "capsules/EISA_II/hiperandrogenismo_hac_sop_tumor_virilizante.md": "ed26236e8290a28892a64f12b59e52691ad2449073dfbbfcbe83733fe18df038",
+    "capsules/EISA_II/hiperfuncao_hipofisaria.md": "89b0fdfc7cfe76a06b18f041de00f31313780eb8725bfe1869a0867c97e32d64",
+    "capsules/EISA_II/hiperplasia_adrenal_congenita.md": "79c7ca40c9e0a7e60c7a1d8ee7e57062990bd2238b3dbba1b66deb04183ef5bd",
+    "capsules/EISA_II/hiperplasia_prostatica_benigna_clinica_e_tratamento.md": "4d2862984000851ffb287f73168257a5e5e1ab8a1331230dbfff37d0f506048a",
+    "capsules/EISA_II/hipertensao_intracraniana.md": "9d9f5f0a7ff55aca666899f7cf0bfa21cd53d447edca5c67120b0a8092c35ceb",
+    "capsules/EISA_II/hipertireoidismo_tireotoxicose.md": "1e572153f4a7794208b2726d052a7044e3200ac17d9eb62760341439046ec58c",
+    "capsules/EISA_II/hipoparatireoidismo_e_hipocalcemia.md": "6283a7e118f07efe7c387945f569328354e748fc0b0eb9dc69fa7e500cbd9237",
+    "capsules/EISA_II/hipopituitarismo.md": "d7a77177138c144d6041874661be636a549c1705237fde309b1308b094a1647a",
+    "capsules/EISA_II/hipotireoidismo.md": "b9f64b909314379abe1d3f2a8555eb12f1abde081e59317e32b5db9c9c983752",
+    "capsules/EISA_II/infeccoes_sexualmente_transmissiveis.md": "0baece716735f0280c4807af463591c7e5fd2205cc43015dc636a5f2a4f4b90d",
+    "capsules/EISA_II/insulinoterapia_classificacao_farmacocinetica.md": "609e5d50625bbe8add13b2e1551a8d15c6e7e5f69f0157d3a95d112964075829",
+    "capsules/EISA_II/insulinoterapia_no_dm1_e_dm2.md": "a5e1f40a2eaf740c5248370ca5755e9e89776edde572f15418dd3d78eee12d42",
+    "capsules/EISA_II/lesao_renal_aguda_lra.md": "602dc42296cb097e7eca10095b063f789437a673e42e7be0200db14f1e60524e",
+    "capsules/EISA_II/linfedema.md": "e496dbb9ea72bba4b5ad5396a381ee406c1aa8f133d35314504d5fd127934c9e",
+    "capsules/EISA_II/litiase_urinaria.md": "f18ab63a465c89eeb4972fd9be5954ed1fa5cfdb74666a0c16558777dada30e0",
+    "capsules/EISA_II/manejo_clinico_ambulatorial_do_dm.md": "776f38ebec16139e5f7d314895276a03b626968a9a409bc4496d83a4537b9553",
+    "capsules/EISA_II/nefropatia_diabetica.md": "f3bbff32bf5c5f01b0da2e401e2fbf6d25c95be8eb4baddefbf10732b7f2772a",
+    "capsules/EISA_II/neoplasia_vesical.md": "c034a7996b21e883e2cb6c0580531599e06c832da8df4ed59ab3df270309415d",
+    "capsules/EISA_II/neuroftalmologia.md": "c5530f259008a0599b855955d5838162b6304b90c8a913fbce63459b1009a35e",
+    "capsules/EISA_II/neuroinfeccoes.md": "818b0e48638ada7d501806b2f728f01faf34b6fd58ae473a971a6a39e6eb3886",
+    "capsules/EISA_II/nodulos_tireoidianos_e_cancer_de_tireoide.md": "c6ebd582666df8f77321d1a0b91f9be6c5774c9e29b021794a4dd9a83aedb766",
+    "capsules/EISA_II/obesidade_e_sindrome_metabolica.md": "2640028c2c05a100ce3a343f454955f26bc0c52df27c9c21bad1c2c070f48d51",
+    "capsules/EISA_II/otites_aguda_cronica_externa.md": "0c94512f9d2517f1e1afc07fa1462365ab3d631c12a1203bca9765d048950b14",
+    "capsules/EISA_II/patologia_cancer_de_tireoide.md": "7b0a0f31fc3b7ccca1ba28614c4b8896f7cff743351be5fe994ad7cb918c205c",
+    "capsules/EISA_II/patologias_penianas_e_escrotais.md": "6b68d5ef2605b04bf58343155ed67d66b65c4eb0c83d9c03ceb81dde199e076c",
+    "capsules/EISA_II/pe_diabetico.md": "a4ff531b0e26f73e24fe50da2a8a3dd0618e597cc2ef4604603c51c118757ad9",
+    "capsules/EISA_II/sarcoma_de_partes_moles.md": "45de2f5ab2a19dc1ac3116ec1b1b052d1c436d19175818ca82d683804f1da8be",
+    "capsules/EISA_II/surdez_e_vertigem.md": "282d26d2b3262890abbc60162caf1e3b8ff3da393fda2f273bdcbed12ecd7050",
+    "capsules/EISA_II/terapia_renal_substitutiva.md": "bbffec41f38caac5d4ec586a1cc07c1d64e79a5f0e8efaccecf98ffbf7f31e14",
+    "capsules/EISA_II/trauma_urogenital.md": "49bcdff11873062a6e9013de7c246dc6436eb28fce3d1a8e1ce9c1e0e94ccf23",
+    "capsules/EISA_II/traumatismo_cranioencefalico.md": "569b334d891db715a77ed76fa42c98c8279ec0923330567697154c959d3db5b9",
+    "capsules/EISA_II/tumores_do_sistema_nervoso_central.md": "deabab6a2fdde193254fe3566860cc41cb24b94ad03d96c3ba79a793a1968f98",
+    "capsules/EISA_II/tumores_renais_e_carcinoma_de_celulas_renais.md": "7a0383781eb9fa46d722e886558f9a07d4291a3bfcba955a911585e23f62acfd",
+    "capsules/EISA_II/urologia_feminina_infeccao_urinaria_e_incontinencia.md": "8ad6531f41714a531f14e98e8feec3f1871fd22c8c98c53be7b0aaadd26f4407",
+    "capsules/EISCA/adolescencia_puberdade_e_semiologia_do_adolescente.md": "56e3c73ad8b6ac2372b6c13f872e4fe42b2bdd0ecee056aab44de2bdc41dec95",
+    "capsules/EISCA/aleitamento_materno.md": "7e680299a9d169b10da126ed5938dbfb08ab586134370d0b799f0869cda3938e",
+    "capsules/EISCA/anemia_ferropriva.md": "e1331741d48a33ada08d582db4049eba9482def636f283213cfb8fddd32c6dab",
+    "capsules/EISCA/asma_em_pediatria.md": "05ed40d6aae67f86ca38e12b7584005bd19a20c29571eed1e472da7a7db7a4bc",
+    "capsules/EISCA/assistencia_rn_sala_parto_reanimacao_neonatal.md": "c87103a63cc60dee730b6eb728c2365650e5bc5e124dd2f21906e0db6bb8f249",
+    "capsules/EISCA/atopias_na_infancia.md": "f3756fdc439b80417d50b2ef6d29caf92f2764223915ee231d1aefc91ee891ac",
+    "capsules/EISCA/bronquiolite_viral_aguda.md": "215cb19c48ab6e4bbd24494d99a58ed5924dbdba8b957f7f0b346778bce91734",
+    "capsules/EISCA/cardiopatias_congenitas.md": "198d04106d6933feed942b1f4b662dc307d676db431381d0dc6ab7e293265113",
+    "capsules/EISCA/convulsao_febril.md": "f95e4ed405bb52f450138581c36332e2d27e62767a8b6ffb8351bdbac407e6db",
+    "capsules/EISCA/crescimento_e_desenvolvimento.md": "a13d382f4e80bab840e62f984426741deeb05a747911c36819395093c43f84c4",
+    "capsules/EISCA/diagnostico_diferencial_das_anemias_na_infancia.md": "2d4d10c8353ce8eeaa9e5c9b6414ecc892bbddbc89e74042440ce1000ae5af67",
+    "capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md": "868d86d5f26fe93cd72fd52e40336b87df0ede8d201b3d39e6e60c2456b1a8e3",
+    "capsules/EISCA/doenca_hemolitica_perinatal_rh_abo.md": "093f305bea45c06a32381667d7f84e73cadf0d0e44c9af0138c65c4b324a6204",
+    "capsules/EISCA/doencas_exantematicas.md": "f226e34b45f98122b4dd17c5acff76b0e5081669e0d8123764f0f69b25b2ec35",
+    "capsules/EISCA/faringoamigdalite_estreptococica_escarlatina.md": "910ab10be4e363440300ab8fb98ac09acc602dea3bc655c155b7f62c8cfc1ef4",
+    "capsules/EISCA/febre_reumatica.md": "22e853f2cd7c54bfc486ed82bbc3f4a2e45001f6980c5f93045415f170addb4f",
+    "capsules/EISCA/hemoglobinopatias_talassemias_doenca_falciforme.md": "a66cf92cc143a62aaf63398bbf15ec4d1448dddf618c8ad0ed2574fc9f696a9f",
+    "capsules/EISCA/humanizacao_em_uti_neonatal.md": "0e1827f9322bb8aa0b6f4f73401e58f43680b80213214beafc538e12c16d3182",
+    "capsules/EISCA/ictericia_neonatal_hiperbilirrubinemia_indireta.md": "7e131b24d97798e9b998cc8f3988780e17a7b0626b5f285d8f9a82f2cf7e7eac",
+    "capsules/EISCA/imunizacoes_calendario_vacinal_imunizacao_ativa_e_passiva.md": "0a9cf78fe77f7188ec926d2e449c6b9f5b07874e6319b3cd5dd2aa1633263801",
+    "capsules/EISCA/infeccao_do_trato_urinario_na_infancia.md": "131cbacfd30a63b28033dbb92287e44d30338985516bc1ca86ee5407ac96b9e0",
+    "capsules/EISCA/interpretacao_hemograma_e_coagulacao.md": "d8fe6cb09191dd80baa17ce58dfbac4d3894f153484b66f13aaea57813c5d18a",
+    "capsules/EISCA/leucemias_agudas_na_infancia.md": "9e6db65d5f382e38adc0c7af4050fc62a9998cd9db1ce49f37d9724c44166988",
+    "capsules/EISCA/meningites_na_crianca.md": "62f76ec717dc173616f9626be76d2f3f75579c38fcdcca3aa847810317e0ca39",
+    "capsules/EISCA/neuroblastoma.md": "fdc6b79479f3be5dca6d0a55916374fad4abd4801e31fb928f846ff3a72b2cad",
+    "capsules/EISCA/obesidade_na_infancia_e_adolescencia.md": "4814c2c116ee909c86949aebfd796da42ea74d858ca0f27871f8f562d0127a61",
+    "capsules/EISCA/obstrucao_via_aerea_alta_crupe_epiglotite.md": "a8722ab98ccfd26502ba9590866f5ba47b3cb175ba588b0d3ccb3d3de3f191a5",
+    "capsules/EISCA/osteossarcoma.md": "414323afd24cf3abecf7b5449f64c89af236c76a927ba25e13327480833993a2",
+    "capsules/EISCA/otite_media_aguda_e_rinossinusite_na_infancia.md": "e94f360838c79b3d3acc276844acc7ff98d4f2e547de228094fdd71800176c46",
+    "capsules/EISCA/parasitoses_intestinais.md": "40ce4e7d6e73bde28d0b9391231cd4b66102f5e3d83fd75ab6bb8ad0dbd52320",
+    "capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md": "e932139b9c8b0dc19a530a03848eaaf67c7d0d65663f4e44776ca7ebba472dfa",
+    "capsules/EISCA/rinofaringite_aguda_resfriado_comum_e_gripe.md": "c5ab0913c12fbeca629589bade4585bc95a376da8c455769b1b412c25b1b9494",
+    "capsules/EISCA/saude_ocular_na_infancia.md": "4bf9511611a55272bc4149f5309a25eeb47f2c48fe3869ab8b1f4c00295dbe0c",
+    "capsules/EISCA/semiologia_e_classificacao_do_recem_nascido.md": "2b40b9ad0cbbd1bf84376b589dca95629b94478de05f5d5eea9f37f53bb615c9",
+    "capsules/EISCA/semiologia_pediatrica.md": "f7ef29cb013e47a0115a0ca58757bd77f54e0b333273c3d191ac0f72f5cd137d",
+    "capsules/EISCA/sepse_e_meningite_neonatal.md": "ad77ddac7803fb9d646fc3fc47d22777da900b977944d375ae1ecf1746076057",
+    "capsules/EISCA/tumor_de_wilms.md": "404474617f1229515677e7e15928b7ed62422b47edac8aeea437b64b2065a5b1",
+    "capsules/EISCA/tumores_do_sistema_nervoso_central_na_infancia.md": "c9b10bbe3e2505edf2fe0c4665bc74317238c5e1d502139fb991e1309039341e",
+    "capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md": "6f6b0baf1417418fefc352f3b5e10d9304ae81eb500fa6bbaf94feff9cbe0d89",
+    "capsules/EISM/ansioliticos_e_hipnoticos.md": "6fa750dbdd17673917ff48aee173d75aeeebd514955b80047090ed96db53fa0e",
+    "capsules/EISM/antidepressivos.md": "bf1fd919a3303158c9e618f9bd5477a435890431d3464ec96f7bffa45ba96d36",
+    "capsules/EISM/antipsicoticos_sep_e_snm.md": "82d66e27d62f5bc1cc11bdbcabdf2156894196a5e76f1461a4420bf607b5f01a",
+    "capsules/EISM/delirium.md": "106d0de4aa7c1045d813913e8279c4f06b92e1b86b4b69d65bbe9f5ecf94558f",
+    "capsules/EISM/depressao.md": "b795acdbc36c2778e9e1865fad20aad7961497b755d9e0755ddc3edc8e0dfd5a",
+    "capsules/EISM/eletroconvulsoterapia_ect.md": "d6c694605efc73f86127ac391af7f19b0ccaede4d4c93df12057294a6265aa59",
+    "capsules/EISM/emergencias_psiquiatricas_e_agitacao_psicomotora.md": "a51f92822123d9bb20e47938fa3b425c2c97bbeaad86f9d89060e1ac9326302d",
+    "capsules/EISM/esquizofrenia_e_transtornos_psicoticos.md": "c5e74b3577c3fe14b1c634e360c775435a33daab3a2bc7b2d81ec2b904f36fdf",
+    "capsules/EISM/farmacoterapia_da_insonia.md": "d5a4ba99a973304493a93d513b4f2a9d17a3a336897bec22f40a43ba8de5797c",
+    "capsules/EISM/psicopatologia.md": "2164fd3cda8ffd41ee5cb9b30d689d00a6fbc1ef31b3b948b8ef19f7656622fe",
+    "capsules/EISM/psiquiatria_infancia_e_adolescencia.md": "14cf081cb4727ed0d152dc59e035454c35deb3ae6ee015fe992d0b477dae54fb",
+    "capsules/EISM/risco_de_suicidio.md": "ed2bd392a644eea804a193a4a4aafe45e72b2cf4779772b48ea11c7e2ff6a3f4",
+    "capsules/EISM/sexualidade_humana_e_disfuncoes_sexuais.md": "bb30b192e90f2c416d74cf7045ddd268ded1a01a5bd48552b3bd8176f12a678a",
+    "capsules/EISM/tdah.md": "03102dd4a8c53e05732933f6ddcd2e2fd223b1129bae720f71875458645adf2c",
+    "capsules/EISM/tept_e_tea.md": "e899ab01a394392e6b40734db8af951d6b2abdfd2789c65e39112c6962c5080e",
+    "capsules/EISM/toc.md": "09c7f5197625d152ef05b1c06ba994e407801e0493f27a617d507e954cc7ebfc",
+    "capsules/EISM/transtorno_bipolar_e_estabilizadores_do_humor.md": "b742e566d42813343c51663edde680f5efb6af9395a9a658ab12f6ab55589fff",
+    "capsules/EISM/transtornos_alimentares.md": "cf7aea012e17ea95e197b6c0ed6322e655d226b7fd52876f09ac6ee9df518b47",
+    "capsules/EISM/transtornos_de_ansiedade.md": "e23e0476c48e3d2e5cfbdb35d10d4f3df8e458fafe82344da98a16ae8ba4d13a",
+    "capsules/EISM/transtornos_de_personalidade.md": "997db3930d0aaf4379226c2d6a791b78136dc4846033671664c6ed4129a73a1a",
+    "capsules/EISM/transtornos_dissociativos.md": "d0a69f3b4a6151efc8f6f4392c14ff9e51b7f5461527a61d4ba6259953e5c1fc",
+    "capsules/EISM/transtornos_mentais_na_gravidez_e_puerperio.md": "fcf42644f84bb9af98deb1ad04f3b1bf118d8040cf7623e5f92b779a3b98cf78",
+    "capsules/EISM/transtornos_por_uso_de_substancias.md": "786c61fa20527928bf0d57a3d613a903bb9013e8e3414f775d92cbc61b298a55",
+    "capsules/OSCE/formato_roteiro_osce_p7.md": "b74e4def25349e5b2f666922faba727e389786f8c332a83fe70115875896441c",
+    "capsules/OSCE/osce_banco_de_estacoes.md": "309aac1c380fae96d0593de2f19e7fb686a1f0ec3723d4d39b4792d55de214a2",
+    "capsules/OSCE/osce_endocrinologia.md": "4acee815c0c7bd157ec8c2b00aca23ff7b3e79fb685087e886db9578e398067c",
+    "capsules/OSCE/osce_nefrologia.md": "d1bdf091cde3869ae75e3a4f3a8e29476979be3769fdfa7ee39b073f7f2d6d69",
+    "capsules/OSCE/osce_neurologia.md": "93ebe3ad7e5efd7ca965585e1560305de3a596264f77c098a08af9c6d35e466c",
+    "capsules/OSCE/osce_pediatria.md": "c586ec453c84414d3bbd666a7da7be1553f54140ac436f28dc65d9a0df160aa5",
+    "capsules/OSCE/osce_urologia.md": "8f4b4ded8c2a18bcfa45e978f21d287e0b9eca249f1a10b7be897340d555631a"
+  },
+  "all_capsules_byte_identical": true,
+  "source_checkout_unchanged": true,
+  "selected_files": [
+    "LICENSE.md",
+    "PRIVACY.md",
+    "SKILL.md",
+    "VERSION",
+    "artifacts/CLINICAL_CLAIMS.csv",
+    "artifacts/METRICS.json",
+    "artifacts/OPERATION_COUNTS.json",
+    "capsules/CAPSULE_INDEX.md",
+    "capsules/CASOS_CLINICOS/abordagem_a_dispneia.md",
+    "capsules/CASOS_CLINICOS/abordagem_diarreia_aguda_cronica.md",
+    "capsules/CASOS_CLINICOS/cefaleias_classificacao_sinais_alarme.md",
+    "capsules/CASOS_CLINICOS/cirrose_hepatica_ascite_pbe.md",
+    "capsules/CASOS_CLINICOS/colite_pseudomembranosa.md",
+    "capsules/CASOS_CLINICOS/doenca_celiaca.md",
+    "capsules/CASOS_CLINICOS/doenca_inflamatoria_intestinal_crohn_versus_retocolite_ulcerativa.md",
+    "capsules/CASOS_CLINICOS/formato_avaliacao_discussao_casos_clinicos.md",
+    "capsules/CASOS_CLINICOS/fraqueza_muscular_miastenia_polimiosite.md",
+    "capsules/CASOS_CLINICOS/ganho_de_peso_obesidade_e_sindrome_metabolica.md",
+    "capsules/CASOS_CLINICOS/hemorragia_subaracnoide_hipertensao_intracraniana.md",
+    "capsules/CASOS_CLINICOS/icetericia_e_interpretacao_das_provas_de_funcao_hepatica.md",
+    "capsules/CASOS_CLINICOS/sindrome_do_intestino_irritavel.md",
+    "capsules/CASOS_CLINICOS/tireoidopatias_hipotireoidismo_nodulo_e_paaf.md",
+    "capsules/CASOS_CLINICOS/tontura_vertigem_vppb_dix_hallpike.md",
+    "capsules/EISA_II/anatomia_osso_temporal_e_audicao.md",
+    "capsules/EISA_II/anticonvulsivantes_gestacao.md",
+    "capsules/EISA_II/avaliacao_laboratorial_em_nefrologia.md",
+    "capsules/EISA_II/avaliacao_por_imagem_em_nefrologia.md",
+    "capsules/EISA_II/avc_hemorragico.md",
+    "capsules/EISA_II/avc_isquemico_investigacao_etiologica_e_prevencao_secundaria.md",
+    "capsules/EISA_II/avc_isquemico_urgencia_trombolise_e_trombectomia.md",
+    "capsules/EISA_II/bexiga_neurogenica.md",
+    "capsules/EISA_II/cancer_de_prostata.md",
+    "capsules/EISA_II/cancer_de_testiculo.md",
+    "capsules/EISA_II/cefaleias_primarias_e_secundarias.md",
+    "capsules/EISA_II/coma_e_rebaixamento_do_nivel_de_consciencia.md",
+    "capsules/EISA_II/como_e_quando_encaminhar_para_o_nefrologista.md",
+    "capsules/EISA_II/demencias.md",
+    "capsules/EISA_II/diabetes_complicacoes_agudas_cronicas.md",
+    "capsules/EISA_II/diabetes_mellitus_conceito_classificacao_diagnostico.md",
+    "capsules/EISA_II/diabetes_mellitus_gestacional.md",
+    "capsules/EISA_II/diabetes_metas_tratamento_terapia_nao_insulinica.md",
+    "capsules/EISA_II/diagnostico_sindromico_em_nefrologia.md",
+    "capsules/EISA_II/disturbios_do_movimento.md",
+    "capsules/EISA_II/doenca_renal_cronica_drc.md",
+    "capsules/EISA_II/doenca_renal_na_gestacao.md",
+    "capsules/EISA_II/doencas_cisticas_renais.md",
+    "capsules/EISA_II/doencas_da_orelha_externa.md",
+    "capsules/EISA_II/doencas_neuromusculares.md",
+    "capsules/EISA_II/doencas_oculares_em_endocrinologia_oftalmopatia_de_graves_e_retinopatia_diabetica.md",
+    "capsules/EISA_II/doencas_paratireoides_hiperparatireoidismo_osteoporose.md",
+    "capsules/EISA_II/epilepsia_e_crises_epilepticas.md",
+    "capsules/EISA_II/erisipela.md",
+    "capsules/EISA_II/esclerose_multipla_e_doencas_desmielinizantes.md",
+    "capsules/EISA_II/estado_de_mal_epileptico_sequencia_doses.md",
+    "capsules/EISA_II/farmacologia_dislipidemias.md",
+    "capsules/EISA_II/farmacoterapia_convulsoes_mecanismo_escolha.md",
+    "capsules/EISA_II/farmacoterapia_diabetes_i_nao_secretagogos.md",
+    "capsules/EISA_II/farmacoterapia_diabetes_ii_secretagogos.md",
+    "capsules/EISA_II/glaucoma_e_catarata.md",
+    "capsules/EISA_II/glomerulopatias_primarias.md",
+    "capsules/EISA_II/glomerulopatias_secundarias.md",
+    "capsules/EISA_II/has_nefrogena_renovascular.md",
+    "capsules/EISA_II/hiperaldosteronismo_primario_feocromocitoma.md",
+    "capsules/EISA_II/hiperandrogenismo_hac_sop_tumor_virilizante.md",
+    "capsules/EISA_II/hiperfuncao_hipofisaria.md",
+    "capsules/EISA_II/hiperplasia_adrenal_congenita.md",
+    "capsules/EISA_II/hiperplasia_prostatica_benigna_clinica_e_tratamento.md",
+    "capsules/EISA_II/hipertensao_intracraniana.md",
+    "capsules/EISA_II/hipertireoidismo_tireotoxicose.md",
+    "capsules/EISA_II/hipoparatireoidismo_e_hipocalcemia.md",
+    "capsules/EISA_II/hipopituitarismo.md",
+    "capsules/EISA_II/hipotireoidismo.md",
+    "capsules/EISA_II/infeccoes_sexualmente_transmissiveis.md",
+    "capsules/EISA_II/insulinoterapia_classificacao_farmacocinetica.md",
+    "capsules/EISA_II/insulinoterapia_no_dm1_e_dm2.md",
+    "capsules/EISA_II/lesao_renal_aguda_lra.md",
+    "capsules/EISA_II/linfedema.md",
+    "capsules/EISA_II/litiase_urinaria.md",
+    "capsules/EISA_II/manejo_clinico_ambulatorial_do_dm.md",
+    "capsules/EISA_II/nefropatia_diabetica.md",
+    "capsules/EISA_II/neoplasia_vesical.md",
+    "capsules/EISA_II/neuroftalmologia.md",
+    "capsules/EISA_II/neuroinfeccoes.md",
+    "capsules/EISA_II/nodulos_tireoidianos_e_cancer_de_tireoide.md",
+    "capsules/EISA_II/obesidade_e_sindrome_metabolica.md",
+    "capsules/EISA_II/otites_aguda_cronica_externa.md",
+    "capsules/EISA_II/patologia_cancer_de_tireoide.md",
+    "capsules/EISA_II/patologias_penianas_e_escrotais.md",
+    "capsules/EISA_II/pe_diabetico.md",
+    "capsules/EISA_II/sarcoma_de_partes_moles.md",
+    "capsules/EISA_II/surdez_e_vertigem.md",
+    "capsules/EISA_II/terapia_renal_substitutiva.md",
+    "capsules/EISA_II/trauma_urogenital.md",
+    "capsules/EISA_II/traumatismo_cranioencefalico.md",
+    "capsules/EISA_II/tumores_do_sistema_nervoso_central.md",
+    "capsules/EISA_II/tumores_renais_e_carcinoma_de_celulas_renais.md",
+    "capsules/EISA_II/urologia_feminina_infeccao_urinaria_e_incontinencia.md",
+    "capsules/EISCA/adolescencia_puberdade_e_semiologia_do_adolescente.md",
+    "capsules/EISCA/aleitamento_materno.md",
+    "capsules/EISCA/anemia_ferropriva.md",
+    "capsules/EISCA/asma_em_pediatria.md",
+    "capsules/EISCA/assistencia_rn_sala_parto_reanimacao_neonatal.md",
+    "capsules/EISCA/atopias_na_infancia.md",
+    "capsules/EISCA/bronquiolite_viral_aguda.md",
+    "capsules/EISCA/cardiopatias_congenitas.md",
+    "capsules/EISCA/convulsao_febril.md",
+    "capsules/EISCA/crescimento_e_desenvolvimento.md",
+    "capsules/EISCA/diagnostico_diferencial_das_anemias_na_infancia.md",
+    "capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md",
+    "capsules/EISCA/doenca_hemolitica_perinatal_rh_abo.md",
+    "capsules/EISCA/doencas_exantematicas.md",
+    "capsules/EISCA/faringoamigdalite_estreptococica_escarlatina.md",
+    "capsules/EISCA/febre_reumatica.md",
+    "capsules/EISCA/hemoglobinopatias_talassemias_doenca_falciforme.md",
+    "capsules/EISCA/humanizacao_em_uti_neonatal.md",
+    "capsules/EISCA/ictericia_neonatal_hiperbilirrubinemia_indireta.md",
+    "capsules/EISCA/imunizacoes_calendario_vacinal_imunizacao_ativa_e_passiva.md",
+    "capsules/EISCA/infeccao_do_trato_urinario_na_infancia.md",
+    "capsules/EISCA/interpretacao_hemograma_e_coagulacao.md",
+    "capsules/EISCA/leucemias_agudas_na_infancia.md",
+    "capsules/EISCA/meningites_na_crianca.md",
+    "capsules/EISCA/neuroblastoma.md",
+    "capsules/EISCA/obesidade_na_infancia_e_adolescencia.md",
+    "capsules/EISCA/obstrucao_via_aerea_alta_crupe_epiglotite.md",
+    "capsules/EISCA/osteossarcoma.md",
+    "capsules/EISCA/otite_media_aguda_e_rinossinusite_na_infancia.md",
+    "capsules/EISCA/parasitoses_intestinais.md",
+    "capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md",
+    "capsules/EISCA/rinofaringite_aguda_resfriado_comum_e_gripe.md",
+    "capsules/EISCA/saude_ocular_na_infancia.md",
+    "capsules/EISCA/semiologia_e_classificacao_do_recem_nascido.md",
+    "capsules/EISCA/semiologia_pediatrica.md",
+    "capsules/EISCA/sepse_e_meningite_neonatal.md",
+    "capsules/EISCA/tumor_de_wilms.md",
+    "capsules/EISCA/tumores_do_sistema_nervoso_central_na_infancia.md",
+    "capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md",
+    "capsules/EISM/ansioliticos_e_hipnoticos.md",
+    "capsules/EISM/antidepressivos.md",
+    "capsules/EISM/antipsicoticos_sep_e_snm.md",
+    "capsules/EISM/delirium.md",
+    "capsules/EISM/depressao.md",
+    "capsules/EISM/eletroconvulsoterapia_ect.md",
+    "capsules/EISM/emergencias_psiquiatricas_e_agitacao_psicomotora.md",
+    "capsules/EISM/esquizofrenia_e_transtornos_psicoticos.md",
+    "capsules/EISM/farmacoterapia_da_insonia.md",
+    "capsules/EISM/psicopatologia.md",
+    "capsules/EISM/psiquiatria_infancia_e_adolescencia.md",
+    "capsules/EISM/risco_de_suicidio.md",
+    "capsules/EISM/sexualidade_humana_e_disfuncoes_sexuais.md",
+    "capsules/EISM/tdah.md",
+    "capsules/EISM/tept_e_tea.md",
+    "capsules/EISM/toc.md",
+    "capsules/EISM/transtorno_bipolar_e_estabilizadores_do_humor.md",
+    "capsules/EISM/transtornos_alimentares.md",
+    "capsules/EISM/transtornos_de_ansiedade.md",
+    "capsules/EISM/transtornos_de_personalidade.md",
+    "capsules/EISM/transtornos_dissociativos.md",
+    "capsules/EISM/transtornos_mentais_na_gravidez_e_puerperio.md",
+    "capsules/EISM/transtornos_por_uso_de_substancias.md",
+    "capsules/OSCE/formato_roteiro_osce_p7.md",
+    "capsules/OSCE/osce_banco_de_estacoes.md",
+    "capsules/OSCE/osce_endocrinologia.md",
+    "capsules/OSCE/osce_nefrologia.md",
+    "capsules/OSCE/osce_neurologia.md",
+    "capsules/OSCE/osce_pediatria.md",
+    "capsules/OSCE/osce_urologia.md",
+    "config/normalization.json",
+    "config/priority-policy.json",
+    "p7_source_pack/00_ATOMIC_THEME_INDEX.csv",
+    "p7_source_pack/00_CALENDARIO_2026_2.md",
+    "p7_source_pack/00_COVERAGE_GAPS.md",
+    "p7_source_pack/00_DECISION_LOGS/CURRICULUM_DECISION_LOG.md",
+    "p7_source_pack/00_EXAM_BLUEPRINT.md",
+    "p7_source_pack/00_EXAM_EVIDENCE/DEVOLUTIVAS_INDEX.md",
+    "p7_source_pack/00_EXAM_EVIDENCE/PROVAS_ANTIGAS_INDEX.md",
+    "p7_source_pack/00_FULL_P7_CURRICULUM_MAP.md",
+    "p7_source_pack/00_INTERLIGACOES.md",
+    "p7_source_pack/00_MAPA_OPERACAO_MOVIMENTO.md",
+    "p7_source_pack/00_SOURCE_MANIFEST.csv",
+    "p7_source_pack/00_TAXONOMY_AXIS.md",
+    "p7_source_pack/00_UNIT_TOPIC_MAP.md",
+    "references/ACTIVE_STUDY_QUESTION_FIRST.md",
+    "references/ACTIVE_STUDY_REVEAL_AFTER_ATTEMPT.md",
+    "references/ADHD_AND_TOKEN_POLICY.md",
+    "references/AULA_VIVA.md",
+    "references/CASE_OSCE_TUTOR.md",
+    "references/CLINICAL_CLAIM_REVIEW.md",
+    "references/CONTRAPROVA_DIAGNOS.md",
+    "references/ERROR_NOTEBOOK_REVIEW_QUEUE.md",
+    "references/EXAME_ESTADO_MENTAL_DRILL.md",
+    "references/IGOR_ME_SALVA.md",
+    "references/LEARNER_STATE_PROTOCOL.md",
+    "references/MEDICAL_SAFETY_LAYER.md",
+    "references/PATTERN_ANALYZER_CONTRACT.md",
+    "references/QUESTION_INTELLIGENCE_P7.md",
+    "references/SIMULATION_PROTOCOL.md",
+    "references/SOURCE_POLICY.md",
+    "references/STUDY_GUIDE_GENERATOR.md",
+    "references/TARGET_AWARE_STUDY_PLANNER.md",
+    "registry/aliases.json",
+    "registry/clinical_claims.jsonl",
+    "registry/reviewers.json",
+    "registry/source_versions.jsonl",
+    "registry/sources.jsonl",
+    "scripts/ledger.py",
+    "scripts/p7lib.py",
+    "scripts/priority.py"
+  ],
+  "excluded_from_runtime": [
+    "AGENTS.md",
+    "COMPATIBILITY.md",
+    "PACKAGE_MANIFEST.md",
+    "README_INSTALL.md",
+    "RELEASE_NOTES_v1.0.0.md",
+    "RELEASE_NOTES_v1.5.0.md",
+    "RELEASE_NOTES_v1.5.1-rc.1.md",
+    "agents/openai.yaml",
+    "artifacts/CAPSULE_CATALOG.json",
+    "artifacts/CAPSULE_INDEX.generated.md",
+    "artifacts/PACKAGE_MANIFEST.json",
+    "artifacts/PRECISION_ROWS.csv",
+    "artifacts/release/RELEASE_GATE_EVIDENCE.json",
+    "capsule_generation/CAPSULE_GENERATION_POLICY.md",
+    "capsule_generation/CAPSULE_REVIEW_CHECKLIST.md",
+    "capsule_generation/CAPSULE_TEMPLATE.md",
+    "references/EVALUATION_SUITE.md",
+    "references/TEST_PLAN.md",
+    "registry/GATE_MIGRATIONS.md",
+    "registry/README.md",
+    "registry/release_evidence.json",
+    "registry/release_evidence.template.json",
+    "registry/release_gates.json",
+    "repair/BASELINE.json",
+    "repair/CLINICAL_REVIEW_QUEUE.json",
+    "repair/CLINICAL_REVIEW_QUEUE.md",
+    "repair/CONTINUATION_STATE.md",
+    "repair/DELTA_ROWS.csv",
+    "repair/DELTA_ROWS.json",
+    "repair/FINAL_REPORT.md",
+    "repair/GATE_DELTA.json",
+    "repair/INCIDENCE_STATUS.md",
+    "repair/MATCHER_IMPLEMENTATION.md",
+    "repair/MATCH_SAMPLE.json",
+    "repair/MATCH_SAMPLE.md",
+    "repair/PROTECTED_INVARIANTS.json",
+    "repair/QUARANTINE_TRIAGE.md",
+    "repair/RED_TEAM.json",
+    "repair/RED_TEAM.md",
+    "repair/RELEASE_AUDIT.md",
+    "repair/RELEASE_REQUIREMENTS.json",
+    "repair/REPAIR_PLAN.md",
+    "repair/SOURCE_LOOKUP_STATUS.json",
+    "repair/SOURCE_REQUESTS.json",
+    "repair/SOURCE_REQUESTS.md",
+    "repair/STAGING_INSTALL.json",
+    "repair/TEST_RESULTS.json",
+    "repair/VERIFY.md",
+    "repair/adversarial_checks.py",
+    "repair/history/v1.5.0/artifacts/PACKAGE_MANIFEST.json",
+    "repair/history/v1.5.0/artifacts/release/RELEASE_GATE_EVIDENCE.json",
+    "repair/history/v1.5.0/registry/release_evidence.json",
+    "repair/history/v1.5.0/registry/release_gates.json",
+    "repair/local-2026-09-08/ADVERSARIAL_CHECKS.json",
+    "repair/local-2026-09-08/BEHAVIORAL_PROGRESS.json",
+    "repair/local-2026-09-08/CLAIM_SOURCE_REVIEW.json",
+    "repair/local-2026-09-08/CLINICAL_REVIEW_QUEUE.json",
+    "repair/local-2026-09-08/CLINICAL_REVIEW_QUEUE.md",
+    "repair/local-2026-09-08/DELIVERY_EVIDENCE.json",
+    "repair/local-2026-09-08/FINAL_REVIEW.json",
+    "repair/local-2026-09-08/MATCHER_REVIEW.json",
+    "repair/local-2026-09-08/MECHANICAL_RECHECK.json",
+    "repair/local-2026-09-08/PRIMARY_SOURCE_IDENTITIES.json",
+    "repair/local-2026-09-08/RECENT_SLIDES_INVENTORY.json",
+    "repair/local-2026-09-08/SOURCE_REVIEW.md",
+    "repair/local-2026-09-08/UNIT_TEST_EXECUTION.json",
+    "schemas/README.md",
+    "schemas/v1/assessment-evidence.schema.json",
+    "schemas/v1/capsule.schema.json",
+    "schemas/v1/clinical-claim.schema.json",
+    "schemas/v1/common.schema.json",
+    "schemas/v1/learner-event.schema.json",
+    "schemas/v1/learner-hypothesis.schema.json",
+    "schemas/v1/priority-assessment.schema.json",
+    "schemas/v1/release-gates.schema.json",
+    "schemas/v1/review-task.schema.json",
+    "schemas/v1/reviewer.schema.json",
+    "schemas/v1/source-version.schema.json",
+    "schemas/v1/source.schema.json",
+    "scripts/build_distribution.py",
+    "scripts/reconcile_package.py",
+    "scripts/release_evidence.py",
+    "scripts/run_tests.py",
+    "scripts/validate_package.py",
+    "tests/test_distribution.py",
+    "tests/test_ledger.py",
+    "tests/test_package.py",
+    "tests/test_priority.py",
+    "tests/test_release_evidence.py",
+    "tests/test_v150_contract.py"
+  ],
+  "counts": {
+    "artifacts": 3,
+    "capsules": 159,
+    "config": 2,
+    "LICENSE.md": 1,
+    "p7_source_pack": 13,
+    "PRIVACY.md": 1,
+    "references": 18,
+    "registry": 5,
+    "scripts": 3,
+    "SKILL.md": 1,
+    "VERSION": 1
+  },
+  "transformations": [
+    {
+      "file": "SKILL.md",
+      "field": "description",
+      "characters": 183,
+      "body_byte_identical": true,
+      "reason": "Claude Help Center specifies a 200-character description maximum.",
+      "source": "https://support.claude.com/en/articles/12512198-how-to-create-custom-skills"
+    }
+  ],
+  "references": {
+    "resolved": [
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/abordagem_a_dispneia.md",
+        "target": "capsules/CASOS_CLINICOS/abordagem_a_dispneia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/abordagem_diarreia_aguda_cronica.md",
+        "target": "capsules/CASOS_CLINICOS/abordagem_diarreia_aguda_cronica.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/cefaleias_classificacao_sinais_alarme.md",
+        "target": "capsules/CASOS_CLINICOS/cefaleias_classificacao_sinais_alarme.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/cirrose_hepatica_ascite_pbe.md",
+        "target": "capsules/CASOS_CLINICOS/cirrose_hepatica_ascite_pbe.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/colite_pseudomembranosa.md",
+        "target": "capsules/CASOS_CLINICOS/colite_pseudomembranosa.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/doenca_celiaca.md",
+        "target": "capsules/CASOS_CLINICOS/doenca_celiaca.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/doenca_inflamatoria_intestinal_crohn_versus_retocolite_ulcerativa.md",
+        "target": "capsules/CASOS_CLINICOS/doenca_inflamatoria_intestinal_crohn_versus_retocolite_ulcerativa.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/formato_avaliacao_discussao_casos_clinicos.md",
+        "target": "capsules/CASOS_CLINICOS/formato_avaliacao_discussao_casos_clinicos.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/fraqueza_muscular_miastenia_polimiosite.md",
+        "target": "capsules/CASOS_CLINICOS/fraqueza_muscular_miastenia_polimiosite.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/ganho_de_peso_obesidade_e_sindrome_metabolica.md",
+        "target": "capsules/CASOS_CLINICOS/ganho_de_peso_obesidade_e_sindrome_metabolica.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/hemorragia_subaracnoide_hipertensao_intracraniana.md",
+        "target": "capsules/CASOS_CLINICOS/hemorragia_subaracnoide_hipertensao_intracraniana.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/icetericia_e_interpretacao_das_provas_de_funcao_hepatica.md",
+        "target": "capsules/CASOS_CLINICOS/icetericia_e_interpretacao_das_provas_de_funcao_hepatica.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/sindrome_do_intestino_irritavel.md",
+        "target": "capsules/CASOS_CLINICOS/sindrome_do_intestino_irritavel.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/tireoidopatias_hipotireoidismo_nodulo_e_paaf.md",
+        "target": "capsules/CASOS_CLINICOS/tireoidopatias_hipotireoidismo_nodulo_e_paaf.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/CASOS_CLINICOS/tontura_vertigem_vppb_dix_hallpike.md",
+        "target": "capsules/CASOS_CLINICOS/tontura_vertigem_vppb_dix_hallpike.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/anatomia_osso_temporal_e_audicao.md",
+        "target": "capsules/EISA_II/anatomia_osso_temporal_e_audicao.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/anticonvulsivantes_gestacao.md",
+        "target": "capsules/EISA_II/anticonvulsivantes_gestacao.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/avaliacao_laboratorial_em_nefrologia.md",
+        "target": "capsules/EISA_II/avaliacao_laboratorial_em_nefrologia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/avaliacao_por_imagem_em_nefrologia.md",
+        "target": "capsules/EISA_II/avaliacao_por_imagem_em_nefrologia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/avc_hemorragico.md",
+        "target": "capsules/EISA_II/avc_hemorragico.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/avc_isquemico_investigacao_etiologica_e_prevencao_secundaria.md",
+        "target": "capsules/EISA_II/avc_isquemico_investigacao_etiologica_e_prevencao_secundaria.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/avc_isquemico_urgencia_trombolise_e_trombectomia.md",
+        "target": "capsules/EISA_II/avc_isquemico_urgencia_trombolise_e_trombectomia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/bexiga_neurogenica.md",
+        "target": "capsules/EISA_II/bexiga_neurogenica.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/cancer_de_prostata.md",
+        "target": "capsules/EISA_II/cancer_de_prostata.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/cancer_de_testiculo.md",
+        "target": "capsules/EISA_II/cancer_de_testiculo.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/cefaleias_primarias_e_secundarias.md",
+        "target": "capsules/EISA_II/cefaleias_primarias_e_secundarias.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/coma_e_rebaixamento_do_nivel_de_consciencia.md",
+        "target": "capsules/EISA_II/coma_e_rebaixamento_do_nivel_de_consciencia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/como_e_quando_encaminhar_para_o_nefrologista.md",
+        "target": "capsules/EISA_II/como_e_quando_encaminhar_para_o_nefrologista.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/demencias.md",
+        "target": "capsules/EISA_II/demencias.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/diabetes_complicacoes_agudas_cronicas.md",
+        "target": "capsules/EISA_II/diabetes_complicacoes_agudas_cronicas.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/diabetes_mellitus_conceito_classificacao_diagnostico.md",
+        "target": "capsules/EISA_II/diabetes_mellitus_conceito_classificacao_diagnostico.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/diabetes_mellitus_gestacional.md",
+        "target": "capsules/EISA_II/diabetes_mellitus_gestacional.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/diabetes_metas_tratamento_terapia_nao_insulinica.md",
+        "target": "capsules/EISA_II/diabetes_metas_tratamento_terapia_nao_insulinica.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/diagnostico_sindromico_em_nefrologia.md",
+        "target": "capsules/EISA_II/diagnostico_sindromico_em_nefrologia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/disturbios_do_movimento.md",
+        "target": "capsules/EISA_II/disturbios_do_movimento.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/doenca_renal_cronica_drc.md",
+        "target": "capsules/EISA_II/doenca_renal_cronica_drc.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/doenca_renal_na_gestacao.md",
+        "target": "capsules/EISA_II/doenca_renal_na_gestacao.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/doencas_cisticas_renais.md",
+        "target": "capsules/EISA_II/doencas_cisticas_renais.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/doencas_da_orelha_externa.md",
+        "target": "capsules/EISA_II/doencas_da_orelha_externa.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/doencas_neuromusculares.md",
+        "target": "capsules/EISA_II/doencas_neuromusculares.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/doencas_oculares_em_endocrinologia_oftalmopatia_de_graves_e_retinopatia_diabetica.md",
+        "target": "capsules/EISA_II/doencas_oculares_em_endocrinologia_oftalmopatia_de_graves_e_retinopatia_diabetica.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/doencas_paratireoides_hiperparatireoidismo_osteoporose.md",
+        "target": "capsules/EISA_II/doencas_paratireoides_hiperparatireoidismo_osteoporose.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/epilepsia_e_crises_epilepticas.md",
+        "target": "capsules/EISA_II/epilepsia_e_crises_epilepticas.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/erisipela.md",
+        "target": "capsules/EISA_II/erisipela.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/esclerose_multipla_e_doencas_desmielinizantes.md",
+        "target": "capsules/EISA_II/esclerose_multipla_e_doencas_desmielinizantes.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/estado_de_mal_epileptico_sequencia_doses.md",
+        "target": "capsules/EISA_II/estado_de_mal_epileptico_sequencia_doses.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/farmacologia_dislipidemias.md",
+        "target": "capsules/EISA_II/farmacologia_dislipidemias.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/farmacoterapia_convulsoes_mecanismo_escolha.md",
+        "target": "capsules/EISA_II/farmacoterapia_convulsoes_mecanismo_escolha.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/farmacoterapia_diabetes_i_nao_secretagogos.md",
+        "target": "capsules/EISA_II/farmacoterapia_diabetes_i_nao_secretagogos.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/farmacoterapia_diabetes_ii_secretagogos.md",
+        "target": "capsules/EISA_II/farmacoterapia_diabetes_ii_secretagogos.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/glaucoma_e_catarata.md",
+        "target": "capsules/EISA_II/glaucoma_e_catarata.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/glomerulopatias_primarias.md",
+        "target": "capsules/EISA_II/glomerulopatias_primarias.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/glomerulopatias_secundarias.md",
+        "target": "capsules/EISA_II/glomerulopatias_secundarias.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/has_nefrogena_renovascular.md",
+        "target": "capsules/EISA_II/has_nefrogena_renovascular.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/hiperaldosteronismo_primario_feocromocitoma.md",
+        "target": "capsules/EISA_II/hiperaldosteronismo_primario_feocromocitoma.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/hiperandrogenismo_hac_sop_tumor_virilizante.md",
+        "target": "capsules/EISA_II/hiperandrogenismo_hac_sop_tumor_virilizante.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/hiperfuncao_hipofisaria.md",
+        "target": "capsules/EISA_II/hiperfuncao_hipofisaria.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/hiperplasia_adrenal_congenita.md",
+        "target": "capsules/EISA_II/hiperplasia_adrenal_congenita.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/hiperplasia_prostatica_benigna_clinica_e_tratamento.md",
+        "target": "capsules/EISA_II/hiperplasia_prostatica_benigna_clinica_e_tratamento.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/hipertensao_intracraniana.md",
+        "target": "capsules/EISA_II/hipertensao_intracraniana.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/hipertireoidismo_tireotoxicose.md",
+        "target": "capsules/EISA_II/hipertireoidismo_tireotoxicose.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/hipoparatireoidismo_e_hipocalcemia.md",
+        "target": "capsules/EISA_II/hipoparatireoidismo_e_hipocalcemia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/hipopituitarismo.md",
+        "target": "capsules/EISA_II/hipopituitarismo.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/hipotireoidismo.md",
+        "target": "capsules/EISA_II/hipotireoidismo.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/infeccoes_sexualmente_transmissiveis.md",
+        "target": "capsules/EISA_II/infeccoes_sexualmente_transmissiveis.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/insulinoterapia_classificacao_farmacocinetica.md",
+        "target": "capsules/EISA_II/insulinoterapia_classificacao_farmacocinetica.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/insulinoterapia_no_dm1_e_dm2.md",
+        "target": "capsules/EISA_II/insulinoterapia_no_dm1_e_dm2.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/lesao_renal_aguda_lra.md",
+        "target": "capsules/EISA_II/lesao_renal_aguda_lra.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/linfedema.md",
+        "target": "capsules/EISA_II/linfedema.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/litiase_urinaria.md",
+        "target": "capsules/EISA_II/litiase_urinaria.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/manejo_clinico_ambulatorial_do_dm.md",
+        "target": "capsules/EISA_II/manejo_clinico_ambulatorial_do_dm.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/nefropatia_diabetica.md",
+        "target": "capsules/EISA_II/nefropatia_diabetica.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/neoplasia_vesical.md",
+        "target": "capsules/EISA_II/neoplasia_vesical.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/neuroftalmologia.md",
+        "target": "capsules/EISA_II/neuroftalmologia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/neuroinfeccoes.md",
+        "target": "capsules/EISA_II/neuroinfeccoes.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/nodulos_tireoidianos_e_cancer_de_tireoide.md",
+        "target": "capsules/EISA_II/nodulos_tireoidianos_e_cancer_de_tireoide.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/obesidade_e_sindrome_metabolica.md",
+        "target": "capsules/EISA_II/obesidade_e_sindrome_metabolica.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/otites_aguda_cronica_externa.md",
+        "target": "capsules/EISA_II/otites_aguda_cronica_externa.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/patologia_cancer_de_tireoide.md",
+        "target": "capsules/EISA_II/patologia_cancer_de_tireoide.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/patologias_penianas_e_escrotais.md",
+        "target": "capsules/EISA_II/patologias_penianas_e_escrotais.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/pe_diabetico.md",
+        "target": "capsules/EISA_II/pe_diabetico.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/sarcoma_de_partes_moles.md",
+        "target": "capsules/EISA_II/sarcoma_de_partes_moles.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/surdez_e_vertigem.md",
+        "target": "capsules/EISA_II/surdez_e_vertigem.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/terapia_renal_substitutiva.md",
+        "target": "capsules/EISA_II/terapia_renal_substitutiva.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/trauma_urogenital.md",
+        "target": "capsules/EISA_II/trauma_urogenital.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/traumatismo_cranioencefalico.md",
+        "target": "capsules/EISA_II/traumatismo_cranioencefalico.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/tumores_do_sistema_nervoso_central.md",
+        "target": "capsules/EISA_II/tumores_do_sistema_nervoso_central.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/tumores_renais_e_carcinoma_de_celulas_renais.md",
+        "target": "capsules/EISA_II/tumores_renais_e_carcinoma_de_celulas_renais.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISA_II/urologia_feminina_infeccao_urinaria_e_incontinencia.md",
+        "target": "capsules/EISA_II/urologia_feminina_infeccao_urinaria_e_incontinencia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/adolescencia_puberdade_e_semiologia_do_adolescente.md",
+        "target": "capsules/EISCA/adolescencia_puberdade_e_semiologia_do_adolescente.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/aleitamento_materno.md",
+        "target": "capsules/EISCA/aleitamento_materno.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/anemia_ferropriva.md",
+        "target": "capsules/EISCA/anemia_ferropriva.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/asma_em_pediatria.md",
+        "target": "capsules/EISCA/asma_em_pediatria.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/assistencia_rn_sala_parto_reanimacao_neonatal.md",
+        "target": "capsules/EISCA/assistencia_rn_sala_parto_reanimacao_neonatal.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/atopias_na_infancia.md",
+        "target": "capsules/EISCA/atopias_na_infancia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/bronquiolite_viral_aguda.md",
+        "target": "capsules/EISCA/bronquiolite_viral_aguda.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/cardiopatias_congenitas.md",
+        "target": "capsules/EISCA/cardiopatias_congenitas.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/convulsao_febril.md",
+        "target": "capsules/EISCA/convulsao_febril.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/crescimento_e_desenvolvimento.md",
+        "target": "capsules/EISCA/crescimento_e_desenvolvimento.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/diagnostico_diferencial_das_anemias_na_infancia.md",
+        "target": "capsules/EISCA/diagnostico_diferencial_das_anemias_na_infancia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md",
+        "target": "capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/doenca_hemolitica_perinatal_rh_abo.md",
+        "target": "capsules/EISCA/doenca_hemolitica_perinatal_rh_abo.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/doencas_exantematicas.md",
+        "target": "capsules/EISCA/doencas_exantematicas.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/faringoamigdalite_estreptococica_escarlatina.md",
+        "target": "capsules/EISCA/faringoamigdalite_estreptococica_escarlatina.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/febre_reumatica.md",
+        "target": "capsules/EISCA/febre_reumatica.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/hemoglobinopatias_talassemias_doenca_falciforme.md",
+        "target": "capsules/EISCA/hemoglobinopatias_talassemias_doenca_falciforme.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/humanizacao_em_uti_neonatal.md",
+        "target": "capsules/EISCA/humanizacao_em_uti_neonatal.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/ictericia_neonatal_hiperbilirrubinemia_indireta.md",
+        "target": "capsules/EISCA/ictericia_neonatal_hiperbilirrubinemia_indireta.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/imunizacoes_calendario_vacinal_imunizacao_ativa_e_passiva.md",
+        "target": "capsules/EISCA/imunizacoes_calendario_vacinal_imunizacao_ativa_e_passiva.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/infeccao_do_trato_urinario_na_infancia.md",
+        "target": "capsules/EISCA/infeccao_do_trato_urinario_na_infancia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/interpretacao_hemograma_e_coagulacao.md",
+        "target": "capsules/EISCA/interpretacao_hemograma_e_coagulacao.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/leucemias_agudas_na_infancia.md",
+        "target": "capsules/EISCA/leucemias_agudas_na_infancia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/meningites_na_crianca.md",
+        "target": "capsules/EISCA/meningites_na_crianca.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/neuroblastoma.md",
+        "target": "capsules/EISCA/neuroblastoma.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/obesidade_na_infancia_e_adolescencia.md",
+        "target": "capsules/EISCA/obesidade_na_infancia_e_adolescencia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/obstrucao_via_aerea_alta_crupe_epiglotite.md",
+        "target": "capsules/EISCA/obstrucao_via_aerea_alta_crupe_epiglotite.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/osteossarcoma.md",
+        "target": "capsules/EISCA/osteossarcoma.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/otite_media_aguda_e_rinossinusite_na_infancia.md",
+        "target": "capsules/EISCA/otite_media_aguda_e_rinossinusite_na_infancia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/parasitoses_intestinais.md",
+        "target": "capsules/EISCA/parasitoses_intestinais.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md",
+        "target": "capsules/EISCA/pneumonia_adquirida_na_comunidade_na_infancia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/rinofaringite_aguda_resfriado_comum_e_gripe.md",
+        "target": "capsules/EISCA/rinofaringite_aguda_resfriado_comum_e_gripe.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/saude_ocular_na_infancia.md",
+        "target": "capsules/EISCA/saude_ocular_na_infancia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/semiologia_e_classificacao_do_recem_nascido.md",
+        "target": "capsules/EISCA/semiologia_e_classificacao_do_recem_nascido.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/semiologia_pediatrica.md",
+        "target": "capsules/EISCA/semiologia_pediatrica.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/sepse_e_meningite_neonatal.md",
+        "target": "capsules/EISCA/sepse_e_meningite_neonatal.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/tumor_de_wilms.md",
+        "target": "capsules/EISCA/tumor_de_wilms.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISCA/tumores_do_sistema_nervoso_central_na_infancia.md",
+        "target": "capsules/EISCA/tumores_do_sistema_nervoso_central_na_infancia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md",
+        "target": "capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/ansioliticos_e_hipnoticos.md",
+        "target": "capsules/EISM/ansioliticos_e_hipnoticos.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/antidepressivos.md",
+        "target": "capsules/EISM/antidepressivos.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/antipsicoticos_sep_e_snm.md",
+        "target": "capsules/EISM/antipsicoticos_sep_e_snm.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/delirium.md",
+        "target": "capsules/EISM/delirium.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/depressao.md",
+        "target": "capsules/EISM/depressao.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/eletroconvulsoterapia_ect.md",
+        "target": "capsules/EISM/eletroconvulsoterapia_ect.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/emergencias_psiquiatricas_e_agitacao_psicomotora.md",
+        "target": "capsules/EISM/emergencias_psiquiatricas_e_agitacao_psicomotora.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/esquizofrenia_e_transtornos_psicoticos.md",
+        "target": "capsules/EISM/esquizofrenia_e_transtornos_psicoticos.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/farmacoterapia_da_insonia.md",
+        "target": "capsules/EISM/farmacoterapia_da_insonia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/psicopatologia.md",
+        "target": "capsules/EISM/psicopatologia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/psiquiatria_infancia_e_adolescencia.md",
+        "target": "capsules/EISM/psiquiatria_infancia_e_adolescencia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/risco_de_suicidio.md",
+        "target": "capsules/EISM/risco_de_suicidio.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/sexualidade_humana_e_disfuncoes_sexuais.md",
+        "target": "capsules/EISM/sexualidade_humana_e_disfuncoes_sexuais.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/tdah.md",
+        "target": "capsules/EISM/tdah.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/tept_e_tea.md",
+        "target": "capsules/EISM/tept_e_tea.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/toc.md",
+        "target": "capsules/EISM/toc.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/transtorno_bipolar_e_estabilizadores_do_humor.md",
+        "target": "capsules/EISM/transtorno_bipolar_e_estabilizadores_do_humor.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/transtornos_alimentares.md",
+        "target": "capsules/EISM/transtornos_alimentares.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/transtornos_de_ansiedade.md",
+        "target": "capsules/EISM/transtornos_de_ansiedade.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/transtornos_de_personalidade.md",
+        "target": "capsules/EISM/transtornos_de_personalidade.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/transtornos_dissociativos.md",
+        "target": "capsules/EISM/transtornos_dissociativos.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/transtornos_mentais_na_gravidez_e_puerperio.md",
+        "target": "capsules/EISM/transtornos_mentais_na_gravidez_e_puerperio.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/EISM/transtornos_por_uso_de_substancias.md",
+        "target": "capsules/EISM/transtornos_por_uso_de_substancias.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/OSCE/formato_roteiro_osce_p7.md",
+        "target": "capsules/OSCE/formato_roteiro_osce_p7.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/OSCE/osce_banco_de_estacoes.md",
+        "target": "capsules/OSCE/osce_banco_de_estacoes.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/OSCE/osce_endocrinologia.md",
+        "target": "capsules/OSCE/osce_endocrinologia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/OSCE/osce_nefrologia.md",
+        "target": "capsules/OSCE/osce_nefrologia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/OSCE/osce_neurologia.md",
+        "target": "capsules/OSCE/osce_neurologia.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/OSCE/osce_pediatria.md",
+        "target": "capsules/OSCE/osce_pediatria.md"
+      },
+      {
+        "from": "capsules/CAPSULE_INDEX.md",
+        "reference": "capsules/OSCE/osce_urologia.md",
+        "target": "capsules/OSCE/osce_urologia.md"
+      },
+      {
+        "from": "capsules/CASOS_CLINICOS/tireoidopatias_hipotireoidismo_nodulo_e_paaf.md",
+        "reference": "EISA_II/nodulos_tireoidianos_e_cancer_de_tireoide.md",
+        "target": "capsules/EISA_II/nodulos_tireoidianos_e_cancer_de_tireoide.md"
+      },
+      {
+        "from": "capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md",
+        "reference": "registry/clinical_claims.jsonl",
+        "target": "registry/clinical_claims.jsonl"
+      },
+      {
+        "from": "p7_source_pack/00_COVERAGE_GAPS.md",
+        "reference": "registry/clinical_claims.jsonl",
+        "target": "registry/clinical_claims.jsonl"
+      },
+      {
+        "from": "p7_source_pack/00_MAPA_OPERACAO_MOVIMENTO.md",
+        "reference": "artifacts/OPERATION_COUNTS.json",
+        "target": "artifacts/OPERATION_COUNTS.json"
+      },
+      {
+        "from": "p7_source_pack/00_MAPA_OPERACAO_MOVIMENTO.md",
+        "reference": "config/normalization.json",
+        "target": "config/normalization.json"
+      },
+      {
+        "from": "references/ADHD_AND_TOKEN_POLICY.md",
+        "reference": "capsules/CAPSULE_INDEX.md",
+        "target": "capsules/CAPSULE_INDEX.md"
+      },
+      {
+        "from": "references/ADHD_AND_TOKEN_POLICY.md",
+        "reference": "p7_source_pack/",
+        "target": "p7_source_pack"
+      },
+      {
+        "from": "references/CASE_OSCE_TUTOR.md",
+        "reference": "p7_source_pack/00_EXAM_BLUEPRINT.md",
+        "target": "p7_source_pack/00_EXAM_BLUEPRINT.md"
+      },
+      {
+        "from": "references/CLINICAL_CLAIM_REVIEW.md",
+        "reference": "registry/clinical_claims.jsonl",
+        "target": "registry/clinical_claims.jsonl"
+      },
+      {
+        "from": "references/MEDICAL_SAFETY_LAYER.md",
+        "reference": "artifacts/CLINICAL_CLAIMS.csv",
+        "target": "artifacts/CLINICAL_CLAIMS.csv"
+      },
+      {
+        "from": "references/MEDICAL_SAFETY_LAYER.md",
+        "reference": "registry/clinical_claims.jsonl",
+        "target": "registry/clinical_claims.jsonl"
+      },
+      {
+        "from": "references/SIMULATION_PROTOCOL.md",
+        "reference": "p7_source_pack/00_EXAM_BLUEPRINT.md",
+        "target": "p7_source_pack/00_EXAM_BLUEPRINT.md"
+      },
+      {
+        "from": "references/SOURCE_POLICY.md",
+        "reference": "artifacts/CLINICAL_CLAIMS.csv",
+        "target": "artifacts/CLINICAL_CLAIMS.csv"
+      },
+      {
+        "from": "references/SOURCE_POLICY.md",
+        "reference": "artifacts/METRICS.json",
+        "target": "artifacts/METRICS.json"
+      },
+      {
+        "from": "references/SOURCE_POLICY.md",
+        "reference": "capsules/CAPSULE_INDEX.md",
+        "target": "capsules/CAPSULE_INDEX.md"
+      },
+      {
+        "from": "references/SOURCE_POLICY.md",
+        "reference": "p7_source_pack/00_ATOMIC_THEME_INDEX.csv",
+        "target": "p7_source_pack/00_ATOMIC_THEME_INDEX.csv"
+      },
+      {
+        "from": "references/SOURCE_POLICY.md",
+        "reference": "p7_source_pack/00_COVERAGE_GAPS.md",
+        "target": "p7_source_pack/00_COVERAGE_GAPS.md"
+      },
+      {
+        "from": "references/SOURCE_POLICY.md",
+        "reference": "p7_source_pack/00_EXAM_BLUEPRINT.md",
+        "target": "p7_source_pack/00_EXAM_BLUEPRINT.md"
+      },
+      {
+        "from": "references/SOURCE_POLICY.md",
+        "reference": "p7_source_pack/00_SOURCE_MANIFEST.csv",
+        "target": "p7_source_pack/00_SOURCE_MANIFEST.csv"
+      },
+      {
+        "from": "references/SOURCE_POLICY.md",
+        "reference": "p7_source_pack/00_UNIT_TOPIC_MAP.md",
+        "target": "p7_source_pack/00_UNIT_TOPIC_MAP.md"
+      },
+      {
+        "from": "references/SOURCE_POLICY.md",
+        "reference": "registry/clinical_claims.jsonl",
+        "target": "registry/clinical_claims.jsonl"
+      },
+      {
+        "from": "references/TARGET_AWARE_STUDY_PLANNER.md",
+        "reference": "config/priority-policy.json",
+        "target": "config/priority-policy.json"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "artifacts/METRICS.json",
+        "target": "artifacts/METRICS.json"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "capsules/",
+        "target": "capsules"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "config/priority-policy.json",
+        "target": "config/priority-policy.json"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/ACTIVE_STUDY_QUESTION_FIRST.md",
+        "target": "references/ACTIVE_STUDY_QUESTION_FIRST.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/ACTIVE_STUDY_REVEAL_AFTER_ATTEMPT.md",
+        "target": "references/ACTIVE_STUDY_REVEAL_AFTER_ATTEMPT.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/AULA_VIVA.md",
+        "target": "references/AULA_VIVA.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/CASE_OSCE_TUTOR.md",
+        "target": "references/CASE_OSCE_TUTOR.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/CONTRAPROVA_DIAGNOS.md",
+        "target": "references/CONTRAPROVA_DIAGNOS.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/ERROR_NOTEBOOK_REVIEW_QUEUE.md",
+        "target": "references/ERROR_NOTEBOOK_REVIEW_QUEUE.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/EXAME_ESTADO_MENTAL_DRILL.md",
+        "target": "references/EXAME_ESTADO_MENTAL_DRILL.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/IGOR_ME_SALVA.md",
+        "target": "references/IGOR_ME_SALVA.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/LEARNER_STATE_PROTOCOL.md",
+        "target": "references/LEARNER_STATE_PROTOCOL.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/MEDICAL_SAFETY_LAYER.md",
+        "target": "references/MEDICAL_SAFETY_LAYER.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/PATTERN_ANALYZER_CONTRACT.md",
+        "target": "references/PATTERN_ANALYZER_CONTRACT.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/QUESTION_INTELLIGENCE_P7.md",
+        "target": "references/QUESTION_INTELLIGENCE_P7.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/SIMULATION_PROTOCOL.md",
+        "target": "references/SIMULATION_PROTOCOL.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/SOURCE_POLICY.md",
+        "target": "references/SOURCE_POLICY.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/STUDY_GUIDE_GENERATOR.md",
+        "target": "references/STUDY_GUIDE_GENERATOR.md"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "references/TARGET_AWARE_STUDY_PLANNER.md",
+        "target": "references/TARGET_AWARE_STUDY_PLANNER.md"
+      }
+    ],
+    "references_to_excluded_files": [],
+    "already_absent_or_non_file_literals": [
+      {
+        "from": "capsules/EISM/transtornos_mentais_na_gravidez_e_puerperio.md",
+        "reference": "HISTORICAL_ONLY/QUARANTINED",
+        "classification": "inline vocabulary/unit, not an existing package dependency"
+      },
+      {
+        "from": "PRIVACY.md",
+        "reference": ".p7-state/",
+        "classification": "private user state created at runtime, never distributed"
+      },
+      {
+        "from": "references/ADHD_AND_TOKEN_POLICY.md",
+        "reference": "corpus_text/<source_id>.txt",
+        "classification": "optional raw source layer, explicitly unavailable in both distributions"
+      },
+      {
+        "from": "references/ADHD_AND_TOKEN_POLICY.md",
+        "reference": "vision_png/<source_id>/pNNN.png",
+        "classification": "optional raw source layer, explicitly unavailable in both distributions"
+      },
+      {
+        "from": "references/CASE_OSCE_TUTOR.md",
+        "reference": "cumpriu/parcial/ausente",
+        "classification": "inline vocabulary/unit, not an existing package dependency"
+      },
+      {
+        "from": "references/CLINICAL_CLAIM_REVIEW.md",
+        "reference": "mL/kg",
+        "classification": "inline vocabulary/unit, not an existing package dependency"
+      },
+      {
+        "from": "references/CLINICAL_CLAIM_REVIEW.md",
+        "reference": "mg/kg",
+        "classification": "inline vocabulary/unit, not an existing package dependency"
+      },
+      {
+        "from": "references/IGOR_ME_SALVA.md",
+        "reference": "Caso/OSCE",
+        "classification": "inline vocabulary/unit, not an existing package dependency"
+      },
+      {
+        "from": "references/LEARNER_STATE_PROTOCOL.md",
+        "reference": "salvo/registrado",
+        "classification": "inline vocabulary/unit, not an existing package dependency"
+      },
+      {
+        "from": "references/MEDICAL_SAFETY_LAYER.md",
+        "reference": "qualification/reports/CLINICAL_SWEEP_REPORT.md",
+        "classification": "engineering reference already external to the original skill ZIP; not needed to apply the following runtime safety rule"
+      },
+      {
+        "from": "references/MEDICAL_SAFETY_LAYER.md",
+        "reference": "references/CLINICAL_CLAIM_REGISTRY.csv",
+        "classification": "explicitly prohibited nonexistent legacy path, not a load instruction"
+      },
+      {
+        "from": "references/SOURCE_POLICY.md",
+        "reference": "corpus_text/<id>.txt",
+        "classification": "optional raw source layer, explicitly unavailable in both distributions"
+      },
+      {
+        "from": "references/SOURCE_POLICY.md",
+        "reference": "references/CLINICAL_CLAIM_REGISTRY.csv",
+        "classification": "explicitly prohibited nonexistent legacy path, not a load instruction"
+      },
+      {
+        "from": "references/SOURCE_POLICY.md",
+        "reference": "vision_png/<source_id>/",
+        "classification": "optional raw source layer, explicitly unavailable in both distributions"
+      },
+      {
+        "from": "references/SOURCE_POLICY.md",
+        "reference": "vision_png/<source_id>/pNNN.png",
+        "classification": "optional raw source layer, explicitly unavailable in both distributions"
+      },
+      {
+        "from": "references/STUDY_GUIDE_GENERATOR.md",
+        "reference": "Impreciso/desatualizado",
+        "classification": "inline vocabulary/unit, not an existing package dependency"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "corpus_text/",
+        "classification": "optional raw source layer, explicitly unavailable in both distributions"
+      },
+      {
+        "from": "SKILL.md",
+        "reference": "vision_png/",
+        "classification": "optional raw source layer, explicitly unavailable in both distributions"
+      }
+    ],
+    "scope": "Markdown links and inline slash path literals; original unavailable sources and non-path examples are reported, not invented."
+  },
+  "runtime_smoke": {
+    "result": "PASS",
+    "fresh_process_append_read_project_export": true,
+    "48h_due_date": "2026-09-11T12:00:00Z",
+    "tamper_rejected": true,
+    "priority_cli": {
+      "formula_version": "study-priority-v1",
+      "inputs": {
+        "clinical_risk": 2,
+        "curriculum_imminence": 2,
+        "exam_recurrence": 2,
+        "learner_gap": 2,
+        "transfer_value": 2
+      },
+      "label": "high",
+      "missing": [],
+      "score": 22
+    },
+    "synthetic_data_only": true,
+    "claude_upload": "NOT_EXECUTED",
+    "scope": "Extracted ZIP Python runtime smoke; not model behavioral or clinical qualification."
+  },
+  "file_count_limit": "No official 200/250-file limit verified; count is descriptive, not upload certification."
+}
