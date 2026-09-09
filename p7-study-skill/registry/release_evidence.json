@@ -7,13 +7,13 @@
       "gate_id": "version_integrity",
       "artifact": {
         "path": "repair/local-2026-09-08/DELIVERY_EVIDENCE.json",
-        "sha256": "d428063777d16b9a06abb3441756184e38758a3ac79ce7ab0191f8a38cca1e25"
+        "sha256": "aebc3546a302d9233838236a1f8354e353e054b5cc948a92c2a9a76f2b90d677"
       },
       "snapshot": {
         "mode": "dual",
-        "git_commit": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+        "git_commit": "a41c8c09e08d0d4cb08237cf17dbd9c3f3512662",
         "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
-        "package_manifest_sha256": "056ee2aa515a5879bbafaff14e11744518c3a51bae99e94c24fbee6ba249dd47"
+        "package_manifest_sha256": "4bb00a858d4ce058cb584fa432171437f9a4be6ecfb1115e1a33237572921bc5"
       },
       "scope": {
         "included_paths": [
@@ -23,7 +23,7 @@
       },
       "adjudication": {
         "adjudicator": "agent:/root:p7-local-integrator",
-        "adjudicated_at": "2026-09-09T11:44:28.883966+00:00",
+        "adjudicated_at": "2026-09-09T11:46:51.237392+00:00",
         "outcome": "passed"
       },
       "quantitative": true,
@@ -44,13 +44,13 @@
       "gate_id": "evidence_integrity",
       "artifact": {
         "path": "repair/local-2026-09-08/DELIVERY_EVIDENCE.json",
-        "sha256": "d428063777d16b9a06abb3441756184e38758a3ac79ce7ab0191f8a38cca1e25"
+        "sha256": "aebc3546a302d9233838236a1f8354e353e054b5cc948a92c2a9a76f2b90d677"
       },
       "snapshot": {
         "mode": "dual",
-        "git_commit": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+        "git_commit": "a41c8c09e08d0d4cb08237cf17dbd9c3f3512662",
         "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
-        "package_manifest_sha256": "056ee2aa515a5879bbafaff14e11744518c3a51bae99e94c24fbee6ba249dd47"
+        "package_manifest_sha256": "4bb00a858d4ce058cb584fa432171437f9a4be6ecfb1115e1a33237572921bc5"
       },
       "scope": {
         "included_paths": [
@@ -60,7 +60,7 @@
       },
       "adjudication": {
         "adjudicator": "agent:/root:p7-local-integrator",
-        "adjudicated_at": "2026-09-09T11:44:28.884485+00:00",
+        "adjudicated_at": "2026-09-09T11:46:51.237775+00:00",
         "outcome": "passed"
       },
       "quantitative": true,
@@ -81,13 +81,13 @@
       "gate_id": "critical_inventory_complete",
       "artifact": {
         "path": "repair/local-2026-09-08/DELIVERY_EVIDENCE.json",
-        "sha256": "d428063777d16b9a06abb3441756184e38758a3ac79ce7ab0191f8a38cca1e25"
+        "sha256": "aebc3546a302d9233838236a1f8354e353e054b5cc948a92c2a9a76f2b90d677"
       },
       "snapshot": {
         "mode": "dual",
-        "git_commit": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+        "git_commit": "a41c8c09e08d0d4cb08237cf17dbd9c3f3512662",
         "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
-        "package_manifest_sha256": "056ee2aa515a5879bbafaff14e11744518c3a51bae99e94c24fbee6ba249dd47"
+        "package_manifest_sha256": "4bb00a858d4ce058cb584fa432171437f9a4be6ecfb1115e1a33237572921bc5"
       },
       "scope": {
         "included_paths": [
@@ -97,7 +97,7 @@
       },
       "adjudication": {
         "adjudicator": "agent:/root:p7-local-integrator",
-        "adjudicated_at": "2026-09-09T11:44:28.884854+00:00",
+        "adjudicated_at": "2026-09-09T11:46:51.237999+00:00",
         "outcome": "passed"
       },
       "quantitative": true,
@@ -118,13 +118,13 @@
       "gate_id": "high_risk_accounted",
       "artifact": {
         "path": "repair/local-2026-09-08/DELIVERY_EVIDENCE.json",
-        "sha256": "d428063777d16b9a06abb3441756184e38758a3ac79ce7ab0191f8a38cca1e25"
+        "sha256": "aebc3546a302d9233838236a1f8354e353e054b5cc948a92c2a9a76f2b90d677"
       },
       "snapshot": {
         "mode": "dual",
-        "git_commit": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+        "git_commit": "a41c8c09e08d0d4cb08237cf17dbd9c3f3512662",
         "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
-        "package_manifest_sha256": "056ee2aa515a5879bbafaff14e11744518c3a51bae99e94c24fbee6ba249dd47"
+        "package_manifest_sha256": "4bb00a858d4ce058cb584fa432171437f9a4be6ecfb1115e1a33237572921bc5"
       },
       "scope": {
         "included_paths": [
@@ -134,7 +134,7 @@
       },
       "adjudication": {
         "adjudicator": "agent:/root:p7-local-integrator",
-        "adjudicated_at": "2026-09-09T11:44:28.885165+00:00",
+        "adjudicated_at": "2026-09-09T11:46:51.238197+00:00",
         "outcome": "passed"
       },
       "quantitative": true,
@@ -155,13 +155,13 @@
       "gate_id": "current_claim_traceability",
       "artifact": {
         "path": "repair/local-2026-09-08/DELIVERY_EVIDENCE.json",
-        "sha256": "d428063777d16b9a06abb3441756184e38758a3ac79ce7ab0191f8a38cca1e25"
+        "sha256": "aebc3546a302d9233838236a1f8354e353e054b5cc948a92c2a9a76f2b90d677"
       },
       "snapshot": {
         "mode": "dual",
-        "git_commit": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+        "git_commit": "a41c8c09e08d0d4cb08237cf17dbd9c3f3512662",
         "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
-        "package_manifest_sha256": "056ee2aa515a5879bbafaff14e11744518c3a51bae99e94c24fbee6ba249dd47"
+        "package_manifest_sha256": "4bb00a858d4ce058cb584fa432171437f9a4be6ecfb1115e1a33237572921bc5"
       },
       "scope": {
         "included_paths": [
@@ -171,7 +171,7 @@
       },
       "adjudication": {
         "adjudicator": "agent:/root:p7-local-integrator",
-        "adjudicated_at": "2026-09-09T11:44:28.885441+00:00",
+        "adjudicated_at": "2026-09-09T11:46:51.238429+00:00",
         "outcome": "passed"
       },
       "quantitative": true,
@@ -192,13 +192,13 @@
       "gate_id": "package_hygiene",
       "artifact": {
         "path": "repair/local-2026-09-08/DELIVERY_EVIDENCE.json",
-        "sha256": "d428063777d16b9a06abb3441756184e38758a3ac79ce7ab0191f8a38cca1e25"
+        "sha256": "aebc3546a302d9233838236a1f8354e353e054b5cc948a92c2a9a76f2b90d677"
       },
       "snapshot": {
         "mode": "dual",
-        "git_commit": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+        "git_commit": "a41c8c09e08d0d4cb08237cf17dbd9c3f3512662",
         "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
-        "package_manifest_sha256": "056ee2aa515a5879bbafaff14e11744518c3a51bae99e94c24fbee6ba249dd47"
+        "package_manifest_sha256": "4bb00a858d4ce058cb584fa432171437f9a4be6ecfb1115e1a33237572921bc5"
       },
       "scope": {
         "included_paths": [
@@ -208,7 +208,7 @@
       },
       "adjudication": {
         "adjudicator": "agent:/root:p7-local-integrator",
-        "adjudicated_at": "2026-09-09T11:44:28.885711+00:00",
+        "adjudicated_at": "2026-09-09T11:46:51.238589+00:00",
         "outcome": "passed"
       },
       "quantitative": true,
@@ -229,13 +229,13 @@
       "gate_id": "clean_install",
       "artifact": {
         "path": "repair/local-2026-09-08/DELIVERY_EVIDENCE.json",
-        "sha256": "d428063777d16b9a06abb3441756184e38758a3ac79ce7ab0191f8a38cca1e25"
+        "sha256": "aebc3546a302d9233838236a1f8354e353e054b5cc948a92c2a9a76f2b90d677"
       },
       "snapshot": {
         "mode": "dual",
-        "git_commit": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+        "git_commit": "a41c8c09e08d0d4cb08237cf17dbd9c3f3512662",
         "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
-        "package_manifest_sha256": "056ee2aa515a5879bbafaff14e11744518c3a51bae99e94c24fbee6ba249dd47"
+        "package_manifest_sha256": "4bb00a858d4ce058cb584fa432171437f9a4be6ecfb1115e1a33237572921bc5"
       },
       "scope": {
         "included_paths": [
@@ -245,7 +245,7 @@
       },
       "adjudication": {
         "adjudicator": "agent:/root:p7-local-integrator",
-        "adjudicated_at": "2026-09-09T11:44:28.885938+00:00",
+        "adjudicated_at": "2026-09-09T11:46:51.238768+00:00",
         "outcome": "passed"
       },
       "quantitative": true,
@@ -266,13 +266,13 @@
       "gate_id": "report_consistency",
       "artifact": {
         "path": "repair/local-2026-09-08/DELIVERY_EVIDENCE.json",
-        "sha256": "d428063777d16b9a06abb3441756184e38758a3ac79ce7ab0191f8a38cca1e25"
+        "sha256": "aebc3546a302d9233838236a1f8354e353e054b5cc948a92c2a9a76f2b90d677"
       },
       "snapshot": {
         "mode": "dual",
-        "git_commit": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+        "git_commit": "a41c8c09e08d0d4cb08237cf17dbd9c3f3512662",
         "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
-        "package_manifest_sha256": "056ee2aa515a5879bbafaff14e11744518c3a51bae99e94c24fbee6ba249dd47"
+        "package_manifest_sha256": "4bb00a858d4ce058cb584fa432171437f9a4be6ecfb1115e1a33237572921bc5"
       },
       "scope": {
         "included_paths": [
@@ -282,7 +282,7 @@
       },
       "adjudication": {
         "adjudicator": "agent:/root:p7-local-integrator",
-        "adjudicated_at": "2026-09-09T11:44:28.886147+00:00",
+        "adjudicated_at": "2026-09-09T11:46:51.238944+00:00",
         "outcome": "passed"
       },
       "quantitative": true,
@@ -303,13 +303,13 @@
       "gate_id": "runtime_context",
       "artifact": {
         "path": "repair/local-2026-09-08/DELIVERY_EVIDENCE.json",
-        "sha256": "d428063777d16b9a06abb3441756184e38758a3ac79ce7ab0191f8a38cca1e25"
+        "sha256": "aebc3546a302d9233838236a1f8354e353e054b5cc948a92c2a9a76f2b90d677"
       },
       "snapshot": {
         "mode": "dual",
-        "git_commit": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+        "git_commit": "a41c8c09e08d0d4cb08237cf17dbd9c3f3512662",
         "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
-        "package_manifest_sha256": "056ee2aa515a5879bbafaff14e11744518c3a51bae99e94c24fbee6ba249dd47"
+        "package_manifest_sha256": "4bb00a858d4ce058cb584fa432171437f9a4be6ecfb1115e1a33237572921bc5"
       },
       "scope": {
         "included_paths": [
@@ -319,7 +319,7 @@
       },
       "adjudication": {
         "adjudicator": "agent:/root:p7-local-integrator",
-        "adjudicated_at": "2026-09-09T11:44:28.886361+00:00",
+        "adjudicated_at": "2026-09-09T11:46:51.239121+00:00",
         "outcome": "passed"
       },
       "quantitative": true,
@@ -340,13 +340,13 @@
       "gate_id": "structured_provenance",
       "artifact": {
         "path": "repair/local-2026-09-08/DELIVERY_EVIDENCE.json",
-        "sha256": "d428063777d16b9a06abb3441756184e38758a3ac79ce7ab0191f8a38cca1e25"
+        "sha256": "aebc3546a302d9233838236a1f8354e353e054b5cc948a92c2a9a76f2b90d677"
       },
       "snapshot": {
         "mode": "dual",
-        "git_commit": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+        "git_commit": "a41c8c09e08d0d4cb08237cf17dbd9c3f3512662",
         "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
-        "package_manifest_sha256": "056ee2aa515a5879bbafaff14e11744518c3a51bae99e94c24fbee6ba249dd47"
+        "package_manifest_sha256": "4bb00a858d4ce058cb584fa432171437f9a4be6ecfb1115e1a33237572921bc5"
       },
       "scope": {
         "included_paths": [
@@ -356,7 +356,7 @@
       },
       "adjudication": {
         "adjudicator": "agent:/root:p7-local-integrator",
-        "adjudicated_at": "2026-09-09T11:44:28.886580+00:00",
+        "adjudicated_at": "2026-09-09T11:46:51.239293+00:00",
         "outcome": "passed"
       },
       "quantitative": true,
@@ -377,13 +377,13 @@
       "gate_id": "narrative_consistency",
       "artifact": {
         "path": "repair/local-2026-09-08/DELIVERY_EVIDENCE.json",
-        "sha256": "d428063777d16b9a06abb3441756184e38758a3ac79ce7ab0191f8a38cca1e25"
+        "sha256": "aebc3546a302d9233838236a1f8354e353e054b5cc948a92c2a9a76f2b90d677"
       },
       "snapshot": {
         "mode": "dual",
-        "git_commit": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+        "git_commit": "a41c8c09e08d0d4cb08237cf17dbd9c3f3512662",
         "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json",
-        "package_manifest_sha256": "056ee2aa515a5879bbafaff14e11744518c3a51bae99e94c24fbee6ba249dd47"
+        "package_manifest_sha256": "4bb00a858d4ce058cb584fa432171437f9a4be6ecfb1115e1a33237572921bc5"
       },
       "scope": {
         "included_paths": [
@@ -393,7 +393,7 @@
       },
       "adjudication": {
         "adjudicator": "agent:/root:p7-local-integrator",
-        "adjudicated_at": "2026-09-09T11:44:28.886794+00:00",
+        "adjudicated_at": "2026-09-09T11:46:51.240229+00:00",
         "outcome": "passed"
       },
       "quantitative": true,
