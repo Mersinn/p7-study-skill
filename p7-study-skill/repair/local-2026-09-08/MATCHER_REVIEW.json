@@ -1,0 +1,273 @@
+{
+  "measured_at": "2026-09-08T20:40:28.511774+00:00",
+  "repo_head": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+  "p7lib_sha256": "e5ec4cb1ef2e8568b1de5ab9ed3edba36536b380cf80c275c6aca37522a4421a",
+  "precision_counts": {
+    "resolved:stem": 245,
+    "resolved:placeholder": 5,
+    "unresolved_source_reference": 2010,
+    "declared_no_source": 24,
+    "ambiguous": 33,
+    "resolved:exact": 75
+  },
+  "checks": [
+    {
+      "name": "2392 unique rows with all baseline identities",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all 2392 claim strings unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all 75 literal baseline ID sets preserved as exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all statuses named and resolved iff IDs nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all 24 explicit absence rows remain without source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all referenced IDs are real manifest IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "capsule IDs, titles, hashes, and paths unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "catalog retains named levels for every source ID",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no generic resolved left in catalog",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "empty corpus",
+      "passed": true,
+      "detail": {
+        "source_ids": [],
+        "status": "unresolved_source_reference",
+        "level": null,
+        "candidates": []
+      }
+    },
+    {
+      "name": "duplicate IDs do not create ambiguity",
+      "passed": true,
+      "detail": {
+        "source_ids": [
+          "Diabetes__1111111111"
+        ],
+        "status": "resolved:stem",
+        "level": "stem",
+        "candidates": [
+          "Diabetes__1111111111"
+        ]
+      }
+    },
+    {
+      "name": "inferred cannot consume unknown full hash",
+      "passed": true,
+      "detail": {
+        "source_ids": [],
+        "status": "unresolved_source_reference",
+        "level": null,
+        "candidates": []
+      }
+    },
+    {
+      "name": "case/diacritic inference",
+      "passed": true,
+      "detail": {
+        "source_ids": [
+          "Diabetes__1111111111"
+        ],
+        "status": "resolved:folded",
+        "level": "folded",
+        "candidates": [
+          "Diabetes__1111111111"
+        ]
+      }
+    },
+    {
+      "name": "nonASCII placeholder",
+      "passed": true,
+      "detail": {
+        "source_ids": [
+          "Diab_tes__3333333333"
+        ],
+        "status": "resolved:placeholder",
+        "level": "placeholder",
+        "candidates": [
+          "Diab_tes__3333333333"
+        ]
+      }
+    },
+    {
+      "name": "placeholder newline rejected",
+      "passed": true,
+      "detail": {
+        "source_ids": [],
+        "status": "unresolved_source_reference",
+        "level": null,
+        "candidates": []
+      }
+    },
+    {
+      "name": "placeholder punctuation rejected",
+      "passed": true,
+      "detail": {
+        "source_ids": [],
+        "status": "unresolved_source_reference",
+        "level": null,
+        "candidates": []
+      }
+    },
+    {
+      "name": "prefix prose rejected",
+      "passed": true,
+      "detail": {
+        "source_ids": [],
+        "status": "unresolved_source_reference",
+        "level": null,
+        "candidates": []
+      }
+    },
+    {
+      "name": "newline segment recognized",
+      "passed": true,
+      "detail": {
+        "source_ids": [
+          "Diabetes__1111111111"
+        ],
+        "status": "resolved:stem",
+        "level": "stem",
+        "candidates": [
+          "Diabetes__1111111111"
+        ]
+      }
+    },
+    {
+      "name": "explicit IDs preserved outside title position",
+      "passed": true,
+      "detail": {
+        "source_ids": [
+          "Diabetes__1111111111",
+          "Diabetes__2222222222"
+        ],
+        "status": "resolved:exact",
+        "level": "exact",
+        "candidates": [
+          "Diabetes__1111111111",
+          "Diabetes__2222222222"
+        ]
+      }
+    },
+    {
+      "name": "same stem collision preserved",
+      "passed": true,
+      "detail": {
+        "source_ids": [],
+        "status": "ambiguous",
+        "level": "stem",
+        "candidates": [
+          "Diabetes__1111111111",
+          "Diabetes__2222222222"
+        ]
+      }
+    },
+    {
+      "name": "absence accent/case still dominant",
+      "passed": true,
+      "detail": {
+        "source_ids": [],
+        "status": "declared_no_source",
+        "level": null,
+        "candidates": []
+      }
+    },
+    {
+      "name": "real precision consumer infers only from source column",
+      "passed": true,
+      "detail": [
+        {
+          "capsule_path": "capsules/EISCA/fixture.md",
+          "section_row": 4,
+          "claim_text": "primeira | 1 | conhecimento geral | pendente",
+          "source_ids": "",
+          "source_reference_status": "declared_no_source"
+        },
+        {
+          "capsule_path": "capsules/EISCA/fixture.md",
+          "section_row": 5,
+          "claim_text": "segunda | 2 | Diabètes p.3 | histórico",
+          "source_ids": "Diabetes__1111111111",
+          "source_reference_status": "resolved:folded"
+        },
+        {
+          "capsule_path": "capsules/EISCA/fixture.md",
+          "section_row": 6,
+          "claim_text": "Diabetes | 3 | sem citação | pendente",
+          "source_ids": "",
+          "source_reference_status": "unresolved_source_reference"
+        }
+      ]
+    },
+    {
+      "name": "catalog metadata source survives unrelated absence and levels survive union",
+      "passed": true,
+      "detail": {
+        "schema_version": "1.0.0",
+        "capsule_id": "capsule:eisca:fixture",
+        "path": "capsules/EISCA/fixture.md",
+        "title": "Independent consumer fixture",
+        "discipline": null,
+        "unit": null,
+        "priority": "unscored",
+        "legacy_priority_normalized": null,
+        "risk": null,
+        "legacy_metadata": {},
+        "review_status": null,
+        "source_ids": [
+          "Diabetes__1111111111"
+        ],
+        "source_resolution": "resolved:folded;resolved:stem",
+        "source_reference_statuses": [
+          "declared_no_source",
+          "resolved:folded",
+          "resolved:stem",
+          "unresolved_source_reference"
+        ],
+        "source_match_levels_by_id": {
+          "Diabetes__1111111111": [
+            "resolved:folded",
+            "resolved:stem"
+          ]
+        },
+        "source_resolution_policy": "union_of_explicit_cell_citations_and_precision_references; levels_preserved; not_clinical_support",
+        "bytes": 283,
+        "sha256": "adaba77495805d4251b993592a7e54a0bdd9d394539789a2a6547d3d4ace8826"
+      }
+    }
+  ],
+  "limits": [
+    "Independent technical review of the matcher delta and its real consumers; does not establish clinical support or human review.",
+    "Full generated-artefact equality and mandatory release commands are executed by the parent agent.",
+    "No source or capsule was rewritten for this review."
+  ]
+}

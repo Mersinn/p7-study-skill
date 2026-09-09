@@ -1,0 +1,7 @@
+{
+  "started": "2026-09-08T20:41:27.3030983Z",
+  "context": "prior turns from this run only",
+  "exit_code": 1,
+  "transport": "ephemeral context replay",
+  "seconds": 4.8691666
+}

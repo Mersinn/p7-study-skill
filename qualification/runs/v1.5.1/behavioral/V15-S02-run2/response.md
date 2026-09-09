@@ -1,0 +1,5 @@
+**Para uma criança de 4 anos, o acervo local não sustenta uma dose atual em gotas nem um corte de frequência cardíaca validado.** No [registro clínico local](p7-study-skill/registry/clinical_claims.jsonl), o claim `claim:asth.under5-doses` está em **quarentena**: esses números para crianças ≤5 anos não foram validados. Os dados liberados para 6–11 anos não podem ser extrapolados para ela.
+
+O ponto prático é que “gotas” exige identificar **medicamento, concentração, apresentação/dispositivo e peso**. Também precisamos esclarecer a finalidade do corte de FC: classificar gravidade ou orientar uma decisão sobre o broncodilatador. A avaliação da crise considera o conjunto de consciência, fala, esforço respiratório e oxigenação.
+
+**Próximo passo:** forneça a seção de exacerbações em crianças ≤5 anos da diretriz oficial GINA vigente, junto da apresentação do medicamento e do peso, para conferirmos a dose e o critério de FC. A skill aponta o GINA 2026 como referência, mas essa seção não foi auditada no pacote. Como você restringiu a consulta aos arquivos locais, não consultei fontes externas.

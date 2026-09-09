@@ -1,0 +1,490 @@
+{
+  "scope": "Portable preservation of completed synthetic inference and independent review. Existing adjudication hashes describe original bytes; inventory records normalized repository bytes. No gate status changed.",
+  "source_commit": "b4d4713d22f9e6efe2eb2880193067da72267f74",
+  "safety_integrity_checks": [
+    {
+      "run": "public-S01-run1",
+      "response_log_oracle_input_verified": true
+    },
+    {
+      "run": "V15-S01-run2",
+      "response_log_oracle_input_verified": true
+    },
+    {
+      "run": "V15-S02-run1",
+      "response_log_oracle_input_verified": true
+    },
+    {
+      "run": "V15-S02-run2",
+      "response_log_oracle_input_verified": true
+    },
+    {
+      "run": "V15-S02-run3",
+      "response_log_oracle_input_verified": true
+    },
+    {
+      "run": "V15-S03-run1",
+      "response_log_oracle_input_verified": true
+    },
+    {
+      "run": "V15-S03-run2",
+      "response_log_oracle_input_verified": true
+    },
+    {
+      "run": "V15-S03-run3",
+      "response_log_oracle_input_verified": true
+    },
+    {
+      "run": "V15-S04-run1",
+      "response_log_oracle_input_verified": true
+    },
+    {
+      "run": "V15-S04-run2",
+      "response_log_oracle_input_verified": true
+    },
+    {
+      "run": "V15-S05-run1",
+      "response_log_oracle_input_verified": true
+    },
+    {
+      "run": "V15-S05-run2",
+      "response_log_oracle_input_verified": true
+    },
+    {
+      "run": "V15-S05-run3",
+      "response_log_oracle_input_verified": true
+    }
+  ],
+  "files": {
+    "qualification/runs/v1.5.1/behavioral/public-S01-run1/input.md": {
+      "original_sha256": "2e6f829b65d1db0b9d36240523f5a02aef0e82dfd65c822ed0959d1e34901622",
+      "stored_sha256": "2e6f829b65d1db0b9d36240523f5a02aef0e82dfd65c822ed0959d1e34901622",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S01-run2/input.md": {
+      "original_sha256": "2e6f829b65d1db0b9d36240523f5a02aef0e82dfd65c822ed0959d1e34901622",
+      "stored_sha256": "2e6f829b65d1db0b9d36240523f5a02aef0e82dfd65c822ed0959d1e34901622",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S02-run1/input.md": {
+      "original_sha256": "cd41718e94e692ccb6dbbf7c83b8469d0d48253281f573a0e52ac663cbab6900",
+      "stored_sha256": "cd41718e94e692ccb6dbbf7c83b8469d0d48253281f573a0e52ac663cbab6900",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S02-run2/input.md": {
+      "original_sha256": "cd41718e94e692ccb6dbbf7c83b8469d0d48253281f573a0e52ac663cbab6900",
+      "stored_sha256": "cd41718e94e692ccb6dbbf7c83b8469d0d48253281f573a0e52ac663cbab6900",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S02-run3/input.md": {
+      "original_sha256": "cd41718e94e692ccb6dbbf7c83b8469d0d48253281f573a0e52ac663cbab6900",
+      "stored_sha256": "cd41718e94e692ccb6dbbf7c83b8469d0d48253281f573a0e52ac663cbab6900",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S03-run1/input.md": {
+      "original_sha256": "e372d166c3a145f1ba5a837a4196804ed9b1d6d0eaf9e0f36fa0437fc864a284",
+      "stored_sha256": "e372d166c3a145f1ba5a837a4196804ed9b1d6d0eaf9e0f36fa0437fc864a284",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S03-run2/input.md": {
+      "original_sha256": "e372d166c3a145f1ba5a837a4196804ed9b1d6d0eaf9e0f36fa0437fc864a284",
+      "stored_sha256": "e372d166c3a145f1ba5a837a4196804ed9b1d6d0eaf9e0f36fa0437fc864a284",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S03-run3/input.md": {
+      "original_sha256": "e372d166c3a145f1ba5a837a4196804ed9b1d6d0eaf9e0f36fa0437fc864a284",
+      "stored_sha256": "e372d166c3a145f1ba5a837a4196804ed9b1d6d0eaf9e0f36fa0437fc864a284",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S04-run1/input.md": {
+      "original_sha256": "27924a1dc72d063671f080ef27f72d54a5058d015ab827c038aa46cdfba6d51a",
+      "stored_sha256": "27924a1dc72d063671f080ef27f72d54a5058d015ab827c038aa46cdfba6d51a",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S04-run2/input.md": {
+      "original_sha256": "27924a1dc72d063671f080ef27f72d54a5058d015ab827c038aa46cdfba6d51a",
+      "stored_sha256": "27924a1dc72d063671f080ef27f72d54a5058d015ab827c038aa46cdfba6d51a",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S05-run1/input.md": {
+      "original_sha256": "302fefabfc0ed06f8489ae28bc8bee9b8627180b474894ab66258b33f490b8ae",
+      "stored_sha256": "302fefabfc0ed06f8489ae28bc8bee9b8627180b474894ab66258b33f490b8ae",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S05-run2/input.md": {
+      "original_sha256": "302fefabfc0ed06f8489ae28bc8bee9b8627180b474894ab66258b33f490b8ae",
+      "stored_sha256": "302fefabfc0ed06f8489ae28bc8bee9b8627180b474894ab66258b33f490b8ae",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S05-run3/input.md": {
+      "original_sha256": "302fefabfc0ed06f8489ae28bc8bee9b8627180b474894ab66258b33f490b8ae",
+      "stored_sha256": "302fefabfc0ed06f8489ae28bc8bee9b8627180b474894ab66258b33f490b8ae",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/public-S01-run1/response.md": {
+      "original_sha256": "2a66f955739f5fbdec78ad93ae0e4126cbdf58c9e94f24b60025b72d4c820ab9",
+      "stored_sha256": "2a66f955739f5fbdec78ad93ae0e4126cbdf58c9e94f24b60025b72d4c820ab9",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/public-S01-run1/events.log": {
+      "original_sha256": "d7827fb87ca3bbea33af23eee4e270f7ea56c64d9e4ca51c6a55269c0e39cfe7",
+      "stored_sha256": "8a77b16143ce8c3007b75e447252446ff6e97753bfc082564e335843219916e9",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S01-run2/response.md": {
+      "original_sha256": "d4018cf892f5a7547fb32cf95161e0c9541f087ed7243af761d66d1d6b31ddcf",
+      "stored_sha256": "d4018cf892f5a7547fb32cf95161e0c9541f087ed7243af761d66d1d6b31ddcf",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S01-run2/events.log": {
+      "original_sha256": "3a32436a8611241f32115959df6902c8b9cdcb848ede0e07089f384a8a1568af",
+      "stored_sha256": "ef71ff3e02b42ad668730d452ba6f27588419b6a72385ee2795059577fb8df7a",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S02-run1/response.md": {
+      "original_sha256": "ef47b210d42750040a459c65dbe7e016d3ca81723f55e983c168b6ad436dfb69",
+      "stored_sha256": "ef47b210d42750040a459c65dbe7e016d3ca81723f55e983c168b6ad436dfb69",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S02-run1/events.log": {
+      "original_sha256": "32fd8082f179a91dd8a406fecdcae46b257ad975079425cc66e94d450a94f4de",
+      "stored_sha256": "80602da7b4544a306d8685d0267d251dfc82e98ad87831977d40d2afe971714f",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S02-run2/response.md": {
+      "original_sha256": "e362ac24ff5f6ada7885d034a802fdd979f012154d7972a606f887bbddf4001a",
+      "stored_sha256": "e362ac24ff5f6ada7885d034a802fdd979f012154d7972a606f887bbddf4001a",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S02-run2/events.log": {
+      "original_sha256": "fe54ff19c076d340b6f1b8a51b65a3beae414729c0380644e73cf8a50470deed",
+      "stored_sha256": "b14d261d18106f0265fe530b0d8079799b047f8b1203626e7988f22c77501bde",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S02-run3/response.md": {
+      "original_sha256": "a31e67efc319ed2951b997d4d06dfc585112300ebc7a2a0a8d4cc805b63494f9",
+      "stored_sha256": "a31e67efc319ed2951b997d4d06dfc585112300ebc7a2a0a8d4cc805b63494f9",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S02-run3/events-retry-20260908-223740.log": {
+      "original_sha256": "f72584d6423ae68b93e8839cdf0c2331eebd80f46cdcf990a3b89cd666bf839f",
+      "stored_sha256": "7fa56aef073c1ca8ffd57d84c168b08ecf353f134d6d78875829f9ba06a140f8",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S03-run1/response.md": {
+      "original_sha256": "345b6fd804dde7ff6fc68c2a8aff4a4b928f3894283c67dddd06ddb5baa8e752",
+      "stored_sha256": "345b6fd804dde7ff6fc68c2a8aff4a4b928f3894283c67dddd06ddb5baa8e752",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S03-run1/events-retry-20260908-223828.log": {
+      "original_sha256": "144c0c23c9df01038344f5afdd577adcf209665d422cacd3b124bfd5b89e53a4",
+      "stored_sha256": "6c0addf2912abff3cabbd72c6a967a88bf227f0e0a190cd2641a00be367be925",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S03-run2/response.md": {
+      "original_sha256": "6f6569e8f2c6c2a97fa6f17af17a175c220fb37f6acd57bc0c8e4250a7f790a6",
+      "stored_sha256": "6f6569e8f2c6c2a97fa6f17af17a175c220fb37f6acd57bc0c8e4250a7f790a6",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S03-run2/events-retry-20260908-223923.log": {
+      "original_sha256": "e448e7b8854e6d9d9049e49a16878768b66f00592bbe2711863490f89fa84d5e",
+      "stored_sha256": "2c475b5ba015edbda97dfd8257db883153633eacde245b200a213fa30eb7f4e7",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S03-run3/response.md": {
+      "original_sha256": "1cd0f8769a71b3f031513221186631a15a1aba8cc1588e770f8eb372652b4633",
+      "stored_sha256": "1cd0f8769a71b3f031513221186631a15a1aba8cc1588e770f8eb372652b4633",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S03-run3/events-retry-20260908-224021.log": {
+      "original_sha256": "c19aa89be7fd7634f97acbee89a5e40acd0321c7800055d54d00e9c9aab69d25",
+      "stored_sha256": "473eedacf0fa7ebcacc737ccf2a175907d2e6cf02e298bdbcb92d33122d49aee",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S04-run1/response.md": {
+      "original_sha256": "6fbd2190ca80bc3c6ec13371f5f636bcbaad8075fbf879d7c1a4a35d067ee870",
+      "stored_sha256": "6fbd2190ca80bc3c6ec13371f5f636bcbaad8075fbf879d7c1a4a35d067ee870",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S04-run1/events-retry-20260909-084103.log": {
+      "original_sha256": "5f74c70b48875b0ecbb40e36d7fd9ae8386ca7b9f6dc82ba54541c82b17eb2d3",
+      "stored_sha256": "5fa2cf39781e1f9419b9bd349249e19490d28bd9783957a923292b83e239ea84",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S04-run2/response.md": {
+      "original_sha256": "d1d71f0650e8d4922a2ebd5175dd7440946b9a7098b5dfe253c3a6032b7a43fc",
+      "stored_sha256": "d1d71f0650e8d4922a2ebd5175dd7440946b9a7098b5dfe253c3a6032b7a43fc",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S04-run2/events-retry-20260909-084138.log": {
+      "original_sha256": "ca298839a1c8d8b8002ee0a8c62c103ed5cfe5287607045380e84997eba4da7a",
+      "stored_sha256": "3ce9fc228e5d1be95c05786c380c77e5d156859bc71b0812364e5e37d6ae50bb",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S05-run1/response.md": {
+      "original_sha256": "789555a356038f0ac1c372eb18ec42807018d8d85519dd1838184463d58f5712",
+      "stored_sha256": "789555a356038f0ac1c372eb18ec42807018d8d85519dd1838184463d58f5712",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S05-run1/events-retry-20260909-084206.log": {
+      "original_sha256": "8273c8297f00a9402142fcf274cf5d44b5e53056b95b394fc09955b3453d7a44",
+      "stored_sha256": "1daec2c1649121d4c21ad8fbce664a699dcd0ee8f93fc3ee50bf6fa54c80253c",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S05-run2/response.md": {
+      "original_sha256": "4288276b39a3726343a73c1d05f20ee69216e096fdbc0bd2bbd44f0278a8c2dc",
+      "stored_sha256": "4288276b39a3726343a73c1d05f20ee69216e096fdbc0bd2bbd44f0278a8c2dc",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S05-run2/events-retry-20260909-084239.log": {
+      "original_sha256": "b2afb6b792cd308d585d2e62f53fecadf2148f3a92654a236a4e0d18146e9de3",
+      "stored_sha256": "74aa548cd30ac99333980cebf43c641ddd0ab61ebe8533dd16f75abc426ef36e",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S05-run3/response.md": {
+      "original_sha256": "59fe721284ff1ec21f5e0c4c7c8e1ac07e883029d07586c1439a24d9ffb62f13",
+      "stored_sha256": "59fe721284ff1ec21f5e0c4c7c8e1ac07e883029d07586c1439a24d9ffb62f13",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/V15-S05-run3/events-retry-20260909-084312.log": {
+      "original_sha256": "7a36d9ead4705810af5b307617ee6e92aae8875185c501fd318bc307dcafb286",
+      "stored_sha256": "d9fa373e7c323f82602cacb556c64233442de285be8b14be43dd09640bd4380a",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J01-run1/turn1-events-20260908-223920.log": {
+      "original_sha256": "aa843094903c2f5087a10e1b85a44fb21f306d22ae0557a1d1b8874e49c96bad",
+      "stored_sha256": "50fae859a31da8994fc5634b9009f8293552a676cce4e2685fcdf231912a7715",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J01-run1/turn2-events-20260908-224036.log": {
+      "original_sha256": "18bf6c21f3a5edd7b6c2fa1b71dfb2ce4185998512c92892a5f2256278da361b",
+      "stored_sha256": "13652f02dfe37da541e48f33252f282f10ecc8b5384a1471d745557d6ac6acac",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J01-run1/turn3-events-20260909-084117.log": {
+      "original_sha256": "d6f9fa66e1b676d8ecefec3738b4e51f3b6173ed77ec674739326fbf8a561491",
+      "stored_sha256": "cb4875abd34bff8c53f02fd33eb58bedaa16336a8b3f856402d522e9a008afcb",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J01-run2/turn1-events-20260909-084151.log": {
+      "original_sha256": "964a3945d5e5036a88731bccdfff388f3aa46a97601885e0b24fd3481db63d39",
+      "stored_sha256": "efc3b94505a6b7731594626b5846a72714671fb23029d179bbb4da1621a2dae2",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J01-run2/turn2-events-20260909-084246.log": {
+      "original_sha256": "85c7002a540f94e4dac36faaf0bcc6ffe1fe7de0595fedffad9fe85e5f278f30",
+      "stored_sha256": "8d4f46ec3b0fb0f1c8582f2b223fff361655d11c7da94598de7be23bc832c1ab",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J01-run2/turn3-events-20260909-084321.log": {
+      "original_sha256": "31ebccaad587da993d7ef392212e14c5c7e0c9e023c1cb56e5f688a3a41505c6",
+      "stored_sha256": "18378b670ef28c20f8b017a82baf91edd617b930cb0ced327b94db6227306f7f",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J01-run3/turn1-events-20260909-084351.log": {
+      "original_sha256": "4cfa848ce666f9b78bad8870e228024057f9af15cb4031fbda0a2858cb84b97d",
+      "stored_sha256": "bae54453d42109ef1b4241cea26ea304ae5bda8db47ba39f1fa42a70184715d1",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J01-run3/turn2-events-20260909-084445.log": {
+      "original_sha256": "f0761d68ec093906e170b98654562650ecc9213129dc4514619ffe3807781636",
+      "stored_sha256": "369c4100ef7c89339d77c6d857659f89f1f67d25b81347a8641809bb3a6e2621",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J01-run3/turn3-events-20260909-084519.log": {
+      "original_sha256": "68120490c45a1603bd4edceab32ee039c89a994c29d5753b0f3b0dc035979888",
+      "stored_sha256": "94ec1c90fa76a8d5b7f2e159d67dc51d4a6059e7dbd19f04c10f0da5dcec8819",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run1/turn1-events-20260909-084549.log": {
+      "original_sha256": "8cb6575c75e6050859c4bee7644535f065915ed4a95bc0b8c9db0dcdab1f61f2",
+      "stored_sha256": "33f983f5e651401044f402782549109fe12418e4b4d30da5dd85a037f48eb6b9",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run1/turn2-events-20260909-084625.log": {
+      "original_sha256": "d833bf291a22c58bfba2f44cbf7d4bcc15ad681a68e38ad3f8b2f39384e0d9ab",
+      "stored_sha256": "5d9c8e55b947dd218fd695655e11e0fcceeeb70f8842e622bcf9f30076719b8c",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run1/turn1-response.md": {
+      "original_sha256": "3e83648a03681d71e14be70a11ac2af853f5676216bd2b47b89ba227d4eabce8",
+      "stored_sha256": "3e83648a03681d71e14be70a11ac2af853f5676216bd2b47b89ba227d4eabce8",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run1/turn1-execution-20260909-084549.json": {
+      "original_sha256": "2e9e2953714a85b82709f5a33f88403d37a385356fb002bf59abab1328be5f5c",
+      "stored_sha256": "6bff34ed1b53cf52bde5cf717e17d884e8a7365160c5a673b9e746faa0314575",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run1/turn2-response.md": {
+      "original_sha256": "51d5c7145ac6d77e17ed374f432a10ca85cc08009ce02ad1bc58cd35bb683c41",
+      "stored_sha256": "51d5c7145ac6d77e17ed374f432a10ca85cc08009ce02ad1bc58cd35bb683c41",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run1/turn2-execution-20260909-084625.json": {
+      "original_sha256": "abd6e2b88d976df3b9cae9f18dc8865210ae7800c830b1dc291931fa047fb3ca",
+      "stored_sha256": "06fbf6e6ce7eb2f7c9bf81dd7e6c72afa3047e6c8b044d2549745ad80b716439",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run1/turn3-response.md": {
+      "original_sha256": "1ed6ad46bf21175d23990330c1b2e3bae7d69e714b05ac567b6cfe7bbd16e896",
+      "stored_sha256": "1ed6ad46bf21175d23990330c1b2e3bae7d69e714b05ac567b6cfe7bbd16e896",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run1/turn3-events-20260909-084653.log": {
+      "original_sha256": "f03953a9acc4cd46146ff4088d759466b2d475daf9e3c4ea6b5317222063b806",
+      "stored_sha256": "fae375614e79187d96dcef35b758e1a7e9be2ad1e67ce2402c07a4012f89f662",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run1/turn3-execution-20260909-084653.json": {
+      "original_sha256": "86daf335b9db33c9a7efe2335ccdcd75a2fb9ac7c44c66063fcd99f65689ef2c",
+      "stored_sha256": "2fd9019be0825557fca26843fe6842dc293fd63d3625f958bc7f4c48961894eb",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run1/qualification/fixtures/behavioral/F-DOC/study_document_with_injection.md": {
+      "original_sha256": "ce749d55e1178f3c7d8cf0928c8d5bb801dc1b794c24ecf330fb10160c2d199d",
+      "stored_sha256": "ce749d55e1178f3c7d8cf0928c8d5bb801dc1b794c24ecf330fb10160c2d199d",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run1/turn1-execution.json": {
+      "original_sha256": "3f8c0bb2b8dc7da9612548f424f89c9a670312e06f6cdb833119fa13e611d062",
+      "stored_sha256": "c2a192aee12ebca770f17ea764cdbef326e00dc894765dc941a0259d1e55217e",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run1/turn1-events.log": {
+      "original_sha256": "4d9766e47a84e9dd0b7d989699839ea80e9e595bf515d8f61f00fc877d8494a7",
+      "stored_sha256": "d504f02fe7ba92367cb66d44317898aefb3e2576b3d7cf13c99668b8bfaafd0f",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run2/turn1-response.md": {
+      "original_sha256": "08b67c97e64fccd463feffddae901022296fe3787bec7ac19e81e7098f2f5748",
+      "stored_sha256": "08b67c97e64fccd463feffddae901022296fe3787bec7ac19e81e7098f2f5748",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run2/turn1-events-20260909-135739.log": {
+      "original_sha256": "4a590eed60ccd2d6c2d8136f830b55e8a34d17fd29b022478bfe991f7d8de09e",
+      "stored_sha256": "87b22383294e99e03d8e3cd84cdbcd80a23c827238b5be77802eb234a35a3ec1",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run2/turn1-execution-20260909-135739.json": {
+      "original_sha256": "36664e3eed89e2f875899f74b937c82bd30dc17d64e9ccc61f6e89bf40306586",
+      "stored_sha256": "8ec17ceb2d6f421dc9a068c8072906ee617e2e37694e162017a6a4a0e4f7732d",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run2/turn2-response.md": {
+      "original_sha256": "4f064294b80dc886850d048803148133d21280587a674dfe3354142adc8d8f32",
+      "stored_sha256": "4f064294b80dc886850d048803148133d21280587a674dfe3354142adc8d8f32",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run2/turn2-events-20260909-135817.log": {
+      "original_sha256": "98c19790b8030fdba51191d2955fa71a13d9a4a25fb1a1558535f02e4da50d67",
+      "stored_sha256": "fafc59dd8ee7fd1762ff0d76025382f6d2e0accd235b3b56d2d2fd589b23125a",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run2/turn2-execution-20260909-135817.json": {
+      "original_sha256": "1ad194f3e48f67dab62c04740255c40dcfa16dd6e5f78b905145c379b62b1fdc",
+      "stored_sha256": "face6a7cb86b466bd69653b30ce5bae7adb718cac0cdc0ded935a49a3d872877",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run2/turn3-response.md": {
+      "original_sha256": "d6f907b7a9df43782b9c5f00082556f1c10b675870bc9272a3743f84108acc3c",
+      "stored_sha256": "d6f907b7a9df43782b9c5f00082556f1c10b675870bc9272a3743f84108acc3c",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run2/turn3-events-20260909-135847.log": {
+      "original_sha256": "02ee4cacec4e293da5493419d081a24975b5a622f11d61d26efdcbd4190b7a18",
+      "stored_sha256": "da64ee02fcac0576a2e4eec5a88d65a81aea1c3f7bb090b2e7fc9f0471203263",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run2/turn3-execution-20260909-135847.json": {
+      "original_sha256": "716391f4720f28c1083f830930efe25a903602a3007775fef070ad144b8dde04",
+      "stored_sha256": "6e7c30e2a938eb583751a1247352f3553221dbe6c4503216f1ad0c612583769d",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run2/qualification/fixtures/behavioral/F-DOC/study_document_with_injection.md": {
+      "original_sha256": "ce749d55e1178f3c7d8cf0928c8d5bb801dc1b794c24ecf330fb10160c2d199d",
+      "stored_sha256": "ce749d55e1178f3c7d8cf0928c8d5bb801dc1b794c24ecf330fb10160c2d199d",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run2/turn1-execution-20260909-084716.json": {
+      "original_sha256": "6925e18c380abc4f42d3cba6f71072a80fe0fc7a4dac43c6a26c3147707fade7",
+      "stored_sha256": "03eebb3e51cf1d6224b5b0877239c349282a7f7490d3c5fbd560969eb38b4b69",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run2/turn1-events-20260909-084716.log": {
+      "original_sha256": "220e5ed0dc29bd52883d7e98d06ccee14381cff3a6d2366d6555c5d3fc540ba6",
+      "stored_sha256": "21ec8c034e7cfb025763d7bc82b34e77a63166a11ab0e8f39f5b91a3d0bac59f",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run2/turn1-execution.json": {
+      "original_sha256": "aafa9e94198b17d424a813c8a0e9c3e6cbea053e4ed677b2cb2b0870cb9c8c0f",
+      "stored_sha256": "5c3d03c0e8e93fe88196eb3f22650291c2ffc5be5833e7deeac08ed38d5f7c83",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run2/turn1-events.log": {
+      "original_sha256": "89f3eae6f6eb02e399e1cb92af73d573db95ad8c33f5b6730007c32125d6513e",
+      "stored_sha256": "2d867cf7bcea65d69fabb8fb19b0599e44ea619601712c2da4aefadf10d139b0",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run3/turn1-response.md": {
+      "original_sha256": "20e7b81629892f133d0f2e43c517fd66694bde7965432b8231570c7afabea227",
+      "stored_sha256": "20e7b81629892f133d0f2e43c517fd66694bde7965432b8231570c7afabea227",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run3/turn1-events-20260909-135921.log": {
+      "original_sha256": "da1787ff138ad80de1ee656adb4f90f15bf32dfd94fa0794d1b3f72351e4e580",
+      "stored_sha256": "d91351409583527203a50425f6473b394ff8c9b47a501cc27a72ecd1232e000a",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run3/turn1-execution-20260909-135921.json": {
+      "original_sha256": "6ebc6070774706a041d34fbc075e145a44e44fbe55d87e66b7813f668949c39c",
+      "stored_sha256": "5adc182f7f123660f8dac3525f0520a1eabe0e18a29602014b36b952c30feebb",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run3/turn2-response.md": {
+      "original_sha256": "e13429ee3f929e4c5beae56c03ce918854176b97c52d38cb6b20cdca66c2b8d7",
+      "stored_sha256": "e13429ee3f929e4c5beae56c03ce918854176b97c52d38cb6b20cdca66c2b8d7",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run3/turn2-events-20260909-135951.log": {
+      "original_sha256": "6f8e8e671561f6d7dc7924cd89373a29b8173de5d7da29158ac1d2bc72929a42",
+      "stored_sha256": "0c906469bd4eae43981f3067b6b7e659498c702fa095735beea6688870db7878",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run3/turn2-execution-20260909-135951.json": {
+      "original_sha256": "8bb6f0eb288a542686c5a65da9fc19ff3668fa512751e6cce035a41863fdd63d",
+      "stored_sha256": "987ff0191b1c7729a8d0059a68a9e643daefa21b1905a391b505ef3eb5c1aeb9",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run3/turn3-response.md": {
+      "original_sha256": "11d210d79c27a4f63637eb1e3fd2c61623c6f35b1d634e54bb772c629b8482da",
+      "stored_sha256": "11d210d79c27a4f63637eb1e3fd2c61623c6f35b1d634e54bb772c629b8482da",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run3/turn3-events-20260909-140013.log": {
+      "original_sha256": "167bf2b725f0876f1a51199314290d139b4f77dfd465946d1a3eded39751b232",
+      "stored_sha256": "506f994753eeba530c4f13ad689cd45422fe9a9e8918c2501fb993ce0454c655",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run3/turn3-execution-20260909-140013.json": {
+      "original_sha256": "24b4311e2c8c743174a462fa1822c44d4f126ecef3945d0632ba9202d4439406",
+      "stored_sha256": "0ef3dbbc3120bde6b6d61d0b92170ffa759c2419bccae8591281752dcc273170",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run3/qualification/fixtures/behavioral/F-DOC/study_document_with_injection.md": {
+      "original_sha256": "ce749d55e1178f3c7d8cf0928c8d5bb801dc1b794c24ecf330fb10160c2d199d",
+      "stored_sha256": "ce749d55e1178f3c7d8cf0928c8d5bb801dc1b794c24ecf330fb10160c2d199d",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run3/turn1-execution.json": {
+      "original_sha256": "39dad96cd436a23863a7d095005d98ec1ea08f3235c0b2311465c1db18e8fb68",
+      "stored_sha256": "e765b3accf579038b279ed96d78a1f33abecfbec1be7a4b22f37b9528385d51a",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    },
+    "qualification/runs/v1.5.1/behavioral/J02-run3/turn1-events.log": {
+      "original_sha256": "f0c77c3c8b1a0d0018c1ed68cc317503ea634c1a219d204fc808eaf2d17b7051",
+      "stored_sha256": "d1569e4babc79c603b7bfdce5ea1d821261f88d6d90f6db1d3ba4ab47c0e9291",
+      "normalization": "UTF-8 without BOM; LF for repository .gitattributes"
+    }
+  }
+}

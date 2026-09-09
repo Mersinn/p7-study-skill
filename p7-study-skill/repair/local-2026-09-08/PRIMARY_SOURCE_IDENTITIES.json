@@ -1,0 +1,470 @@
+[
+  {
+    "source_id": "Asma_em_Pediatria__3def9bfd99",
+    "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Slides Aulas\\Slides Terceira Prova\\Asma em Pediatria.pdf",
+    "filename": "Asma em Pediatria.pdf",
+    "manifest_pages": "63",
+    "locator": "localizador da claim ausente; tabela ≤5 anos não paginada na cápsula",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "db990692a1a9b551848da0e4174941dfb8425b9df6cd80f8ba4b7e90fa49727f",
+        "pages": 63,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Aula_1_2021_1_Transtorno_Bipolar__c902ef25a4",
+    "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Slides Aulas\\Slides Primeira Prova \\Aula 1 - 2021.1 - Transtorno Bipolar.pdf",
+    "filename": "Aula 1 - 2021.1 - Transtorno Bipolar.pdf",
+    "manifest_pages": "32",
+    "locator": "localizador da claim ausente",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "82ed541c29ee69725081c9169f7f5c2c299513ff7a393065eaa548dc75874141",
+        "pages": 32,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Transtorno_bipolar__6d1cddef8b",
+    "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Transtorno bipolar.pdf",
+    "filename": "Transtorno bipolar.pdf",
+    "manifest_pages": "9",
+    "locator": "localizador da claim ausente",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "2a67ff39a9d4cb9f6f916cb6640c99bb33fd940539f2c3777787e1b95c3aee27",
+        "pages": 9,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "ANOTAC_O_ES_bipolaridade__a1c9d4465d",
+    "rel_path": "Resumos das Unidades \\SAÚDE MENTAL\\II UNIDADE\\PSIQUIATRIA\\ANOTAÇÕES - bipolaridade.pdf",
+    "filename": "ANOTAÇÕES - bipolaridade.pdf",
+    "manifest_pages": "6",
+    "locator": "p.5 citada para risco de intoxicação/litemia; não é localizador do critério ECTR ou carvão",
+    "locator_status": "context_only",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "4f25f3a0e52937680efba4b1284e47da71af169e2412ccafe7efab022e35e156",
+        "pages": 6,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Transtorno_bipolar_pdf__dc69aa8c73",
+    "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Transtorno bipolar pdf.pdf",
+    "filename": "Transtorno bipolar pdf.pdf",
+    "manifest_pages": "5",
+    "locator": "localizador da claim ausente",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "110be939699afe4d15cc4b6b22b9dfecb2b20f686cb993aec3fff294cc2fd60a",
+        "pages": 5,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
+    "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Mariah Carvalho- Módulo Saúde Mental.pdf",
+    "filename": "Mariah Carvalho- Módulo Saúde Mental.pdf",
+    "manifest_pages": "109",
+    "locator": "localizador de doses/ordem da claim ausente",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "4fbf2153267c9483161401de2cc5b7cec130dfc3c1c924c7df652690ca52e6d8",
+        "pages": 109,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Psiquiatria_DEPENDE_NCIA_QUI_MICA__e854a68d79",
+    "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Psiquiatria - DEPENDÊNCIA QUÍMICA.pdf",
+    "filename": "Psiquiatria - DEPENDÊNCIA QUÍMICA.pdf",
+    "manifest_pages": "12",
+    "locator": "p.4 (tríade Wernicke); localizador de doses/ordem da claim ausente",
+    "locator_status": "context_only",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "2483365890089fc631270a3b05ac9929f63c0bb3b5d5d3259834d7dff656aa50",
+        "pages": 12,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "A_lcool_e_Outras_Drogas__ebaba69a52",
+    "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Álcool e Outras Drogas.pdf",
+    "filename": "Álcool e Outras Drogas.pdf",
+    "manifest_pages": "7",
+    "locator": "p.5 (tríade Wernicke); localizador de doses/ordem da claim ausente",
+    "locator_status": "context_only",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "8cd42bb9164e79ecb5f106397dd0aa1122333ff767df6f300eb0da8480460305",
+        "pages": 7,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "transtornos_por_uso_de_subst_ncias__554a1a793f",
+    "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\transtornos por uso de substâncias.pdf",
+    "filename": "transtornos por uso de substâncias.pdf",
+    "manifest_pages": "4",
+    "locator": "localizador de doses/ordem da claim ausente",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "899d673450004854c45f30a834de800444dbfb4f6860834a7e4db998b0a70c53",
+        "pages": 4,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Transtornos_por_abuso_de_substancias___136c015a4a",
+    "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Slides Aulas\\Slides Terceira Prova \\Transtornos por abuso de substancias  .pdf",
+    "filename": "Transtornos por abuso de substancias  .pdf",
+    "manifest_pages": "5",
+    "locator": "pp. 3–5 (amostra visual declarada); cápsula declara que slide não cobre o número específico de intoxicação aguda",
+    "locator_status": "context_only",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "e6873b21fe92e508cc7fddb195e495bfedaa35cbca5f29d4a18bd8f8fc37f4c8",
+        "pages": 5,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "FAMENE_FARMACOTERAPIA_DAS_PSICOSES_2025_1__e5e9511748",
+    "rel_path": "FARMACOLOGIA\\Slides Aulas\\Slides Quarta Prova \\FAMENE - FARMACOTERAPIA DAS PSICOSES - 2025.1.pdf",
+    "filename": "FAMENE - FARMACOTERAPIA DAS PSICOSES - 2025.1.pdf",
+    "manifest_pages": "38",
+    "locator": "localizador clozapina/monitorização ausente",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "f01f4759c2a200e67a93f70fcb5eabeb72cdf05587c0194ec3010fe1477e3652",
+        "pages": 38,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Esquizofrenia_e_antipsic_ticos__4b3ccca107",
+    "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Slides Aulas\\Slides Segunda Prova \\Esquizofrenia e antipsicóticos.pdf",
+    "filename": "Esquizofrenia e antipsicóticos.pdf",
+    "manifest_pages": "39",
+    "locator": "pp.33–38 (amostra visual de SEP); cápsula declara não haver imagem de tabela de doses de clozapina; localizador da claim ausente",
+    "locator_status": "context_only",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "d04f18e9ac269703d86d20807a047e2e8e5d8cd02896ef0f8f96090d3bb547b1",
+        "pages": 39,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Antipsico_ticos_II_unidade__bea4c8f456",
+    "rel_path": "Resumos das Unidades \\SAÚDE MENTAL\\II UNIDADE\\FARMACOLOGIA\\Antipsicóticos - II unidade.pdf",
+    "filename": "Antipsicóticos - II unidade.pdf",
+    "manifest_pages": "8",
+    "locator": "localizador clozapina/monitorização ausente",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "0619a9f1ca120a871eaeb4c4e710c6e0e97cb5c9c8ff9852ef027107cb05de5e",
+        "pages": 8,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Antipsico_ticos_Tabela__1d16c62d2d",
+    "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Antipsicóticos - Tabela.pdf",
+    "filename": "Antipsicóticos - Tabela.pdf",
+    "manifest_pages": "5",
+    "locator": "localizador clozapina/monitorização ausente",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "590cf5b6939b004e39943334a39ab836f5512a3fa98337b7c404ccbc45fc3148",
+        "pages": 5,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Aleitamento_materno_docx__abd28fa2ef",
+    "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Resumos\\Aleitamento materno.docx.pdf",
+    "filename": "Aleitamento materno.docx.pdf",
+    "manifest_pages": "3",
+    "locator": "localizador HIV/HTLV/listas de fármacos ausente",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "5900b4a1edc107dcafe270c4bfb70282adedcd988dd66095ec27212ff8afe8a5",
+        "pages": 3,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "pediatria_ALEITAMENTO_MATERNO__202c07d31a",
+    "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Resumos\\pediatria - ALEITAMENTO MATERNO.pdf",
+    "filename": "pediatria - ALEITAMENTO MATERNO.pdf",
+    "manifest_pages": "6",
+    "locator": "localizador HIV/HTLV/listas de fármacos ausente",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "cdf77e55bee3b36adffc19a81580b35badb6ab3c0652cd108db6d487cf231cd0",
+        "pages": 6,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Aleitamento_materno__f3ee0f71ef",
+    "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Slides Aulas\\Slides Segunda Prova \\Aleitamento materno.pdf",
+    "filename": "Aleitamento materno.pdf",
+    "manifest_pages": "31",
+    "locator": "localizador HIV/HTLV/listas de fármacos ausente",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "b1bef63f40a2922656c0a00915507d197f312896533e7a6dd9b40d8c50e8d649",
+        "pages": 31,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "semio_PED__c241597932",
+    "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Slides Aulas\\Slides Primeira Prova \\semio PED.pdf",
+    "filename": "semio PED.pdf",
+    "manifest_pages": "55",
+    "locator": "tabelas FC/FR/PA; página ausente",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "2f89715070a3bbb63edf216f7f13475165d28efec0d231b8d084275075a60b13",
+        "pages": 55,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Pediatria_SEMIOLOGIA_DO_RECEe_M__816c7efb84",
+    "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Resumos\\Pediatria - SEMIOLOGIA DO RECEěM.pdf",
+    "filename": "Pediatria - SEMIOLOGIA DO RECEěM.pdf",
+    "manifest_pages": "9",
+    "locator": "seção de exame do RN; página das tabelas ausente",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "e912a0ae285420b1a574d94db1800741e2e67c6aab7cfa997ee19fdb4315e47b",
+        "pages": 9,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "OSCE___42cf2d83f0",
+    "rel_path": "OSCE P7\\OSCE .pdf",
+    "filename": "OSCE .pdf",
+    "manifest_pages": "101",
+    "locator": "~p. 1 no metadado; p. 1 na tabela (roteiro curricular, não rubrica oficial)",
+    "locator_status": "curricular_only",
+    "mapping_basis": "unique_manifest_filename_and_capsule_title",
+    "matches": [
+      {
+        "sha256": "f22d330ddbf186583956f78c90febc4cedf9bf5a6d1b4a0107661905f797e895",
+        "pages": 101,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "FACILITA_OSCE_1___6c6a714b3e",
+    "rel_path": "OSCE P7\\FACILITA OSCE (1).pdf",
+    "filename": "FACILITA OSCE (1).pdf",
+    "manifest_pages": "67",
+    "locator": "~p. 1-2 no metadado; ~p. 1 na tabela (roteiro no manequim, não rubrica oficial)",
+    "locator_status": "curricular_only",
+    "mapping_basis": "unique_manifest_filename_and_capsule_title",
+    "matches": [
+      {
+        "sha256": "1cc2c936037bfa65f4675a6ddd79a8a189a9f89305405634f635ec839c85f187",
+        "pages": 67,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Neuro_COMA__3d9a975464",
+    "rel_path": "EISA II - Ensino Integrado em Saúde do Adulto II\\NEUROLOGIA\\Resumos\\Neuro - COMA.pdf",
+    "filename": "Neuro - COMA.pdf",
+    "manifest_pages": "8",
+    "locator": "localizador da claim glicose/tiamina ausente",
+    "locator_status": "claim_locator_missing",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "b31f4597aae44a52edfef2abf8dabe894a5b40510b7f8e29d2b17d55c0ffe7e1",
+        "pages": 8,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "APOSTILA_SA_II_P7___e43cc7bc21",
+    "rel_path": "EISA II - Ensino Integrado em Saúde do Adulto II\\APOSTILA - SA II (P7).pdf",
+    "filename": "APOSTILA - SA II (P7).pdf",
+    "manifest_pages": "246",
+    "locator": "p.84-86 (escopo do tema; página específica da ordem glicose/tiamina ausente)",
+    "locator_status": "context_only",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "c2c90985acde95113a1ccc9b46596a7b8635ff1290d102c4e69ddf1d12ce2561",
+        "pages": 246,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "diarreia_e_DHE__35f8e57446",
+    "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Slides Aulas\\Slides Primeira Prova \\diarreia e DHE.pdf",
+    "filename": "diarreia e DHE.pdf",
+    "manifest_pages": "41",
+    "locator": "p.21 (SRO 245 mOsm/L, Na 75 mmol/L e referência plasma 291 mOsm/L)",
+    "locator_status": "claim_specific",
+    "mapping_basis": "explicit_source_id_in_capsule",
+    "matches": [
+      {
+        "sha256": "5e8dfb932a3f8b72f6a4c0fb09c4b5e87b28006f62027c5a7dde57b9bcf6a33e",
+        "pages": 41,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Sepse_e_meningite_neonatal_1___3f944eba57",
+    "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Resumos\\Sepse e meningite neonatal (1).pdf",
+    "filename": "Sepse e meningite neonatal (1).pdf",
+    "manifest_pages": "5",
+    "locator": "janela e amniorrexe: localizadores curriculares específicos ausentes nas linhas atuais; p.1 (etiologia), p.2 (critérios de risco) são contexto, não atribuição automática",
+    "locator_status": "context_only",
+    "mapping_basis": "unique_manifest_filename_and_capsule_title",
+    "matches": [
+      {
+        "sha256": "6d8f8caf73f6b49ed0fec8b80b9aeec8352b781a59c676811b1e9a25b0421ec4",
+        "pages": 5,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  },
+  {
+    "source_id": "Sepse_e_meningite_neonatal__1057d8e64e",
+    "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Resumos\\Sepse e meningite neonatal.pdf",
+    "filename": "Sepse e meningite neonatal.pdf",
+    "manifest_pages": "4",
+    "locator": "janela e amniorrexe: localizadores curriculares específicos ausentes nas linhas atuais; p.1 (etiologia), p.2 (critérios de risco) são contexto, não atribuição automática",
+    "locator_status": "context_only",
+    "mapping_basis": "unique_manifest_filename_and_capsule_title",
+    "matches": [
+      {
+        "sha256": "7844c7f7be1b15e649470fb6862fc487736797202538551cf4bfdc053030fd1e",
+        "pages": 4,
+        "page_count_matches": true
+      }
+    ],
+    "inherited_availability": "source_unavailable",
+    "availability_this_session": "available"
+  }
+]

@@ -8,6 +8,7 @@ import json
 import re
 import unicodedata
 from collections import Counter
+from functools import lru_cache
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -110,14 +111,89 @@ def load_source_rows(root: Path = PACKAGE_ROOT) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
-def referenced_source_ids(text: str, known_ids: Iterable[str]) -> list[str]:
-    return sorted(source_id for source_id in known_ids if source_id and source_id in text)
+@lru_cache(maxsize=16)
+def _source_match_index(ids: tuple[str, ...]) -> tuple:
+    """Cache immutable source patterns only; changed ID sets get a new index."""
+    levels = {level: [] for level in ("stem", "folded", "placeholder")}
+    for source_id in ids:
+        suffix = re.search(r"__[0-9a-fA-F]{10}$", source_id)
+        if suffix is None:
+            continue
+        stem = source_id[:suffix.start()]
+        if len(stem) < 6:
+            continue
+        normalized_stem = fold(stem)
+        for level in levels:
+            needle = stem if level == "stem" else normalized_stem
+            if level == "placeholder":
+                if "_" not in needle:
+                    continue
+                pattern = "".join(r"\w" if char == "_" else re.escape(char) for char in needle)
+            else:
+                pattern = re.escape(needle)
+            levels[level].append((source_id, needle, re.compile(r"(?:^|[;|\n])\s*`?" + pattern + r"(?!\w)")))
+    return tuple((level, tuple(patterns)) for level, patterns in levels.items())
+
+
+def referenced_source_ids(text: str, known_ids: Iterable[str]) -> dict[str, Any]:
+    """Resolve a reference, not clinical support; retain its strongest match level.
+
+    Only terminal ``__hash10`` IDs participate in inferred L1-L3 matching. A
+    placeholder consumes one Unicode word character, never a separator. Stem
+    boundaries prevent substrings inside longer names or unknown full IDs.
+    Inferred citations must start the cell or a semicolon/pipe/newline segment;
+    words buried in explanatory prose are not treated as document names.
+    Distinct explicit full IDs in nonoverlapping spans are multiple citations;
+    competing inferred IDs at one level remain ambiguous, even in a long cell.
+    """
+    normalized_text = fold(text)
+    result: dict[str, Any] = {
+        "source_ids": [], "status": "unresolved_source_reference",
+        "level": None, "candidates": [],
+    }
+    if any(marker in normalized_text for marker in ("conhecimento geral", "ausente da fonte")):
+        result["status"] = "declared_no_source"
+        return result
+
+    ids = tuple(sorted({source_id for source_id in known_ids if source_id}))
+    exact = [source_id for source_id in ids if source_id in text]
+    if exact:
+        spans = [(match.start(), match.end(), source_id) for source_id in exact
+                 for match in re.finditer(re.escape(source_id), text)]
+        competing = any(a[2] != b[2] and a[0] < b[1] and b[0] < a[1]
+                        for index, a in enumerate(spans) for b in spans[index + 1:])
+        result.update(level="exact", candidates=exact)
+        if competing:
+            result["status"] = "ambiguous"
+        else:
+            result.update(source_ids=exact, status="resolved:exact")
+        return result
+
+    for level, patterns in _source_match_index(ids):
+        candidates = []
+        haystack = text if level == "stem" else normalized_text
+        for source_id, needle, pattern in patterns:
+            if level != "placeholder" and needle not in haystack:
+                continue
+            if pattern.search(haystack):
+                candidates.append(source_id)
+        if candidates:
+            result.update(level=level, candidates=candidates)
+            if len(candidates) == 1:
+                result.update(source_ids=candidates, status=f"resolved:{level}")
+            else:
+                result["status"] = "ambiguous"
+            return result
+    return result
 
 
 def build_capsule_catalog(root: Path = PACKAGE_ROOT) -> list[dict[str, Any]]:
     normalization = load_normalization(root)
     source_ids = {row["source_id"] for row in load_source_rows(root) if row.get("source_id")}
     catalog: list[dict[str, Any]] = []
+    precision_by_path: dict[str, list[dict[str, Any]]] = {}
+    for row in precision_rows(root):
+        precision_by_path.setdefault(row["capsule_path"], []).append(row)
     for path in capsule_paths(root):
         text = path.read_text(encoding="utf-8")
         legacy = parse_capsule_metadata(text)
@@ -129,7 +205,30 @@ def build_capsule_catalog(root: Path = PACKAGE_ROOT) -> list[dict[str, Any]]:
         unit = normalize_metadata("unit", legacy.get("unit"), normalization)
         legacy_priority = normalize_metadata("priority", legacy.get("priority"), normalization)
         risk = normalize_metadata("risk", legacy.get("risk"), normalization)
-        ids = referenced_source_ids(text, source_ids)
+        # A no-source declaration applies to its cell, never the whole capsule.
+        # Inferred titles in clinical prose are not evidence of a citation.
+        resolutions = []
+        for line in text.splitlines():
+            cells = line.strip().strip("|").split("|") if line.lstrip().startswith("|") else [line]
+            for cell in cells:
+                literal_ids = [source_id for source_id in source_ids if source_id in cell]
+                if literal_ids:
+                    resolutions.append(referenced_source_ids(cell, literal_ids))
+            source_metadata = re.match(r"^- Fontes? usadas?:\s*(.*)$", line)
+            if source_metadata:
+                resolutions.append(referenced_source_ids(source_metadata.group(1), source_ids))
+        for row in precision_by_path.get(relative, []):
+            resolutions.append({
+                "source_ids": row["source_ids"].split(";") if row["source_ids"] else [],
+                "status": row["source_reference_status"],
+            })
+        levels_by_id: dict[str, set[str]] = {}
+        for resolution in resolutions:
+            for source_id in resolution["source_ids"]:
+                levels_by_id.setdefault(source_id, set()).add(resolution["status"])
+        ids = sorted(levels_by_id)
+        statuses = sorted({resolution["status"] for resolution in resolutions})
+        resolved_levels = sorted({level for levels in levels_by_id.values() for level in levels})
         catalog.append(
             {
                 "schema_version": SCHEMA_VERSION,
@@ -144,7 +243,10 @@ def build_capsule_catalog(root: Path = PACKAGE_ROOT) -> list[dict[str, Any]]:
                 "legacy_metadata": legacy,
                 "review_status": legacy.get("review_status"),
                 "source_ids": ids,
-                "source_resolution": "resolved" if ids else "metadata_only",
+                "source_resolution": ";".join(resolved_levels) if ids else "unresolved_source_reference",
+                "source_reference_statuses": statuses,
+                "source_match_levels_by_id": {key: sorted(value) for key, value in sorted(levels_by_id.items())},
+                "source_resolution_policy": "union_of_explicit_cell_citations_and_precision_references; levels_preserved; not_clinical_support",
                 "bytes": path.stat().st_size,
                 "sha256": sha256_file(path),
             }
@@ -165,6 +267,7 @@ def precision_rows(root: Path = PACKAGE_ROOT) -> list[dict[str, Any]]:
         section = re.search(r"^## Dados de precisão\s*$([\s\S]*?)(?=^##\s|\Z)", text, re.MULTILINE)
         if not section:
             continue
+        source_column: int | None = None
         for line_no, line in enumerate(section.group(1).splitlines(), start=1):
             stripped = line.strip()
             if not stripped.startswith("|") or re.match(r"^\|?\s*:?-+", stripped):
@@ -173,16 +276,23 @@ def precision_rows(root: Path = PACKAGE_ROOT) -> list[dict[str, Any]]:
             if not cells or all(re.fullmatch(r":?-+:?", cell) for cell in cells):
                 continue
             if any(fold(cell) in {"dado", "valor", "fonte", "status"} for cell in cells):
+                source_column = next((index for index, cell in enumerate(cells)
+                                      if fold(cell).startswith("fonte")), None)
                 continue
             row_text = " | ".join(cells)
-            resolved_ids = referenced_source_ids(row_text, source_ids)
+            # Preserve literal L0 anywhere in the historical row and absence
+            # precedence. Infer L1-L3 only from the declared source column.
+            literal_ids = [source_id for source_id in source_ids if source_id in row_text]
+            resolution = referenced_source_ids(row_text, literal_ids)
+            if resolution["status"] == "unresolved_source_reference" and source_column is not None and source_column < len(cells):
+                resolution = referenced_source_ids(cells[source_column], source_ids)
             rows.append(
                 {
                     "capsule_path": relpath(path, root),
                     "section_row": line_no,
                     "claim_text": row_text,
-                    "source_ids": ";".join(resolved_ids),
-                    "source_reference_status": "resolved" if resolved_ids else "unresolved_source_reference",
+                    "source_ids": ";".join(resolution["source_ids"]),
+                    "source_reference_status": resolution["status"],
                 }
             )
     return rows
@@ -291,7 +401,9 @@ def build_metrics(root: Path = PACKAGE_ROOT) -> dict[str, Any]:
             "by_discipline": dict(sorted(Counter(item["discipline"] or "UNKNOWN" for item in catalog).items())),
             "by_risk": dict(sorted(Counter(item["risk"] or "UNKNOWN" for item in catalog).items())),
             "by_review_status": dict(sorted(Counter(item["review_status"] or "UNKNOWN" for item in catalog).items())),
-            "without_resolved_source_id": sum(item["source_resolution"] != "resolved" for item in catalog),
+            "without_resolved_source_id": sum(not item["source_ids"] for item in catalog),
+            "source_count_policy": "any named match level identifies a referenced document only; levels are not evidence of equivalent reliability or clinical support",
+            "source_reference_levels": dict(sorted(Counter(level for item in catalog for level in item["source_resolution"].split(";")).items())),
             "bytes": sum(item["bytes"] for item in catalog),
         },
         "sources": {"manifest_rows": len(source_rows), "unique_ids": len({row.get("source_id") for row in source_rows})},

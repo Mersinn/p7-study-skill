@@ -1,0 +1,10 @@
+{
+  "transport": "ephemeral context replay",
+  "context": "prior turns from same run only",
+  "exit_code": 0,
+  "started": "2026-09-09T17:00:13.7383219Z",
+  "turn": 3,
+  "path": "C:\\Users\\emers\\Documents\\Codex\\2026-09-08\\execute-a-conclus-o-n-o-2\\work\\behavioral\\J02-run3",
+  "seconds": 30.43561,
+  "log": "C:\\Users\\emers\\Documents\\Codex\\2026-09-08\\execute-a-conclus-o-n-o-2\\work\\behavioral\\J02-run3/turn3-events-20260909-140013.log"
+}

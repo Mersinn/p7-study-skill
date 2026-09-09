@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-09-08T14:08:54.824600+00:00",
+  "source": "uploaded file title search",
+  "query_groups": [
+    [
+      "Asma em Pediatria",
+      "Transtorno Bipolar",
+      "bipolaridade",
+      "DEPENDÊNCIA QUÍMICA",
+      "Álcool e Outras Drogas"
+    ],
+    [
+      "Mariah Carvalho",
+      "transtornos por uso de substâncias",
+      "Transtornos por abuso de substancias",
+      "FARMACOTERAPIA DAS PSICOSES",
+      "Esquizofrenia e antipsicóticos"
+    ],
+    [
+      "Antipsicóticos",
+      "Aleitamento",
+      "semio PED",
+      "SEMIOLOGIA DO RECE",
+      "FACILITA OSCE"
+    ],
+    [
+      "OSCE .pdf",
+      "Neuro - COMA",
+      "APOSTILA - SA II",
+      "diarreia e DHE",
+      "Sepse e meningite neonatal"
+    ]
+  ],
+  "direct_matching_documents_found": 0,
+  "supplemental_results": "Unrelated prior P6/examination/general documents; not substituted for P7 sources",
+  "claim_primary_pages_read": 0,
+  "claim_denominator": 17,
+  "clinical_web_search_performed": false,
+  "reason": "Fase3.5 primary ingestion prerequisite not satisfied"
+}

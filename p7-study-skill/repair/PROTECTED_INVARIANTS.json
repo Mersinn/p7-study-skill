@@ -1,0 +1,13 @@
+{
+  "label": "VERIFICADO",
+  "measured_at": "2026-09-08T14:05:48.597794+00:00",
+  "source_commit_documented": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48",
+  "protected_files_denominator": 201,
+  "protected_changed": [],
+  "current_traceability_denominator": 34,
+  "current_traceability_failed": [],
+  "claims_denominator": 52,
+  "clinical_promotions": 0,
+  "precision_denominator": 2392,
+  "claim_texts_unchanged": true
+}

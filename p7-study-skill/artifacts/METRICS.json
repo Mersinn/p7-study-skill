@@ -27,18 +27,30 @@
       "low": 10,
       "medium": 43
     },
-    "bytes": 2180665,
+    "bytes": 2164567,
     "net_recovered_since_baseline": 2,
+    "source_count_policy": "any named match level identifies a referenced document only; levels are not evidence of equivalent reliability or clinical support",
+    "source_reference_levels": {
+      "resolved:exact": 130,
+      "resolved:folded": 1,
+      "resolved:placeholder": 2,
+      "resolved:stem": 42,
+      "unresolved_source_reference": 26
+    },
     "total": 158,
-    "without_resolved_source_id": 28
+    "without_resolved_source_id": 26
   },
   "operation_taxonomy": {
     "canonical_operations": 12,
     "taxonomy_rows": 152
   },
   "precision_provenance": {
-    "resolved": 75,
-    "unresolved_source_reference": 2317
+    "ambiguous": 33,
+    "declared_no_source": 24,
+    "resolved:exact": 75,
+    "resolved:placeholder": 5,
+    "resolved:stem": 245,
+    "unresolved_source_reference": 2010
   },
   "precision_rows": 2392,
   "runtime_source_availability": {

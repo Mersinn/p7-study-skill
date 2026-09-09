@@ -1,0 +1,1126 @@
+{
+  "measured_at": "2026-09-06T18:45:40.171398+00:00",
+  "baseline_measured_at": "2026-09-06T18:40:02.739134+00:00",
+  "measured_git_commit": null,
+  "documented_source_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48",
+  "zip_sha256": "21416ca72252856ce4d7b189b3f742a4bc1720d7f8276eec5ec31e4db92ed55f",
+  "registry_sha256": "df3f7ed4f07e2e2cc91dd804fce9336db1c9721c1eab237b5ea80f0d6ae3d337",
+  "scope": {
+    "quarantined_claims": 17,
+    "registry_total": 52,
+    "capsules": 10
+  },
+  "bucket_taxonomy_origin": "decisão operacional desta rodada, não herdada",
+  "no_web_used": true,
+  "primary_sources_uploaded": 0,
+  "claims": [
+    {
+      "claim_id": "claim:asth.under5-doses",
+      "capsule_id": "capsule:eisca:asma_em_pediatria",
+      "capsule_path": "capsules/EISCA/asma_em_pediatria.md",
+      "statement": "Doses em gotas e cortes de FC do material para <=5 anos não foram validados.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "B",
+      "bucket_reason": "A própria cápsula e o contexto registram tabelas/doses divergentes para ≤5 anos; conteúdo exato precisa do slide.",
+      "notes_inherited": "Excluído de conduta atual.",
+      "curricular_context": "Tabelas curriculares divergentes.",
+      "curricular_sources": [
+        {
+          "source_id": "Asma_em_Pediatria__3def9bfd99",
+          "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Slides Aulas\\Slides Terceira Prova\\Asma em Pediatria.pdf",
+          "filename": "Asma em Pediatria.pdf",
+          "manifest_pages": "63",
+          "locator": "localizador da claim ausente; tabela ≤5 anos não paginada na cápsula",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:gina.strategy.2026",
+          "locator": "seção específica não auditada",
+          "version_label": "GINA 2026 Strategy Report",
+          "local_reference": null,
+          "url": "https://ginasthma.org/wp-content/uploads/2026/05/GINA-2026-Strategy-Report-WMS.pdf",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:li.ectr-recommended",
+      "capsule_id": "capsule:eism:transtorno_bipolar_e_estabilizadores_do_humor",
+      "capsule_path": "capsules/EISM/transtorno_bipolar_e_estabilizadores_do_humor.md",
+      "statement": "ECTR recomendada com função renal prejudicada e Li >4 ou sintomas graves independentemente do nível.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "B",
+      "bucket_reason": "Contexto registra cortes antigos do slide versus overlay EXTRIP; a nota metadata-only não esgota a divergência curricular.",
+      "notes_inherited": "Excluído de conduta atual: fonte apenas metadata-only; supersessão não verificada.",
+      "curricular_context": "Slide usa cortes antigos.",
+      "curricular_sources": [
+        {
+          "source_id": "Aula_1_2021_1_Transtorno_Bipolar__c902ef25a4",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Slides Aulas\\Slides Primeira Prova \\Aula 1 - 2021.1 - Transtorno Bipolar.pdf",
+          "filename": "Aula 1 - 2021.1 - Transtorno Bipolar.pdf",
+          "manifest_pages": "32",
+          "locator": "localizador da claim ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Transtorno_bipolar__6d1cddef8b",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Transtorno bipolar.pdf",
+          "filename": "Transtorno bipolar.pdf",
+          "manifest_pages": "9",
+          "locator": "localizador da claim ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "ANOTAC_O_ES_bipolaridade__a1c9d4465d",
+          "rel_path": "Resumos das Unidades \\SAÚDE MENTAL\\II UNIDADE\\PSIQUIATRIA\\ANOTAÇÕES - bipolaridade.pdf",
+          "filename": "ANOTAÇÕES - bipolaridade.pdf",
+          "manifest_pages": "6",
+          "locator": "p.5 citada para risco de intoxicação/litemia; não é localizador do critério ECTR ou carvão",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Transtorno_bipolar_pdf__dc69aa8c73",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Transtorno bipolar pdf.pdf",
+          "filename": "Transtorno bipolar pdf.pdf",
+          "manifest_pages": "5",
+          "locator": "localizador da claim ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:extrip.lithium.2015",
+          "locator": "Table 7",
+          "version_label": "2015 EXTRIP recommendation",
+          "local_reference": null,
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4422246/",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:li.charcoal",
+      "capsule_id": "capsule:eism:transtorno_bipolar_e_estabilizadores_do_humor",
+      "capsule_path": "capsules/EISM/transtorno_bipolar_e_estabilizadores_do_humor.md",
+      "statement": "Carvão ativado não adsorve lítio.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "A",
+      "bucket_reason": "Ausência curricular explicitamente declarada; overlay EXTRIP metadata-only e supersessão não verificada. A não implica reparável pelo matcher.",
+      "notes_inherited": "Excluído de conduta atual: fonte apenas metadata-only; supersessão não verificada.",
+      "curricular_context": "Ausente no material.",
+      "curricular_sources": [
+        {
+          "source_id": "Aula_1_2021_1_Transtorno_Bipolar__c902ef25a4",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Slides Aulas\\Slides Primeira Prova \\Aula 1 - 2021.1 - Transtorno Bipolar.pdf",
+          "filename": "Aula 1 - 2021.1 - Transtorno Bipolar.pdf",
+          "manifest_pages": "32",
+          "locator": "localizador da claim ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Transtorno_bipolar__6d1cddef8b",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Transtorno bipolar.pdf",
+          "filename": "Transtorno bipolar.pdf",
+          "manifest_pages": "9",
+          "locator": "localizador da claim ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "ANOTAC_O_ES_bipolaridade__a1c9d4465d",
+          "rel_path": "Resumos das Unidades \\SAÚDE MENTAL\\II UNIDADE\\PSIQUIATRIA\\ANOTAÇÕES - bipolaridade.pdf",
+          "filename": "ANOTAÇÕES - bipolaridade.pdf",
+          "manifest_pages": "6",
+          "locator": "p.5 citada para risco de intoxicação/litemia; não é localizador do critério ECTR ou carvão",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Transtorno_bipolar_pdf__dc69aa8c73",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Transtorno bipolar pdf.pdf",
+          "filename": "Transtorno bipolar pdf.pdf",
+          "manifest_pages": "5",
+          "locator": "localizador da claim ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:extrip.lithium.2015",
+          "locator": "supportive care",
+          "version_label": "2015 EXTRIP recommendation",
+          "local_reference": null,
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4422246/",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:thi.prophylaxis",
+      "capsule_id": "capsule:eism:abstinencia_alcoolica_delirium_tremens_wernicke",
+      "capsule_path": "capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md",
+      "statement": "Profilaxia típica: tiamina 100 mg IV/IM/dia por 3–5 dias.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "B",
+      "bucket_reason": "Contexto registra doses curriculares divergentes; obter documentos e separar profilaxia de Wernicke suspeita.",
+      "notes_inherited": "Excluído de conduta atual: fonte apenas metadata-only; supersessão não verificada.",
+      "curricular_context": "Material traz doses divergentes.",
+      "curricular_sources": [
+        {
+          "source_id": "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Mariah Carvalho- Módulo Saúde Mental.pdf",
+          "filename": "Mariah Carvalho- Módulo Saúde Mental.pdf",
+          "manifest_pages": "109",
+          "locator": "localizador de doses/ordem da claim ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Psiquiatria_DEPENDE_NCIA_QUI_MICA__e854a68d79",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Psiquiatria - DEPENDÊNCIA QUÍMICA.pdf",
+          "filename": "Psiquiatria - DEPENDÊNCIA QUÍMICA.pdf",
+          "manifest_pages": "12",
+          "locator": "p.4 (tríade Wernicke); localizador de doses/ordem da claim ausente",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "A_lcool_e_Outras_Drogas__ebaba69a52",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Álcool e Outras Drogas.pdf",
+          "filename": "Álcool e Outras Drogas.pdf",
+          "manifest_pages": "7",
+          "locator": "p.5 (tríade Wernicke); localizador de doses/ordem da claim ausente",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "transtornos_por_uso_de_subst_ncias__554a1a793f",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\transtornos por uso de substâncias.pdf",
+          "filename": "transtornos por uso de substâncias.pdf",
+          "manifest_pages": "4",
+          "locator": "localizador de doses/ordem da claim ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Transtornos_por_abuso_de_substancias___136c015a4a",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Slides Aulas\\Slides Terceira Prova \\Transtornos por abuso de substancias  .pdf",
+          "filename": "Transtornos por abuso de substancias  .pdf",
+          "manifest_pages": "5",
+          "locator": "pp. 3–5 (amostra visual declarada); cápsula declara que slide não cobre o número específico de intoxicação aguda",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:asam.alcohol-withdrawal.2020",
+          "locator": "Recommendation V.7",
+          "version_label": "2020",
+          "local_reference": null,
+          "url": "https://www.asam.org/docs/default-source/quality-science/the_asam_clinical_practice_guideline_on-alcohol-1.pdf",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:thi.glucose-order",
+      "capsule_id": "capsule:eism:abstinencia_alcoolica_delirium_tremens_wernicke",
+      "capsule_path": "capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md",
+      "statement": "Não atrasar glicose na hipoglicemia; tiamina antes/concomitante quando possível.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "B",
+      "bucket_reason": "Material diz sempre antes; overlay admite outra ordem; divergência contextual expressa.",
+      "notes_inherited": "Excluído de conduta atual: fonte apenas metadata-only; supersessão não verificada.",
+      "curricular_context": "Material diz sempre antes.",
+      "curricular_sources": [
+        {
+          "source_id": "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Mariah Carvalho- Módulo Saúde Mental.pdf",
+          "filename": "Mariah Carvalho- Módulo Saúde Mental.pdf",
+          "manifest_pages": "109",
+          "locator": "localizador de doses/ordem da claim ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Psiquiatria_DEPENDE_NCIA_QUI_MICA__e854a68d79",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Psiquiatria - DEPENDÊNCIA QUÍMICA.pdf",
+          "filename": "Psiquiatria - DEPENDÊNCIA QUÍMICA.pdf",
+          "manifest_pages": "12",
+          "locator": "p.4 (tríade Wernicke); localizador de doses/ordem da claim ausente",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "A_lcool_e_Outras_Drogas__ebaba69a52",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Álcool e Outras Drogas.pdf",
+          "filename": "Álcool e Outras Drogas.pdf",
+          "manifest_pages": "7",
+          "locator": "p.5 (tríade Wernicke); localizador de doses/ordem da claim ausente",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "transtornos_por_uso_de_subst_ncias__554a1a793f",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\transtornos por uso de substâncias.pdf",
+          "filename": "transtornos por uso de substâncias.pdf",
+          "manifest_pages": "4",
+          "locator": "localizador de doses/ordem da claim ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Transtornos_por_abuso_de_substancias___136c015a4a",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Slides Aulas\\Slides Terceira Prova \\Transtornos por abuso de substancias  .pdf",
+          "filename": "Transtornos por abuso de substancias  .pdf",
+          "manifest_pages": "5",
+          "locator": "pp. 3–5 (amostra visual declarada); cápsula declara que slide não cobre o número específico de intoxicação aguda",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:asam.alcohol-withdrawal.2020",
+          "locator": "Recommendation V.7",
+          "version_label": "2020",
+          "local_reference": null,
+          "url": "https://www.asam.org/docs/default-source/quality-science/the_asam_clinical_practice_guideline_on-alcohol-1.pdf",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:thi.wernicke-high-dose",
+      "capsule_id": "capsule:eism:abstinencia_alcoolica_delirium_tremens_wernicke",
+      "capsule_path": "capsules/EISM/abstinencia_alcoolica_delirium_tremens_wernicke.md",
+      "statement": "Alta dose para Wernicke suspeita depende do protocolo; não há dose universal resolvida.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "B",
+      "bucket_reason": "Fontes curriculares divergem em doses e não há regime universal fechado no registry.",
+      "notes_inherited": "Excluído de conduta atual.",
+      "curricular_context": "Fontes curriculares divergem.",
+      "curricular_sources": [
+        {
+          "source_id": "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Mariah Carvalho- Módulo Saúde Mental.pdf",
+          "filename": "Mariah Carvalho- Módulo Saúde Mental.pdf",
+          "manifest_pages": "109",
+          "locator": "localizador de doses/ordem da claim ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Psiquiatria_DEPENDE_NCIA_QUI_MICA__e854a68d79",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Psiquiatria - DEPENDÊNCIA QUÍMICA.pdf",
+          "filename": "Psiquiatria - DEPENDÊNCIA QUÍMICA.pdf",
+          "manifest_pages": "12",
+          "locator": "p.4 (tríade Wernicke); localizador de doses/ordem da claim ausente",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "A_lcool_e_Outras_Drogas__ebaba69a52",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Álcool e Outras Drogas.pdf",
+          "filename": "Álcool e Outras Drogas.pdf",
+          "manifest_pages": "7",
+          "locator": "p.5 (tríade Wernicke); localizador de doses/ordem da claim ausente",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "transtornos_por_uso_de_subst_ncias__554a1a793f",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\transtornos por uso de substâncias.pdf",
+          "filename": "transtornos por uso de substâncias.pdf",
+          "manifest_pages": "4",
+          "locator": "localizador de doses/ordem da claim ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Transtornos_por_abuso_de_substancias___136c015a4a",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Slides Aulas\\Slides Terceira Prova \\Transtornos por abuso de substancias  .pdf",
+          "filename": "Transtornos por abuso de substancias  .pdf",
+          "manifest_pages": "5",
+          "locator": "pp. 3–5 (amostra visual declarada); cápsula declara que slide não cobre o número específico de intoxicação aguda",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:asam.alcohol-withdrawal.2020",
+          "locator": "Recommendation V.7",
+          "version_label": "2020",
+          "local_reference": null,
+          "url": "https://www.asam.org/docs/default-source/quality-science/the_asam_clinical_practice_guideline_on-alcohol-1.pdf",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:clo.anc-us",
+      "capsule_id": "capsule:eism:antipsicoticos_sep_e_snm",
+      "capsule_path": "capsules/EISM/antipsicoticos_sep_e_snm.md",
+      "statement": "Rótulo FDA 2025: ANC semanal 0–6m, quinzenal 6–12m, mensal depois.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "B",
+      "bucket_reason": "Quinzenal indefinido no currículo versus calendário FDA; jurisdição Brasil pendente.",
+      "notes_inherited": "L2 por agente independente; não equivale a revisão humana.",
+      "curricular_context": "Material diz quinzenal indefinido.",
+      "curricular_sources": [
+        {
+          "source_id": "FAMENE_FARMACOTERAPIA_DAS_PSICOSES_2025_1__e5e9511748",
+          "rel_path": "FARMACOLOGIA\\Slides Aulas\\Slides Quarta Prova \\FAMENE - FARMACOTERAPIA DAS PSICOSES - 2025.1.pdf",
+          "filename": "FAMENE - FARMACOTERAPIA DAS PSICOSES - 2025.1.pdf",
+          "manifest_pages": "38",
+          "locator": "localizador clozapina/monitorização ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Esquizofrenia_e_antipsic_ticos__4b3ccca107",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Slides Aulas\\Slides Segunda Prova \\Esquizofrenia e antipsicóticos.pdf",
+          "filename": "Esquizofrenia e antipsicóticos.pdf",
+          "manifest_pages": "39",
+          "locator": "pp.33–38 (amostra visual de SEP); cápsula declara não haver imagem de tabela de doses de clozapina; localizador da claim ausente",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Antipsico_ticos_II_unidade__bea4c8f456",
+          "rel_path": "Resumos das Unidades \\SAÚDE MENTAL\\II UNIDADE\\FARMACOLOGIA\\Antipsicóticos - II unidade.pdf",
+          "filename": "Antipsicóticos - II unidade.pdf",
+          "manifest_pages": "8",
+          "locator": "localizador clozapina/monitorização ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Antipsico_ticos_Tabela__1d16c62d2d",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Antipsicóticos - Tabela.pdf",
+          "filename": "Antipsicóticos - Tabela.pdf",
+          "manifest_pages": "5",
+          "locator": "localizador clozapina/monitorização ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:fda.clozapine-label.2025",
+          "locator": "Table 2",
+          "version_label": "2025 label revision",
+          "local_reference": null,
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/019758s106lbl.pdf",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:clo.thresholds-us",
+      "capsule_id": "capsule:eism:antipsicoticos_sep_e_snm",
+      "capsule_path": "capsules/EISM/antipsicoticos_sep_e_snm.md",
+      "statement": "Limiar ANC FDA: normal >=1500, leve 1000–1499, moderada 500–999, grave <500.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "B",
+      "bucket_reason": "Limiar FDA ligado à população EUA, enquanto currículo não diferencia jurisdição.",
+      "notes_inherited": "L2 por agente independente; não equivale a revisão humana.",
+      "curricular_context": "Material não diferencia jurisdição.",
+      "curricular_sources": [
+        {
+          "source_id": "FAMENE_FARMACOTERAPIA_DAS_PSICOSES_2025_1__e5e9511748",
+          "rel_path": "FARMACOLOGIA\\Slides Aulas\\Slides Quarta Prova \\FAMENE - FARMACOTERAPIA DAS PSICOSES - 2025.1.pdf",
+          "filename": "FAMENE - FARMACOTERAPIA DAS PSICOSES - 2025.1.pdf",
+          "manifest_pages": "38",
+          "locator": "localizador clozapina/monitorização ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Esquizofrenia_e_antipsic_ticos__4b3ccca107",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Slides Aulas\\Slides Segunda Prova \\Esquizofrenia e antipsicóticos.pdf",
+          "filename": "Esquizofrenia e antipsicóticos.pdf",
+          "manifest_pages": "39",
+          "locator": "pp.33–38 (amostra visual de SEP); cápsula declara não haver imagem de tabela de doses de clozapina; localizador da claim ausente",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Antipsico_ticos_II_unidade__bea4c8f456",
+          "rel_path": "Resumos das Unidades \\SAÚDE MENTAL\\II UNIDADE\\FARMACOLOGIA\\Antipsicóticos - II unidade.pdf",
+          "filename": "Antipsicóticos - II unidade.pdf",
+          "manifest_pages": "8",
+          "locator": "localizador clozapina/monitorização ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Antipsico_ticos_Tabela__1d16c62d2d",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Antipsicóticos - Tabela.pdf",
+          "filename": "Antipsicóticos - Tabela.pdf",
+          "manifest_pages": "5",
+          "locator": "localizador clozapina/monitorização ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:fda.clozapine-label.2025",
+          "locator": "Table 2",
+          "version_label": "2025 label revision",
+          "local_reference": null,
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/019758s106lbl.pdf",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:clo.rems-us",
+      "capsule_id": "capsule:eism:antipsicoticos_sep_e_snm",
+      "capsule_path": "capsules/EISM/antipsicoticos_sep_e_snm.md",
+      "statement": "REMS EUA foi removido em 2025, mas monitorização permanece; Brasil não resolvido.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "B",
+      "bucket_reason": "Currículo anterior ao fim do REMS; regra EUA não transposta ao Brasil.",
+      "notes_inherited": "L2 por agente independente; não equivale a revisão humana.",
+      "curricular_context": "Material anterior ao fim do REMS.",
+      "curricular_sources": [
+        {
+          "source_id": "FAMENE_FARMACOTERAPIA_DAS_PSICOSES_2025_1__e5e9511748",
+          "rel_path": "FARMACOLOGIA\\Slides Aulas\\Slides Quarta Prova \\FAMENE - FARMACOTERAPIA DAS PSICOSES - 2025.1.pdf",
+          "filename": "FAMENE - FARMACOTERAPIA DAS PSICOSES - 2025.1.pdf",
+          "manifest_pages": "38",
+          "locator": "localizador clozapina/monitorização ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Esquizofrenia_e_antipsic_ticos__4b3ccca107",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Slides Aulas\\Slides Segunda Prova \\Esquizofrenia e antipsicóticos.pdf",
+          "filename": "Esquizofrenia e antipsicóticos.pdf",
+          "manifest_pages": "39",
+          "locator": "pp.33–38 (amostra visual de SEP); cápsula declara não haver imagem de tabela de doses de clozapina; localizador da claim ausente",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Antipsico_ticos_II_unidade__bea4c8f456",
+          "rel_path": "Resumos das Unidades \\SAÚDE MENTAL\\II UNIDADE\\FARMACOLOGIA\\Antipsicóticos - II unidade.pdf",
+          "filename": "Antipsicóticos - II unidade.pdf",
+          "manifest_pages": "8",
+          "locator": "localizador clozapina/monitorização ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Antipsico_ticos_Tabela__1d16c62d2d",
+          "rel_path": "EISM - Ensino Integrado em Saúde Mental\\Resumos\\Antipsicóticos - Tabela.pdf",
+          "filename": "Antipsicóticos - Tabela.pdf",
+          "manifest_pages": "5",
+          "locator": "localizador clozapina/monitorização ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:fda.clozapine-rems.2025-06-13",
+          "locator": "documento integral",
+          "version_label": "REMS removal notice",
+          "local_reference": null,
+          "url": "https://www.fda.gov/media/188418/download?attachment=",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:bf.hiv-htlv",
+      "capsule_id": "capsule:eisca:aleitamento_materno",
+      "capsule_path": "capsules/EISCA/aleitamento_materno.md",
+      "statement": "HIV e HTLV contraindicam aleitamento no Brasil conforme política nacional.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "C",
+      "bucket_reason": "Evidência vinculada não cobre integralmente a claim composta HIV/HTLV.",
+      "notes_inherited": "Excluído de conduta atual: evidência vinculada não cobre integralmente o claim combinado HIV/HTLV.",
+      "curricular_context": "Material curricular de aleitamento.",
+      "curricular_sources": [
+        {
+          "source_id": "Aleitamento_materno_docx__abd28fa2ef",
+          "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Resumos\\Aleitamento materno.docx.pdf",
+          "filename": "Aleitamento materno.docx.pdf",
+          "manifest_pages": "3",
+          "locator": "localizador HIV/HTLV/listas de fármacos ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "pediatria_ALEITAMENTO_MATERNO__202c07d31a",
+          "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Resumos\\pediatria - ALEITAMENTO MATERNO.pdf",
+          "filename": "pediatria - ALEITAMENTO MATERNO.pdf",
+          "manifest_pages": "6",
+          "locator": "localizador HIV/HTLV/listas de fármacos ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Aleitamento_materno__f3ee0f71ef",
+          "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Slides Aulas\\Slides Segunda Prova \\Aleitamento materno.pdf",
+          "filename": "Aleitamento materno.pdf",
+          "manifest_pages": "31",
+          "locator": "localizador HIV/HTLV/listas de fármacos ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:ms.htlv.current",
+          "locator": "página temática",
+          "version_label": "web edition accessed 2026-08-20",
+          "local_reference": null,
+          "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/htlv",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:bf.medicines",
+      "capsule_id": "capsule:eisca:aleitamento_materno",
+      "capsule_path": "capsules/EISCA/aleitamento_materno.md",
+      "statement": "Listas antigas de fármacos não devem decidir suspensão; avaliar por fármaco/dose/contexto.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "A",
+      "bucket_reason": "Lista antiga e orientação geral; nenhum confronto fármaco-específico fechado. Necessita documento/lista exata e fontes por fármaco.",
+      "notes_inherited": "Excluído de conduta atual.",
+      "curricular_context": "Listas curriculares antigas.",
+      "curricular_sources": [
+        {
+          "source_id": "Aleitamento_materno_docx__abd28fa2ef",
+          "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Resumos\\Aleitamento materno.docx.pdf",
+          "filename": "Aleitamento materno.docx.pdf",
+          "manifest_pages": "3",
+          "locator": "localizador HIV/HTLV/listas de fármacos ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "pediatria_ALEITAMENTO_MATERNO__202c07d31a",
+          "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Resumos\\pediatria - ALEITAMENTO MATERNO.pdf",
+          "filename": "pediatria - ALEITAMENTO MATERNO.pdf",
+          "manifest_pages": "6",
+          "locator": "localizador HIV/HTLV/listas de fármacos ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Aleitamento_materno__f3ee0f71ef",
+          "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Slides Aulas\\Slides Segunda Prova \\Aleitamento materno.pdf",
+          "filename": "Aleitamento materno.pdf",
+          "manifest_pages": "31",
+          "locator": "localizador HIV/HTLV/listas de fármacos ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:ms.aleitamento.current",
+          "locator": "medicamentos",
+          "version_label": "web edition accessed 2026-08-20",
+          "local_reference": null,
+          "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/aleitamento-materno",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:sem.vitals",
+      "capsule_id": "capsule:eisca:semiologia_pediatrica",
+      "capsule_path": "capsules/EISCA/semiologia_pediatrica.md",
+      "statement": "Faixas exatas de FC/FR/PA da aula não foram validadas em fonte clínica atual.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "A",
+      "bucket_reason": "Tabelas curriculares não disponíveis e faixas atuais não validadas; divergência específica ainda não documentada.",
+      "notes_inherited": "Excluído de conduta atual.",
+      "curricular_context": "Tabelas semio_PED.",
+      "curricular_sources": [
+        {
+          "source_id": "semio_PED__c241597932",
+          "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Slides Aulas\\Slides Primeira Prova \\semio PED.pdf",
+          "filename": "semio PED.pdf",
+          "manifest_pages": "55",
+          "locator": "tabelas FC/FR/PA; página ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Pediatria_SEMIOLOGIA_DO_RECEe_M__816c7efb84",
+          "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Resumos\\Pediatria - SEMIOLOGIA DO RECEěM.pdf",
+          "filename": "Pediatria - SEMIOLOGIA DO RECEěM.pdf",
+          "manifest_pages": "9",
+          "locator": "seção de exame do RN; página das tabelas ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:curricular.semio-ped.c241597932",
+          "locator": "tabelas",
+          "version_label": "legacy ingest c241597932",
+          "local_reference": "p7_source_pack/00_SOURCE_MANIFEST.csv#semio_PED__c241597932",
+          "url": null,
+          "availability": "local_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:osce.synthetic-rubric",
+      "capsule_id": "capsule:osce:formato_roteiro_osce_p7",
+      "capsule_path": "capsules/OSCE/formato_roteiro_osce_p7.md",
+      "statement": "Pesos, imperdoáveis e checklist reconstruído não são oficiais sem instrumento aplicado.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "D",
+      "bucket_reason": "Orientações de colegas e lista de temas não substituem instrumento aplicado, pesos ou rubricagem oficial.",
+      "notes_inherited": "Excluído de conduta atual.",
+      "curricular_context": "Orientações gerais OSCE.",
+      "curricular_sources": [
+        {
+          "source_id": "OSCE___42cf2d83f0",
+          "rel_path": "OSCE P7\\OSCE .pdf",
+          "filename": "OSCE .pdf",
+          "manifest_pages": "101",
+          "locator": "~p. 1 no metadado; p. 1 na tabela (roteiro curricular, não rubrica oficial)",
+          "locator_status": "curricular_only",
+          "mapping_basis": "unique_manifest_filename_and_capsule_title",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "FACILITA_OSCE_1___6c6a714b3e",
+          "rel_path": "OSCE P7\\FACILITA OSCE (1).pdf",
+          "filename": "FACILITA OSCE (1).pdf",
+          "manifest_pages": "67",
+          "locator": "~p. 1-2 no metadado; ~p. 1 na tabela (roteiro no manequim, não rubrica oficial)",
+          "locator_status": "curricular_only",
+          "mapping_basis": "unique_manifest_filename_and_capsule_title",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:curricular.osce.general",
+          "locator": "orientações",
+          "version_label": "ingest curricular legado",
+          "local_reference": "p7_source_pack/00_SOURCE_MANIFEST.csv#OSCE",
+          "url": null,
+          "availability": "local_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:thi.glucose-order-coma",
+      "capsule_id": "capsule:eisa_ii:coma_e_rebaixamento_do_nivel_de_consciencia",
+      "capsule_path": "capsules/EISA_II/coma_e_rebaixamento_do_nivel_de_consciencia.md",
+      "statement": "No coma hipoglicêmico, não atrasar glicose; administrar tiamina prontamente em pessoa de risco.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "C",
+      "bucket_reason": "ASAM para abstinência foi extrapolada para coma; nota registra extrapolação cruzada não verificada.",
+      "notes_inherited": "Excluído de conduta atual: fonte apenas metadata-only; extrapolação cruzada não verificada.",
+      "curricular_context": "Cápsula reproduzia ordem rígida tiamina antes/junto.",
+      "curricular_sources": [
+        {
+          "source_id": "Neuro_COMA__3d9a975464",
+          "rel_path": "EISA II - Ensino Integrado em Saúde do Adulto II\\NEUROLOGIA\\Resumos\\Neuro - COMA.pdf",
+          "filename": "Neuro - COMA.pdf",
+          "manifest_pages": "8",
+          "locator": "localizador da claim glicose/tiamina ausente",
+          "locator_status": "claim_locator_missing",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "APOSTILA_SA_II_P7___e43cc7bc21",
+          "rel_path": "EISA II - Ensino Integrado em Saúde do Adulto II\\APOSTILA - SA II (P7).pdf",
+          "filename": "APOSTILA - SA II (P7).pdf",
+          "manifest_pages": "246",
+          "locator": "p.84-86 (escopo do tema; página específica da ordem glicose/tiamina ausente)",
+          "locator_status": "context_only",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:asam.alcohol-withdrawal.2020",
+          "locator": "Recommendation V.7",
+          "version_label": "2020",
+          "local_reference": null,
+          "url": "https://www.asam.org/docs/default-source/quality-science/the_asam_clinical_practice_guideline_on-alcohol-1.pdf",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:diarreia-planos.osmolaridade-sro",
+      "capsule_id": "capsule:eisca:diarreia_aguda_desidratacao_planos_reidratacao",
+      "capsule_path": "capsules/EISCA/diarreia_aguda_desidratacao_planos_reidratacao.md",
+      "statement": "SRO de baixa osmolaridade: 75 mmol/L de sodio; a capsula também cita 245 mOsm/L e osmolaridade plasmatica ~291 mOsm/L.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "C",
+      "bucket_reason": "Fonte clínica vinculada cobre Na 75 versus 90, mas não todo o conjunto 245/291 mOsm/L.",
+      "notes_inherited": "Quarentenado: a fonte aberta sustenta 75 versus 90 mmol/L de sodio, mas não fecha no mesmo localizador 245 mOsm/L nem ~291 mOsm/L; bloqueado para prática atual até fonte exata.",
+      "curricular_context": "Capsula cita 'Diarreias na Infancia' (slide Liane Viana) p.21.",
+      "curricular_sources": [
+        {
+          "source_id": "diarreia_e_DHE__35f8e57446",
+          "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Slides Aulas\\Slides Primeira Prova \\diarreia e DHE.pdf",
+          "filename": "diarreia e DHE.pdf",
+          "manifest_pages": "41",
+          "locator": "p.21 (SRO 245 mOsm/L, Na 75 mmol/L e referência plasma 291 mOsm/L)",
+          "locator_status": "claim_specific",
+          "mapping_basis": "explicit_source_id_in_capsule",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:sbp.diarreia-aguda-infecciosa.2022-2024",
+          "locator": "p.3: 75 mmol/L de sodio versus 90 mmol/L",
+          "version_label": "Gestão 2022-2024",
+          "local_reference": null,
+          "url": "https://www.sbp.com.br/fileadmin/user_upload/sbp/2023/junho/14/24048aPRESS-GPA-Diarreia_Aguda_Infecciosa-pSITE.pdf",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:sepse-neonatal.janela-precoce-tardia",
+      "capsule_id": "capsule:eisca:sepse_e_meningite_neonatal",
+      "capsule_path": "capsules/EISCA/sepse_e_meningite_neonatal.md",
+      "statement": "A capsula usa sepse neonatal precoce nas primeiras 72h e tardia apos 72h como convencao curricular.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "B",
+      "bucket_reason": "Registry documenta 72h curricular versus SBP 2025/48h e SPRS 2012/faixa 48–72h.",
+      "notes_inherited": "QUARANTINED: a SBP 2025 usa especialmente ate 48h para sepse precoce e apos 48h para tardia, enquanto a capsula fixa 72h e a SPRS 2012 descreve faixa 48-72h. A convencao curricular de 72h permanece apenas como material de prova, fora de conduta atual; a capsula declara a definicao adotada e exige protocolo local. Nao usar este claim para escolher antibiotico sem jurisdicao/protocolo explicitos.",
+      "curricular_context": "A capsula cruza duas anotacoes de aula (camada B) que convergem em 72h.",
+      "curricular_sources": [
+        {
+          "source_id": "Sepse_e_meningite_neonatal_1___3f944eba57",
+          "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Resumos\\Sepse e meningite neonatal (1).pdf",
+          "filename": "Sepse e meningite neonatal (1).pdf",
+          "manifest_pages": "5",
+          "locator": "janela e amniorrexe: localizadores curriculares específicos ausentes nas linhas atuais; p.1 (etiologia), p.2 (critérios de risco) são contexto, não atribuição automática",
+          "locator_status": "context_only",
+          "mapping_basis": "unique_manifest_filename_and_capsule_title",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Sepse_e_meningite_neonatal__1057d8e64e",
+          "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Resumos\\Sepse e meningite neonatal.pdf",
+          "filename": "Sepse e meningite neonatal.pdf",
+          "manifest_pages": "4",
+          "locator": "janela e amniorrexe: localizadores curriculares específicos ausentes nas linhas atuais; p.1 (etiologia), p.2 (critérios de risco) são contexto, não atribuição automática",
+          "locator_status": "context_only",
+          "mapping_basis": "unique_manifest_filename_and_capsule_title",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:sprs.boletim.sepse-neonatal.2012-v1n1",
+          "locator": "resumo e secao de definicoes, p.1: faixa 48 a 72 horas",
+          "version_label": "Boletim Cientifico de Pediatria, Vol.1 N.1, 2012",
+          "local_reference": null,
+          "url": "https://www.sprs.com.br/sprs2013/bancoimg/131210152124bcped_12_01_06.pdf",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        },
+        {
+          "source_version_id": "source-version:sbp.diretrizes-antibioticos-neonatal.2025",
+          "locator": "PDF p.5, secao de sepse neonatal: precoce manifesta-se especialmente ate 48h; tardia ocorre apos 48h",
+          "version_label": "Diretrizes para uso racional de antibióticos em unidades neonatais, 2025",
+          "local_reference": null,
+          "url": "https://www.sbp.com.br/fileadmin/user_upload/sbp/2025/marco/17/24815f-Diretrizes_para_uso_racional_antibioticos_em_Unid_Neonatal.pdf",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    },
+    {
+      "claim_id": "claim:sepse-neonatal.amniorrexe-fator-risco-maior",
+      "capsule_id": "capsule:eisca:sepse_e_meningite_neonatal",
+      "capsule_path": "capsules/EISCA/sepse_e_meningite_neonatal.md",
+      "statement": "A capsula apresenta ruptura de membranas >18 horas como fator de risco maior, sem qualificar idade gestacional.",
+      "clinical_validity_inherited": "quarantined",
+      "transcription_inherited": "confirmed",
+      "curricular_alignment_inherited": "confirmed",
+      "transcription_this_review": "source_unavailable",
+      "curricular_alignment_this_review": "source_unavailable",
+      "reviewer_id": "agent:source_provenance:2026-09-06",
+      "reviewed_at": "2026-09-06T18:45:40.171398+00:00",
+      "bucket": "B",
+      "bucket_reason": "Registry documenta >18h sem estratificar versus cortes por idade gestacional no NICE; multiplicador 4x sem confirmação.",
+      "notes_inherited": "QUARANTINED: SPRS 2012 confirma >18h sem estratificacao, mas NICE NG195 diferencia >18h antes de parto pre-termo de >24h antes de parto a termo; o multiplicador de risco 4x nao foi confirmado. A capsula foi corrigida para exigir idade gestacional, contexto da diretriz e protocolo local; este claim fica fora de conduta atual e nao pode ser tratado como limiar universal.",
+      "curricular_context": "A capsula cita 'amniorrexe>18h (risco 4x)'.",
+      "curricular_sources": [
+        {
+          "source_id": "Sepse_e_meningite_neonatal_1___3f944eba57",
+          "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Resumos\\Sepse e meningite neonatal (1).pdf",
+          "filename": "Sepse e meningite neonatal (1).pdf",
+          "manifest_pages": "5",
+          "locator": "janela e amniorrexe: localizadores curriculares específicos ausentes nas linhas atuais; p.1 (etiologia), p.2 (critérios de risco) são contexto, não atribuição automática",
+          "locator_status": "context_only",
+          "mapping_basis": "unique_manifest_filename_and_capsule_title",
+          "availability": "source_unavailable"
+        },
+        {
+          "source_id": "Sepse_e_meningite_neonatal__1057d8e64e",
+          "rel_path": "EISCA - Ensino Integrado em Saúde da Criança e Adolescente\\Resumos\\Sepse e meningite neonatal.pdf",
+          "filename": "Sepse e meningite neonatal.pdf",
+          "manifest_pages": "4",
+          "locator": "janela e amniorrexe: localizadores curriculares específicos ausentes nas linhas atuais; p.1 (etiologia), p.2 (critérios de risco) são contexto, não atribuição automática",
+          "locator_status": "context_only",
+          "mapping_basis": "unique_manifest_filename_and_capsule_title",
+          "availability": "source_unavailable"
+        }
+      ],
+      "registry_evidence": [
+        {
+          "source_version_id": "source-version:sprs.boletim.sepse-neonatal.2012-v1n1",
+          "locator": "Tabela 1: ruptura das membranas (>18 horas), p.2",
+          "version_label": "Boletim Cientifico de Pediatria, Vol.1 N.1, 2012",
+          "local_reference": null,
+          "url": "https://www.sprs.com.br/sprs2013/bancoimg/131210152124bcped_12_01_06.pdf",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        },
+        {
+          "source_version_id": "source-version:nice.ng195.neonatal-infection.2026-05-13",
+          "locator": "NG195, fatores de risco, atualizacao 13/05/2026: ROM >18h antes de parto pre-termo; ROM >24h antes de parto a termo",
+          "version_label": "NG195 atualizado em 13/05/2026",
+          "local_reference": null,
+          "url": "https://www.nice.org.uk/guidance/NG195",
+          "availability": "metadata_only",
+          "role": "registry_evidence; NOT a replacement for curricular PDF"
+        }
+      ],
+      "release_eligible": false,
+      "human_review_required": true
+    }
+  ],
+  "extra_requests": [
+    {
+      "name": "assuntos OSCE p7 2025.1",
+      "source_id": null,
+      "rel_path": null,
+      "locator": "p. 1",
+      "role": "imagem fotografada avulsa fora do manifesto; somente lista de temas, não pontuação"
+    },
+    {
+      "name": "instrumento oficial aplicado do OSCE P7 (checklist, pesos, critérios eliminatórios e versão/data)",
+      "source_id": null,
+      "rel_path": null,
+      "locator": "localizador ausente",
+      "role": "necessário para alegar rubrica oficial; não presente no acervo"
+    }
+  ]
+}
