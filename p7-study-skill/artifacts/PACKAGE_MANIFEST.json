@@ -1,5 +1,5 @@
 {
-  "file_count": 287,
+  "file_count": 288,
   "files": [
     {
       "bytes": 1778,
@@ -1247,6 +1247,11 @@
       "sha256": "cc3c3cff98822e122bea3c899e5571a16a37863973a4750d0d63c4d93d7a8d0f"
     },
     {
+      "bytes": 1603,
+      "path": "repair/local-2026-09-08/BEHAVIORAL_PROGRESS.json",
+      "sha256": "2ad8972cc2893ef5e68d7f675b169eca64793fd9d8601274de6debee66a56a0c"
+    },
+    {
       "bytes": 14863,
       "path": "repair/local-2026-09-08/CLAIM_SOURCE_REVIEW.json",
       "sha256": "3460882d40366233215a9fd89c70314e733790cd1525704170f9309a2fd9f00a"
@@ -1439,5 +1444,5 @@
   ],
   "schema_version": "1.0.0",
   "strategy": "stable-v1; artifacts/ and the manifest itself are excluded",
-  "total_bytes": 6632817
+  "total_bytes": 6634420
 }
