@@ -44,14 +44,47 @@ class V150ContractTests(unittest.TestCase):
         with (ROOT / "artifacts" / "PRECISION_ROWS.csv").open(encoding="utf-8", newline="") as handle:
             rows = list(csv.DictReader(handle))
         self.assertEqual(len(rows), 2392)
-        self.assertTrue(all(row["source_ids"] or row["source_reference_status"] == "unresolved_source_reference" for row in rows))
-        self.assertEqual(sum(row["source_reference_status"] == "unresolved_source_reference" for row in rows), 2317)
+        import sys
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from p7lib import fold, load_source_rows, precision_rows
+        allowed_resolved = {f"resolved:{level}" for level in ("exact", "stem", "folded", "placeholder")}
+        allowed_empty = {"declared_no_source", "ambiguous", "unresolved_source_reference"}
+        known_ids = {row["source_id"] for row in load_source_rows(ROOT)}
+        self.assertEqual(rows, [{key: str(value) for key, value in row.items()} for row in precision_rows(ROOT)])
+        for row in rows:
+            status = row["source_reference_status"]
+            self.assertIn(status, allowed_resolved | allowed_empty)
+            self.assertEqual(bool(row["source_ids"]), status in allowed_resolved)
+            if any(marker in fold(row["claim_text"]) for marker in ("conhecimento geral", "ausente da fonte")):
+                self.assertEqual(status, "declared_no_source")
+            if row["source_ids"]:
+                self.assertTrue(set(row["source_ids"].split(";")) <= known_ids)
+            # Every literal baseline match must survive with the same IDs.
+            literal_ids = sorted(source_id for source_id in known_ids if source_id in row["claim_text"])
+            if literal_ids and status != "declared_no_source":
+                self.assertEqual(status, "resolved:exact")
+                self.assertEqual(row["source_ids"].split(";"), literal_ids)
 
     def test_priority_narrative_matches_versioned_formula(self):
         planner = self.read("references/TARGET_AWARE_STUDY_PLANNER.md")
         policy = json.loads(self.read("config/priority-policy.json"))
         self.assertIn(policy["formula"], planner.replace("\n               ", " "))
         self.assertIn("`source_strength` é eixo separado", planner)
+
+    def test_source_matching_observes_changed_ids_and_returns_fresh_results(self):
+        import sys
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from p7lib import referenced_source_ids
+
+        ids = ["Clinicos__1111111111"]
+        first = referenced_source_ids("Clinicos p.1", ids)
+        self.assertEqual(first["source_ids"], ids)
+        first["source_ids"].clear()
+        self.assertEqual(referenced_source_ids("Clinicos p.1", iter(ids))["source_ids"], ids)
+        ids.append("Clinicos__2222222222")
+        self.assertEqual(referenced_source_ids("Clinicos p.1", ids)["status"], "ambiguous")
+        ids.clear()
+        self.assertEqual(referenced_source_ids("Clinicos p.1", ids)["status"], "unresolved_source_reference")
 
     def test_active_study_contracts_are_portuguese_and_semantically_complete(self):
         first = self.read("references/ACTIVE_STUDY_QUESTION_FIRST.md")

@@ -2,12 +2,8 @@
 
 Skill privada de estudo do P7 (sétimo período, ciclo clínico — FAMENE).
 
-> **Estado: `1.5.0` / READY_FOR_USER_REVIEW.** Codex, longitudinalidade,
-> jornadas, gates estruturais e instalação portátil estão qualificados. Conteúdo
-> clínico é liberável somente com as quarentenas explícitas do registry. O usuário
-> ainda decide merge e publicação; Claude permanece não avaliado. O registry
-> mecânico usa `READY_FOR_RELEASE` para indicar que os gates estão fechados, não
-> para autorizar publicação.
+> **Estado atual: `1.5.1-rc.1` / HOLD.** Reparo de proveniência integrado ao histórico original, com cache e compatibilidade UTF-8 no Windows. Os testes locais passam; a requalificação comportamental está em conclusão. Fontes curriculares foram lidas localmente, mas seus PDFs não são redistribuídos. As 17 quarentenas e o conflito permanecem preservados. Resultados atuais e fila clínica: `repair/local-2026-09-08/`. Não tratar o candidato como release final.
+
 
 Sucede a `p6-study-skill` v2.1.0, herdando a arquitetura e recuperando
 regressões e defeitos conhecidos (ver `CHANGELOG` abaixo).

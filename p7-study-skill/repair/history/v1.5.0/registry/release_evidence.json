@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0.0",
+  "release": "1.5.0",
+  "reported_decision": "READY_FOR_RELEASE",
+  "evidence": [
+    {
+      "gate_id": "version_integrity",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "VERSION", "registry/release_gates.json", "RELEASE_NOTES_v1.5.0.md"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "codex:release-operator:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 1, "denominator": 1, "components": {"pass": 1, "fail": 0}},
+      "limitations": ["Version integrity does not authorize merge, tag or publication."]
+    },
+    {
+      "gate_id": "evidence_integrity",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "registry/release_evidence.json", "artifacts/PACKAGE_MANIFEST.json"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "codex:release-operator:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 1, "denominator": 1, "components": {"pass": 1, "fail": 0}},
+      "limitations": ["The evidence manifest is excluded from the package manifest to prevent a circular self-hash; its records hash the gate artifact and bind the tested package manifest."]
+    },
+    {
+      "gate_id": "critical_inventory_complete",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "artifacts/CAPSULE_CATALOG.json", "registry/clinical_claims.jsonl"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "codex:release-operator:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 3602, "denominator": 3602, "components": {"accounted": 3602, "unaccounted": 0}},
+      "limitations": ["Accounting proves explicit disposition, not deep medical adjudication of every occurrence."]
+    },
+    {
+      "gate_id": "high_risk_accounted",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "artifacts/CAPSULE_CATALOG.json", "registry/clinical_claims.jsonl"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "codex:release-operator:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 2817, "denominator": 2817, "components": {"accounted": 2817, "unaccounted": 0}},
+      "limitations": ["Unresolved high-risk material is accounted by an explicit blocked state, not promoted to current practice."]
+    },
+    {
+      "gate_id": "p0_exposed_zero",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "registry/clinical_claims.jsonl", "references/MEDICAL_SAFETY_LAYER.md"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "agent:red-team-v150:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 1, "denominator": 1, "components": {"guard_pass": 1, "guard_fail": 0}},
+      "limitations": ["Zero P0 refers to exposed current-practice retrieval in the qualified scope; blocked curricular claims remain visible only with explicit labels."]
+    },
+    {
+      "gate_id": "p1_high_risk_exposed_zero",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "registry/clinical_claims.jsonl", "references/MEDICAL_SAFETY_LAYER.md"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "agent:red-team-v150:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 1, "denominator": 1, "components": {"guard_pass": 1, "guard_fail": 0}},
+      "limitations": ["This does not claim deep validation of every low-impact curricular statement."]
+    },
+    {
+      "gate_id": "current_claim_traceability",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "registry/clinical_claims.jsonl", "registry/sources.jsonl", "registry/source_versions.jsonl", "registry/reviewers.json"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "codex:clinical-traceability-audit:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 34, "denominator": 34, "components": {"traceable": 34, "untraceable": 0}},
+      "limitations": ["Traceability validates fields and reviewer independence; medical support is additionally challenged by red team."]
+    },
+    {
+      "gate_id": "behavioral_regression",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "qualification/behavioral_fixtures.json"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "codex:behavioral-controller:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 13, "denominator": 13, "components": {"sentinels_pass": 9, "core_pass": 4, "fail": 0}},
+      "limitations": ["Claude is not included; behavioral qualification is surface-specific to Codex."]
+    },
+    {
+      "gate_id": "p6_parity",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "references/ACTIVE_STUDY_QUESTION_FIRST.md", "references/QUESTION_INTELLIGENCE_P7.md"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "codex:journey-controller:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 9, "denominator": 9, "components": {"j01_pass": 3, "j02_pass": 3, "j03_pass": 3, "fail": 0}},
+      "limitations": ["One historical inconclusive run is preserved but excluded from the valid-clean-session denominator."]
+    },
+    {
+      "gate_id": "longitudinal_resume",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "scripts/ledger.py", "schemas/v1/learner-event.schema.json"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "codex:longitudinal-controller:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 2, "denominator": 2, "components": {"session_a_pass": 1, "session_b_pass": 1, "fail": 0}},
+      "limitations": ["Continuity requires a real accessible ledger; without it the skill must declare no history."]
+    },
+    {
+      "gate_id": "package_hygiene",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "scripts/build_distribution.py", "tests/test_distribution.py"], "excluded_paths": ["corpus_text", "vision_png"]},
+      "adjudication": {"adjudicator": "codex:package-builder:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 2, "denominator": 2, "components": {"identical_builds": 2, "different_builds": 0}},
+      "limitations": ["Optional source layers are deliberately not distributed."]
+    },
+    {
+      "gate_id": "clean_install",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "README_INSTALL.md", "scripts/validate_package.py"], "excluded_paths": ["corpus_text", "vision_png", ".p7-state"]},
+      "adjudication": {"adjudicator": "codex:clean-install:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 1, "denominator": 1, "components": {"standalone_pass": 1, "standalone_fail": 0}},
+      "limitations": ["The final external report records exact standalone counts and ZIP hash after artifact extraction."]
+    },
+    {
+      "gate_id": "report_consistency",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "registry/release_gates.json", "RELEASE_NOTES_v1.5.0.md", "COMPATIBILITY.md"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "codex:report-reconciler:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 1, "denominator": 1, "components": {"consistent": 1, "contradictory": 0}},
+      "limitations": ["Historical reports remain audit history and are not current gate sources."]
+    },
+    {
+      "gate_id": "red_team",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "registry/clinical_claims.jsonl", "capsules"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "agent:red-team-v150:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 7, "denominator": 7, "components": {"pass_repaired": 7, "fail": 0, "inconclusive": 0}},
+      "limitations": ["The canonical sample has 37 rows; 7/7 is the denominator of material repaired targets, not a claim that every sample row received a fresh independent deep review in this final cycle."]
+    },
+    {
+      "gate_id": "runtime_context",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "SKILL.md", "references"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "codex:runtime-profiler:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 6, "denominator": 6, "components": {"reduced": 6, "not_reduced": 0}},
+      "limitations": ["Measured bundle reduction is a context proxy and does not alone establish learning quality."]
+    },
+    {
+      "gate_id": "structured_provenance",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "artifacts/PRECISION_ROWS.csv", "registry/sources.jsonl"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "codex:provenance-audit:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 2392, "denominator": 2392, "components": {"resolved": 75, "explicit_unresolved": 2317}},
+      "limitations": ["Explicit unresolved provenance is a safe blocked state, not a resolved source link."]
+    },
+    {
+      "gate_id": "narrative_consistency",
+      "artifact": {"path": "artifacts/release/RELEASE_GATE_EVIDENCE.json", "sha256": "b599ac75632a0536df1462a5eb0d32531f27728c12d66eee0acd36c4179c4f59"},
+      "snapshot": {"mode": "dual", "git_commit": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48", "package_manifest_path": "artifacts/PACKAGE_MANIFEST.json", "package_manifest_sha256": "57ba42ab5a548bb4f1df03532e78441d3a7dff4883450f34ce1c7c6ae5fc6d90"},
+      "scope": {"included_paths": ["artifacts/release/RELEASE_GATE_EVIDENCE.json", "SKILL.md", "references/SOURCE_POLICY.md", "config/priority-policy.json", "artifacts/METRICS.json"], "excluded_paths": []},
+      "adjudication": {"adjudicator": "codex:narrative-contract-tests:2026-08-30", "adjudicated_at": "2026-08-30T00:00:00-03:00", "outcome": "passed"},
+      "quantitative": true, "metrics": {"numerator": 1, "denominator": 1, "components": {"contract_pass": 1, "contract_fail": 0}},
+      "limitations": ["Automated consistency tests do not replace clinical source review."]
+    }
+  ]
+}

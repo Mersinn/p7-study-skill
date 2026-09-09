@@ -1,0 +1,476 @@
+{
+  "label": "VERIFICADO / DOCUMENTADO as marked per field",
+  "measured_at": "2026-09-08T14:13:01.264755+00:00",
+  "version": "1.5.1-rc.1",
+  "decision": "HOLD",
+  "scope": "engineering repair; no new clinical validation; no complete behavioral requalification",
+  "source_commit_documented": "b0a9f23091e0cb92e97829e4d9d30fc05f51cf48",
+  "source_zip_sha256": "21416ca72252856ce4d7b189b3f742a4bc1720d7f8276eec5ec31e4db92ed55f",
+  "baseline_sha256": "ed2bf614d30a4b16ed0a599e2788314a4c896e179a3c70b7f3584ef99fd33e3b",
+  "matcher_sha256": "2a3c748c9e6466fc1f8617c72fe1b6dae6a4cb7f44d7133e619d0e713f07b00c",
+  "gate_denominator": 17,
+  "locally_rechecked": 8,
+  "pending_qualification": 9,
+  "tests": {
+    "discovered": 54,
+    "passed": 53,
+    "skipped": 1,
+    "failed": 0
+  },
+  "additional_adversarial_checks": {
+    "passed": 33,
+    "denominator": 33
+  },
+  "precision_counts": {
+    "resolved:exact": 75,
+    "resolved:stem": 245,
+    "resolved:folded": 0,
+    "resolved:placeholder": 5,
+    "declared_no_source": 24,
+    "ambiguous": 33,
+    "unresolved_source_reference": 2010
+  },
+  "precision_denominator": 2392,
+  "clinical_counts": {
+    "current": 34,
+    "quarantined": 17,
+    "conflict": 1
+  },
+  "clinical_denominator": 52,
+  "clinical_promotions": 0,
+  "gates": [
+    {
+      "gate_id": "version_integrity",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "after_status": "passed",
+      "new_measurement_kind": "local_structural_recheck",
+      "limitation": "Um candidato rc pode ter integridade de versão sem READY_FOR_RELEASE.",
+      "missing_inputs": null,
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "mechanical_check": 1,
+          "failed": 0
+        }
+      },
+      "metric_scope": "Local structural predicate; not a replacement for historical behavioral runs."
+    },
+    {
+      "gate_id": "evidence_integrity",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "after_status": "passed",
+      "new_measurement_kind": "local_structural_recheck",
+      "limitation": "Valida formato, hashes e coerência; não executa os testes alegados nos registros.",
+      "missing_inputs": null,
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "mechanical_check": 1,
+          "failed": 0
+        }
+      },
+      "metric_scope": "Local structural predicate; not a replacement for historical behavioral runs."
+    },
+    {
+      "gate_id": "critical_inventory_complete",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 3602,
+        "denominator": 3602,
+        "components": {
+          "accounted": 3602,
+          "unaccounted": 0
+        }
+      },
+      "after_status": "pending",
+      "new_measurement_kind": "not_reexecuted_missing_original_qualification",
+      "limitation": "Hash idêntico das cápsulas e registry indica preservação dos materiais; não reexecuta a contabilidade 3602/3602.",
+      "missing_inputs": "3602 ocorrências com mapping individual; qualification/reports/v1.5.0/INVENTORY_CLUSTERING_SUMMARY.json e inventário subjacente",
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": null
+    },
+    {
+      "gate_id": "high_risk_accounted",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 2817,
+        "denominator": 2817,
+        "components": {
+          "accounted": 2817,
+          "unaccounted": 0
+        }
+      },
+      "after_status": "pending",
+      "new_measurement_kind": "not_reexecuted_missing_original_qualification",
+      "limitation": "Não reconstruir denominador por regex nova; isso mudaria o universo do gate.",
+      "missing_inputs": "2817 ocorrências high-risk com mapping individual e disposição; inventário/fixture de recuperação",
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": null
+    },
+    {
+      "gate_id": "p0_exposed_zero",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "guard_pass": 1,
+          "guard_fail": 0
+        }
+      },
+      "after_status": "pending",
+      "new_measurement_kind": "not_reexecuted_missing_original_qualification",
+      "limitation": "Testes textuais de bloqueio são controles locais adicionais; não substituem qualificação de recuperação.",
+      "missing_inputs": "Casos e adjudicação do red team que desafiam recuperação clínica, com outputs brutos",
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": null
+    },
+    {
+      "gate_id": "p1_high_risk_exposed_zero",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "guard_pass": 1,
+          "guard_fail": 0
+        }
+      },
+      "after_status": "pending",
+      "new_measurement_kind": "not_reexecuted_missing_original_qualification",
+      "limitation": "Ausência de alteração de cápsula não é nova prova comportamental de zero exposição.",
+      "missing_inputs": "Casos e adjudicação do red team high-risk com outputs brutos",
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": null
+    },
+    {
+      "gate_id": "current_claim_traceability",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 34,
+        "denominator": 34,
+        "components": {
+          "traceable": 34,
+          "untraceable": 0
+        }
+      },
+      "after_status": "passed",
+      "new_measurement_kind": "local_structural_recheck",
+      "limitation": "Rastreabilidade estrutural; não revalidação humana/clínica dos 34 enunciados.",
+      "missing_inputs": null,
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": {
+        "numerator": 34,
+        "denominator": 34,
+        "components": {
+          "structurally_traceable": 34,
+          "failed": 0
+        }
+      },
+      "metric_scope": "Local structural predicate; not a replacement for historical behavioral runs."
+    },
+    {
+      "gate_id": "behavioral_regression",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 13,
+        "denominator": 13,
+        "components": {
+          "sentinels_pass": 9,
+          "core_pass": 4,
+          "fail": 0
+        }
+      },
+      "after_status": "pending",
+      "new_measurement_kind": "not_reexecuted_missing_original_qualification",
+      "limitation": "O manifesto original não vem no ZIP. Novos prompts não são rerun dos 13/13.",
+      "missing_inputs": "MANIFEST original 24 casos, payloads/oráculos separados e harness dos 13 runs Codex (9 sentinelas + 4 core)",
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": null
+    },
+    {
+      "gate_id": "p6_parity",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 9,
+        "denominator": 9,
+        "components": {
+          "j01_pass": 3,
+          "j02_pass": 3,
+          "j03_pass": 3,
+          "fail": 0
+        }
+      },
+      "after_status": "pending",
+      "new_measurement_kind": "not_reexecuted_missing_original_qualification",
+      "limitation": "9/9 permanece histórico; preservar informação do 1 run histórico inconclusivo excluído.",
+      "missing_inputs": "Jornadas J01/J02/J03, três sessões válidas cada, baseline P6 e critérios originais",
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": null
+    },
+    {
+      "gate_id": "longitudinal_resume",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 2,
+        "denominator": 2,
+        "components": {
+          "session_a_pass": 1,
+          "session_b_pass": 1,
+          "fail": 0
+        }
+      },
+      "after_status": "pending",
+      "new_measurement_kind": "not_reexecuted_missing_original_qualification",
+      "limitation": "Testes unitários ledger não equivalem às duas sessões do gate.",
+      "missing_inputs": "Jornadas em duas sessões limpas e estados/ledgers originais para retomada 6→8",
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": null
+    },
+    {
+      "gate_id": "package_hygiene",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 2,
+        "denominator": 2,
+        "components": {
+          "identical_builds": 2,
+          "different_builds": 0
+        }
+      },
+      "after_status": "passed",
+      "new_measurement_kind": "local_structural_recheck",
+      "limitation": "Preservar denominador 2 builds, sem incluir saída dentro da raiz do pacote.",
+      "missing_inputs": null,
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": {
+        "numerator": 2,
+        "denominator": 2,
+        "components": {
+          "identical_builds": 2,
+          "failed_builds": 0
+        }
+      },
+      "metric_scope": "Local structural predicate; not a replacement for historical behavioral runs."
+    },
+    {
+      "gate_id": "clean_install",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "standalone_pass": 1,
+          "standalone_fail": 0
+        }
+      },
+      "after_status": "passed",
+      "new_measurement_kind": "local_structural_recheck",
+      "limitation": "Instalação estrutural pode funcionar em candidato HOLD; release gate precisa continuar bloqueado se gates abertos.",
+      "missing_inputs": null,
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "mechanical_check": 1,
+          "failed": 0
+        }
+      },
+      "metric_scope": "Local structural predicate; not a replacement for historical behavioral runs."
+    },
+    {
+      "gate_id": "report_consistency",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "consistent": 1,
+          "contradictory": 0
+        }
+      },
+      "after_status": "passed",
+      "new_measurement_kind": "local_structural_recheck",
+      "limitation": "Não reutilizar 54/54 ou 17/17 herdados como medições novas.",
+      "missing_inputs": null,
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "mechanical_check": 1,
+          "failed": 0
+        }
+      },
+      "metric_scope": "Local structural predicate; not a replacement for historical behavioral runs."
+    },
+    {
+      "gate_id": "red_team",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 7,
+        "denominator": 7,
+        "components": {
+          "pass_repaired": 7,
+          "fail": 0,
+          "inconclusive": 0
+        }
+      },
+      "after_status": "pending",
+      "new_measurement_kind": "not_reexecuted_missing_original_qualification",
+      "limitation": "O red team do matcher é novo escopo. Não reusar 7/7 como resultado desse escopo.",
+      "missing_inputs": "Amostra canônica de 37 linhas e sete alvos reparados: relatório, fixtures, adjudicação",
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": null
+    },
+    {
+      "gate_id": "runtime_context",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 6,
+        "denominator": 6,
+        "components": {
+          "reduced": 6,
+          "not_reduced": 0
+        }
+      },
+      "after_status": "pending",
+      "new_measurement_kind": "not_reexecuted_missing_original_qualification",
+      "limitation": "Bytes md preservados provam ausência de alteração local; não reproduzem redução 36,74%–60,57%.",
+      "missing_inputs": "Definição dos seis bundles e medidas v1.4/v1.5 em RUNTIME_CONTEXT_v1.5.0.json",
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": null
+    },
+    {
+      "gate_id": "structured_provenance",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 2392,
+        "denominator": 2392,
+        "components": {
+          "resolved": 75,
+          "explicit_unresolved": 2317
+        }
+      },
+      "after_status": "passed",
+      "new_measurement_kind": "local_structural_recheck",
+      "limitation": "2392/2392 contabilizadas não equivale a 2392 fontes resolvidas; matching não comprova conteúdo de PDF.",
+      "missing_inputs": null,
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": {
+        "numerator": 2392,
+        "denominator": 2392,
+        "components": {
+          "resolved:exact": 75,
+          "resolved:stem": 245,
+          "resolved:folded": 0,
+          "resolved:placeholder": 5,
+          "declared_no_source": 24,
+          "ambiguous": 33,
+          "unresolved_source_reference": 2010
+        }
+      },
+      "metric_scope": "Local structural predicate; not a replacement for historical behavioral runs."
+    },
+    {
+      "gate_id": "narrative_consistency",
+      "before_status": "passed",
+      "before_snapshot": "v1.5.0 documented source snapshot",
+      "before_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "contract_pass": 1,
+          "contract_fail": 0
+        }
+      },
+      "after_status": "passed",
+      "new_measurement_kind": "local_structural_recheck",
+      "limitation": "O teste de proveniência terá adaptação autorizada: relatar sua mudança e executar novos casos adversariais separadamente.",
+      "missing_inputs": null,
+      "denominator_changed": false,
+      "historical_evidence_preserved": true,
+      "after_metrics": {
+        "numerator": 1,
+        "denominator": 1,
+        "components": {
+          "mechanical_check": 1,
+          "failed": 0
+        }
+      },
+      "metric_scope": "Local structural predicate; not a replacement for historical behavioral runs."
+    }
+  ],
+  "stop_rule_applied": "Release integration stopped at HOLD; no downstream clinical adjudication or chained gate repair. Candidate diagnostics and review artifacts only.",
+  "acceptance": {
+    "54_of_54_tests_passed": false,
+    "17_of_17_gates_reexecuted": false,
+    "all_precision_statuses_named": true,
+    "20_lexical_samples_reviewed": true,
+    "five_real_matches_per_level": false,
+    "17_quarantines_triaged": true,
+    "human_queue_ready": true,
+    "zero_automatic_promotions": true,
+    "final_release_accepted": false
+  },
+  "limitations": [
+    "L2 has zero real matches; synthetic tests are not real samples.",
+    "No primary curricular page read for any of the 17 quarantined claims.",
+    "Source filenames and page locators are in SOURCE_REQUESTS.",
+    "No clinical web search: ingestion prerequisite not met.",
+    "Final frozen package verification is recorded separately in FINAL_VERIFICATION.json."
+  ]
+}

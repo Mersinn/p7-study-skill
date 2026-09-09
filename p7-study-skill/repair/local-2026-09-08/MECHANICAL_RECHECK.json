@@ -1,0 +1,209 @@
+{
+  "verified_at": "2026-09-08T18:42:09.344857+00:00",
+  "git_commit": "b2824f48aed0037d4f993c27067e2aa4d196df9a",
+  "execution_scope": "new deterministic mechanical runs; no clinical promotion and no behavioral reexecution",
+  "inventory": {
+    "high_risk_occurrences_accounted": 2817,
+    "high_risk_occurrences_total": 2817,
+    "high_risk_occurrences_unaccounted": 0,
+    "primary_occurrences_accounted": 3602,
+    "primary_occurrences_total": 3602,
+    "primary_occurrences_unaccounted": 0
+  },
+  "traceability": {
+    "schema_version": "1.5.0-traceability.1",
+    "claims_total": 52,
+    "claims_by_clinical_validity": {
+      "conflict": 1,
+      "current": 34,
+      "quarantined": 17
+    },
+    "current_claims": 34,
+    "current_claims_by_criticality": {
+      "high": 33,
+      "medium": 1
+    },
+    "current_traceable": 34,
+    "current_untraceable": 0,
+    "gate_result": "PASS",
+    "limitations": [
+      "This deterministic audit verifies traceability fields and reviewer independence, not medical truth by itself.",
+      "Clinical support is challenged separately by the blind red team against the exact proposition and locator.",
+      "metadata_only means the external source is not redistributed; accessed_at records that it was opened."
+    ]
+  },
+  "runtime_report": {
+    "baseline_ref": "6fc906f",
+    "bundles": {
+      "estudar_tema": {
+        "after": {
+          "bytes": 45139,
+          "estimated_tokens": 11285,
+          "files": {
+            "SKILL.md": 11529,
+            "capsules/CAPSULE_INDEX.md": 30121,
+            "references/ACTIVE_STUDY_QUESTION_FIRST.md": 3489
+          }
+        },
+        "before": {
+          "bytes": 70138,
+          "estimated_tokens": 17535,
+          "files": {
+            "SKILL.md": 37327,
+            "capsules/CAPSULE_INDEX.md": 30121,
+            "references/ACTIVE_STUDY_QUESTION_FIRST.md": 2690
+          }
+        },
+        "files": [
+          "SKILL.md",
+          "references/ACTIVE_STUDY_QUESTION_FIRST.md",
+          "capsules/CAPSULE_INDEX.md"
+        ],
+        "reduction": {
+          "bytes": 24999,
+          "percent": 35.64
+        }
+      },
+      "osce": {
+        "after": {
+          "bytes": 20054,
+          "estimated_tokens": 5014,
+          "files": {
+            "SKILL.md": 11529,
+            "references/CASE_OSCE_TUTOR.md": 8525
+          }
+        },
+        "before": {
+          "bytes": 45852,
+          "estimated_tokens": 11463,
+          "files": {
+            "SKILL.md": 37327,
+            "references/CASE_OSCE_TUTOR.md": 8525
+          }
+        },
+        "files": [
+          "SKILL.md",
+          "references/CASE_OSCE_TUTOR.md"
+        ],
+        "reduction": {
+          "bytes": 25798,
+          "percent": 56.26
+        }
+      },
+      "plano_de_guerra": {
+        "after": {
+          "bytes": 19858,
+          "estimated_tokens": 4965,
+          "files": {
+            "SKILL.md": 11529,
+            "references/TARGET_AWARE_STUDY_PLANNER.md": 8329
+          }
+        },
+        "before": {
+          "bytes": 45151,
+          "estimated_tokens": 11288,
+          "files": {
+            "SKILL.md": 37327,
+            "references/TARGET_AWARE_STUDY_PLANNER.md": 7824
+          }
+        },
+        "files": [
+          "SKILL.md",
+          "references/TARGET_AWARE_STUDY_PLANNER.md"
+        ],
+        "reduction": {
+          "bytes": 25293,
+          "percent": 56.02
+        }
+      },
+      "resolver_questao": {
+        "after": {
+          "bytes": 33510,
+          "estimated_tokens": 8378,
+          "files": {
+            "SKILL.md": 11529,
+            "references/QUESTION_INTELLIGENCE_P7.md": 21981
+          }
+        },
+        "before": {
+          "bytes": 59308,
+          "estimated_tokens": 14827,
+          "files": {
+            "SKILL.md": 37327,
+            "references/QUESTION_INTELLIGENCE_P7.md": 21981
+          }
+        },
+        "files": [
+          "SKILL.md",
+          "references/QUESTION_INTELLIGENCE_P7.md"
+        ],
+        "reduction": {
+          "bytes": 25798,
+          "percent": 43.5
+        }
+      },
+      "retomada": {
+        "after": {
+          "bytes": 27937,
+          "estimated_tokens": 6985,
+          "files": {
+            "SKILL.md": 11529,
+            "references/LEARNER_STATE_PROTOCOL.md": 16408
+          }
+        },
+        "before": {
+          "bytes": 53735,
+          "estimated_tokens": 13434,
+          "files": {
+            "SKILL.md": 37327,
+            "references/LEARNER_STATE_PROTOCOL.md": 16408
+          }
+        },
+        "files": [
+          "SKILL.md",
+          "references/LEARNER_STATE_PROTOCOL.md"
+        ],
+        "reduction": {
+          "bytes": 25798,
+          "percent": 48.01
+        }
+      },
+      "simular_prova": {
+        "after": {
+          "bytes": 16939,
+          "estimated_tokens": 4235,
+          "files": {
+            "SKILL.md": 11529,
+            "references/SIMULATION_PROTOCOL.md": 5410
+          }
+        },
+        "before": {
+          "bytes": 42737,
+          "estimated_tokens": 10685,
+          "files": {
+            "SKILL.md": 37327,
+            "references/SIMULATION_PROTOCOL.md": 5410
+          }
+        },
+        "files": [
+          "SKILL.md",
+          "references/SIMULATION_PROTOCOL.md"
+        ],
+        "reduction": {
+          "bytes": 25798,
+          "percent": 60.36
+        }
+      }
+    },
+    "dynamic_capsule": {
+      "count": 158,
+      "max_bytes": 23957,
+      "median_bytes": 13928,
+      "min_bytes": 4425,
+      "note": "dynamic capsule cost is separate from the fixed Estudar Tema bundle",
+      "p95_bytes": 20283
+    },
+    "schema_version": "1.0.0",
+    "token_estimate": "ceil(utf8_bytes/4); comparative estimate, not tokenizer output"
+  }
+}

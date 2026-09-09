@@ -1,0 +1,186 @@
+[
+  {
+    "sha256": "ad857e0375106ad821d413369f474ad5968fdefca53bebd8918803566bb424a5",
+    "pages": 39,
+    "extracted_chars": 0,
+    "same_bytes_as_manifest_source_ids": [],
+    "relative_path": "01 - ENDOCRINOLOGIA (Diabetes)\\Aula 01 - Endocrino - DM - conceitos, classificacao, diagnostico.pdf"
+  },
+  {
+    "sha256": "5d8ade54597ac390de65699d6908a70e408974e9139c27b5018c34ca77041ff6",
+    "pages": 77,
+    "extracted_chars": 0,
+    "same_bytes_as_manifest_source_ids": [],
+    "relative_path": "01 - ENDOCRINOLOGIA (Diabetes)\\Aula 02 - Endocrino - DM - metas e antidiabeticos.pdf"
+  },
+  {
+    "sha256": "f9157f95700335c833c8f5601e71fa20b6a0101b45de014ccb39688aa20fc3a3",
+    "pages": 59,
+    "extracted_chars": 0,
+    "same_bytes_as_manifest_source_ids": [],
+    "relative_path": "01 - ENDOCRINOLOGIA (Diabetes)\\Aula 03 - Endocrino - Complicacoes cronicas.pdf"
+  },
+  {
+    "sha256": "897dd6ce615f173fafb3f77e280b7a696c05c7dee4be4a29f18cbaa2caaec7df",
+    "pages": 36,
+    "extracted_chars": 0,
+    "same_bytes_as_manifest_source_ids": [],
+    "relative_path": "01 - ENDOCRINOLOGIA (Diabetes)\\Aula 04 - Endocrino - Complicacoes agudas.pdf"
+  },
+  {
+    "sha256": "03087a03c5d59386e9ba77ddefa2c7156faefacdc6c39c7a87027bf8ac75fe8a",
+    "pages": 44,
+    "extracted_chars": 5000,
+    "same_bytes_as_manifest_source_ids": [
+      "Insulinoterapia_1___475cb4442b"
+    ],
+    "relative_path": "01 - ENDOCRINOLOGIA (Diabetes)\\Aula 05 - Endocrino - Insulinoterapia.pdf"
+  },
+  {
+    "sha256": "b5d5e424fb4431d74397e08abc05c1dafbeda793fd8333383dbfda02a46b9068",
+    "pages": 81,
+    "extracted_chars": 20704,
+    "same_bytes_as_manifest_source_ids": [],
+    "relative_path": "02 - FARMACOLOGIA (Diabetes)\\P7 - FAMENE - FARMACOTERAPIA DO DIABETES - 2026.2 - 1a aula.pdf"
+  },
+  {
+    "sha256": "175b2a79ccf5a1a190c0478b1ad493aae7aaf0f0813e6cb49d5ae1b8f38fc8e4",
+    "pages": 82,
+    "extracted_chars": 20739,
+    "same_bytes_as_manifest_source_ids": [],
+    "relative_path": "02 - FARMACOLOGIA (Diabetes)\\P7 - FAMENE - FARMACOTERAPIA DO DIABETES - 2026.2 - 2a aula.pdf"
+  },
+  {
+    "sha256": "3063903355595382cacadb7d7af25bd2f6303e2cb1cd3511a99e7e7cd7f346cb",
+    "pages": 33,
+    "extracted_chars": 5819,
+    "same_bytes_as_manifest_source_ids": [],
+    "relative_path": "03 - EISM (Saude Mental)\\Depressao e Antidepressivos - Dr Jose Kenio.pdf"
+  },
+  {
+    "sha256": "7c3eee6e443c13c7e7a24f338882d1de26342f4437775eb61b15a035f2f68a7e",
+    "pages": 31,
+    "extracted_chars": 0,
+    "same_bytes_as_manifest_source_ids": [],
+    "relative_path": "03 - EISM (Saude Mental)\\Esquizofrenia - Prof Roberto Mendes.pdf"
+  },
+  {
+    "sha256": "e6ab86a0c1df933fede42b558e54809b946f795d04b17ca26cd5f8c9ac2b4799",
+    "pages": 37,
+    "extracted_chars": 5574,
+    "same_bytes_as_manifest_source_ids": [],
+    "relative_path": "04 - NEUROLOGIA\\AVC Hemorragico.pptx"
+  },
+  {
+    "sha256": "2112b485787b018d1697be890c5421a3fa87b3372a958e7020974b8469486049",
+    "pages": 40,
+    "extracted_chars": 9751,
+    "same_bytes_as_manifest_source_ids": [
+      "cefaleia_2023_ppt__42073aa2f8"
+    ],
+    "relative_path": "04 - NEUROLOGIA\\Cefaleias - 2023.pdf"
+  },
+  {
+    "sha256": "fe6c4ae63f38ef65ffd83ec2b5e67bce8592b79971815e1c111ead533032e6d5",
+    "pages": 71,
+    "extracted_chars": 2154,
+    "same_bytes_as_manifest_source_ids": [],
+    "relative_path": "05 - UROLOGIA\\Hiperplasia Prostatica Benigna - Prof Luiz Luna Barbosa.pptx"
+  },
+  {
+    "sha256": "fed3ee68b042f95c25ca0b865aa76cc15db8378fd0f431062e1fb6cd85d20942",
+    "pages": 3,
+    "extracted_chars": 11524,
+    "same_bytes_as_manifest_source_ids": [
+      "1_LitA_ase_urinA_ria__aaca8de431"
+    ],
+    "relative_path": "05 - UROLOGIA\\Litiase Urinaria.pdf"
+  },
+  {
+    "sha256": "38745e2f9c8c58b90946d1c12c07561e59c094ccb95e402d2d9fc193bd79afc5",
+    "pages": 73,
+    "extracted_chars": 16223,
+    "same_bytes_as_manifest_source_ids": [],
+    "relative_path": "06 - NEFROLOGIA\\Infeccao do Trato Urinario - Prof Massabiel Rocha.pdf"
+  },
+  {
+    "sha256": "361a841bdf46b50c236005b355d003e5b3aedb1a890c4e9c6dc5dc36d48616aa",
+    "pages": 19,
+    "extracted_chars": 0,
+    "same_bytes_as_manifest_source_ids": [],
+    "relative_path": "07 - VASCULAR (Pe diabetico)\\08 - Pe Diabetico - capitulo Ibiapina et al.pdf"
+  },
+  {
+    "sha256": "8cd42bb9164e79ecb5f106397dd0aa1122333ff767df6f300eb0da8480460305",
+    "pages": 7,
+    "extracted_chars": 15094,
+    "same_bytes_as_manifest_source_ids": [
+      "A_lcool_e_Outras_Drogas__ebaba69a52"
+    ],
+    "relative_path": "_material-complementar\\Alcool e Outras Drogas (resumo).pdf"
+  },
+  {
+    "sha256": "23197a7f31b91696db09544276435db176317a475474f4b5f287df9015d52b8c",
+    "pages": 6,
+    "extracted_chars": 12642,
+    "same_bytes_as_manifest_source_ids": [
+      "Antidepressivos_pdf__bdadd3d15a"
+    ],
+    "relative_path": "_material-complementar\\Antidepressivos - farmacologia (resumo).pdf"
+  },
+  {
+    "sha256": "c2c90985acde95113a1ccc9b46596a7b8635ff1290d102c4e69ddf1d12ce2561",
+    "pages": 246,
+    "extracted_chars": 624833,
+    "same_bytes_as_manifest_source_ids": [
+      "APOSTILA_SA_II_P7___e43cc7bc21"
+    ],
+    "relative_path": "_material-complementar\\APOSTILA SA II (P7) - Walerya Siqueira e Marilia Chalegre.pdf"
+  },
+  {
+    "sha256": "e37dfab1391b264a5d71d2434cdc8a0ea8a97f64a72330111e447b3859de26d6",
+    "pages": 3,
+    "extracted_chars": 8089,
+    "same_bytes_as_manifest_source_ids": [
+      "Esquizofrenia_1___54285f3ef4"
+    ],
+    "relative_path": "_material-complementar\\Esquizofrenia (resumo).pdf"
+  },
+  {
+    "sha256": "4fbf2153267c9483161401de2cc5b7cec130dfc3c1c924c7df652690ca52e6d8",
+    "pages": 109,
+    "extracted_chars": 170703,
+    "same_bytes_as_manifest_source_ids": [
+      "Mariah_Carvalho_Mo_dulo_Sau_de_Mental__2b7d072985"
+    ],
+    "relative_path": "_material-complementar\\Saude Mental completo (resumo).pdf"
+  },
+  {
+    "sha256": "cd4e0fa9fca37834bd28a5790025799ef8e83ebdf2753821c8141e7d57d28613",
+    "pages": 2,
+    "extracted_chars": 5848,
+    "same_bytes_as_manifest_source_ids": [
+      "Transtorno_Bipolar_1___75fbe3e4d0"
+    ],
+    "relative_path": "_material-complementar\\Transtorno Bipolar (resumo).pdf"
+  },
+  {
+    "sha256": "3e071c61182976f0d24ea98db3dbb79f6bed9efacbf088adcba6a9746a9a6cfd",
+    "pages": 3,
+    "extracted_chars": 7585,
+    "same_bytes_as_manifest_source_ids": [
+      "Transtorno_de_ansiedade_docx__39af1dd7f3",
+      "Transtorno_de_ansiedade_docx_pdf_pdf__09bee4c93d"
+    ],
+    "relative_path": "_material-complementar\\Transtorno de Ansiedade (resumo).pdf"
+  },
+  {
+    "sha256": "b810adfc685ad263595c5896dc037e32e9a4bef3051ad65d13e00966c59da15a",
+    "pages": 4,
+    "extracted_chars": 10840,
+    "same_bytes_as_manifest_source_ids": [
+      "Transtorno_de_personalidade_docx__4a8370a909"
+    ],
+    "relative_path": "_material-complementar\\Transtornos de Personalidade (resumo).pdf"
+  }
+]
